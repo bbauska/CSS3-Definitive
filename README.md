@@ -164,7 +164,7 @@ licenses and/or rights.
 ::::::::::::::::::::::::: {#preface01.xhtml_sbo-rt-content}
 :::::::::::::::::::::::: {.section .preface pdf-bookmark="Preface" data-type="preface"}
 ::::::::::::::::::::::: {#preface01.xhtml_idm45797091036768 .preface}
-# Preface
+### Preface
 
 If you are a web designer or document author interested in sophisticated
 page styling, improved accessibility, and saving time and effort, this
@@ -182,7 +182,7 @@ covered here.
 
 ::::::::: {.section pdf-bookmark="Conventions Used in This Book" data-type="sect1"}
 :::::::: {#preface01.xhtml_idm45797114290400 .sect1}
-# Conventions Used in This Book {#preface01.xhtml_sigil_toc_id_2}
+### Conventions Used in This Book {#preface01.xhtml_sigil_toc_id_2}
 
 The following typographical conventions are used in this book (but make
 sure to read through ["Value Syntax
@@ -206,26 +206,26 @@ to see how some of these are modified):
     values determined by context.
 
 ::: {data-type="tip"}
-###### Tip {#preface01.xhtml_sigil_toc_id_3}
+#### Tip {#preface01.xhtml_sigil_toc_id_3}
 
 This element signifies a tip or suggestion.
 :::
 
 ::: {.note data-type="note"}
-###### Note {#preface01.xhtml_sigil_toc_id_4}
+#### Note {#preface01.xhtml_sigil_toc_id_4}
 
 This element signifies a general note.
 :::
 
 ::: {.warning data-type="warning"}
-###### Warning {#preface01.xhtml_sigil_toc_id_5}
+#### Warning {#preface01.xhtml_sigil_toc_id_5}
 
 This element indicates a warning or caution.
 :::
 
 :::: {.section pdf-bookmark="Value Syntax Conventions" data-type="sect2"}
 ::: {#preface01.xhtml_value_syntax_conventions .sect2}
-## Value Syntax Conventions {#preface01.xhtml_sigil_toc_id_6}
+#### Value Syntax Conventions {#preface01.xhtml_sigil_toc_id_6}
 
 Throughout this []{#preface01.xhtml_ix_values_syntax_conv
 primary="values" secondary="syntax conventions"
@@ -444,7 +444,7 @@ The following are some examples:
 
 :::: {.section pdf-bookmark="Using Code Examples" data-type="sect1"}
 ::: {#preface01.xhtml_idm45797088577248 .sect1}
-# Using Code Examples {#preface01.xhtml_sigil_toc_id_7}
+#### Using Code Examples {#preface01.xhtml_sigil_toc_id_7}
 
 `<!--PROD: Please reach out to author to find out if they will be uploading code examples to oreilly.com or their own site (e.g., GitHub). If there is no code download, delete this whole section. If there is, when you email digidist with the link, let them know what you filled in for title_title (should be as close to book title as possible, i.e., learning_python_2e). This info will determine where digidist loads the files.-->`{=html}
 
@@ -496,10 +496,10 @@ permission given above, feel free to contact us at
 
 ::::: {.section pdf-bookmark="O’Reilly Online Learning" data-type="sect1"}
 :::: {#preface01.xhtml_idm45797088581648 .sect1}
-# O'Reilly Online Learning {#preface01.xhtml_sigil_toc_id_8}
+#### O'Reilly Online Learning {#preface01.xhtml_sigil_toc_id_8}
 
 ::: {.ormenabled .note data-type="note"}
-###### Note {#preface01.xhtml_sigil_toc_id_9}
+##### Note {#preface01.xhtml_sigil_toc_id_9}
 
 For more than 40 years, [*O'Reilly
 Media*](https://oreilly.com){.orm:hideurl} has provided technology and
@@ -518,7 +518,7 @@ environments, and a vast collection of text and video from O'Reilly and
 
 :::: {.section pdf-bookmark="How to Contact Us" data-type="sect1"}
 ::: {#preface01.xhtml_idm45797088826928 .sect1}
-# How to Contact Us {#preface01.xhtml_sigil_toc_id_10}
+#### How to Contact Us {#preface01.xhtml_sigil_toc_id_10}
 
 Please address comments and questions concerning this book to the
 publisher:
@@ -556,11 +556,11 @@ Watch us on YouTube:
 
 :::::::: {.section pdf-bookmark="Acknowledgments" data-type="sect1"}
 ::::::: {#preface01.xhtml_idm45797088826304 .sect1}
-# Acknowledgments {#preface01.xhtml_sigil_toc_id_11}
+#### Acknowledgments {#preface01.xhtml_sigil_toc_id_11}
 
 :::: {.section pdf-bookmark="Eric Meyer" data-type="sect2"}
 ::: {#preface01.xhtml_idm45797114283232 .sect2}
-## Eric Meyer {#preface01.xhtml_sigil_toc_id_12}
+#### Eric Meyer {#preface01.xhtml_sigil_toc_id_12}
 
 First, I want to thank all the technical reviewers of this edition, who
 lent their time and expertise to the arduous task of finding out all the
@@ -610,7 +610,7 @@ December 4, 2022
 
 :::: {.section .less_space .pagebreak-before pdf-bookmark="Estelle Weyl" data-type="sect2"}
 ::: {#preface01.xhtml_idm45797112446896 .sect2}
-## Estelle Weyl {#preface01.xhtml_sigil_toc_id_13}
+#### Estelle Weyl {#preface01.xhtml_sigil_toc_id_13}
 
 I would like to acknowledge everyone who has worked to make CSS what it
 is today and all those who have helped improve diversity and inclusion
@@ -679,7 +679,7 @@ February 14, 2023
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch01.xhtml_sbo-rt-content}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch01.xhtml_css_fundamentals .chapter}
-# [Chapter 1. ]{.label}CSS Fundamentals
+### [Chapter 1. ]{.label}CSS Fundamentals
 
 *Cascading Style Sheets* (*CSS*), a []{#ch01.xhtml_ix_css_ch1
 primary="CSS (Cascading Style Sheets)" data-type="indexterm"}powerful
@@ -694,7 +694,7 @@ in JS itself. It's everywhere!
 
 :::: {.section pdf-bookmark="A Brief History of (Web) Style" data-type="sect1"}
 ::: {#ch01.xhtml_a_brief_history_of_open_parenthesis_web .sect1}
-# A Brief History of (Web) Style {#ch01.xhtml_sigil_toc_id_14}
+### A Brief History of (Web) Style {#ch01.xhtml_sigil_toc_id_14}
 
 []{#ch01.xhtml_idm45797091042080 primary="generated content"
 secondary="counters" see="counters"
@@ -871,7 +871,7 @@ startref="ix_css_history_ch1" data-type="indexterm"}
 
 :::::::::::::::: {.section pdf-bookmark="Stylesheet Contents" data-type="sect1"}
 ::::::::::::::: {#ch01.xhtml_style_sheet_contents .sect1}
-# Stylesheet Contents {#ch01.xhtml_sigil_toc_id_15}
+### Stylesheet Contents {#ch01.xhtml_sigil_toc_id_15}
 
 Inside a []{#ch01.xhtml_idm45797088593872 primary="rules"
 seealso="at-rules" data-type="indexterm"}stylesheet, you'll find a
@@ -888,7 +888,7 @@ represent?
 
 :::: {.section pdf-bookmark="Rule Structure" data-type="sect2"}
 ::: {#ch01.xhtml_rule_structure .sect2}
-## Rule Structure {#ch01.xhtml_sigil_toc_id_16}
+#### Rule Structure {#ch01.xhtml_sigil_toc_id_16}
 
 To illustrate the concept of rules in more detail, let's break down the
 structure.
@@ -939,7 +939,7 @@ selector) will be styled in red text with a yellow
 
 :::: {.section pdf-bookmark="Vendor Prefixing" data-type="sect2"}
 ::: {#ch01.xhtml_vendor_prefixing .sect2}
-## Vendor Prefixing {#ch01.xhtml_sigil_toc_id_18}
+#### Vendor Prefixing {#ch01.xhtml_sigil_toc_id_18}
 
 Sometimes []{#ch01.xhtml_idm45797088507888 primary="vendor prefixes"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797088758032 primary="rules"
@@ -1004,7 +1004,7 @@ in the future.
 
 :::: {.section pdf-bookmark="Whitespace Handling" data-type="sect2"}
 ::: {#ch01.xhtml_whitespace_handling .sect2}
-## Whitespace Handling {#ch01.xhtml_sigil_toc_id_19}
+#### Whitespace Handling {#ch01.xhtml_sigil_toc_id_19}
 
 CSS is basically insensitive to []{#ch01.xhtml_idm45797088636512
 primary="CSS (Cascading Style Sheets)" secondary="whitespace in"
@@ -1080,7 +1080,7 @@ and stick with it.
 
 :::::: {.section pdf-bookmark="CSS Comments" data-type="sect2"}
 ::::: {#ch01.xhtml_css_comments .sect2}
-## CSS Comments {#ch01.xhtml_sigil_toc_id_20}
+#### CSS Comments {#ch01.xhtml_sigil_toc_id_20}
 
 CSS does allow for []{#ch01.xhtml_ix_slash_forward primary="slashes"
 secondary="forward slash"
