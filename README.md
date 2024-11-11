@@ -58,13 +58,13 @@ manageable pieces.</p>
 </ul>
 
 
-![](/Def-Images/Images/cover.png)
+![](./images/cover.png)
 
 []{#cover.xhtml}
 
 ::: {#cover.xhtml_sbo-rt-content}
 <figure data-type="cover">
-<img src="/Def-Images/Images/cover.png" width="1200" height="1574" />
+<img src="./images/cover.png" width="1200" height="1574" />
 </figure>
 :::
 
@@ -450,13 +450,13 @@ The following are some examples:
 
 Whenever[]{#preface01.xhtml_idm45797088811184 primary="resources"
 data-type="indexterm"} you come across an icon that looks like
-[![](/Def-Images/Images/play-icon-round.png){height="100"
+[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}, it means there is an associated code example. Live
 examples are available at
 [*https://meyerweb.github.io/csstdg5figs*](https://meyerweb.github.io/csstdg5figs){.bare}.
 If you are reading this book on a device with an internet connection,
 you can click the
-[![](/Def-Images/Images/play-icon-round.png){height="100"
+[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play} icon to go directly to a live version of the code
 example referenced.
 
@@ -902,7 +902,7 @@ shows the parts of a rule.
 
 <figure>
 <div id="ch01.xhtml_the_structure_of_a_rule" class="figure">
-<img src="/Def-Images/Images/css5_0101.png" width="600" height="125"
+<img src="./images/image001.png" width="600" height="125"
 alt="css5 0101" />
 <h6 id="ch01.xhtml_sigil_toc_id_17"><span class="label">Figure 1-1.
 </span>The structure of a rule</h6>
@@ -1308,7 +1308,7 @@ are illustrated in
 <figure>
 <div id="ch01.xhtml_block-_and_inline-level_elements_in_an"
 class="figure">
-<img src="/Def-Images/Images/css5_0102.png" width="600" height="99"
+<img src="/images/image002.png" width="600" height="99"
 alt="css5 0102" />
 <h6 id="ch01.xhtml_sigil_toc_id_29"><span class="label">Figure 1-2.
 </span>Block- and inline-level elements in an HTML document</h6>
@@ -1487,7 +1487,7 @@ This isn't a terribly useful display.
 
 <figure class="coderesult">
 <div id="ch01.xhtml_default_display_of_an_xml_document" class="figure">
-<img src="/Def-Images/Images/css5_0103.png" width="600" height="104"
+<img src="/images/image003.png" width="600" height="104"
 alt="css5 0103" />
 <h6 id="ch01.xhtml_sigil_toc_id_33"><span class="label">Figure 1-3.
 </span>Default display of an XML document</h6>
@@ -1513,7 +1513,7 @@ styles for greater visual impact, and get the result shown in
 
 <figure class="coderesult">
 <div id="ch01.xhtml_styled_display_of_an_xml_document" class="figure">
-<img src="/Def-Images/Images/css5_0104.png" width="600" height="215"
+<img src="./images/image004.png" width="600" height="215"
 alt="css5 0104" />
 <h6 id="ch01.xhtml_sigil_toc_id_34"><span class="label">Figure 1-4.
 </span>Styled display of an XML document</h6>
@@ -1609,7 +1609,7 @@ result of this markup and the applied styles.
 
 <figure>
 <div id="ch01.xhtml_a_simple_document" class="figure">
-<img src="/Def-Images/Images/css5_0105.png" width="600" height="133"
+<img src="/images/image005.png" width="600" height="133"
 alt="css5 0105" />
 <h6 id="ch01.xhtml_sigil_toc_id_36"><span class="label">Figure 1-5.
 </span>A simple document</h6>
@@ -1657,7 +1657,7 @@ that contains them.
 <figure class="bordernone">
 <div id="ch01.xhtml_a_representation_of_how_external_style"
 class="figure">
-<img src="/Def-Images/Images/css5_0106.png" width="600" height="330"
+<img src="/images/image006.png" width="600" height="330"
 alt="css5 0106" />
 <h6 id="ch01.xhtml_sigil_toc_id_38"><span class="label">Figure 1-6.
 </span>A representation of how external stylesheets are applied to
@@ -1816,7 +1816,7 @@ shows one way in which this selection mechanism might be accomplished
 
 <figure class="bordernone">
 <div id="ch01.xhtml_a_browser_offering_alternate_style" class="figure">
-<img src="/Def-Images/Images/css5_0107.png" width="600" height="206"
+<img src="/images/image007.png" width="600" height="206"
 alt="css5 0107" />
 <h6 id="ch01.xhtml_sigil_toc_id_42"><span class="label">Figure 1-7.
 </span>A browser offering alternate stylesheet selection</h6>
@@ -2299,7 +2299,7 @@ shows the results of this stylesheet.
 
 <figure class="coderesult">
 <div id="ch02.xhtml_simple_styling_of_a_simple_document" class="figure">
-<img src="/Def-Images/Images/css5_0201.png" width="560" height="292"
+<img src="/images/image008.png" width="560" height="292"
 alt="css5 0201" />
 <h6 id="ch02.xhtml_sigil_toc_id_53"><span class="label">Figure 2-1.
 </span>Simple styling of a simple document</h6>
@@ -2329,7 +2329,7 @@ startref="ix_doc_struct_type_sel" data-type="indexterm"}
 <figure class="coderesult">
 <div id="ch02.xhtml_moving_a_style_from_one_element_to_anoth"
 class="figure">
-<img src="/Def-Images/Images/css5_0202.png" width="560" height="292"
+<img src="./images/css5_0202.png" width="560" height="292"
 alt="css5 0202" />
 <h6 id="ch02.xhtml_sigil_toc_id_54"><span class="label">Figure 2-2.
 </span>Moving a style from one element to another</h6>
@@ -2568,7 +2568,7 @@ shows the result of this rule.
 
 <figure class="coderesult">
 <div id="ch02.xhtml_grouping_both_selectors_and_rules" class="figure">
-<img src="/Def-Images/Images/css5_0203.png" width="561" height="368"
+<img src="./images/css5_0203.png" width="561" height="368"
 alt="css5 0203" />
 <h6 id="ch02.xhtml_sigil_toc_id_61"><span class="label">Figure 2-3.
 </span>Grouping both selectors and rules</h6>
@@ -2638,7 +2638,7 @@ will yield the result shown in
 <figure class="coderesult">
 <div id="ch02.xhtml_the_result_of_equivalent_style_sheets"
 class="figure">
-<img src="/Def-Images/Images/css5_0204.png" width="560" height="295"
+<img src="./images/css5_0204.png" width="560" height="295"
 alt="css5 0204" />
 <h6 id="ch02.xhtml_sigil_toc_id_62"><span class="label">Figure 2-4.
 </span>The result of equivalent stylesheets</h6>
@@ -2746,7 +2746,7 @@ p.warning {font-weight: bold;}
 
 <figure class="coderesult">
 <div id="ch02.xhtml_using_a_class_selector" class="figure">
-<img src="/Def-Images/Images/css5_0205.png" width="560" height="314"
+<img src="./images/css5_0205.png" width="560" height="314"
 alt="css5 0205" />
 <h6 id="ch02.xhtml_sigil_toc_id_65"><span class="label">Figure 2-5.
 </span>Using a class selector</h6>
@@ -2790,7 +2790,7 @@ boldfaced and italicized.
 <figure class="coderesult">
 <div id="ch02.xhtml_using_generic_and_specific_selectors_to"
 class="figure">
-<img src="/Def-Images/Images/css5_0206.png" width="560" height="295"
+<img src="./images/css5_0206.png" width="560" height="295"
 alt="css5 0206" />
 <h6 id="ch02.xhtml_sigil_toc_id_66"><span class="label">Figure 2-6.
 </span>Using generic and specific selectors to combine styles</h6>
@@ -2883,7 +2883,7 @@ the chapter.)
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_with_multiple_class_n"
 class="figure">
-<img src="/Def-Images/Images/css5_0207.png" width="560" height="311"
+<img src="./images/css5_0207.png" width="560" height="311"
 alt="css5 0207" />
 <h6 id="ch02.xhtml_sigil_toc_id_69"><span class="label">Figure 2-7.
 </span>Selecting elements with multiple class names</h6>
@@ -3159,7 +3159,7 @@ you get the result shown in
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_based_on_their_attrib"
 class="figure">
-<img src="/Def-Images/Images/css5_0208.png" width="116" height="154"
+<img src="./images/css5_0208.png" width="116" height="154"
 alt="css5 0208" />
 <h6 id="ch02.xhtml_sigil_toc_id_76"><span class="label">Figure 2-8.
 </span>Selecting elements based on their attributes</h6>
@@ -3308,7 +3308,7 @@ shows the results.
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_based_on_attributes_a"
 class="figure">
-<img src="/Def-Images/Images/css5_0209.png" width="376" height="270"
+<img src="./images/css5_0209.png" width="376" height="270"
 alt="css5 0209" />
 <h6 id="ch02.xhtml_sigil_toc_id_78"><span class="label">Figure 2-9.
 </span>Selecting elements based on attributes and their values</h6>
@@ -3508,7 +3508,7 @@ This is the same result we would expect from writing
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_based_on_portions_of"
 class="figure">
-<img src="/Def-Images/Images/css5_0210.png" width="136" height="16"
+<img src="./images/css5_0210.png" width="136" height="16"
 alt="css5 0210" />
 <h6 id="ch02.xhtml_sigil_toc_id_81"><span class="label">Figure 2-10.
 </span>Selecting elements based on portions of attribute values</h6>
@@ -3566,7 +3566,7 @@ span[class*="cloud"] {font-style: italic;}
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_based_on_substrings_w"
 class="figure">
-<img src="/Def-Images/Images/css5_0211.png" width="138" height="16"
+<img src="./images/css5_0211.png" width="138" height="16"
 alt="css5 0211" />
 <h6 id="ch02.xhtml_sigil_toc_id_83"><span class="label">Figure 2-11.
 </span>Selecting elements based on substrings within attribute
@@ -3673,7 +3673,7 @@ a[href^="mailto:"] {font-style: italic;}
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_based_on_substrings_t"
 class="figure">
-<img src="/Def-Images/Images/css5_0212.png" width="220" height="92"
+<img src="./images/css5_0212.png" width="220" height="92"
 alt="css5 0212" />
 <h6 id="ch02.xhtml_sigil_toc_id_85"><span class="label">Figure 2-12.
 </span>Selecting elements based on substrings that begin attribute
@@ -3727,7 +3727,7 @@ a[href$=".pdf"] {font-weight: bold;}
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_based_on_substring"
 class="figure">
-<img src="/Def-Images/Images/css5_0213.png" width="155" height="94"
+<img src="./images/css5_0213.png" width="155" height="94"
 alt="css5 0213" />
 <h6 id="ch02.xhtml_sigil_toc_id_87"><span class="label">Figure 2-13.
 </span>Selecting elements based on substrings that end attribute
@@ -3907,7 +3907,7 @@ parent has more than one child, those children are *siblings*.
 
 <figure>
 <div id="ch02.xhtml_a_document_tree_structure" class="figure">
-<img src="/Def-Images/Images/css5_0214.png" width="600" height="369"
+<img src="./images/css5_0214.png" width="600" height="369"
 alt="css5 0214" />
 <h6 id="ch02.xhtml_sigil_toc_id_93"><span class="label">Figure 2-14.
 </span>A document tree structure</h6>
@@ -3983,7 +3983,7 @@ illustrates the result.
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_an_element_based_on_its_contex"
 class="figure">
-<img src="/Def-Images/Images/css5_0215.png" width="226" height="24"
+<img src="./images/css5_0215.png" width="226" height="24"
 alt="css5 0215" />
 <h6 id="ch02.xhtml_sigil_toc_id_95"><span class="label">Figure 2-15.
 </span>Selecting an element based on its context</h6>
@@ -4019,7 +4019,7 @@ selection criterion.
 
 <figure class="coderesult">
 <div id="ch02.xhtml_a_very_specific_descendant_selector" class="figure">
-<img src="/Def-Images/Images/css5_0216.png" width="177" height="128"
+<img src="./images/css5_0216.png" width="177" height="128"
 alt="css5 0216" />
 <h6 id="ch02.xhtml_sigil_toc_id_96"><span class="label">Figure 2-16.
 </span>A very specific descendant selector</h6>
@@ -4052,7 +4052,7 @@ shows the result.
 <figure class="coderesult">
 <div id="ch02.xhtml_using_descendant_selectors_to_apply_diff"
 class="figure">
-<img src="/Def-Images/Images/css5_0217.png" width="547" height="179"
+<img src="./images/css5_0217.png" width="547" height="179"
 alt="css5 0217" />
 <h6 id="ch02.xhtml_sigil_toc_id_97"><span class="label">Figure 2-17.
 </span>Using descendant selectors to apply different styles to the same
@@ -4202,7 +4202,7 @@ shows part of a document tree.
 
 <figure class="width_set_70">
 <div id="ch02.xhtml_a_document_tree_fragment" class="figure">
-<img src="/Def-Images/Images/css5_0218.png" width="242" height="237"
+<img src="./images/css5_0218.png" width="242" height="237"
 alt="css5 0218" />
 <h6 id="ch02.xhtml_sigil_toc_id_101"><span class="label">Figure 2-18.
 </span>A document tree fragment</h6>
@@ -4263,7 +4263,7 @@ fragment of a document tree, shown in
 
 <figure class="width_set_70">
 <div id="ch02.xhtml_another_document_tree_fragment" class="figure">
-<img src="/Def-Images/Images/css5_0219.png" width="477" height="237"
+<img src="./images/css5_0219.png" width="477" height="237"
 alt="css5 0219" />
 <h6 id="ch02.xhtml_sigil_toc_id_103"><span class="label">Figure 2-19.
 </span>Another document tree fragment</h6>
@@ -4287,7 +4287,7 @@ illustrated in
 
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_adjacent_siblings" class="figure">
-<img src="/Def-Images/Images/css5_0220.png" width="255" height="160"
+<img src="./images/css5_0220.png" width="255" height="160"
 alt="css5 0220" />
 <h6 id="ch02.xhtml_sigil_toc_id_104"><span class="label">Figure 2-20.
 </span>Selecting adjacent siblings</h6>
@@ -4419,7 +4419,7 @@ startref="ix_selector_gen_sib_comb" data-type="indexterm"}
 
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_following_siblings-id1" class="figure">
-<img src="/Def-Images/Images/css5_0221.png" width="600" height="258"
+<img src="./images/css5_0221.png" width="600" height="258"
 alt="css5 0221" />
 <h6 id="ch02.xhtml_sigil_toc_id_106"><span class="label">Figure 2-21.
 </span>Selecting following siblings</h6>
@@ -4608,7 +4608,7 @@ body {border: 10px solid black;}
 
 <figure>
 <div id="ch03.xhtml_styling_the_root_element" class="figure">
-<img src="/Def-Images/Images/css5_0301.png" width="600" height="278"
+<img src="./images/css5_0301.png" width="600" height="278"
 alt="css5 0301" />
 <h6 id="ch03.xhtml_sigil_toc_id_112"><span class="label">Figure 3-1.
 </span>Styling the root element</h6>
@@ -4710,7 +4710,7 @@ a[href] img:only-child {border: 2px solid black;}
 <figure class="coderesult">
 <div id="ch03.xhtml_selecting_images_that_are_only_children"
 class="figure">
-<img src="/Def-Images/Images/css5_0302.png" width="444" height="320"
+<img src="./images/css5_0302.png" width="444" height="320"
 alt="css5 0302" />
 <h6 id="ch03.xhtml_sigil_toc_id_115"><span class="label">Figure 3-2.
 </span>Selecting images that are only children inside links</h6>
@@ -4747,7 +4747,7 @@ a[href] img:only-child {border: 5px solid black;}
 <figure class="coderesult">
 <div id="ch03.xhtml_selecting_images_that_are_only_child"
 class="figure">
-<img src="/Def-Images/Images/css5_0303.png" width="600" height="320"
+<img src="./images/css5_0303.png" width="600" height="320"
 alt="css5 0303" />
 <h6 id="ch03.xhtml_sigil_toc_id_116"><span class="label">Figure 3-3.
 </span>Selecting images that are only children inside links, redux</h6>
@@ -4799,7 +4799,7 @@ a[href] img:only-of-type {border: 5px solid black;}
 <figure class="coderesult">
 <div id="ch03.xhtml_selecting_images_that_are_the_only_sibli"
 class="figure">
-<img src="/Def-Images/Images/css5_0304.png" width="222" height="272"
+<img src="./images/css5_0304.png" width="222" height="272"
 alt="css5 0304" />
 <h6 id="ch03.xhtml_sigil_toc_id_118"><span class="label">Figure 3-4.
 </span>Selecting images that are the only sibling of their type</h6>
@@ -4914,7 +4914,7 @@ we get the result shown in
 
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_first_children" class="figure">
-<img src="/Def-Images/Images/css5_0305.png" width="600" height="211"
+<img src="./images/css5_0305.png" width="600" height="211"
 alt="css5 0305" />
 <h6 id="ch03.xhtml_sigil_toc_id_120"><span class="label">Figure 3-5.
 </span>Styling first children</h6>
@@ -4987,7 +4987,7 @@ li:last-child {text-transform: uppercase;}
 
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_first_children-id1" class="figure">
-<img src="/Def-Images/Images/css5_0306.png" width="600" height="197"
+<img src="./images/css5_0306.png" width="600" height="197"
 alt="css5 0306" />
 <h6 id="ch03.xhtml_sigil_toc_id_122"><span class="label">Figure 3-6.
 </span>Styling last children</h6>
@@ -5043,7 +5043,7 @@ the circled nodes are the ones that are selected.
 
 <figure>
 <div id="ch03.xhtml_selecting_first-of-type_tables" class="figure">
-<img src="/Def-Images/Images/css5_0307.png" width="600" height="129"
+<img src="./images/css5_0307.png" width="600" height="129"
 alt="css5 0307" />
 <h6 id="ch03.xhtml_sigil_toc_id_124"><span class="label">Figure 3-7.
 </span>Selecting first-of-type tables</h6>
@@ -5089,7 +5089,7 @@ the circled nodes are the ones selected by `table:last-of-type`.
 
 <figure>
 <div id="ch03.xhtml_selecting_last-of-type_tables" class="figure">
-<img src="/Def-Images/Images/css5_0308.png" width="600" height="131"
+<img src="./images/css5_0308.png" width="600" height="131"
 alt="css5 0308" />
 <h6 id="ch03.xhtml_sigil_toc_id_125"><span class="label">Figure 3-8.
 </span>Selecting last-of-type tables</h6>
@@ -5170,7 +5170,7 @@ li:nth-child(2) {text-transform: uppercase;}
 
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_second_children" class="figure">
-<img src="/Def-Images/Images/css5_0309.png" width="600" height="211"
+<img src="./images/css5_0309.png" width="600" height="211"
 alt="css5 0309" />
 <h6 id="ch03.xhtml_sigil_toc_id_127"><span class="label">Figure 3-9.
 </span>Styling second children</h6>
@@ -5206,7 +5206,7 @@ ul > li:nth-child(3n + 1) {text-transform: uppercase;}
 
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_every_third_list_item" class="figure">
-<img src="/Def-Images/Images/css5_0310.png" width="600" height="315"
+<img src="./images/css5_0310.png" width="600" height="315"
 alt="css5 0310" />
 <h6 id="ch03.xhtml_sigil_toc_id_128"><span class="label">Figure 3-10.
 </span>Styling every third list item</h6>
@@ -5236,7 +5236,7 @@ tr:nth-child(odd) {background: silver;}
 
 <figure>
 <div id="ch03.xhtml_styling_every_other_table_row" class="figure">
-<img src="/Def-Images/Images/css5_0311.png" width="600" height="358"
+<img src="./images/css5_0311.png" width="600" height="358"
 alt="css5 0311" />
 <h6 id="ch03.xhtml_sigil_toc_id_129"><span class="label">Figure 3-11.
 </span>Styling every other table row</h6>
@@ -5332,7 +5332,7 @@ future.
 <figure>
 <div id="ch03.xhtml_combining_patterns_of_colon_nth-child_op"
 class="figure">
-<img src="/Def-Images/Images/css5_0312.png" width="427" height="800"
+<img src="./images/css5_0312.png" width="427" height="800"
 alt="css5 0312" />
 <h6 id="ch03.xhtml_sigil_toc_id_131"><span class="label">Figure 3-12.
 </span>Combining patterns of <code>:nth-child()</code> and
@@ -5405,7 +5405,7 @@ p > a:nth-of-type(even) {background: blue; color: white;}
 
 <figure>
 <div id="ch03.xhtml_selecting_the_even-numbered_links" class="figure">
-<img src="/Def-Images/Images/css5_0313.png" width="600" height="180"
+<img src="./images/css5_0313.png" width="600" height="180"
 alt="css5 0313" />
 <h6 id="ch03.xhtml_sigil_toc_id_133"><span class="label">Figure 3-13.
 </span>Selecting the even-numbered links</h6>
@@ -5460,7 +5460,7 @@ td:nth-of-type(even) {text-decoration: underline;}
 
 <figure class="coderesult">
 <div id="ch03.xhtml_nth-child_and_nth-of-type" class="figure">
-<img src="/Def-Images/Images/css5_0314.png" width="600" height="176"
+<img src="./images/css5_0314.png" width="600" height="176"
 alt="css5 0314" />
 <h6 id="ch03.xhtml_sigil_toc_id_134"><span class="label">Figure 3-14.
 </span>Selecting both <code>nth-child</code> and
@@ -5765,7 +5765,7 @@ shows an example of `:target` in action:
 <figure>
 <div id="ch03.xhtml_styling_a_fragment_identifier_target"
 class="figure">
-<img src="/Def-Images/Images/css5_0315.png" width="600" height="252"
+<img src="./images/css5_0315.png" width="600" height="252"
 alt="css5 0315" />
 <h6 id="ch03.xhtml_sigil_toc_id_140"><span class="label">Figure 3-15.
 </span>Styling a fragment identifier target</h6>
@@ -5981,7 +5981,7 @@ to accept keyboard input, as shown in
 <figure class="coderesult">
 <div id="ch03.xhtml_highlighting_a_form_element_that_has_foc"
 class="figure">
-<img src="/Def-Images/Images/css5_0316.png" width="600" height="145"
+<img src="./images/css5_0316.png" width="600" height="145"
 alt="css5 0316" />
 <h6 id="ch03.xhtml_sigil_toc_id_144"><span class="label">Figure 3-16.
 </span>Highlighting a form element that has focus</h6>
@@ -6050,7 +6050,7 @@ a:focus-visible {outline: 2px solid currentcolor;}
 
 <figure class="coderesult">
 <div id="ch03.xhtml_selecting_with_focus_within" class="figure">
-<img src="/Def-Images/Images/css5_0317.png" width="600" height="77"
+<img src="./images/css5_0317.png" width="600" height="77"
 alt="css5 0317" />
 <h6 id="ch03.xhtml_sigil_toc_id_147"><span class="label">Figure 3-17.
 </span>Selecting elements by using <code>:focus-within</code></h6>
@@ -6098,7 +6098,7 @@ a:hover, a:active {font-size: 20px;}
 <figure class="coderesult">
 <div id="ch03.xhtml_changing_layout_with_dynamic_pseudo-clas"
 class="figure">
-<img src="/Def-Images/Images/css5_0318.png" width="600" height="165"
+<img src="./images/css5_0318.png" width="600" height="165"
 alt="css5 0318" />
 <h6 id="ch03.xhtml_sigil_toc_id_150"><span class="label">Figure 3-18.
 </span>Changing layout with dynamic pseudo-classes</h6>
@@ -6197,7 +6197,7 @@ illustrated in
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_enabled_and_disabled_ui_elements"
 class="figure">
-<img src="/Def-Images/Images/css5_0319.png" width="600" height="192"
+<img src="./images/css5_0319.png" width="600" height="192"
 alt="css5 0319" />
 <h6 id="ch03.xhtml_sigil_toc_id_153"><span class="label">Figure 3-19.
 </span>Styling enabled and disabled UI elements</h6>
@@ -6231,7 +6231,7 @@ These states are illustrated in
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_checked_and_indeterminate_ui_ele"
 class="figure">
-<img src="/Def-Images/Images/css5_0320.png" width="212" height="16"
+<img src="./images/css5_0320.png" width="212" height="16"
 alt="css5 0320" />
 <h6 id="ch03.xhtml_sigil_toc_id_155"><span class="label">Figure 3-20.
 </span>Styling checked and indeterminate UI elements</h6>
@@ -6447,7 +6447,7 @@ input[type="email"]:focus:valid {
 
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_valid_and_invalid_inputs" class="figure">
-<img src="/Def-Images/Images/css5_0321.png" width="471" height="152"
+<img src="./images/css5_0321.png" width="471" height="152"
 alt="css5 0321" />
 <h6 id="ch03.xhtml_sigil_toc_id_160"><span class="label">Figure 3-21.
 </span>Styling valid and invalid UI elements</h6>
@@ -6682,7 +6682,7 @@ li:not(.moreinfo) {font-style: italic;}
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_list_items_that_donat_have_a_cer"
 class="figure">
-<img src="/Def-Images/Images/css5_0322.png" width="600" height="315"
+<img src="./images/css5_0322.png" width="600" height="315"
 alt="css5 0322" />
 <h6 id="ch03.xhtml_sigil_toc_id_166"><span class="label">Figure 3-22.
 </span>Styling list items that don’t have a certain class</h6>
@@ -6704,7 +6704,7 @@ class of `moreinfo` that are not list items. This is illustrated in
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_elements_with_a_certain_class_th"
 class="figure">
-<img src="/Def-Images/Images/css5_0323.png" width="600" height="181"
+<img src="./images/css5_0323.png" width="600" height="181"
 alt="css5 0323" />
 <h6 id="ch03.xhtml_sigil_toc_id_167"><span class="label">Figure 3-23.
 </span>Styling elements with a certain class that aren’t list items</h6>
@@ -6728,7 +6728,7 @@ a result like that shown in
 <figure>
 <div id="ch03.xhtml_styling_table_cells_that_arenat_in_the_t"
 class="figure">
-<img src="/Def-Images/Images/css5_0324.png" width="600" height="354"
+<img src="./images/css5_0324.png" width="600" height="354"
 alt="css5 0324" />
 <h6 id="ch03.xhtml_sigil_toc_id_168"><span class="label">Figure 3-24.
 </span>Styling header cells outside the table’s head area</h6>
@@ -6885,7 +6885,7 @@ ol ol li, ol ul li, ul ol li, ul ul li {font-style: italic;}
 
 <figure class="coderesult">
 <div id="ch03.xhtml_using_matches_any_to_select" class="figure">
-<img src="/Def-Images/Images/css5_0325.png" width="600" height="455"
+<img src="./images/css5_0325.png" width="600" height="455"
 alt="css5 0325" />
 <h6 id="ch03.xhtml_sigil_toc_id_171"><span class="label">Figure 3-25.
 </span>Using <code>:is()</code> to select elements</h6>
@@ -7021,7 +7021,7 @@ div:has(img) {
 
 <figure class="coderesult">
 <div id="ch03.xhtml_using_has_to_select_elements" class="figure">
-<img src="/Def-Images/Images/css5_0326.png" width="600" height="206"
+<img src="./images/css5_0326.png" width="600" height="206"
 alt="css5 0326" />
 <h6 id="ch03.xhtml_sigil_toc_id_175"><span class="label">Figure 3-26.
 </span>Using <code>:has()</code> to select elements</h6>
@@ -7160,7 +7160,7 @@ structure shown in
 
 <figure>
 <div id="ch03.xhtml_a_fragment_of_a_doc" class="figure">
-<img src="/Def-Images/Images/css5_0327.png" width="600" height="481"
+<img src="./images/css5_0327.png" width="600" height="481"
 alt="css5 0327" />
 <h6 id="ch03.xhtml_sigil_toc_id_176"><span class="label">Figure 3-27.
 </span>A fragment of a document’s structure</h6>
@@ -7227,7 +7227,7 @@ headings, we get the results shown in
 
 <figure>
 <div id="ch03.xhtml_to_has_and_has_not" class="figure">
-<img src="/Def-Images/Images/css5_0328.png" width="600" height="239"
+<img src="./images/css5_0328.png" width="600" height="239"
 alt="css5 0328" />
 <h6 id="ch03.xhtml_sigil_toc_id_177"><span class="label">Figure 3-28.
 </span>To has and has not</h6>
@@ -7377,7 +7377,7 @@ illustrates the result of this rule.
 <figure class="coderesult">
 <div id="ch03.xhtml_the_colon_colon_first-letter_pseudo-elem"
 class="figure">
-<img src="/Def-Images/Images/css5_0329.png" width="231" height="34"
+<img src="./images/css5_0329.png" width="231" height="34"
 alt="css5 0329" />
 <h6 id="ch03.xhtml_sigil_toc_id_182"><span class="label">Figure 3-29.
 </span>The <code>::first-letter</code> pseudo-element in action</h6>
@@ -7446,7 +7446,7 @@ purple.
 <figure>
 <div id="ch03.xhtml_the_colon_colon_first-line_pseudo-elemen"
 class="figure">
-<img src="/Def-Images/Images/css5_0330.png" width="600" height="92"
+<img src="./images/css5_0330.png" width="600" height="92"
 alt="css5 0330" />
 <h6 id="ch03.xhtml_sigil_toc_id_184"><span class="label">Figure 3-30.
 </span>The <code>::first-line</code> pseudo-element in action</h6>
@@ -7609,7 +7609,7 @@ input::file-selector-button {
 
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_button_file_submission" class="figure">
-<img src="/Def-Images/Images/css5_0331.png" width="600" height="118"
+<img src="./images/css5_0331.png" width="600" height="118"
 alt="css5 0331" />
 <h6 id="ch03.xhtml_sigil_toc_id_188"><span class="label">Figure 3-31.
 </span>Styling the button in a file-submission input</h6>
@@ -7642,7 +7642,7 @@ illustrates an example.
 
 <figure class="coderesult">
 <div id="ch03.xhtml_inserting_content_before_an_element" class="figure">
-<img src="/Def-Images/Images/css5_0332.png" width="236" height="28"
+<img src="./images/css5_0332.png" width="236" height="28"
 alt="css5 0332" />
 <h6 id="ch03.xhtml_sigil_toc_id_190"><span class="label">Figure 3-32.
 </span>Inserting content before an element</h6>
@@ -7750,7 +7750,7 @@ get a result like that shown in
 
 <figure class="coderesult">
 <div id="ch03.xhtml_selection_styling" class="figure">
-<img src="/Def-Images/Images/css5_0333.png" width="600" height="71"
+<img src="./images/css5_0333.png" width="600" height="71"
 alt="css5 0333" />
 <h6 id="ch03.xhtml_sigil_toc_id_192"><span class="label">Figure 3-33.
 </span>Selection styling</h6>
@@ -7799,7 +7799,7 @@ spaces. The result will look something like
 
 <figure class="coderesult">
 <div id="ch03.xhtml_target_text_styling" class="figure">
-<img src="/Def-Images/Images/css5_0334.png" width="600" height="151"
+<img src="./images/css5_0334.png" width="600" height="151"
 alt="css5 0334" />
 <h6 id="ch03.xhtml_sigil_toc_id_194"><span class="label">Figure 3-34.
 </span>Targeted text styling</h6>
@@ -8445,7 +8445,7 @@ Although a steaming pot of fresh-made jambalaya runs a close second.
 <figure>
 <div id="ch04.xhtml_how_different_rules_affect_a_document"
 class="figure">
-<img src="/Def-Images/Images/css5_0401.png" width="600" height="222"
+<img src="./images/css5_0401.png" width="600" height="222"
 alt="css5 0401" />
 <h6 id="ch04.xhtml_sigil_toc_id_206"><span class="label">Figure 4-1.
 </span>How different rules affect a document</h6>
@@ -8690,7 +8690,7 @@ h1 {font-style: italic; color: gray !important;}
 
 <figure class="coderesult bordernone">
 <div id="ch04.xhtml_important_rules_always_win" class="figure">
-<img src="/Def-Images/Images/css5_0402.png" width="180" height="70"
+<img src="./images/css5_0402.png" width="180" height="70"
 alt="css5 0402" />
 <h6 id="ch04.xhtml_sigil_toc_id_212"><span class="label">Figure 4-2.
 </span>Important rules always win</h6>
@@ -8767,7 +8767,7 @@ demonstrates.
 
 <figure class="coderesult">
 <div id="ch04.xhtml_inheritance_of_styles" class="figure">
-<img src="/Def-Images/Images/css5_0403.png" width="182" height="144"
+<img src="./images/css5_0403.png" width="182" height="144"
 alt="css5 0403" />
 <h6 id="ch04.xhtml_sigil_toc_id_215"><span class="label">Figure 4-3.
 </span>Inheritance of styles</h6>
@@ -8782,7 +8782,7 @@ in [Figure 4-3](#ch04.xhtml_inheritance_of_styles){data-type="xref"}.
 
 <figure>
 <div id="ch04.xhtml_a_simple_tree_diagram" class="figure">
-<img src="/Def-Images/Images/css5_0404.png" width="238" height="120"
+<img src="./images/css5_0404.png" width="238" height="120"
 alt="css5 0404" />
 <h6 id="ch04.xhtml_sigil_toc_id_216"><span class="label">Figure 4-4.
 </span>A simple tree diagram</h6>
@@ -8828,7 +8828,7 @@ turn off the inherited borders.
 
 <figure class="bordernone">
 <div id="ch04.xhtml_why_borders_arenat_inherited" class="figure">
-<img src="/Def-Images/Images/css5_0405.png" width="600" height="87"
+<img src="./images/css5_0405.png" width="600" height="87"
 alt="css5 0405" />
 <h6 id="ch04.xhtml_sigil_toc_id_218"><span class="label">Figure 4-5.
 </span>Why borders aren’t inherited</h6>
@@ -8864,7 +8864,7 @@ Welcome to the best place on the web for meerkat information!
 <figure class="coderesult">
 <div id="ch04.xhtml_zero_specificity_defeats_no_specificity"
 class="figure">
-<img src="/Def-Images/Images/css5_0406.png" width="407" height="73"
+<img src="./images/css5_0406.png" width="407" height="73"
 alt="css5 0406" />
 <h6 id="ch04.xhtml_sigil_toc_id_219"><span class="label">Figure 4-6.
 </span>Zero specificity defeats no specificity</h6>
@@ -8929,7 +8929,7 @@ you'll get the result shown in
 <figure>
 <div id="ch04.xhtml_directly_assigning_styles_to_the_relevan"
 class="figure">
-<img src="/Def-Images/Images/css5_0407.png" width="600" height="21"
+<img src="./images/css5_0407.png" width="600" height="21"
 alt="css5 0407" />
 <h6 id="ch04.xhtml_sigil_toc_id_220"><span class="label">Figure 4-7.
 </span>Directly assigning styles to the relevant elements</h6>
@@ -9484,7 +9484,7 @@ declarations from the layer with precedence are in contention.
 <figure class="coderesult">
 <div id="ch04.xhtml_higher_specificity_wins_out_over_lower"
 class="figure">
-<img src="/Def-Images/Images/css5_0408.png" width="549" height="68"
+<img src="./images/css5_0408.png" width="549" height="68"
 alt="css5 0408" />
 <h6 id="ch04.xhtml_sigil_toc_id_227"><span class="label">Figure 4-8.
 </span>Higher specificity wins out over lower specificity</h6>
@@ -10574,7 +10574,7 @@ as large as `0.5in`, as shown in
 <figure class="coderesult">
 <div id="ch05.xhtml_setting_absolute-length_left_margins"
 class="figure">
-<img src="/Def-Images/Images/css5_0501.png" width="427" height="61"
+<img src="./images/css5_0501.png" width="427" height="61"
 alt="css5 0501" />
 <h6 id="ch05.xhtml_sigil_toc_id_255"><span class="label">Figure 5-1.
 </span>Setting absolute-length left margins</h6>
@@ -10613,7 +10613,7 @@ and wide, as shown in
 
 <figure class="coderesult">
 <div id="ch05.xhtml_using_pixel_lengths" class="figure">
-<img src="/Def-Images/Images/css5_0502.png" width="326" height="24"
+<img src="./images/css5_0502.png" width="326" height="24"
 alt="css5 0502" />
 <h6 id="ch05.xhtml_sigil_toc_id_257"><span class="label">Figure 5-2.
 </span>Using pixel lengths</h6>
@@ -10781,7 +10781,7 @@ is relative to the font size of the parent element, as illustrated in
 <figure class="coderesult">
 <div id="ch05.xhtml_using_em_for_margins_and_font_sizing"
 class="figure">
-<img src="/Def-Images/Images/css5_0503.png" width="600" height="235"
+<img src="./images/css5_0503.png" width="600" height="235"
 alt="css5 0503" />
 <h6 id="ch05.xhtml_sigil_toc_id_262"><span class="label">Figure 5-3.
 </span>Using <code>em</code> for margins and font sizing</h6>
@@ -10811,7 +10811,7 @@ different.]{.keep-together}
 
 <figure>
 <div id="ch05.xhtml_varying_x-heights" class="figure">
-<img src="/Def-Images/Images/css5_0504.png" width="439" height="549"
+<img src="./images/css5_0504.png" width="439" height="549"
 alt="css5 0504" />
 <h6 id="ch05.xhtml_sigil_toc_id_264"><span class="label">Figure 5-4.
 </span>Varying x heights</h6>
@@ -10862,7 +10862,7 @@ wide.]{.keep-together}
 
 <figure class="coderesult">
 <div id="ch05.xhtml_character-relative_sizing" class="figure">
-<img src="/Def-Images/Images/css5_0505.png" width="527" height="800"
+<img src="./images/css5_0505.png" width="527" height="800"
 alt="css5 0505" />
 <h6 id="ch05.xhtml_sigil_toc_id_266"><span class="label">Figure 5-5.
 </span>Character-relative sizing</h6>
@@ -10948,7 +10948,7 @@ result shown in
 
 <figure>
 <div id="ch05.xhtml_ems_versus_rems" class="figure">
-<img src="/Def-Images/Images/css5_0506.png" width="600" height="79"
+<img src="./images/css5_0506.png" width="600" height="79"
 alt="css5 0506" />
 <h6 id="ch05.xhtml_sigil_toc_id_270"><span class="label">Figure 5-6.
 </span>Using the <code>em</code> unit (middle sentence) versus the
@@ -11133,7 +11133,7 @@ height of the viewport.
 
 <figure class="bordernone">
 <div id="ch05.xhtml_viewport-relative_sizing" class="figure">
-<img src="/Def-Images/Images/css5_0507.png" width="600" height="195"
+<img src="./images/css5_0507.png" width="600" height="195"
 alt="css5 0507" />
 <h6 id="ch05.xhtml_sigil_toc_id_274"><span class="label">Figure 5-7.
 </span>Viewport-relative sizing</h6>
@@ -11675,7 +11675,7 @@ result shown in
 
 <figure class="coderesult">
 <div id="ch05.xhtml_inserting_attribute_values" class="figure">
-<img src="/Def-Images/Images/css5_0508.png" width="256" height="90"
+<img src="./images/css5_0508.png" width="256" height="90"
 alt="css5 0508" />
 <h6 id="ch05.xhtml_sigil_toc_id_282"><span class="label">Figure 5-8.
 </span>Inserting attribute values</h6>
@@ -11775,7 +11775,7 @@ h3 {color: black;}
 
 <figure class="coderesult">
 <div id="ch05.xhtml_naming_colors" class="figure">
-<img src="/Def-Images/Images/css5_0509.png" width="562" height="490"
+<img src="./images/css5_0509.png" width="562" height="490"
 alt="css5 0509" />
 <h6 id="ch05.xhtml_sigil_toc_id_285"><span class="label">Figure 5-9.
 </span>Named colors</h6>
@@ -11950,7 +11950,7 @@ p.ten {color: rgb(204,204,204);}
 
 <figure class="coderesult">
 <div id="ch05.xhtml_text_set_in_shades_of_gray" class="figure">
-<img src="/Def-Images/Images/css5_0510.png" width="178" height="236"
+<img src="./images/css5_0510.png" width="178" height="236"
 alt="css5 0510" />
 <h6 id="ch05.xhtml_sigil_toc_id_290"><span class="label">Figure 5-10.
 </span>Text set in shades of gray</h6>
@@ -12047,7 +12047,7 @@ p.five {color: rgb(0,0,0,0.2);}
 <figure class="coderesult">
 <div id="ch05.xhtml_text_set_in_progressive_translucency"
 class="figure">
-<img src="/Def-Images/Images/css5_0512.png" width="173" height="114"
+<img src="./images/css5_0512.png" width="173" height="114"
 alt="css5 0512" />
 <h6 id="ch05.xhtml_sigil_toc_id_292"><span class="label">Figure 5-11.
 </span>Text set in progressive translucency</h6>
@@ -12146,7 +12146,7 @@ p.five {color: #00000033;}
 <figure class="coderesult">
 <div id="ch05.xhtml_text_set_in_progressive_translucency_redux"
 class="figure">
-<img src="/Def-Images/Images/css5_0512.png" width="173" height="114"
+<img src="./images/css5_0512.png" width="173" height="114"
 alt="css5 0512" />
 <h6 id="ch05.xhtml_sigil_toc_id_295"><span class="label">Figure 5-12.
 </span>Text set in progressive translucency, redux</h6>
@@ -12221,7 +12221,7 @@ them does it matter.
 
 <figure>
 <div id="ch05.xhtml_varying_lightness" class="figure">
-<img src="/Def-Images/Images/css5_0513.png" width="600" height="200"
+<img src="./images/css5_0513.png" width="600" height="200"
 alt="css5 0513" />
 <h6 id="ch05.xhtml_sigil_toc_id_298"><span class="label">Figure 5-13.
 </span>Varying lightness and hues</h6>
@@ -12539,7 +12539,7 @@ sets the color of the text in the element. The following code results in
 
 <figure class="coderesult">
 <div id="ch05.xhtml_cab_fig01" class="figure">
-<img src="/Def-Images/Images/css5_0514.png" width="328" height="58"
+<img src="./images/css5_0514.png" width="328" height="58"
 alt="css5 0514" />
 <h6 id="ch05.xhtml_sigil_toc_id_309"><span class="label">Figure 5-14.
 </span>Declared color versus default color</h6>
@@ -12585,13 +12585,13 @@ p.warn a:link {color: #400040;}
 
 <figure>
 <div id="ch05.xhtml_cab_fig02" class="figure">
-<img src="/Def-Images/Images/css5_0515.png" width="600" height="251"
+<img src="./images/css5_0515.png" width="600" height="251"
 alt="css5 0515" />
 <h6 id="ch05.xhtml_sigil_toc_id_310"><span class="label">Figure 5-15.
 </span>Changing colors <a
 href="https://meyerweb.github.io/csstdg5figs/05-values-and-units/changing-colors.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -12667,7 +12667,7 @@ input {color: red;}
 
 <figure class="coderesult">
 <div id="ch05.xhtml_cab_fig05" class="figure">
-<img src="/Def-Images/Images/css5_0516.png" width="600" height="171"
+<img src="./images/css5_0516.png" width="600" height="171"
 alt="css5 0516" />
 <h6 id="ch05.xhtml_sigil_toc_id_312"><span class="label">Figure 5-16.
 </span>Changing form element foregrounds</h6>
@@ -12722,7 +12722,7 @@ p {color: gray;}
 
 <figure class="coderesult">
 <div id="ch05.xhtml_cab_fig06" class="figure">
-<img src="/Def-Images/Images/css5_0517.png" width="600" height="98"
+<img src="./images/css5_0517.png" width="600" height="98"
 alt="css5 0517" />
 <h6 id="ch05.xhtml_sigil_toc_id_314"><span class="label">Figure 5-17.
 </span>Different colors for different elements</h6>
@@ -12962,7 +12962,7 @@ h2 {color: var(--highlight-color);}
 
 <figure class="coderesult">
 <div id="ch05.xhtml_val_css4_custom-values" class="figure">
-<img src="/Def-Images/Images/css5_0518.png" width="368" height="419"
+<img src="./images/css5_0518.png" width="368" height="419"
 alt="css5 0518" />
 <h6 id="ch05.xhtml_sigil_toc_id_320"><span class="label">Figure 5-18.
 </span>Using custom values to color headings</h6>
@@ -13037,7 +13037,7 @@ h1 {color: var(--base-color);}
 
 <figure class="coderesult">
 <div id="ch05.xhtml_val_css4_custom-value-scoping" class="figure">
-<img src="/Def-Images/Images/css5_0519.png" width="428" height="800"
+<img src="./images/css5_0519.png" width="428" height="800"
 alt="css5 0519" />
 <h6 id="ch05.xhtml_sigil_toc_id_321"><span class="label">Figure 5-19.
 </span>Scoping custom values to certain contexts</h6>
@@ -13244,7 +13244,7 @@ and margins.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig01" class="figure">
-<img src="/Def-Images/Images/css5_0601.png" width="600" height="178"
+<img src="./images/css5_0601.png" width="600" height="178"
 alt="css5 0601" />
 <h6 id="ch06.xhtml_sigil_toc_id_325"><span class="label">Figure 6-1.
 </span>The content area and its surroundings</h6>
@@ -13593,7 +13593,7 @@ few more styles, we could have a result like that shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig02" class="figure">
-<img src="/Def-Images/Images/css5_0602.png" width="573" height="515"
+<img src="./images/css5_0602.png" width="573" height="515"
 alt="css5 0602" />
 <h6 id="ch06.xhtml_sigil_toc_id_331"><span class="label">Figure 6-2.
 </span>Changing the display role from inline to block</h6>
@@ -13639,7 +13639,7 @@ following rules will have the effect shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig03" class="figure">
-<img src="/Def-Images/Images/css5_0603.png" width="600" height="17"
+<img src="./images/css5_0603.png" width="600" height="17"
 alt="css5 0603" />
 <h6 id="ch06.xhtml_sigil_toc_id_332"><span class="label">Figure 6-3.
 </span>Changing the display role from <code>list-item</code> to
@@ -13711,7 +13711,7 @@ illustrates placement in two different [writing modes.]{.keep-together}
 
 <figure class="bordernone">
 <div id="ch06.xhtml_css5_07box" class="figure">
-<img src="/Def-Images/Images/css5_0604.png" width="397" height="800"
+<img src="./images/css5_0604.png" width="397" height="800"
 alt="css5 0604" />
 <h6 id="ch06.xhtml_sigil_toc_id_334"><span class="label">Figure 6-4.
 </span>The complete box model in two different writing modes</h6>
@@ -13770,7 +13770,7 @@ startref="ix_write_mode_blocks" data-type="indexterm"}
 
 <figure class="bordernone">
 <div id="ch06.xhtml_css5_07block-inline-axes" class="figure">
-<img src="/Def-Images/Images/css5_0605.png" width="600" height="231"
+<img src="./images/css5_0605.png" width="600" height="231"
 alt="css5 0605" />
 <h6 id="ch06.xhtml_sigil_toc_id_335"><span class="label">Figure 6-5.
 </span>The block- and inline-axis directions for three common writing
@@ -13842,7 +13842,7 @@ p {inline-size: 25ch;}
 
 <figure class="coderesult">
 <div id="ch06.xhtml_sizing-elements-inline-axis" class="figure">
-<img src="/Def-Images/Images/css5_0606.png" width="600" height="300"
+<img src="./images/css5_0606.png" width="600" height="300"
 alt="css5 0606" />
 <h6 id="ch06.xhtml_sigil_toc_id_338"><span class="label">Figure 6-6.
 </span>Sizing elements along their inline axis</h6>
@@ -13945,7 +13945,7 @@ Let's consider the first two keywords, which are
 
 <figure>
 <div id="ch06.xhtml_content-sizing" class="figure">
-<img src="/Def-Images/Images/css5_0607.png" width="600" height="231"
+<img src="./images/css5_0607.png" width="600" height="231"
 alt="css5 0607" />
 <h6 id="ch06.xhtml_sigil_toc_id_340"><span class="label">Figure 6-7.
 </span>Content sizing</h6>
@@ -13987,7 +13987,7 @@ For some more examples of `min-content` sizing, see
 
 <figure>
 <div id="ch06.xhtml_minimum-content-sizing" class="figure">
-<img src="/Def-Images/Images/css5_0608.png" width="600" height="248"
+<img src="./images/css5_0608.png" width="600" height="248"
 alt="css5 0608" />
 <h6 id="ch06.xhtml_sigil_toc_id_341"><span class="label">Figure 6-8.
 </span>Minimum content sizing</h6>
@@ -14008,7 +14008,7 @@ container, the inline size stops there. This is illustrated in
 
 <figure>
 <div id="ch06.xhtml_fit-content-sizing" class="figure">
-<img src="/Def-Images/Images/css5_0609.png" width="600" height="112"
+<img src="./images/css5_0609.png" width="600" height="112"
 alt="css5 0609" />
 <h6 id="ch06.xhtml_sigil_toc_id_342"><span class="label">Figure 6-9.
 </span>Fit-content sizing</h6>
@@ -14088,7 +14088,7 @@ up to a certain point. The following CSS would have the effects shown in
 
 <figure class="coderesult">
 <div id="ch06.xhtml_maximum-block-sizing" class="figure">
-<img src="/Def-Images/Images/css5_0610.png" width="600" height="164"
+<img src="./images/css5_0610.png" width="600" height="164"
 alt="css5 0610" />
 <h6 id="ch06.xhtml_sigil_toc_id_345"><span class="label">Figure 6-10.
 </span>Maximum block sizing</h6>
@@ -14122,7 +14122,7 @@ full height).
 
 <figure>
 <div id="ch06.xhtml_sizing-elements-width" class="figure">
-<img src="/Def-Images/Images/css5_0611.png" width="600" height="179"
+<img src="./images/css5_0611.png" width="600" height="179"
 alt="css5 0611" />
 <h6 id="ch06.xhtml_sigil_toc_id_347"><span class="label">Figure 6-11.
 </span>Sizing elements’ width</h6>
@@ -14223,7 +14223,7 @@ shown in
 
 <figure class="coderesult">
 <div id="ch06.xhtml_heights-and-widths" class="figure">
-<img src="/Def-Images/Images/css5_0612.png" width="600" height="295"
+<img src="./images/css5_0612.png" width="600" height="295"
 alt="css5 0612" />
 <h6 id="ch06.xhtml_sigil_toc_id_351"><span class="label">Figure 6-12.
 </span>Heights and widths</h6>
@@ -14332,7 +14332,7 @@ content area. This is illustrated in
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig05" class="figure">
-<img src="/Def-Images/Images/css5_0613.png" width="600" height="177"
+<img src="./images/css5_0613.png" width="600" height="177"
 alt="css5 0613" />
 <h6 id="ch06.xhtml_sigil_toc_id_354"><span class="label">Figure 6-13.
 </span>The effects of <code>box-sizing</code></h6>
@@ -14416,7 +14416,7 @@ which parts of the box may have a value of `auto` and which may not.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig20" class="figure">
-<img src="/Def-Images/Images/css5_0614.png" width="600" height="310"
+<img src="./images/css5_0614.png" width="600" height="310"
 alt="css5 0614" />
 <h6 id="ch06.xhtml_sigil_toc_id_356"><span class="label">Figure 6-14.
 </span>The seven properties of block-axis formatting, and which can be
@@ -14488,7 +14488,7 @@ still enclose the paragraph's margins within it.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig23" class="figure">
-<img src="/Def-Images/Images/css5_0615.png" width="375" height="163"
+<img src="./images/css5_0615.png" width="375" height="163"
 alt="css5 0615" />
 <h6 id="ch06.xhtml_sigil_toc_id_358"><span class="label">Figure 6-15.
 </span>Auto block sizes with block-level children</h6>
@@ -14538,7 +14538,7 @@ two possibilities. (The spaces between the paragraph borders and the
 
 <figure>
 <div id="ch06.xhtml_bvf_fig22" class="figure">
-<img src="/Def-Images/Images/css5_0616.png" width="600" height="92"
+<img src="./images/css5_0616.png" width="600" height="92"
 alt="css5 0616" />
 <h6 id="ch06.xhtml_sigil_toc_id_360"><span class="label">Figure 6-16.
 </span>Percentage block sizes in different circumstances</h6>
@@ -14561,7 +14561,7 @@ illustrates this in detail.
 <figure>
 <div id="ch06.xhtml_block-axis-sizing-placement-in-detail"
 class="figure">
-<img src="/Def-Images/Images/css5_0617.png" width="600" height="137"
+<img src="./images/css5_0617.png" width="600" height="137"
 alt="css5 0617" />
 <h6 id="ch06.xhtml_sigil_toc_id_361"><span class="label">Figure 6-17.
 </span>Block-axis sizing and placement in detail</h6>
@@ -14659,7 +14659,7 @@ illustrates these `overflow` values, with two of them combined in a
 
 <figure>
 <div id="ch06.xhtml_overflow_methods" class="figure">
-<img src="/Def-Images/Images/css5_0618.png" width="600" height="175"
+<img src="./images/css5_0618.png" width="600" height="175"
 alt="css5 0618" />
 <h6 id="ch06.xhtml_sigil_toc_id_364"><span class="label">Figure 6-18.
 </span>Methods for handling overflowing content</h6>
@@ -14723,7 +14723,7 @@ div.three {overflow-x: scroll; overflow-y: scroll;}
 
 <figure class="coderesult">
 <div id="ch06.xhtml_overflow_x_y" class="figure">
-<img src="/Def-Images/Images/css5_0619.png" width="600" height="153"
+<img src="./images/css5_0619.png" width="600" height="153"
 alt="css5 0619" />
 <h6 id="ch06.xhtml_sigil_toc_id_367"><span class="label">Figure 6-19.
 </span>Setting overflow separately for x- and y-axes</h6>
@@ -14822,7 +14822,7 @@ markup has also been pulled up the block axis by 50 pixels.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig28" class="figure">
-<img src="/Def-Images/Images/css5_0620.png" width="442" height="65"
+<img src="./images/css5_0620.png" width="442" height="65"
 alt="css5 0620" />
 <h6 id="ch06.xhtml_sigil_toc_id_369"><span class="label">Figure 6-20.
 </span>The effects of a negative block-start margin</h6>
@@ -14850,7 +14850,7 @@ p.neg {margin-block-end: -50px; margin-block-end: 0;
 
 <figure>
 <div id="ch06.xhtml_bvf_fig29" class="figure">
-<img src="/Def-Images/Images/css5_0621.png" width="410" height="30"
+<img src="./images/css5_0621.png" width="410" height="30"
 alt="css5 0621" />
 <h6 id="ch06.xhtml_sigil_toc_id_370"><span class="label">Figure 6-21.
 </span>The effects of a negative block-end margin</h6>
@@ -14905,7 +14905,7 @@ difference between collapsed and uncollapsed margins.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig24" class="figure">
-<img src="/Def-Images/Images/css5_0622.png" width="600" height="412"
+<img src="./images/css5_0622.png" width="600" height="412"
 alt="css5 0622" />
 <h6 id="ch06.xhtml_sigil_toc_id_372"><span class="label">Figure 6-22.
 </span>Collapsed versus uncollapsed margins</h6>
@@ -14955,7 +14955,7 @@ and the beginning of the `<h1>` is 28 pixels, as shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig25" class="figure">
-<img src="/Def-Images/Images/css5_0623.png" width="600" height="249"
+<img src="./images/css5_0623.png" width="600" height="249"
 alt="css5 0623" />
 <h6 id="ch06.xhtml_sigil_toc_id_373"><span class="label">Figure 6-23.
 </span>Collapsing in detail</h6>
@@ -14988,7 +14988,7 @@ as illustrated in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig26" class="figure">
-<img src="/Def-Images/Images/css5_0624.png" width="600" height="171"
+<img src="./images/css5_0624.png" width="600" height="171"
 alt="css5 0624" />
 <h6 id="ch06.xhtml_sigil_toc_id_374"><span class="label">Figure 6-24.
 </span>Collapsing (or not) with borders added to the mix</h6>
@@ -15008,7 +15008,7 @@ some concrete examples.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig27" class="figure">
-<img src="/Def-Images/Images/css5_0625.png" width="511" height="344"
+<img src="./images/css5_0625.png" width="511" height="344"
 alt="css5 0625" />
 <h6 id="ch06.xhtml_sigil_toc_id_375"><span class="label">Figure 6-25.
 </span>Examples of negative block-axis margins</h6>
@@ -15033,7 +15033,7 @@ content and the block-start of the `<h1>`'s content, as we can see in
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig30" class="figure">
-<img src="/Def-Images/Images/css5_0626.png" width="600" height="131"
+<img src="./images/css5_0626.png" width="600" height="131"
 alt="css5 0626" />
 <h6 id="ch06.xhtml_sigil_toc_id_376"><span class="label">Figure 6-26.
 </span>Collapsing margins and negative margins, in detail</h6>
@@ -15115,7 +15115,7 @@ element inline size of 260 pixels. This is illustrated in
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig06" class="figure">
-<img src="/Def-Images/Images/css5_0627.png" width="600" height="243"
+<img src="./images/css5_0627.png" width="600" height="243"
 alt="css5 0627" />
 <h6 id="ch06.xhtml_sigil_toc_id_378"><span class="label">Figure 6-27.
 </span>Additive padding and margin</h6>
@@ -15131,7 +15131,7 @@ inline size of 240 pixels, as illustrated in
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig07" class="figure">
-<img src="/Def-Images/Images/css5_0628.png" width="600" height="200"
+<img src="./images/css5_0628.png" width="600" height="200"
 alt="css5 0628" />
 <h6 id="ch06.xhtml_sigil_toc_id_379"><span class="label">Figure 6-28.
 </span>Subtractive padding</h6>
@@ -15164,7 +15164,7 @@ the case here.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig08" class="figure">
-<img src="/Def-Images/Images/css5_0629.png" width="600" height="177"
+<img src="./images/css5_0629.png" width="600" height="177"
 alt="css5 0629" />
 <h6 id="ch06.xhtml_sigil_toc_id_380"><span class="label">Figure 6-29.
 </span>Element boxes are as wide as the inline width of their containing
@@ -15217,7 +15217,7 @@ is forgiving: if any part that can't accept `auto` is erroneously set to
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig09" class="figure">
-<img src="/Def-Images/Images/css5_0630.png" width="600" height="324"
+<img src="./images/css5_0630.png" width="600" height="324"
 alt="css5 0630" />
 <h6 id="ch06.xhtml_sigil_toc_id_382"><span class="label">Figure 6-30.
 </span>The seven properties of inline-axis formatting, and which can be
@@ -15292,7 +15292,7 @@ p {margin-inline-start: 100px; margin-inline-end: 100px;
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig11" class="figure">
-<img src="/Def-Images/Images/css5_0631.png" width="600" height="136"
+<img src="./images/css5_0631.png" width="600" height="136"
 alt="css5 0631" />
 <h6 id="ch06.xhtml_sigil_toc_id_385"><span class="label">Figure 6-31.
 </span>Overriding the inline-end margin’s value</h6>
@@ -15325,7 +15325,7 @@ p {margin-inline-start: 100px; margin-inline-end: 100px;} /* same as before */
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig12" class="figure">
-<img src="/Def-Images/Images/css5_0632.png" width="600" height="136"
+<img src="./images/css5_0632.png" width="600" height="136"
 alt="css5 0632" />
 <h6 id="ch06.xhtml_sigil_toc_id_386"><span class="label">Figure 6-32.
 </span>Automatic inline sizing</h6>
@@ -15367,7 +15367,7 @@ p {inline-size: 300px; margin-inline-start: auto; margin-inline-end: auto;}
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig13" class="figure">
-<img src="/Def-Images/Images/css5_0633.png" width="600" height="136"
+<img src="./images/css5_0633.png" width="600" height="136"
 alt="css5 0633" />
 <h6 id="ch06.xhtml_sigil_toc_id_388"><span class="label">Figure 6-33.
 </span>Setting an explicit inline size</h6>
@@ -15391,7 +15391,7 @@ would be 400 pixels, as shown in
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig14" class="figure">
-<img src="/Def-Images/Images/css5_0634.png" width="600" height="136"
+<img src="./images/css5_0634.png" width="600" height="136"
 alt="css5 0634" />
 <h6 id="ch06.xhtml_sigil_toc_id_389"><span class="label">Figure 6-34.
 </span>What happens when both <code>inline-size</code> and the
@@ -15432,7 +15432,7 @@ p {margin: 30px; padding: 0; background: white;}
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig15" class="figure">
-<img src="/Def-Images/Images/css5_0635.png" width="600" height="109"
+<img src="./images/css5_0635.png" width="600" height="109"
 alt="css5 0635" />
 <h6 id="ch06.xhtml_sigil_toc_id_391"><span class="label">Figure 6-35.
 </span>Offset is implicit in the parent’s margins and padding</h6>
@@ -15473,7 +15473,7 @@ p.wide {margin-inline-start: 10px; margin-inline-end: -50px;
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig16" class="figure">
-<img src="/Def-Images/Images/css5_0636.png" width="553" height="90"
+<img src="./images/css5_0636.png" width="553" height="90"
 alt="css5 0636" />
 <h6 id="ch06.xhtml_sigil_toc_id_393"><span class="label">Figure 6-36.
 </span>Wider children through negative margins</h6>
@@ -15546,7 +15546,7 @@ p.wide {margin-inline-start: -50px; margin-inline-end: 10px;
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig17" class="figure">
-<img src="/Def-Images/Images/css5_0637.png" width="534" height="96"
+<img src="./images/css5_0637.png" width="534" height="96"
 alt="css5 0637" />
 <h6 id="ch06.xhtml_sigil_toc_id_394"><span class="label">Figure 6-37.
 </span>Setting a negative inline-start margin</h6>
@@ -15684,7 +15684,7 @@ result.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig18" class="figure">
-<img src="/Def-Images/Images/css5_0638.png" width="98" height="171"
+<img src="./images/css5_0638.png" width="98" height="171"
 alt="css5 0638" />
 <h6 id="ch06.xhtml_sigil_toc_id_397"><span class="label">Figure 6-38.
 </span>Changing replaced element inline sizes</h6>
@@ -15727,7 +15727,7 @@ as illustrated in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig32" class="figure">
-<img src="/Def-Images/Images/css5_0639.png" width="600" height="234"
+<img src="./images/css5_0639.png" width="600" height="234"
 alt="css5 0639" />
 <h6 id="ch06.xhtml_sigil_toc_id_399"><span class="label">Figure 6-39.
 </span>Markers outside and inside the list</h6>
@@ -15806,7 +15806,7 @@ set of HTML, both with and without the previous CSS applied.
 
 <figure>
 <div id="ch06.xhtml_aspect-ratio" class="figure">
-<img src="/Def-Images/Images/css5_0640.png" width="600" height="110"
+<img src="./images/css5_0640.png" width="600" height="110"
 alt="css5 0640" />
 <h6 id="ch06.xhtml_sigil_toc_id_403"><span class="label">Figure 6-40.
 </span>A gallery with and without aspect ratios defined</h6>
@@ -15870,7 +15870,7 @@ span {border: 1px dashed black;}
 
 <figure>
 <div id="ch06.xhtml_bvf_fig33" class="figure">
-<img src="/Def-Images/Images/css5_0641.png" width="600" height="21"
+<img src="./images/css5_0641.png" width="600" height="21"
 alt="css5 0641" />
 <h6 id="ch06.xhtml_sigil_toc_id_406"><span class="label">Figure 6-41.
 </span>A single-line inline element</h6>
@@ -15890,7 +15890,7 @@ the state shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig34" class="figure">
-<img src="/Def-Images/Images/css5_0642.png" width="600" height="70"
+<img src="./images/css5_0642.png" width="600" height="70"
 alt="css5 0642" />
 <h6 id="ch06.xhtml_sigil_toc_id_407"><span class="label">Figure 6-42.
 </span>A multiple-line inline element</h6>
@@ -15934,7 +15934,7 @@ in.]{.keep-together}
 
 <figure>
 <div id="ch06.xhtml_bvf_fig35" class="figure">
-<img src="/Def-Images/Images/css5_0643.png" width="600" height="329"
+<img src="./images/css5_0643.png" width="600" height="329"
 alt="css5 0643" />
 <h6 id="ch06.xhtml_sigil_toc_id_409"><span class="label">Figure 6-43.
 </span>Showing lines in different alignments and writing modes</h6>
@@ -16247,7 +16247,7 @@ boxes in the element are 15 pixels tall, as illustrated in
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig36" class="figure">
-<img src="/Def-Images/Images/css5_0644.png" width="600" height="137"
+<img src="./images/css5_0644.png" width="600" height="137"
 alt="css5 0644" />
 <h6 id="ch06.xhtml_sigil_toc_id_415"><span class="label">Figure 6-44.
 </span>Em boxes determine content area height</h6>
@@ -16265,7 +16265,7 @@ illustrates this process.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig37" class="figure">
-<img src="/Def-Images/Images/css5_0645.png" width="600" height="127"
+<img src="./images/css5_0645.png" width="600" height="127"
 alt="css5 0645" />
 <h6 id="ch06.xhtml_sigil_toc_id_416"><span class="label">Figure 6-45.
 </span>Content area plus leading equals inline box</h6>
@@ -16333,7 +16333,7 @@ content of the line isn't completely contained within the line box.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig38" class="figure">
-<img src="/Def-Images/Images/css5_0646.png" width="600" height="64"
+<img src="./images/css5_0646.png" width="600" height="64"
 alt="css5 0646" />
 <h6 id="ch06.xhtml_sigil_toc_id_417"><span class="label">Figure 6-46.
 </span>Inline boxes within a line</h6>
@@ -16353,7 +16353,7 @@ not consistent.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig39" class="figure">
-<img src="/Def-Images/Images/css5_0647.png" width="600" height="85"
+<img src="./images/css5_0647.png" width="600" height="85"
 alt="css5 0647" />
 <h6 id="ch06.xhtml_sigil_toc_id_418"><span class="label">Figure 6-47.
 </span>Line boxes within a paragraph</h6>
@@ -16409,7 +16409,7 @@ by 4 pixels, as shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig40" class="figure">
-<img src="/Def-Images/Images/css5_0648.png" width="600" height="95"
+<img src="./images/css5_0648.png" width="600" height="95"
 alt="css5 0648" />
 <h6 id="ch06.xhtml_sigil_toc_id_421"><span class="label">Figure 6-48.
 </span>Vertical alignment affects line-box height</h6>
@@ -16443,7 +16443,7 @@ line box is taller than the other line boxes. However, notice how the
 
 <figure>
 <div id="ch06.xhtml_bvf_fig41" class="figure">
-<img src="/Def-Images/Images/css5_0649.png" width="499" height="98"
+<img src="./images/css5_0649.png" width="499" height="98"
 alt="css5 0649" />
 <h6 id="ch06.xhtml_sigil_toc_id_423"><span class="label">Figure 6-49.
 </span>Aligning an inline element to the line box</h6>
@@ -16473,7 +16473,7 @@ for its line. Thus, we get the result shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig42" class="figure">
-<img src="/Def-Images/Images/css5_0650.png" width="499" height="98"
+<img src="./images/css5_0650.png" width="499" height="98"
 alt="css5 0650" />
 <h6 id="ch06.xhtml_sigil_toc_id_424"><span class="label">Figure 6-50.
 </span>Text protruding from the line box (again)</h6>
@@ -16587,7 +16587,7 @@ results.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig43" class="figure">
-<img src="/Def-Images/Images/css5_0651.png" width="539" height="89"
+<img src="./images/css5_0651.png" width="539" height="89"
 alt="css5 0651" />
 <h6 id="ch06.xhtml_sigil_toc_id_426"><span class="label">Figure 6-51.
 </span>Assigning the <code>line-height</code> property to inline
@@ -16626,7 +16626,7 @@ around the hyperlink doesn't impinge on any other line, as shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig44" class="figure">
-<img src="/Def-Images/Images/css5_0652.png" width="476" height="91"
+<img src="./images/css5_0652.png" width="476" height="91"
 alt="css5 0652" />
 <h6 id="ch06.xhtml_sigil_toc_id_427"><span class="label">Figure 6-52.
 </span>Increasing <code>line-height</code> to leave room for inline
@@ -16725,7 +16725,7 @@ strong {font-size: 200%; line-height: 1em;}
 
 <figure>
 <div id="ch06.xhtml_bvf_fig45" class="figure">
-<img src="/Def-Images/Images/css5_0653.png" width="600" height="124"
+<img src="./images/css5_0653.png" width="600" height="124"
 alt="css5 0653" />
 <h6 id="ch06.xhtml_sigil_toc_id_430"><span class="label">Figure 6-53.
 </span>Using a scaling factor for <code>line-height</code></h6>
@@ -16774,7 +16774,7 @@ without the 4-pixel padding).
 
 <figure>
 <div id="ch06.xhtml_bvf_fig47" class="figure">
-<img src="/Def-Images/Images/css5_0654.png" width="600" height="128"
+<img src="./images/css5_0654.png" width="600" height="128"
 alt="css5 0654" />
 <h6 id="ch06.xhtml_sigil_toc_id_432"><span class="label">Figure 6-54.
 </span>Padding and borders do not alter line height</h6>
@@ -16815,7 +16815,7 @@ color. Thus, we get the result shown in
 
 <figure>
 <div id="ch06.xhtml_bvf_fig48" class="figure">
-<img src="/Def-Images/Images/css5_0655.png" width="600" height="120"
+<img src="./images/css5_0655.png" width="600" height="120"
 alt="css5 0655" />
 <h6 id="ch06.xhtml_sigil_toc_id_433"><span class="label">Figure 6-55.
 </span>Padding and margins on inline elements</h6>
@@ -16884,7 +16884,7 @@ instead of being broken up.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig50" class="figure">
-<img src="/Def-Images/Images/css5_0656.png" width="600" height="93"
+<img src="./images/css5_0656.png" width="600" height="93"
 alt="css5 0656" />
 <h6 id="ch06.xhtml_sigil_toc_id_436"><span class="label">Figure 6-56.
 </span>Sliced and cloned inline fragments</h6>
@@ -16968,7 +16968,7 @@ img {block-size: 30px; margin: 0; padding: 0; border: none;}
 
 <figure>
 <div id="ch06.xhtml_bvf_fig51" class="figure">
-<img src="/Def-Images/Images/css5_0657.png" width="600" height="112"
+<img src="./images/css5_0657.png" width="600" height="112"
 alt="css5 0657" />
 <h6 id="ch06.xhtml_sigil_toc_id_439"><span class="label">Figure 6-57.
 </span>Replaced elements can increase the height of the line box but not
@@ -17053,7 +17053,7 @@ its border.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig52" class="figure">
-<img src="/Def-Images/Images/css5_0658.png" width="600" height="164"
+<img src="./images/css5_0658.png" width="600" height="164"
 alt="css5 0658" />
 <h6 id="ch06.xhtml_sigil_toc_id_441"><span class="label">Figure 6-58.
 </span>Adding padding, borders, and margins to an inline replaced
@@ -17087,7 +17087,7 @@ elements generate are often assumed to be inline-block.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig53" class="figure">
-<img src="/Def-Images/Images/css5_0659.png" width="600" height="140"
+<img src="./images/css5_0659.png" width="600" height="140"
 alt="css5 0659" />
 <h6 id="ch06.xhtml_sigil_toc_id_442"><span class="label">Figure 6-59.
 </span>The effect of negative margins on inline replaced elements</h6>
@@ -17115,7 +17115,7 @@ in [Figure 6-60](#ch06.xhtml_bvf_fig54){data-type="xref"}.
 
 <figure class="width-75">
 <div id="ch06.xhtml_bvf_fig54" class="figure">
-<img src="/Def-Images/Images/css5_0660.png" width="600" height="200"
+<img src="./images/css5_0660.png" width="600" height="200"
 alt="css5 0660" />
 <h6 id="ch06.xhtml_sigil_toc_id_444"><span class="label">Figure 6-60.
 </span>Inline replaced elements sit on the baseline</h6>
@@ -17164,7 +17164,7 @@ p img {margin-block-end: -10px;}
 
 <figure>
 <div id="ch06.xhtml_bvf_fig55" class="figure">
-<img src="/Def-Images/Images/css5_0661.png" width="600" height="140"
+<img src="./images/css5_0661.png" width="600" height="140"
 alt="css5 0661" />
 <h6 id="ch06.xhtml_sigil_toc_id_445"><span class="label">Figure 6-61.
 </span>Pulling inline replaced elements down with a negative block-end
@@ -17244,7 +17244,7 @@ result of this stylesheet.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig56" class="figure">
-<img src="/Def-Images/Images/css5_0662.png" width="600" height="139"
+<img src="./images/css5_0662.png" width="600" height="139"
 alt="css5 0662" />
 <h6 id="ch06.xhtml_sigil_toc_id_447"><span class="label">Figure 6-62.
 </span>The behavior of an inline-block element</h6>
@@ -17278,7 +17278,7 @@ content, as shown in
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig57" class="figure">
-<img src="/Def-Images/Images/css5_0663.png" width="600" height="151"
+<img src="./images/css5_0663.png" width="600" height="151"
 alt="css5 0663" />
 <h6 id="ch06.xhtml_sigil_toc_id_448"><span class="label">Figure 6-63.
 </span>Autosizing of an inline-block element</h6>
@@ -17402,7 +17402,7 @@ result.
 
 <figure>
 <div id="ch06.xhtml_bvf_css4_display_contents" class="figure">
-<img src="/Def-Images/Images/css5_0664.png" width="600" height="93"
+<img src="./images/css5_0664.png" width="600" height="93"
 alt="css5 0664" />
 <h6 id="ch06.xhtml_sigil_toc_id_451"><span class="label">Figure 6-64.
 </span>A regular unordered list, and one with
@@ -17504,7 +17504,7 @@ em.trans {visibility: hidden; border: 3px solid gray; background: silver;
 
 <figure class="coderesult">
 <div id="ch06.xhtml_making_elements_invisible" class="figure">
-<img src="/Def-Images/Images/css5_0665.png" width="600" height="114"
+<img src="./images/css5_0665.png" width="600" height="114"
 alt="css5 0665" />
 <h6 id="ch06.xhtml_sigil_toc_id_455"><span class="label">Figure 6-65.
 </span>Making elements invisible without suppressing their element
@@ -17646,7 +17646,7 @@ understand the *box model*, illustrated in
 
 <figure class="bordernone">
 <div id="ch07.xhtml_TheCSSboxmodel" class="figure">
-<img src="/Def-Images/Images/css5_0701.png" width="600" height="567"
+<img src="./images/css5_0701.png" width="600" height="567"
 alt="css5 0701" />
 <h6 id="ch07.xhtml_sigil_toc_id_460"><span class="label">Figure 7-1.
 </span>The CSS box model</h6>
@@ -17718,7 +17718,7 @@ h2 {padding: 2em; background-color: silver;}
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Addingpaddingtoelements" class="figure">
-<img src="/Def-Images/Images/css5_0702.png" width="600" height="60"
+<img src="./images/css5_0702.png" width="600" height="60"
 alt="css5 0702" />
 <h6 id="ch07.xhtml_sigil_toc_id_464"><span class="label">Figure 7-2.
 </span>Adding padding to elements</h6>
@@ -17761,7 +17761,7 @@ illustrates.
 <figure class="bordernone">
 <div id="ch07.xhtml_Theeffectofpaddingonborderedblock-levelelements"
 class="figure">
-<img src="/Def-Images/Images/css5_0703.png" width="600" height="103"
+<img src="./images/css5_0703.png" width="600" height="103"
 alt="css5 0703" />
 <h6 id="ch07.xhtml_sigil_toc_id_466"><span class="label">Figure 7-3.
 </span>The effect of padding on bordered block-level elements</h6>
@@ -17816,7 +17816,7 @@ extra annotation, the results of this declaration.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Mixed-valuepadding" class="figure">
-<img src="/Def-Images/Images/css5_0704.png" width="600" height="93"
+<img src="./images/css5_0704.png" width="600" height="93"
 alt="css5 0704" />
 <h6 id="ch07.xhtml_sigil_toc_id_467"><span class="label">Figure 7-4.
 </span>Mixed-value padding</h6>
@@ -17864,7 +17864,7 @@ If you prefer a more visual approach, take a look at
 
 <figure>
 <div id="ch07.xhtml_Valuereplicationpattern" class="figure">
-<img src="/Def-Images/Images/css5_0705.png" width="600" height="140"
+<img src="./images/css5_0705.png" width="600" height="140"
 alt="css5 0705" />
 <h6 id="ch07.xhtml_sigil_toc_id_469"><span class="label">Figure 7-5.
 </span>Value-replication pattern</h6>
@@ -17940,7 +17940,7 @@ p {margin: 0; padding: 0.5em 0; border-bottom: 1px solid gray;
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Usingpaddinginsteadofmargins" class="figure">
-<img src="/Def-Images/Images/css5_0706.png" width="600" height="175"
+<img src="./images/css5_0706.png" width="600" height="175"
 alt="css5 0706" />
 <h6 id="ch07.xhtml_sigil_toc_id_470"><span class="label">Figure 7-6.
 </span>Using padding instead of margins</h6>
@@ -18041,7 +18041,7 @@ h2 {padding: 0 0 2em 3em;}
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Morethanonesingle-sidepadding" class="figure">
-<img src="/Def-Images/Images/css5_0707.png" width="600" height="152"
+<img src="./images/css5_0707.png" width="600" height="152"
 alt="css5 0707" />
 <h6 id="ch07.xhtml_sigil_toc_id_473"><span class="label">Figure 7-7.
 </span>More than one single-side padding</h6>
@@ -18125,7 +18125,7 @@ p {
 
 <figure class="coderesult">
 <div id="ch07.xhtml_logical-padding-figure" class="figure">
-<img src="/Def-Images/Images/css5_0708.png" width="600" height="185"
+<img src="./images/css5_0708.png" width="600" height="185"
 alt="css5 0708" />
 <h6 id="ch07.xhtml_sigil_toc_id_476"><span class="label">Figure 7-8.
 </span>Logical padding</h6>
@@ -18251,7 +18251,7 @@ p {padding: 10%; background-color: silver;}
 <figure class="bordernone">
 <div id="ch07.xhtml_Paddingpercentagesandthewidthsofparentelements"
 class="figure">
-<img src="/Def-Images/Images/css5_0709.png" width="600" height="407"
+<img src="./images/css5_0709.png" width="600" height="407"
 alt="css5 0709" />
 <h6 id="ch07.xhtml_sigil_toc_id_480"><span class="label">Figure 7-9.
 </span>Padding, percentages, and the widths of parent elements</h6>
@@ -18317,7 +18317,7 @@ h2 {padding: 0.5em 10%;}
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Mixedpadding" class="figure">
-<img src="/Def-Images/Images/css5_0710.png" width="600" height="82"
+<img src="./images/css5_0710.png" width="600" height="82"
 alt="css5 0710" />
 <h6 id="ch07.xhtml_sigil_toc_id_481"><span class="label">Figure 7-10.
 </span>Mixed padding</h6>
@@ -18375,7 +18375,7 @@ gives you an idea of what this might look like.
 
 <figure>
 <div id="ch07.xhtml_Paddingonaninlinenonreplacedelement" class="figure">
-<img src="/Def-Images/Images/css5_0711.png" width="600" height="49"
+<img src="./images/css5_0711.png" width="600" height="49"
 alt="css5 0711" />
 <h6 id="ch07.xhtml_sigil_toc_id_483"><span class="label">Figure 7-11.
 </span>Top padding on an inline nonreplaced element</h6>
@@ -18401,7 +18401,7 @@ strong {padding-left: 25px; background: silver;}
 <figure>
 <div id="ch07.xhtml_Aninlinenonreplacedelementwithleftpadding"
 class="figure">
-<img src="/Def-Images/Images/css5_0712.png" width="600" height="40"
+<img src="./images/css5_0712.png" width="600" height="40"
 alt="css5 0712" />
 <h6 id="ch07.xhtml_sigil_toc_id_484"><span class="label">Figure 7-12.
 </span>An inline nonreplaced element with left padding</h6>
@@ -18424,7 +18424,7 @@ element, and no extra space above or below it.
 <figure>
 <div id="ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidepadding"
 class="figure">
-<img src="/Def-Images/Images/css5_0713.png" width="600" height="40"
+<img src="./images/css5_0713.png" width="600" height="40"
 alt="css5 0713" />
 <h6 id="ch07.xhtml_sigil_toc_id_485"><span class="label">Figure 7-13.
 </span>An inline nonreplaced element with 25-pixel side padding</h6>
@@ -18452,7 +18452,7 @@ changing the point at which the element's content begins within a line.
 <div
 id="ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidepaddingdisplayedacrosstwolinesoftext"
 class="figure">
-<img src="/Def-Images/Images/css5_0714.png" width="600" height="40"
+<img src="./images/css5_0714.png" width="600" height="40"
 alt="css5 0714" />
 <h6 id="ch07.xhtml_sigil_toc_id_486"><span class="label">Figure 7-14.
 </span>An inline nonreplaced element with 25-pixel side padding
@@ -18501,7 +18501,7 @@ You can also see that padding will push a replaced element's border
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Paddingreplacedelements" class="figure">
-<img src="/Def-Images/Images/css5_0715.png" width="264" height="264"
+<img src="./images/css5_0715.png" width="264" height="264"
 alt="css5 0715" />
 <h6 id="ch07.xhtml_sigil_toc_id_489"><span class="label">Figure 7-15.
 </span>Padding, borders, and background on a replaced element</h6>
@@ -18518,7 +18518,7 @@ of the line.
 
 <figure>
 <div id="ch07.xhtml_Paddingreplacedelements2" class="figure">
-<img src="/Def-Images/Images/css5_0716.png" width="600" height="122"
+<img src="./images/css5_0716.png" width="600" height="122"
 alt="css5 0716" />
 <h6 id="ch07.xhtml_sigil_toc_id_490"><span class="label">Figure 7-16.
 </span>Padding an inline replaced element</h6>
@@ -18666,7 +18666,7 @@ resolution.
 
 <figure>
 <div id="ch07.xhtml_Borderstyles" class="figure">
-<img src="/Def-Images/Images/css5_0717.png" width="600" height="360"
+<img src="./images/css5_0717.png" width="600" height="360"
 alt="css5 0717" />
 <h6 id="ch07.xhtml_sigil_toc_id_496"><span class="label">Figure 7-17.
 </span>Border styles</h6>
@@ -18695,7 +18695,7 @@ illustrates two ways a browser could render an inset
 
 <figure>
 <div id="ch07.xhtml_Twovalidwaysofrenderinginset" class="figure">
-<img src="/Def-Images/Images/css5_0718.png" width="600" height="53"
+<img src="./images/css5_0718.png" width="600" height="53"
 alt="css5 0718" />
 <h6 id="ch07.xhtml_sigil_toc_id_497"><span class="label">Figure 7-18.
 </span>Two valid ways of rendering an inset</h6>
@@ -18719,7 +18719,7 @@ a:link img {border-style: outset;}
 <figure class="bordernone">
 <div id="ch07.xhtml_Applyinganoutsetbordertoahyperlinkedimage"
 class="figure">
-<img src="/Def-Images/Images/css5_0719.png" width="143" height="154"
+<img src="./images/css5_0719.png" width="143" height="154"
 alt="css5 0719" />
 <h6 id="ch07.xhtml_sigil_toc_id_498"><span class="label">Figure 7-19.
 </span>Applying an outset border to a hyperlinked image</h6>
@@ -18763,7 +18763,7 @@ just how to do that.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Twooutsetborders" class="figure">
-<img src="/Def-Images/Images/css5_0720.png" width="600" height="254"
+<img src="./images/css5_0720.png" width="600" height="254"
 alt="css5 0720" />
 <h6 id="ch07.xhtml_sigil_toc_id_499"><span class="label">Figure 7-20.
 </span>Two outset borders</h6>
@@ -18801,7 +18801,7 @@ p.new2 {border-style: solid none dashed none;}
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Equivalentstylerules" class="figure">
-<img src="/Def-Images/Images/css5_0721.png" width="600" height="112"
+<img src="./images/css5_0721.png" width="600" height="112"
 alt="css5 0721" />
 <h6 id="ch07.xhtml_sigil_toc_id_501"><span class="label">Figure 7-21.
 </span>Equivalent style rules</h6>
@@ -18859,7 +18859,7 @@ heading, but not have a left border, as shown in
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Removingtheleftborder" class="figure">
-<img src="/Def-Images/Images/css5_0722.png" width="600" height="73"
+<img src="./images/css5_0722.png" width="600" height="73"
 alt="css5 0722" />
 <h6 id="ch07.xhtml_sigil_toc_id_504"><span class="label">Figure 7-22.
 </span>Removing the left border</h6>
@@ -18958,7 +18958,7 @@ p {border-block-style: solid double; border-inline-style: dashed dotted;}
 
 <figure class="coderesult">
 <div id="ch07.xhtml_logical-border-styles" class="figure">
-<img src="/Def-Images/Images/css5_0723.png" width="600" height="252"
+<img src="./images/css5_0723.png" width="600" height="252"
 alt="css5 0723" />
 <h6 id="ch07.xhtml_sigil_toc_id_508"><span class="label">Figure 7-23.
 </span>Logical border styles</h6>
@@ -19065,7 +19065,7 @@ to the content they surround.
 <figure class="bordernone">
 <div id="ch07.xhtml_Therelationofborder-widthkeywordstoeachother"
 class="figure">
-<img src="/Def-Images/Images/css5_0724.png" width="600" height="81"
+<img src="./images/css5_0724.png" width="600" height="81"
 alt="css5 0724" />
 <h6 id="ch07.xhtml_sigil_toc_id_513"><span class="label">Figure 7-24.
 </span>The relation of border-width keywords to each other</h6>
@@ -19110,7 +19110,7 @@ p {border-style: solid; border-width: 15px 2px 8px 5px;}
 <figure class="bordernone">
 <div id="ch07.xhtml_Valuereplicationandunevenborderwidths"
 class="figure">
-<img src="/Def-Images/Images/css5_0725.png" width="600" height="141"
+<img src="./images/css5_0725.png" width="600" height="141"
 alt="css5 0725" />
 <h6 id="ch07.xhtml_sigil_toc_id_514"><span class="label">Figure 7-25.
 </span>Value replication and uneven border widths</h6>
@@ -19301,7 +19301,7 @@ p {border-style: solid; border-color: gray;}
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Bordershavemanyaspects" class="figure">
-<img src="/Def-Images/Images/css5_0726.png" width="600" height="105"
+<img src="./images/css5_0726.png" width="600" height="105"
 alt="css5 0726" />
 <h6 id="ch07.xhtml_sigil_toc_id_521"><span class="label">Figure 7-26.
 </span>Borders have many aspects</h6>
@@ -19334,7 +19334,7 @@ p.shade2 {border-style: solid; border-width: thick; color: gray;
 <div
 id="ch07.xhtml_Bordercolorsbasedontheelementsforegroundandthevalueoftheborder-colorproperty"
 class="figure">
-<img src="/Def-Images/Images/css5_0727.png" width="600" height="121"
+<img src="./images/css5_0727.png" width="600" height="121"
 alt="css5 0727" />
 <h6 id="ch07.xhtml_sigil_toc_id_522"><span class="label">Figure 7-27.
 </span>Border colors based on the element’s foreground and the value of
@@ -19500,7 +19500,7 @@ preventing a reflow of content when visible borders are added in.
 
 <figure>
 <div id="ch07.xhtml_using_transparent_borders" class="figure">
-<img src="/Def-Images/Images/css5_0728.png" width="314" height="53"
+<img src="./images/css5_0728.png" width="314" height="53"
 alt="css5 0728" />
 <h6 id="ch07.xhtml_sigil_toc_id_528"><span class="label">Figure 7-28.
 </span>Using transparent borders</h6>
@@ -19550,7 +19550,7 @@ leaving the others to their defaults. Since the default border style is
 <figure class="bordernone">
 <div id="ch07.xhtml_Settingabottomborderwithashorthandproperty"
 class="figure">
-<img src="/Def-Images/Images/css5_0729.png" width="600" height="34"
+<img src="./images/css5_0729.png" width="600" height="34"
 alt="css5 0729" />
 <h6 id="ch07.xhtml_sigil_toc_id_530"><span class="label">Figure 7-29.
 </span>Setting a bottom border with a shorthand property</h6>
@@ -19607,7 +19607,7 @@ h1 {border-left: 3px solid gray;
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Verycomplexborders" class="figure">
-<img src="/Def-Images/Images/css5_0730.png" width="600" height="46"
+<img src="./images/css5_0730.png" width="600" height="46"
 alt="css5 0730" />
 <h6 id="ch07.xhtml_sigil_toc_id_532"><span class="label">Figure 7-30.
 </span>Very complex borders</h6>
@@ -19647,7 +19647,7 @@ p.roof {border-top: dashed;}
 
 <figure>
 <div id="ch07.xhtml_Dashingacrossthetopofanelement" class="figure">
-<img src="/Def-Images/Images/css5_0731.png" width="600" height="159"
+<img src="./images/css5_0731.png" width="600" height="159"
 alt="css5 0731" />
 <h6 id="ch07.xhtml_sigil_toc_id_533"><span class="label">Figure 7-31.
 </span>Dashing across the top of an element</h6>
@@ -19732,7 +19732,7 @@ h1 {border: thick silver solid;}
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Areallyshortborderdeclaration" class="figure">
-<img src="/Def-Images/Images/css5_0732.png" width="600" height="55"
+<img src="./images/css5_0732.png" width="600" height="55"
 alt="css5 0732" />
 <h6 id="ch07.xhtml_sigil_toc_id_536"><span class="label">Figure 7-32.
 </span>A really short border declaration</h6>
@@ -19756,7 +19756,7 @@ by the first rule, thus replacing `thick` with `20px`, as you can see in
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Usingthecascadetoonesadvantage" class="figure">
-<img src="/Def-Images/Images/css5_0733.png" width="600" height="45"
+<img src="./images/css5_0733.png" width="600" height="45"
 alt="css5 0733" />
 <h6 id="ch07.xhtml_sigil_toc_id_537"><span class="label">Figure 7-33.
 </span>Using the cascade to your advantage</h6>
@@ -19806,7 +19806,7 @@ visible, they'll be drawn---as illustrated in
 
 <figure class="coderesult">
 <div id="ch07.xhtml_Bordersoninlinenonreplacedelements" class="figure">
-<img src="/Def-Images/Images/css5_0734.png" width="600" height="59"
+<img src="./images/css5_0734.png" width="600" height="59"
 alt="css5 0734" />
 <h6 id="ch07.xhtml_sigil_toc_id_539"><span class="label">Figure 7-34.
 </span>Borders on inline nonreplaced elements</h6>
@@ -19830,7 +19830,7 @@ strong {border-inline-start: 25px double hsl(216 50% 50%); background: silver;}
 <figure class="coderesult">
 <div id="ch07.xhtml_Aninlinenonreplacedelementwithaleftborder"
 class="figure">
-<img src="/Def-Images/Images/css5_0735.png" width="600" height="49"
+<img src="./images/css5_0735.png" width="600" height="49"
 alt="css5 0735" />
 <h6 id="ch07.xhtml_sigil_toc_id_540"><span class="label">Figure 7-35.
 </span>Inline nonreplaced elements with inline-start borders</h6>
@@ -19869,7 +19869,7 @@ img {border: 1em solid rgb(216,108,54);}
 
 <figure>
 <div id="ch07.xhtml_Bordersoninlinereplacedelements" class="figure">
-<img src="/Def-Images/Images/css5_0736.png" width="600" height="91"
+<img src="./images/css5_0736.png" width="600" height="91"
 alt="css5 0736" />
 <h6 id="ch07.xhtml_sigil_toc_id_542"><span class="label">Figure 7-36.
 </span>Borders on inline replaced elements</h6>
@@ -19935,7 +19935,7 @@ rounding is done in all four corners.)
 
 <figure>
 <div id="ch07.xhtml_Howborderradiiarecalculated" class="figure">
-<img src="/Def-Images/Images/css5_0737.png" width="600" height="229"
+<img src="./images/css5_0737.png" width="600" height="229"
 alt="css5 0737" />
 <h6 id="ch07.xhtml_sigil_toc_id_545"><span class="label">Figure 7-37.
 </span>How border radii are calculated</h6>
@@ -19963,7 +19963,7 @@ consider the following, illustrated in
 <figure>
 <div id="ch07.xhtml_Howpercentageborderradiiarecalculated"
 class="figure">
-<img src="/Def-Images/Images/css5_0738.png" width="600" height="218"
+<img src="./images/css5_0738.png" width="600" height="218"
 alt="css5 0738" />
 <h6 id="ch07.xhtml_sigil_toc_id_546"><span class="label">Figure 7-38.
 </span>How percentage border radii are calculated</h6>
@@ -20024,7 +20024,7 @@ are identical and will have the result shown in
 
 <figure>
 <div id="ch07.xhtml_Avarietyofroundedcorners" class="figure">
-<img src="/Def-Images/Images/css5_0739.png" width="600" height="231"
+<img src="./images/css5_0739.png" width="600" height="231"
 alt="css5 0739" />
 <h6 id="ch07.xhtml_sigil_toc_id_547"><span class="label">Figure 7-39.
 </span>A variety of rounded corners</h6>
@@ -20049,7 +20049,7 @@ the element box. Consider the situation depicted in
 <figure>
 <div id="ch07.xhtml_Elementswithroundedcornersarestillboxes"
 class="figure">
-<img src="/Def-Images/Images/css5_0740.png" width="600" height="225"
+<img src="./images/css5_0740.png" width="600" height="225"
 alt="css5 0740" />
 <h6 id="ch07.xhtml_sigil_toc_id_548"><span class="label">Figure 7-40.
 </span>Elements with rounded corners are still boxes</h6>
@@ -20135,7 +20135,7 @@ Here's a simpler example, illustrated in
 
 <figure>
 <div id="ch07.xhtml_Ellipticalcornerrounding" class="figure">
-<img src="/Def-Images/Images/css5_0741.png" width="600" height="229"
+<img src="./images/css5_0741.png" width="600" height="229"
 alt="css5 0741" />
 <h6 id="ch07.xhtml_sigil_toc_id_551"><span class="label">Figure 7-41.
 </span>Elliptical corner rounding</h6>
@@ -20157,7 +20157,7 @@ side of the slash, as depicted in
 <figure>
 <div id="ch07.xhtml_Differentellipticalroundingcalculations"
 class="figure">
-<img src="/Def-Images/Images/css5_0742.png" width="600" height="263"
+<img src="./images/css5_0742.png" width="600" height="263"
 alt="css5 0742" />
 <h6 id="ch07.xhtml_sigil_toc_id_552"><span class="label">Figure 7-42.
 </span>Different elliptical rounding calculations</h6>
@@ -20219,7 +20219,7 @@ samples shown in
 
 <figure>
 <div id="ch07.xhtml_Roundedcornersupclose" class="figure">
-<img src="/Def-Images/Images/css5_0743.png" width="600" height="69"
+<img src="./images/css5_0743.png" width="600" height="69"
 alt="css5 0743" />
 <h6 id="ch07.xhtml_sigil_toc_id_554"><span class="label">Figure 7-43.
 </span>Rounded corners up close</h6>
@@ -20339,7 +20339,7 @@ result shown in
 
 <figure class="coderesult">
 <div id="ch07.xhtml_links-shaped-like-balloons" class="figure">
-<img src="/Def-Images/Images/css5_0744.png" width="600" height="42"
+<img src="./images/css5_0744.png" width="600" height="42"
 alt="css5 0744" />
 <h6 id="ch07.xhtml_sigil_toc_id_557"><span class="label">Figure 7-44.
 </span>Links shaped like word balloons</h6>
@@ -20401,7 +20401,7 @@ p {border-start-end-radius: 2em;}
 
 <figure class="coderesult">
 <div id="ch07.xhtml_logical-border-radius" class="figure">
-<img src="/Def-Images/Images/css5_0745.png" width="600" height="174"
+<img src="./images/css5_0745.png" width="600" height="174"
 alt="css5 0745" />
 <h6 id="ch07.xhtml_sigil_toc_id_559"><span class="label">Figure 7-45.
 </span>Rounding the block-start, inline-end corner</h6>
@@ -20487,7 +20487,7 @@ border-image-source: url(i/circle.png);
 
 <figure>
 <div id="ch07.xhtml_Definingaborderimagessource" class="figure">
-<img src="/Def-Images/Images/css5_0746.png" width="600" height="223"
+<img src="./images/css5_0746.png" width="600" height="223"
 alt="css5 0746" />
 <h6 id="ch07.xhtml_sigil_toc_id_563"><span class="label">Figure 7-46.
 </span>Defining a border image’s source</h6>
@@ -20546,7 +20546,7 @@ shows a small sampling of offset patterns, all based on percentages.
 
 <figure>
 <div id="ch07.xhtml_Variousslicingpatterns" class="figure">
-<img src="/Def-Images/Images/css5_0747.png" width="600" height="153"
+<img src="./images/css5_0747.png" width="600" height="153"
 alt="css5 0747" />
 <h6 id="ch07.xhtml_sigil_toc_id_565"><span class="label">Figure 7-47.
 </span>Various slicing patterns</h6>
@@ -20588,7 +20588,7 @@ border, and each side's circle is stretched out to fill its side.
 
 <figure>
 <div id="ch07.xhtml_Anall-aroundimageborder" class="figure">
-<img src="/Def-Images/Images/css5_0748.png" width="600" height="358"
+<img src="./images/css5_0748.png" width="600" height="358"
 alt="css5 0748" />
 <h6 id="ch07.xhtml_sigil_toc_id_567"><span class="label">Figure 7-48.
 </span>An all-around image border</h6>
@@ -20623,7 +20623,7 @@ all the way around the border area, corners, and sides.
 <figure>
 <div id="ch07.xhtml_Variouspatternsthatpreventsideslices"
 class="figure">
-<img src="/Def-Images/Images/css5_0749.png" width="600" height="294"
+<img src="./images/css5_0749.png" width="600" height="294"
 alt="css5 0749" />
 <h6 id="ch07.xhtml_sigil_toc_id_568"><span class="label">Figure 7-49.
 </span>Various patterns that prevent side slices</h6>
@@ -20646,7 +20646,7 @@ border-image-slice: 25;
 
 <figure>
 <div id="ch07.xhtml_Numberslicing" class="figure">
-<img src="/Def-Images/Images/css5_0750.png" width="600" height="274"
+<img src="./images/css5_0750.png" width="600" height="274"
 alt="css5 0750" />
 <h6 id="ch07.xhtml_sigil_toc_id_569"><span class="label">Figure 7-50.
 </span>Number slicing</h6>
@@ -20673,7 +20673,7 @@ exactly the right percentages.
 
 <figure>
 <div id="ch07.xhtml_Slicelinesat25pixels" class="figure">
-<img src="/Def-Images/Images/css5_0751.png" width="492" height="428"
+<img src="./images/css5_0751.png" width="492" height="428"
 alt="css5 0751" />
 <h6 id="ch07.xhtml_sigil_toc_id_570"><span class="label">Figure 7-51.
 </span>Slice-lines at 25 pixels</h6>
@@ -20703,7 +20703,7 @@ substitute for the background or as an addition to it.
 
 <figure>
 <div id="ch07.xhtml_Usingthefillslice" class="figure">
-<img src="/Def-Images/Images/css5_0752.png" width="600" height="248"
+<img src="./images/css5_0752.png" width="600" height="248"
 alt="css5 0752" />
 <h6 id="ch07.xhtml_sigil_toc_id_571"><span class="label">Figure 7-52.
 </span>Using the fill slice</h6>
@@ -20734,7 +20734,7 @@ they occupy.
 
 <figure>
 <div id="ch07.xhtml_Unevenborderimagewidths" class="figure">
-<img src="/Def-Images/Images/css5_0753.png" width="600" height="133"
+<img src="./images/css5_0753.png" width="600" height="133"
 alt="css5 0753" />
 <h6 id="ch07.xhtml_sigil_toc_id_572"><span class="label">Figure 7-53.
 </span>Uneven border image widths</h6>
@@ -20797,7 +20797,7 @@ sides, as shown in
 <figure>
 <div id="ch07.xhtml_Placingslice-linesfortheborderimageswidth"
 class="figure">
-<img src="/Def-Images/Images/css5_0754.png" width="600" height="323"
+<img src="./images/css5_0754.png" width="600" height="323"
 alt="css5 0754" />
 <h6 id="ch07.xhtml_sigil_toc_id_575"><span class="label">Figure 7-54.
 </span>Placing slice-lines for the border image’s width</h6>
@@ -20826,7 +20826,7 @@ padding: 12px;
 
 <figure>
 <div id="ch07.xhtml_css5_border_images-with-and-without" class="figure">
-<img src="/Def-Images/Images/css5_0755.png" width="600" height="122"
+<img src="./images/css5_0755.png" width="600" height="122"
 alt="css5 0755" />
 <h6 id="ch07.xhtml_sigil_toc_id_576"><span class="label">Figure 7-55.
 </span>A border with and without its border image</h6>
@@ -20852,7 +20852,7 @@ border-image-width: 33%;
 
 <figure>
 <div id="ch07.xhtml_Placementofpercentageslice-lines" class="figure">
-<img src="/Def-Images/Images/css5_0756.png" width="600" height="289"
+<img src="./images/css5_0756.png" width="600" height="289"
 alt="css5 0756" />
 <h6 id="ch07.xhtml_sigil_toc_id_577"><span class="label">Figure 7-56.
 </span>Placement of percentage slice-lines</h6>
@@ -20919,7 +20919,7 @@ pixel.
 
 <figure>
 <div id="ch07.xhtml_Variousnumericborderimagewidths" class="figure">
-<img src="/Def-Images/Images/css5_0757.png" width="600" height="222"
+<img src="./images/css5_0757.png" width="600" height="222"
 alt="css5 0757" />
 <h6 id="ch07.xhtml_sigil_toc_id_578"><span class="label">Figure 7-57.
 </span>Various numeric border image widths</h6>
@@ -21051,7 +21051,7 @@ and is compared to having no outset nor border image.
 
 <figure>
 <div id="ch07.xhtml_Creatinganimageborderoverhang" class="figure">
-<img src="/Def-Images/Images/css5_0758.png" width="600" height="83"
+<img src="./images/css5_0758.png" width="600" height="83"
 alt="css5 0758" />
 <h6 id="ch07.xhtml_sigil_toc_id_583"><span class="label">Figure 7-58.
 </span>Creating an image border overhang</h6>
@@ -21142,7 +21142,7 @@ in
 
 <figure>
 <div id="ch07.xhtml_Variousimagerepeatpatterns" class="figure">
-<img src="/Def-Images/Images/css5_0759.png" width="600" height="258"
+<img src="./images/css5_0759.png" width="600" height="258"
 alt="css5 0759" />
 <h6 id="ch07.xhtml_sigil_toc_id_587"><span class="label">Figure 7-59.
 </span>Various image-repeat patterns</h6>
@@ -21190,7 +21190,7 @@ for examples of `space` repeating).
 
 <figure>
 <div id="ch07.xhtml_Avarietyofspacerepetitions" class="figure">
-<img src="/Def-Images/Images/css5_0760.png" width="600" height="300"
+<img src="./images/css5_0760.png" width="600" height="300"
 alt="css5 0760" />
 <h6 id="ch07.xhtml_sigil_toc_id_588"><span class="label">Figure 7-60.
 </span>A variety of space repetitions</h6>
@@ -21313,7 +21313,7 @@ both the final result and the fallback result:
 
 <figure>
 <div id="ch07.xhtml_border-ex-01" class="figure">
-<img src="/Def-Images/Images/css5_0761.png" width="600" height="112"
+<img src="./images/css5_0761.png" width="600" height="112"
 alt="css5 0761" />
 <h6 id="ch07.xhtml_sigil_toc_id_592"><span class="label">Figure 7-61.
 </span>A simple plaque effect and its older-browser fallback</h6>
@@ -21346,7 +21346,7 @@ image that's used to create the effect:
 
 <figure>
 <div id="ch07.xhtml_wavy-border" class="figure">
-<img src="/Def-Images/Images/css5_0762.png" width="600" height="189"
+<img src="./images/css5_0762.png" width="600" height="189"
 alt="css5 0762" />
 <h6 id="ch07.xhtml_sigil_toc_id_593"><span class="label">Figure 7-62.
 </span>A wavy border</h6>
@@ -21390,7 +21390,7 @@ wisely.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_border-ex-03" class="figure">
-<img src="/Def-Images/Images/css5_0763.png" width="600" height="249"
+<img src="./images/css5_0763.png" width="600" height="249"
 alt="css5 0763" />
 <h6 id="ch07.xhtml_sigil_toc_id_594"><span class="label">Figure 7-63.
 </span>The background area, visible through the image border</h6>
@@ -21497,7 +21497,7 @@ layout needs.
 
 <figure>
 <div id="ch07.xhtml_Variousoutlinestyles" class="figure">
-<img src="/Def-Images/Images/css5_0764.png" width="600" height="303"
+<img src="./images/css5_0764.png" width="600" height="303"
 alt="css5 0764" />
 <h6 id="ch07.xhtml_sigil_toc_id_598"><span class="label">Figure 7-64.
 </span>Various outline styles</h6>
@@ -21546,7 +21546,7 @@ a few outline widths.
 
 <figure>
 <div id="ch07.xhtml_Variousoutlinewidths" class="figure">
-<img src="/Def-Images/Images/css5_0765.png" width="600" height="72"
+<img src="./images/css5_0765.png" width="600" height="72"
 alt="css5 0765" />
 <h6 id="ch07.xhtml_sigil_toc_id_601"><span class="label">Figure 7-65.
 </span>Various outline widths</h6>
@@ -21655,7 +21655,7 @@ a variety of outlines.
 
 <figure class="width-75">
 <div id="ch07.xhtml_Variousoutlines" class="figure">
-<img src="/Def-Images/Images/css5_0766.png" width="600" height="127"
+<img src="./images/css5_0766.png" width="600" height="127"
 alt="css5 0766" />
 <h6 id="ch07.xhtml_sigil_toc_id_606"><span class="label">Figure 7-66.
 </span>Various outlines</h6>
@@ -21688,7 +21688,7 @@ h1 {padding: 10px; border: 10px solid green;
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Outlineovermargin" class="figure">
-<img src="/Def-Images/Images/css5_0767.png" width="600" height="131"
+<img src="./images/css5_0767.png" width="600" height="131"
 alt="css5 0767" />
 <h6 id="ch07.xhtml_sigil_toc_id_608"><span class="label">Figure 7-67.
 </span>Outline over margin</h6>
@@ -21712,7 +21712,7 @@ span + span {outline: 0.5em double purple;}
 
 <figure>
 <div id="ch07.xhtml_Overlappingoutlines" class="figure">
-<img src="/Def-Images/Images/css5_0768.png" width="600" height="41"
+<img src="./images/css5_0768.png" width="600" height="41"
 alt="css5 0768" />
 <h6 id="ch07.xhtml_sigil_toc_id_609"><span class="label">Figure 7-68.
 </span>Overlapping outlines</h6>
@@ -21736,7 +21736,7 @@ strong {outline: 2px dotted gray;}
 <figure>
 <div id="ch07.xhtml_Discontinuousandnon-rectangularoutlines"
 class="figure">
-<img src="/Def-Images/Images/css5_0769.png" width="600" height="111"
+<img src="./images/css5_0769.png" width="600" height="111"
 alt="css5 0769" />
 <h6 id="ch07.xhtml_sigil_toc_id_610"><span class="label">Figure 7-69.
 </span>Discontinuous and nonrectangular outlines</h6>
@@ -21799,7 +21799,7 @@ same two paragraphs with margins.
 
 <figure>
 <div id="ch07.xhtml_Paragraphswithandwithoutmargins" class="figure">
-<img src="/Def-Images/Images/css5_0770.png" width="600" height="117"
+<img src="./images/css5_0770.png" width="600" height="117"
 alt="css5 0770" />
 <h6 id="ch07.xhtml_sigil_toc_id_613"><span class="label">Figure 7-70.
 </span>Paragraphs with, and without, margins</h6>
@@ -21847,7 +21847,7 @@ purely illustrative and would not actually appear in a web browser.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Settingamarginforh1elements" class="figure">
-<img src="/Def-Images/Images/css5_0771.png" width="600" height="103"
+<img src="./images/css5_0771.png" width="600" height="103"
 alt="css5 0771" />
 <h6 id="ch07.xhtml_sigil_toc_id_615"><span class="label">Figure 7-71.
 </span>Setting a margin for <code>&lt;h1&gt;</code> elements</h6>
@@ -21920,7 +21920,7 @@ with a little extra annotation, the results of this declaration.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Mixed-valuemargins" class="figure">
-<img src="/Def-Images/Images/css5_0772.png" width="600" height="70"
+<img src="./images/css5_0772.png" width="600" height="70"
 alt="css5 0772" />
 <h6 id="ch07.xhtml_sigil_toc_id_617"><span class="label">Figure 7-72.
 </span>Mixed-value margins</h6>
@@ -21966,7 +21966,7 @@ p {margin: 10%;}
 
 <figure>
 <div id="ch07.xhtml_Parentwidthsandpercentages" class="figure">
-<img src="/Def-Images/Images/css5_0773.png" width="600" height="319"
+<img src="./images/css5_0773.png" width="600" height="319"
 alt="css5 0773" />
 <h6 id="ch07.xhtml_sigil_toc_id_619"><span class="label">Figure 7-73.
 </span>Parent widths and percentages</h6>
@@ -22110,7 +22110,7 @@ where the margins fall, as shown in
 
 <figure>
 <div id="ch07.xhtml_Collapsingmargins" class="figure">
-<img src="/Def-Images/Images/css5_0774.png" width="600" height="363"
+<img src="./images/css5_0774.png" width="600" height="363"
 alt="css5 0774" />
 <h6 id="ch07.xhtml_sigil_toc_id_624"><span class="label">Figure 7-74.
 </span>Collapsing margins</h6>
@@ -22158,7 +22158,7 @@ shows us what's happening.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Marginscollapsingwithparents" class="figure">
-<img src="/Def-Images/Images/css5_0775.png" width="600" height="32"
+<img src="./images/css5_0775.png" width="600" height="32"
 alt="css5 0775" />
 <h6 id="ch07.xhtml_sigil_toc_id_625"><span class="label">Figure 7-75.
 </span>Margins collapsing with parents</h6>
@@ -22168,7 +22168,7 @@ alt="css5 0775" />
 <figure class="bordernone">
 <div id="ch07.xhtml_Marginscollapsingwithparentsrevealed"
 class="figure">
-<img src="/Def-Images/Images/css5_0776.png" width="600" height="87"
+<img src="./images/css5_0776.png" width="600" height="87"
 alt="css5 0776" />
 <h6 id="ch07.xhtml_sigil_toc_id_626"><span class="label">Figure 7-76.
 </span>Margins collapsing with parents, revealed</h6>
@@ -22222,7 +22222,7 @@ p.two {margin: -1em 0;}
 
 <figure>
 <div id="ch07.xhtml_Negativemarginsinaction" class="figure">
-<img src="/Def-Images/Images/css5_0777.png" width="600" height="249"
+<img src="./images/css5_0777.png" width="600" height="249"
 alt="css5 0777" />
 <h6 id="ch07.xhtml_sigil_toc_id_629"><span class="label">Figure 7-77.
 </span>Negative margins in action</h6>
@@ -22262,7 +22262,7 @@ startref="ix_neg_margin3" data-type="indexterm"}
 
 <figure>
 <div id="ch07.xhtml_Punchingoutofaparent" class="figure">
-<img src="/Def-Images/Images/css5_0778.png" width="600" height="577"
+<img src="./images/css5_0778.png" width="600" height="577"
 alt="css5 0778" />
 <h6 id="ch07.xhtml_sigil_toc_id_630"><span class="label">Figure 7-78.
 </span>Punching out of a parent</h6>
@@ -22304,7 +22304,7 @@ strong {margin-inline-start: 25px; background: silver;}
 <figure>
 <div id="ch07.xhtml_Aninlinenonreplacedelementwithaleftmargin"
 class="figure">
-<img src="/Def-Images/Images/css5_0779.png" width="600" height="28"
+<img src="./images/css5_0779.png" width="600" height="28"
 alt="css5 0779" />
 <h6 id="ch07.xhtml_sigil_toc_id_632"><span class="label">Figure 7-79.
 </span>An inline nonreplaced element with an inline-start margin</h6>
@@ -22327,7 +22327,7 @@ inline element, and no extra space above or below it.
 <figure>
 <div id="ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidemargins"
 class="figure">
-<img src="/Def-Images/Images/css5_0780.png" width="600" height="28"
+<img src="./images/css5_0780.png" width="600" height="28"
 alt="css5 0780" />
 <h6 id="ch07.xhtml_sigil_toc_id_633"><span class="label">Figure 7-80.
 </span>An inline nonreplaced element with 25-pixel side margins</h6>
@@ -22348,7 +22348,7 @@ strong {margin: 25px; background: silver;}
 <div
 id="ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidemargindisplayedacrosstwolinesoftext"
 class="figure">
-<img src="/Def-Images/Images/css5_0781.png" width="600" height="29"
+<img src="./images/css5_0781.png" width="600" height="29"
 alt="css5 0781" />
 <h6 id="ch07.xhtml_sigil_toc_id_634"><span class="label">Figure 7-81.
 </span>An inline nonreplaced element with 25-pixel side margin displayed
@@ -22386,7 +22386,7 @@ strong {margin: -25px; background: silver;}
 <figure>
 <div id="ch07.xhtml_Aninlinenonreplacedelementwithanegativemargin"
 class="figure">
-<img src="/Def-Images/Images/css5_0782.png" width="600" height="28"
+<img src="./images/css5_0782.png" width="600" height="28"
 alt="css5 0782" />
 <h6 id="ch07.xhtml_sigil_toc_id_636"><span class="label">Figure 7-82.
 </span>An inline nonreplaced element with a negative margin</h6>
@@ -22415,7 +22415,7 @@ elements.
 <figure>
 <div id="ch07.xhtml_Inlinereplacedelementswithdifferingmarginvalues"
 class="figure">
-<img src="/Def-Images/Images/css5_0783.png" width="600" height="290"
+<img src="./images/css5_0783.png" width="600" height="290"
 alt="css5 0783" />
 <h6 id="ch07.xhtml_sigil_toc_id_637"><span class="label">Figure 7-83.
 </span>Inline replaced elements with differing margin values</h6>
@@ -22505,7 +22505,7 @@ p.padded {padding: 1em;}
 
 <figure class="coderesult">
 <div id="ch08.xhtml_cab_fig07" class="figure">
-<img src="/Def-Images/Images/css5_0801.png" width="600" height="64"
+<img src="./images/css5_0801.png" width="600" height="64"
 alt="css5 0801" />
 <h6 id="ch08.xhtml_sigil_toc_id_641"><span class="label">Figure 8-1.
 </span>Background color and padding</h6>
@@ -22593,7 +22593,7 @@ example.
 
 <figure>
 <div id="ch08.xhtml_cab_fig08" class="figure">
-<img src="/Def-Images/Images/css5_0802.png" width="600" height="193"
+<img src="./images/css5_0802.png" width="600" height="193"
 alt="css5 0802" />
 <h6 id="ch08.xhtml_sigil_toc_id_644"><span class="label">Figure 8-2.
 </span>A reverse-text effect for <code>&lt;h1&gt;</code> elements</h6>
@@ -22617,7 +22617,7 @@ a:visited {color: gray; background-color: white;}
 
 <figure>
 <div id="ch08.xhtml_cab_fig09" class="figure">
-<img src="/Def-Images/Images/css5_0803.png" width="600" height="317"
+<img src="./images/css5_0803.png" width="600" height="317"
 alt="css5 0803" />
 <h6 id="ch08.xhtml_sigil_toc_id_645"><span class="label">Figure 8-3.
 </span>The results of a more complicated stylesheet</h6>
@@ -22638,7 +22638,7 @@ img.twotone {background-color: red; padding: 5px; border: 5px solid gold;}
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig10" class="figure">
-<img src="/Def-Images/Images/css5_0804.png" width="240" height="240"
+<img src="./images/css5_0804.png" width="240" height="240"
 alt="css5 0804" />
 <h6 id="ch08.xhtml_sigil_toc_id_646"><span class="label">Figure 8-4.
 </span>Using background and border to two-tone an image</h6>
@@ -22734,7 +22734,7 @@ div[id] {color: navy; background: silver;
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig11" class="figure">
-<img src="/Def-Images/Images/css5_0805.png" width="600" height="120"
+<img src="./images/css5_0805.png" width="600" height="120"
 alt="css5 0805" />
 <h6 id="ch08.xhtml_sigil_toc_id_649"><span class="label">Figure 8-5.
 </span>The three box-oriented types of background clipping</h6>
@@ -22800,7 +22800,7 @@ div {color: rgb(255,0,0); background: rgb(0,0,255);
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cbag_css4_background-clip-text" class="figure">
-<img src="/Def-Images/Images/css5_0806.png" width="600" height="105"
+<img src="./images/css5_0806.png" width="600" height="105"
 alt="css5 0806" />
 <h6 id="ch08.xhtml_sigil_toc_id_650"><span class="label">Figure 8-6.
 </span>Clipping the background to the text</h6>
@@ -22921,7 +22921,7 @@ learn how to change that shortly.
 
 <figure>
 <div id="ch08.xhtml_cab_fig12" class="figure">
-<img src="/Def-Images/Images/css5_0807.png" width="600" height="258"
+<img src="./images/css5_0807.png" width="600" height="258"
 alt="css5 0807" />
 <h6 id="ch08.xhtml_sigil_toc_id_655"><span class="label">Figure 8-7.
 </span>Applying a background image in CSS</h6>
@@ -22956,7 +22956,7 @@ a[href^="mailto:"] {background-image: url(/i/email-icon.png);}
 
 <figure>
 <div id="ch08.xhtml_cab_fig14" class="figure">
-<img src="/Def-Images/Images/css5_0808.png" width="189" height="77"
+<img src="./images/css5_0808.png" width="189" height="77"
 alt="css5 0808" />
 <h6 id="ch08.xhtml_sigil_toc_id_656"><span class="label">Figure 8-8.
 </span>Adding link icons as background images</h6>
@@ -22996,7 +22996,7 @@ doing its own tiling, as shown in
 
 <figure>
 <div id="ch08.xhtml_cab_fig15" class="figure">
-<img src="/Def-Images/Images/css5_0809.png" width="600" height="271"
+<img src="./images/css5_0809.png" width="600" height="271"
 alt="css5 0809" />
 <h6 id="ch08.xhtml_sigil_toc_id_658"><span class="label">Figure 8-9.
 </span>What inherited backgrounds would do to layout</h6>
@@ -23127,7 +23127,7 @@ body {background-image: url(hazard-rad.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig17" class="figure">
-<img src="/Def-Images/Images/css5_0810.png" width="600" height="282"
+<img src="./images/css5_0810.png" width="600" height="282"
 alt="css5 0810" />
 <h6 id="ch08.xhtml_sigil_toc_id_663"><span class="label">Figure 8-10.
 </span>Centering a single background image</h6>
@@ -23241,7 +23241,7 @@ the way down.
 
 <figure>
 <div id="ch08.xhtml_cab_fig19" class="figure">
-<img src="/Def-Images/Images/css5_0811.png" width="600" height="459"
+<img src="./images/css5_0811.png" width="600" height="459"
 alt="css5 0811" />
 <h6 id="ch08.xhtml_sigil_toc_id_666"><span class="label">Figure 8-11.
 </span>Various percentage positions</h6>
@@ -23321,7 +23321,7 @@ percentages, the horizontal value comes first with length values.
 
 <figure>
 <div id="ch08.xhtml_cab_fig21" class="figure">
-<img src="/Def-Images/Images/css5_0812.png" width="600" height="214"
+<img src="./images/css5_0812.png" width="600" height="214"
 alt="css5 0812" />
 <h6 id="ch08.xhtml_sigil_toc_id_668"><span class="label">Figure 8-12.
 </span>Offsetting the background image by using length measures</h6>
@@ -23378,7 +23378,7 @@ body {background-image: url(yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig23" class="figure">
-<img src="/Def-Images/Images/css5_0813.png" width="600" height="228"
+<img src="./images/css5_0813.png" width="600" height="228"
 alt="css5 0813" />
 <h6 id="ch08.xhtml_sigil_toc_id_670"><span class="label">Figure 8-13.
 </span>Using negative length values to position the origin image</h6>
@@ -23414,7 +23414,7 @@ p {background-image: url(pix/yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig24" class="figure">
-<img src="/Def-Images/Images/css5_0814.png" width="600" height="422"
+<img src="./images/css5_0814.png" width="600" height="422"
 alt="css5 0814" />
 <h6 id="ch08.xhtml_sigil_toc_id_671"><span class="label">Figure 8-14.
 </span>Varying effects of negative percentage values</h6>
@@ -23503,7 +23503,7 @@ edge keywords; `30px right 25%` is invalid and will be ignored.
 
 <figure>
 <div id="ch08.xhtml_cab_fig25" class="figure">
-<img src="/Def-Images/Images/css5_0815.png" width="600" height="666"
+<img src="./images/css5_0815.png" width="600" height="666"
 alt="css5 0815" />
 <h6 id="ch08.xhtml_sigil_toc_id_673"><span class="label">Figure 8-15.
 </span>Changing the offset edges for the origin image</h6>
@@ -23520,7 +23520,7 @@ bottom. These are both illustrated in
 
 <figure>
 <div id="ch08.xhtml_cab_fig26" class="figure">
-<img src="/Def-Images/Images/css5_0816.png" width="600" height="305"
+<img src="./images/css5_0816.png" width="600" height="305"
 alt="css5 0816" />
 <h6 id="ch08.xhtml_sigil_toc_id_674"><span class="label">Figure 8-16.
 </span>Inferred zero-length offsets</h6>
@@ -23607,7 +23607,7 @@ div[id] {color: navy; background: silver;
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig27" class="figure">
-<img src="/Def-Images/Images/css5_0817.png" width="600" height="120"
+<img src="./images/css5_0817.png" width="600" height="120"
 alt="css5 0817" />
 <h6 id="ch08.xhtml_sigil_toc_id_677"><span class="label">Figure 8-17.
 </span>The three types of background origins</h6>
@@ -23635,7 +23635,7 @@ div[id] {color: navy; background: silver;
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig28" class="figure">
-<img src="/Def-Images/Images/css5_0818.png" width="600" height="120"
+<img src="./images/css5_0818.png" width="600" height="120"
 alt="css5 0818" />
 <h6 id="ch08.xhtml_sigil_toc_id_678"><span class="label">Figure 8-18.
 </span>The three types of background origins, redux</h6>
@@ -23657,7 +23657,7 @@ in [Figure 8-19](#ch08.xhtml_cab_fig29){data-type="xref"}:
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig29" class="figure">
-<img src="/Def-Images/Images/css5_0819.png" width="600" height="127"
+<img src="./images/css5_0819.png" width="600" height="127"
 alt="css5 0819" />
 <h6 id="ch08.xhtml_sigil_toc_id_679"><span class="label">Figure 8-19.
 </span>When origin and clipping diverge</h6>
@@ -23776,7 +23776,7 @@ body {background-image: url(yinyang-sm.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig30" class="figure">
-<img src="/Def-Images/Images/css5_0820.png" width="600" height="227"
+<img src="./images/css5_0820.png" width="600" height="227"
 alt="css5 0820" />
 <h6 id="ch08.xhtml_sigil_toc_id_682"><span class="label">Figure 8-20.
 </span>Tiling the background image vertically</h6>
@@ -23800,7 +23800,7 @@ background area.
 
 <figure>
 <div id="ch08.xhtml_cab_fig31" class="figure">
-<img src="/Def-Images/Images/css5_0821.png" width="600" height="220"
+<img src="./images/css5_0821.png" width="600" height="220"
 alt="css5 0821" />
 <h6 id="ch08.xhtml_sigil_toc_id_683"><span class="label">Figure 8-21.
 </span>Tiling the background image horizontally</h6>
@@ -23827,7 +23827,7 @@ body {background-image: url(yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig32" class="figure">
-<img src="/Def-Images/Images/css5_0822.png" width="600" height="230"
+<img src="./images/css5_0822.png" width="600" height="230"
 alt="css5 0822" />
 <h6 id="ch08.xhtml_sigil_toc_id_684"><span class="label">Figure 8-22.
 </span>Placing a single large background image</h6>
@@ -23851,7 +23851,7 @@ h2 {background-image: url(wavybord.gif); background-repeat: repeat-x;
 
 <figure>
 <div id="ch08.xhtml_cab_fig33" class="figure">
-<img src="/Def-Images/Images/css5_0823.png" width="600" height="213"
+<img src="./images/css5_0823.png" width="600" height="213"
 alt="css5 0823" />
 <h6 id="ch08.xhtml_sigil_toc_id_685"><span class="label">Figure 8-23.
 </span>Bordering elements with background images</h6>
@@ -23896,7 +23896,7 @@ p.c2 {background-repeat: repeat-x;}
 
 <figure>
 <div id="ch08.xhtml_cab_fig34" class="figure">
-<img src="/Def-Images/Images/css5_0824.png" width="600" height="150"
+<img src="./images/css5_0824.png" width="600" height="150"
 alt="css5 0824" />
 <h6 id="ch08.xhtml_sigil_toc_id_688"><span class="label">Figure 8-24.
 </span>Centering the origin image and repeating it</h6>
@@ -23956,7 +23956,7 @@ div#example {background-image: url(yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig36" class="figure">
-<img src="/Def-Images/Images/css5_0825.png" width="600" height="503"
+<img src="./images/css5_0825.png" width="600" height="503"
 alt="css5 0825" />
 <h6 id="ch08.xhtml_sigil_toc_id_691"><span class="label">Figure 8-25.
 </span>Tiling the background image with filler space</h6>
@@ -23981,7 +23981,7 @@ examples.
 
 <figure>
 <div id="ch08.xhtml_cab_fig37" class="figure">
-<img src="/Def-Images/Images/css5_0826.png" width="600" height="223"
+<img src="./images/css5_0826.png" width="600" height="223"
 alt="css5 0826" />
 <h6 id="ch08.xhtml_sigil_toc_id_692"><span class="label">Figure 8-26.
 </span>Tiling with different intervals showing
@@ -24015,7 +24015,7 @@ div#example {background-image: url(yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig38" class="figure">
-<img src="/Def-Images/Images/css5_0827.png" width="600" height="106"
+<img src="./images/css5_0827.png" width="600" height="106"
 alt="css5 0827" />
 <h6 id="ch08.xhtml_sigil_toc_id_694"><span class="label">Figure 8-27.
 </span>Spacing along one axis but not the other</h6>
@@ -24055,7 +24055,7 @@ body {background-image: url(yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig39" class="figure">
-<img src="/Def-Images/Images/css5_0828.png" width="600" height="252"
+<img src="./images/css5_0828.png" width="600" height="252"
 alt="css5 0828" />
 <h6 id="ch08.xhtml_sigil_toc_id_695"><span class="label">Figure 8-28.
 </span>Tiling the background image with scaling</h6>
@@ -24089,7 +24089,7 @@ body {background-image: url(yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig40" class="figure">
-<img src="/Def-Images/Images/css5_0829.png" width="600" height="257"
+<img src="./images/css5_0829.png" width="600" height="257"
 alt="css5 0829" />
 <h6 id="ch08.xhtml_sigil_toc_id_696"><span class="label">Figure 8-29.
 </span>Rounded background images that are clipped</h6>
@@ -24136,7 +24136,7 @@ examples of what can happen.
 
 <figure>
 <div id="ch08.xhtml_cab_fig41" class="figure">
-<img src="/Def-Images/Images/css5_0830.png" width="600" height="197"
+<img src="./images/css5_0830.png" width="600" height="197"
 alt="css5 0830" />
 <h6 id="ch08.xhtml_sigil_toc_id_698"><span class="label">Figure 8-30.
 </span>Clipping due to mismatched clip and origin values</h6>
@@ -24227,7 +24227,7 @@ has been scrolled partway through the text.
 
 <figure>
 <div id="ch08.xhtml_cab_fig43" class="figure">
-<img src="/Def-Images/Images/css5_0831.png" width="600" height="293"
+<img src="./images/css5_0831.png" width="600" height="293"
 alt="css5 0831" />
 <h6 id="ch08.xhtml_sigil_toc_id_701"><span class="label">Figure 8-31.
 </span>The centering continues to hold</h6>
@@ -24271,7 +24271,7 @@ aside {background-image: url(yinyang.png);
 <figure>
 <div id="ch08.xhtml_cbag_css4_background-attachment-local"
 class="figure">
-<img src="/Def-Images/Images/css5_0832.png" width="600" height="165"
+<img src="./images/css5_0832.png" width="600" height="165"
 alt="css5 0832" />
 <h6 id="ch08.xhtml_sigil_toc_id_702"><span class="label">Figure 8-32.
 </span>Default scroll attachment versus local attachment</h6>
@@ -24322,7 +24322,7 @@ shown in [Figure 8-33](#ch08.xhtml_cab_fig44){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig44" class="figure">
-<img src="/Def-Images/Images/css5_0833.png" width="600" height="239"
+<img src="./images/css5_0833.png" width="600" height="239"
 alt="css5 0833" />
 <h6 id="ch08.xhtml_sigil_toc_id_704"><span class="label">Figure 8-33.
 </span>Perfect alignment of backgrounds</h6>
@@ -24336,7 +24336,7 @@ shown in [Figure 8-34](#ch08.xhtml_cab_fig45){data-type="xref"}.
 
 <figure>
 <div id="ch08.xhtml_cab_fig45" class="figure">
-<img src="/Def-Images/Images/css5_0834.png" width="600" height="427"
+<img src="./images/css5_0834.png" width="600" height="427"
 alt="css5 0834" />
 <h6 id="ch08.xhtml_sigil_toc_id_705"><span class="label">Figure 8-34.
 </span>The complexspiral distorted</h6>
@@ -24413,7 +24413,7 @@ main {background-image: url(yinyang.png);
 
 <figure>
 <div id="ch08.xhtml_cab_fig46" class="figure">
-<img src="/Def-Images/Images/css5_0835.png" width="600" height="298"
+<img src="./images/css5_0835.png" width="600" height="298"
 alt="css5 0835" />
 <h6 id="ch08.xhtml_sigil_toc_id_708"><span class="label">Figure 8-35.
 </span>Resizing the origin image</h6>
@@ -24432,7 +24432,7 @@ backgrounds.
 
 <figure>
 <div id="ch08.xhtml_cab_fig47" class="figure">
-<img src="/Def-Images/Images/css5_0836.png" width="600" height="290"
+<img src="./images/css5_0836.png" width="600" height="290"
 alt="css5 0836" />
 <h6 id="ch08.xhtml_sigil_toc_id_709"><span class="label">Figure 8-36.
 </span>Distorting the origin image by resizing it</h6>
@@ -24457,7 +24457,7 @@ background-size: 50% 50%;
 
 <figure>
 <div id="ch08.xhtml_cab_fig48" class="figure">
-<img src="/Def-Images/Images/css5_0837.png" width="600" height="400"
+<img src="./images/css5_0837.png" width="600" height="400"
 alt="css5 0837" />
 <h6 id="ch08.xhtml_sigil_toc_id_710"><span class="label">Figure 8-37.
 </span>Resizing the origin image with percentages</h6>
@@ -24550,7 +24550,7 @@ your element is wider than it is tall, or taller than it is wide.
 
 <figure>
 <div id="ch08.xhtml_cab_fig50" class="figure">
-<img src="/Def-Images/Images/css5_0838.png" width="600" height="300"
+<img src="./images/css5_0838.png" width="600" height="300"
 alt="css5 0838" />
 <h6 id="ch08.xhtml_sigil_toc_id_713"><span class="label">Figure 8-38.
 </span>Covering the background with the origin image</h6>
@@ -24575,7 +24575,7 @@ main {width: 800px; height: 400px;
 
 <figure>
 <div id="ch08.xhtml_cab_fig51" class="figure">
-<img src="/Def-Images/Images/css5_0839.png" width="600" height="307"
+<img src="./images/css5_0839.png" width="600" height="307"
 alt="css5 0839" />
 <h6 id="ch08.xhtml_sigil_toc_id_714"><span class="label">Figure 8-39.
 </span>Containing the origin image within the background</h6>
@@ -24599,7 +24599,7 @@ no big deal if that's what you want.
 
 <figure>
 <div id="ch08.xhtml_cab_fig52" class="figure">
-<img src="/Def-Images/Images/css5_0840.png" width="600" height="307"
+<img src="./images/css5_0840.png" width="600" height="307"
 alt="css5 0840" />
 <h6 id="ch08.xhtml_sigil_toc_id_715"><span class="label">Figure 8-40.
 </span>Repeating a contained origin image</h6>
@@ -24634,7 +24634,7 @@ div {border: 1px solid red;
 
 <figure>
 <div id="ch08.xhtml_cab_fig53" class="figure">
-<img src="/Def-Images/Images/css5_0841.png" width="600" height="367"
+<img src="./images/css5_0841.png" width="600" height="367"
 alt="css5 0841" />
 <h6 id="ch08.xhtml_sigil_toc_id_716"><span class="label">Figure 8-41.
 </span>Covering and containing with <code>background-clip</code> and
@@ -24757,7 +24757,7 @@ body {background:
 
 <figure>
 <div id="ch08.xhtml_cab_fig54" class="figure">
-<img src="/Def-Images/Images/css5_0842.png" width="600" height="418"
+<img src="./images/css5_0842.png" width="600" height="418"
 alt="css5 0842" />
 <h6 id="ch08.xhtml_sigil_toc_id_720"><span class="label">Figure 8-42.
 </span>Using shorthand</h6>
@@ -24885,7 +24885,7 @@ Seriously. It will look like
 
 <figure>
 <div id="ch08.xhtml_cab_fig55" class="figure">
-<img src="/Def-Images/Images/css5_0843.png" width="600" height="216"
+<img src="./images/css5_0843.png" width="600" height="216"
 alt="css5 0843" />
 <h6 id="ch08.xhtml_sigil_toc_id_722"><span class="label">Figure 8-43.
 </span>Multiple background images</h6>
@@ -24931,7 +24931,7 @@ section {background-image: url(bg01.png), url(bg02.gif), url(bg03.jpg);
 
 <figure>
 <div id="ch08.xhtml_cab_fig56" class="figure">
-<img src="/Def-Images/Images/css5_0844.png" width="600" height="216"
+<img src="./images/css5_0844.png" width="600" height="216"
 alt="css5 0844" />
 <h6 id="ch08.xhtml_sigil_toc_id_723"><span class="label">Figure 8-44.
 </span>Individually positioning background images</h6>
@@ -24966,7 +24966,7 @@ section {
 
 <figure>
 <div id="ch08.xhtml_cab_fig57" class="figure">
-<img src="/Def-Images/Images/css5_0845.png" width="600" height="216"
+<img src="./images/css5_0845.png" width="600" height="216"
 alt="css5 0845" />
 <h6 id="ch08.xhtml_sigil_toc_id_724"><span class="label">Figure 8-45.
 </span>Multiple background layers via shorthand</h6>
@@ -25065,7 +25065,7 @@ primary="" startref="ix_back_image_multi" data-type="indexterm"}
 
 <figure>
 <div id="ch08.xhtml_cab_fig59" class="figure">
-<img src="/Def-Images/Images/css5_0846.png" width="600" height="213"
+<img src="./images/css5_0846.png" width="600" height="213"
 alt="css5 0846" />
 <h6 id="ch08.xhtml_sigil_toc_id_725"><span class="label">Figure 8-46.
 </span>Obscuring layers with repeated images</h6>
@@ -25139,7 +25139,7 @@ background-repeat: no-repeat;
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig60" class="figure">
-<img src="/Def-Images/Images/css5_0847.png" width="600" height="178"
+<img src="./images/css5_0847.png" width="600" height="178"
 alt="css5 0847" />
 <h6 id="ch08.xhtml_sigil_toc_id_727"><span class="label">Figure 8-47.
 </span>Placing the same image in all four corners</h6>
@@ -25202,7 +25202,7 @@ created with the following code:
 
 <figure>
 <div id="ch08.xhtml_Asimpleboxshadow" class="figure">
-<img src="/Def-Images/Images/css5_0848.png" width="600" height="140"
+<img src="./images/css5_0848.png" width="600" height="140"
 alt="css5 0848" />
 <h6 id="ch08.xhtml_sigil_toc_id_730"><span class="label">Figure 8-48.
 </span>A simple box shadow</h6>
@@ -25229,7 +25229,7 @@ following, illustrated in
 
 <figure>
 <div id="ch08.xhtml_Boxshadowsareincomplete" class="figure">
-<img src="/Def-Images/Images/css5_0849.png" width="600" height="140"
+<img src="./images/css5_0849.png" width="600" height="140"
 alt="css5 0849" />
 <h6 id="ch08.xhtml_sigil_toc_id_731"><span class="label">Figure 8-49.
 </span>Box shadows are incomplete</h6>
@@ -25275,7 +25275,7 @@ following has the results shown in
 
 <figure>
 <div id="ch08.xhtml_Variousblurredandspreadshadows" class="figure">
-<img src="/Def-Images/Images/css5_0850.png" width="600" height="95"
+<img src="./images/css5_0850.png" width="600" height="95"
 alt="css5 0850" />
 <h6 id="ch08.xhtml_sigil_toc_id_732"><span class="label">Figure 8-50.
 </span>Various blurred and spread shadows</h6>
@@ -25309,7 +25309,7 @@ shown in
 
 <figure>
 <div id="ch08.xhtml_Variousinsetshadows" class="figure">
-<img src="/Def-Images/Images/css5_0851.png" width="600" height="55"
+<img src="./images/css5_0851.png" width="600" height="55"
 alt="css5 0851" />
 <h6 id="ch08.xhtml_sigil_toc_id_733"><span class="label">Figure 8-51.
 </span>Various inset shadows</h6>
@@ -25414,7 +25414,7 @@ darker gray, as shown in
 
 <figure>
 <div id="ch09.xhtml_cab_fig61" class="figure">
-<img src="/Def-Images/Images/css5_0901.png" width="600" height="115"
+<img src="./images/css5_0901.png" width="600" height="115"
 alt="css5 0901" />
 <h6 id="ch09.xhtml_sigil_toc_id_736"><span class="label">Figure 9-1.
 </span>The progression of a simple gradient</h6>
@@ -25464,7 +25464,7 @@ are a few relatively simple gradients, with the results shown in
 
 <figure>
 <div id="ch09.xhtml_cab_fig62" class="figure">
-<img src="/Def-Images/Images/css5_0902.png" width="600" height="111"
+<img src="./images/css5_0902.png" width="600" height="111"
 alt="css5 0902" />
 <h6 id="ch09.xhtml_sigil_toc_id_738"><span class="label">Figure 9-2.
 </span>Simple linear gradients</h6>
@@ -25513,7 +25513,7 @@ blockquote {
 
 <figure>
 <div id="ch09.xhtml_linear-gradients-solid-color-sized" class="figure">
-<img src="/Def-Images/Images/css5_0903.png" width="600" height="126"
+<img src="./images/css5_0903.png" width="600" height="126"
 alt="css5 0903" />
 <h6 id="ch09.xhtml_sigil_toc_id_739"><span class="label">Figure 9-3.
 </span>Solid-color gradients</h6>
@@ -25579,7 +25579,7 @@ opacity. Consider the following rules, which are depicted in
 
 <figure>
 <div id="ch09.xhtml_cab_fig63" class="figure">
-<img src="/Def-Images/Images/css5_0904.png" width="600" height="178"
+<img src="./images/css5_0904.png" width="600" height="178"
 alt="css5 0904" />
 <h6 id="ch09.xhtml_sigil_toc_id_741"><span class="label">Figure 9-4.
 </span>Fading to white versus fading to transparent</h6>
@@ -25612,7 +25612,7 @@ indicating how far along the gradient line the color stops are placed.
 
 <figure>
 <div id="ch09.xhtml_cab_fig64" class="figure">
-<img src="/Def-Images/Images/css5_0905.png" width="600" height="80"
+<img src="./images/css5_0905.png" width="600" height="80"
 alt="css5 0905" />
 <h6 id="ch09.xhtml_sigil_toc_id_742"><span class="label">Figure 9-5.
 </span>The distribution of color stops along the gradient line</h6>
@@ -25659,7 +25659,7 @@ color of the rainbow occur every 25 pixels, as shown in
 
 <figure>
 <div id="ch09.xhtml_cab_fig65" class="figure">
-<img src="/Def-Images/Images/css5_0906.png" width="600" height="134"
+<img src="./images/css5_0906.png" width="600" height="134"
 alt="css5 0906" />
 <h6 id="ch09.xhtml_sigil_toc_id_744"><span class="label">Figure 9-6.
 </span>Placing color stops every 25 pixels</h6>
@@ -25687,7 +25687,7 @@ following code:
 
 <figure>
 <div id="ch09.xhtml_cab_fig66" class="figure">
-<img src="/Def-Images/Images/css5_0907.png" width="600" height="91"
+<img src="./images/css5_0907.png" width="600" height="91"
 alt="css5 0907" />
 <h6 id="ch09.xhtml_sigil_toc_id_745"><span class="label">Figure 9-7.
 </span>Gradient clipping when color stops go too far</h6>
@@ -25725,7 +25725,7 @@ line. The following code, for example, results in
 
 <figure>
 <div id="ch09.xhtml_cab_fig67" class="figure">
-<img src="/Def-Images/Images/css5_0908.png" width="600" height="96"
+<img src="./images/css5_0908.png" width="600" height="96"
 alt="css5 0908" />
 <h6 id="ch09.xhtml_sigil_toc_id_746"><span class="label">Figure 9-8.
 </span>Gradient clipping when color stops have negative positions</h6>
@@ -25747,7 +25747,7 @@ the result shown in
 
 <figure>
 <div id="ch09.xhtml_cab_fig68" class="figure">
-<img src="/Def-Images/Images/css5_0909.png" width="600" height="96"
+<img src="./images/css5_0909.png" width="600" height="96"
 alt="css5 0909" />
 <h6 id="ch09.xhtml_sigil_toc_id_747"><span class="label">Figure 9-9.
 </span>Placing color stops every 10%</h6>
@@ -25796,7 +25796,7 @@ All that happens is the two color stops are put on top of each other.
 
 <figure>
 <div id="ch09.xhtml_cab_fig70" class="figure">
-<img src="/Def-Images/Images/css5_0910.png" width="600" height="109"
+<img src="./images/css5_0910.png" width="600" height="109"
 alt="css5 0910" />
 <h6 id="ch09.xhtml_sigil_toc_id_748"><span class="label">Figure 9-10.
 </span>The effect of coincident, or “hard,” color stops</h6>
@@ -25828,7 +25828,7 @@ effect. The following code results in the stripes shown in
 
 <figure>
 <div id="ch09.xhtml_cab_fig71" class="figure">
-<img src="/Def-Images/Images/css5_0911.png" width="600" height="57"
+<img src="./images/css5_0911.png" width="600" height="57"
 alt="css5 0911" />
 <h6 id="ch09.xhtml_sigil_toc_id_749"><span class="label">Figure 9-11.
 </span>Hard-stop stripes</h6>
@@ -25904,7 +25904,7 @@ the results.
 
 <figure>
 <div id="ch09.xhtml_cab_fig72" class="figure">
-<img src="/Def-Images/Images/css5_0912.png" width="600" height="58"
+<img src="./images/css5_0912.png" width="600" height="58"
 alt="css5 0912" />
 <h6 id="ch09.xhtml_sigil_toc_id_750"><span class="label">Figure 9-12.
 </span>Handling color stops that are out of place</h6>
@@ -25964,7 +25964,7 @@ linear-gradient(
 <figure>
 <div id="ch09.xhtml_cbag_css4_gradient-color-hints-default"
 class="figure">
-<img src="/Def-Images/Images/css5_0913.png" width="600" height="78"
+<img src="./images/css5_0913.png" width="600" height="78"
 alt="css5 0913" />
 <h6 id="ch09.xhtml_sigil_toc_id_752"><span class="label">Figure 9-13.
 </span>Linear blending from one color stop to the next</h6>
@@ -25993,7 +25993,7 @@ result seen in
 <figure>
 <div id="ch09.xhtml_cbag_css4_gradient-color-hints-various"
 class="figure">
-<img src="/Def-Images/Images/css5_0914.png" width="600" height="298"
+<img src="./images/css5_0914.png" width="600" height="298"
 alt="css5 0914" />
 <h6 id="ch09.xhtml_sigil_toc_id_753"><span class="label">Figure 9-14.
 </span>Black to gray with differing midpoint hints</h6>
@@ -26047,7 +26047,7 @@ the result is rather different for these two examples:
 <figure>
 <div id="ch09.xhtml_cbag_css4_gradient-color-hints-curve"
 class="figure">
-<img src="/Def-Images/Images/css5_0915.png" width="600" height="127"
+<img src="./images/css5_0915.png" width="600" height="127"
 alt="css5 0915" />
 <h6 id="ch09.xhtml_sigil_toc_id_754"><span class="label">Figure 9-15.
 </span>Comparing two linear gradients to one hinted transition</h6>
@@ -26113,7 +26113,7 @@ with the final gradient shown next to it.
 
 <figure>
 <div id="ch09.xhtml_cab_fig73" class="figure">
-<img src="/Def-Images/Images/css5_0916.png" width="600" height="243"
+<img src="./images/css5_0916.png" width="600" height="243"
 alt="css5 0916" />
 <h6 id="ch09.xhtml_sigil_toc_id_757"><span class="label">Figure 9-16.
 </span>The placement and sizing of the gradient line</h6>
@@ -26168,7 +26168,7 @@ smooth blending in between. This is illustrated in
 
 <figure>
 <div id="ch09.xhtml_cab_fig74" class="figure">
-<img src="/Def-Images/Images/css5_0917.png" width="600" height="192"
+<img src="./images/css5_0917.png" width="600" height="192"
 alt="css5 0917" />
 <h6 id="ch09.xhtml_sigil_toc_id_758"><span class="label">Figure 9-17.
 </span>The calculation of color along the gradient line</h6>
@@ -26188,7 +26188,7 @@ to the gradient line is a solid color.
 
 <figure>
 <div id="ch09.xhtml_cab_fig75" class="figure">
-<img src="/Def-Images/Images/css5_0918.png" width="600" height="189"
+<img src="./images/css5_0918.png" width="600" height="189"
 alt="css5 0918" />
 <h6 id="ch09.xhtml_sigil_toc_id_759"><span class="label">Figure 9-18.
 </span>The extension of selected colors along the gradient line</h6>
@@ -26205,7 +26205,7 @@ corners of the gradient image.
 
 <figure>
 <div id="ch09.xhtml_cab_fig76" class="figure">
-<img src="/Def-Images/Images/css5_0919.png" width="600" height="223"
+<img src="./images/css5_0919.png" width="600" height="223"
 alt="css5 0919" />
 <h6 id="ch09.xhtml_sigil_toc_id_760"><span class="label">Figure 9-19.
 </span>How gradients are constructed for various images</h6>
@@ -26230,7 +26230,7 @@ gradient are all shown in
 
 <figure>
 <div id="ch09.xhtml_cab_fig77" class="figure">
-<img src="/Def-Images/Images/css5_0920.png" width="600" height="230"
+<img src="./images/css5_0920.png" width="600" height="230"
 alt="css5 0920" />
 <h6 id="ch09.xhtml_sigil_toc_id_761"><span class="label">Figure 9-20.
 </span>A gradient with stops beyond the starting and ending points</h6>
@@ -26263,7 +26263,7 @@ something to refer to.
 
 <figure>
 <div id="ch09.xhtml_cab_fig78" class="figure">
-<img src="/Def-Images/Images/css5_0921.png" width="600" height="500"
+<img src="./images/css5_0921.png" width="600" height="500"
 alt="css5 0921" />
 <h6 id="ch09.xhtml_sigil_toc_id_762"><span class="label">Figure 9-21.
 </span>A gradient headed toward the top right</h6>
@@ -26310,7 +26310,7 @@ linear-gradient(
 
 <figure>
 <div id="ch09.xhtml_cab_fig79" class="figure">
-<img src="/Def-Images/Images/css5_0922.png" width="600" height="166"
+<img src="./images/css5_0922.png" width="600" height="166"
 alt="css5 0922" />
 <h6 id="ch09.xhtml_sigil_toc_id_763"><span class="label">Figure 9-22.
 </span>Examples of the side effects of a quadrant-directed gradient</h6>
@@ -26372,7 +26372,7 @@ div.fishy {background-color: salmon;}
 
 <figure>
 <div id="ch09.xhtml_linear-gradients-tablecloth-regular" class="figure">
-<img src="/Def-Images/Images/css5_0923.png" width="600" height="191"
+<img src="./images/css5_0923.png" width="600" height="191"
 alt="css5 0923" />
 <h6 id="ch09.xhtml_sigil_toc_id_765"><span class="label">Figure 9-23.
 </span>Papayawhip-, palegoldenrod-, and salmon- colored table
@@ -26419,7 +26419,7 @@ h1.example {background:
 
 <figure>
 <div id="ch09.xhtml_cab_fig96" class="figure">
-<img src="/Def-Images/Images/css5_0924.png" width="600" height="28"
+<img src="./images/css5_0924.png" width="600" height="28"
 alt="css5 0924" />
 <h6 id="ch09.xhtml_sigil_toc_id_766"><span class="label">Figure 9-24.
 </span>Tiling gradient images with a repeating background image</h6>
@@ -26439,7 +26439,7 @@ h1.example {background: repeating-linear-gradient(-45deg,
 
 <figure>
 <div id="ch09.xhtml_cab_fig97" class="figure">
-<img src="/Def-Images/Images/css5_0925.png" width="600" height="28"
+<img src="./images/css5_0925.png" width="600" height="28"
 alt="css5 0925" />
 <h6 id="ch09.xhtml_sigil_toc_id_767"><span class="label">Figure 9-25.
 </span>A repeating gradient image</h6>
@@ -26475,7 +26475,7 @@ comparison of the two approaches.
 
 <figure>
 <div id="ch09.xhtml_cab_fig98" class="figure">
-<img src="/Def-Images/Images/css5_0926.png" width="600" height="74"
+<img src="./images/css5_0926.png" width="600" height="74"
 alt="css5 0926" />
 <h6 id="ch09.xhtml_sigil_toc_id_768"><span class="label">Figure 9-26.
 </span>Dealing with hard resets in repeating-gradient images</h6>
@@ -26547,7 +26547,7 @@ in fact---presented in a variety of differently shaped elements
 
 <figure>
 <div id="ch09.xhtml_cab_fig80" class="figure">
-<img src="/Def-Images/Images/css5_0927.png" width="600" height="166"
+<img src="./images/css5_0927.png" width="600" height="166"
 alt="css5 0927" />
 <h6 id="ch09.xhtml_sigil_toc_id_770"><span class="label">Figure 9-27.
 </span>A simple radial gradient in multiple settings</h6>
@@ -26606,7 +26606,7 @@ gradients.
 
 <figure class="width-50">
 <div id="ch09.xhtml_cab_fig81" class="figure">
-<img src="/Def-Images/Images/css5_0928.png" width="600" height="285"
+<img src="./images/css5_0928.png" width="600" height="285"
 alt="css5 0928" />
 <h6 id="ch09.xhtml_sigil_toc_id_772"><span class="label">Figure 9-28.
 </span>Simple radial gradients</h6>
@@ -26637,7 +26637,7 @@ radial-gradient(50% 25%, purple, gold)
 
 <figure>
 <div id="ch09.xhtml_cab_fig82" class="figure">
-<img src="/Def-Images/Images/css5_0929.png" width="600" height="167"
+<img src="./images/css5_0929.png" width="600" height="167"
 alt="css5 0929" />
 <h6 id="ch09.xhtml_sigil_toc_id_773"><span class="label">Figure 9-29.
 </span>Percentage-sized elliptical gradients</h6>
@@ -26714,7 +26714,7 @@ each keyword applied as both a circle and an ellipse.
 
 <figure>
 <div id="ch09.xhtml_cab_fig83" class="figure">
-<img src="/Def-Images/Images/css5_0930.png" width="600" height="245"
+<img src="./images/css5_0930.png" width="600" height="245"
 alt="css5 0930" />
 <h6 id="ch09.xhtml_sigil_toc_id_774"><span class="label">Figure 9-30.
 </span>The effects of radial-gradient sizing keywords (positioned
@@ -26772,7 +26772,7 @@ radial-gradient(at 30px 66%, purple, gold);
 
 <figure>
 <div id="ch09.xhtml_cab_fig84" class="figure">
-<img src="/Def-Images/Images/css5_0931.png" width="600" height="111"
+<img src="./images/css5_0931.png" width="600" height="111"
 alt="css5 0931" />
 <h6 id="ch09.xhtml_sigil_toc_id_776"><span class="label">Figure 9-31.
 </span>Changing the center position of radial gradients</h6>
@@ -26795,7 +26795,7 @@ radial-gradient(closest-corner at 30px 66%, purple, gold);
 
 <figure>
 <div id="ch09.xhtml_cab_fig85" class="figure">
-<img src="/Def-Images/Images/css5_0932.png" width="600" height="111"
+<img src="./images/css5_0932.png" width="600" height="111"
 alt="css5 0932" />
 <h6 id="ch09.xhtml_sigil_toc_id_777"><span class="label">Figure 9-32.
 </span>Changing the center position of explicitly sized radial
@@ -26849,7 +26849,7 @@ radial-gradient(100px circle at center, purple 0%, green, gold 100%);
 
 <figure>
 <div id="ch09.xhtml_cab_fig86" class="figure">
-<img src="/Def-Images/Images/css5_0933.png" width="581" height="581"
+<img src="./images/css5_0933.png" width="581" height="581"
 alt="css5 0933" />
 <h6 id="ch09.xhtml_sigil_toc_id_779"><span class="label">Figure 9-33.
 </span>Adding a color stop</h6>
@@ -26871,7 +26871,7 @@ gradient ray and the ellipses that are drawn at various points along it.
 
 <figure>
 <div id="ch09.xhtml_cab_fig87" class="figure">
-<img src="/Def-Images/Images/css5_0934.png" width="600" height="469"
+<img src="./images/css5_0934.png" width="600" height="469"
 alt="css5 0934" />
 <h6 id="ch09.xhtml_sigil_toc_id_780"><span class="label">Figure 9-34.
 </span>The gradient ray and some of the ellipses it spawns</h6>
@@ -26895,7 +26895,7 @@ in some detail.
 
 <figure>
 <div id="ch09.xhtml_cab_fig88" class="figure">
-<img src="/Def-Images/Images/css5_0935.png" width="600" height="450"
+<img src="./images/css5_0935.png" width="600" height="450"
 alt="css5 0935" />
 <h6 id="ch09.xhtml_sigil_toc_id_781"><span class="label">Figure 9-35.
 </span>Setting the gradient ray’s ending point</h6>
@@ -26925,7 +26925,7 @@ radial-gradient(50px circle at center, purple, green, gold 80px)
 
 <figure class="width-50">
 <div id="ch09.xhtml_cab_fig89" class="figure">
-<img src="/Def-Images/Images/css5_0936.png" width="600" height="600"
+<img src="./images/css5_0936.png" width="600" height="600"
 alt="css5 0936" />
 <h6 id="ch09.xhtml_sigil_toc_id_782"><span class="label">Figure 9-36.
 </span>Color stops beyond the ending point</h6>
@@ -26975,7 +26975,7 @@ radial-gradient(80px, purple -40px, green, gold)
 
 <figure class="width-50">
 <div id="ch09.xhtml_cab_fig90" class="figure">
-<img src="/Def-Images/Images/css5_0937.png" width="600" height="600"
+<img src="./images/css5_0937.png" width="600" height="600"
 alt="css5 0937" />
 <h6 id="ch09.xhtml_sigil_toc_id_783"><span class="label">Figure 9-37.
 </span>Handling a negative color-stop position</h6>
@@ -27076,7 +27076,7 @@ radial-gradient(0px 50% at center, purple 0px, gold 100px)
 
 <figure>
 <div id="ch09.xhtml_cab_fig91" class="figure">
-<img src="/Def-Images/Images/css5_0938.png" width="400" height="400"
+<img src="./images/css5_0938.png" width="400" height="400"
 alt="css5 0938" />
 <h6 id="ch09.xhtml_sigil_toc_id_785"><span class="label">Figure 9-38.
 </span>The effects of a zero-width ellipse</h6>
@@ -27102,7 +27102,7 @@ diagrammed in [Figure 9-39](#ch09.xhtml_cab_fig92){data-type="xref"}.
 
 <figure>
 <div id="ch09.xhtml_cab_fig92" class="figure">
-<img src="/Def-Images/Images/css5_0939.png" width="600" height="340"
+<img src="./images/css5_0939.png" width="600" height="340"
 alt="css5 0939" />
 <h6 id="ch09.xhtml_sigil_toc_id_786"><span class="label">Figure 9-39.
 </span>Very, very tall ellipses</h6>
@@ -27203,7 +27203,7 @@ an example.
 
 <figure>
 <div id="ch09.xhtml_cab_fig100" class="figure">
-<img src="/Def-Images/Images/css5_0940.png" width="600" height="150"
+<img src="./images/css5_0940.png" width="600" height="150"
 alt="css5 0940" />
 <h6 id="ch09.xhtml_sigil_toc_id_789"><span class="label">Figure 9-40.
 </span>Repeating radial gradients</h6>
@@ -27282,7 +27282,7 @@ background:
 
 <figure>
 <div id="ch09.xhtml_conic-gradient-simple" class="figure">
-<img src="/Def-Images/Images/css5_0941.png" width="600" height="383"
+<img src="./images/css5_0941.png" width="600" height="383"
 alt="css5 0941" />
 <h6 id="ch09.xhtml_sigil_toc_id_791"><span class="label">Figure 9-41.
 </span>A simple conic gradient and its linear equivalent</h6>
@@ -27327,7 +27327,7 @@ conic-gradient(from 45deg, black, white 90deg, gray 180deg, black 270deg, white)
 <figure>
 <div id="ch09.xhtml_conic-gradients-different-start-angles"
 class="figure">
-<img src="/Def-Images/Images/css5_0942.png" width="600" height="292"
+<img src="./images/css5_0942.png" width="600" height="292"
 alt="css5 0942" />
 <h6 id="ch09.xhtml_sigil_toc_id_792"><span class="label">Figure 9-42.
 </span>Conic gradients with angled color stops and different start
@@ -27353,7 +27353,7 @@ conic-gradient(from 144 deg at center bottom, black, gray, black, white)
 
 <figure class="coderesult">
 <div id="ch09.xhtml_conic-gradients-rotated-and-offset" class="figure">
-<img src="/Def-Images/Images/css5_0943.png" width="600" height="171"
+<img src="./images/css5_0943.png" width="600" height="171"
 alt="css5 0943" />
 <h6 id="ch09.xhtml_sigil_toc_id_793"><span class="label">Figure 9-43.
 </span>Rotated and offset conic gradients</h6>
@@ -27436,7 +27436,7 @@ For example, the following will have the result shown in
 
 <figure class="coderesult">
 <div id="ch09.xhtml_conic-gradients-hue-wheels" class="figure">
-<img src="/Def-Images/Images/css5_0944.png" width="600" height="273"
+<img src="./images/css5_0944.png" width="600" height="273"
 alt="css5 0944" />
 <h6 id="ch09.xhtml_sigil_toc_id_795"><span class="label">Figure 9-44.
 </span>Hue-wheel conic gradients with and without corner rounding</h6>
@@ -27488,7 +27488,7 @@ with extra annotations to mark where the calculated angles land.
 
 <figure>
 <div id="ch09.xhtml_conic-gradients-smoothed-triple" class="figure">
-<img src="/Def-Images/Images/css5_0945.png" width="600" height="475"
+<img src="./images/css5_0945.png" width="600" height="475"
 alt="css5 0945" />
 <h6 id="ch09.xhtml_sigil_toc_id_796"><span class="label">Figure 9-45.
 </span>Conic gradients with solid-color wedges and smooth
@@ -27554,7 +27554,7 @@ first two color stops. After that, the stops are repeated until the full
 
 <figure>
 <div id="ch09.xhtml_repeating-conic-checkerboard" class="figure">
-<img src="/Def-Images/Images/css5_0946.png" width="600" height="269"
+<img src="./images/css5_0946.png" width="600" height="269"
 alt="css5 0946" />
 <h6 id="ch09.xhtml_sigil_toc_id_798"><span class="label">Figure 9-46.
 </span>A repeating conic gradient</h6>
@@ -27576,7 +27576,7 @@ repeating-conic-gradient(#117 5deg, #ABE 15deg)
 
 <figure class="coderesult">
 <div id="ch09.xhtml_repeating-conic-starbursts" class="figure">
-<img src="/Def-Images/Images/css5_0947.png" width="600" height="187"
+<img src="./images/css5_0947.png" width="600" height="187"
 alt="css5 0947" />
 <h6 id="ch09.xhtml_sigil_toc_id_799"><span class="label">Figure 9-47.
 </span>Three variants on a repeating conic gradient</h6>
@@ -27632,7 +27632,7 @@ body {background: radial-gradient(circle at center,
 
 <figure>
 <div id="ch09.xhtml_cab_fig93" class="figure">
-<img src="/Def-Images/Images/css5_0948.png" width="600" height="314"
+<img src="./images/css5_0948.png" width="600" height="314"
 alt="css5 0948" />
 <h6 id="ch09.xhtml_sigil_toc_id_801"><span class="label">Figure 9-48.
 </span>Tiled radial gradient images</h6>
@@ -27666,7 +27666,7 @@ effects with gradients, though. Consider the background effect shown in
 
 <figure>
 <div id="ch09.xhtml_cab_fig94" class="figure">
-<img src="/Def-Images/Images/css5_0949.png" width="600" height="225"
+<img src="./images/css5_0949.png" width="600" height="225"
 alt="css5 0949" />
 <h6 id="ch09.xhtml_sigil_toc_id_803"><span class="label">Figure 9-49.
 </span>It’s time to play the music…</h6>
@@ -27710,7 +27710,7 @@ stage curtain.
 
 <figure>
 <div id="ch09.xhtml_cab_fig95" class="figure">
-<img src="/Def-Images/Images/css5_0950.png" width="513" height="302"
+<img src="./images/css5_0950.png" width="513" height="302"
 alt="css5 0950" />
 <h6 id="ch09.xhtml_sigil_toc_id_804"><span class="label">Figure 9-50.
 </span>The two “fold” gradients</h6>
@@ -27851,7 +27851,7 @@ and the text flows around it.
 
 <figure>
 <div id="ch10.xhtml_floating_image_fig" class="figure">
-<img src="/Def-Images/Images/css5_1001.png" width="600" height="115"
+<img src="./images/css5_1001.png" width="600" height="115"
 alt="css5 1001" />
 <h6 id="ch10.xhtml_sigil_toc_id_810"><span class="label">Figure 10-1.
 </span>A floating image</h6>
@@ -27902,7 +27902,7 @@ p.aside {float: inline-end; width: 15em; margin: 0 1em 1em;
 
 <figure>
 <div id="ch10.xhtml_floating_paragraph_fig" class="figure">
-<img src="/Def-Images/Images/css5_1002.png" width="600" height="312"
+<img src="./images/css5_1002.png" width="600" height="312"
 alt="css5 1002" />
 <h6 id="ch10.xhtml_sigil_toc_id_813"><span class="label">Figure 10-2.
 </span>A floating paragraph</h6>
@@ -27928,7 +27928,7 @@ p img {float: inline-start; margin: 25px;}
 
 <figure>
 <div id="ch10.xhtml_floating_images_with_margins_fig" class="figure">
-<img src="/Def-Images/Images/css5_1003.png" width="600" height="284"
+<img src="./images/css5_1003.png" width="600" height="284"
 alt="css5 1003" />
 <h6 id="ch10.xhtml_sigil_toc_id_814"><span class="label">Figure 10-3.
 </span>Floating images with margins</h6>
@@ -28024,7 +28024,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_floating_to_the_left_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1004.png" width="430" height="400"
+    <img src="./images/css5_1004.png" width="430" height="400"
     alt="css5 1004" />
     <h6 id="ch10.xhtml_sigil_toc_id_817"><span class="label">Figure 10-4.
     </span>Floating to the left (or right)</h6>
@@ -28057,7 +28057,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_keeping_floats_from_overlapping_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1005.png" width="430" height="400"
+    <img src="./images/css5_1005.png" width="430" height="400"
     alt="css5 1005" />
     <h6 id="ch10.xhtml_sigil_toc_id_818"><span class="label">Figure 10-5.
     </span>Keeping floats from overlapping</h6>
@@ -28087,7 +28087,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_more_overlap_prevention_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1006.png" width="430" height="400"
+    <img src="./images/css5_1006.png" width="430" height="400"
     alt="css5 1006" />
     <h6 id="ch10.xhtml_sigil_toc_id_819"><span class="label">Figure 10-6.
     </span>More overlap prevention</h6>
@@ -28111,7 +28111,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_unlike_balloons_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1007.png" width="471" height="297"
+    <img src="./images/css5_1007.png" width="471" height="297"
     alt="css5 1007" />
     <h6 id="ch10.xhtml_sigil_toc_id_820"><span class="label">Figure 10-7.
     </span>Unlike balloons, floated elements can’t float upward</h6>
@@ -28136,7 +28136,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_keeping_floats_below_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1008.png" width="483" height="400"
+    <img src="./images/css5_1008.png" width="483" height="400"
     alt="css5 1008" />
     <h6 id="ch10.xhtml_sigil_toc_id_821"><span class="label">Figure 10-8.
     </span>Keeping floats below their predecessors</h6>
@@ -28159,7 +28159,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_keeping_floats_level_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1009.png" width="430" height="400"
+    <img src="./images/css5_1009.png" width="430" height="400"
     alt="css5 1009" />
     <h6 id="ch10.xhtml_sigil_toc_id_822"><span class="label">Figure 10-9.
     </span>Keeping floats level with their context</h6>
@@ -28185,7 +28185,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_if_theres_no_room_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1010.png" width="430" height="400"
+    <img src="./images/css5_1010.png" width="430" height="400"
     alt="css5 1010" />
     <h6 id="ch10.xhtml_sigil_toc_id_823"><span class="label">Figure 10-10.
     </span>If there isn’t room, floats get pushed to a new “line”</h6>
@@ -28205,7 +28205,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_given_the_other_constraints_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1011.png" width="474" height="400"
+    <img src="./images/css5_1011.png" width="474" height="400"
     alt="css5 1011" />
     <h6 id="ch10.xhtml_sigil_toc_id_824"><span class="label">Figure 10-11.
     </span>Given the other constraints, go as high as possible</h6>
@@ -28226,7 +28226,7 @@ follows:
 
     <figure class="bordernone">
     <div id="ch10.xhtml_get_as_far_to_the_left_fig" class="figure">
-    <img src="/Def-Images/Images/css5_1012.png" width="430" height="398"
+    <img src="./images/css5_1012.png" width="430" height="398"
     alt="css5 1012" />
     <h6 id="ch10.xhtml_sigil_toc_id_825"><span class="label">Figure 10-12.
     </span>Get as far to the left (or right) as possible</h6>
@@ -28255,7 +28255,7 @@ as shown in
 
 <figure>
 <div id="ch10.xhtml_expected_floating_fig" class="figure">
-<img src="/Def-Images/Images/css5_1013.png" width="600" height="226"
+<img src="./images/css5_1013.png" width="600" height="226"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_827"><span class="label">Figure 10-13.
 </span>Expected floating behavior</h6>
@@ -28278,7 +28278,7 @@ requires the behavior in
 
 <figure>
 <div id="ch10.xhtml_backgrounds_and_floated_elements" class="figure">
-<img src="/Def-Images/Images/css5_1014.png" width="600" height="222"
+<img src="./images/css5_1014.png" width="600" height="222"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_828"><span class="label">Figure 10-14.
 </span>Backgrounds and floated elements</h6>
@@ -28315,7 +28315,7 @@ primary="" startref="ix_float_backg" data-type="indexterm"}
 
 <figure>
 <div id="ch10.xhtml_element_backgrounds_fig_" class="figure">
-<img src="/Def-Images/Images/css5_1015.png" width="600" height="221"
+<img src="./images/css5_1015.png" width="600" height="221"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_829"><span class="label">Figure 10-15.
 </span>Element backgrounds “slide under” floated elements</h6>
@@ -28345,7 +28345,7 @@ shows the result.
 
 <figure>
 <div id="ch10.xhtml_floating_with_negative_fig" class="figure">
-<img src="/Def-Images/Images/css5_1016.png" width="600" height="222"
+<img src="./images/css5_1016.png" width="600" height="222"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_831"><span class="label">Figure 10-16.
 </span>Floating with negative margins</h6>
@@ -28364,7 +28364,7 @@ overlaps its own outer edge, as detailed in
 
 <figure>
 <div id="ch10.xhtml_the_details_of_floating_fig" class="figure">
-<img src="/Def-Images/Images/css5_1017.png" width="600" height="144"
+<img src="./images/css5_1017.png" width="600" height="144"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_832"><span class="label">Figure 10-17.
 </span>The details of floating up and left with negative margins</h6>
@@ -28402,7 +28402,7 @@ that shown in
 
 <figure>
 <div id="ch10.xhtml_floating_an_element_thats_wider_fig" class="figure">
-<img src="/Def-Images/Images/css5_1018.png" width="600" height="258"
+<img src="./images/css5_1018.png" width="600" height="258"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_833"><span class="label">Figure 10-18.
 </span>Floating an element that is wider than its parent</h6>
@@ -28472,7 +28472,7 @@ h2#jump-up {margin-top: -25px; background: hsl(42,70%,70%);}
 <figure>
 <div id="ch10.xhtml_layout_behavior_when_overlapping_fig"
 class="figure">
-<img src="/Def-Images/Images/css5_1019.png" width="600" height="154"
+<img src="./images/css5_1019.png" width="600" height="154"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_835"><span class="label">Figure 10-19.
 </span>Layout behavior when overlapping floats</h6>
@@ -28518,7 +28518,7 @@ content will appear after that, as shown in
 
 <figure class="smaller">
 <div id="ch10.xhtml_displaying_an_element_fig" class="figure">
-<img src="/Def-Images/Images/css5_1020.png" width="600" height="257"
+<img src="./images/css5_1020.png" width="600" height="257"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_837"><span class="label">Figure 10-20.
 </span>Displaying an element in the clear</h6>
@@ -28565,7 +28565,7 @@ as shown in
 
 <figure>
 <div id="ch10.xhtml_clear_to_the_left_fig" class="figure">
-<img src="/Def-Images/Images/css5_1021.png" width="600" height="276"
+<img src="./images/css5_1021.png" width="600" height="276"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_839"><span class="label">Figure 10-21.
 </span>Clear to the left, but not the right</h6>
@@ -28586,7 +28586,7 @@ both sides of the cleared element, as demonstrated in
 
 <figure>
 <div id="ch10.xhtml_clear_on_both_sides_fig" class="figure">
-<img src="/Def-Images/Images/css5_1022.png" width="600" height="310"
+<img src="./images/css5_1022.png" width="600" height="310"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_840"><span class="label">Figure 10-22.
 </span>Clear on both sides</h6>
@@ -28620,7 +28620,7 @@ h3 {clear: both;}
 
 <figure>
 <div id="ch10.xhtml_not_clear_at_all_fig" class="figure">
-<img src="/Def-Images/Images/css5_1023.png" width="600" height="240"
+<img src="./images/css5_1023.png" width="600" height="240"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_841"><span class="label">Figure 10-23.
 </span>Not clear at all</h6>
@@ -28650,7 +28650,7 @@ h3 {border: 1px solid gray; clear: left; margin-top: 15px;}
 
 <figure>
 <div id="ch10.xhtml_clearing_and_its_effect_fig" class="figure">
-<img src="/Def-Images/Images/css5_1024.png" width="600" height="95"
+<img src="./images/css5_1024.png" width="600" height="95"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_842"><span class="label">Figure 10-24.
 </span>Clearing and its effect on margins</h6>
@@ -28979,7 +28979,7 @@ edge is not moved up from the bottom. This leads to what's shown in
 
 <figure>
 <div id="ch10.xhtml_filling_lower-right-quarter" class="figure">
-<img src="/Def-Images/Images/css5_1025.png" width="600" height="359"
+<img src="./images/css5_1025.png" width="600" height="359"
 alt="css5 1025" />
 <h6 id="ch10.xhtml_sigil_toc_id_849"><span class="label">Figure 10-25.
 </span>Filling the lower-right quarter of the containing block</h6>
@@ -29030,7 +29030,7 @@ top: 50%; bottom: -2em; left: 75%; right: -7em;
 
 <figure>
 <div id="ch10.xhtml_positioning_outside_block" class="figure">
-<img src="/Def-Images/Images/css5_1026.png" width="600" height="312"
+<img src="./images/css5_1026.png" width="600" height="312"
 alt="css5 1026" />
 <h6 id="ch10.xhtml_sigil_toc_id_851"><span class="label">Figure 10-26.
 </span>Positioning an element outside its containing block</h6>
@@ -29194,7 +29194,7 @@ inset: 0 50% 0 0;
 
 <figure>
 <div id="ch10.xhtml_positioning_offset_only" class="figure">
-<img src="/Def-Images/Images/css5_1027.png" width="600" height="359"
+<img src="./images/css5_1027.png" width="600" height="359"
 alt="css5 1027" />
 <h6 id="ch10.xhtml_sigil_toc_id_856"><span class="label">Figure 10-27.
 </span>Positioning and sizing an element by using only the offset
@@ -29228,7 +29228,7 @@ containing block, as shown in
 
 <figure>
 <div id="ch10.xhtml_positioning_partially_outside_block" class="figure">
-<img src="/Def-Images/Images/css5_1028.png" width="600" height="472"
+<img src="./images/css5_1028.png" width="600" height="472"
 alt="css5 1028" />
 <h6 id="ch10.xhtml_sigil_toc_id_857"><span class="label">Figure 10-28.
 </span>Positioning an element partially outside its containing
@@ -29321,7 +29321,7 @@ inset: 10% 10% 20% 50%; min-width: 10em; min-height: 20em;
 
 <figure>
 <div id="ch10.xhtml_setting_minimum_width_height" class="figure">
-<img src="/Def-Images/Images/css5_1029.png" width="600" height="612"
+<img src="./images/css5_1029.png" width="600" height="612"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_861"><span class="label">Figure 10-29.
 </span>Setting a minimum width and height for a positioned element</h6>
@@ -29488,7 +29488,7 @@ so it establishes a containing block for its descendants.
 
 <figure>
 <div id="ch10.xhtml_using_relative_positioning" class="figure">
-<img src="/Def-Images/Images/css5_1030.png" width="600" height="178"
+<img src="./images/css5_1030.png" width="600" height="178"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_866"><span class="label">Figure 10-30.
 </span>Using relative positioning to define containing blocks</h6>
@@ -29523,7 +29523,7 @@ half as wide as the document's width and overwriting other content.
 <figure>
 <div id="ch10.xhtml_positioning_element_contained_by_root"
 class="figure">
-<img src="/Def-Images/Images/css5_1031.png" width="600" height="133"
+<img src="./images/css5_1031.png" width="600" height="133"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_867"><span class="label">Figure 10-31.
 </span>Positioning an element whose containing block is the root
@@ -29588,7 +29588,7 @@ answers you seek.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_containing_blocks_from_absolute_pos" class="figure">
-<img src="/Def-Images/Images/css5_1032.png" width="600" height="226"
+<img src="./images/css5_1032.png" width="600" height="226"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_868"><span class="label">Figure 10-32.
 </span>Absolutely positioned elements establish containing blocks</h6>
@@ -29618,7 +29618,7 @@ the placement of its outer margin edges, as shown in
 
 <figure class="bordernone">
 <div id="ch10.xhtml_determining_height_based_on_offset" class="figure">
-<img src="/Def-Images/Images/css5_1033.png" width="600" height="197"
+<img src="./images/css5_1033.png" width="600" height="197"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_870"><span class="label">Figure 10-33.
 </span>Determining the height of an element based on the offset
@@ -29706,7 +29706,7 @@ in
 
 <figure>
 <div id="ch10.xhtml_using_static_top_for_absolute_pos" class="figure">
-<img src="/Def-Images/Images/css5_1034.png" width="600" height="133"
+<img src="./images/css5_1034.png" width="600" height="133"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_872"><span class="label">Figure 10-34.
 </span>Absolutely positioning an element consistently with its “static”
@@ -29739,7 +29739,7 @@ This results in
 
 <figure>
 <div id="ch10.xhtml_static_pos_for_absolute_pos" class="figure">
-<img src="/Def-Images/Images/css5_1035.png" width="600" height="143"
+<img src="./images/css5_1035.png" width="600" height="143"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_873"><span class="label">Figure 10-35.
 </span>Absolutely positioning an element consistently with its “static”
@@ -29831,7 +29831,7 @@ This results in
 
 <figure class="bordernone">
 <div id="ch10.xhtml_shrink-to-fit" class="figure">
-<img src="/Def-Images/Images/css5_1036.png" width="600" height="60"
+<img src="./images/css5_1036.png" width="600" height="60"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_875"><span class="label">Figure 10-36.
 </span>The “shrink-to-fit” behavior of absolutely positioned
@@ -29865,7 +29865,7 @@ as shown in
 <figure class="bordernone">
 <div id="ch10.xhtml_horizontally_centering_with_auto_margins"
 class="figure">
-<img src="/Def-Images/Images/css5_1037.png" width="600" height="60"
+<img src="./images/css5_1037.png" width="600" height="60"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_876"><span class="label">Figure 10-37.
 </span>Horizontally centering an absolutely positioned element with
@@ -29904,7 +29904,7 @@ This results in
 
 <figure class="bordernone">
 <div id="ch10.xhtml_ignoring_value_for_right" class="figure">
-<img src="/Def-Images/Images/css5_1038.png" width="600" height="60"
+<img src="./images/css5_1038.png" width="600" height="60"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_877"><span class="label">Figure 10-38.
 </span>Ignoring the value for <code>right</code> in an overconstrained
@@ -29938,7 +29938,7 @@ background: silver;">shrink-wrapped</span>
 
 <figure class="bordernone">
 <div id="ch10.xhtml_ignoring_margin-right" class="figure">
-<img src="/Def-Images/Images/css5_1039.png" width="600" height="60"
+<img src="./images/css5_1039.png" width="600" height="60"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_878"><span class="label">Figure 10-39.
 </span>Making use of an <code>auto</code> left margin</h6>
@@ -29988,7 +29988,7 @@ unspecified, and therefore used to make up the difference.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_vertical_layout_behavior" class="figure">
-<img src="/Def-Images/Images/css5_1040.png" width="600" height="201"
+<img src="./images/css5_1040.png" width="600" height="201"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_879"><span class="label">Figure 10-40.
 </span>Vertical layout behavior for absolutely positioned elements</h6>
@@ -30012,7 +30012,7 @@ centered within its containing block, as shown in
 <figure class="bordernone">
 <div id="ch10.xhtml_vertically_centering_with_auto_margins"
 class="figure">
-<img src="/Def-Images/Images/css5_1041.png" width="486" height="486"
+<img src="./images/css5_1041.png" width="486" height="486"
 alt="css5 1041" />
 <h6 id="ch10.xhtml_sigil_toc_id_880"><span class="label">Figure 10-41.
 </span>Vertically centering an absolutely positioned element with
@@ -30109,7 +30109,7 @@ image's intrinsic width is 100 pixels (see
 <figure class="bordernone">
 <div id="ch10.xhtml_absolutely_positioning_replaced_element"
 class="figure">
-<img src="/Def-Images/Images/css5_1042.png" width="306" height="306"
+<img src="./images/css5_1042.png" width="306" height="306"
 alt="css5 1042" />
 <h6 id="ch10.xhtml_sigil_toc_id_882"><span class="label">Figure 10-42.
 </span>Absolutely positioning a replaced element</h6>
@@ -30184,7 +30184,7 @@ Thus, the following markup results in
 
 <figure class="bordernone">
 <div id="ch10.xhtml_stretching_replaced_elements" class="figure">
-<img src="/Def-Images/Images/css5_1043.png" width="600" height="600"
+<img src="./images/css5_1043.png" width="600" height="600"
 alt="css5 1043" />
 <h6 id="ch10.xhtml_sigil_toc_id_883"><span class="label">Figure 10-43.
 </span>Stretching replaced elements through positioning</h6>
@@ -30236,7 +30236,7 @@ illustrates this system.
 ```
 <figure>
 <div id="ch10.xhtml_conceptual_view_of_zindex" class="figure">
-<img src="/Def-Images/Images/css5_1044.png" width="600" height="545"
+<img src="./images/css5_1044.png" width="600" height="545"
 alt="css5 1044" />
 <h6 id="ch10.xhtml_sigil_toc_id_886"><span class="label">Figure 10-44.
 </span>A conceptual view of z-index stacking</h6>
@@ -30255,7 +30255,7 @@ This precedence of overlapping is referred to as *stacking*.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_how_elements_are_stacked" class="figure">
-<img src="/Def-Images/Images/css5_1045.png" width="600" height="400"
+<img src="./images/css5_1045.png" width="600" height="400"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_887"><span class="label">Figure 10-45.
 </span>How the elements are stacked</h6>
@@ -30290,7 +30290,7 @@ the stacking order is under your control.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_stacked_elements_can_overlap" class="figure">
-<img src="/Def-Images/Images/css5_1046.png" width="600" height="346"
+<img src="./images/css5_1046.png" width="600" height="346"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_888"><span class="label">Figure 10-46.
 </span>Stacked elements can overlap</h6>
@@ -30330,7 +30330,7 @@ p[id] em {position: absolute; top: -1em; left: -1em;
 
 <figure class="bordernone">
 <div id="ch10.xhtml_local_stacking_from_positioned" class="figure">
-<img src="/Def-Images/Images/css5_1047.png" width="600" height="286"
+<img src="./images/css5_1047.png" width="600" height="286"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_889"><span class="label">Figure 10-47.
 </span>Positioned elements establish local stacking contexts</h6>
@@ -30413,7 +30413,7 @@ which shows a common layout scheme.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_emulating_frames_with_fixed" class="figure">
-<img src="/Def-Images/Images/css5_1048.png" width="600" height="332"
+<img src="./images/css5_1048.png" width="600" height="332"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_892"><span class="label">Figure 10-48.
 </span>Emulating frames with fixed positioning</h6>
@@ -30510,7 +30510,7 @@ img {position: relative; top: -20px; left: -20px;}
 
 <figure class="width-50">
 <div id="ch10.xhtml_relatively_positioned_element" class="figure">
-<img src="/Def-Images/Images/css5_1049.png" width="600" height="129"
+<img src="./images/css5_1049.png" width="600" height="129"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_895"><span class="label">Figure 10-49.
 </span>A relatively positioned element</h6>
@@ -30542,7 +30542,7 @@ em {position: relative; top: 10em; color: red;}
 <figure class="width-50">
 <div id="ch10.xhtml_another_relatively_positioned_element"
 class="figure">
-<img src="/Def-Images/Images/css5_1050.png" width="600" height="299"
+<img src="./images/css5_1050.png" width="600" height="299"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_897"><span class="label">Figure 10-50.
 </span>Another relatively positioned element</h6>
@@ -30574,7 +30574,7 @@ img.slide {position: relative; left: 30px;}
 <figure class="width-50">
 <div id="ch10.xhtml_relatively_positioned_elements_overlap_content"
 class="figure">
-<img src="/Def-Images/Images/css5_1051.png" width="600" height="132"
+<img src="./images/css5_1051.png" width="600" height="132"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_898"><span class="label">Figure 10-51.
 </span>Relatively positioned elements can overlap other content</h6>
@@ -30651,7 +30651,7 @@ takes a stab at it by showing three points in a scroll.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_sticky_positioning" class="figure">
-<img src="/Def-Images/Images/css5_1052.png" width="600" height="305"
+<img src="./images/css5_1052.png" width="600" height="305"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_901"><span class="label">Figure 10-52.
 </span>Sticky positioning</h6>
@@ -30676,7 +30676,7 @@ created:]{.keep-together}
 
 <figure class="bordernone">
 <div id="ch10.xhtml_sticky-positioning_rectangle" class="figure">
-<img src="/Def-Images/Images/css5_1053.png" width="600" height="500"
+<img src="./images/css5_1053.png" width="600" height="500"
 alt="css5 1053" />
 <h6 id="ch10.xhtml_sigil_toc_id_902"><span class="label">Figure 10-53.
 </span>The sticky-positioning rectangle</h6>
@@ -30695,7 +30695,7 @@ illustrated in
 
 <figure class="bordernone">
 <div id="ch10.xhtml_sticking_to_the_top" class="figure">
-<img src="/Def-Images/Images/css5_1054.png" width="600" height="209"
+<img src="./images/css5_1054.png" width="600" height="209"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_903"><span class="label">Figure 10-54.
 </span>Sticking to the top of the sticky-positioning rectangle</h6>
@@ -30721,7 +30721,7 @@ the rectangle and resumes its place in the normal flow. This is shown in
 
 <figure class="bordernone">
 <div id="ch10.xhtml_detaching_from_the_top" class="figure">
-<img src="/Def-Images/Images/css5_1055.png" width="600" height="209"
+<img src="./images/css5_1055.png" width="600" height="209"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_904"><span class="label">Figure 10-55.
 </span>Detaching from the top of the sticky-positioning rectangle</h6>
@@ -30743,7 +30743,7 @@ through the content. The following code is illustrated in
 
 <figure class="bordernone">
 <div id="ch10.xhtml_sticking_to_the_bottom" class="figure">
-<img src="/Def-Images/Images/css5_1056.png" width="600" height="209"
+<img src="./images/css5_1056.png" width="600" height="209"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_905"><span class="label">Figure 10-56.
 </span>Sticking to the bottom of the sticky-positioning rectangle</h6>
@@ -30768,7 +30768,7 @@ regardless of which way its content is scrolled (see
 
 <figure class="bordernone">
 <div id="ch10.xhtml_making_every_side_sticky" class="figure">
-<img src="/Def-Images/Images/css5_1057.png" width="600" height="209"
+<img src="./images/css5_1057.png" width="600" height="209"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_906"><span class="label">Figure 10-57.
 </span>Making every side a sticky side</h6>
@@ -30813,7 +30813,7 @@ would be of the other elements "sliding under" the topmost element.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_sticky-header_pileup" class="figure">
-<img src="/Def-Images/Images/css5_1058.png" width="600" height="500"
+<img src="./images/css5_1058.png" width="600" height="500"
 alt="image" />
 <h6 id="ch10.xhtml_sigil_toc_id_907"><span class="label">Figure 10-58.
 </span>A sticky-header pileup</h6>
@@ -30925,13 +30925,13 @@ div p {margin: 0;}
 
 <figure>
 <div id="ch11.xhtml_display_flex" class="figure">
-<img src="/Def-Images/Images/css5_1101.png" width="600" height="295"
+<img src="./images/css5_1101.png" width="600" height="295"
 alt="Adding display: flex; or display: inline-flex creates a flex container" />
 <h6 id="ch11.xhtml_sigil_toc_id_911"><span class="label">Figure 11-1.
 </span>The two kinds of flex containers <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/two-kinds-of-flex-containers.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -30940,7 +30940,7 @@ height="100" /></span></a></h6>
 ###### Tip {#ch11.xhtml_sigil_toc_id_912}
 
 Look for the Play symbol
-[![](/Def-Images/Images/play-icon-round.png){height="100"
+[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play} to know when an online example is available. All of
 the examples in this chapter can be found at
 [*https://meyerweb.github.io/csstdg5figs/11-flexbox*](https://meyerweb.github.io/csstdg5figs/11-flexbox){.bare}.
@@ -31059,13 +31059,13 @@ We now have ourselves a simple tabbed navigation bar, as shown in
 
 <figure>
 <div id="ch11.xhtml_simple_tabbed_navigation" class="figure">
-<img src="/Def-Images/Images/css5_1102.png" width="600" height="32"
+<img src="./images/css5_1102.png" width="600" height="32"
 alt="A simple tabbed navigation (files/nav_displayflex.xhtml)" />
 <h6 id="ch11.xhtml_sigil_toc_id_914"><span class="label">Figure 11-2.
 </span>A simple tabbed navigation <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/simple-tabbed-navigation.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31103,27 +31103,27 @@ Flexbox makes what used to be challenging layout effects fairly simple.
 
 <figure>
 <div id="ch11.xhtml_power_grid_layout_flexbox" class="figure">
-<img src="/Def-Images/Images/css5_1103.png" width="600" height="467"
+<img src="./images/css5_1103.png" width="600" height="467"
 alt="Power grid layout with flexbox, with buttons aligned on the bottom" />
 <h6 id="ch11.xhtml_sigil_toc_id_915"><span class="label">Figure 11-3.
 </span>Power grid layout with flexbox, with buttons aligned on the
 bottom <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/power-grid-layout.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
 
 <figure>
 <div id="ch11.xhtml_fb_button-vert-centered" class="figure">
-<img src="/Def-Images/Images/css5_1104.png" width="600" height="140"
+<img src="./images/css5_1104.png" width="600" height="140"
 alt="Button with many components neatly vertically centered" />
 <h6 id="ch11.xhtml_sigil_toc_id_916"><span class="label">Figure 11-4.
 </span>Widget with several components, all vertically centered <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/widget-with-components-vertically-centered.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31243,13 +31243,13 @@ would be arranged by applying each of the four values of
 
 <figure>
 <div id="ch11.xhtml_four-values-flex-dir" class="figure">
-<img src="/Def-Images/Images/css5_1105.png" width="600" height="229"
+<img src="./images/css5_1105.png" width="600" height="229"
 alt="The four values of the flex-direction property" />
 <h6 id="ch11.xhtml_sigil_toc_id_920"><span class="label">Figure 11-5.
 </span>The four values of the flex-direction property <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-direction-four-values.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31314,13 +31314,13 @@ result.
 
 <figure>
 <div id="ch11.xhtml_changing-flex-dir" class="figure">
-<img src="/Def-Images/Images/css5_1106.png" width="179" height="190"
+<img src="./images/css5_1106.png" width="179" height="190"
 alt="Changing flex-direction can completely change the layout of your content" />
 <h6 id="ch11.xhtml_sigil_toc_id_922"><span class="label">Figure 11-6.
 </span>Changing the flex direction can completely change the layout <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/changing-flex-direction-change-layout.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31395,14 +31395,14 @@ body, article {
 
 <figure>
 <div id="ch11.xhtml_using_flex_direction_row_and_column" class="figure">
-<img src="/Def-Images/Images/css5_1107.png" width="600" height="497"
+<img src="./images/css5_1107.png" width="600" height="497"
 alt="Home page layout using +flex-direction:+ +row+ and +column+" />
 <h6 id="ch11.xhtml_sigil_toc_id_923"><span class="label">Figure 11-7.
 </span>Home page layout using <code>flex-direction: row</code> and
 <code>column</code> <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/home-page-layout-row-and-column.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31470,14 +31470,14 @@ container---will go from right to left when the `flex-direction` is
 
 <figure>
 <div id="ch11.xhtml_four-vals-flex-dir" class="figure">
-<img src="/Def-Images/Images/css5_1108.png" width="600" height="190"
+<img src="./images/css5_1108.png" width="600" height="190"
 alt="The four values of flex-direction when direction is right to left, demonstrated here with display: inline-flex;" />
 <h6 id="ch11.xhtml_sigil_toc_id_925"><span class="label">Figure 11-8.
 </span>The four values of <code>flex-direction</code> when writing
 direction is right <span class="keep-together">to left <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-direction-rtl-four-values.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></span></h6>
 </div>
 </figure>
@@ -31521,14 +31521,14 @@ following markup:
 
 <figure>
 <div id="ch11.xhtml_writing_mode_horizontal_tb" class="figure">
-<img src="/Def-Images/Images/css5_1109.png" width="600" height="188"
+<img src="./images/css5_1109.png" width="600" height="188"
 alt="The four values of flex-direction when writing mode is horizontal-tb" />
 <h6 id="ch11.xhtml_sigil_toc_id_927"><span class="label">Figure 11-9.
 </span>The four values of <code>flex-direction</code> when writing mode
 is horizontal-tb <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-direction-ttb-four-values.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31610,14 +31610,14 @@ vertical axis).
 
 <figure class="width-75">
 <div id="ch11.xhtml_three_values_of_flex_wrap" class="figure">
-<img src="/Def-Images/Images/css5_1110.png" width="600" height="526"
+<img src="./images/css5_1110.png" width="600" height="526"
 alt="The three values of flex-wrap property" />
 <h6 id="ch11.xhtml_sigil_toc_id_930"><span class="label">Figure 11-10.
 </span>The three values of the <code>flex-wrap</code> property in a
 row-oriented flow <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-wrap-three-values.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31691,13 +31691,13 @@ flex-flow: row nowrap;
 
 <figure>
 <div id="ch11.xhtml_flex_flow_row" class="figure">
-<img src="/Def-Images/Images/css5_1111.png" width="600" height="111"
+<img src="./images/css5_1111.png" width="600" height="111"
 alt="flex-flow: row;" />
 <h6 id="ch11.xhtml_sigil_toc_id_933"><span class="label">Figure 11-11.
 </span>A row-oriented unwrapped flex flow <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-flow-unwrapped-row.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -31864,7 +31864,7 @@ startref="ix_flexbox_container2" data-type="indexterm"}
 
 <figure>
 <div id="ch11.xhtml_flex_lines_on_row_and_row_reverse" class="figure">
-<img src="/Def-Images/Images/css5_1112.png" width="600" height="517"
+<img src="./images/css5_1112.png" width="600" height="517"
 alt="Flex lines on row and row-reverse when flex-wrap: wrap is set" />
 <h6 id="ch11.xhtml_sigil_toc_id_936"><span class="label">Figure 11-12.
 </span>Stacking of row-oriented flex lines</h6>
@@ -31886,7 +31886,7 @@ flex lines being added to the left of the previously drawn line.
 
 <figure>
 <div id="ch11.xhtml_flex_wrap_wrap_reverse" class="figure">
-<img src="/Def-Images/Images/css5_1113.png" width="600" height="591"
+<img src="./images/css5_1113.png" width="600" height="591"
 alt="Flex lines on columns and column-reverse when flex-wrap: wrap-reverse is set" />
 <h6 id="ch11.xhtml_sigil_toc_id_937"><span class="label">Figure 11-13.
 </span>Stacking of column-oriented flex lines</h6>
@@ -31919,7 +31919,7 @@ line.
 
 <figure>
 <div id="ch11.xhtml_empty-space-dir-main-cross" class="figure">
-<img src="/Def-Images/Images/css5_1114.png" width="600" height="368"
+<img src="./images/css5_1114.png" width="600" height="368"
 alt="No matter the value of flex flow, the empty space will be in the direction of main-end and cross-end" />
 <h6 id="ch11.xhtml_sigil_toc_id_939"><span class="label">Figure 11-14.
 </span>Empty space will be in the direction of main-end and
@@ -32017,13 +32017,13 @@ shows the effects of the various values in a writing mode like English.
 
 <figure>
 <div id="ch11.xhtml_justify-content-values" class="figure">
-<img src="/Def-Images/Images/css5_1115.png" width="600" height="256"
+<img src="./images/css5_1115.png" width="600" height="256"
 alt="The values of the justify-content property" />
 <h6 id="ch11.xhtml_sigil_toc_id_944"><span class="label">Figure 11-15.
 </span>The values of the <code>justify-content</code> property <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-values.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32085,12 +32085,12 @@ overflow the main-end edge. This is illustrated in
 
 <figure>
 <div id="ch11.xhtml_justify_content_start" class="figure">
-<img src="/Def-Images/Images/css5_1116.png" width="600" height="140" />
+<img src="./images/css5_1116.png" width="600" height="140" />
 <h6 id="ch11.xhtml_sigil_toc_id_947"><span class="label">Figure 11-16.
 </span>The effects of <code>start</code> content justification <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-start.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32105,12 +32105,12 @@ as illustrated in
 
 <figure>
 <div id="ch11.xhtml_justify_content_end" class="figure">
-<img src="/Def-Images/Images/css5_1117.png" width="600" height="140" />
+<img src="./images/css5_1117.png" width="600" height="140" />
 <h6 id="ch11.xhtml_sigil_toc_id_948"><span class="label">Figure 11-17.
 </span>The effects of <code>end</code> content justification <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-end.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32127,12 +32127,12 @@ illustrates these effects.
 
 <figure>
 <div id="ch11.xhtml_justify_content_center" class="figure">
-<img src="/Def-Images/Images/css5_1118.png" width="600" height="124" />
+<img src="./images/css5_1118.png" width="600" height="124" />
 <h6 id="ch11.xhtml_sigil_toc_id_949"><span class="label">Figure 11-18.
 </span>The effects of <code>center</code> content justification <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-center.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32174,13 +32174,13 @@ on the main-end edge, yielding an effect visually indistinguishable from
 
 <figure>
 <div id="ch11.xhtml_justify_content_space-between" class="figure">
-<img src="/Def-Images/Images/css5_1119.png" width="600" height="126" />
+<img src="./images/css5_1119.png" width="600" height="126" />
 <h6 id="ch11.xhtml_sigil_toc_id_950"><span class="label">Figure 11-19.
 </span>The effects of <code>space-between</code> content justification
 <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-space-between.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32198,12 +32198,12 @@ main-start and [main-end]{.keep-together} edges.
 
 <figure>
 <div id="ch11.xhtml_justify_content_space-around" class="figure">
-<img src="/Def-Images/Images/css5_1120.png" width="600" height="127" />
+<img src="./images/css5_1120.png" width="600" height="127" />
 <h6 id="ch11.xhtml_sigil_toc_id_951"><span class="label">Figure 11-20.
 </span>The effects of <code>space-around</code> content justification <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-space-around.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32223,12 +32223,12 @@ overflow evenly on both the main-start and main-end edges.
 
 <figure>
 <div id="ch11.xhtml_justify_content_space-evenly" class="figure">
-<img src="/Def-Images/Images/css5_1121.png" width="600" height="127" />
+<img src="./images/css5_1121.png" width="600" height="127" />
 <h6 id="ch11.xhtml_sigil_toc_id_952"><span class="label">Figure 11-21.
 </span>The effects of <code>space-evenly</code> content justification <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-space-evenly.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32286,13 +32286,13 @@ in
 
 <figure>
 <div id="ch11.xhtml_right_and_left_aligned_navigation" class="figure">
-<img src="/Def-Images/Images/css5_1122.png" width="600" height="243"
+<img src="./images/css5_1122.png" width="600" height="243"
 alt="Right- and left-aligned navigation in LTR and RTL languages using justify-content" />
 <h6 id="ch11.xhtml_sigil_toc_id_954"><span class="label">Figure 11-22.
 </span>Internationally robust navigation alignment <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-i18n.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32316,13 +32316,13 @@ nav {
 
 <figure>
 <div id="ch11.xhtml_changing-layout-one-prop" class="figure">
-<img src="/Def-Images/Images/css5_1123.png" width="600" height="141"
+<img src="./images/css5_1123.png" width="600" height="141"
 alt="Changing the layout with one property value pair" />
 <h6 id="ch11.xhtml_sigil_toc_id_955"><span class="label">Figure 11-23.
 </span>Changing the layout with one property value pair <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/justify-content-i18n-center.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32389,14 +32389,14 @@ inline axis for column-flowed flex containers.)
 
 <figure>
 <div id="ch11.xhtml_vals-align-items" class="figure">
-<img src="/Def-Images/Images/css5_1124.png" width="600" height="244"
+<img src="./images/css5_1124.png" width="600" height="244"
 alt="The values of the align-items property when you have a single row or column of flex items" />
 <h6 id="ch11.xhtml_sigil_toc_id_959"><span class="label">Figure 11-24.
 </span>The values of the <code>align-items</code> property for both rows
 and columns <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/align-items-values-rows-cols.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32492,7 +32492,7 @@ alignments can be seen in
 
 <figure>
 <div id="ch11.xhtml_margins-and-align" class="figure">
-<img src="/Def-Images/Images/css5_1125.png" width="600" height="286"
+<img src="./images/css5_1125.png" width="600" height="286"
 alt="css5 1125" />
 <h6 id="ch11.xhtml_sigil_toc_id_961"><span class="label">Figure 11-25.
 </span>The effect of margins on cross-axis alignment</h6>
@@ -32572,13 +32572,13 @@ the prime baseline has a lighter background and red text.
 
 <figure>
 <div id="ch11.xhtml_align-items_baseline" class="figure">
-<img src="/Def-Images/Images/css5_1126.png" width="600" height="312"
+<img src="./images/css5_1126.png" width="600" height="312"
 alt="css5 1126" />
 <h6 id="ch11.xhtml_sigil_toc_id_964"><span class="label">Figure 11-26.
 </span>Baseline alignments <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/baseline-alignments.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32677,7 +32677,7 @@ these keywords as valid, but they have no impact on the layout.
 
 <figure>
 <div id="ch11.xhtml_safe_unsafe_alignment" class="figure">
-<img src="/Def-Images/Images/css5_1127.png" width="600" height="302" />
+<img src="./images/css5_1127.png" width="600" height="302" />
 <h6 id="ch11.xhtml_sigil_toc_id_967"><span class="label">Figure 11-27.
 </span><code>Safe</code> versus <code>unsafe</code> alignments</h6>
 </div>
@@ -32739,13 +32739,13 @@ explicit in the following code, which will let us set different
 
 <figure>
 <div id="ch11.xhtml_align_self_fig" class="figure">
-<img src="/Def-Images/Images/css5_1128.png" width="600" height="64"
+<img src="./images/css5_1128.png" width="600" height="64"
 alt="css5 1128" />
 <h6 id="ch11.xhtml_sigil_toc_id_970"><span class="label">Figure 11-28.
 </span>Changing individual flex-item alignments <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/gaps-between-items.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32853,14 +32853,14 @@ has approximately 3 ems of [leftover space.]{.keep-together}
 
 <figure>
 <div id="ch11.xhtml_distribution_of_extra_space" class="figure">
-<img src="/Def-Images/Images/css5_1129.png" width="600" height="363"
+<img src="./images/css5_1129.png" width="600" height="363"
 alt="The distribution of extra space for the different values of align-content" />
 <h6 id="ch11.xhtml_sigil_toc_id_973"><span class="label">Figure 11-29.
 </span>Distribution of extra space for primary values of
 <code>align-content</code> <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/align-content.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -32915,7 +32915,7 @@ container to make it more obvious where it starts and ends.)
 
 <figure>
 <div id="ch11.xhtml_align_content_overflowing" class="figure">
-<img src="/Def-Images/Images/css5_1130.png" width="600" height="368"
+<img src="./images/css5_1130.png" width="600" height="368"
 alt="Appearance of align-content property when lines are overflowing the container" />
 <h6 id="ch11.xhtml_sigil_toc_id_974"><span class="label">Figure 11-30.
 </span>Flex-line overflow directions for each value of
@@ -33084,7 +33084,7 @@ what that CSS would look like, illustrated in
 
 <figure>
 <div id="ch11.xhtml_row-gaps" class="figure">
-<img src="/Def-Images/Images/css5_1131.png" width="600" height="129" />
+<img src="./images/css5_1131.png" width="600" height="129" />
 <h6 id="ch11.xhtml_sigil_toc_id_979"><span class="label">Figure 11-31.
 </span>Gaps between rows of flex items</h6>
 </div>
@@ -33122,7 +33122,7 @@ push items apart as follows, with the result shown in
 
 <figure>
 <div id="ch11.xhtml_column-gaps" class="figure">
-<img src="/Def-Images/Images/css5_1132.png" width="600" height="148" />
+<img src="./images/css5_1132.png" width="600" height="148" />
 <h6 id="ch11.xhtml_sigil_toc_id_980"><span class="label">Figure 11-32.
 </span>Gaps between adjacent flex items along the inline axis</h6>
 </div>
@@ -33158,7 +33158,7 @@ the margins. Consider the following, which is illustrated in
 
 <figure>
 <div id="ch11.xhtml_column-gaps-plus-margins" class="figure">
-<img src="/Def-Images/Images/css5_1133.png" width="600" height="186" />
+<img src="./images/css5_1133.png" width="600" height="186" />
 <h6 id="ch11.xhtml_sigil_toc_id_981"><span class="label">Figure 11-33.
 </span>Gaps and margins combine to open more space</h6>
 </div>
@@ -33208,7 +33208,7 @@ shows examples of percentage row gaps.
 
 <figure>
 <div id="ch11.xhtml_percentage-based-row-gaps" class="figure">
-<img src="/Def-Images/Images/css5_1134.png" width="600" height="213" />
+<img src="./images/css5_1134.png" width="600" height="213" />
 <h6 id="ch11.xhtml_sigil_toc_id_982"><span class="label">Figure 11-34.
 </span>Percentage-based row gaps with and without explicit container
 heights</h6>
@@ -33255,7 +33255,7 @@ from the [following]{.keep-together} CSS:
 
 <figure>
 <div id="ch11.xhtml_using-the-gap-shorthand" class="figure">
-<img src="/Def-Images/Images/css5_1135.png" width="600" height="408" />
+<img src="./images/css5_1135.png" width="600" height="408" />
 <h6 id="ch11.xhtml_sigil_toc_id_984"><span class="label">Figure 11-35.
 </span>Row and column gaps set using the <code>gap</code> shorthand
 property</h6>
@@ -33318,14 +33318,14 @@ words, so that each letter and space becomes a flex item.
 
 <figure>
 <div id="ch11.xhtml_display_flex_containers_children" class="figure">
-<img src="/Def-Images/Images/css5_1136.png" width="600" height="163"
+<img src="./images/css5_1136.png" width="600" height="163"
 alt="Items with display: flex; become flex containers, and their non-absolutely positioned children become flex items" />
 <h6 id="ch11.xhtml_sigil_toc_id_988"><span class="label">Figure 11-36.
 </span>The child nodes are flex items, and the parent node is a flex
 container <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-items-within-container.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -33480,12 +33480,12 @@ the link are all flex items.
 
 <figure>
 <div id="ch11.xhtml_display_flex_five_items" class="figure">
-<img src="/Def-Images/Images/css5_1137.png" width="600" height="78" />
+<img src="./images/css5_1137.png" width="600" height="78" />
 <h6 id="ch11.xhtml_sigil_toc_id_990"><span class="label">Figure 11-37.
 </span>Five flex items in an aside <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-items-in-aside.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -33581,13 +33581,13 @@ applied to flex items. (Traditionally, the default value for
 
 <figure>
 <div id="ch11.xhtml_three-vals-flex-wrap" class="figure">
-<img src="/Def-Images/Images/css5_1138.png" width="600" height="322"
+<img src="./images/css5_1138.png" width="600" height="322"
 alt="Flex items overflowing their container when min-width defaults to auto, unless wrapping is allowed" />
 <h6 id="ch11.xhtml_sigil_toc_id_993"><span class="label">Figure 11-38.
 </span>Flex container overflow with minimum-width flex items <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-wrap-container-overflow-with-min-width.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -33602,14 +33602,14 @@ illustrates [both situations.]{.keep-together}
 
 <figure>
 <div id="ch11.xhtml_three-vals-min-width-0" class="figure">
-<img src="/Def-Images/Images/css5_1139.png" width="600" height="429"
+<img src="./images/css5_1139.png" width="600" height="429"
 alt="Flex items in nonwrapping containers will shrink if the min-width is explicitly set to 0, which is the default in Safari 9" />
 <h6 id="ch11.xhtml_sigil_toc_id_994"><span class="label">Figure 11-39.
 </span>Zero-minimum-width flex items in nonwrapped and wrapped <span
 class="keep-together">flex containers</span> <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-wrap-zero-min-width-flex-items.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -33792,13 +33792,13 @@ none of the flex items are permitted to grow.
 
 <figure>
 <div id="ch11.xhtml_variety_of_growth_factor_scenarios" class="figure">
-<img src="/Def-Images/Images/css5_1140.png" width="600" height="551"
+<img src="./images/css5_1140.png" width="600" height="551"
 alt="With a growth factor of 0, the flex item will not grow; any positive value will allow the item to grow proportionally to the value" />
 <h6 id="ch11.xhtml_sigil_toc_id_1002"><span class="label">Figure 11-40.
 </span>A variety of flex-growth scenarios <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-grow-variety.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -33878,13 +33878,13 @@ pixels, since its `flex-grow` value is `3`.
 
 <figure>
 <div id="ch11.xhtml_even-dist-avail-space" class="figure">
-<img src="/Def-Images/Images/css5_1141.png" width="600" height="240"
+<img src="./images/css5_1141.png" width="600" height="240"
 alt="The available space is evenly distributed to each growth factor; any positive value will allow the item to grow proportionally to the value." />
 <h6 id="ch11.xhtml_sigil_toc_id_1004"><span class="label">Figure 11-41.
 </span>Mixed widths and growth factors <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-grow-mixed-width-and-factors.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -33998,13 +33998,13 @@ that the flex item needs to be to fit the content or the declared
 
 <figure>
 <div id="ch11.xhtml_flex_basis_is_0" class="figure">
-<img src="/Def-Images/Images/css5_1142.png" width="600" height="608"
+<img src="./images/css5_1142.png" width="600" height="608"
 alt="Flex grow looks different when the flex basis is 0, and some items are not allowed to grow" />
 <h6 id="ch11.xhtml_sigil_toc_id_1006"><span class="label">Figure 11-42.
 </span>Flex sizing when using the flex shorthand <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-grow-sizing-when-using-shorthand.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34060,14 +34060,14 @@ illustrates the difference.
 
 <figure>
 <div id="ch11.xhtml_flex-grow-basis-0" class="figure">
-<img src="/Def-Images/Images/css5_1143.png" width="600" height="235"
+<img src="./images/css5_1143.png" width="600" height="235"
 alt="Flex grow looks different when the flex basis is 0, and sometimes are not allowed to grow" />
 <h6 id="ch11.xhtml_sigil_toc_id_1007"><span class="label">Figure 11-43.
 </span>Flex sizing differences between using <code>flex</code> and
 <code>flex-grow</code> <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-grow-differences-between-flex-and-flex-grow.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34154,13 +34154,13 @@ overflow the flex container.
 
 <figure>
 <div id="ch11.xhtml_flex-shrink-0" class="figure">
-<img src="/Def-Images/Images/css5_1144.png" width="600" height="333"
+<img src="./images/css5_1144.png" width="600" height="333"
 alt="A flex shrink factor of 0 will not allow flex items to shrink; any positive value will enable the item to shrink proportionally relative to sibling flex items that are allowed to shrink on the same flex line" />
 <h6 id="ch11.xhtml_sigil_toc_id_1011"><span class="label">Figure 11-44.
 </span>A variety of flex shrinking scenarios <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-shrink-variety.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34270,12 +34270,12 @@ will end up 300, 262.5, and 187.5 pixels, respectively, for a total of
 
 <figure>
 <div id="ch11.xhtml_flex-shrink-with-image" class="figure">
-<img src="/Def-Images/Images/css5_1145.png" width="600" height="126" />
+<img src="./images/css5_1145.png" width="600" height="126" />
 <h6 id="ch11.xhtml_sigil_toc_id_1012"><span class="label">Figure 11-45.
 </span>Shrinking being impeded by flex-item content <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-shrink-with-image.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34305,14 +34305,14 @@ a width of 500 pixels, as shown in
 
 <figure>
 <div id="ch11.xhtml_flex-items-shrink-factor" class="figure">
-<img src="/Def-Images/Images/css5_1146.png" width="600" height="105"
+<img src="./images/css5_1146.png" width="600" height="105"
 alt="Flex items shrink proportionally relative to their shrink factor" />
 <h6 id="ch11.xhtml_sigil_toc_id_1014"><span class="label">Figure 11-46.
 </span>Flex items shrink proportionally relative to their shrink factor
 <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-shrink-proportionally-relative-to-factor.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34382,14 +34382,14 @@ container has been made 520 pixels wide instead of our usual 750 pixels.
 
 <figure>
 <div id="ch11.xhtml_flex_items_shrink_proportionally" class="figure">
-<img src="/Def-Images/Images/css5_1147.png" width="600" height="519"
+<img src="./images/css5_1147.png" width="600" height="519"
 alt="css5 1147" />
 <h6 id="ch11.xhtml_sigil_toc_id_1016"><span class="label">Figure 11-47.
 </span>Flex items shrink proportionally relative to their shrink factor
 <span class="keep-together">and content <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-shrink-proportionally-relative-to-factor-and-content.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></span></h6>
 </div>
 </figure>
@@ -34531,7 +34531,7 @@ aside {
 
 <figure>
 <div id="ch11.xhtml_set_diff_values" class="figure">
-<img src="/Def-Images/Images/css5_1148.png" width="600" height="165"
+<img src="./images/css5_1148.png" width="600" height="165"
 alt="By setting different values for growth, shrink, basis, and min-width, you can create responsive layouts, with or without media queries" />
 <h6 id="ch11.xhtml_sigil_toc_id_1020"><span class="label">Figure 11-48.
 </span>A wide flexbox layout</h6>
@@ -34540,13 +34540,13 @@ alt="By setting different values for growth, shrink, basis, and min-width, you c
 
 <figure>
 <div id="ch11.xhtml_set_diff_values-2" class="figure">
-<img src="/Def-Images/Images/css5_1149.png" width="600" height="402"
+<img src="./images/css5_1149.png" width="600" height="402"
 alt="css5 1149" />
 <h6 id="ch11.xhtml_sigil_toc_id_1021"><span class="label">Figure 11-49.
 </span>A narrow flexbox layout <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-shrink-homepage.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34735,7 +34735,7 @@ illustrated in
 
 <figure>
 <div id="ch11.xhtml_flex-basis-fit-sizing" class="figure">
-<img src="/Def-Images/Images/css5_1150.png" width="600" height="332" />
+<img src="./images/css5_1150.png" width="600" height="332" />
 <h6 id="ch11.xhtml_sigil_toc_id_1027"><span class="label">Figure 11-50.
 </span>Fit-content flex-basis sizing</h6>
 </div>
@@ -34772,13 +34772,13 @@ The value `content` has the effects shown in
 
 <figure>
 <div id="ch11.xhtml_content_basis_width" class="figure">
-<img src="/Def-Images/Images/css5_1151.png" width="600" height="461"
+<img src="./images/css5_1151.png" width="600" height="461"
 alt="css5 1151" />
 <h6 id="ch11.xhtml_sigil_toc_id_1028"><span class="label">Figure 11-51.
 </span>Sizing flex items on a <code>content</code> basis <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-basis-content-basis.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34827,7 +34827,7 @@ is captured in the following code and illustrated in
 
 <figure>
 <div id="ch11.xhtml_max_content_basis_width" class="figure">
-<img src="/Def-Images/Images/css5_1152.png" width="600" height="226" />
+<img src="./images/css5_1152.png" width="600" height="226" />
 <h6 id="ch11.xhtml_sigil_toc_id_1029"><span class="label">Figure 11-52.
 </span>Sizing flex items on a <code>max-content</code> basis, with and
 without shrinking</h6>
@@ -34855,7 +34855,7 @@ happens. Consider the following, illustrated in
 
 <figure>
 <div id="ch11.xhtml_min_content_basis_width" class="figure">
-<img src="/Def-Images/Images/css5_1153.png" width="600" height="389" />
+<img src="./images/css5_1153.png" width="600" height="389" />
 <h6 id="ch11.xhtml_sigil_toc_id_1030"><span class="label">Figure 11-53.
 </span>Sizing flex items on a <code>min-content</code> basis, with and
 without growing</h6>
@@ -34930,13 +34930,13 @@ the main-axis.
 
 <figure class="width_set_80">
 <div id="ch11.xhtml_when_flex_basis_set" class="figure">
-<img src="/Def-Images/Images/css5_1154.png" width="600" height="576"
+<img src="./images/css5_1154.png" width="600" height="576"
 alt="css5 1154" />
 <h6 id="ch11.xhtml_sigil_toc_id_1032"><span class="label">Figure 11-54.
 </span>Auto flex basis and flex item widths <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-basis-auto-basis-and-widths.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -34984,13 +34984,13 @@ containers, they are all shrinking proportionally to fit.
 
 <figure>
 <div id="ch11.xhtml_when_no_flex_properties_are_set" class="figure">
-<img src="/Def-Images/Images/css5_1155.png" width="583" height="364"
+<img src="./images/css5_1155.png" width="583" height="364"
 alt="When no flex properties are set, the flex item&#39;s main-axis size will be the pre-flex size of the item" />
 <h6 id="ch11.xhtml_sigil_toc_id_1034"><span class="label">Figure 11-55.
 </span>Default sizing of flex items <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-basis-default-sizing.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35015,13 +35015,13 @@ length units for our flex-basis value as we do for `width` and `height`.
 
 <figure>
 <div id="ch11.xhtml_width_flex_proportion_basis" class="figure">
-<img src="/Def-Images/Images/css5_1156.png" width="582" height="221"
+<img src="./images/css5_1156.png" width="582" height="221"
 alt="css5 1156" />
 <h6 id="ch11.xhtml_sigil_toc_id_1036"><span class="label">Figure 11-56.
 </span>Sizing flex items with length-unit flex basis values <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-basis-width-vs-length.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35100,13 +35100,13 @@ set to `100%`.
 
 <figure>
 <div id="ch11.xhtml_percentage-val-flex-basis" class="figure">
-<img src="/Def-Images/Images/css5_1157.png" width="600" height="594"
+<img src="./images/css5_1157.png" width="600" height="594"
 alt="The percentage value for flex-basis is relative to the width of the flex container" />
 <h6 id="ch11.xhtml_sigil_toc_id_1038"><span class="label">Figure 11-57.
 </span>Sizing flex items with percentage flex basis values <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-basis-percentage.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35229,7 +35229,7 @@ shows the result.
 
 <figure>
 <div id="ch11.xhtml_flex-basis-rel-main-axis-size" class="figure">
-<img src="/Def-Images/Images/css5_1158.png" width="600" height="197"
+<img src="./images/css5_1158.png" width="600" height="197"
 alt="css5 1158" />
 <h6 id="ch11.xhtml_sigil_toc_id_1040"><span class="label">Figure 11-58.
 </span>While the percentage value for <code>flex-basis</code> is
@@ -35237,7 +35237,7 @@ relative to the width of the flex container, the main-axis size is
 impacted by its siblings <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-basis-percentage-main-axis.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35287,7 +35287,7 @@ respectively.
 
 <figure>
 <div id="ch11.xhtml_flex-basis-auto-vs-0" class="figure">
-<img src="/Def-Images/Images/css5_1159.png" width="600" height="237"
+<img src="./images/css5_1159.png" width="600" height="237"
 alt="flex-basis auto versus 0" />
 <h6 id="ch11.xhtml_sigil_toc_id_1042"><span class="label">Figure 11-59.
 </span>Flex growth in auto and zero flex basis values</h6>
@@ -35412,14 +35412,14 @@ equally.
 
 <figure>
 <div id="ch11.xhtml_flex-shrink-flex-initial" class="figure">
-<img src="/Def-Images/Images/css5_1160.png" width="600" height="465"
+<img src="./images/css5_1160.png" width="600" height="465"
 alt="With containers of different main sizes, the flex items shrink but won&#39;t grow when flex: initial is set on the flex items" />
 <h6 id="ch11.xhtml_sigil_toc_id_1046"><span class="label">Figure 11-60.
 </span>Flex items shrink but won’t grow when <code>flex: initial</code>
 is set <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-items-shrink-dont-grow.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35454,14 +35454,14 @@ shows a variety of scenarios using `auto` flexing.
 
 <figure>
 <div id="ch11.xhtml_flex-auto-grow-shrink" class="figure">
-<img src="/Def-Images/Images/css5_1161.png" width="600" height="465"
+<img src="./images/css5_1161.png" width="600" height="465"
 alt="With flex: auto set on the flex items, the flex items can grow and shrink " />
 <h6 id="ch11.xhtml_sigil_toc_id_1048"><span class="label">Figure 11-61.
 </span>Flex items can grow and shrink when <code>flex: auto</code> is
 set <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-items-shrink-and-grow.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35494,14 +35494,14 @@ shows the effects of `none`.
 
 <figure>
 <div id="ch11.xhtml_flex-none-no-grow-shrink" class="figure">
-<img src="/Def-Images/Images/css5_1162.png" width="600" height="390"
+<img src="./images/css5_1162.png" width="600" height="390"
 alt="With flex: none, flex items will neither grow nor shrink" />
 <h6 id="ch11.xhtml_sigil_toc_id_1050"><span class="label">Figure 11-62.
 </span>With <code>flex: none</code>, flex items will neither grow nor
 shrink <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-items-dont-grow-nor-shrink.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35554,13 +35554,13 @@ has more distributable space.
 
 <figure>
 <div id="ch11.xhtml_flex-n-grow-shrink" class="figure">
-<img src="/Def-Images/Images/css5_1163.png" width="600" height="598"
+<img src="./images/css5_1163.png" width="600" height="598"
 alt="With flex: n, you&#39;re declaring the flex items growth factor while setting the flex basis to zero" />
 <h6 id="ch11.xhtml_sigil_toc_id_1052"><span class="label">Figure 11-63.
 </span>Flexing using a single numeric value <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/flex-using-single-numeric-value.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35696,13 +35696,13 @@ the result.
 
 <figure>
 <div id="ch11.xhtml_setting-order-to-any" class="figure">
-<img src="/Def-Images/Images/css5_1164.png" width="600" height="69"
+<img src="./images/css5_1164.png" width="600" height="69"
 alt="Setting order to any value other than 0 will reorder that flex item" />
 <h6 id="ch11.xhtml_sigil_toc_id_1057"><span class="label">Figure 11-64.
 </span>Reordering flex items with the <code>order</code> property <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/order01.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35747,14 +35747,14 @@ shows the result.
 
 <figure>
 <div id="ch11.xhtml_flex-items-appear-ordinal" class="figure">
-<img src="/Def-Images/Images/css5_1165.png" width="600" height="69"
+<img src="./images/css5_1165.png" width="600" height="69"
 alt="Flex items appear in order of ordinal groups, by source order within their group" />
 <h6 id="ch11.xhtml_sigil_toc_id_1058"><span class="label">Figure 11-65.
 </span>Flex items appear in order of ordinal groups, by source order
 within <span class="keep-together">their group</span> <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/order02.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -35830,14 +35830,14 @@ a.active {
 
 <figure>
 <div id="ch11.xhtml_changing-order-tab" class="figure">
-<img src="/Def-Images/Images/css5_1166.png" width="600" height="23"
+<img src="./images/css5_1166.png" width="600" height="23"
 alt="Changing the order will change the visual order, but not the tab order" />
 <h6 id="ch11.xhtml_sigil_toc_id_1060"><span class="label">Figure 11-66.
 </span>Changing the order will change the visual order, but not the tab
 order <a
 href="https://meyerweb.github.io/csstdg5figs/11-flexbox/changing-order-changes-visual-order.xhtml"
 class="play"><span class="play"><img
-src="/Def-Images/Images/play-icon-round.png" width="100"
+src="./images/play-icon-round.png" width="100"
 height="100" /></span></a></h6>
 </div>
 </figure>
@@ -36040,7 +36040,7 @@ illustrates the difference.
 
 <figure>
 <div id="ch12.xhtml_grids_and_inline_grids" class="figure">
-<img src="/Def-Images/Images/css5_1201.png" width="600" height="124"
+<img src="./images/css5_1201.png" width="600" height="124"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1063"><span class="label">Figure 12-1.
 </span>Grids and inline grids</h6>
@@ -36068,7 +36068,7 @@ for a demonstration of the difference.
 
 <figure>
 <div id="ch12.xhtml_floats_interact_differently" class="figure">
-<img src="/Def-Images/Images/css5_1202.png" width="600" height="240"
+<img src="./images/css5_1202.png" width="600" height="240"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1064"><span class="label">Figure 12-2.
 </span>Floats interact differently with blocks and grids</h6>
@@ -36096,7 +36096,7 @@ top margin of its grid container.
 
 <figure>
 <div id="ch12.xhtml_margin_collapsing" class="figure">
-<img src="/Def-Images/Images/css5_1203.png" width="600" height="169"
+<img src="./images/css5_1203.png" width="600" height="169"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1065"><span class="label">Figure 12-3.
 </span>Margin collapsing and the lack thereof</h6>
@@ -36204,7 +36204,7 @@ Consider the following, which has the result shown in
 
 <figure>
 <div id="ch12.xhtml_grid_items" class="figure">
-<img src="/Def-Images/Images/css5_1204.png" width="600" height="91"
+<img src="./images/css5_1204.png" width="600" height="91"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1067"><span class="label">Figure 12-4.
 </span>Grid items</h6>
@@ -36248,7 +36248,7 @@ Grid track
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grid_components" class="figure">
-<img src="/Def-Images/Images/css5_1205.png" width="600" height="361"
+<img src="./images/css5_1205.png" width="600" height="361"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1069"><span class="label">Figure 12-5.
 </span>Grid components</h6>
@@ -36383,7 +36383,7 @@ as you'll soon see.
 
 <figure>
 <div id="ch12.xhtml_grid_line_numbers_and_names" class="figure">
-<img src="/Def-Images/Images/css5_1206.png" width="600" height="366"
+<img src="./images/css5_1206.png" width="600" height="366"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1073"><span class="label">Figure 12-6.
 </span>Grid-line numbers and names</h6>
@@ -36446,7 +36446,7 @@ from the second. This is illustrated in
 
 <figure>
 <div id="ch12.xhtml_grid_line_placement" class="figure">
-<img src="/Def-Images/Images/css5_1207.png" width="600" height="165"
+<img src="./images/css5_1207.png" width="600" height="165"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1076"><span class="label">Figure 12-7.
 </span>Grid-line placement</h6>
@@ -36482,7 +36482,7 @@ the result shown in
 
 <figure>
 <div id="ch12.xhtml_grid_name_placement" class="figure">
-<img src="/Def-Images/Images/css5_1208.png" width="600" height="214"
+<img src="./images/css5_1208.png" width="600" height="214"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1077"><span class="label">Figure 12-8.
 </span>Grid-line naming</h6>
@@ -36508,7 +36508,7 @@ Row grid lines are placed in exactly the same way as columns, as
 
 <figure>
 <div id="ch12.xhtml_creating_a_grid" class="figure">
-<img src="/Def-Images/Images/css5_1209.png" width="600" height="357"
+<img src="./images/css5_1209.png" width="600" height="357"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1078"><span class="label">Figure 12-9.
 </span>Creating a grid</h6>
@@ -36546,7 +36546,7 @@ container altogether:
 
 <figure>
 <div id="ch12.xhtml_exceeding_the_grid_container" class="figure">
-<img src="/Def-Images/Images/css5_1210.png" width="600" height="413"
+<img src="./images/css5_1210.png" width="600" height="413"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1079"><span class="label">Figure 12-10.
 </span>Exceeding the grid container</h6>
@@ -36581,7 +36581,7 @@ shows one possible outcome of this approach.
 
 <figure>
 <div id="ch12.xhtml_adapting_to_the_grid_container" class="figure">
-<img src="/Def-Images/Images/css5_1211.png" width="600" height="246"
+<img src="./images/css5_1211.png" width="600" height="246"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1080"><span class="label">Figure 12-11.
 </span>Adapting to the grid container</h6>
@@ -36673,7 +36673,7 @@ shows the result of either.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_dividing_the_container" class="figure">
-<img src="/Def-Images/Images/css5_1212.png" width="600" height="240"
+<img src="./images/css5_1212.png" width="600" height="240"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1083"><span class="label">Figure 12-12.
 </span>Dividing the container into four columns</h6>
@@ -36743,7 +36743,7 @@ grid-template-columns: 15em 1fr 10%;
 
 <figure class="bordernone">
 <div id="ch12.xhtml_giving_the_center_column" class="figure">
-<img src="/Def-Images/Images/css5_1213.png" width="600" height="181"
+<img src="./images/css5_1213.png" width="600" height="181"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1084"><span class="label">Figure 12-13.
 </span>Giving the center column whatever’s available</h6>
@@ -36774,7 +36774,7 @@ In this case, the columns will be sized as shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_flexible_column_sizing" class="figure">
-<img src="/Def-Images/Images/css5_1214.png" width="600" height="181"
+<img src="./images/css5_1214.png" width="600" height="181"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1085"><span class="label">Figure 12-14.
 </span>Flexible column sizing</h6>
@@ -36836,7 +36836,7 @@ pixels wide.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_minmaxed_column_sizing" class="figure">
-<img src="/Def-Images/Images/css5_1215.png" width="600" height="177"
+<img src="./images/css5_1215.png" width="600" height="177"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1086"><span class="label">Figure 12-15.
 </span>Minmaxed column sizing</h6>
@@ -36913,7 +36913,7 @@ and shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_sizing_grid_tracks_by_content" class="figure">
-<img src="/Def-Images/Images/css5_1216.png" width="600" height="453"
+<img src="./images/css5_1216.png" width="600" height="453"
 alt="css5 1216" />
 <h6 id="ch12.xhtml_sigil_toc_id_1088"><span class="label">Figure 12-16.
 </span>Sizing grid tracks by content</h6>
@@ -36944,7 +36944,7 @@ get.
 <figure class="bordernone">
 <div id="ch12.xhtml_sizing_grid_tracks_around_mixed_content"
 class="figure">
-<img src="/Def-Images/Images/css5_1217.png" width="600" height="256"
+<img src="./images/css5_1217.png" width="600" height="256"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1089"><span class="label">Figure 12-17.
 </span>Sizing grid tracks around mixed content</h6>
@@ -36974,7 +36974,7 @@ In both cases, the grid container is represented by a shaded background
 
 <figure class="bordernone">
 <div id="ch12.xhtml_sizing_grid_tracks_minmax" class="figure">
-<img src="/Def-Images/Images/css5_1218.png" width="600" height="220"
+<img src="./images/css5_1218.png" width="600" height="220"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1090"><span class="label">Figure 12-18.
 </span>Sizing grid tracks with and without <code>minmax()</code></h6>
@@ -37114,7 +37114,7 @@ in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_sizing_grid_tracks_fit_content" class="figure">
-<img src="/Def-Images/Images/css5_1219.png" width="600" height="59"
+<img src="./images/css5_1219.png" width="600" height="59"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1093"><span class="label">Figure 12-19.
 </span>Sizing grid tracks with <code>fit-content()</code></h6>
@@ -37139,7 +37139,7 @@ depicted in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_sizing_grid_tracks_fit_content_wide" class="figure">
-<img src="/Def-Images/Images/css5_1220.png" width="600" height="93"
+<img src="./images/css5_1220.png" width="600" height="93"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1094"><span class="label">Figure 12-20.
 </span>Fitting to wide content</h6>
@@ -37220,7 +37220,7 @@ three times. Here's how to do that, with the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_repeating_a_track_pattern" class="figure">
-<img src="/Def-Images/Images/css5_1221.png" width="600" height="141"
+<img src="./images/css5_1221.png" width="600" height="141"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1096"><span class="label">Figure 12-21.
 </span>Repeating a track pattern</h6>
@@ -37262,7 +37262,7 @@ This is acceptable; grid-line names are not required to be unique.
 
 <figure>
 <div id="ch12.xhtml_repeated_columns_w_named_grid_lines" class="figure">
-<img src="/Def-Images/Images/css5_1222.png" width="600" height="170"
+<img src="./images/css5_1222.png" width="600" height="170"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1097"><span class="label">Figure 12-22.
 </span>Repeated columns with named grid lines</h6>
@@ -37332,7 +37332,7 @@ for examples of the autofilled rows at three grid container heights.
 
 <figure>
 <div id="ch12.xhtml_auto-fill-rows-three-heights" class="figure">
-<img src="/Def-Images/Images/css5_1223.png" width="600" height="199"
+<img src="./images/css5_1223.png" width="600" height="199"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1100"><span class="label">Figure 12-23.
 </span>Autofilling rows at three heights</h6>
@@ -37399,7 +37399,7 @@ shows two examples.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_auto-fill-columns-with-fixed" class="figure">
-<img src="/Def-Images/Images/css5_1224.png" width="600" height="173"
+<img src="./images/css5_1224.png" width="600" height="173"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1102"><span class="label">Figure 12-24.
 </span>Autofilling columns next to fixed columns</h6>
@@ -37452,7 +37452,7 @@ startref="ix_grid_track_autofill" data-type="indexterm"}
 
 <figure>
 <div id="ch12.xhtml_auto-fill-and-auto-fit" class="figure">
-<img src="/Def-Images/Images/css5_1225.png" width="600" height="267"
+<img src="./images/css5_1225.png" width="600" height="267"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1103"><span class="label">Figure 12-25.
 </span>Using <code>auto-fill</code> versus <code>auto-fit</code></h6>
@@ -37509,7 +37509,7 @@ lot more fun to just show it. The following rule has the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_simple_set_of_grid_areas" class="figure">
-<img src="/Def-Images/Images/css5_1226.png" width="600" height="114"
+<img src="./images/css5_1226.png" width="600" height="114"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1106"><span class="label">Figure 12-26.
 </span>A simple set of grid areas</h6>
@@ -37581,7 +37581,7 @@ uses Firefox's Grid Inspector to label each cell:
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grid_cells_with_ids" class="figure">
-<img src="/Def-Images/Images/css5_1227.png" width="600" height="135"
+<img src="./images/css5_1227.png" width="600" height="135"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1107"><span class="label">Figure 12-27.
 </span>Grid cells with their grid area identifiers</h6>
@@ -37629,7 +37629,7 @@ would look something like this, with the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grid_with_unnamed_cells" class="figure">
-<img src="/Def-Images/Images/css5_1228.png" width="600" height="72"
+<img src="./images/css5_1228.png" width="600" height="72"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1108"><span class="label">Figure 12-28.
 </span>A grid with some unnamed grid cells</h6>
@@ -37649,7 +37649,7 @@ you want to call your header `ronaldo` and your footer `podiatrist`, go
 for it. You can even use any Unicode character above codepoint U+0080,
 so `ConHugeCo©®™` and `åwësømë` are completely valid area
 identifiers...as are emoji!
-![](/Def-Images/Images/joy_1f602.png){height="120" width="120"} Now, to
+![](./images/joy_1f602.png){height="120" width="120"} Now, to
 size the grid tracks created by these areas, we bring in our old friends
 `grid-template-columns` and `grid-template-rows`. Let's add both to the
 previous example, with the result shown in
@@ -37667,7 +37667,7 @@ previous example, with the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_named_areas_and_sized_tracks" class="figure">
-<img src="/Def-Images/Images/css5_1229.png" width="600" height="123"
+<img src="./images/css5_1229.png" width="600" height="123"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1109"><span class="label">Figure 12-29.
 </span>Named areas and sized tracks</h6>
@@ -37692,7 +37692,7 @@ CSS will lead to the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_adding_more_tracks" class="figure">
-<img src="/Def-Images/Images/css5_1230.png" width="600" height="133"
+<img src="./images/css5_1230.png" width="600" height="133"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1110"><span class="label">Figure 12-30.
 </span>Adding more tracks beyond the named areas</h6>
@@ -37722,7 +37722,7 @@ shows the naming of the lines created by the following template:
 
 <figure>
 <div id="ch12.xhtml_implicit_grid_line_names_explicit" class="figure">
-<img src="/Def-Images/Images/css5_1231.png" width="600" height="285"
+<img src="./images/css5_1231.png" width="600" height="285"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1111"><span class="label">Figure 12-31.
 </span>Implicit grid-line names made explicit</h6>
@@ -37767,7 +37767,7 @@ some named grid lines like so, as illustrated in
 
 <figure>
 <div id="ch12.xhtml_implicit_grid_area_names_explicit" class="figure">
-<img src="/Def-Images/Images/css5_1232.png" width="600" height="214"
+<img src="./images/css5_1232.png" width="600" height="214"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1112"><span class="label">Figure 12-32.
 </span>Implicit grid-area names made explicit</h6>
@@ -37887,7 +37887,7 @@ their result (see
 
 <figure class="bordernone">
 <div id="ch12.xhtml_attaching_elements_to_grid_lines" class="figure">
-<img src="/Def-Images/Images/css5_1233.png" width="600" height="300"
+<img src="./images/css5_1233.png" width="600" height="300"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1116"><span class="label">Figure 12-33.
 </span>Attaching elements to grid lines</h6>
@@ -37966,7 +37966,7 @@ column and row numbers were added for clarity):
 
 <figure class="bordernone">
 <div id="ch12.xhtml_spanning_grid_lines" class="figure">
-<img src="/Def-Images/Images/css5_1234.png" width="600" height="171"
+<img src="./images/css5_1234.png" width="600" height="171"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1117"><span class="label">Figure 12-34.
 </span>Spanning grid lines</h6>
@@ -38017,7 +38017,7 @@ for an idea of how this works:
 <figure>
 <div id="ch12.xhtml_attaching_elements_to_named_grid_lines"
 class="figure">
-<img src="/Def-Images/Images/css5_1235.png" width="600" height="253"
+<img src="./images/css5_1235.png" width="600" height="253"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1118"><span class="label">Figure 12-35.
 </span>Attaching elements to named grid lines</h6>
@@ -38068,7 +38068,7 @@ grid-template-areas:
 
 <figure class="bordernone">
 <div id="ch12.xhtml_another_way_of_attaching" class="figure">
-<img src="/Def-Images/Images/css5_1236.png" width="600" height="233"
+<img src="./images/css5_1236.png" width="600" height="233"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1119"><span class="label">Figure 12-36.
 </span>Another way of attaching elements to named grid lines</h6>
@@ -38206,7 +38206,7 @@ the result shown in
 
 <figure>
 <div id="ch12.xhtml_attaching_to_implicit_grid_lines" class="figure">
-<img src="/Def-Images/Images/css5_1237.png" width="600" height="127"
+<img src="./images/css5_1237.png" width="600" height="127"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1122"><span class="label">Figure 12-37.
 </span>Attaching to implicit grid lines via grid-area names</h6>
@@ -38326,7 +38326,7 @@ create implicit grid lines (and tracks) and how they're laid out (see
 <figure>
 <div id="ch12.xhtml_creating_implicit_grid_lines_and_tracks"
 class="figure">
-<img src="/Def-Images/Images/css5_1238.png" width="600" height="290"
+<img src="./images/css5_1238.png" width="600" height="290"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1124"><span class="label">Figure 12-38.
 </span>Creating implicit grid lines and tracks</h6>
@@ -38405,7 +38405,7 @@ the implicitly created line names are italicized and faded out a bit.)
 <figure>
 <div id="ch12.xhtml_named_implicit_grid_lines_and_tracks"
 class="figure">
-<img src="/Def-Images/Images/css5_1239.png" width="600" height="344"
+<img src="./images/css5_1239.png" width="600" height="344"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1125"><span class="label">Figure 12-39.
 </span>Named implicit grid lines and tracks</h6>
@@ -38552,7 +38552,7 @@ and see what magic results (as shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_assigning_elements_to_grid_areas" class="figure">
-<img src="/Def-Images/Images/css5_1240.png" width="600" height="233"
+<img src="./images/css5_1240.png" width="600" height="233"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1129"><span class="label">Figure 12-40.
 </span>Assigning elements to grid areas</h6>
@@ -38583,7 +38583,7 @@ some `grid-area` rules that reference the lines, as illustrated in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_assigning_elements_to_grid_lines" class="figure">
-<img src="/Def-Images/Images/css5_1241.png" width="600" height="124"
+<img src="./images/css5_1241.png" width="600" height="124"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1130"><span class="label">Figure 12-41.
 </span>Assigning elements to grid lines</h6>
@@ -38662,7 +38662,7 @@ Let's take a simple case, illustrated in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_overlapping_grid_items" class="figure">
-<img src="/Def-Images/Images/css5_1242.png" width="600" height="189"
+<img src="./images/css5_1242.png" width="600" height="189"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1132"><span class="label">Figure 12-42.
 </span>Overlapping grid items</h6>
@@ -38699,7 +38699,7 @@ the absence of other styles, the footer will be on top of the sidebar.)
 
 <figure class="bordernone">
 <div id="ch12.xhtml_overlapping_sidebar_and_footer" class="figure">
-<img src="/Def-Images/Images/css5_1243.png" width="600" height="179"
+<img src="./images/css5_1243.png" width="600" height="179"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1133"><span class="label">Figure 12-43.
 </span>Overlapping sidebar and footer</h6>
@@ -38780,7 +38780,7 @@ ems, we get the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_row-oriented_grid_flow" class="figure">
-<img src="/Def-Images/Images/css5_1244.png" width="600" height="106"
+<img src="./images/css5_1244.png" width="600" height="106"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1136"><span class="label">Figure 12-44.
 </span>Row-oriented grid flow</h6>
@@ -38805,7 +38805,7 @@ first.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_column-oriented_grid_flow" class="figure">
-<img src="/Def-Images/Images/css5_1245.png" width="600" height="106"
+<img src="./images/css5_1245.png" width="600" height="106"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1137"><span class="label">Figure 12-45.
 </span>Column-oriented grid flow</h6>
@@ -38828,7 +38828,7 @@ tall, we'll get the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_explicitly_sized_grid_items" class="figure">
-<img src="/Def-Images/Images/css5_1246.png" width="600" height="95"
+<img src="./images/css5_1246.png" width="600" height="95"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1138"><span class="label">Figure 12-46.
 </span>Explicitly sized grid items</h6>
@@ -38863,7 +38863,7 @@ img {grid-row: auto; grid-column: auto;}
 
 <figure class="bordernone width-50">
 <div id="ch12.xhtml_flowing_images_in_grids" class="figure">
-<img src="/Def-Images/Images/css5_1247.png" width="480" height="300"
+<img src="./images/css5_1247.png" width="480" height="300"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1139"><span class="label">Figure 12-47.
 </span>Flowing images in grids</h6>
@@ -38892,7 +38892,7 @@ img.tall {grid-row: auto / span 2;}
 
 <figure class="bordernone">
 <div id="ch12.xhtml_giving_images_more_track_space" class="figure">
-<img src="/Def-Images/Images/css5_1248.png" width="400" height="600"
+<img src="./images/css5_1248.png" width="400" height="600"
 alt="css5 1248" />
 <h6 id="ch12.xhtml_sigil_toc_id_1140"><span class="label">Figure 12-48.
 </span>Giving images more track space</h6>
@@ -38910,7 +38910,7 @@ patterns, more clearly, let's try an example with numbered boxes
 
 <figure class="bordernone">
 <div id="ch12.xhtml_illustrating_flow_patterns" class="figure">
-<img src="/Def-Images/Images/css5_1249.png" width="600" height="325"
+<img src="./images/css5_1249.png" width="600" height="325"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1141"><span class="label">Figure 12-49.
 </span>Illustrating flow patterns</h6>
@@ -38958,7 +38958,7 @@ which shows the results of `grid-auto-flow: row dense` and
 
 <figure class="bordernone">
 <div id="ch12.xhtml_illustrating_dense_flow_patterns" class="figure">
-<img src="/Def-Images/Images/css5_1250.png" width="600" height="325"
+<img src="./images/css5_1250.png" width="600" height="325"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1143"><span class="label">Figure 12-50.
 </span>Illustrating dense flow patterns</h6>
@@ -39075,7 +39075,7 @@ defaults to `auto`, with the result shown.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grids_auto-row_sizing" class="figure">
-<img src="/Def-Images/Images/css5_1251.png" width="600" height="405"
+<img src="./images/css5_1251.png" width="600" height="405"
 alt="css5 1251" />
 <h6 id="ch12.xhtml_sigil_toc_id_1146"><span class="label">Figure 12-51.
 </span>Grids with and without auto-row sizing</h6>
@@ -39095,7 +39095,7 @@ apply (see
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grids_auto-column_sizing" class="figure">
-<img src="/Def-Images/Images/css5_1252.png" width="600" height="208"
+<img src="./images/css5_1252.png" width="600" height="208"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1147"><span class="label">Figure 12-52.
 </span>Grids with and without auto-column sizing</h6>
@@ -39128,7 +39128,7 @@ startref="ix_implicit_grid2" data-type="indexterm"}
 
 <figure class="bordernone">
 <div id="ch12.xhtml_auto-track_sizing_removed" class="figure">
-<img src="/Def-Images/Images/css5_1253.png" width="600" height="307"
+<img src="./images/css5_1253.png" width="600" height="307"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1148"><span class="label">Figure 12-53.
 </span>A previous figure with auto-track sizing removed</h6>
@@ -39262,7 +39262,7 @@ with the explicitly named grid lines we wrote into the CSS.
 
 <figure>
 <div id="ch12.xhtml_creating_grid_w_grid" class="figure">
-<img src="/Def-Images/Images/css5_1254.png" width="600" height="272"
+<img src="./images/css5_1254.png" width="600" height="272"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1151"><span class="label">Figure 12-54.
 </span>Creating a grid with the <code>grid</code> shorthand</h6>
@@ -39377,7 +39377,7 @@ initial markup code. (You'll see it in more detail soon.)
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_simple_setup" class="figure">
-<img src="/Def-Images/Images/css5_1255.png" width="600" height="178"
+<img src="./images/css5_1255.png" width="600" height="178"
 alt="css5 1255" />
 <h6 id="ch12.xhtml_sigil_toc_id_1153"><span class="label">Figure 12-55.
 </span>The initial setup of a page layout</h6>
@@ -39436,7 +39436,7 @@ header's pieces are being gridded.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_header" class="figure">
-<img src="/Def-Images/Images/css5_1256.png" width="600" height="168"
+<img src="./images/css5_1256.png" width="600" height="168"
 alt="css5 1256" />
 <h6 id="ch12.xhtml_sigil_toc_id_1154"><span class="label">Figure 12-56.
 </span>Placing the <code>header</code>’s pieces on the
@@ -39471,7 +39471,7 @@ result.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_footer" class="figure">
-<img src="/Def-Images/Images/css5_1257.png" width="600" height="132"
+<img src="./images/css5_1257.png" width="600" height="132"
 alt="css5 1257" />
 <h6 id="ch12.xhtml_sigil_toc_id_1155"><span class="label">Figure 12-57.
 </span>Placing the <code>&lt;footer&gt;</code>’s pieces on the
@@ -39521,7 +39521,7 @@ the `<footer>`'s two rows.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_footer_own_rows" class="figure">
-<img src="/Def-Images/Images/css5_1258.png" width="600" height="132"
+<img src="./images/css5_1258.png" width="600" height="132"
 alt="css5 1258" />
 <h6 id="ch12.xhtml_sigil_toc_id_1157"><span class="label">Figure 12-58.
 </span>Placing the <code>&lt;footer&gt;</code>’s pieces on the
@@ -39571,7 +39571,7 @@ fix that by changing the rule to the following, with the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_main_placement" class="figure">
-<img src="/Def-Images/Images/css5_1259.png" width="600" height="212"
+<img src="./images/css5_1259.png" width="600" height="212"
 alt="css5 1259" />
 <h6 id="ch12.xhtml_sigil_toc_id_1159"><span class="label">Figure 12-59.
 </span>Placing the <code>&lt;main&gt;</code> element’s children on the
@@ -39607,7 +39607,7 @@ columns to either side. But let's not do that.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_main_column_count" class="figure">
-<img src="/Def-Images/Images/css5_1260.png" width="600" height="195"
+<img src="./images/css5_1260.png" width="600" height="195"
 alt="css5 1260" />
 <h6 id="ch12.xhtml_sigil_toc_id_1160"><span class="label">Figure 12-60.
 </span>Placing the gallery inward by a column on each side, and spanning
@@ -39643,7 +39643,7 @@ in [Figure 12-61](#ch12.xhtml_subgrid_gallery_cards){data-type="xref"}:
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_gallery_cards" class="figure">
-<img src="/Def-Images/Images/css5_1261.png" width="600" height="237"
+<img src="./images/css5_1261.png" width="600" height="237"
 alt="css5 1261" />
 <h6 id="ch12.xhtml_sigil_toc_id_1161"><span class="label">Figure 12-61.
 </span>Adding multiple cards to the subgridded gallery</h6>
@@ -39717,7 +39717,7 @@ gallery.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_gallery_card_rows" class="figure">
-<img src="/Def-Images/Images/css5_1262.png" width="600" height="244"
+<img src="./images/css5_1262.png" width="600" height="244"
 alt="css5 1262" />
 <h6 id="ch12.xhtml_sigil_toc_id_1162"><span class="label">Figure 12-62.
 </span>Placing card items on subgridded rows</h6>
@@ -39804,7 +39804,7 @@ these cards, which are laid out as shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_gallery-cards-rows-repeat" class="figure">
-<img src="/Def-Images/Images/css5_1263.png" width="600" height="343"
+<img src="./images/css5_1263.png" width="600" height="343"
 alt="css5 1263" />
 <h6 id="ch12.xhtml_sigil_toc_id_1164"><span class="label">Figure 12-63.
 </span>Placing cards onto auto-rows with named lines</h6>
@@ -39870,7 +39870,7 @@ p.explore {grid-column: explore-start / explore-end;}
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_main_named_lines" class="figure">
-<img src="/Def-Images/Images/css5_1264.png" width="600" height="328"
+<img src="./images/css5_1264.png" width="600" height="328"
 alt="css5 1264" />
 <h6 id="ch12.xhtml_sigil_toc_id_1165"><span class="label">Figure 12-64.
 </span>Placing elements using subgrid-named grid lines</h6>
@@ -39918,7 +39918,7 @@ column gaps. This has the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_grid_gaps" class="figure">
-<img src="/Def-Images/Images/css5_1265.png" width="600" height="352"
+<img src="./images/css5_1265.png" width="600" height="352"
 alt="css5 1265" />
 <h6 id="ch12.xhtml_sigil_toc_id_1167"><span class="label">Figure 12-65.
 </span>The effect of adding gaps to a subgrid</h6>
@@ -39988,7 +39988,7 @@ margins. For example, these styles will have the result shown in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grid_items_with_margins" class="figure">
-<img src="/Def-Images/Images/css5_1266.png" width="600" height="337"
+<img src="./images/css5_1266.png" width="600" height="337"
 alt="css5 1266" />
 <h6 id="ch12.xhtml_sigil_toc_id_1170"><span class="label">Figure 12-66.
 </span>Grid items with margins</h6>
@@ -40053,7 +40053,7 @@ left margin, which is (as we just calculated) 40 pixels.
 
 <figure>
 <div id="ch12.xhtml_using_auto_margins_to_align_items" class="figure">
-<img src="/Def-Images/Images/css5_1267.png" width="600" height="161"
+<img src="./images/css5_1267.png" width="600" height="161"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1172"><span class="label">Figure 12-67.
 </span>Using auto margins to align items</h6>
@@ -40081,7 +40081,7 @@ have explicit heights and widths:
 
 <figure class="bordernone">
 <div id="ch12.xhtml_various_auto-margin_alignments" class="figure">
-<img src="/Def-Images/Images/css5_1268.png" width="600" height="318"
+<img src="./images/css5_1268.png" width="600" height="318"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1173"><span class="label">Figure 12-68.
 </span>Various auto-margin alignments</h6>
@@ -40122,7 +40122,7 @@ context, and the thick-bordered box denoting the absolutely positioned
 
 <figure class="bordernone">
 <div id="ch12.xhtml_absolutely_positioning_a_grid_item" class="figure">
-<img src="/Def-Images/Images/css5_1269.png" width="600" height="361"
+<img src="./images/css5_1269.png" width="600" height="361"
 alt="css5 1269" />
 <h6 id="ch12.xhtml_sigil_toc_id_1175"><span class="label">Figure 12-69.
 </span>Absolutely positioning a grid item</h6>
@@ -40160,7 +40160,7 @@ follows, with the result shown in
 <figure class="bordernone">
 <div id="ch12.xhtml_auto_values_and_absolute_positioning"
 class="figure">
-<img src="/Def-Images/Images/css5_1270.png" width="600" height="400"
+<img src="./images/css5_1270.png" width="600" height="400"
 alt="css5 1270" />
 <h6 id="ch12.xhtml_sigil_toc_id_1176"><span class="label">Figure 12-70.
 </span>Auto values and absolute positioning</h6>
@@ -40254,7 +40254,7 @@ shows the effects of those same values when used by `align-self`. (See
 <figure class="bordernone">
 <div id="ch12.xhtml_self_alignment_in_the_inline_and_block_directions"
 class="figure">
-<img src="/Def-Images/Images/css5_1271.png" width="600" height="170"
+<img src="./images/css5_1271.png" width="600" height="170"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1179"><span class="label">Figure 12-71.
 </span>Self-alignment in the inline and block directions</h6>
@@ -40477,7 +40477,7 @@ that depicted in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_centering_all_the_grid_items" class="figure">
-<img src="/Def-Images/Images/css5_1272.png" width="600" height="332"
+<img src="./images/css5_1272.png" width="600" height="332"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1185"><span class="label">Figure 12-72.
 </span>Centering all the grid items</h6>
@@ -40500,7 +40500,7 @@ placed according to their alignment values.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grid-alignment-justify-items-both" class="figure">
-<img src="/Def-Images/Images/css5_1273.png" width="600" height="152"
+<img src="./images/css5_1273.png" width="600" height="152"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1186"><span class="label">Figure 12-73.
 </span>The alignment of grid items within their grid cells</h6>
@@ -40584,7 +40584,7 @@ with each grid sharing the following styles:
 <figure class="bordernone">
 <div id="ch12.xhtml_distributing_grid_items_horizontally"
 class="figure">
-<img src="/Def-Images/Images/css5_1274.png" width="600" height="246"
+<img src="./images/css5_1274.png" width="600" height="246"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1190"><span class="label">Figure 12-74.
 </span>Distributing grid items along the inline axis</h6>
@@ -40619,7 +40619,7 @@ grids all share these styles:
 
 <figure class="bordernone">
 <div id="ch12.xhtml_distributing_grid_items_vertically" class="figure">
-<img src="/Def-Images/Images/css5_1275.png" width="600" height="288"
+<img src="./images/css5_1275.png" width="600" height="288"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1191"><span class="label">Figure 12-75.
 </span>Distributing grid items along the block axis</h6>
@@ -40702,7 +40702,7 @@ order):
 
 <figure class="bordernone">
 <div id="ch12.xhtml_grid_items_overlapping" class="figure">
-<img src="/Def-Images/Images/css5_1276.png" width="600" height="211"
+<img src="./images/css5_1276.png" width="600" height="211"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1193"><span class="label">Figure 12-76.
 </span>Grid items overlapping in source order</h6>
@@ -40723,7 +40723,7 @@ in [Figure 12-77](#ch12.xhtml_elevating_a_grid_item){data-type="xref"}):
 
 <figure class="bordernone">
 <div id="ch12.xhtml_elevating_a_grid_item" class="figure">
-<img src="/Def-Images/Images/css5_1277.png" width="600" height="211"
+<img src="./images/css5_1277.png" width="600" height="211"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1194"><span class="label">Figure 12-77.
 </span>Elevating a grid item</h6>
@@ -40756,7 +40756,7 @@ sequence. This is depicted in
 
 <figure class="bordernone">
 <div id="ch12.xhtml_changing_grid_item_order" class="figure">
-<img src="/Def-Images/Images/css5_1278.png" width="600" height="93"
+<img src="./images/css5_1278.png" width="600" height="93"
 alt="image" />
 <h6 id="ch12.xhtml_sigil_toc_id_1195"><span class="label">Figure 12-78.
 </span>Changing grid-item order</h6>
@@ -40889,7 +40889,7 @@ their grid cells are indicated by the dashed lines.
 
 <figure>
 <div id="ch13.xhtml_formatting-grid-cells-basis" class="figure">
-<img src="/Def-Images/Images/css5_1301.png" width="600" height="146"
+<img src="./images/css5_1301.png" width="600" height="146"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1200"><span class="label">Figure 13-1.
 </span>Grid cells form the basis of table layout</h6>
@@ -41344,7 +41344,7 @@ anonymous table row.
 
 <figure class="bordernone">
 <div id="ch13.xhtml_anon-obj-row" class="figure">
-<img src="/Def-Images/Images/css5_1302.png" width="600" height="113"
+<img src="./images/css5_1302.png" width="600" height="113"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1208"><span class="label">Figure 13-2.
 </span>Anonymous-object generation in table formatting</h6>
@@ -41573,7 +41573,7 @@ shows these layers.
 
 <figure>
 <div id="ch13.xhtml_layers-formatting-schematic" class="figure">
-<img src="/Def-Images/Images/css5_1303.png" width="600" height="440"
+<img src="./images/css5_1303.png" width="600" height="440"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1210"><span class="label">Figure 13-3.
 </span>The formatting layers used in table presentation</h6>
@@ -41620,7 +41620,7 @@ so forth that do not have a background of their own, as
 
 <figure>
 <div id="ch13.xhtml_layers-seeing-background" class="figure">
-<img src="/Def-Images/Images/css5_1304.png" width="372" height="366"
+<img src="./images/css5_1304.png" width="372" height="366"
 alt="css5 1304" />
 <h6 id="ch13.xhtml_sigil_toc_id_1211"><span class="label">Figure 13-4.
 </span>Seeing the background of table-formatting layers through other
@@ -41692,7 +41692,7 @@ containing block of the caption.
 
 <figure>
 <div id="ch13.xhtml_captions-styling" class="figure">
-<img src="/Def-Images/Images/css5_1305.png" width="600" height="422"
+<img src="./images/css5_1305.png" width="600" height="422"
 alt="css5 1305" />
 <h6 id="ch13.xhtml_sigil_toc_id_1214"><span class="label">Figure 13-5.
 </span>Styling captions and tables</h6>
@@ -41796,7 +41796,7 @@ helps make this more clear.
 
 <figure class="bordernone">
 <div id="ch13.xhtml_borders-separated" class="figure">
-<img src="/Def-Images/Images/css5_1306.png" width="410" height="187"
+<img src="./images/css5_1306.png" width="410" height="187"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1218"><span class="label">Figure 13-6.
 </span>Separated (and thus separate) cell borders</h6>
@@ -41881,7 +41881,7 @@ been ignored.
 
 <figure class="bordernone">
 <div id="ch13.xhtml_border-spacing-cells-table" class="figure">
-<img src="/Def-Images/Images/css5_1307.png" width="600" height="373"
+<img src="./images/css5_1307.png" width="600" height="373"
 alt="css5 1307" />
 <h6 id="ch13.xhtml_sigil_toc_id_1221"><span class="label">Figure 13-7.
 </span>Border spacing effects between cells and their enclosing
@@ -42000,7 +42000,7 @@ side of the grid line, but that's not what happens.
 
 <figure class="bordernone">
 <div id="ch13.xhtml_border-spacing-collapsed-row-layout" class="figure">
-<img src="/Def-Images/Images/css5_1308.png" width="600" height="405"
+<img src="./images/css5_1308.png" width="600" height="405"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1226"><span class="label">Figure 13-8.
 </span>The layout of a table row using the collapsing borders model</h6>
@@ -42137,7 +42137,7 @@ td {border: 1px solid gray; padding: 0.5em;}
 
 <figure class="bordernone">
 <div id="ch13.xhtml_border-spacing-collapsed-unusual" class="figure">
-<img src="/Def-Images/Images/css5_1309.png" width="416" height="413"
+<img src="./images/css5_1309.png" width="416" height="413"
 alt="css5 1309" />
 <h6 id="ch13.xhtml_sigil_toc_id_1228"><span class="label">Figure 13-9.
 </span>Manipulating border widths, styles, and colors leads to some
@@ -42320,7 +42320,7 @@ col#c1 {width: 200px;}
 
 <figure>
 <div id="ch13.xhtml_table-layout-fixed" class="figure">
-<img src="/Def-Images/Images/css5_1310.png" width="600" height="172"
+<img src="./images/css5_1310.png" width="600" height="172"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1233"><span class="label">Figure 13-10.
 </span>Fixed-width table layout</h6>
@@ -42502,7 +42502,7 @@ col#c3 {width: 25%;}
 
 <figure>
 <div id="ch13.xhtml_table-layout-automatic" class="figure">
-<img src="/Def-Images/Images/css5_1311.png" width="600" height="198"
+<img src="./images/css5_1311.png" width="600" height="198"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1235"><span class="label">Figure 13-11.
 </span>Automatic table layout</h6>
@@ -42730,7 +42730,7 @@ div {border: 1px dashed gray; background: white;}
 
 <figure class="bordernone">
 <div id="ch13.xhtml_alignment-vertical" class="figure">
-<img src="/Def-Images/Images/css5_1312.png" width="600" height="309"
+<img src="./images/css5_1312.png" width="600" height="309"
 alt="css5 1312" />
 <h6 id="ch13.xhtml_sigil_toc_id_1239"><span class="label">Figure 13-12.
 </span>Vertical alignment of cell contents</h6>
@@ -42764,7 +42764,7 @@ then discuss what's [happening.]{.keep-together}
 
 <figure class="bordernone">
 <div id="ch13.xhtml_alignment-baseline" class="figure">
-<img src="/Def-Images/Images/css5_1313.png" width="600" height="169"
+<img src="./images/css5_1313.png" width="600" height="169"
 alt="image" />
 <h6 id="ch13.xhtml_sigil_toc_id_1240"><span class="label">Figure 13-13.
 </span>Baseline alignment of cell contents</h6>
@@ -43041,7 +43041,7 @@ characters as needed.
 
 <figure>
 <div id="ch14.xhtml_various_font_families" class="figure">
-<img src="/Def-Images/Images/css5_1401.png" width="600" height="292"
+<img src="./images/css5_1401.png" width="600" height="292"
 alt="css5 1401" />
 <h6 id="ch14.xhtml_sigil_toc_id_1246"><span class="label">Figure 14-1.
 </span>Various font families</h6>
@@ -43409,7 +43409,7 @@ illustrated in
 
 <figure>
 <div id="ch14.xhtml_using_a_downloaded_font" class="figure">
-<img src="/Def-Images/Images/css5_1402.png" width="600" height="112"
+<img src="./images/css5_1402.png" width="600" height="112"
 alt="css5 1402" />
 <h6 id="ch14.xhtml_sigil_toc_id_1254"><span class="label">Figure 14-2.
 </span>Using a downloaded font</h6>
@@ -44117,7 +44117,7 @@ end up with the following result, illustrated in
 
 <figure>
 <div id="ch14.xhtml_employing_a_variety_of_faces" class="figure">
-<img src="/Def-Images/Images/css5_1403.png" width="600" height="97"
+<img src="./images/css5_1403.png" width="600" height="97"
 alt="css5 1403" />
 <h6 id="ch14.xhtml_sigil_toc_id_1262"><span class="label">Figure 14-3.
 </span>Employing a variety of faces</h6>
@@ -44370,7 +44370,7 @@ then all of its children will inherit that boldness, as we see in
 
 <figure>
 <div id="ch14.xhtml_inherited_font-weight" class="figure">
-<img src="/Def-Images/Images/css5_1404.png" width="600" height="36"
+<img src="./images/css5_1404.png" width="600" height="36"
 alt="css5 1404" />
 <h6 id="ch14.xhtml_sigil_toc_id_1266"><span class="label">Figure 14-4.
 </span>Inherited font-weight</h6>
@@ -44417,7 +44417,7 @@ div strong {font-weight: bolder;} /* inherited value '100', evaluates to '400' *
 
 <figure>
 <div id="ch14.xhtml_text_trying_to_be_bolder" class="figure">
-<img src="/Def-Images/Images/css5_1405.png" width="600" height="132"
+<img src="./images/css5_1405.png" width="600" height="132"
 alt="css5 1405" />
 <h6 id="ch14.xhtml_sigil_toc_id_1267"><span class="label">Figure 14-5.
 </span>Text trying to be bolder</h6>
@@ -44496,7 +44496,7 @@ h4 {font-size: 125%; font-weight: 300;}
 
 <figure>
 <div id="ch14.xhtml_using_declared_font-weight_faces" class="figure">
-<img src="/Def-Images/Images/css5_1406.png" width="485" height="205"
+<img src="./images/css5_1406.png" width="485" height="205"
 alt="css5 1406" />
 <h6 id="ch14.xhtml_sigil_toc_id_1269"><span class="label">Figure 14-6.
 </span>Using declared font-weight faces</h6>
@@ -44581,7 +44581,7 @@ shows some hypothetical examples.
 
 <figure>
 <div id="ch14.xhtml_font_characters_and_em_squares" class="figure">
-<img src="/Def-Images/Images/css5_1407.png" width="600" height="290"
+<img src="./images/css5_1407.png" width="600" height="290"
 alt="css5 1407" />
 <h6 id="ch14.xhtml_sigil_toc_id_1272"><span class="label">Figure 14-7.
 </span>Font characters and em squares</h6>
@@ -44617,7 +44617,7 @@ p.eight {font-size: xxx-large;}
 
 <figure>
 <div id="ch14.xhtml_absolute_font_sizes" class="figure">
-<img src="/Def-Images/Images/css5_1408.png" width="600" height="195"
+<img src="./images/css5_1408.png" width="600" height="195"
 alt="css5 1408" />
 <h6 id="ch14.xhtml_sigil_toc_id_1274"><span class="label">Figure 14-8.
 </span>Absolute font sizes</h6>
@@ -44732,7 +44732,7 @@ required. The `em` text in the paragraph is shifted up one slot to 140%.
 <figure>
 <div id="ch14.xhtml_relative_font_sizing_at_the_edges_of_the"
 class="figure">
-<img src="/Def-Images/Images/css5_1409.png" width="600" height="168"
+<img src="./images/css5_1409.png" width="600" height="168"
 alt="css5 1409" />
 <h6 id="ch14.xhtml_sigil_toc_id_1277"><span class="label">Figure 14-9.
 </span>Relative font sizing at the edges of the absolute sizes</h6>
@@ -44798,7 +44798,7 @@ The <small>small text</small>, on the other hand, is smaller by a quarter.</p>
 
 <figure>
 <div id="ch14.xhtml_throwing_percentages_into_the_mix" class="figure">
-<img src="/Def-Images/Images/css5_1410.png" width="600" height="119"
+<img src="./images/css5_1410.png" width="600" height="119"
 alt="css5 1410" />
 <h6 id="ch14.xhtml_sigil_toc_id_1280"><span class="label">Figure 14-10.
 </span>Throwing percentages into the mix</h6>
@@ -44842,7 +44842,7 @@ emphasis</strong></em>, both of which are larger than the paragraph text. </p>
 
 <figure>
 <div id="ch14.xhtml_the_issues_of_inheritance" class="figure">
-<img src="/Def-Images/Images/css5_1411.png" width="600" height="50"
+<img src="./images/css5_1411.png" width="600" height="50"
 alt="css5 1411" />
 <h6 id="ch14.xhtml_sigil_toc_id_1281"><span class="label">Figure 14-11.
 </span>The issues of inheritance</h6>
@@ -44980,7 +44980,7 @@ p.cl2 {font-family: Times, serif; }
 
 <figure>
 <div id="ch14.xhtml_comparing_verdana_and_times" class="figure">
-<img src="/Def-Images/Images/css5_1412.png" width="600" height="77"
+<img src="./images/css5_1412.png" width="600" height="77"
 alt="css5 1412" />
 <h6 id="ch14.xhtml_sigil_toc_id_1284"><span class="label">Figure 14-12.
 </span>Comparing Verdana and Times</h6>
@@ -45015,7 +45015,7 @@ p.cl2 {font-family: Times, serif; }
 
 <figure>
 <div id="ch14.xhtml_adjusting_times" class="figure">
-<img src="/Def-Images/Images/css5_1413.png" width="600" height="103"
+<img src="./images/css5_1413.png" width="600" height="103"
 alt="css5 1413" />
 <h6 id="ch14.xhtml_sigil_toc_id_1285"><span class="label">Figure 14-13.
 </span>Adjusting Times</h6>
@@ -45199,7 +45199,7 @@ To visualize the difference between italic and oblique text, refer to
 
 <figure>
 <div id="ch14.xhtml_italic_and_oblique_text_in_detail" class="figure">
-<img src="/Def-Images/Images/css5_1414.png" width="600" height="161"
+<img src="./images/css5_1414.png" width="600" height="161"
 alt="css5 1414" />
 <h6 id="ch14.xhtml_sigil_toc_id_1291"><span class="label">Figure 14-14.
 </span>Italic and oblique text in detail</h6>
@@ -45242,7 +45242,7 @@ enough to tell the difference when both faces do exist.
 
 <figure>
 <div id="ch14.xhtml_more_font_styles" class="figure">
-<img src="/Def-Images/Images/css5_1415.png" width="600" height="50"
+<img src="./images/css5_1415.png" width="600" height="50"
 alt="css5 1415" />
 <h6 id="ch14.xhtml_sigil_toc_id_1292"><span class="label">Figure 14-15.
 </span>More font styles</h6>
@@ -45315,7 +45315,7 @@ h3 {font-size: 150%; font-style: oblique;}
 
 <figure>
 <div id="ch14.xhtml_using_declared_font-style_faces" class="figure">
-<img src="/Def-Images/Images/css5_1416.png" width="600" height="200"
+<img src="./images/css5_1416.png" width="600" height="200"
 alt="css5 1416" />
 <h6 id="ch14.xhtml_sigil_toc_id_1295"><span class="label">Figure 14-16.
 </span>Using declared font-style faces</h6>
@@ -45456,7 +45456,7 @@ footer {font-stretch: extra-condensed;}
 
 <figure>
 <div id="ch14.xhtml_stretching_font_characters" class="figure">
-<img src="/Def-Images/Images/css5_1417.png" width="600" height="79"
+<img src="./images/css5_1417.png" width="600" height="79"
 alt="css5 1417" />
 <h6 id="ch14.xhtml_sigil_toc_id_1298"><span class="label">Figure 14-17.
 </span>Stretching font characters</h6>
@@ -45518,7 +45518,7 @@ h3 {font-size: 150%; font-stretch: expanded;}
 
 <figure>
 <div id="ch14.xhtml_using_declared_font-stretch_faces" class="figure">
-<img src="/Def-Images/Images/css5_1418.png" width="447" height="153"
+<img src="./images/css5_1418.png" width="447" height="153"
 alt="css5 1418" />
 <h6 id="ch14.xhtml_sigil_toc_id_1300"><span class="label">Figure 14-18.
 </span>Using declared font-stretch faces</h6>
@@ -45631,7 +45631,7 @@ Georgia (which we're calling "oblique" here), illustrated in
 
 <figure>
 <div id="ch14.xhtml_synthesized_versus_designed_italics" class="figure">
-<img src="/Def-Images/Images/css5_1419.png" width="313" height="99"
+<img src="./images/css5_1419.png" width="313" height="99"
 alt="css5 1419" />
 <h6 id="ch14.xhtml_sigil_toc_id_1303"><span class="label">Figure 14-19.
 </span>Synthesized versus designed italics</h6>
@@ -45730,7 +45730,7 @@ The property <code>font-variant</code> is very interesting...
 
 <figure>
 <div id="ch14.xhtml_the_small-caps_value_in_use" class="figure">
-<img src="/Def-Images/Images/css5_1420.png" width="600" height="88"
+<img src="./images/css5_1420.png" width="600" height="88"
 alt="css5 1420" />
 <h6 id="ch14.xhtml_sigil_toc_id_1306"><span class="label">Figure 14-20.
 </span>The <code>small-caps</code> value in use</h6>
@@ -45874,7 +45874,7 @@ another:
 
 <figure>
 <div id="ch14.xhtml_different_types_of_capital_variants" class="figure">
-<img src="/Def-Images/Images/css5_1421.png" width="600" height="259"
+<img src="./images/css5_1421.png" width="600" height="259"
 alt="css5 1421" />
 <h6 id="ch14.xhtml_sigil_toc_id_1310"><span class="label">Figure 14-21.
 </span>Different types of capital variants</h6>
@@ -45980,7 +45980,7 @@ features.
 
 <figure>
 <div id="ch14.xhtml_different_types_of_numeric_variants" class="figure">
-<img src="/Def-Images/Images/css5_1422.png" width="600" height="258"
+<img src="./images/css5_1422.png" width="600" height="258"
 alt="css5 1422" />
 <h6 id="ch14.xhtml_sigil_toc_id_1313"><span class="label">Figure 14-22.
 </span>Different types of numeric variants</h6>
@@ -46139,7 +46139,7 @@ The values have the following effects:
     use of historical ligatures, which are generally those found in the
     typography of centuries past but are not used today. For example, in
     German the *tz* digraph used to be rendered as
-    ![](/Def-Images/Images/tz_italic.png){height="50" width="50"}.
+    ![](./images/tz_italic.png){height="50" width="50"}.
 
 `contextual-ligatures`
 
@@ -47026,7 +47026,7 @@ h2 {font: bold normal italic 24px Verdana, Helvetica, Arial, sans-serif;}
 
 <figure>
 <div id="ch14.xhtml_typical_font_rules" class="figure">
-<img src="/Def-Images/Images/css5_1423.png" width="436" height="75"
+<img src="./images/css5_1423.png" width="436" height="75"
 alt="css5 1423" />
 <h6 id="ch14.xhtml_sigil_toc_id_1339"><span class="label">Figure 14-23.
 </span>Typical font rules</h6>
@@ -47073,7 +47073,7 @@ h4 {font: lighter 14px;}   /* INVALID--no 'font-family' provided */
 <figure>
 <div id="ch14.xhtml_the_necessity_of_both_size_and_family"
 class="figure">
-<img src="/Def-Images/Images/css5_1424.png" width="375" height="159"
+<img src="./images/css5_1424.png" width="375" height="159"
 alt="css5 1424" />
 <h6 id="ch14.xhtml_sigil_toc_id_1340"><span class="label">Figure 14-24.
 </span>The necessity of both size and family</h6>
@@ -47162,7 +47162,7 @@ sans-serif font families), set the `font-size` to `24px` (twice the
 
 <figure>
 <div id="ch14.xhtml_adding_line_height_to_the_mix" class="figure">
-<img src="/Def-Images/Images/css5_1425.png" width="600" height="56"
+<img src="./images/css5_1425.png" width="600" height="56"
 alt="css5 1425" />
 <h6 id="ch14.xhtml_sigil_toc_id_1343"><span class="label">Figure 14-25.
 </span>Adding line height to the mix</h6>
@@ -47208,7 +47208,7 @@ h3 {font-size: 150%;}
 
 <figure>
 <div id="ch14.xhtml_shorthand_changes" class="figure">
-<img src="/Def-Images/Images/css5_1426.png" width="510" height="145"
+<img src="./images/css5_1426.png" width="510" height="145"
 alt="css5 1426" />
 <h6 id="ch14.xhtml_sigil_toc_id_1346"><span class="label">Figure 14-26.
 </span>Shorthand changes</h6>
@@ -47574,7 +47574,7 @@ ems, as shown in
 
 <figure class="coderesult">
 <div id="ch15.xhtml_text_indenting" class="figure">
-<img src="/Def-Images/Images/css5_1501.png" width="500" height="74"
+<img src="./images/css5_1501.png" width="500" height="74"
 alt="css5 1501" />
 <h6 id="ch15.xhtml_sigil_toc_id_1354"><span class="label">Figure 15-1.
 </span>Text indenting</h6>
@@ -47634,7 +47634,7 @@ because percentages are computed with respect to the width of the element.</p>
 
 <figure class="coderesult">
 <div id="ch15.xhtml_text_indenting_with_percentages" class="figure">
-<img src="/Def-Images/Images/css5_1502.png" width="396" height="73"
+<img src="./images/css5_1502.png" width="396" height="73"
 alt="css5 1502" />
 <h6 id="ch15.xhtml_sigil_toc_id_1356"><span class="label">Figure 15-2.
 </span>Text indenting with percentages</h6>
@@ -47752,7 +47752,7 @@ or Arabic, regardless of the language's inline direction.
 <figure class="bordernone">
 <div id="ch15.xhtml_selected_behaviors_of_the_text-align_pro"
 class="figure">
-<img src="/Def-Images/Images/css5_1503.png" width="600" height="254"
+<img src="./images/css5_1503.png" width="600" height="254"
 alt="css5 1503" />
 <h6 id="ch15.xhtml_sigil_toc_id_1359"><span class="label">Figure 15-3.
 </span>Selected behaviors of the <code>text-align</code> property</h6>
@@ -47782,7 +47782,7 @@ content.]{.keep-together}
 <figure class="bordernone">
 <div id="ch15.xhtml_left_comma_right_comma_and_center_in_ver"
 class="figure">
-<img src="/Def-Images/Images/css5_1504.png" width="600" height="527"
+<img src="./images/css5_1504.png" width="600" height="527"
 alt="css5 1504" />
 <h6 id="ch15.xhtml_sigil_toc_id_1360"><span class="label">Figure 15-4.
 </span>Left, right, and center in vertical writing modes</h6>
@@ -47821,7 +47821,7 @@ shows the effects of these values.
 
 <figure class="bordernone">
 <div id="ch15.xhtml_start_and_end_alignment-id1" class="figure">
-<img src="/Def-Images/Images/css5_1505.png" width="600" height="139"
+<img src="./images/css5_1505.png" width="600" height="139"
 alt="css5 1505" />
 <h6 id="ch15.xhtml_sigil_toc_id_1362"><span class="label">Figure 15-5.
 </span>Start and end alignment</h6>
@@ -47846,7 +47846,7 @@ considerations come into play.
 
 <figure class="bordernone">
 <div id="ch15.xhtml_justified_text-id1" class="figure">
-<img src="/Def-Images/Images/css5_1506.png" width="600" height="214"
+<img src="./images/css5_1506.png" width="600" height="214"
 alt="css5 1506" />
 <h6 id="ch15.xhtml_sigil_toc_id_1364"><span class="label">Figure 15-6.
 </span>Justified text</h6>
@@ -47959,7 +47959,7 @@ work is to examine
 
 <figure class="bordernone">
 <div id="ch15.xhtml_differently_aligned_last_lines" class="figure">
-<img src="/Def-Images/Images/css5_1507.png" width="600" height="138"
+<img src="./images/css5_1507.png" width="600" height="138"
 alt="css5 1507" />
 <h6 id="ch15.xhtml_sigil_toc_id_1369"><span class="label">Figure 15-7.
 </span>Differently aligned last lines</h6>
@@ -48059,7 +48059,7 @@ Manipulating these settings has the effect shown in
 
 <figure class="coderesult">
 <div id="ch15.xhtml_changing_the_space_between_words" class="figure">
-<img src="/Def-Images/Images/css5_1508.png" width="600" height="103"
+<img src="./images/css5_1508.png" width="600" height="103"
 alt="css5 1508" />
 <h6 id="ch15.xhtml_sigil_toc_id_1372"><span class="label">Figure 15-8.
 </span>Changing the space between words</h6>
@@ -48085,7 +48085,7 @@ illustrates.
 
 <figure class="coderesult">
 <div id="ch15.xhtml_really_wide_word_spacing" class="figure">
-<img src="/Def-Images/Images/css5_1509.png" width="600" height="72"
+<img src="./images/css5_1509.png" width="600" height="72"
 alt="css5 1509" />
 <h6 id="ch15.xhtml_sigil_toc_id_1373"><span class="label">Figure 15-9.
 </span>Really wide word spacing</h6>
@@ -48152,7 +48152,7 @@ p.tight {letter-spacing: −0.25em;}
 
 <figure class="coderesult">
 <div id="ch15.xhtml_various_kinds_of_letter_spacing" class="figure">
-<img src="/Def-Images/Images/css5_1510.png" width="600" height="100"
+<img src="./images/css5_1510.png" width="600" height="100"
 alt="css5 1510" />
 <h6 id="ch15.xhtml_sigil_toc_id_1376"><span class="label">Figure 15-10.
 </span>Various kinds of letter spacing</h6>
@@ -48217,7 +48217,7 @@ spacing to be in proportion to the size of the text.</p>
 
 <figure class="coderesult">
 <div id="ch15.xhtml_inherited_letter_spacing" class="figure">
-<img src="/Def-Images/Images/css5_1511.png" width="485" height="111"
+<img src="./images/css5_1511.png" width="485" height="111"
 alt="css5 1511" />
 <h6 id="ch15.xhtml_sigil_toc_id_1379"><span class="label">Figure 15-11.
 </span>Inherited letter spacing</h6>
@@ -48379,7 +48379,7 @@ diagram of this process.
 
 <figure class="bordernone">
 <div id="ch15.xhtml_line_box_diagram" class="figure">
-<img src="/Def-Images/Images/css5_1512.png" width="600" height="143"
+<img src="./images/css5_1512.png" width="600" height="143"
 alt="css5 1512" />
 <h6 id="ch15.xhtml_sigil_toc_id_1384"><span class="label">Figure 15-12.
 </span>Line-box diagram</h6>
@@ -48438,7 +48438,7 @@ slightly more line-height than usual.</p>
 <figure class="coderesult">
 <div id="ch15.xhtml_simple_calculations_with_the_line-height"
 class="figure">
-<img src="/Def-Images/Images/css5_1513.png" width="600" height="145"
+<img src="./images/css5_1513.png" width="600" height="145"
 alt="css5 1513" />
 <h6 id="ch15.xhtml_sigil_toc_id_1387"><span class="label">Figure 15-13.
 </span>Simple calculations with the <code>line-height</code>
@@ -48478,7 +48478,7 @@ other by a small amount.</p>
 <figure class="coderesult">
 <div id="ch15.xhtml_small_line-height_comma_large_font-size"
 class="figure">
-<img src="/Def-Images/Images/css5_1514.png" width="484" height="37"
+<img src="./images/css5_1514.png" width="484" height="37"
 alt="css5 1514" />
 <h6 id="ch15.xhtml_sigil_toc_id_1389"><span class="label">Figure 15-14.
 </span>Small line-height, large font-size, slight problem</h6>
@@ -48522,7 +48522,7 @@ is 27px (18 * 1.5).</p>
 <figure class="coderesult">
 <div id="ch15.xhtml_using_line-height_factors_to_overcome_in"
 class="figure">
-<img src="/Def-Images/Images/css5_1515.png" width="493" height="71"
+<img src="./images/css5_1515.png" width="493" height="71"
 alt="css5 1515" />
 <h6 id="ch15.xhtml_sigil_toc_id_1390"><span class="label">Figure 15-15.
 </span>Using <code>line-height</code> factors to overcome inheritance
@@ -48626,7 +48626,7 @@ bottom edge aligned with the baseline of the text in the paragraph.</p>
 
 <figure class="coderesult">
 <div id="ch15.xhtml_baseline_alignment_of_an_image" class="figure">
-<img src="/Def-Images/Images/css5_1516.png" width="600" height="43"
+<img src="./images/css5_1516.png" width="600" height="43"
 alt="css5 1516" />
 <h6 id="ch15.xhtml_sigil_toc_id_1396"><span class="label">Figure 15-16.
 </span>Baseline alignment of an image</h6>
@@ -48694,7 +48694,7 @@ and <span class="lower">subscripted</span> text.</P>
 
 <figure class="coderesult">
 <div id="ch15.xhtml_superscript_and_subscript_alignment" class="figure">
-<img src="/Def-Images/Images/css5_1517.png" width="600" height="37"
+<img src="./images/css5_1517.png" width="600" height="37"
 alt="css5 1517" />
 <h6 id="ch15.xhtml_sigil_toc_id_1399"><span class="label">Figure 15-17.
 </span>Superscript and subscript alignment</h6>
@@ -48743,7 +48743,7 @@ and then some text that is not tall.</p>
 
 <figure class="coderesult">
 <div id="ch15.xhtml_top_and_bottom_alignment" class="figure">
-<img src="/Def-Images/Images/css5_1518.png" width="600" height="74"
+<img src="./images/css5_1518.png" width="600" height="74"
 alt="css5 1518" />
 <h6 id="ch15.xhtml_sigil_toc_id_1402"><span class="label">Figure 15-18.
 </span>Top and bottom alignment</h6>
@@ -48782,7 +48782,7 @@ and then a <img src="short.gif" class="ttop" alt="short" /> image.</p>
 
 <figure class="coderesult">
 <div id="ch15.xhtml_text-top_and_bottom_alignment" class="figure">
-<img src="/Def-Images/Images/css5_1519.png" width="600" height="139"
+<img src="./images/css5_1519.png" width="600" height="139"
 alt="css5 1519" />
 <h6 id="ch15.xhtml_sigil_toc_id_1403"><span class="label">Figure 15-19.
 </span>Text-top and -bottom alignment</h6>
@@ -48807,7 +48807,7 @@ shows this in more detail.
 
 <figure>
 <div id="ch15.xhtml_precise_detail_of_middle_alignment" class="figure">
-<img src="/Def-Images/Images/css5_1520.png" width="600" height="137"
+<img src="./images/css5_1520.png" width="600" height="137"
 alt="css5 1520" />
 <h6 id="ch15.xhtml_sigil_toc_id_1405"><span class="label">Figure 15-20.
 </span>Precise detail of middle alignment</h6>
@@ -48850,7 +48850,7 @@ sup {vertical-align: 100%;}
 
 <figure class="coderesult">
 <div id="ch15.xhtml_percentages_and_fun_effects" class="figure">
-<img src="/Def-Images/Images/css5_1521.png" width="600" height="68"
+<img src="./images/css5_1521.png" width="600" height="68"
 alt="css5 1521" />
 <h6 id="ch15.xhtml_sigil_toc_id_1407"><span class="label">Figure 15-21.
 </span>Percentages and fun effects</h6>
@@ -48878,7 +48878,7 @@ paragraph.
 <figure class="coderesult">
 <div id="ch15.xhtml_inline_alignments_can_cause_lines_to"
 class="figure">
-<img src="/Def-Images/Images/css5_1522.png" width="600" height="95"
+<img src="./images/css5_1522.png" width="600" height="95"
 alt="css5 1522" />
 <h6 id="ch15.xhtml_sigil_toc_id_1409"><span class="label">Figure 15-22.
 </span>Vertical alignments can cause lines to get taller</h6>
@@ -49017,7 +49017,7 @@ to be 'none', that can be done as well.
 <figure class="coderesult">
 <div id="ch15.xhtml_various_kinds_of_text_transformation"
 class="figure">
-<img src="/Def-Images/Images/css5_1523.png" width="600" height="310"
+<img src="./images/css5_1523.png" width="600" height="310"
 alt="css5 1523" />
 <h6 id="ch15.xhtml_sigil_toc_id_1413"><span class="label">Figure 15-23.
 </span>Various kinds of text transformation</h6>
@@ -49172,7 +49172,7 @@ p.four {text-decoration: none;}
 
 <figure class="coderesult">
 <div id="ch15.xhtml_various_kinds_of_text_decoration" class="figure">
-<img src="/Def-Images/Images/css5_1524.png" width="600" height="230"
+<img src="./images/css5_1524.png" width="600" height="230"
 alt="css5 1524" />
 <h6 id="ch15.xhtml_sigil_toc_id_1418"><span class="label">Figure 15-24.
 </span>Various kinds of text decoration</h6>
@@ -49325,7 +49325,7 @@ h1, p {text-decoration-line: underline;}
 
 <figure class="coderesult">
 <div id="ch15.xhtml_various_decoration_thicknesses" class="figure">
-<img src="/Def-Images/Images/css5_1525.png" width="600" height="123"
+<img src="./images/css5_1525.png" width="600" height="123"
 alt="css5 1525" />
 <h6 id="ch15.xhtml_sigil_toc_id_1425"><span class="label">Figure 15-25.
 </span>Various decoration thicknesses</h6>
@@ -49386,7 +49386,7 @@ p.five {text-decoration-style: wavy;}
 
 <figure class="coderesult">
 <div id="ch15.xhtml_various_decoration_styles" class="figure">
-<img src="/Def-Images/Images/css5_1526.png" width="600" height="276"
+<img src="./images/css5_1526.png" width="600" height="276"
 alt="css5 1526" />
 <h6 id="ch15.xhtml_sigil_toc_id_1428"><span class="label">Figure 15-26.
 </span>Various decoration styles</h6>
@@ -49524,7 +49524,7 @@ p.five {text-underline-offset: 15%;}
 
 <figure class="coderesult">
 <div id="ch15.xhtml_various_underline_offsets" class="figure">
-<img src="/Def-Images/Images/css5_1527.png" width="600" height="332"
+<img src="./images/css5_1527.png" width="600" height="332"
 alt="css5 1527" />
 <h6 id="ch15.xhtml_sigil_toc_id_1433"><span class="label">Figure 15-27.
 </span>Various underline offsets</h6>
@@ -49595,7 +49595,7 @@ approaches.
 
 <figure>
 <div id="ch15.xhtml_ink-skipping_approaches" class="figure">
-<img src="/Def-Images/Images/css5_1528.png" width="600" height="256"
+<img src="./images/css5_1528.png" width="600" height="256"
 alt="css5 1528" />
 <h6 id="ch15.xhtml_sigil_toc_id_1437"><span class="label">Figure 15-28.
 </span>Ink-skipping approaches</h6>
@@ -49670,7 +49670,7 @@ beneath it as well.</p>
 
 <figure class="coderesult">
 <div id="ch15.xhtml_color_consistency_in_underlines" class="figure">
-<img src="/Def-Images/Images/css5_1529.png" width="600" height="43"
+<img src="./images/css5_1529.png" width="600" height="43"
 alt="css5 1529" />
 <h6 id="ch15.xhtml_sigil_toc_id_1440"><span class="label">Figure 15-29.
 </span>Color consistency in underlines</h6>
@@ -49736,7 +49736,7 @@ underlines will be visible.
 <figure class="coderesult">
 <div id="ch15.xhtml_overcoming_the_default_behavior_of_under"
 class="figure">
-<img src="/Def-Images/Images/css5_1530.png" width="600" height="68"
+<img src="./images/css5_1530.png" width="600" height="68"
 alt="css5 1530" />
 <h6 id="ch15.xhtml_sigil_toc_id_1441"><span class="label">Figure 15-30.
 </span>Overcoming the default behavior of underlines</h6>
@@ -49760,7 +49760,7 @@ sup {vertical-align: 50%; font-size: 12pt;}
 <figure class="coderesult">
 <div id="ch15.xhtml_correct_comma_although_strange_comma_dec"
 class="figure">
-<img src="/Def-Images/Images/css5_1531.png" width="446" height="38"
+<img src="./images/css5_1531.png" width="446" height="38"
 alt="css5 1531" />
 <h6 id="ch15.xhtml_sigil_toc_id_1442"><span class="label">Figure 15-31.
 </span>Correct, although strange, decorative behavior</h6>
@@ -49827,7 +49827,7 @@ text optimized for speed and then optimized for legibility.
 
 <figure>
 <div id="ch15.xhtml_optimized_legibility" class="figure">
-<img src="/Def-Images/Images/css5_1532.png" width="385" height="69"
+<img src="./images/css5_1532.png" width="385" height="69"
 alt="css5 1532" />
 <h6 id="ch15.xhtml_sigil_toc_id_1445"><span class="label">Figure 15-32.
 </span>Different optimizations</h6>
@@ -49954,7 +49954,7 @@ text-shadow: rgb(128,128,255) −5px −0.5em;
 
 <figure>
 <div id="ch15.xhtml_simple_shadows" class="figure">
-<img src="/Def-Images/Images/css5_1533.png" width="600" height="66"
+<img src="./images/css5_1533.png" width="600" height="66"
 alt="css5 1533" />
 <h6 id="ch15.xhtml_sigil_toc_id_1449"><span class="label">Figure 15-33.
 </span>Simple shadows</h6>
@@ -49985,7 +49985,7 @@ p.cl3 {color: black;
 
 <figure>
 <div id="ch15.xhtml_dropping_shadows_all_over" class="figure">
-<img src="/Def-Images/Images/css5_1534.png" width="600" height="129"
+<img src="./images/css5_1534.png" width="600" height="129"
 alt="css5 1534" />
 <h6 id="ch15.xhtml_sigil_toc_id_1450"><span class="label">Figure 15-34.
 </span>Dropping shadows all over</h6>
@@ -50067,7 +50067,7 @@ and examples are shown in
 
   Shape           `filled`                                                                     `open`
   --------------- ---------------------------------------------------------------------------- --------------------------------------------------------------------------
-  Sesame          ![](/Def-Images/Images/sesame_filled.png){height="36" width="36"} (U+FE45)   ![](/Def-Images/Images/sesame_open.png){height="36" width="36"} (U+FE46)
+  Sesame          ![](./images/sesame_filled.png){height="36" width="36"} (U+FE45)   ![](./images/sesame_open.png){height="36" width="36"} (U+FE46)
   Dot             • (U+2022)                                                                   ◦ (U+25E6)
   Circle          ● (U+25CF)                                                                   ○ (U+25CB)
   Double-circle   ◉ (U+25C9)                                                                   ◎ (U+25CE)
@@ -50117,7 +50117,7 @@ which two glyphs are next to each other.
 
 <figure>
 <div id="ch15.xhtml_various_emphasis_marks" class="figure">
-<img src="/Def-Images/Images/css5_1535.png" width="600" height="491"
+<img src="./images/css5_1535.png" width="600" height="491"
 alt="css5 1535" />
 <h6 id="ch15.xhtml_sigil_toc_id_1455"><span class="label">Figure 15-35.
 </span>Various emphasis marks</h6>
@@ -50391,7 +50391,7 @@ p {white-space: pre;}
 
 <figure class="coderesult">
 <div id="ch15.xhtml_honoring_the_spaces_in_markup" class="figure">
-<img src="/Def-Images/Images/css5_1536.png" width="600" height="103"
+<img src="./images/css5_1536.png" width="600" height="103"
 alt="css5 1536" />
 <h6 id="ch15.xhtml_sigil_toc_id_1465"><span class="label">Figure 15-36.
 </span>Honoring the spaces in markup</h6>
@@ -50422,7 +50422,7 @@ initially displayed <br/>in the browser window.</p>
 <figure class="coderesult">
 <div id="ch15.xhtml_suppressing_line_wrapping_with_the_white"
 class="figure">
-<img src="/Def-Images/Images/css5_1537.png" width="600" height="28"
+<img src="./images/css5_1537.png" width="600" height="28"
 alt="css5 1537" />
 <h6 id="ch15.xhtml_sigil_toc_id_1466"><span class="label">Figure 15-37.
 </span>Suppressing line wrapping with the <code>white-space</code>
@@ -50491,7 +50491,7 @@ This  paragraph      has  a  great   many   s p a c e s   within  its textual
 <figure class="coderesult">
 <div id="ch15.xhtml_three_different_ways_to_handle_whitespace"
 class="figure">
-<img src="/Def-Images/Images/css5_1538.png" width="600" height="353"
+<img src="./images/css5_1538.png" width="600" height="353"
 alt="css5 1538" />
 <h6 id="ch15.xhtml_sigil_toc_id_1467"><span class="label">Figure 15-38.
 </span>Three ways to handle whitespace</h6>
@@ -50556,7 +50556,7 @@ illustrated in
 
 <figure class="coderesult">
 <div id="ch15.xhtml_differing_tab_lengths" class="figure">
-<img src="/Def-Images/Images/css5_1539.png" width="600" height="129"
+<img src="./images/css5_1539.png" width="600" height="129"
 alt="css5 1539" />
 <h6 id="ch15.xhtml_sigil_toc_id_1470"><span class="label">Figure 15-39.
 </span>Differing tab lengths</h6>
@@ -50668,7 +50668,7 @@ docious anti&shy;dis&shy;establish&shy;ment&shy;arian&shy;ism.</p>
 
 <figure>
 <div id="ch15.xhtml_hyphenation_results" class="figure">
-<img src="/Def-Images/Images/css5_1540.png" width="600" height="295"
+<img src="./images/css5_1540.png" width="600" height="295"
 alt="css5 1540" />
 <h6 id="ch15.xhtml_sigil_toc_id_1475"><span class="label">Figure 15-40.
 </span>Hyphenation results</h6>
@@ -50792,7 +50792,7 @@ summarizes the effects of each value.
 
 <figure>
 <div id="ch15.xhtml_altering_word_breaking_behavior" class="figure">
-<img src="/Def-Images/Images/css5_1541.png" width="600" height="221"
+<img src="./images/css5_1541.png" width="600" height="221"
 alt="css5 1541" />
 <h6 id="ch15.xhtml_sigil_toc_id_1479"><span class="label">Figure 15-41.
 </span>Altering word-breaking behavior</h6>
@@ -51000,7 +51000,7 @@ illustrates the difference between these three values.
 
 <figure>
 <div id="ch15.xhtml_overflow_wrapping" class="figure">
-<img src="/Def-Images/Images/css5_1542.png" width="600" height="162"
+<img src="./images/css5_1542.png" width="600" height="162"
 alt="css5 1542" />
 <h6 id="ch15.xhtml_sigil_toc_id_1485"><span class="label">Figure 15-42.
 </span>Overflow wrapping for <code>width: min-content</code></h6>
@@ -51106,7 +51106,7 @@ all five values.
 
 <figure>
 <div id="ch15.xhtml_writing_modes" class="figure">
-<img src="/Def-Images/Images/css5_1543.png" width="600" height="96"
+<img src="./images/css5_1543.png" width="600" height="96"
 alt="css5 1543" />
 <h6 id="ch15.xhtml_sigil_toc_id_1489"><span class="label">Figure 15-43.
 </span>Writing modes</h6>
@@ -51127,7 +51127,7 @@ horizontally. This is illustrated in
 
 <figure class="bordernone">
 <div id="ch15.xhtml_writing_modes_vertical_align" class="figure">
-<img src="/Def-Images/Images/css5_1544.png" width="600" height="152"
+<img src="./images/css5_1544.png" width="600" height="152"
 alt="css5 1544" />
 <h6 id="ch15.xhtml_sigil_toc_id_1490"><span class="label">Figure 15-44.
 </span>Writing modes and “vertical” alignment</h6>
@@ -51196,7 +51196,7 @@ What that means is best illustrated by the following styles, rendered in
 
 <figure>
 <div id="ch15.xhtml_writing_modes_text_orientation" class="figure">
-<img src="/Def-Images/Images/css5_1545.png" width="600" height="194"
+<img src="./images/css5_1545.png" width="600" height="194"
 alt="css5 1545" />
 <h6 id="ch15.xhtml_sigil_toc_id_1493"><span class="label">Figure 15-45.
 </span>Text orientation</h6>
@@ -51296,7 +51296,7 @@ shows the result.
 <figure class="coderesult">
 <div id="ch15.xhtml_various_types_of_upright_combination"
 class="figure">
-<img src="/Def-Images/Images/css5_1546.png" width="600" height="361"
+<img src="./images/css5_1546.png" width="600" height="361"
 alt="css5 1546" />
 <h6 id="ch15.xhtml_sigil_toc_id_1497"><span class="label">Figure 15-46.
 </span>Various types of upright combination</h6>
@@ -51580,7 +51580,7 @@ examples of these list style types are shown in
 
 <figure>
 <div id="ch16.xhtml_liststyletype" class="figure">
-<img src="/Def-Images/Images/css5_1601.png" width="600" height="273"
+<img src="./images/css5_1601.png" width="600" height="273"
 alt="css5 1601" />
 <h6 id="ch16.xhtml_sigil_toc_id_1506"><span class="label">Figure 16-1.
 </span>A sampling of list style types</h6>
@@ -51697,7 +51697,7 @@ li.off {list-style-type: none;}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style-type-markersoff" class="figure">
-<img src="/Def-Images/Images/css5_1602.png" width="351" height="264"
+<img src="./images/css5_1602.png" width="351" height="264"
 alt="css5 1602" />
 <h6 id="ch16.xhtml_sigil_toc_id_1507"><span class="label">Figure 16-2.
 </span>Switching off list-item markers</h6>
@@ -51747,7 +51747,7 @@ the results of the following styles:
 
 <figure>
 <div id="ch16.xhtml_liststyletype-strings" class="figure">
-<img src="/Def-Images/Images/css5_1603.png" width="600" height="139"
+<img src="./images/css5_1603.png" width="600" height="139"
 alt="css5 1603" />
 <h6 id="ch16.xhtml_sigil_toc_id_1509"><span class="label">Figure 16-3.
 </span>A sampling of string markers</h6>
@@ -51801,7 +51801,7 @@ putting images in for markers, as you can see in
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style-image" class="figure">
-<img src="/Def-Images/Images/css5_1604.png" width="370" height="293"
+<img src="./images/css5_1604.png" width="370" height="293"
 alt="css5 1604" />
 <h6 id="ch16.xhtml_sigil_toc_id_1512"><span class="label">Figure 16-4.
 </span>Using images as markers</h6>
@@ -51819,7 +51819,7 @@ ul li {list-style-image: url(big-ohio.gif);}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style-image-bigmarkers" class="figure">
-<img src="/Def-Images/Images/css5_1605.png" width="600" height="795"
+<img src="./images/css5_1605.png" width="600" height="795"
 alt="css5 1605" />
 <h6 id="ch16.xhtml_sigil_toc_id_1513"><span class="label">Figure 16-5.
 </span>Using really big images as markers</h6>
@@ -51852,7 +51852,7 @@ nested list, as shown in
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style-image-sublists" class="figure">
-<img src="/Def-Images/Images/css5_1606.png" width="453" height="466"
+<img src="./images/css5_1606.png" width="453" height="466"
 alt="css5 1606" />
 <h6 id="ch16.xhtml_sigil_toc_id_1514"><span class="label">Figure 16-6.
 </span>Switching off image markers in sublists</h6>
@@ -51881,7 +51881,7 @@ following styles would have a result like that shown in
 
 <figure>
 <div id="ch16.xhtml_list-style-image-gradients" class="figure">
-<img src="/Def-Images/Images/css5_1607.png" width="600" height="189"
+<img src="./images/css5_1607.png" width="600" height="189"
 alt="css5 1607" />
 <h6 id="ch16.xhtml_sigil_toc_id_1515"><span class="label">Figure 16-7.
 </span>Gradient list markers</h6>
@@ -51958,7 +51958,7 @@ li.second {list-style-position: outside;}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style-position" class="figure">
-<img src="/Def-Images/Images/css5_1608.png" width="600" height="298"
+<img src="./images/css5_1608.png" width="600" height="298"
 alt="css5 1608" />
 <h6 id="ch16.xhtml_sigil_toc_id_1519"><span class="label">Figure 16-8.
 </span>Placing the markers inside and outside list items</h6>
@@ -52026,7 +52026,7 @@ three values can be applied to list items at the same time.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style" class="figure">
-<img src="/Def-Images/Images/css5_1609.png" width="600" height="202"
+<img src="./images/css5_1609.png" width="600" height="202"
 alt="css5 1609" />
 <h6 id="ch16.xhtml_sigil_toc_id_1522"><span class="label">Figure 16-9.
 </span>Bringing it all together</h6>
@@ -52075,7 +52075,7 @@ yet placed within a list, as shown in
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-layout-threeitems" class="figure">
-<img src="/Def-Images/Images/css5_1610.png" width="600" height="152"
+<img src="./images/css5_1610.png" width="600" height="152"
 alt="css5 1610" />
 <h6 id="ch16.xhtml_sigil_toc_id_1524"><span class="label">Figure 16-10.
 </span>Three list items</h6>
@@ -52089,7 +52089,7 @@ generate a block box. Now let's add markers, as illustrated in
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-layout-threeitems-markers" class="figure">
-<img src="/Def-Images/Images/css5_1611.png" width="600" height="145"
+<img src="./images/css5_1611.png" width="600" height="145"
 alt="css5 1611" />
 <h6 id="ch16.xhtml_sigil_toc_id_1525"><span class="label">Figure 16-11.
 </span>Markers are added</h6>
@@ -52117,7 +52117,7 @@ the mix, as shown in
 
 <figure class="coderesult width_set_70">
 <div id="ch16.xhtml_list-layout-threeitems-listborder" class="figure">
-<img src="/Def-Images/Images/css5_1612.png" width="600" height="150"
+<img src="./images/css5_1612.png" width="600" height="150"
 alt="css5 1612" />
 <h6 id="ch16.xhtml_sigil_toc_id_1526"><span class="label">Figure 16-12.
 </span>Adding a list border</h6>
@@ -52155,7 +52155,7 @@ compares the two approaches.
 
 <figure class="coderesult width_set_70">
 <div id="ch16.xhtml_list-layout-padding-v-margin" class="figure">
-<img src="/Def-Images/Images/css5_1613.png" width="600" height="302"
+<img src="./images/css5_1613.png" width="600" height="302"
 alt="css5 1613" />
 <h6 id="ch16.xhtml_sigil_toc_id_1527"><span class="label">Figure 16-13.
 </span>Margins and padding as indentation devices</h6>
@@ -52199,7 +52199,7 @@ list markers, as shown in
 
 <figure>
 <div id="ch16.xhtml_list-layout-big-markers" class="figure">
-<img src="/Def-Images/Images/css5_1614.png" width="600" height="351"
+<img src="./images/css5_1614.png" width="600" height="351"
 alt="css5 1614" />
 <h6 id="ch16.xhtml_sigil_toc_id_1529"><span class="label">Figure 16-14.
 </span>Large markers and list layout</h6>
@@ -52268,7 +52268,7 @@ li:nth-child(3)::marker {font-style: italic;}
 
 <figure>
 <div id="ch16.xhtml_marker-pseudo-examples" class="figure">
-<img src="/Def-Images/Images/css5_1615.png" width="600" height="142"
+<img src="./images/css5_1615.png" width="600" height="142"
 alt="css5 1615" />
 <h6 id="ch16.xhtml_sigil_toc_id_1531"><span class="label">Figure 16-15.
 </span>Examples of marker styling</h6>
@@ -52346,7 +52346,7 @@ shown in
 
 <figure>
 <div id="ch16.xhtml_generated-content-text" class="figure">
-<img src="/Def-Images/Images/css5_1616.png" width="600" height="47"
+<img src="./images/css5_1616.png" width="600" height="47"
 alt="css5 1616" />
 <h6 id="ch16.xhtml_sigil_toc_id_1534"><span class="label">Figure 16-16.
 </span>Generating text content</h6>
@@ -52385,7 +52385,7 @@ a.pdf-doc {border: 1px solid gray;}
 
 <figure>
 <div id="ch16.xhtml_generated-content-icons" class="figure">
-<img src="/Def-Images/Images/css5_1617.png" width="600" height="51"
+<img src="./images/css5_1617.png" width="600" height="51"
 alt="css5 1617" />
 <h6 id="ch16.xhtml_sigil_toc_id_1535"><span class="label">Figure 16-17.
 </span>Generating icons</h6>
@@ -52422,7 +52422,7 @@ shows the result.
 
 <figure class="coderesult width-75">
 <div id="ch16.xhtml_generated-content-block" class="figure">
-<img src="/Def-Images/Images/css5_1618.png" width="600" height="103"
+<img src="./images/css5_1618.png" width="600" height="103"
 alt="css5 1618" />
 <h6 id="ch16.xhtml_sigil_toc_id_1536"><span class="label">Figure 16-18.
 </span>Generating block-level content</h6>
@@ -52463,7 +52463,7 @@ also be placed within any padding, as shown in
 
 <figure class="width-75 coderesult">
 <div id="ch16.xhtml_generated-content-placement" class="figure">
-<img src="/Def-Images/Images/css5_1619.png" width="600" height="100"
+<img src="./images/css5_1619.png" width="600" height="100"
 alt="css5 1619" />
 <h6 id="ch16.xhtml_sigil_toc_id_1537"><span class="label">Figure 16-19.
 </span>Taking placement into account</h6>
@@ -52488,7 +52488,7 @@ h1::before {content: "New Section"; display: inline; color: gray;
 
 <figure class="width-75 coderesult">
 <div id="ch16.xhtml_generated-content-inline" class="figure">
-<img src="/Def-Images/Images/css5_1620.png" width="600" height="50"
+<img src="./images/css5_1620.png" width="600" height="50"
 alt="css5 1620" />
 <h6 id="ch16.xhtml_sigil_toc_id_1538"><span class="label">Figure 16-20.
 </span>Changing the generated content to be inline</h6>
@@ -52558,7 +52558,7 @@ h2::before {content: "<em>&para;</em> "; color: gray;}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_generated-content-strings-verbatim" class="figure">
-<img src="/Def-Images/Images/css5_1621.png" width="600" height="42"
+<img src="./images/css5_1621.png" width="600" height="42"
 alt="css5 1621" />
 <h6 id="ch16.xhtml_sigil_toc_id_1541"><span class="label">Figure 16-21.
 </span>Strings are displayed verbatim</h6>
@@ -52582,7 +52582,7 @@ but the point should be clearly made.  "; color: gray;}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_generated-content-strings-newlines" class="figure">
-<img src="/Def-Images/Images/css5_1622.png" width="600" height="224"
+<img src="./images/css5_1622.png" width="600" height="224"
 alt="css5 1622" />
 <h6 id="ch16.xhtml_sigil_toc_id_1542"><span class="label">Figure 16-22.
 </span>Inserting and suppressing newlines</h6>
@@ -52640,7 +52640,7 @@ a[href]::after {content: " [" attr(href) "]";}
 
 <figure>
 <div id="ch16.xhtml_generated-content-strings-attr-urls" class="figure">
-<img src="/Def-Images/Images/css5_1623.png" width="600" height="96"
+<img src="./images/css5_1623.png" width="600" height="96"
 alt="css5 1623" />
 <h6 id="ch16.xhtml_sigil_toc_id_1545"><span class="label">Figure 16-23.
 </span>Inserting URLs</h6>
@@ -52676,7 +52676,7 @@ element has no `alink` attribute.
 
 <figure>
 <div id="ch16.xhtml_generated-content-attr-missing" class="figure">
-<img src="/Def-Images/Images/css5_1624.png" width="600" height="126"
+<img src="./images/css5_1624.png" width="600" height="126"
 alt="css5 1624" />
 <h6 id="ch16.xhtml_sigil_toc_id_1546"><span class="label">Figure 16-24.
 </span>Missing attributes are skipped</h6>
@@ -52778,7 +52778,7 @@ quotee::after {content: ")";}
 
 <figure class="coderesult width-75">
 <div id="ch16.xhtml_generated-content-quotes" class="figure">
-<img src="/Def-Images/Images/css5_1625.png" width="600" height="31"
+<img src="./images/css5_1625.png" width="600" height="31"
 alt="css5 1625" />
 <h6 id="ch16.xhtml_sigil_toc_id_1550"><span class="label">Figure 16-25.
 </span>Inserting quotes and other content</h6>
@@ -52817,7 +52817,7 @@ shown in
 
 <figure>
 <div id="ch16.xhtml_generated-content-quotes-nested" class="figure">
-<img src="/Def-Images/Images/css5_1626.png" width="600" height="37"
+<img src="./images/css5_1626.png" width="600" height="37"
 alt="css5 1626" />
 <h6 id="ch16.xhtml_sigil_toc_id_1551"><span class="label">Figure 16-26.
 </span>Nested curly quotes</h6>
@@ -53077,7 +53077,7 @@ list[type="ordered"] item::before {counter-increment: ordered;
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counters-counting-items" class="figure">
-<img src="/Def-Images/Images/css5_1627.png" width="322" height="149"
+<img src="./images/css5_1627.png" width="322" height="149"
 alt="css5 1627" />
 <h6 id="ch16.xhtml_sigil_toc_id_1559"><span class="label">Figure 16-27.
 </span>Counting the items</h6>
@@ -53110,7 +53110,7 @@ These rules would have the effect shown in
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counters-counting-headings" class="figure">
-<img src="/Def-Images/Images/css5_1628.png" width="600" height="585"
+<img src="./images/css5_1628.png" width="600" height="585"
 alt="css5 1628" />
 <h6 id="ch16.xhtml_sigil_toc_id_1560"><span class="label">Figure 16-28.
 </span>Adding counters to headings</h6>
@@ -53211,7 +53211,7 @@ startref="ix_lists_counter_display" data-type="indexterm"}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counters-counting-headings-changed" class="figure">
-<img src="/Def-Images/Images/css5_1629.png" width="600" height="574"
+<img src="./images/css5_1629.png" width="600" height="574"
 alt="css5 1629" />
 <h6 id="ch16.xhtml_sigil_toc_id_1561"><span class="label">Figure 16-29.
 </span>Changing counter styles</h6>
@@ -53282,7 +53282,7 @@ ol li:before {content: counters(ordered,".") ": "; counter-increment: ordered;}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counters-scope-nested" class="figure">
-<img src="/Def-Images/Images/css5_1630.png" width="600" height="519"
+<img src="./images/css5_1630.png" width="600" height="519"
 alt="css5 1630" />
 <h6 id="ch16.xhtml_sigil_toc_id_1563"><span class="label">Figure 16-30.
 </span>Nested counters</h6>
@@ -53374,7 +53374,7 @@ shows the result.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counter-patterns-triangles" class="figure">
-<img src="/Def-Images/Images/css5_1631.png" width="172" height="386"
+<img src="./images/css5_1631.png" width="172" height="386"
 alt="css5 1631" />
 <h6 id="ch16.xhtml_sigil_toc_id_1565"><span class="label">Figure 16-31.
 </span>A simple counter pattern</h6>
@@ -53475,7 +53475,7 @@ ol.emoji {list-style: emoji;}
 
 <figure class="coderesult width_set_70">
 <div id="ch16.xhtml_counter-patterns-fixed" class="figure">
-<img src="/Def-Images/Images/css5_1632.png" width="194" height="387"
+<img src="./images/css5_1632.png" width="194" height="387"
 alt="css5 1632" />
 <h6 id="ch16.xhtml_sigil_toc_id_1570"><span class="label">Figure 16-32.
 </span>A fixed counter pattern</h6>
@@ -53494,7 +53494,7 @@ get a result like that in
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counter-patterns-fixed-tooclose" class="figure">
-<img src="/Def-Images/Images/css5_1633.png" width="446" height="387"
+<img src="./images/css5_1633.png" width="446" height="387"
 alt="css5 1633" />
 <h6 id="ch16.xhtml_sigil_toc_id_1571"><span class="label">Figure 16-33.
 </span>When symbols get too close</h6>
@@ -53573,7 +53573,7 @@ ul.emoji {list-style: emojiverse;}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counter-patterns-cyclic" class="figure">
-<img src="/Def-Images/Images/css5_1634.png" width="194" height="506"
+<img src="./images/css5_1634.png" width="194" height="506"
 alt="css5 1634" />
 <h6 id="ch16.xhtml_sigil_toc_id_1574"><span class="label">Figure 16-34.
 </span>A cyclic counter pattern</h6>
@@ -53640,7 +53640,7 @@ ul.hmmm {list-style: wingthinker;}
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counter-patterns-cyclic-wings" class="figure">
-<img src="/Def-Images/Images/css5_1635.png" width="224" height="506"
+<img src="./images/css5_1635.png" width="224" height="506"
 alt="css5 1635" />
 <h6 id="ch16.xhtml_sigil_toc_id_1576"><span class="label">Figure 16-35.
 </span>Putting “wings” on the thinker</h6>
@@ -53673,7 +53673,7 @@ You can also extend the markers in creative ways by using `prefix` and
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counter-patterns-cyclic-thisisfine" class="figure">
-<img src="/Def-Images/Images/css5_1636.png" width="390" height="755"
+<img src="./images/css5_1636.png" width="390" height="755"
 alt="css5 1636" />
 <h6 id="ch16.xhtml_sigil_toc_id_1577"><span class="label">Figure 16-36.
 </span>This list is fine</h6>
@@ -53760,7 +53760,7 @@ alphabetic systems. Examples of each are shown here, with the result in
 
 <figure class="bordernone">
 <div id="ch16.xhtml_counter-patterns-symbolic" class="figure">
-<img src="/Def-Images/Images/css5_1637.png" width="600" height="490"
+<img src="./images/css5_1637.png" width="600" height="490"
 alt="css5 1637" />
 <h6 id="ch16.xhtml_sigil_toc_id_1580"><span class="label">Figure 16-37.
 </span>Two patterns of symbolic counting</h6>
@@ -53776,7 +53776,7 @@ would look like.
 
 <figure>
 <div id="ch16.xhtml_counter-patterns-symbolic-long" class="figure">
-<img src="/Def-Images/Images/css5_1638.png" width="600" height="475"
+<img src="./images/css5_1638.png" width="600" height="475"
 alt="css5 1638" />
 <h6 id="ch16.xhtml_sigil_toc_id_1581"><span class="label">Figure 16-38.
 </span>Very long symbolic markers</h6>
@@ -53822,7 +53822,7 @@ reasonable):
 
 <figure>
 <div id="ch16.xhtml_counter-patterns-symbolic-ranged" class="figure">
-<img src="/Def-Images/Images/css5_1639.png" width="413" height="552"
+<img src="./images/css5_1639.png" width="413" height="552"
 alt="css5 1639" />
 <h6 id="ch16.xhtml_sigil_toc_id_1583"><span class="label">Figure 16-39.
 </span>Using <code>range</code> to limit a symbolic counter pattern</h6>
@@ -53920,7 +53920,7 @@ is shown in
 
 <figure>
 <div id="ch16.xhtml_counter-patterns-alphabetic" class="figure">
-<img src="/Def-Images/Images/css5_1640.png" width="445" height="552"
+<img src="./images/css5_1640.png" width="445" height="552"
 alt="css5 1640" />
 <h6 id="ch16.xhtml_sigil_toc_id_1586"><span class="label">Figure 16-40.
 </span>Alphabetic counting</h6>
@@ -53989,7 +53989,7 @@ Examples of these three counting patterns are shown in
 <figure class="bordernone">
 <div id="ch16.xhtml_counter-patterns-numeric-three-systems"
 class="figure">
-<img src="/Def-Images/Images/css5_1641.png" width="600" height="432"
+<img src="./images/css5_1641.png" width="600" height="432"
 alt="css5 1641" />
 <h6 id="ch16.xhtml_sigil_toc_id_1588"><span class="label">Figure 16-41.
 </span>Three numeric counting patterns</h6>
@@ -54051,7 +54051,7 @@ ol.kaching {list-style: accounting;}
 
 <figure class="width_set_70">
 <div id="ch16.xhtml_counter-patterns-numeric-negative" class="figure">
-<img src="/Def-Images/Images/css5_1642.png" width="236" height="385"
+<img src="./images/css5_1642.png" width="236" height="385"
 alt="css5 1642" />
 <h6 id="ch16.xhtml_sigil_toc_id_1590"><span class="label">Figure 16-42.
 </span>Negative-value formatting</h6>
@@ -54106,7 +54106,7 @@ shows an example.
 
 <figure>
 <div id="ch16.xhtml_counter-patterns-numeric-pad" class="figure">
-<img src="/Def-Images/Images/css5_1643.png" width="217" height="552"
+<img src="./images/css5_1643.png" width="217" height="552"
 alt="css5 1643" />
 <h6 id="ch16.xhtml_sigil_toc_id_1592"><span class="label">Figure 16-43.
 </span>Padding values</h6>
@@ -54140,17 +54140,17 @@ ol.padded {list-style: padded;}
 ```
 
 Given a counter value of `1`, the result of that crazy counting system
-would be "![thinking face emoji](/Def-Images/Images/thinking.png){.emoji
+would be "![thinking face emoji](./images/thinking.png){.emoji
 emoji-embed="thinking face" height="45" width="42"}![winking face
-emoji](/Def-Images/Images/winking.png){.emoji emoji-embed="winking face"
+emoji](./images/winking.png){.emoji emoji-embed="winking face"
 height="43" width="44"}![thinking face
-emoji](/Def-Images/Images/thinking.png){.emoji
+emoji](./images/thinking.png){.emoji
 emoji-embed="thinking face" height="45" width="42"}![winking face
-emoji](/Def-Images/Images/winking.png){.emoji emoji-embed="winking face"
+emoji](./images/winking.png){.emoji emoji-embed="winking face"
 height="43" width="44"}![thinking face
-emoji](/Def-Images/Images/thinking.png){.emoji
+emoji](./images/thinking.png){.emoji
 emoji-embed="thinking face" height="45" width="42"}![winking face
-emoji](/Def-Images/Images/winking.png){.emoji emoji-embed="winking face"
+emoji](./images/winking.png){.emoji emoji-embed="winking face"
 height="43" width="44"}1."
 
 Note that negative symbols count toward symbol length and thus eat into
@@ -54183,7 +54183,7 @@ startref="ix_pad_desc" data-type="indexterm"}
 <figure>
 <div id="ch16.xhtml_counter-patterns-numeric-negativepad"
 class="figure">
-<img src="/Def-Images/Images/css5_1644.png" width="600" height="427"
+<img src="./images/css5_1644.png" width="600" height="427"
 alt="css5 1644" />
 <h6 id="ch16.xhtml_sigil_toc_id_1593"><span class="label">Figure 16-44.
 </span>Negative value formatting, with padding</h6>
@@ -54253,7 +54253,7 @@ this time, each list has been formatted as three columns.
 
 <figure>
 <div id="ch16.xhtml_counter-patterns-additive-romandice" class="figure">
-<img src="/Def-Images/Images/css5_1645.png" width="600" height="147"
+<img src="./images/css5_1645.png" width="600" height="147"
 alt="css5 1645" />
 <h6 id="ch16.xhtml_sigil_toc_id_1596"><span class="label">Figure 16-45.
 </span>Additive values</h6>
@@ -54393,7 +54393,7 @@ list items.
 
 <figure>
 <div id="ch16.xhtml_counter-patterns-extends-fourhex" class="figure">
-<img src="/Def-Images/Images/css5_1646.png" width="600" height="264"
+<img src="./images/css5_1646.png" width="600" height="264"
 alt="css5 1646" />
 <h6 id="ch16.xhtml_sigil_toc_id_1600"><span class="label">Figure 16-46.
 </span>Various hexadecimal counting patterns</h6>
@@ -54600,7 +54600,7 @@ is illustrated in [Figure 17-1](#ch17.xhtml_tf_fig01){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig01" class="figure">
-<img src="/Def-Images/Images/css5_1701.png" width="497" height="800"
+<img src="./images/css5_1701.png" width="497" height="800"
 alt="css5 1701" />
 <h6 id="ch17.xhtml_sigil_toc_id_1606"><span class="label">Figure 17-1.
 </span>The three Cartesian axes used in CSS transforms</h6>
@@ -54670,7 +54670,7 @@ axes of the display.
 
 <figure>
 <div id="ch17.xhtml_tf_fig02" class="figure">
-<img src="/Def-Images/Images/css5_1702.png" width="600" height="179"
+<img src="./images/css5_1702.png" width="600" height="179"
 alt="css5 1702" />
 <h6 id="ch17.xhtml_sigil_toc_id_1607"><span class="label">Figure 17-2.
 </span>Elemental frames of reference</h6>
@@ -54696,7 +54696,7 @@ rotate in the *xy* plane, as illustrated in
 
 <figure>
 <div id="ch17.xhtml_tf_fig05" class="figure">
-<img src="/Def-Images/Images/css5_1703.png" width="600" height="162"
+<img src="./images/css5_1703.png" width="600" height="162"
 alt="css5 1703" />
 <h6 id="ch17.xhtml_sigil_toc_id_1608"><span class="label">Figure 17-3.
 </span>Rotations in the xy plane</h6>
@@ -54711,7 +54711,7 @@ system*, which describes angles in 3D space. It's illustrated in
 
 <figure>
 <div id="ch17.xhtml_tf_fig03" class="figure">
-<img src="/Def-Images/Images/css5_1704.png" width="480" height="462"
+<img src="./images/css5_1704.png" width="480" height="462"
 alt="css5 1704" />
 <h6 id="ch17.xhtml_sigil_toc_id_1609"><span class="label">Figure 17-4.
 </span>The spherical coordinate system used in CSS transforms</h6>
@@ -54728,7 +54728,7 @@ the y-axis turn the element from side to side. These are illustrated in
 
 <figure>
 <div id="ch17.xhtml_tf_fig04" class="figure">
-<img src="/Def-Images/Images/css5_1705.png" width="600" height="454"
+<img src="./images/css5_1705.png" width="600" height="454"
 alt="css5 1705" />
 <h6 id="ch17.xhtml_sigil_toc_id_1610"><span class="label">Figure 17-5.
 </span>Rotations around the three axes</h6>
@@ -54827,7 +54827,7 @@ result shown in [Figure 17-6](#ch17.xhtml_tf_fig06){data-type="xref"}:
 
 <figure>
 <div id="ch17.xhtml_tf_fig06" class="figure">
-<img src="/Def-Images/Images/css5_1706.png" width="168" height="102"
+<img src="./images/css5_1706.png" width="168" height="102"
 alt="css5 1706" />
 <h6 id="ch17.xhtml_sigil_toc_id_1614"><span class="label">Figure 17-6.
 </span>A transformed <code>&lt;div&gt;</code> element</h6>
@@ -54848,7 +54848,7 @@ img#two {transform: rotate(45deg) translateX(200px);}
 
 <figure>
 <div id="ch17.xhtml_tf_fig07" class="figure">
-<img src="/Def-Images/Images/css5_1707.png" width="600" height="262"
+<img src="./images/css5_1707.png" width="600" height="262"
 alt="css5 1707" />
 <h6 id="ch17.xhtml_sigil_toc_id_1615"><span class="label">Figure 17-7.
 </span>Different transform lists, different results</h6>
@@ -54893,7 +54893,7 @@ scenarios, illustrated in
 
 <figure>
 <div id="ch17.xhtml_tf_fig08" class="figure">
-<img src="/Def-Images/Images/css5_1708.png" width="600" height="216"
+<img src="./images/css5_1708.png" width="600" height="216"
 alt="css5 1708" />
 <h6 id="ch17.xhtml_sigil_toc_id_1616"><span class="label">Figure 17-8.
 </span>Overwriting or modifying transforms</h6>
@@ -55050,7 +55050,7 @@ of 2D translation.
 
 <figure>
 <div id="ch17.xhtml_tf_fig09" class="figure">
-<img src="/Def-Images/Images/css5_1709.png" width="600" height="272"
+<img src="./images/css5_1709.png" width="600" height="272"
 alt="css5 1709" />
 <h6 id="ch17.xhtml_sigil_toc_id_1622"><span class="label">Figure 17-9.
 </span>Translating in two dimensions</h6>
@@ -55110,7 +55110,7 @@ result.
 
 <figure>
 <div id="ch17.xhtml_tf_fig10" class="figure">
-<img src="/Def-Images/Images/css5_1710.png" width="495" height="800"
+<img src="./images/css5_1710.png" width="495" height="800"
 alt="css5 1710" />
 <h6 id="ch17.xhtml_sigil_toc_id_1625"><span class="label">Figure 17-10.
 </span>Translating in three dimensions</h6>
@@ -55260,7 +55260,7 @@ scaled, and either `scaleZ()` or `scale3d()` can do so.
 
 <figure>
 <div id="ch17.xhtml_tf_fig11" class="figure">
-<img src="/Def-Images/Images/css5_1711.png" width="600" height="346"
+<img src="./images/css5_1711.png" width="600" height="346"
 alt="css5 1711" />
 <h6 id="ch17.xhtml_sigil_toc_id_1631"><span class="label">Figure 17-11.
 </span>Scaled elements</h6>
@@ -55421,7 +55421,7 @@ y-axis, as though it were a door. These are all illustrated in
 
 <figure>
 <div id="ch17.xhtml_tf_fig12" class="figure">
-<img src="/Def-Images/Images/css5_1712.png" width="600" height="316"
+<img src="./images/css5_1712.png" width="600" height="316"
 alt="css5 1712" />
 <h6 id="ch17.xhtml_sigil_toc_id_1637"><span class="label">Figure 17-12.
 </span>Rotations around the three axes</h6>
@@ -55476,7 +55476,7 @@ degrees around the x- and y-axes.
 
 <figure>
 <div id="ch17.xhtml_tf_fig13" class="figure">
-<img src="/Def-Images/Images/css5_1713.png" width="600" height="147"
+<img src="./images/css5_1713.png" width="600" height="147"
 alt="css5 1713" />
 <h6 id="ch17.xhtml_sigil_toc_id_1640"><span class="label">Figure 17-13.
 </span>Rotations around 3D vectors</h6>
@@ -55535,7 +55535,7 @@ the viewer, and the bottom right rotates away, as shown in
 
 <figure>
 <div id="ch17.xhtml_tf_fig14" class="figure">
-<img src="/Def-Images/Images/css5_1714.png" width="600" height="378"
+<img src="./images/css5_1714.png" width="600" height="378"
 alt="css5 1714" />
 <h6 id="ch17.xhtml_sigil_toc_id_1641"><span class="label">Figure 17-14.
 </span>Rotation around a 3D vector, and how that vector is
@@ -55564,7 +55564,7 @@ distinctly different from the result of
 
 <figure>
 <div id="ch17.xhtml_tf_fig15" class="figure">
-<img src="/Def-Images/Images/css5_1715.png" width="600" height="164"
+<img src="./images/css5_1715.png" width="600" height="164"
 alt="css5 1715" />
 <h6 id="ch17.xhtml_sigil_toc_id_1642"><span class="label">Figure 17-15.
 </span>The difference between rotating around a 3D axis and rotating in
@@ -55722,7 +55722,7 @@ examples along the x- and y-axes.
 
 <figure>
 <div id="ch17.xhtml_tf_fig16" class="figure">
-<img src="/Def-Images/Images/css5_1716.png" width="600" height="179"
+<img src="./images/css5_1716.png" width="600" height="179"
 alt="css5 1716" />
 <h6 id="ch17.xhtml_sigil_toc_id_1648"><span class="label">Figure 17-16.
 </span>Skewing along the x- and y-axes</h6>
@@ -55761,7 +55761,7 @@ code.
 
 <figure>
 <div id="ch17.xhtml_tf_fig17" class="figure">
-<img src="/Def-Images/Images/css5_1717.png" width="600" height="106"
+<img src="./images/css5_1717.png" width="600" height="106"
 alt="css5 1717" />
 <h6 id="ch17.xhtml_sigil_toc_id_1651"><span class="label">Figure 17-17.
 </span>Skewed elements</h6>
@@ -55850,7 +55850,7 @@ rotate(33deg) translate(24px,25px) skewX(-10deg)
 
 <figure class="bordernone">
 <div id="ch17.xhtml_tf_fig20" class="figure">
-<img src="/Def-Images/Images/css5_1718.png" width="600" height="305"
+<img src="./images/css5_1718.png" width="600" height="305"
 alt="css5 1718" />
 <h6 id="ch17.xhtml_sigil_toc_id_1655"><span class="label">Figure 17-18.
 </span>A matrix-transformed element and its functional equivalent</h6>
@@ -55916,7 +55916,7 @@ perspective(500px) rotateY(33deg) translate(24px,25px) skewX(-10deg)
 
 <figure class="bordernone">
 <div id="ch17.xhtml_tf_fig21" class="figure">
-<img src="/Def-Images/Images/css5_1719.png" width="600" height="301"
+<img src="./images/css5_1719.png" width="600" height="301"
 alt="css5 1719" />
 <h6 id="ch17.xhtml_sigil_toc_id_1657"><span class="label">Figure 17-19.
 </span>A <code>matrix3d()</code>-transformed element and its functional
@@ -56036,7 +56036,7 @@ perspective distances.
 
 <figure class="width-75">
 <div id="ch17.xhtml_tf_fig18" class="figure">
-<img src="/Def-Images/Images/css5_1720.png" width="600" height="308"
+<img src="./images/css5_1720.png" width="600" height="308"
 alt="css5 1720" />
 <h6 id="ch17.xhtml_sigil_toc_id_1661"><span class="label">Figure 17-20.
 </span>Different perspective pyramids</h6>
@@ -56054,7 +56054,7 @@ with varying [perspective values.]{.keep-together}
 
 <figure>
 <div id="ch17.xhtml_tf_fig19" class="figure">
-<img src="/Def-Images/Images/css5_1721.png" width="600" height="191"
+<img src="./images/css5_1721.png" width="600" height="191"
 alt="css5 1721" />
 <h6 id="ch17.xhtml_sigil_toc_id_1662"><span class="label">Figure 17-21.
 </span>The effects of varying perspective values</h6>
@@ -56163,7 +56163,7 @@ origin calculations.
 
 <figure>
 <div id="ch17.xhtml_tf_fig22" class="figure">
-<img src="/Def-Images/Images/css5_1722.png" width="600" height="369"
+<img src="./images/css5_1722.png" width="600" height="369"
 alt="css5 1722" />
 <h6 id="ch17.xhtml_sigil_toc_id_1666"><span class="label">Figure 17-22.
 </span>Various origin calculations</h6>
@@ -56179,7 +56179,7 @@ is marked with a circle.
 
 <figure>
 <div id="ch17.xhtml_tf_fig23" class="figure">
-<img src="/Def-Images/Images/css5_1723.png" width="600" height="309"
+<img src="./images/css5_1723.png" width="600" height="309"
 alt="css5 1723" />
 <h6 id="ch17.xhtml_sigil_toc_id_1667"><span class="label">Figure 17-23.
 </span>Rotational effects using various transform origins</h6>
@@ -56198,7 +56198,7 @@ each transform origin is marked with a circle.
 
 <figure>
 <div id="ch17.xhtml_tf_fig24" class="figure">
-<img src="/Def-Images/Images/css5_1724.png" width="600" height="282"
+<img src="./images/css5_1724.png" width="600" height="282"
 alt="css5 1724" />
 <h6 id="ch17.xhtml_sigil_toc_id_1668"><span class="label">Figure 17-24.
 </span>Skew and scale effects using various transform origins</h6>
@@ -56308,7 +56308,7 @@ which is the result of the following SVG file and the CSS it contains:
 
 <figure>
 <div id="ch17.xhtml_transform-box-compare" class="figure">
-<img src="/Def-Images/Images/css5_1725.png" width="600" height="240"
+<img src="./images/css5_1725.png" width="600" height="240"
 alt="css5 1725" />
 <h6 id="ch17.xhtml_sigil_toc_id_1671"><span class="label">Figure 17-25.
 </span>A square rotated around the SVG origin and its own origin</h6>
@@ -56379,7 +56379,7 @@ what you might expect.
 
 <figure>
 <div id="ch17.xhtml_tf_fig25" class="figure">
-<img src="/Def-Images/Images/css5_1726.png" width="388" height="249"
+<img src="./images/css5_1726.png" width="388" height="249"
 alt="css5 1726" />
 <h6 id="ch17.xhtml_sigil_toc_id_1674"><span class="label">Figure 17-26.
 </span>A 3D-transformed inner <code>&lt;div&gt;</code></h6>
@@ -56419,7 +56419,7 @@ div#inner {transform: perspective(750px) translateZ(60px) rotateX(45deg);}
 
 <figure>
 <div id="ch17.xhtml_tf_fig27" class="figure">
-<img src="/Def-Images/Images/css5_1727.png" width="600" height="260"
+<img src="./images/css5_1727.png" width="600" height="260"
 alt="css5 1727" />
 <h6 id="ch17.xhtml_sigil_toc_id_1675"><span class="label">Figure 17-27.
 </span>The effects of a flat versus a 3D-preserved transform style</h6>
@@ -56532,7 +56532,7 @@ img {margin: 10px;}
 
 <figure class="bordernone">
 <div id="ch17.xhtml_tf_fig28" class="figure">
-<img src="/Def-Images/Images/css5_1728.png" width="600" height="600"
+<img src="./images/css5_1728.png" width="600" height="600"
 alt="css5 1728" />
 <h6 id="ch17.xhtml_sigil_toc_id_1679"><span class="label">Figure 17-28.
 </span>No perspective, individual <code>perspective()</code>, and shared
@@ -56628,7 +56628,7 @@ than described. Consider the following CSS and markup, illustrated in
 
 <figure class="bordernone">
 <div id="ch17.xhtml_tf_fig29" class="figure">
-<img src="/Def-Images/Images/css5_1729.png" width="600" height="38"
+<img src="./images/css5_1729.png" width="600" height="38"
 alt="css5 1729" />
 <h6 id="ch17.xhtml_sigil_toc_id_1682"><span class="label">Figure 17-29.
 </span>A basic “ruler”</h6>
@@ -56645,7 +56645,7 @@ Now consider that same setup with various perspective origins
 
 <figure class="bordernone">
 <div id="ch17.xhtml_tf_fig30" class="figure">
-<img src="/Def-Images/Images/css5_1730.png" width="600" height="224"
+<img src="./images/css5_1730.png" width="600" height="224"
 alt="css5 1730" />
 <h6 id="ch17.xhtml_sigil_toc_id_1683"><span class="label">Figure 17-30.
 </span>A basic “ruler” with different perspective origins</h6>
@@ -56723,7 +56723,7 @@ img#hide {backface-visibility: hidden;}
 
 <figure>
 <div id="ch17.xhtml_tf_fig31" class="figure">
-<img src="/Def-Images/Images/css5_1731.png" width="600" height="197"
+<img src="./images/css5_1731.png" width="600" height="197"
 alt="css5 1731" />
 <h6 id="ch17.xhtml_sigil_toc_id_1686"><span class="label">Figure 17-31.
 </span>Visible and hidden backfaces</h6>
@@ -56771,7 +56771,7 @@ section:hover {rotate: y 180deg; transform-style: preserve-3d;}
 
 <figure>
 <div id="ch17.xhtml_tf_fig32" class="figure">
-<img src="/Def-Images/Images/css5_1732.png" width="600" height="250"
+<img src="./images/css5_1732.png" width="600" height="250"
 alt="css5 1732" />
 <h6 id="ch17.xhtml_sigil_toc_id_1687"><span class="label">Figure 17-32.
 </span>Photo on the front, information on the back</h6>
@@ -56897,14 +56897,14 @@ bringing attention to what is occurring. For example, you may want to
 make a card game more realistic by taking 200 milliseconds to animate
 the flipping of a card, as the user may not realize what happened if
 there is no animation.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/cardflip.xhtml){.play}
 
 ::: {data-type="tip"}
 ###### Tip {#ch18.xhtml_sigil_toc_id_1691}
 
 Look for the Play symbol
-[![](/Def-Images/Images/play-icon-round.png){height="100"
+[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play} to know when an online example is available. All of
 the examples in this chapter can be found at
 [*https://meyerweb.github.io/csstdg5figs/18-transitions*](https://meyerweb.github.io/csstdg5figs/18-transitions){.bare}.
@@ -56915,7 +56915,7 @@ become]{.keep-together} visible over 200 milliseconds (instead of
 instantly, which may be jarring). With transitions, you can make a
 drop-down menu appear slowly. In
 [Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/menus-initial-midtransition-and-final-state.xhtml){.play},
 we transition the submenu's height by making a scale transform. This is
 a common use for CSS transitions, which we will also explore later in
@@ -56937,7 +56937,7 @@ designs to people with epilepsy and other seizure disorders.
 
 <figure>
 <div id="ch18.xhtml_tr_fig01" class="figure">
-<img src="/Def-Images/Images/css5_1801.png" width="600" height="493"
+<img src="./images/css5_1801.png" width="600" height="493"
 alt="css5 1801" />
 <h6 id="ch18.xhtml_sigil_toc_id_1693"><span class="label">Figure 18-1.
 </span>Initial transition, midtransition, and final state</h6>
@@ -57053,7 +57053,7 @@ declaring different transitions in both the initial and changed states.
 By *initial state*, we mean a state that matches the element at page
 load time. It could mean a content-editable element that could get
 `:focus`, as in the following:
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/contenteditable.xhtml){.play}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -57108,12 +57108,12 @@ In this case, when we refer to the initial state, we are referring to
 the original value, which could be either `:valid` or
 `:invalid`{.keep-together}. The changed state for a given element is the
 opposite of the initial `:valid` or `:invalid` state.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/input-appearance-valid-invalid-focus.xhtml){.play}
 
 <figure>
 <div id="ch18.xhtml_tr_fig0202" class="figure">
-<img src="/Def-Images/Images/css5_1802.png" width="223" height="165"
+<img src="./images/css5_1802.png" width="223" height="165"
 alt="css5 1802" />
 <h6 id="ch18.xhtml_sigil_toc_id_1695"><span class="label">Figure 18-2.
 </span>The input’s appearance in the valid, invalid, and focused
@@ -57147,7 +57147,7 @@ nav li:is(:hover, :focus) ul {
 ```
 
 This provides a horrible user experience, but it illustrates the point.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/menus-very-slow-transition.xhtml){.play}
 When hovered or focused, the opening of the navigation takes a full 2
 seconds. When closing, it quickly closes over 0.2 seconds. The
@@ -57487,7 +57487,7 @@ shorthand properties. In the case of `all`, there will be at least 19
 values making up the six properties we know are included in the pre- and
 post-transition states, and possibly from others that are inherited or
 declared in other style blocks impacting the element.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/transitionend.xhtml){.play}
 
 You can listen for `transitionend` events like this:
@@ -57598,7 +57598,7 @@ input:valid {
 Thus, it will take 1 second for the input to change to a red background
 when it becomes invalid, and only 200 milliseconds to transition to a
 green background when it becomes valid.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/transition-duration-revert-difference.xhtml){.play}
 
 The value of the `transition-duration` property is positive in either
@@ -57769,7 +57769,7 @@ parameter values need to be between 0 and 1.
 
 <figure>
 <div id="ch18.xhtml_tr_fig0203" class="figure">
-<img src="/Def-Images/Images/css5_1803.png" width="600" height="131"
+<img src="./images/css5_1803.png" width="600" height="131"
 alt="css5 1803" />
 <h6 id="ch18.xhtml_sigil_toc_id_1707"><span class="label">Figure 18-3.
 </span>Curve representations of named cubic Bézier functions</h6>
@@ -57788,7 +57788,7 @@ corresponding values shown in
 
 <figure>
 <div id="ch18.xhtml_taic_css4_cubic-bezier-coordinates" class="figure">
-<img src="/Def-Images/Images/css5_1804.png" width="600" height="177"
+<img src="./images/css5_1804.png" width="600" height="177"
 alt="css5 1804" />
 <h6 id="ch18.xhtml_sigil_toc_id_1708"><span class="label">Figure 18-4.
 </span>Four Bézier curves and their <code>cubic-bezier()</code> values
@@ -57827,7 +57827,7 @@ more realistic, delightful animation.
 
 <figure>
 <div id="ch18.xhtml_tr_fig0204" class="figure">
-<img src="/Def-Images/Images/css5_1805.png" width="600" height="332"
+<img src="./images/css5_1805.png" width="600" height="332"
 alt="css5 1805" />
 <h6 id="ch18.xhtml_sigil_toc_id_1709"><span class="label">Figure 18-5.
 </span>Useful author-defined cubic Bézier functions (from <a
@@ -57902,7 +57902,7 @@ curve.
 
 <figure>
 <div id="ch18.xhtml_steptiming" class="figure">
-<img src="/Def-Images/Images/css5_1806.png" width="600" height="341"
+<img src="./images/css5_1806.png" width="600" height="341"
 alt="css5 1806" />
 <h6 id="ch18.xhtml_sigil_toc_id_1711"><span class="label">Figure 18-6.
 </span>Step timing functions</h6>
@@ -58133,7 +58133,7 @@ data-type="indexterm"}negative value for `transition-delay` that is
 smaller than the `transition-duration` will cause the transition to
 start immediately, partway through the transition. For
 [example]{.keep-together}:
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/transition-delay-negative.xhtml){.play}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -58792,7 +58792,7 @@ along the way.
 ###### Tip {#ch19.xhtml_sigil_toc_id_1727}
 
 Look for the Play symbol
-[![](/Def-Images/Images/play-icon-round.png){height="100"
+[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play} to know when an online example is available. All of
 the examples in this chapter can be found at
 [*https://meyerweb.github.io/csstdg5figs/19-animation*](https://meyerweb.github.io/csstdg5figs/19-animation){.bare}.
@@ -59009,7 +59009,7 @@ characters `a-z`, `A-Z`, and `0-9`, the hyphen (`-`), underscore (`_`),
 and any ISO 10646 character U+00A0 and higher. ISO 10646 is the
 universal character set; this means you can use any character in the
 Unicode standard that matches the regular expression
-`[-_a-zA-Z0-9\u00A0-\u10FFFF]`.[[![](/Def-Images/Images/play-icon-round.png){height="100"
+`[-_a-zA-Z0-9\u00A0-\u10FFFF]`.[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/name.xhtml){.play}
 The identifier can't start with a digit (0--9) and should not start with
 two hyphens (though some browsers allow this). One hyphen is fine, as
@@ -59029,7 +59029,7 @@ animation properties we'll be covering later in the chapter include
 `none`, `paused`, `running`, `infinite`, `backwards`, and `forwards`.
 Using an animation property keyword, while not prohibited by the spec,
 will likely break your animation
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/badnames.xhtml){.play}
 when using the `animation` shorthand property (discussed in ["Bringing
 It All
@@ -59086,7 +59086,7 @@ positioned element, would move that element along a W-shaped path. `W`
 has five keyframes: one each at the `0%`, `25%`, `50%`, `75%`, and
 `100%` marks. The `from` is the `0%` mark, while the `to` is the [`100%`
 mark.]{.keep-together}
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/02_W.xhtml){.play}
 
 Because the property values we set for the `25%` and `75%` mark are the
@@ -59138,7 +59138,7 @@ Say we have a `background-color` change animation:
 
 If the element originally had `background-color: red` set on it, it
 would be as if the animation were as follows:
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/no0or100.xhtml){.play}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -59253,7 +59253,7 @@ animate, but browsers will jump from the preanimated state to the
 postanimated state halfway through the animation. Thus, for a 1-second
 animation, the element will jump from `auto` height to `300px` height at
 the 500-millisecond point in the animation.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/nomidpoint.xhtml){.play}
 Other properties may animate over the length of the same animation;
 e.g., if you change the background color, it will animate smoothly over
@@ -59383,7 +59383,7 @@ keyframe---so if we have multiple `50%` keyframes, the last one listed
 will be the first to go. Conversely,
 `myAnimation.appendRule('53% {top: 50%;}')` appends a 53% keyframe after
 the last keyframe of the `@keyframes` block.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/appendRule.xhtml){.play}
 
 CSS has []{#ch19.xhtml_idm45797037849728 primary="animationend event"
@@ -59467,7 +59467,7 @@ The default value is `none`, which means no animation is applied to the
 selected elements. The `none` value can be used to override any
 animation applied elsewhere in the CSS cascade. (This is also the reason
 you don't want to name your animation `none`, unless you're a
-masochist.) [[![](/Def-Images/Images/play-icon-round.png){height="100"
+masochist.) [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/badnames.xhtml){.play}
 
 Using the `change_bgcolor` keyframe animation defined in ["Omitting from
@@ -59508,7 +59508,7 @@ In this example, assume that no `spin` keyframe animation is defined.
 The `spin` animation will not be applied, while the `change_bgcolor`,
 `round`, and `W` animations will occur. Should a `spin` keyframe
 animation come into existence through scripting, it will be applied at
-that time. [[![](/Def-Images/Images/play-icon-round.png){height="100"
+that time. [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/nameaddedlater.xhtml){.play}
 
 If more []{#ch19.xhtml_idm45797037693568 primary="animation"
@@ -59520,7 +59520,7 @@ concurrently in two different keyframe animations, whichever animation
 was listed later will override the background property declarations of
 animations earlier in the list, but *only* if the properties (background
 colors, in this case) are being animated at the same time.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/no0or100.xhtml){.play}
 For more on this, see ["Animation, Specificity, and Precedence
 Order"](#ch19.xhtml_animation-specificity-and-precedence-order){data-type="xref"}.
@@ -59654,7 +59654,7 @@ If you supply an invalid value within your comma-separated list of
 durations (e.g., `animation-duration: 200ms, 0, 0.5s`) the entire
 declaration will fail, and it [will behave]{.keep-together} as if
 `animation-duration: 0s` had been declared; `0` is not a valid time
-value. [[![](/Def-Images/Images/play-icon-round.png){height="100"
+value. [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/duration_broken_value.xhtml){.play}
 
 Generally, you will want to include an `animation-duration` value for
@@ -59756,7 +59756,7 @@ after 2 seconds.
 
 Negative numbers are not permitted. If an invalid value is given, the
 default value of `1` will lead to a default single iteration.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/odditeration.xhtml){.play}
 
 Interestingly, `0` is a valid value for the `animation-iteration-count`
@@ -59917,7 +59917,7 @@ dropping it, not by throwing it up in the air: we want it to alternate
 between going down and up, rather than up and down, so
 `animation-direction: alternate-reverse` is the most appropriate value
 for our needs.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/ball6.xhtml){.play}
 
 This is a rudimentary way of making a ball bounce. When balls are
@@ -60009,7 +60009,7 @@ In this `linear` animation example, we have a 10-second animation with a
 delay of --4 seconds. In this case, the animation will start immediately
 40% of the way through the animation, with the `<div>` translated 400
 pixels to the right of its original position, and last only 6 seconds.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/fortypercent.xhtml){.play}
 
 If an animation is set to occur 10 times, with a delay of --600
@@ -60046,7 +60046,7 @@ The animation starts out in reverse because `animation-direction` is set
 to `alternate`, meaning every even-numbered iteration proceeds from the
 100% keyframe to the 0% [keyframe.]{.keep-together} The fourth
 iteration, which is an even-numbered iteration, is the first visible
-iteration. [[![](/Def-Images/Images/play-icon-round.png){height="100"
+iteration. [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/ball_animation_delay_negative.xhtml){.play}
 
 In this case, the animation will throw the `animationstart` event
@@ -60116,7 +60116,7 @@ in that order. These are illustrated in the following code:
 The `animationiteration` event[]{#ch19.xhtml_idm45797036732112
 primary="animationiteration event" data-type="indexterm"} fires
 *between* iterations. The `animationend` event
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/events.xhtml){.play}
 fires at the conclusion of iterations that do not occur at the same time
 as the conclusion of the animation itself; thus, the
@@ -60160,7 +60160,7 @@ occur. The preceding example code has no `animationiteration` events, as
 the first three cycles do not occur (because of the `-3s`
 `animation-delay`), and the last cycle finishes at the same time the
 animation ends.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/events2.xhtml){.play}
 
 In that example, the `elapsedTime` on the `animationstart` event is `3`,
@@ -60188,7 +60188,7 @@ In this example, the `red` animation starts after a 3-second delay and
 lasts 1 second, meaning the `animationend` event occurs at the 4-second
 mark. This example starts each subsequent animation at the conclusion of
 the previous animation. This is known as *CSS animation chaining*.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animationchain.xhtml){.play}
 
 By including a 4-second delay on the second animation, the `orange`
@@ -60233,7 +60233,7 @@ li:nth-of-type(5) {
 ```
 
 If you want a group of list items to animate in order,
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animationchain2a.xhtml){.play}
 appearing as if the animations were chained in sequence, the
 `animation-delay` of each list item should be the combined time of the
@@ -60309,7 +60309,7 @@ different [performance]{.keep-together} issues.
 ```
 If you are able to rely on JavaScript, another way of chaining
 animations is listening for `animationend` events to start subsequent
-animations: [[![](/Def-Images/Images/play-icon-round.png){height="100"
+animations: [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animationchain2.xhtml){.play}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -60501,7 +60501,7 @@ within your keyframe definition and iterate through it three times:
 
 Note the first keyframe selector is at the 80% mark and matches the
 default state.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animation-iteration-delay1.xhtml){.play}
 This will animate your element three times: it stays in the default
 state for 80% of the 5-second animation (not changing for 4 seconds) and
@@ -60513,7 +60513,7 @@ This method works for any number of iterations of the animation.
 Unfortunately, it is a good solution only if the delay between each
 iteration is identical and you don't want to reuse the animation with
 any other timing, such as a delay of 6 seconds.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animation-iteration-delay.xhtml){.play}
 If you want to change the delay between each iteration while not
 changing the duration of the change in size and color, you have to write
@@ -60548,7 +60548,7 @@ the animation keyframe definition:
 ```
 
 This method may be more difficult to code and maintain, however.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animation-iteration-delay2.xhtml){.play}
 It works for only a single cycle of the animation. To change the number
 of animations or the iteration delay durations, another `@keyframes`
@@ -60558,7 +60558,7 @@ previous one, but it does allow for different between-iteration delays.
 A solution is specifically allowed in the animation specification:
 declare an animation multiple times, each with a different
 `animation-delay` value:
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animation-iteration-delay3.xhtml){.play}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -60592,7 +60592,7 @@ override any animations occurring before it in the list of names. In
 declaring three `color_and_scale` animations but at different intervals,
 the value of the property of the last iteration of the `color_and_scale`
 animation will override the values of the previous ones that haven't yet
-concluded. [[![](/Def-Images/Images/play-icon-round.png){height="100"
+concluded. [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/animation-iteration-delay4.xhtml){.play}
 
 The safest, most robust, and most cross-browser-friendly method of
@@ -60733,7 +60733,7 @@ illustrated in
 
 <figure>
 <div id="ch19.xhtml_an-outlandish-bezier-curve" class="figure">
-<img src="/Def-Images/Images/css5_1901.png" width="498" height="752"
+<img src="./images/css5_1901.png" width="498" height="752"
 alt="css5 1901" />
 <h6 id="ch19.xhtml_sigil_toc_id_1756"><span class="label">Figure 19-1.
 </span>An outlandish Bézier curve</h6>
@@ -60751,7 +60751,7 @@ defined in the `100%` keyframe, as shown in
 
 <figure>
 <div id="ch19.xhtml_an_fig0303" class="figure">
-<img src="/Def-Images/Images/css5_1902.png" width="600" height="226"
+<img src="./images/css5_1902.png" width="600" height="226"
 alt="css5 1902" />
 <h6 id="ch19.xhtml_sigil_toc_id_1757"><span class="label">Figure 19-2.
 </span>Effect of outlandish Bézier curve</h6>
@@ -60764,7 +60764,7 @@ which is narrower than `width: 100px` defined in the `100%` keyframe.
 From there, it slowly expands to about `750px` wide, which is larger
 than the original width of `500px`. It then quickly shrinks back to
 `width: 100px`, ending the animation iteration.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/cubicbezierprint.xhtml){.play}
 
 You may have realized that the curve created by our animation is the
@@ -60799,7 +60799,7 @@ the `100%` keyframe. When it is bouncing upward, it animates in the
 reverse direction, from `100%` to `0%`, so the
 `animating-timing-function` is reversed as well---in this case, to
 `ease-out`---slowing down as it reaches the apex:
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/ball1.xhtml){.play}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -60861,7 +60861,7 @@ drawings on the individual pages of a flip book.
 
 <figure>
 <div id="ch19.xhtml_an_sprite" class="figure">
-<img src="/Def-Images/Images/css5_1903.png" width="600" height="48"
+<img src="./images/css5_1903.png" width="600" height="48"
 alt="css5 1903" />
 <h6 id="ch19.xhtml_sigil_toc_id_1759"><span class="label">Figure 19-3.
 </span>Sprite of dancing</h6>
@@ -60941,7 +60941,7 @@ This is what we want:
 What may have seemed like a complex animation is very simple: just as in
 a flip book, we see one frame of the sprite at a time. Our keyframe
 animation simply moves the background.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/sprite.xhtml){.play}
 
 So that covers the first parameter, the number of steps. The second
@@ -60974,7 +60974,7 @@ following styles:
 
 <figure>
 <div id="ch19.xhtml_step-timing-change-point" class="figure">
-<img src="/Def-Images/Images/css5_1904.png" width="600" height="150"
+<img src="./images/css5_1904.png" width="600" height="150"
 alt="css5 1904" />
 <h6 id="ch19.xhtml_sigil_toc_id_1760"><span class="label">Figure 19-4.
 </span>Visualizing start and end change points</h6>
@@ -61057,7 +61057,7 @@ In the preceding example, as shown in
 the animation, we switch from a linear animation progression for the
 `width` property to one that eases in. The `ease-in` timing starts from
 the keyframe in which the timing function changes.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/cubicbezierprint2.xhtml){.play}
 
 Specifying the `animation-timing-function` within the `to` or `100%`
@@ -61069,7 +61069,7 @@ declared `animation-timing-function`.
 
 <figure>
 <div id="ch19.xhtml_an_timing" class="figure">
-<img src="/Def-Images/Images/css5_1905.png" width="515" height="297"
+<img src="./images/css5_1905.png" width="515" height="297"
 alt="css5 1905" />
 <h6 id="ch19.xhtml_sigil_toc_id_1762"><span class="label">Figure 19-5.
 </span>Changing the animation timing function mid-animation</h6>
@@ -61189,7 +61189,7 @@ momentum on each bounce, while switching between `ease-in` and
 ```
 
 This animation loses height after a few bounces, eventually stopping.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/ball3.xhtml){.play}
 
 Since this new animation uses a single iteration, we can't rely on
@@ -61252,7 +61252,7 @@ controls the animation had stopped and started again.
 If the property is set to `paused` during the delay phase of the
 animation, the delay clock is also paused and resumes as soon as
 `animation-play-state` is set back to running.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/ball4.xhtml){.play}
 ::::
 :::::
@@ -61336,7 +61336,7 @@ The `both` value applies both the `backwards` effect of applying the
 property values as soon as the animation is attached to the element,
 *and* the `forwards` value of persisting the property values past the
 `animationend` event.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/halfiterationforwards.xhtml){.play}
 
 If the `animation-iteration-count` is a float value, and not an integer,
@@ -61569,7 +61569,7 @@ comma-separate the animations:
 
 Each snowflake will fall while spinning for 96 seconds, spinning twice
 during each 3-second fall.
-[[![](/Def-Images/Images/play-icon-round.png){height="100"
+[[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/snowflake.xhtml){.play}
 At the end of the last animation cycle, the snowflake will stay fixed on
 the `100%` keyframe of the `falling` animation. We declared six of the
@@ -61667,7 +61667,7 @@ snowflake `display` property changes back to anything other than `none`,
 the animation starts from scratch: a 5-second delay will elapse again
 before it starts spinning 20 times. It makes no difference how many
 animation cycles iterated before it disappeared from view the first
-time. [[![](/Def-Images/Images/play-icon-round.png){height="100"
+time. [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/19-animation/snowflake2.xhtml){.play}
 :::
 ::::
@@ -61982,7 +61982,7 @@ some effects of these filter functions.
 
 <figure>
 <div id="ch20.xhtml_filter-basic-effects" class="figure">
-<img src="/Def-Images/Images/css5_2001.png" width="600" height="297"
+<img src="./images/css5_2001.png" width="600" height="297"
 alt="css5 2001" />
 <h6 id="ch20.xhtml_sigil_toc_id_1782"><span class="label">Figure 20-1.
 </span>Basic filter effects</h6>
@@ -62005,7 +62005,7 @@ computing the shadow. To see what this means, consider
 
 <figure>
 <div id="ch20.xhtml_filter-basic-effects-dropshadows" class="figure">
-<img src="/Def-Images/Images/css5_2002.png" width="600" height="255"
+<img src="./images/css5_2002.png" width="600" height="255"
 alt="css5 2002" />
 <h6 id="ch20.xhtml_sigil_toc_id_1783"><span class="label">Figure 20-2.
 </span>Drop shadows and alpha channels</h6>
@@ -62115,7 +62115,7 @@ though fully appreciating them depends on a color rendering.
 
 <figure>
 <div id="ch20.xhtml_filter-color-effects" class="figure">
-<img src="/Def-Images/Images/css5_2003.png" width="600" height="274"
+<img src="./images/css5_2003.png" width="600" height="274"
 alt="css5 2003" />
 <h6 id="ch20.xhtml_sigil_toc_id_1785"><span class="label">Figure 20-3.
 </span>Color filter effects</h6>
@@ -62181,7 +62181,7 @@ they are present.
 
 <figure>
 <div id="ch20.xhtml_filter-bcs-effects" class="figure">
-<img src="/Def-Images/Images/css5_2004.png" width="600" height="270"
+<img src="./images/css5_2004.png" width="600" height="270"
 alt="css5 2004" />
 <h6 id="ch20.xhtml_sigil_toc_id_1787"><span class="label">Figure 20-4.
 </span>Brightness, contrast, and saturation filter effects</h6>
@@ -62229,7 +62229,7 @@ built to create. (The actual CSS used to apply these filters looks like
 
 <figure>
 <div id="ch20.xhtml_filter-svg-effects" class="figure">
-<img src="/Def-Images/Images/css5_2005.png" width="600" height="274"
+<img src="./images/css5_2005.png" width="600" height="274"
 alt="css5 2005" />
 <h6 id="ch20.xhtml_sigil_toc_id_1789"><span class="label">Figure 20-5.
 </span>SVG filter effects</h6>
@@ -62346,7 +62346,7 @@ shows a few examples.
 
 <figure>
 <div id="ch20.xhtml_blending-elements-normal" class="figure">
-<img src="/Def-Images/Images/css5_2006.png" width="600" height="89"
+<img src="./images/css5_2006.png" width="600" height="89"
 alt="css5 2006" />
 <h6 id="ch20.xhtml_sigil_toc_id_1793"><span class="label">Figure 20-6.
 </span>Simple alpha-channel blending</h6>
@@ -62470,7 +62470,7 @@ depicts examples of the blend modes in this section.
 <figure>
 <div id="ch20.xhtml_blending-elements-dark-light-diff-excl"
 class="figure">
-<img src="/Def-Images/Images/css5_2007.png" width="600" height="331"
+<img src="./images/css5_2007.png" width="600" height="331"
 alt="css5 2007" />
 <h6 id="ch20.xhtml_sigil_toc_id_1795"><span class="label">Figure 20-7.
 </span>Darken, lighten, difference, and exclusion blending with
@@ -62533,7 +62533,7 @@ depicts examples of these blend modes.
 <figure>
 <div id="ch20.xhtml_blending-elements-multiply-screen-overlay"
 class="figure">
-<img src="/Def-Images/Images/css5_2008.png" width="600" height="442"
+<img src="./images/css5_2008.png" width="600" height="442"
 alt="css5 2008" />
 <h6 id="ch20.xhtml_sigil_toc_id_1797"><span class="label">Figure 20-8.
 </span>Images with <code>mix-blend-mode</code> property set showing
@@ -62582,7 +62582,7 @@ depicts examples of these blend modes.
 
 <figure class="width-75">
 <div id="ch20.xhtml_blending-elements-hard-soft-light" class="figure">
-<img src="/Def-Images/Images/css5_2009.png" width="513" height="589"
+<img src="./images/css5_2009.png" width="513" height="589"
 alt="css5 2009" />
 <h6 id="ch20.xhtml_sigil_toc_id_1799"><span class="label">Figure 20-9.
 </span>Hard- and soft-light blending</h6>
@@ -62634,7 +62634,7 @@ depicts examples of these blend modes.
 
 <figure class="width-75">
 <div id="ch20.xhtml_blending-elements-color-dodge-burn" class="figure">
-<img src="/Def-Images/Images/css5_2010.png" width="513" height="588"
+<img src="./images/css5_2010.png" width="513" height="588"
 alt="css5 2010" />
 <h6 id="ch20.xhtml_sigil_toc_id_1801"><span class="label">Figure 20-10.
 </span>Blending with <code>mix-blend-mode: color-dodge</code> and
@@ -62695,7 +62695,7 @@ depicts examples of these blend modes.
 
 <figure>
 <div id="ch20.xhtml_blending-elements-hue-sat-lum-color" class="figure">
-<img src="/Def-Images/Images/css5_2011.png" width="600" height="331"
+<img src="./images/css5_2011.png" width="600" height="331"
 alt="css5 2011" />
 <h6 id="ch20.xhtml_sigil_toc_id_1803"><span class="label">Figure 20-11.
 </span>Hue, saturation, luminosity, and color blending</h6>
@@ -62790,7 +62790,7 @@ These are blended together into a single result, shown in
 
 <figure>
 <div id="ch20.xhtml_blending-backgrounds-threebgs" class="figure">
-<img src="/Def-Images/Images/css5_2012.png" width="600" height="166"
+<img src="./images/css5_2012.png" width="600" height="166"
 alt="css5 2012" />
 <h6 id="ch20.xhtml_sigil_toc_id_1806"><span class="label">Figure 20-12.
 </span>Three backgrounds blended together</h6>
@@ -62810,7 +62810,7 @@ sitting atop a variety of backgrounds in
 <figure>
 <div id="ch20.xhtml_blending-backgrounds-color-transparent"
 class="figure">
-<img src="/Def-Images/Images/css5_2013.png" width="600" height="190"
+<img src="./images/css5_2013.png" width="600" height="190"
 alt="css5 2013" />
 <h6 id="ch20.xhtml_sigil_toc_id_1807"><span class="label">Figure 20-13.
 </span>Blending with color versus transparency</h6>
@@ -62864,7 +62864,7 @@ fashion, as illustrated in
 
 <figure>
 <div id="ch20.xhtml_blending-backgrounds-backdrops" class="figure">
-<img src="/Def-Images/Images/css5_2014.png" width="600" height="138"
+<img src="./images/css5_2014.png" width="600" height="138"
 alt="css5 2014" />
 <h6 id="ch20.xhtml_sigil_toc_id_1808"><span class="label">Figure 20-14.
 </span>Blending elements with their backdrops</h6>
@@ -62933,7 +62933,7 @@ p.alone {isolation: isolate;}
 
 <figure class="width-50">
 <div id="ch20.xhtml_blending-isolation" class="figure">
-<img src="/Def-Images/Images/css5_2015.png" width="600" height="289"
+<img src="./images/css5_2015.png" width="600" height="289"
 alt="css5 2015" />
 <h6 id="ch20.xhtml_sigil_toc_id_1811"><span class="label">Figure 20-15.
 </span>Blending in isolation, and not</h6>
@@ -63088,7 +63088,7 @@ figure img {contain: size; border: 1px solid; width: 300px;}
 
 <figure>
 <div id="ch20.xhtml_size_containment" class="figure">
-<img src="/Def-Images/Images/css5_2016.png" width="600" height="55" />
+<img src="./images/css5_2016.png" width="600" height="55" />
 <h6 id="ch20.xhtml_sigil_toc_id_1814"><span class="label">Figure 20-16.
 </span>Examples of size containment</h6>
 </div>
@@ -63270,7 +63270,7 @@ for now, let's just savor the power this affords us.
 
 <figure>
 <div id="ch20.xhtml_using_an_image_to_define_fig" class="figure">
-<img src="/Def-Images/Images/css5_2017.png" width="600" height="143"
+<img src="./images/css5_2017.png" width="600" height="143"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1820"><span class="label">Figure 20-17.
 </span>Using an image to define a float shape</h6>
@@ -63296,7 +63296,7 @@ img.lunar {float: right; shape-outside: url(moon.png);}
 
 <figure>
 <div id="ch20.xhtml_an_image_float_shape_fig" class="figure">
-<img src="/Def-Images/Images/css5_2018.png" width="600" height="143"
+<img src="./images/css5_2018.png" width="600" height="143"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1821"><span class="label">Figure 20-18.
 </span>An image float shape on the right</h6>
@@ -63355,7 +63355,7 @@ is part of the float shape. This is illustrated in
 
 <figure>
 <div id="ch20.xhtml_using_image_opacity_to_define" class="figure">
-<img src="/Def-Images/Images/css5_2019.png" width="600" height="146"
+<img src="./images/css5_2019.png" width="600" height="146"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1824"><span class="label">Figure 20-19.
 </span>Using image opacity to define the float shape at the 50% opacity
@@ -63412,7 +63412,7 @@ margins.
 
 <figure>
 <div id="ch20.xhtml_basic_shape_boxes_fig" class="figure">
-<img src="/Def-Images/Images/css5_2020.png" width="600" height="158"
+<img src="./images/css5_2020.png" width="600" height="158"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1826"><span class="label">Figure 20-20.
 </span>The basic shape boxes</h6>
@@ -63453,7 +63453,7 @@ illustrates the two inset shapes we just defined.
 
 <figure>
 <div id="ch20.xhtml_insets_from_two_basic_shape_boxes" class="figure">
-<img src="/Def-Images/Images/css5_2021.png" width="600" height="165"
+<img src="./images/css5_2021.png" width="600" height="165"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1827"><span class="label">Figure 20-21.
 </span>Insets from two basic shape boxes</h6>
@@ -63510,7 +63510,7 @@ the float shapes on the page.)
 
 <figure>
 <div id="ch20.xhtml_rounding_the_corners_fig" class="figure">
-<img src="/Def-Images/Images/css5_2022.png" width="600" height="281"
+<img src="./images/css5_2022.png" width="600" height="281"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1828"><span class="label">Figure 20-22.
 </span>Rounding the corners of a shape box</h6>
@@ -63564,7 +63564,7 @@ Regardless of which we use, the result will be that shown in
 
 <figure>
 <div id="ch20.xhtml_a_circular_float_shape" class="figure">
-<img src="/Def-Images/Images/css5_2023.png" width="600" height="101"
+<img src="./images/css5_2023.png" width="600" height="101"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1832"><span class="label">Figure 20-23.
 </span>A circular float shape</h6>
@@ -63590,7 +63590,7 @@ img#small {height: 30px; width: 35px;}
 
 <figure>
 <div id="ch20.xhtml_a_rather_small_circular_float_shape" class="figure">
-<img src="/Def-Images/Images/css5_2024.png" width="600" height="106"
+<img src="./images/css5_2024.png" width="600" height="106"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1833"><span class="label">Figure 20-24.
 </span>A rather small circular float shape for an even smaller
@@ -63640,7 +63640,7 @@ img#tall {height: 150px; width: 70px;}
 
 <figure>
 <div id="ch20.xhtml_circular_float_shape_that_results" class="figure">
-<img src="/Def-Images/Images/css5_2025.png" width="600" height="131"
+<img src="./images/css5_2025.png" width="600" height="131"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1834"><span class="label">Figure 20-25.
 </span>The circular float shape that results from a rectangle</h6>
@@ -63656,7 +63656,7 @@ and width of this box are calculated as follows:
 
 <figure>
 <div class="figure">
-<img src="/Def-Images/Images/css5_2026.png" width="413" height="68"
+<img src="./images/css5_2026.png" width="413" height="68"
 alt="css5 2026" />
 <h6 id="ch20.xhtml_sigil_toc_id_1835"></h6>
 </div>
@@ -63677,7 +63677,7 @@ like what's shown in
 
 <figure>
 <div id="ch20.xhtml_a_clipped_float_shape" class="figure">
-<img src="/Def-Images/Images/css5_2027.png" width="600" height="136"
+<img src="./images/css5_2027.png" width="600" height="136"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1836"><span class="label">Figure 20-26.
 </span>A clipped float shape</h6>
@@ -63699,7 +63699,7 @@ shape-outside: circle(farthest-side at 25% 50%);
 
 <figure>
 <div id="ch20.xhtml_various_circular_float_shapes" class="figure">
-<img src="/Def-Images/Images/css5_2028.png" width="600" height="248"
+<img src="./images/css5_2028.png" width="600" height="248"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1837"><span class="label">Figure 20-27.
 </span>Various circular float shapes</h6>
@@ -63733,7 +63733,7 @@ shows some possibilities.
 
 <figure>
 <div id="ch20.xhtml_various_elliptical_float_shapes" class="figure">
-<img src="/Def-Images/Images/css5_2029.png" width="600" height="268"
+<img src="./images/css5_2029.png" width="600" height="268"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1839"><span class="label">Figure 20-28.
 </span>Defining float shapes with ellipses</h6>
@@ -63751,7 +63751,7 @@ the height. This is illustrated in
 <figure>
 <div id="ch20.xhtml_elliptical_float_shapes_and_percentages"
 class="figure">
-<img src="/Def-Images/Images/css5_2030.png" width="600" height="223"
+<img src="./images/css5_2030.png" width="600" height="223"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1840"><span class="label">Figure 20-29.
 </span>Elliptical float shapes and percentages</h6>
@@ -63799,7 +63799,7 @@ The result of this and the previous polygon example are shown in
 
 <figure>
 <div id="ch20.xhtml_a_polygonal_float_shape" class="figure">
-<img src="/Def-Images/Images/css5_2031.png" width="600" height="119"
+<img src="./images/css5_2031.png" width="600" height="119"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1842"><span class="label">Figure 20-30.
 </span>A polygonal float shape</h6>
@@ -63825,7 +63825,7 @@ demonstrates [the result.]{.keep-together}
 
 <figure>
 <div id="ch20.xhtml_how_a_float_shape_is_clipped" class="figure">
-<img src="/Def-Images/Images/css5_2032.png" width="600" height="119"
+<img src="./images/css5_2032.png" width="600" height="119"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1843"><span class="label">Figure 20-31.
 </span>How a float shape is clipped when it exceeds the shape box</h6>
@@ -63845,7 +63845,7 @@ polygon(evenodd, 51% 0%, 83% 100%, 0 38%, 100% 38%, 20% 100%)
 
 <figure>
 <div id="ch20.xhtml_the_two_polygonal_fills" class="figure">
-<img src="/Def-Images/Images/css5_2033.png" width="600" height="127"
+<img src="./images/css5_2033.png" width="600" height="127"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1844"><span class="label">Figure 20-32.
 </span>The two polygonal fills</h6>
@@ -63880,7 +63880,7 @@ shows a screenshot of the Shapes Editor in action.
 
 <figure>
 <div id="ch20.xhtml_the_chroms_shapes_editor" class="figure">
-<img src="/Def-Images/Images/css5_2034.png" width="600" height="286"
+<img src="./images/css5_2034.png" width="600" height="286"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1845"><span class="label">Figure 20-33.
 </span>The Chrome Shapes Editor in action</h6>
@@ -63986,7 +63986,7 @@ img {float: left; margin: 0; shape-outside: url(star.svg);
 
 <figure>
 <div id="ch20.xhtml_adding_margins_to_float_shapes" class="figure">
-<img src="/Def-Images/Images/css5_2035.png" width="600" height="143"
+<img src="./images/css5_2035.png" width="600" height="143"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1849"><span class="label">Figure 20-34.
 </span>Adding margins to float shapes</h6>
@@ -64013,7 +64013,7 @@ exceed the shape box on those sides. This is demonstrated in
 
 <figure>
 <div id="ch20.xhtml_making_sure_the_shape_margins" class="figure">
-<img src="/Def-Images/Images/css5_2036.png" width="600" height="167"
+<img src="./images/css5_2036.png" width="600" height="167"
 alt="image" />
 <h6 id="ch20.xhtml_sigil_toc_id_1850"><span class="label">Figure 20-35.
 </span>Making sure the shape margins don’t get clipped</h6>
@@ -64117,7 +64117,7 @@ p.clipped {clip-path: url(shapes.svg#cloud02);}
 
 <figure>
 <div id="ch20.xhtml_clipping-compare" class="figure">
-<img src="/Def-Images/Images/css5_2037.png" width="600" height="103"
+<img src="./images/css5_2037.png" width="600" height="103"
 alt="css5 2037" />
 <h6 id="ch20.xhtml_sigil_toc_id_1854"><span class="label">Figure 20-36.
 </span>Unclipped and clipped paragraphs</h6>
@@ -64207,7 +64207,7 @@ styles:
 
 <figure>
 <div id="ch20.xhtml_clipping-shapes" class="figure">
-<img src="/Def-Images/Images/css5_2038.png" width="600" height="370"
+<img src="./images/css5_2038.png" width="600" height="370"
 alt="css5 2038" />
 <h6 id="ch20.xhtml_sigil_toc_id_1857"><span class="label">Figure 20-37.
 </span>Various clip shapes</h6>
@@ -64250,7 +64250,7 @@ margin, padding, or content areas, respectively. These are diagrammed in
 
 <figure class="bordernone">
 <div id="ch20.xhtml_clipping-boxes" class="figure">
-<img src="/Def-Images/Images/css5_2039.png" width="600" height="240"
+<img src="./images/css5_2039.png" width="600" height="240"
 alt="css5 2039" />
 <h6 id="ch20.xhtml_sigil_toc_id_1859"><span class="label">Figure 20-38.
 </span>Various clipping boxes</h6>
@@ -64312,7 +64312,7 @@ along with the effect of fitting to other boxes.
 
 <figure>
 <div id="ch20.xhtml_clipping-boxes-ellipse" class="figure">
-<img src="/Def-Images/Images/css5_2040.png" width="600" height="186"
+<img src="./images/css5_2040.png" width="600" height="186"
 alt="css5 2040" />
 <h6 id="ch20.xhtml_sigil_toc_id_1860"><span class="label">Figure 20-39.
 </span>Fitting an elliptical clip shape to various boxes</h6>
@@ -64369,7 +64369,7 @@ get the result shown in
 
 <figure class="width-50">
 <div id="ch20.xhtml_clipping-svg-path" class="figure">
-<img src="/Def-Images/Images/css5_2041.png" width="600" height="423"
+<img src="./images/css5_2041.png" width="600" height="423"
 alt="css5 2041" />
 <h6 id="ch20.xhtml_sigil_toc_id_1862"><span class="label">Figure 20-40.
 </span>An image clipped with an SVG clip path</h6>
@@ -64478,7 +64478,7 @@ second.
 
 <figure>
 <div id="ch20.xhtml_masks-image-simple" class="figure">
-<img src="/Def-Images/Images/css5_2042.png" width="600" height="159"
+<img src="./images/css5_2042.png" width="600" height="159"
 alt="css5 2042" />
 <h6 id="ch20.xhtml_sigil_toc_id_1868"><span class="label">Figure 20-41.
 </span>A simple image mask</h6>
@@ -64517,7 +64517,7 @@ The following styles will have the result shown in
 
 <figure>
 <div id="ch20.xhtml_masks-image-variety" class="figure">
-<img src="/Def-Images/Images/css5_2043.png" width="600" height="561"
+<img src="./images/css5_2043.png" width="600" height="561"
 alt="css5 2043" />
 <h6 id="ch20.xhtml_sigil_toc_id_1869"><span class="label">Figure 20-42.
 </span>A variety of image masks</h6>
@@ -64548,7 +64548,7 @@ shows an example, which is the result of the following:
 
 <figure>
 <div id="ch20.xhtml_masks-image-listitems" class="figure">
-<img src="/Def-Images/Images/css5_2044.png" width="600" height="300"
+<img src="./images/css5_2044.png" width="600" height="300"
 alt="css5 2044" />
 <h6 id="ch20.xhtml_sigil_toc_id_1870"><span class="label">Figure 20-43.
 </span>A PNG with areas of transparency masking an unordered list</h6>
@@ -64662,7 +64662,7 @@ alpha value is greater than 0.
 
 <figure>
 <div id="ch20.xhtml_masks-mode" class="figure">
-<img src="/Def-Images/Images/css5_2045.png" width="600" height="397"
+<img src="./images/css5_2045.png" width="600" height="397"
 alt="css5 2045" />
 <h6 id="ch20.xhtml_sigil_toc_id_1873"><span class="label">Figure 20-44.
 </span>Alpha and luminance mask modes</h6>
@@ -64736,7 +64736,7 @@ p:nth-child(6) {mask-size: 200% 50%;}
 
 <figure>
 <div id="ch20.xhtml_masks-sizing" class="figure">
-<img src="/Def-Images/Images/css5_2046.png" width="600" height="244"
+<img src="./images/css5_2046.png" width="600" height="244"
 alt="css5 2046" />
 <h6 id="ch20.xhtml_sigil_toc_id_1876"><span class="label">Figure 20-45.
 </span>Sizing masks</h6>
@@ -64795,7 +64795,7 @@ p:nth-child(6) {mask-repeat: space no-repeat; mask-size: 21% auto;}
 
 <figure>
 <div id="ch20.xhtml_masks-repeat" class="figure">
-<img src="/Def-Images/Images/css5_2047.png" width="600" height="244"
+<img src="./images/css5_2047.png" width="600" height="244"
 alt="css5 2047" />
 <h6 id="ch20.xhtml_sigil_toc_id_1878"><span class="label">Figure 20-46.
 </span>Repeating masks</h6>
@@ -64853,7 +64853,7 @@ p:nth-child(4) {mask-position: 5em 120%;}
 
 <figure class="bordernone">
 <div id="ch20.xhtml_masks-position" class="figure">
-<img src="/Def-Images/Images/css5_2048.png" width="600" height="155"
+<img src="./images/css5_2048.png" width="600" height="155"
 alt="css5 2048" />
 <h6 id="ch20.xhtml_sigil_toc_id_1881"><span class="label">Figure 20-47.
 </span>Positioning masks</h6>
@@ -64910,7 +64910,7 @@ startref="ix_masks_position" data-type="indexterm"}
 
 <figure class="bordernone">
 <div id="ch20.xhtml_masks-origin" class="figure">
-<img src="/Def-Images/Images/css5_2049.png" width="600" height="169"
+<img src="./images/css5_2049.png" width="600" height="169"
 alt="css5 2049" />
 <h6 id="ch20.xhtml_sigil_toc_id_1883"><span class="label">Figure 20-48.
 </span>Changing the origin box</h6>
@@ -64981,7 +64981,7 @@ p:nth-child(3) {mask-clip: content-box;}
 
 <figure class="bordernone">
 <div id="ch20.xhtml_masks-clip" class="figure">
-<img src="/Def-Images/Images/css5_2050.png" width="600" height="169"
+<img src="./images/css5_2050.png" width="600" height="169"
 alt="css5 2050" />
 <h6 id="ch20.xhtml_sigil_toc_id_1886"><span class="label">Figure 20-49.
 </span>Clipping the mask</h6>
@@ -65028,7 +65028,7 @@ order. See
 
 <figure>
 <div id="ch20.xhtml_masks-composite-diagram" class="figure">
-<img src="/Def-Images/Images/css5_2051.png" width="600" height="307"
+<img src="./images/css5_2051.png" width="600" height="307"
 alt="css5 2051" />
 <h6 id="ch20.xhtml_sigil_toc_id_1889"><span class="label">Figure 20-50.
 </span>Compositing operations</h6>
@@ -65074,7 +65074,7 @@ with `mask-composite: add, subtract`.
 
 <figure>
 <div id="ch20.xhtml_masks-composite-multiple" class="figure">
-<img src="/Def-Images/Images/css5_2052.png" width="600" height="350"
+<img src="./images/css5_2052.png" width="600" height="350"
 alt="css5 2052" />
 <h6 id="ch20.xhtml_sigil_toc_id_1890"><span class="label">Figure 20-51.
 </span>Compositing masks</h6>
@@ -65157,7 +65157,7 @@ it is tall (the goldenrod shape on the right).
 
 <figure>
 <div id="ch20.xhtml_masks-multiple" class="figure">
-<img src="/Def-Images/Images/css5_2053.png" width="600" height="179"
+<img src="./images/css5_2053.png" width="600" height="179"
 alt="css5 2053" />
 <h6 id="ch20.xhtml_sigil_toc_id_1893"><span class="label">Figure 20-52.
 </span>Two masks</h6>
@@ -65332,7 +65332,7 @@ Consider the following, diagrammed in
 
 <figure>
 <div id="ch20.xhtml_mask-border-patterns" class="figure">
-<img src="/Def-Images/Images/css5_2054.png" width="600" height="153"
+<img src="./images/css5_2054.png" width="600" height="153"
 alt="css5 2054" />
 <h6 id="ch20.xhtml_sigil_toc_id_1901"><span class="label">Figure 20-53.
 </span>Some mask border-slicing patterns</h6>
@@ -65361,7 +65361,7 @@ p.two {mask-border-slice: 33% fill;}
 
 <figure>
 <div id="ch20.xhtml_mask-border-fill" class="figure">
-<img src="/Def-Images/Images/css5_2055.png" width="600" height="264"
+<img src="./images/css5_2055.png" width="600" height="264"
 alt="css5 2055" />
 <h6 id="ch20.xhtml_sigil_toc_id_1902"><span class="label">Figure 20-54.
 </span>Applying the mask fill</h6>
@@ -65488,7 +65488,7 @@ illustrates the options (center areas have been removed for clarity).
 
 <figure>
 <div id="ch20.xhtml_mask-border-repeating" class="figure">
-<img src="/Def-Images/Images/css5_2056.png" width="600" height="225"
+<img src="./images/css5_2056.png" width="600" height="225"
 alt="css5 2056" />
 <h6 id="ch20.xhtml_sigil_toc_id_1908"><span class="label">Figure 20-55.
 </span>Various kinds of mask image repeating</h6>
@@ -65625,7 +65625,7 @@ img:nth-of-type(4) {object-fit: contain;}
 
 <figure>
 <div id="ch20.xhtml_object-fit" class="figure">
-<img src="/Def-Images/Images/css5_2057.png" width="600" height="96"
+<img src="./images/css5_2057.png" width="600" height="96"
 alt="css5 2057" />
 <h6 id="ch20.xhtml_sigil_toc_id_1913"><span class="label">Figure 20-56.
 </span>Four kinds of object fitting</h6>
@@ -65674,7 +65674,7 @@ given; the `width` in each case is `100px`.
 
 <figure>
 <div id="ch20.xhtml_object-fit-scale-down" class="figure">
-<img src="/Def-Images/Images/css5_2058.png" width="600" height="107"
+<img src="./images/css5_2058.png" width="600" height="107"
 alt="css5 2058" />
 <h6 id="ch20.xhtml_sigil_toc_id_1914"><span class="label">Figure 20-57.
 </span>Various <code>scale-down</code> scenarios</h6>
@@ -65729,7 +65729,7 @@ img:nth-of-type(4) {object-position: left 142%;}
 
 <figure>
 <div id="ch20.xhtml_object-position" class="figure">
-<img src="/Def-Images/Images/css5_2059.png" width="600" height="82"
+<img src="./images/css5_2059.png" width="600" height="82"
 alt="css5 2059" />
 <h6 id="ch20.xhtml_sigil_toc_id_1916"><span class="label">Figure 20-58.
 </span>A variety of <code>object-position</code> values</h6>
@@ -65763,7 +65763,7 @@ img:nth-of-type(4) {object-position: left 142%;}
 
 <figure>
 <div id="ch20.xhtml_object-position-cover" class="figure">
-<img src="/Def-Images/Images/css5_2060.png" width="600" height="82"
+<img src="./images/css5_2060.png" width="600" height="82"
 alt="css5 2060" />
 <h6 id="ch20.xhtml_sigil_toc_id_1917"><span class="label">Figure 20-59.
 </span>Positioning a covered object</h6>
@@ -66146,7 +66146,7 @@ was operating under a `screen` medium.
 
 <figure>
 <div id="ch21.xhtml_mediaqueries-logical-operators" class="figure">
-<img src="/Def-Images/Images/css5_2101.png" width="600" height="310"
+<img src="./images/css5_2101.png" width="600" height="310"
 alt="css5 2101" />
 <h6 id="ch21.xhtml_sigil_toc_id_1924"><span class="label">Figure 21-1.
 </span>Logical operators in media queries</h6>
@@ -67264,7 +67264,7 @@ page box model.
 
 <figure class="bordernone">
 <div id="ch21.xhtml_pagesize-page-box" class="figure">
-<img src="/Def-Images/Images/css5_2102.png" width="600" height="649"
+<img src="./images/css5_2102.png" width="600" height="649"
 alt="css5 2102" />
 <h6 id="ch21.xhtml_sigil_toc_id_1936"><span class="label">Figure 21-2.
 </span>The page box</h6>
@@ -67324,7 +67324,7 @@ following, with the result shown in
 
 <figure class="bordernone">
 <div id="ch21.xhtml_pagesize-landscape" class="figure">
-<img src="/Def-Images/Images/css5_2103.png" width="600" height="399"
+<img src="./images/css5_2103.png" width="600" height="399"
 alt="css5 2103" />
 <h6 id="ch21.xhtml_sigil_toc_id_1939"><span class="label">Figure 21-3.
 </span>Landscape page sizing</h6>
@@ -67554,7 +67554,7 @@ h2 {page-break-before: always;}
 
 <figure class="bordernone">
 <div id="ch21.xhtml_pagebreaking-breaks" class="figure">
-<img src="/Def-Images/Images/css5_2104.png" width="600" height="258"
+<img src="./images/css5_2104.png" width="600" height="258"
 alt="css5 2104" />
 <h6 id="ch21.xhtml_sigil_toc_id_1946"><span class="label">Figure 21-4.
 </span>Inserting page breaks</h6>
@@ -67735,7 +67735,7 @@ break be inserted before the paragraph in question.
 
 <figure>
 <div id="ch21.xhtml_widows-counting" class="figure">
-<img src="/Def-Images/Images/css5_2105.png" width="600" height="437"
+<img src="./images/css5_2105.png" width="600" height="437"
 alt="css5 2105" />
 <h6 id="ch21.xhtml_sigil_toc_id_1950"><span class="label">Figure 21-5.
 </span>Counting the widows and orphans</h6>
@@ -67841,7 +67841,7 @@ block-level box. This, too, is governed by a pair of rules:
 
 <figure class="bordernone">
 <div id="ch21.xhtml_pagebreaking-potential" class="figure">
-<img src="/Def-Images/Images/css5_2106.png" width="600" height="777"
+<img src="./images/css5_2106.png" width="600" height="777"
 alt="css5 2106" />
 <h6 id="ch21.xhtml_sigil_toc_id_1953"><span class="label">Figure 21-6.
 </span>Potential page-break placement between block boxes</h6>
@@ -68637,7 +68637,7 @@ are sized based on the container's width. This is illustrated in
 
 <figure>
 <div id="ch21.xhtml_container-query-units" class="figure">
-<img src="/Def-Images/Images/css5_2107.png" width="600" height="181"
+<img src="./images/css5_2107.png" width="600" height="181"
 alt="css5 2107" />
 <h6 id="ch21.xhtml_sigil_toc_id_1967"><span class="label">Figure 21-7.
 </span>Using container query units</h6>
@@ -77045,5 +77045,3 @@ Mono.]{.keep-together}
 
 [^2]:
 <!-- last updated 11/10/2024 Sun 5:25pm -->
-# CSS-Definitive
-The definitive guide to CSS (Cascade Style Sheet).
