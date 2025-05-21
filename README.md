@@ -1,9 +1,10 @@
 ---
 title: "CSS - The Definitive Guide"
 author: "bbauska"
+date created: "11/10/2024 5+pm"
 date prior editted: "11/10/2024 5+pm"
 date last editted: "11/10/2024 5+pm"
-date created: "11/10/2024 5+pm"
+date last editted: "5/20/2025 8+pm"
 output: 
   markdown:
     with some style
@@ -58,112 +59,20 @@ manageable pieces.</p>
 </ul>
 
 
-![](./images/cover.png)
+![CSS The Definitive Guide Web Layout and Presentation](./images/cover.png)
 
-[]{#cover.xhtml}
-
-::: {#cover.xhtml_sbo-rt-content}
-<figure data-type="cover">
-<img src="./images/cover.png" width="1200" height="1574" />
-</figure>
-:::
-
-[]{#titlepage01.xhtml}
-
-::: {#titlepage01.xhtml_sbo-rt-content}
-:::
-
-[]{#copyright-page01.xhtml}
-
-:::::::: {#copyright-page01.xhtml_sbo-rt-content}
-::::::: {.section .copyright-page pdf-bookmark="CSS: The Definitive Guide" data-type="copyright-page"}
-:::::: {#copyright-page01.xhtml_idm45797114250272 .preface}
 # CSS: The Definitive Guide
 
-by [Eric A. ]{.firstname}[Meyer]{.surname} and [Estelle
-]{.firstname}[Weyl]{.surname}
+by Eric A. Meyer and Estelle Weyl
 
 Copyright © 2023 Eric A. Meyer and Estelle Weyl. All rights reserved.
 
 Printed in the United States of America.
 
-Published by [O'Reilly Media, Inc.]{.publishername}, 1005 Gravenstein
-Highway North, Sebastopol, CA 95472.
+Published by O'Reilly Media, Inc., 
+1005 Gravenstein Highway North, 
+Sebastopol, CA 95472.
 
-O'Reilly books may be purchased for educational, business, or sales
-promotional use. Online editions are also available for most titles
-(<http://oreilly.com>). For more information, contact our
-corporate/institutional sales department: 800-998-9938 or
-[*corporate@oreilly.com*]{data-type="email"}.
-
--   [Acquisitions Editor:]{.staffrole} Amanda Quinn
--   [Development Editor:]{.staffrole} Rita Fernando
--   [Production Editor:]{.staffrole} Elizabeth Faerm
--   [Copyeditor:]{.staffrole} Sharon Wilkey
--   [Proofreader:]{.staffrole} JM Olejarz
--   [Indexer:]{.staffrole} Potomac Indexing, LLC
--   [Interior Designer:]{.staffrole} David Futato
--   [Cover Designer:]{.staffrole} Karen Montgomery
--   [Illustrator:]{.staffrole} Kate Dullea
-
-```{=html}
-<!-- -->
-```
--   [May 2000:]{.printedition} First Edition
--   [March 2004:]{.printedition} Second Edition
--   [November 2006:]{.printedition} Third Edition
--   [November 2017:]{.printedition} Fourth Edition
--   [June 2023:]{.printedition} Fifth Edition
-
-<div>
-
-# Revision History for the Fifth Edition {#copyright-page01.xhtml_sigil_toc_id_1 .revisions}
-
--   [2023-05-30:]{.revdate} First Release
-
-</div>
-
-See <http://oreilly.com/catalog/errata.csp?isbn=9781098117610> for
-release details.
-
-::: legal
-The O'Reilly logo is a registered trademark of O'Reilly Media, Inc.
-*CSS: The Definitive Guide*, the cover image, and related trade dress
-are trademarks of O'Reilly Media, Inc.
-
-The views expressed in this work are those of the authors, and do not
-represent the publisher's views. While the publisher and the authors
-have used good faith efforts to ensure that the information and
-instructions contained in this work are accurate, the publisher and the
-authors disclaim all responsibility for errors or omissions, including
-without limitation responsibility for damages resulting from the use of
-or reliance on this work. Use of the information and instructions
-contained in this work is at your own risk. If any code samples or other
-technology this work contains or describes is subject to open source
-licenses or the intellectual property rights of others, it is your
-responsibility to ensure that your use thereof complies with such
-licenses and/or rights.
-`<!--PROD: Uncomment the following sentence if appropriate and add it to the 
-        above para:-->`{=html}
-`<!--This book is not intended as [legal/medical/financial; use the appropriate
-        reference] advice. Please consult a qualified professional if you 
-        require [legal/medical/financial] advice.-->`{=html}
-:::
-
-::: copyright-bottom
-978-1-098-11761-0
-
-\[LSI\]
-:::
-::::::
-:::::::
-::::::::
-
-[]{#preface01.xhtml}
-
-::::::::::::::::::::::::: {#preface01.xhtml_sbo-rt-content}
-:::::::::::::::::::::::: {.section .preface pdf-bookmark="Preface" data-type="preface"}
-::::::::::::::::::::::: {#preface01.xhtml_idm45797091036768 .preface}
 ### Preface
 
 If you are a web designer or document author interested in sophisticated
@@ -180,403 +89,31 @@ known to be coming soon after publication. CSS features that were still
 being developed or were known to have support dropping soon are not
 covered here.
 
-::::::::: {.section pdf-bookmark="Conventions Used in This Book" data-type="sect1"}
-:::::::: {#preface01.xhtml_idm45797114290400 .sect1}
-### Conventions Used in This Book {#preface01.xhtml_sigil_toc_id_2}
+### Conventions Used in This Book
 
 The following typographical conventions are used in this book (but make
 sure to read through ["Value Syntax
 Conventions"](#preface01.xhtml_value_syntax_conventions){data-type="xref"}
 to see how some of these are modified):
 
-*Italic*
-
-:   Indicates new terms, URLs, email addresses, filenames, and file
-    extensions.
-
-`Constant width`
-
-:   Used for program listings, as well as within paragraphs to refer to
-    program elements such as variable or function names, databases, data
-    types, environment variables, statements, and keywords.
-
-*`Constant width italic`*
-
-:   Shows text that should be replaced with user-supplied values or by
-    values determined by context.
-
-::: {data-type="tip"}
 #### Tip {#preface01.xhtml_sigil_toc_id_3}
 
 This element signifies a tip or suggestion.
-:::
 
-::: {.note data-type="note"}
 #### Note {#preface01.xhtml_sigil_toc_id_4}
 
 This element signifies a general note.
-:::
-
-::: {.warning data-type="warning"}
 #### Warning {#preface01.xhtml_sigil_toc_id_5}
 
 This element indicates a warning or caution.
-:::
 
-:::: {.section pdf-bookmark="Value Syntax Conventions" data-type="sect2"}
-::: {#preface01.xhtml_value_syntax_conventions .sect2}
 #### Value Syntax Conventions {#preface01.xhtml_sigil_toc_id_6}
 
-Throughout this []{#preface01.xhtml_ix_values_syntax_conv
-primary="values" secondary="syntax conventions"
-data-type="indexterm"}[]{#preface01.xhtml_ix_syntax_conv_pref
-primary="syntax conventions used in this book"
-data-type="indexterm"}book, boxes explain a given CSS property's
-details, including which values are permitted. This content has been
-reproduced practically verbatim from the CSS specifications, but some
-explanation of the syntax is in order.
-
-The allowed values for each property are listed with a syntax like the
-following:
-
-**Value:** \<*`family-name`*\>#
-
-**Value:** \<*`url`*\> ‖ \<*`color`*\>
-
-**Value:** \<*`url`*\>? \<*`color`*\> \[ / \<*`color`*\> \]?
-
-**Value:** \[ \<*`length`*\> \| `thick` \| `thin` \]{1,4}
-
-**Value:** \[ \<*`background`*\>, \]\* \<*`background-color`*\>
-
-Any []{#preface01.xhtml_idm45797088674192
-primary="/ (forward slash), in value syntax"
-data-type="indexterm"}[]{#preface01.xhtml_idm45797092223744
-primary="forward slash (/), in value syntax"
-data-type="indexterm"}[]{#preface01.xhtml_idm45797092165408
-primary="slashes" secondary="forward slash"
-data-type="indexterm"}[]{#preface01.xhtml_idm45797092164464
-primary="<…​> (angle brackets), in value syntax"
-data-type="indexterm"}[]{#preface01.xhtml_idm45797088223744
-primary="angle brackets (<…​>), in value syntax"
-data-type="indexterm"}italicized words between `<` and `>` give a type
-of value, or a reference to another property's values. For example, the
-property `font` accepts values that originally belong to the property
-`font-family`. This is denoted by using the text \<*`font-family`*\>.
-Similarly, if a value type like a color is permitted, it will be
-represented using \<*`color`*\>.
-
-Any words presented in `constant width` are keywords that must appear
-literally, without quotes. The forward slash (`/`) and the comma (,)
-must also be used literally.
+The allowed values for each property are listed with a syntax like the following:
 
 Components of a value definition can be combined in numerous ways:
 
--   Two or more keywords strung together with only space separating them
-    means that all of them must occur in the given order. For example,
-    `help me` would mean that the property must use those keywords in
-    that order.
-
--   []{#preface01.xhtml_idm45797108502928
-    primary="| (vertical bar), in value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797108502176
-    primary="vertical bar (|), in value syntax" data-type="indexterm"}If
-    a vertical bar separates alternatives (*`X`* \| *`Y`*), any one of
-    them must occur, but only one. Given \[ *`X`* \| *`Y`* \| *`Z`* \]
-    any one of *`X`*, *`Y`*, or *`Z`* is permitted.
-
--   A []{#preface01.xhtml_idm45797136981904
-    primary="|| (vertical bar, double), in value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797114305680
-    primary="vertical bar, double (||), in value syntax"
-    data-type="indexterm"}vertical double bar (*`X`* ‖ *`Y`*) means that
-    *`X`*, *`Y`*, or both must occur, but they may appear in any order.
-    Thus: *`X`*, *`Y`*, *`X`* *`Y`*, and *`Y`* *`X`* are all valid
-    interpretations.
-
--   A []{#preface01.xhtml_idm45797088270448
-    primary="&& (ampersand, double), in value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797138730464
-    primary="ampersand, double (&&), in value syntax"
-    data-type="indexterm"}double ampersand (*`X`* && *`Y`*) means both
-    *`X`* and *`Y`* must occur, though they may appear in any order.
-    Thus: *`X`* *`Y`* or *`Y`* *`X`* are both valid interpretations.
-
--   Brackets (\[...​\]) are for []{#preface01.xhtml_idm45797088749408
-    primary="square brackets ([…​]), in value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797114403936
-    primary="[…​] (square brackets), in value syntax"
-    secondary-sortas="value syntax" data-type="indexterm"}grouping
-    things together. Thus \[`please ‖ help ‖ me`\] `do this` means that
-    the words `please`, `help`, and `me` can appear in any order, though
-    each appear only once. The words `do this` must always appear, in
-    that order. Here are some examples: `please help me do this`,
-    `help me please do this`, `me please help do this`.
-
-Every component or bracketed group may (or may not) be followed by one
-of these [modifiers:]{.keep-together}
-
--   An []{#preface01.xhtml_idm45797090550528 primary="* (asterisk)"
-    secondary="in value syntax" secondary-sortas="value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797090554672
-    primary="asterisk (*)" secondary="in value syntax"
-    secondary-sortas="value syntax" data-type="indexterm"}asterisk (\*)
-    indicates that the preceding value or bracketed group is repeated
-    zero or more times. Thus, `bucket`\* means that the word `bucket`
-    can be used any number of times, including zero. There is no upper
-    limit defined on the number of times it can be used.
-
--   A []{#preface01.xhtml_idm45797114264608 primary="+ (plus sign)"
-    secondary="in value syntax" secondary-sortas="value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797114263328
-    primary="plus sign (+)" secondary="in value syntax"
-    secondary-sortas="value syntax" data-type="indexterm"}plus (+)
-    indicates that the preceding value or bracketed group is repeated
-    one or more times. Thus, `mop`+ means that the word `mop` must be
-    used at least once, and potentially many more times.
-
--   A []{#preface01.xhtml_idm45797090467984 primary="# (octothorpe)"
-    secondary="in value syntax" secondary-sortas="value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797090397184
-    primary="hash mark (#)" secondary="in value syntax"
-    secondary-sortas="value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797090395968
-    primary="number sign (#)" secondary="in value syntax"
-    secondary-sortas="value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797088857360
-    primary="octothorpe (#)" secondary="in value syntax"
-    secondary-sortas="value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797090978656
-    primary="pound sign (#)" secondary="in value syntax"
-    secondary-sortas="value syntax" data-type="indexterm"}hash sign (#),
-    formally called an octothorpe, indicates that the preceding value or
-    bracketed group is repeated one or more times, separated by commas
-    as needed. Thus, `floor`\# can be `floor` or `floor, floor, floor`,
-    and so on. This is most often used in conjunction with bracketed
-    groups or value types.
-
--   A []{#preface01.xhtml_idm45797136976400
-    primary="question mark (?), in value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797114280960
-    primary="? (question mark), in value syntax"
-    data-type="indexterm"}question mark (?) indicates that the preceding
-    value or bracketed group is optional. For example, \[`pine tree`\]?
-    means that the words `pine tree` need not be used (although they
-    must appear in that order if they are used).
-
--   An []{#preface01.xhtml_idm45797090475536
-    primary="! (exclamation point)" secondary="in value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797090474528
-    primary="exclamation point (!)" secondary="in value syntax"
-    secondary-sortas="value syntax" data-type="indexterm"}exclamation
-    point (!) indicates that the preceding value or bracketed group is
-    required, and thus must result in at least one value, even if the
-    syntax would seem to indicate otherwise. For example, \[ `what`?
-    `is`? `happening`? \]! must be at least one of the three terms
-    marked optional.
-
--   A pair of numbers in []{#preface01.xhtml_idm45797088710192
-    primary="{…​} (curly braces)" secondary="in value syntax"
-    secondary-sortas="value syntax"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797088895632
-    primary="curly braces ({…​})" secondary="in value syntax"
-    secondary-sortas="value syntax" data-type="indexterm"}curly braces
-    ({*M*,*N*}) indicates that the preceding value or bracketed group is
-    repeated at least *M* and at most *N* times. For example, `ha`{1,3}
-    means that there can be one, two, or three instances of the word
-    `ha`.
-
-The following are some examples:
-
-[`give` ‖ `me` ‖ `liberty`]{.dt_plain}
-
-:   At least one of the three words must be used, and they can be used
-    in any order. For example, `give liberty`, `give me`,
-    `liberty me give`, and `give me liberty` are all valid
-    interpretations.
-
-[\[ `I` \| `am` \]? `the` ‖ `walrus`]{.dt_plain}
-
-:   Either the word `I` or `am` may be used, but not both, and use of
-    either is optional. In addition, either `the` or `walrus`, or both,
-    must follow in any order. Thus you could construct `I the walrus`,
-    `am walrus the`, `am the`, `I walrus`, `walrus the`, and so forth.
-
-[`koo`+ `ka-choo`]{.dt_plain}
-
-:   One or more instances of `koo` must be followed by `ka-choo`.
-    Therefore `koo koo ka-choo`, `koo koo koo ka-choo`, and
-    `koo ka-choo` are all legal. The number of `koo`s is potentially
-    infinite, although there are bound to be implementation-specific
-    limits.
-
-[`I really`{1,4}? \[ `love` \| `hate` \] \[ `Microsoft` \| `Firefox` \| `Opera` \| `Safari` \| `Chrome` \]]{.dt_plain}
-
-:   The all-purpose web designer's opinion expresser. This can be
-    interpreted as `I love Firefox`, `I really love Microsoft`, and
-    similar expressions. Anywhere from zero to four `really`s may be
-    used, though they may *not* be separated by commas. You also get to
-    pick between `love` and `hate`, which really seems like some sort of
-    metaphor.
-
-[`It’s a` \[ `mad` \]# `world`]{.dt_plain}
-
-:   This gives the opportunity to put in as many comma-separated `mad`s
-    as possible, with a minimum of one `mad`. If there is only one
-    `mad`, no comma is added. Thus: `It’s a mad world` and
-    `It’s a mad, mad, mad, mad, mad world` are both valid results.
-
-[\[ \[ `Alpha` ‖ `Baker` ‖ `Cray` \], \]{2,3} `and Delphi`]{.dt_plain}
-
-:   Two to three of `Alpha`, `Baker`, and `Delta` must be followed by
-    `and Delphi`. One possible result would be
-    `Cray, Alpha, and Delphi`. In this case, the comma is placed because
-    of its position within the nested bracket groups. (Some older
-    versions of CSS enforced comma separation this way, instead of via
-    the `#` modifier.)[]{#preface01.xhtml_idm45797092220800 primary=""
-    startref="ix_syntax_conv_pref"
-    data-type="indexterm"}[]{#preface01.xhtml_idm45797088222144
-    primary="" startref="ix_values_syntax_conv" data-type="indexterm"}
-:::
-::::
-::::::::
-:::::::::
-
-:::: {.section pdf-bookmark="Using Code Examples" data-type="sect1"}
-::: {#preface01.xhtml_idm45797088577248 .sect1}
-#### Using Code Examples {#preface01.xhtml_sigil_toc_id_7}
-
-`<!--PROD: Please reach out to author to find out if they will be uploading code examples to oreilly.com or their own site (e.g., GitHub). If there is no code download, delete this whole section. If there is, when you email digidist with the link, let them know what you filled in for title_title (should be as close to book title as possible, i.e., learning_python_2e). This info will determine where digidist loads the files.-->`{=html}
-
-Whenever[]{#preface01.xhtml_idm45797088811184 primary="resources"
-data-type="indexterm"} you come across an icon that looks like
-[![](./images/play-icon-round.png){height="100"
-width="100"}]{.play}, it means there is an associated code example. Live
-examples are available at
-[*https://meyerweb.github.io/csstdg5figs*](https://meyerweb.github.io/csstdg5figs){.bare}.
-If you are reading this book on a device with an internet connection,
-you can click the
-[![](./images/play-icon-round.png){height="100"
-width="100"}]{.play} icon to go directly to a live version of the code
-example referenced.
-
-Supplemental material---in the form of the HTML, CSS, and image files
-that were used to produce nearly all of the figures in this book---is
-available for download at
-[*https://github.com/meyerweb/csstdg5figs*](https://github.com/meyerweb/csstdg5figs){.bare}.
-Please be sure to read the repository's *README.md* file for any notes
-regarding the contents of the repository.
-
-If you have a technical question or a problem using the code examples,
-please send an email to
-[*bookquestions@oreilly.com*](mailto:bookquestions@oreilly.com){.email}.
-
-This book is here to help you get your job done. In general, if example
-code is offered with this book, you may use it in your programs and
-documentation. You do not need to contact us for permission unless
-you're reproducing a significant portion of the code. For example,
-writing a program that uses several chunks of code from this book does
-not require permission. Selling or distributing examples from O'Reilly
-books does require permission. Answering a question by citing this book
-and quoting example code does not require permission. Incorporating a
-significant amount of example code from this book into your product's
-documentation does require permission.
-
-We appreciate, but generally do not require, attribution. An attribution
-usually includes the title, author, publisher, and ISBN. For example:
-"*CSS: The Definitive Guide* by Eric A. Meyer and Estelle Weyl
-(O'Reilly). Copyright 2023 Eric A. Meyer and Estelle Weyl,
-978-1-098-11761-0."
-
-If you feel your use of code examples falls outside fair use or the
-permission given above, feel free to contact us at
-[*permissions@oreilly.com*](mailto:permissions@oreilly.com){.email}.
-:::
-::::
-
-::::: {.section pdf-bookmark="O’Reilly Online Learning" data-type="sect1"}
-:::: {#preface01.xhtml_idm45797088581648 .sect1}
-#### O'Reilly Online Learning {#preface01.xhtml_sigil_toc_id_8}
-
-::: {.ormenabled .note data-type="note"}
-##### Note {#preface01.xhtml_sigil_toc_id_9}
-
-For more than 40 years, [*O'Reilly
-Media*](https://oreilly.com){.orm:hideurl} has provided technology and
-business training, knowledge, and insight to help companies succeed.
-:::
-
-Our unique network of experts and innovators share their knowledge and
-expertise through books, articles, and our online learning platform.
-O'Reilly's online learning platform gives you on-demand access to live
-training courses, in-depth learning paths, interactive coding
-environments, and a vast collection of text and video from O'Reilly and
-200+ other publishers. For more information, visit
-[*https://oreilly.com*](https://oreilly.com){.orm:hideurl}.
-::::
-:::::
-
-:::: {.section pdf-bookmark="How to Contact Us" data-type="sect1"}
-::: {#preface01.xhtml_idm45797088826928 .sect1}
 #### How to Contact Us {#preface01.xhtml_sigil_toc_id_10}
-
-Please address comments and questions concerning this book to the
-publisher:
-
--   O'Reilly Media, Inc.
--   1005 Gravenstein Highway North
--   Sebastopol, CA 95472
--   800-998-9938 (in the United States or Canada)
--   707-829-0515 (international or local)
--   707-829-0104 (fax)
-
-We have a web page for this book, where we list errata, examples, and
-any additional information. You can access this page at
-[*https://oreil.ly/css-the-definitive-guide-5e*](https://oreil.ly/css-the-definitive-guide-5e){.bare}.
-
-`<!--Don't forget to update the link above.-->`{=html}
-
-Email
-[*bookquestions@oreilly.com*](mailto:bookquestions@oreilly.com){.email}
-to comment or ask technical questions about this book.
-
-For news and information about our books and courses, visit
-[*https://oreilly.com*](https://oreilly.com){.bare}.
-
-Find us on LinkedIn:
-[*https://linkedin.com/company/oreilly-media*](https://linkedin.com/company/oreilly-media){.bare}.
-
-Follow us on Twitter:
-[*https://twitter.com/oreillymedia*](https://twitter.com/oreillymedia){.bare}.
-
-Watch us on YouTube:
-[*https://youtube.com/oreillymedia*](https://youtube.com/oreillymedia){.bare}.
-:::
-::::
-
-:::::::: {.section pdf-bookmark="Acknowledgments" data-type="sect1"}
-::::::: {#preface01.xhtml_idm45797088826304 .sect1}
-#### Acknowledgments {#preface01.xhtml_sigil_toc_id_11}
-
-:::: {.section pdf-bookmark="Eric Meyer" data-type="sect2"}
-::: {#preface01.xhtml_idm45797114283232 .sect2}
-#### Eric Meyer {#preface01.xhtml_sigil_toc_id_12}
-
-First, I want to thank all the technical reviewers of this edition, who
-lent their time and expertise to the arduous task of finding out all the
-places I'd been wrong, and for less recompense than they deserved.
-Alphabetically, by family name: Ire Aderinokun, Rachel Andrew, Adam
-Argyle, Amelia Bellamy-Royds, Chen Hui Jing, Stephanie Eckles, Eva
-[Ferreira,]{.keep-together} Mandy Michael, Schalk Neethling, Jason
-Pamental, Janelle Pizarro, Eric Portis, Miriam Suzanne, Lea Verou, and
-Dan Wilson. Any errors are my fault, not theirs.
-
-Thank you as well to all the technical reviewers of past editions, who
-are too many to name here, and all the people who have helped me
-understand various bits and bobs of CSS over the years, who are also far
-too many to name here. If you ever explained some CSS to me, please
-write your name in the following blank:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, you have my gratitude.
 
 Thank you to all the members of the CSS Working Group, past and present,
 who have shepherded an amazing language to astonishing heights...even as
@@ -605,11 +142,7 @@ you for everything you have taught me.
 Cleveland Heights, OH
 
 December 4, 2022
-:::
-::::
 
-:::: {.section .less_space .pagebreak-before pdf-bookmark="Estelle Weyl" data-type="sect2"}
-::: {#preface01.xhtml_idm45797112446896 .sect2}
 #### Estelle Weyl {#preface01.xhtml_sigil_toc_id_13}
 
 I would like to acknowledge everyone who has worked to make CSS what it
@@ -667,18 +200,7 @@ conference 10 years ago.
 San Francisco, CA
 
 February 14, 2023
-:::
-::::
-:::::::
-::::::::
-:::::::::::::::::::::::
-::::::::::::::::::::::::
-:::::::::::::::::::::::::
 
-[]{#ch01.xhtml}
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch01.xhtml_sbo-rt-content}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch01.xhtml_css_fundamentals .chapter}
 ### [Chapter 1. ]{.label}CSS Fundamentals
 
 *Cascading Style Sheets* (*CSS*), a []{#ch01.xhtml_ix_css_ch1
@@ -696,106 +218,6 @@ in JS itself. It's everywhere!
 ::: {#ch01.xhtml_a_brief_history_of_open_parenthesis_web .sect1}
 ### A Brief History of (Web) Style {#ch01.xhtml_sigil_toc_id_14}
 
-[]{#ch01.xhtml_idm45797091042080 primary="generated content"
-secondary="counters" see="counters"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797091040176
-primary="positioning" secondary="transforms" see="transforms"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797091038960 primary="fonts"
-secondary="text properties" see="text properties"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088590448
-primary="elements" secondary="nonreplaced" see="nonreplaced elements"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088589232
-primary="word-wrap property" see="overflow-wrap property"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088588288
-primary="visual formatting" secondary="padding" see="padding"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088587072
-primary="element boxes" secondary="positioning" see="positioning"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797089156896
-primary="phantom classes" see="pseudo-class selectors"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797089155952
-primary="selectors" secondary="pseudo-class"
-see="pseudo-class selectors"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797089154736
-primary="circular gradients" see="radial gradients"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088774176
-primary="elliptical gradients" see="radial gradients"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088773344
-primary="elements" secondary="replaced" see="replaced elements"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088772128
-primary="blank space" see="spacing"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088771184
-primary="brackets" see="square brackets"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088306944
-primary="display roles" secondary="table display" see="table layout"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088305760
-primary="state, pseudo-classes based on" see="UI-state pseudo-classes"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088304752
-primary="measurement units" see="units of measure"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088303808
-primary="visual formatting" secondary="vertical formatting"
-see="vertical formatting"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090404576
-primary="display, device" see="viewport"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090403632
-primary="hyperlinks" see="<link> tag; links"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090402688
-primary="visual formatting" secondary="margins" see="margins"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090401472
-primary="blending" secondary="mix-blend-mode"
-see="mix-blend-mode property"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088673344 primary="markup"
-see="HTML" data-type="indexterm"}[]{#ch01.xhtml_idm45797088672400
-primary="dashes" see="hyphens"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088671456 primary="borders"
-secondary="images as" see="image borders"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088670240
-primary="horizontal writing direction" see="inline direction"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797091046784
-primary="positioning" secondary="absolute" see="absolute positioning"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797091045568 primary="images"
-secondary="background" see="background images"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797091044352
-primary="visual formatting" secondary="boxes" see="boxes"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797091043136
-primary="precedence rules" see="cascade"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088833488 primary="values"
-secondary="color" see="color values"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088832272 primary="boxes"
-secondary="container queries" see="container queries"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088831056
-primary="Cascading Style Sheets" see="CSS"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088830112
-primary="style sheets" see="CSS"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090422416 primary="braces"
-see="curly braces"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090421472
-primary="CSS variables" see="custom properties"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090420528
-primary="variables" see="custom properties"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090419584 primary="DOM"
-see="Document Object Model"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797090418640
-primary="display roles" secondary="flex and inline-flex display"
-see="flexible box layout"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088666672
-primary="flex display" see="flexible box layout"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088665728 primary="layout"
-see="flexible box layout; grid layout"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088664768
-primary="navigation bars" see="flexible box layout"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088663824 primary="images"
-secondary="floating" see="floating"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088346176
-primary="at-rules" secondary="@font-face" secondary-sortas="font-face"
-see="@font-face rule"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088344688
-primary="text properties" secondary="fonts" see="fonts"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088343472
-primary="background images" secondary="gradients" see="gradients"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088342256 primary="images"
-secondary="gradients" see="gradients"
-data-type="indexterm"}[]{#ch01.xhtml_idm45797088351312
-primary="directives" see="at-rules" data-type="indexterm"}CSS
 []{#ch01.xhtml_ix_css_history_ch1 primary="CSS (Cascading Style Sheets)"
 secondary="historical development" data-type="indexterm"}was first
 proposed in 1994, just as the web was beginning to really catch on. At
@@ -866,18 +288,15 @@ With that established, we're ready to start understanding CSS. Let's
 start by covering the basics of what goes inside a
 stylesheet.[]{#ch01.xhtml_idm45797088596832 primary=""
 startref="ix_css_history_ch1" data-type="indexterm"}
-:::
-::::
 
-:::::::::::::::: {.section pdf-bookmark="Stylesheet Contents" data-type="sect1"}
-::::::::::::::: {#ch01.xhtml_style_sheet_contents .sect1}
 ### Stylesheet Contents {#ch01.xhtml_sigil_toc_id_15}
 
 Inside a []{#ch01.xhtml_idm45797088593872 primary="rules"
 seealso="at-rules" data-type="indexterm"}stylesheet, you'll find a
 number of *rules* that look a little something like this:
 
-``` {code-language="css" data-type="programlisting"}
+```
+{code-language="css" data-type="programlisting"}
 h1 {color: maroon;}
 body {background: yellow;}
 ```
@@ -886,8 +305,6 @@ Styles such as these make up the bulk of any stylesheet---simple or
 complex, short or long. But which parts are which, and what do they
 represent?
 
-:::: {.section pdf-bookmark="Rule Structure" data-type="sect2"}
-::: {#ch01.xhtml_rule_structure .sect2}
 #### Rule Structure {#ch01.xhtml_sigil_toc_id_16}
 
 To illustrate the concept of rules in more detail, let's break down the
@@ -897,7 +314,7 @@ Each *rule* has two fundamental parts: the selector and the declaration
 block. The declaration block is composed of one or more declarations,
 and each declaration is a pairing of a property and a value. Every
 stylesheet is made up of a series of these rules.
-[Figure 1-1](#ch01.xhtml_the_structure_of_a_rule){data-type="xref"}
+[Figure 1-1](#ch01.xhtml_the_structure_of_a_rule){data-type="xref"}
 shows the parts of a rule.
 
 <figure>
@@ -912,7 +329,7 @@ alt="css5 0101" />
 The *selector*, []{#ch01.xhtml_idm45797088377920 primary="selectors"
 data-type="indexterm"}shown on the left side of the rule, defines which
 piece of the document will be selected for styling. In
-[Figure 1-1](#ch01.xhtml_the_structure_of_a_rule){data-type="xref"},
+[Figure 1-1](#ch01.xhtml_the_structure_of_a_rule){data-type="xref"},
 `<h1>` (heading level 1) elements are selected. If the selector were
 `p`, then all `<p>` (paragraph) elements would be selected.
 
@@ -927,18 +344,14 @@ seealso="specific values by name" data-type="indexterm"}right side of
 the rule contains the *declaration block*, which is made up of one or
 more declarations. Each *declaration* is a combination of a CSS
 *property* and a *value* of that property. In
-[Figure 1-1](#ch01.xhtml_the_structure_of_a_rule){data-type="xref"}, the
+[Figure 1-1](#ch01.xhtml_the_structure_of_a_rule){data-type="xref"}, the
 declaration block contains two declarations. The first states that this
 rule will cause parts of the document to have a `color` of `red`, and
 the second states that part of the document will have a `background` of
 `yellow`. So, all of the `<h1>` elements in the document (defined by the
 selector) will be styled in red text with a yellow
 [background]{.keep-together}.
-:::
-::::
 
-:::: {.section pdf-bookmark="Vendor Prefixing" data-type="sect2"}
-::: {#ch01.xhtml_vendor_prefixing .sect2}
 #### Vendor Prefixing {#ch01.xhtml_sigil_toc_id_18}
 
 Sometimes []{#ch01.xhtml_idm45797088507888 primary="vendor prefixes"
@@ -954,7 +367,7 @@ data-type="indexterm"}These *vendor prefixes* were a way for browser
 vendors to mark properties, values, or other bits of CSS as being
 experimental or proprietary (or both). As of early 2023, a few vendor
 prefixes are in the wild, with the most common shown in
-[Table 1-1](#ch01.xhtml_common_vendor_prefixes){data-type="xref"}.
+[Table 1-1](#ch01.xhtml_common_vendor_prefixes){data-type="xref"}.
 
   Prefix       Vendor
   ------------ --------------------------------------------------------------
@@ -967,7 +380,7 @@ prefixes are in the wild, with the most common shown in
   : [Table 1-1. ]{.label}Some common vendor prefixes
   {#common_vendor_prefixes}
 
-As [Table 1-1](#ch01.xhtml_common_vendor_prefixes){data-type="xref"}
+As [Table 1-1](#ch01.xhtml_common_vendor_prefixes){data-type="xref"}
 indicates, the generally accepted format of a vendor prefix is a hyphen,
 a label, and a hyphen, although a few prefixes erroneously omit the
 first hyphen.
@@ -999,11 +412,7 @@ That's saying the same thing four times: once each for the WebKit, Gecko
 way. Again, this is no longer necessary. We're including it here only to
 give you an idea of what it might look like, should you come across this
 in the future.
-:::
-::::
 
-:::: {.section pdf-bookmark="Whitespace Handling" data-type="sect2"}
-::: {#ch01.xhtml_whitespace_handling .sect2}
 #### Whitespace Handling {#ch01.xhtml_sigil_toc_id_19}
 
 CSS is basically insensitive to []{#ch01.xhtml_idm45797088636512
@@ -1075,11 +484,7 @@ separated onto its own line has been.
 All of these approaches are valid, so you should pick the formatting
 that makes the most sense---that is, is easiest to read---in your eyes,
 and stick with it.
-:::
-::::
 
-:::::: {.section pdf-bookmark="CSS Comments" data-type="sect2"}
-::::: {#ch01.xhtml_css_comments .sect2}
 #### CSS Comments {#ch01.xhtml_sigil_toc_id_20}
 
 CSS does allow for []{#ch01.xhtml_ix_slash_forward primary="slashes"
@@ -1116,14 +521,12 @@ example, this would *not* be correct:
  and back to the first comment, which is not a comment.*/
 ```
 
-::: {.warning data-type="warning"}
 ###### Warning {#ch01.xhtml_sigil_toc_id_21}
 
 One way to create "nested" comments accidentally is to temporarily
 comment out a large block of a stylesheet that already contains a
 comment. Since CSS doesn't permit nested comments, the "outside" comment
 will end where the "inside" comment ends.
-:::
 
 Unfortunately, there is no "rest of the line" comment pattern such as
 `//` or `#` (the latter of which is reserved for ID selectors anyway).
@@ -1152,7 +555,6 @@ In this example, only the first rule (`h1 {color: gray;}`) will be
 applied to the document. The rest of the rules, as part of the comment,
 are ignored by the browser's rendering engine.
 
-::: {.note data-type="note"}
 ###### Note {#ch01.xhtml_sigil_toc_id_22}
 
 CSS []{#ch01.xhtml_idm45797114184560 primary="whitespace"
@@ -1174,12 +576,7 @@ startref="ix_for_slash_comments2"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797114325248 primary=""
 startref="ix_comments_css" data-type="indexterm"} This means you can put
 them into the middle of rules---even right inside declarations!
-:::
-:::::
-::::::
 
-:::: {.section pdf-bookmark="Markup" data-type="sect2"}
-::: {#ch01.xhtml_markup .sect2}
 ## Markup {#ch01.xhtml_sigil_toc_id_23}
 
 *There is no markup in stylesheets*. This might seem obvious, but you'd
@@ -1209,13 +606,7 @@ needed it have faded into near oblivion.
 Speaking of markup, it's time to take a very slight detour to talk about
 the elements that our CSS will be used to style, and how those can be
 affected by CSS in the most [fundamental ways.]{.keep-together}
-:::
-::::
-:::::::::::::::
-::::::::::::::::
 
-::::::::::::::::: {.section pdf-bookmark="Elements" data-type="sect1"}
-:::::::::::::::: {#ch01.xhtml_elements .sect1}
 # Elements {#ch01.xhtml_sigil_toc_id_24}
 
 *Elements* are the basis of []{#ch01.xhtml_ix_elements_ch1
@@ -1228,16 +619,12 @@ HTML, the most common elements are easily recognizable, such as `<p>`,
 `<table>`, `<span>`, `<a>`, and `<article>`. Every single element in a
 document plays a part in its presentation.
 
-:::::::: {.section pdf-bookmark="Replaced and Nonreplaced Elements" data-type="sect2"}
-::::::: {#ch01.xhtml_replaced_and_nonreplaced_elements .sect2}
 ## Replaced and Nonreplaced Elements {#ch01.xhtml_sigil_toc_id_25}
 
 Although CSS depends on elements, not all elements are created equal.
 For example, images and paragraphs are not the same type of element. In
 CSS, elements generally take two forms: replaced and nonreplaced.
 
-:::: {.section pdf-bookmark="Replaced elements" data-type="sect3"}
-::: {#ch01.xhtml_replaced_elements .sect3}
 ### Replaced elements {#ch01.xhtml_sigil_toc_id_26}
 
 *Replaced elements* are used to indicate
@@ -1263,11 +650,7 @@ show a "broken image" placeholder.
 
 Similarly, the `input` element can also be replaced---by a radio button,
 checkbox, text input box, or other, depending on its type.
-:::
-::::
 
-:::: {.section pdf-bookmark="Nonreplaced elements" data-type="sect3"}
-::: {#ch01.xhtml_nonreplaced_elements .sect3}
 ### Nonreplaced elements {#ch01.xhtml_sigil_toc_id_27}
 
 The []{#ch01.xhtml_idm45797111846768 primary="nonreplaced elements"
@@ -1277,13 +660,7 @@ browser) inside a box generated by the element itself. For example,
 `<span>hi there</span>` is a nonreplaced element, and the text "hi
 there" will be displayed by the user agent. This is true of paragraphs,
 headings, table cells, lists, and almost everything else in HTML.
-:::
-::::
-:::::::
-::::::::
 
-::::::::: {.section pdf-bookmark="Element Display Roles" data-type="sect2"}
-:::::::: {#ch01.xhtml_element_display_roles .sect2}
 ## Element Display Roles {#ch01.xhtml_sigil_toc_id_28}
 
 CSS []{#ch01.xhtml_ix_vis_format_disp primary="visual formatting"
@@ -1303,7 +680,7 @@ and the types to which most, if not all, other display types refer. The
 block and inline contexts will be familiar to authors who have spent
 time with HTML markup and its display in web browsers. The display roles
 are illustrated in
-[Figure 1-2](#ch01.xhtml_block-_and_inline-level_elements_in_an){data-type="xref"}.
+[Figure 1-2](#ch01.xhtml_block-_and_inline-level_elements_in_an){data-type="xref"}.
 
 <figure>
 <div id="ch01.xhtml_block-_and_inline-level_elements_in_an"
@@ -1315,8 +692,6 @@ alt="css5 0102" />
 </div>
 </figure>
 
-:::: {.section pdf-bookmark="Block-level elements" data-type="sect3"}
-::: {#ch01.xhtml_block-level_elements .sect3}
 ### Block-level elements {#ch01.xhtml_sigil_toc_id_30}
 
 By []{#ch01.xhtml_ix_elements_block primary="elements"
@@ -1342,11 +717,7 @@ primary="outer display type" data-type="indexterm"}this is referred to
 as an element generating a *block formatting context*. It also means
 that the element generates a block *outer display type*. The parts
 inside the element may have different display types.
-:::
-::::
 
-::::: {.section pdf-bookmark="Inline-level elements" data-type="sect3"}
-:::: {#ch01.xhtml_inline-level_elements .sect3}
 ### Inline-level elements {#ch01.xhtml_sigil_toc_id_31}
 
 By []{#ch01.xhtml_ix_inline_level_elem primary="inline-level elements"
@@ -1379,7 +750,7 @@ data-type="indexterm"}let's consider the CSS property `display`.
 ```{=html}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
-::: {#ch01.xhtml_idm45797110895920 .sidebar}
+
 # display {#ch01.xhtml_sigil_toc_id_32}
 
   -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1421,7 +792,6 @@ data-type="indexterm"}let's consider the CSS property `display`.
 
 :   `inline-block` \| `inline-list-item` \| `inline-table` \|
     `inline-flex` \| `inline-grid`
-:::
 
 ```{=html}
 </aside>
@@ -1430,9 +800,9 @@ You may have noticed that there are a *lot* of values here, only two of
 which we've mentioned: `block` and `inline`. Most of these values are
 dealt with elsewhere in the book; for example, `grid` and `inline-grid`
 are covered in
-[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}, and the
+[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}, and the
 table-related values are all covered in
-[Chapter 13](../Text/ch13.xhtml#title-table-layout-in-css){data-type="xref"}.
+[Chapter 13](../Text/ch13.xhtml#title-table-layout-in-css){data-type="xref"}.
 
 For now, let's concentrate on `block` and `inline`. Consider the
 following markup:
@@ -1482,7 +852,7 @@ the following snippet of XML:
 
 Since the default value of `display` is `inline`, the content would be
 rendered as inline text by default, as illustrated in
-[Figure 1-3](#ch01.xhtml_default_display_of_an_xml_document){data-type="xref"}.
+[Figure 1-3](#ch01.xhtml_default_display_of_an_xml_document){data-type="xref"}.
 This isn't a terribly useful display.
 
 <figure class="coderesult">
@@ -1509,7 +879,7 @@ startref="ix_display_inline" data-type="indexterm"}
 
 We could take the preceding rules as a starting point, add a few other
 styles for greater visual impact, and get the result shown in
-[Figure 1-4](#ch01.xhtml_styled_display_of_an_xml_document){data-type="xref"}.
+[Figure 1-4](#ch01.xhtml_styled_display_of_an_xml_document){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch01.xhtml_styled_display_of_an_xml_document" class="figure">
@@ -1550,15 +920,7 @@ data-type="indexterm"}[]{#ch01.xhtml_idm45797108291904 primary=""
 startref="ix_block_disp_roles"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797108290960 primary=""
 startref="ix_vis_format_disp" data-type="indexterm"}
-::::
-:::::
-::::::::
-:::::::::
-::::::::::::::::
-:::::::::::::::::
 
-:::::::::::::::::::::: {.section pdf-bookmark="Bringing CSS and HTML Together" data-type="sect1"}
-::::::::::::::::::::: {#ch01.xhtml_bringing_css_and_html_together .sect1}
 # Bringing CSS and HTML Together {#ch01.xhtml_sigil_toc_id_35}
 
 We've []{#ch01.xhtml_ix_html_link_css primary="HTML"
@@ -1604,7 +966,7 @@ pieces:
 </html>
 ```
 
-[Figure 1-5](#ch01.xhtml_a_simple_document){data-type="xref"} shows the
+[Figure 1-5](#ch01.xhtml_a_simple_document){data-type="xref"} shows the
 result of this markup and the applied styles.
 
 <figure>
@@ -1618,8 +980,6 @@ alt="css5 0105" />
 
 Now, let's examine the various ways this document connects to CSS.
 
-:::::::::: {.section pdf-bookmark="The <link> Tag" data-type="sect2"}
-::::::::: {#ch01.xhtml_the_link_tag .sect2}
 ## The \<link\> Tag {#ch01.xhtml_sigil_toc_id_37}
 
 First, []{#ch01.xhtml_ix_link_tag primary="<link> tag"
@@ -1645,11 +1005,11 @@ inside the `<head>` element, though it can also appear inside the
 `<body>` element. This will cause the web browser to locate and load the
 stylesheet and use whatever styles it contains to render the HTML
 document;
-[Figure 1-6](#ch01.xhtml_a_representation_of_how_external_style){data-type="xref"}
+[Figure 1-6](#ch01.xhtml_a_representation_of_how_external_style){data-type="xref"}
 depicts the stylesheet called *sheet1.css* being linked to the document.
 
 Also shown in
-[Figure 1-6](#ch01.xhtml_a_representation_of_how_external_style){data-type="xref"}
+[Figure 1-6](#ch01.xhtml_a_representation_of_how_external_style){data-type="xref"}
 is the loading of the external *sheet2.css* via an `@import`
 declaration. Imports must be placed at the beginning of the stylesheet
 that contains them.
@@ -1686,16 +1046,10 @@ file and are usually given an extension of *.css*, as in
 *sheet1.css*.[]{#ch01.xhtml_idm45797097220016 primary=""
 startref="ix_link_tag" data-type="indexterm"}
 
-::: {.warning data-type="warning"}
-###### Warning {#ch01.xhtml_sigil_toc_id_39}
-
 An external stylesheet cannot contain any document markup at all, only
 CSS rules and CSS comments. The presence of markup in an external
 stylesheet can cause some or all of it to be ignored.
-:::
 
-:::: {.section pdf-bookmark="Attributes" data-type="sect3"}
-::: {#ch01.xhtml_attributes .sect3}
 ### Attributes {#ch01.xhtml_sigil_toc_id_40}
 
 For []{#ch01.xhtml_ix_attrib_HTML primary="attributes"
@@ -1746,7 +1100,7 @@ can use a linked stylesheet in both screen and print media:
 ```
 
 Media descriptors can get quite complicated and are explained in detail
-in [Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}. For
+in [Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}. For
 now, we'll stick with the basic media types shown.
 []{#ch01.xhtml_idm45797097156704 primary="all media type"
 data-type="indexterm"}The default value is `all`, which means the CSS
@@ -1783,11 +1137,7 @@ The one attribute that isn't in this example markup, but could be, is
 the future and, if used improperly, can have unexpected effects. Why?
 We'll explore that in the next section.[]{#ch01.xhtml_idm45797096987008
 primary="" startref="ix_attrib_HTML" data-type="indexterm"}
-:::
-::::
 
-::::: {.section pdf-bookmark="Alternate stylesheets" data-type="sect3"}
-:::: {#ch01.xhtml_alternate_style_sheets .sect3}
 ### Alternate stylesheets {#ch01.xhtml_sigil_toc_id_41}
 
 It's []{#ch01.xhtml_ix_alt_style primary="alternate stylesheets"
@@ -1810,7 +1160,7 @@ generate a list of style alternatives. So you could write the following:
 Users could then pick the style they want to use, and the browser would
 switch from the first one, labeled `Default` in this case, to whichever
 the user picked.
-[Figure 1-7](#ch01.xhtml_a_browser_offering_alternate_style){data-type="xref"}
+[Figure 1-7](#ch01.xhtml_a_browser_offering_alternate_style){data-type="xref"}
 shows one way in which this selection mechanism might be accomplished
 (and in fact was, early in the resurgence of CSS).
 
@@ -1823,16 +1173,14 @@ alt="css5 0107" />
 </div>
 </figure>
 
-::: {.note data-type="note"}
 ###### Note {#ch01.xhtml_sigil_toc_id_43}
 
 As of early 2023, alternate stylesheets are supported in most
 Gecko-based browsers like Firefox. The Chromium and WebKit families do
 not support selecting alternate stylesheets. Compare this to the build
 date of the browser shown in
-[Figure 1-7](#ch01.xhtml_a_browser_offering_alternate_style){data-type="xref"},
+[Figure 1-7](#ch01.xhtml_a_browser_offering_alternate_style){data-type="xref"},
 which is late 2002.
-:::
 
 It's also possible to group alternate stylesheets together by giving
 them the same `title` value. Thus, you make it possible for the user to
@@ -1891,13 +1239,7 @@ stylesheets are not widely supported and are almost completely unknown
 startref="ix_alt_style"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797104771760 primary=""
 startref="ix_title_attrib" data-type="indexterm"}
-::::
-:::::
-:::::::::
-::::::::::
 
-:::: {.section pdf-bookmark="The <style> Element" data-type="sect2"}
-::: {#ch01.xhtml_the_style_element .sect2}
 ## The \<style\> Element {#ch01.xhtml_sigil_toc_id_44}
 
 The `<style>` element is one way to include a
@@ -1942,11 +1284,7 @@ language, perhaps in a future where such a thing is supported. For the
 time being, though, the attribute remains wholly
 optional.[]{#ch01.xhtml_idm45797104690576 primary=""
 startref="ix_rules_css_html" data-type="indexterm"}
-:::
-::::
 
-::::: {.section pdf-bookmark="The @import Directive" data-type="sect2"}
-:::: {#ch01.xhtml_the_at_import_directive .sect2}
 ## The \@import Directive {#ch01.xhtml_sigil_toc_id_45}
 
 Now we'll []{#ch01.xhtml_ix_import_rule primary="@import rule"
@@ -2001,7 +1339,7 @@ media by providing media descriptors after the stylesheet's URL:
 As noted in ["The \<link\>
 Tag"](#ch01.xhtml_the_link_tag){data-type="xref"}, media descriptors can
 get quite complicated and are explained in detail in
-[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}.
+[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}.
 
 The `@import` directive can be highly useful if you have an external
 stylesheet that needs to use the styles found in other external
@@ -2029,21 +1367,19 @@ stylesheet, though they can be preceded by `@charset` and `@layer`
 declarations. An `@import` that comes after other rules (e.g.,
 `body {color`: `red;}`) will be ignored by conforming user agents.
 
-::: {.warning data-type="warning"}
 ###### Warning {#ch01.xhtml_sigil_toc_id_46}
 
 Some versions of Internet Explorer for Windows did not ignore any
 `@import` directive, even those that come after other rules, but all
 modern browsers do ignore improperly placed `@import`
 [directives.]{.keep-together}
-:::
 
 Another []{#ch01.xhtml_idm45797104519328 primary="cascade layer"
 data-type="indexterm"}descriptor that can be added to an `@import`
 directive is a *cascade layer* identifier. This assigns all of the
 styles in the imported stylesheet to a cascade layer, which is a concept
 we'll explore in
-[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}.
+[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}.
 It looks like this:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -2064,11 +1400,7 @@ layer.[]{#ch01.xhtml_idm45797104513184 primary=""
 startref="ix_atrule_import"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797104512448 primary=""
 startref="ix_import_rule" data-type="indexterm"}
-::::
-:::::
 
-::::: {.section pdf-bookmark="HTTP Linking" data-type="sect2"}
-:::: {#ch01.xhtml_http_linking .sect2}
 ## HTTP Linking {#ch01.xhtml_sigil_toc_id_47}
 
 In []{#ch01.xhtml_idm45797104483952
@@ -2109,7 +1441,6 @@ server to mark when you're on the development site as opposed to the
 public site. It's also an interesting way to hide styles from Chromium
 browsers, assuming you have a reason to do so.
 
-::: {.note data-type="note"}
 ###### Note {#ch01.xhtml_sigil_toc_id_48}
 
 Equivalents to this linking technique are used in common scripting
@@ -2118,12 +1449,7 @@ HTTP headers. It's also possible to use such languages to explicitly
 write `link` elements into the document based on the server offering up
 the document. This is a more robust approach in terms of browser
 support: every browser supports the `link` [element.]{.keep-together}
-:::
-::::
-:::::
 
-:::: {.section .less_space .pagebreak-before pdf-bookmark="Inline Styles" data-type="sect2"}
-::: {#ch01.xhtml_inline_styles .sect2}
 ## Inline Styles {#ch01.xhtml_sigil_toc_id_49}
 
 If []{#ch01.xhtml_idm45797092790592 primary="inline styles"
@@ -2169,13 +1495,7 @@ apply.[]{#ch01.xhtml_idm45797092751088 primary=""
 startref="ix_css_link_html"
 data-type="indexterm"}[]{#ch01.xhtml_idm45797092750112 primary=""
 startref="ix_html_link_css" data-type="indexterm"}
-:::
-::::
-:::::::::::::::::::::
-::::::::::::::::::::::
 
-:::: {.section pdf-bookmark="Summary" data-type="sect1"}
-::: {#ch01.xhtml_doc_summary .sect1}
 # Summary {#ch01.xhtml_sigil_toc_id_50}
 
 With CSS, you can completely change the way elements are presented by a
@@ -2195,15 +1515,9 @@ a set of styles with the elements in a document. To fully understand how
 CSS can do all of this, you need a firm grasp of the way CSS selects
 pieces of a document for styling, which is the subject of the next few
 chapters.
-:::
-::::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{#ch02.xhtml}
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch02.xhtml_sbo-rt-content}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#ch02.xhtml_selectors .chapter}
 # [Chapter 2. ]{.label}Selectors
 
 One of the []{#ch02.xhtml_ix_selector_ch2 primary="selectors"
@@ -2220,8 +1534,6 @@ time you're in a meeting and someone wants to see headings with a
 different shade of green, just edit your style and hit Reload. Voilà!
 The results are accomplished in seconds and there for everyone to see.
 
-:::: {.section pdf-bookmark="Basic Style Rules" data-type="sect1"}
-::: {#ch02.xhtml_basic_style_rules .sect1}
 # Basic Style Rules {#ch02.xhtml_sigil_toc_id_51}
 
 As []{#ch02.xhtml_idm45797092698016
@@ -2294,7 +1606,7 @@ h1 {color: gray;}
 h2 {color: silver;}
 ```
 
-[Figure 2-1](#ch02.xhtml_simple_styling_of_a_simple_document){data-type="xref"}
+[Figure 2-1](#ch02.xhtml_simple_styling_of_a_simple_document){data-type="xref"}
 shows the results of this stylesheet.
 
 <figure class="coderesult">
@@ -2309,7 +1621,7 @@ alt="css5 0201" />
 Once you've globally applied styles directly to elements, you can shift
 those styles from one element to another. Let's say you decide that the
 paragraph text, not the `<h1>` elements, in
-[Figure 2-1](#ch02.xhtml_simple_styling_of_a_simple_document){data-type="xref"}
+[Figure 2-1](#ch02.xhtml_simple_styling_of_a_simple_document){data-type="xref"}
 should be gray. No problem. Just change the `h1` selector to `p`:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -2318,7 +1630,7 @@ p {color: gray;}
 h2 {color: silver;}
 ```
 
-[Figure 2-2](#ch02.xhtml_moving_a_style_from_one_element_to_anoth){data-type="xref"}
+[Figure 2-2](#ch02.xhtml_moving_a_style_from_one_element_to_anoth){data-type="xref"}
 shows the results.[]{#ch02.xhtml_idm45797092483376 primary=""
 startref="ix_elem_selector"
 data-type="indexterm"}[]{#ch02.xhtml_idm45797092482496 primary=""
@@ -2563,7 +1875,7 @@ data-type="indexterm"}grouped the selectors, so the styles inside the
 curly braces will be applied to all the headings listed; grouping the
 declarations means that all of the listed styles will be applied to the
 selectors on the left side of the rule.
-[Figure 2-3](#ch02.xhtml_grouping_both_selectors_and_rules){data-type="xref"}
+[Figure 2-3](#ch02.xhtml_grouping_both_selectors_and_rules){data-type="xref"}
 shows the result of this rule.
 
 <figure class="coderesult">
@@ -2633,7 +1945,7 @@ b {color: gray; background: white;}
 
 Any of these three approaches to grouping selectors and declarations
 will yield the result shown in
-[Figure 2-4](#ch02.xhtml_the_result_of_equivalent_style_sheets){data-type="xref"}.
+[Figure 2-4](#ch02.xhtml_the_result_of_equivalent_style_sheets){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch02.xhtml_the_result_of_equivalent_style_sheets"
@@ -2727,11 +2039,11 @@ which the name of the class is preceded by a period (`.`):
 
 When combined with the example markup shown earlier, this simple rule
 has the effect shown in
-[Figure 2-5](#ch02.xhtml_using_a_class_selector){data-type="xref"}. The
+[Figure 2-5](#ch02.xhtml_using_a_class_selector){data-type="xref"}. The
 declaration `font-weight: bold` will be applied to every element that
 carries a `class` attribute with a value of `warning`.
 
-As [Figure 2-5](#ch02.xhtml_using_a_class_selector){data-type="xref"}
+As [Figure 2-5](#ch02.xhtml_using_a_class_selector){data-type="xref"}
 illustrates, the class selector works by directly referencing a value
 that will be found in the `class` attribute of an element. This
 reference is *always* preceded by a period (`.`), which marks it as a
@@ -2780,7 +2092,7 @@ as in the following markup:
 span.warning {font-weight: bold;}
 ```
 
-[Figure 2-6](#ch02.xhtml_using_generic_and_specific_selectors_to){data-type="xref"}
+[Figure 2-6](#ch02.xhtml_using_generic_and_specific_selectors_to){data-type="xref"}
 shows the results.
 
 In this situation, any warning text will be italicized, but only the
@@ -2874,7 +2186,7 @@ you can see, the HTML source contains `class="urgent warning"`, but the
 CSS selector is written `.warning.urgent`. Regardless, the rule will
 still cause the "When handling plutonium... " paragraph to have a silver
 background, as illustrated in
-[Figure 2-7](#ch02.xhtml_selecting_elements_with_multiple_class_n){data-type="xref"}.
+[Figure 2-7](#ch02.xhtml_selecting_elements_with_multiple_class_n){data-type="xref"}.
 This happens because the order in which the words are written in the
 source document, or in the CSS, doesn't matter. (This is not to say the
 order of classes is always irrelevant, but we'll get to that later in
@@ -3070,7 +2382,7 @@ if ever, be done, but it is possible.
 Another difference between `class` and `id` names is that IDs carry more
 weight when you're trying to determine which styles should be applied to
 a given element. This is explained in greater detail in
-[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}.
+[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}.
 
 Also []{#ch02.xhtml_idm45797108793424 primary="case sensitivity"
 secondary="ID selectors" data-type="indexterm"}note that HTML defines
@@ -3119,7 +2431,7 @@ secondary="attribute"
 data-type="indexterm"}[]{#ch02.xhtml_ix_attrib_select
 primary="attribute selectors" data-type="indexterm"}class and ID
 selectors, what you're really doing is selecting values of
-elements' attributes. The syntax used in the previous two sections is
+elements' attributes. The syntax used in the previous two sections is
 particular to HTML, SVG, and MathML documents as of this writing. In
 other markup languages, these class and ID selectors may not be
 available (as, indeed, those attributes may not be present).
@@ -3154,7 +2466,7 @@ So, given the following markup,
 ```
 
 you get the result shown in
-[Figure 2-8](#ch02.xhtml_selecting_elements_based_on_their_attrib){data-type="xref"}.
+[Figure 2-8](#ch02.xhtml_selecting_elements_based_on_their_attrib){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_elements_based_on_their_attrib"
@@ -3302,7 +2614,7 @@ markup, but not the second or third:
 <a href="http://www.example.org/" title="W3C Home">confused.link</a>
 ```
 
-[Figure 2-9](#ch02.xhtml_selecting_elements_based_on_attributes_a){data-type="xref"}
+[Figure 2-9](#ch02.xhtml_selecting_elements_based_on_attributes_a){data-type="xref"}
 shows the results.
 
 <figure class="coderesult">
@@ -3361,7 +2673,7 @@ selectors that target the `id` attribute are not precisely the same. In
 other words, a subtle but crucial difference exists between
 `h1#page-title` and `h1[id="page-title"]`. This difference is explained
 in
-[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}.[]{#ch02.xhtml_idm45797100839872
+[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}.[]{#ch02.xhtml_idm45797100839872
 primary="" startref="ix_attrib_exact" data-type="indexterm"}
 :::
 ::::
@@ -3378,7 +2690,7 @@ data-type="indexterm"}that you'll sometimes want to select elements
 based on portions of their attribute values, rather than the full value.
 For such situations, CSS offers a variety of options for matching
 substrings in an attribute's value. These are summarized in
-[Table 2-1](#ch02.xhtml_substring_matching_with_attribute_select){data-type="xref"}.[]{#ch02.xhtml_idm45797100834080
+[Table 2-1](#ch02.xhtml_substring_matching_with_attribute_select){data-type="xref"}.[]{#ch02.xhtml_idm45797100834080
 primary="^= (caret, equal sign), in attribute selectors"
 data-type="indexterm"}[]{#ch02.xhtml_idm45797100833344
 primary="|= (vertical bar, equal sign), in attribute selectors"
@@ -3501,7 +2813,7 @@ span[class~="barren"] {font-style: italic;}
 
 This rule's selector will match the first two elements in the example
 markup and thus italicize their text, as shown in
-[Figure 2-10](#ch02.xhtml_selecting_elements_based_on_portions_of){data-type="xref"}.
+[Figure 2-10](#ch02.xhtml_selecting_elements_based_on_portions_of){data-type="xref"}.
 This is the same result we would expect from writing
 `span.barren {font-style: italic;}`.
 
@@ -3551,7 +2863,7 @@ substring matching form `[attr*="val"]` to match substrings that appear
 anywhere inside the attribute values. For example, the following CSS
 matches any `<span>` element whose `class` attribute contains the
 substring `cloud`, so both "cloudy" planets are matched, as shown in
-[Figure 2-11](#ch02.xhtml_selecting_elements_based_on_substrings_w){data-type="xref"}:
+[Figure 2-11](#ch02.xhtml_selecting_elements_based_on_substrings_w){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 span[class*="cloud"] {font-style: italic;}
@@ -3663,7 +2975,7 @@ the beginning of an attribute value, the caret-equals attribute selector
 pattern `[att^="val"]` is what you're seeking. This can be particularly
 useful when you want to style types of links differently, as illustrated
 in
-[Figure 2-12](#ch02.xhtml_selecting_elements_based_on_substrings_t){data-type="xref"}:
+[Figure 2-12](#ch02.xhtml_selecting_elements_based_on_substrings_t){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a[href^="https:"] {font-weight: bold;}
@@ -3718,7 +3030,7 @@ ending-substring matching, which is accomplished using the
 `[att$="val"]` pattern. A very common use for this capability is to
 style links based on the kind of resource they target, such as separate
 styles for PDF documents, as illustrated in
-[Figure 2-13](#ch02.xhtml_selecting_elements_based_on_substring){data-type="xref"}:
+[Figure 2-13](#ch02.xhtml_selecting_elements_based_on_substring){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a[href$=".pdf"] {font-weight: bold;}
@@ -3899,7 +3211,7 @@ data-type="indexterm"}power of CSS is based on the *parent-child
 relationship* of elements. HTML documents (and most structured documents
 of any kind) are based on a hierarchy of elements, which is visible in
 the "tree" view of the document (see
-[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"}).
+[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"}).
 In this hierarchy, each element fits somewhere into the overall
 structure of the document. Every element in the document is either the
 *parent* or the *child* of another element, and it's often both. If a
@@ -3916,13 +3228,13 @@ alt="css5 0214" />
 
 An element is said to be the parent of another element if it appears
 directly above that element in the document hierarchy. For example, in
-[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"},
+[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"},
 the first `<p>` element from the left is parent to the `<em>` and
 `<strong>` elements, while `<strong>` is parent to an anchor (`<a>`)
 element, which is itself parent to another `<em>` element. Conversely,
 an element is the child of another element if it is directly beneath the
 other element. Thus, the anchor element on the far right side of
-[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"}
+[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"}
 is the child of a `<p>` element, which is in turn child to the `<body>`
 element, and so on.
 
@@ -3936,14 +3248,14 @@ exactly one level above or below another, those elements have a
 traced through two or more levels, the elements have an
 ancestor-descendant relationship, but not a parent-child relationship.
 (A child is also a descendant, and a parent is also an ancestor.) In
-[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"},
+[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"},
 the uppermost `<ul>` element is parent to two `<li>` elements, but the
 uppermost `<ul>` is also the ancestor of every element descended from
 its `<li>` element, all the way down to the most deeply nested `<li>`
 elements. Those `<li>` elements, children of the `<ol>`, are siblings.
 
 Also, in
-[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"},
+[Figure 2-14](#ch02.xhtml_a_document_tree_structure){data-type="xref"},
 there is an []{#ch02.xhtml_idm45797099650768 primary="elements"
 secondary="root" data-type="indexterm"}[]{#ch02.xhtml_idm45797099649760
 primary="root elements" data-type="indexterm"}anchor that is a child of
@@ -3977,7 +3289,7 @@ h1 em {color: gray;}
 This rule will make gray any text in an `<em>` element that is the
 descendant of an `<h1>` element. Other `<em>` text, such as that found
 in a paragraph or a block quote, will not be selected by this rule.
-[Figure 2-15](#ch02.xhtml_selecting_an_element_based_on_its_contex){data-type="xref"}
+[Figure 2-15](#ch02.xhtml_selecting_an_element_based_on_its_contex){data-type="xref"}
 illustrates the result.
 
 <figure class="coderesult">
@@ -4011,7 +3323,7 @@ ul ol ul em {color: gray;}
 ```
 
 In this case, as
-[Figure 2-16](#ch02.xhtml_a_very_specific_descendant_selector){data-type="xref"}
+[Figure 2-16](#ch02.xhtml_a_very_specific_descendant_selector){data-type="xref"}
 shows, any emphasized text that is part of an unordered list that is
 part of an ordered list that is itself part of an unordered list (yes,
 this is correct) will be gray. This is obviously a very specific
@@ -4046,7 +3358,7 @@ main {background: white;}
 main a:any-link {color: blue;}
 ```
 
-[Figure 2-17](#ch02.xhtml_using_descendant_selectors_to_apply_diff){data-type="xref"}
+[Figure 2-17](#ch02.xhtml_using_descendant_selectors_to_apply_diff){data-type="xref"}
 shows the result.
 
 <figure class="coderesult">
@@ -4065,7 +3377,7 @@ type <span class="keep-together">of element</span></h6>
 
 `:any-link` refers to both visited and unvisited links. We'll talk about
 it in detail in
-[Chapter 3](../Text/ch03.xhtml#pseudo_classes_and_elements){data-type="xref"}.
+[Chapter 3](../Text/ch03.xhtml#pseudo_classes_and_elements){data-type="xref"}.
 :::
 
 Here's another example: let's say that you want gray to be the text
@@ -4197,7 +3509,7 @@ use or omit whitespace as you wish.
 When viewing the document as a tree structure, we can see that a child
 selector restricts its matches to elements that are directly connected
 in the tree.
-[Figure 2-18](#ch02.xhtml_a_document_tree_fragment){data-type="xref"}
+[Figure 2-18](#ch02.xhtml_a_document_tree_fragment){data-type="xref"}
 shows part of a document tree.
 
 <figure class="width_set_70">
@@ -4259,7 +3571,7 @@ element."
 
 To visualize how this selector works, let's once again consider a
 fragment of a document tree, shown in
-[Figure 2-19](#ch02.xhtml_another_document_tree_fragment){data-type="xref"}.
+[Figure 2-19](#ch02.xhtml_another_document_tree_fragment){data-type="xref"}.
 
 <figure class="width_set_70">
 <div id="ch02.xhtml_another_document_tree_fragment" class="figure">
@@ -4283,7 +3595,7 @@ with a single combinator. Thus, if you write
 `li + li {font-weight: bold;}`, only the second and third items in each
 list will be boldfaced. The first list items will be unaffected, as
 illustrated in
-[Figure 2-20](#ch02.xhtml_selecting_adjacent_siblings){data-type="xref"}.
+[Figure 2-20](#ch02.xhtml_selecting_adjacent_siblings){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch02.xhtml_selecting_adjacent_siblings" class="figure">
@@ -4303,7 +3615,7 @@ match, an ordered list must immediately follow an unordered list.
 Keep in mind that text content between two elements does *not* prevent
 the adjacent-sibling combinator from working. Consider this markup
 fragment, whose tree view would be the same as that shown in
-[Figure 2-18](#ch02.xhtml_a_document_tree_fragment){data-type="xref"}:
+[Figure 2-18](#ch02.xhtml_a_document_tree_fragment){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <div>
@@ -4383,7 +3695,7 @@ shares a parent with the `<h2>`, you'd write
 adjacent siblings, although they can be adjacent and still match this
 rule. The result of applying this rule to the following markup is shown
 in
-[Figure 2-21](#ch02.xhtml_selecting_following_siblings-id1){data-type="xref"}:
+[Figure 2-21](#ch02.xhtml_selecting_following_siblings-id1){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <div>
@@ -4599,7 +3911,7 @@ one possible root element within a single language (though not a single
 document!).
 
 Here's an example of styling the root element in HTML, as illustrated in
-[Figure 3-1](#ch03.xhtml_styling_the_root_element){data-type="xref"}:
+[Figure 3-1](#ch03.xhtml_styling_the_root_element){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 :root {border: 10px dotted gray;}
@@ -4618,7 +3930,7 @@ alt="css5 0301" />
 In HTML documents, you can always select the `<html>` element directly,
 without having to use the `:root` pseudo-class. The two selectors differ
 in terms of specificity, which we'll cover in
-[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"},
+[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"},
 but otherwise they'll have the same effect.
 :::
 ::::
@@ -4695,7 +4007,7 @@ image would be selected regardless of all the text surrounding it. If
 what you're really after is images that are sole children and found
 inside hyperlinks, you just modify the selector like so (which is
 illustrated in
-[Figure 3-2](#ch03.xhtml_selecting_images_that_are_only_children){data-type="xref"}):
+[Figure 3-2](#ch03.xhtml_selecting_images_that_are_only_children){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 a[href] img:only-child {border: 2px solid black;}
@@ -4731,7 +4043,7 @@ element image must be the only child of its direct parent and also a
 descendant of an `a` element with an `href` attribute, but that parent
 can itself be a descendant of the same `<a>` element. Therefore, all
 three of the images in the following would be matched, as shown in
-[Figure 3-3](#ch03.xhtml_selecting_images_that_are_only_child){data-type="xref"}:
+[Figure 3-3](#ch03.xhtml_selecting_images_that_are_only_child){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a[href] img:only-child {border: 5px solid black;}
@@ -4760,7 +4072,7 @@ matched by the rule shown. If you want to restrict the rule so that it
 matches images that are the only children of `<a>` elements, you add the
 child combinator to yield `a[href] > img:only-child`. With that change,
 only the first of the three images shown in
-[Figure 3-3](#ch03.xhtml_selecting_images_that_are_only_child){data-type="xref"}
+[Figure 3-3](#ch03.xhtml_selecting_images_that_are_only_child){data-type="xref"}
 would be matched.[]{#ch03.xhtml_idm45797101675200 primary=""
 startref="ix_only_child_pseudo" data-type="indexterm"}
 :::
@@ -4785,7 +4097,7 @@ In this case, we have an `a` element that has two children: `<b>` and
 `<img>`. That image, no longer the only child of its parent (the
 hyperlink), can never be matched using `:only-child`. However, it *can*
 be matched using `:only-of-type`. This is illustrated in
-[Figure 3-4](#ch03.xhtml_selecting_images_that_are_the_only_sibli){data-type="xref"}:
+[Figure 3-4](#ch03.xhtml_selecting_images_that_are_the_only_sibli){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a[href] img:only-of-type {border: 5px solid black;}
@@ -4910,7 +4222,7 @@ li:first-child {text-transform: uppercase;}
 ```
 
 we get the result shown in
-[Figure 3-5](#ch03.xhtml_styling_first_children){data-type="xref"}.
+[Figure 3-5](#ch03.xhtml_styling_first_children){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch03.xhtml_styling_first_children" class="figure">
@@ -4964,7 +4276,7 @@ primary=":last-child pseudo-class"
 primary-sortas="last-child pseudo-class" data-type="indexterm"}image of
 `:first-child` is `:last-child`. If we take the previous example and
 just change the pseudo-classes, we get the result shown in
-[Figure 3-6](#ch03.xhtml_styling_first_children-id1){data-type="xref"}:
+[Figure 3-6](#ch03.xhtml_styling_first_children-id1){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p:last-child {font-weight: bold;}
@@ -5038,7 +4350,7 @@ will not select the first table in the document and skip all the others.
 It will instead select the first `<table>` element within each element
 that contains one, and skip any sibling `<table>` elements that come
 after the first. Thus, given the document structure shown in
-[Figure 3-7](#ch03.xhtml_selecting_first-of-type_tables){data-type="xref"},
+[Figure 3-7](#ch03.xhtml_selecting_first-of-type_tables){data-type="xref"},
 the circled nodes are the ones that are selected.
 
 <figure>
@@ -5084,7 +4396,7 @@ from among its sibling elements. In a way, it's just like
 `:first-of-type`, except you start with the last element in a group of
 siblings and walk backward toward the first element until you reach an
 instance of the type. Given the document structure shown in
-[Figure 3-8](#ch03.xhtml_selecting_last-of-type_tables){data-type="xref"},
+[Figure 3-8](#ch03.xhtml_selecting_last-of-type_tables){data-type="xref"},
 the circled nodes are the ones selected by `table:last-of-type`.
 
 <figure>
@@ -5161,7 +4473,7 @@ li:nth-child(1) {text-transform: uppercase;}
 If we change the numbers from `1` to `2`, however, then no paragraphs
 will be selected, and the middle (or second) list item will be selected,
 as illustrated in
-[Figure 3-9](#ch03.xhtml_styling_second_children){data-type="xref"}:
+[Figure 3-9](#ch03.xhtml_styling_second_children){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p:nth-child(2) {font-weight: bold;}
@@ -5198,7 +4510,7 @@ dropped if it isn't needed.
 Let's suppose we want to select every third list item in an unordered
 list, starting with the first. The following makes that possible,
 selecting the first and fourth items, as shown in
-[Figure 3-10](#ch03.xhtml_styling_every_third_list_item){data-type="xref"}:
+[Figure 3-10](#ch03.xhtml_styling_every_third_list_item){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 ul > li:nth-child(3n + 1) {text-transform: uppercase;}
@@ -5228,7 +4540,7 @@ children. You can commit that to memory, or you can use the two special
 keywords that `:nth-child()` accepts: `even` and `odd`. Want to
 highlight every other row of a table, starting with the first? Here's
 how you do it, with the results shown in
-[Figure 3-11](#ch03.xhtml_styling_every_other_table_row){data-type="xref"}:
+[Figure 3-11](#ch03.xhtml_styling_every_other_table_row){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 tr:nth-child(odd) {background: silver;}
@@ -5302,7 +4614,7 @@ selectors will always match the odd rows of the updated DOM.
 Any element can be matched using both `:nth-child()` and
 `:nth-last-child()` if it fits the criteria. Consider these rules, the
 results of which are shown in
-[Figure 3-12](#ch03.xhtml_combining_patterns_of_colon_nth-child_op){data-type="xref"}:
+[Figure 3-12](#ch03.xhtml_combining_patterns_of_colon_nth-child_op){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 li:nth-child(3n + 3) {border-left: 5px solid black;}
@@ -5347,7 +4659,7 @@ these two pseudo-classes together as `:nth-child(1):nth-last-child(1)`,
 thus creating a more verbose restatement of `:only-child`. There's no
 real reason to do so other than to create a selector with a higher
 specificity (discussed in
-[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}),
+[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"}),
 but the option is there.
 
 You can use CSS to determine the number of items in a list and style
@@ -5397,7 +4709,7 @@ every other hyperlink that's a child of any given paragraph, starting
 with the second, using `p > a:nth-of-type(even)`. This will ignore all
 other elements (`<span>`, `<strong>`, etc.) and consider only the links,
 as demonstrated in
-[Figure 3-13](#ch03.xhtml_selecting_the_even-numbered_links){data-type="xref"}:
+[Figure 3-13](#ch03.xhtml_selecting_the_even-numbered_links){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p > a:nth-of-type(even) {background: blue; color: white;}
@@ -5450,7 +4762,7 @@ If you wanted to select every table cell in a row when it's in an
 even-numbered column, you would use `td:nth-child(even)`. But if you
 want to select every even-numbered instance of a table cell, that would
 be `td:nth-of-type(even)`. You can see the difference in
-[Figure 3-14](#ch03.xhtml_nth-child_and_nth-of-type){data-type="xref"},
+[Figure 3-14](#ch03.xhtml_nth-child_and_nth-of-type){data-type="xref"},
 which shows the result of the following CSS:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -5480,7 +4792,7 @@ primary-sortas="only-of-type pseudo-class" data-type="indexterm"}might
 expect, you can use `:nth-of-type(1):nth-last-of-type(1)` together to
 restate `:only-of-type`, only with higher specificity. (We *will*
 explain specificity in
-[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"},
+[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"},
 we promise.)[]{#ch03.xhtml_idm45797105335440 primary=""
 startref="ix_doc_struct_ch3"
 data-type="indexterm"}[]{#ch03.xhtml_idm45797105334464 primary=""
@@ -5538,7 +4850,7 @@ primary="hyperlink-specific pseudo-classes"
 data-type="indexterm"}pseudo-classes that apply only to hyperlinks. In
 HTML, hyperlinks are any `<a>` elements with an `href` attribute; in XML
 languages, a hyperlink is any element that acts as a link to another
-resource. [Table 3-1](#ch03.xhtml_link_pseudo-classes){data-type="xref"}
+resource. [Table 3-1](#ch03.xhtml_link_pseudo-classes){data-type="xref"}
 describes the pseudo-classes you can apply to them.
 
   Name                         Description
@@ -5551,7 +4863,7 @@ describes the pseudo-classes you can apply to them.
   : [Table 3-1. ]{.label}Link pseudo-classes {#link_pseudo-classes}
 
 The first of the pseudo-classes in
-[Table 3-1](#ch03.xhtml_link_pseudo-classes){data-type="xref"} may seem
+[Table 3-1](#ch03.xhtml_link_pseudo-classes){data-type="xref"} may seem
 a bit redundant. After all, if an anchor hasn't been visited, it must be
 unvisited, right? If that's the case, all we should need is the
 following:
@@ -5719,7 +5031,7 @@ primary="non-hyperlink location pseudo-classes"
 data-type="indexterm"}elements that can be related to location. CSS also
 provides a few pseudo-classes that relate to the targets of hyperlinks,
 summarized in
-[Table 3-2](#ch03.xhtml_non_link_pseudo-classes){data-type="xref"}.
+[Table 3-2](#ch03.xhtml_non_link_pseudo-classes){data-type="xref"}.
 
   Name               Description
   ------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5754,7 +5066,7 @@ Thanks to `:target`, you can highlight any targeted element within a
 document, or you can devise different styles for various types of
 elements that might be targeted---say, one style for targeted headings,
 another for targeted tables, and so on.
-[Figure 3-15](#ch03.xhtml_styling_a_fragment_identifier_target){data-type="xref"}
+[Figure 3-15](#ch03.xhtml_styling_a_fragment_identifier_target){data-type="xref"}
 shows an example of `:target` in action:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -5925,7 +5237,7 @@ pseudo-classes that can change a document's appearance based on actions
 taken by the user. These *dynamic pseudo-classes* have traditionally
 been used to style hyperlinks, but the possibilities are much wider.
 Pseudo-classes are described in
-[Table 3-3](#ch03.xhtml_user_action_pseudo-classes-id1){data-type="xref"}.
+[Table 3-3](#ch03.xhtml_user_action_pseudo-classes-id1){data-type="xref"}.
 
   Name               Description
   ------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5976,7 +5288,7 @@ input:focus {background: silver; font-weight: bold;}
 
 By using this markup, you could highlight a form element that is ready
 to accept keyboard input, as shown in
-[Figure 3-16](#ch03.xhtml_highlighting_a_form_element_that_has_foc){data-type="xref"}.
+[Figure 3-16](#ch03.xhtml_highlighting_a_form_element_that_has_foc){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch03.xhtml_highlighting_a_form_element_that_has_foc"
@@ -6033,7 +5345,7 @@ primary-sortas="focus-within pseudo-class" data-type="indexterm"}that,
 `:focus-within` applies to any element that has focus, or any element
 that has a descendant with focus. Given the following CSS and HTML,
 we'll get the result shown in
-[Figure 3-17](#ch03.xhtml_selecting_with_focus_within){data-type="xref"}:
+[Figure 3-17](#ch03.xhtml_selecting_with_focus_within){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 nav:focus-within {border: 3px solid silver;}
@@ -6088,7 +5400,7 @@ primary=":visited pseudo-class" primary-sortas="visited pseudo-class"
 data-type="indexterm"}pseudo-classes present some interesting issues and
 peculiarities. For example, you can set visited and unvisited links to
 one font size and make hovered links a larger size, as shown in
-[Figure 3-18](#ch03.xhtml_changing_layout_with_dynamic_pseudo-clas){data-type="xref"}:
+[Figure 3-18](#ch03.xhtml_changing_layout_with_dynamic_pseudo-clas){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a:link, a:visited {font-size: 13px;}
@@ -6134,7 +5446,7 @@ data-type="indexterm"}[]{#ch03.xhtml_ix_pseudo_class_uistate
 primary="pseudo-class selectors" secondary="UI-state pseudo-classes"
 data-type="indexterm"}related to the dynamic pseudo-classes are the
 *user-interface (UI) state pseudo-classes*, which are summarized in
-[Table 3-4](#ch03.xhtml_ui_state_pseudo-classes-id1){data-type="xref"}.
+[Table 3-4](#ch03.xhtml_ui_state_pseudo-classes-id1){data-type="xref"}.
 These pseudo-classes allow for styling based on the current state of UI
 elements such as checkboxes.
 
@@ -6187,7 +5499,7 @@ enabled. You can style these two states by using the `:enabled` and
 `:disabled` pseudo-classes. It's much more common to style disabled
 elements and leave enabled elements alone, but both have their uses, as
 illustrated in
-[Figure 3-19](#ch03.xhtml_styling_enabled_and_disabled_ui_elements){data-type="xref"}:
+[Figure 3-19](#ch03.xhtml_styling_enabled_and_disabled_ui_elements){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 :enabled {font-weight: bold;}
@@ -6221,7 +5533,7 @@ primary-sortas="indeterminate pseudo-class"
 data-type="indexterm"}addition, the `:indeterminate` pseudo-class
 matches any checkable UI element that is neither checked nor unchecked.
 These states are illustrated in
-[Figure 3-20](#ch03.xhtml_styling_checked_and_indeterminate_ui_ele){data-type="xref"}:
+[Figure 3-20](#ch03.xhtml_styling_checked_and_indeterminate_ui_ele){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 :checked {background: silver;}
@@ -6358,7 +5670,7 @@ input:autofill {border: thick solid maroon;}
 
 While you can add to default browser styling of autofilled text,
 overriding the browser's built-in styles for things such as background
-colors is difficult. This is because the browsers' styles for autofilled
+colors is difficult. This is because the browsers' styles for autofilled
 fields are set to override just about anything else, largely as a way to
 provide users with a consistent experience of autofilled content and to
 protect the user.
@@ -6426,7 +5738,7 @@ depending on the current state of the interface.
 In the following example, an image is dropped into the background of any
 email input that has focus, with one image being used when the input is
 invalid and another used when the input is valid, as illustrated in
-[Figure 3-21](#ch03.xhtml_styling_valid_and_invalid_inputs){data-type="xref"}:
+[Figure 3-21](#ch03.xhtml_styling_valid_and_invalid_inputs){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 input[type="email"]:focus {
@@ -6671,7 +5983,7 @@ have some restrictions on its use, but let's start with an example.
 
 Let us suppose you want to apply a style to every list item that does
 not have a `class` of `moreinfo`, as illustrated in
-[Figure 3-22](#ch03.xhtml_styling_list_items_that_donat_have_a_cer){data-type="xref"}.
+[Figure 3-22](#ch03.xhtml_styling_list_items_that_donat_have_a_cer){data-type="xref"}.
 That used to be very difficult, and in certain cases impossible, to make
 happen. Now we can declare the following:
 
@@ -6695,7 +6007,7 @@ what the original selector cannot match.
 
 Let's flip around the previous example and select all elements with a
 class of `moreinfo` that are not list items. This is illustrated in
-[Figure 3-23](#ch03.xhtml_styling_elements_with_a_certain_class_th){data-type="xref"}:
+[Figure 3-23](#ch03.xhtml_styling_elements_with_a_certain_class_th){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .moreinfo:not(li) {font-style: italic;}
@@ -6723,7 +6035,7 @@ complex selector. Thus, to select all tables that are not children of a
 Similarly, to select table header cells that are not part of the table
 header, you'd write something like `table *:not(thead) > tr > th`, with
 a result like that shown in
-[Figure 3-24](#ch03.xhtml_styling_table_cells_that_arenat_in_the_t){data-type="xref"}.
+[Figure 3-24](#ch03.xhtml_styling_table_cells_that_arenat_in_the_t){data-type="xref"}.
 
 <figure>
 <div id="ch03.xhtml_styling_table_cells_that_arenat_in_the_t"
@@ -6823,7 +6135,7 @@ does not contain the word `one` (`<div class="two">`), but it is *also*
 descended from a `<div>` whose class contains the word `one`. Both rules
 match, so both apply. Since a conflict exists, the cascade (which is
 explained in
-[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"})
+[Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"})
 is used to resolve the conflict, and the second rule wins. The
 structural arrangement of the markup, with the `div.two` being "closer"
 to the paragraph than `div.one`, is
@@ -6874,7 +6186,7 @@ For example, what if we want to style all list items that are at least
 two levels deep in nested lists, no matter what combination of ordered
 and unordered lists are above them? Compare the following rules, both of
 which will have the effect shown in
-[Figure 3-25](#ch03.xhtml_using_matches_any_to_select){data-type="xref"},
+[Figure 3-25](#ch03.xhtml_using_matches_any_to_select){data-type="xref"},
 except one uses the traditional approach and the other uses `:is()`:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -6999,7 +6311,7 @@ that's exactly what `:has()` makes possible.
 
 The previous example would be written something like this, with the
 result illustrated in
-[Figure 3-26](#ch03.xhtml_using_has_to_select_elements){data-type="xref"}:
+[Figure 3-26](#ch03.xhtml_using_has_to_select_elements){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div:has(img) {
@@ -7036,7 +6348,7 @@ to use the child combinator, like this: `div:has(> img)`. That would
 prevent the third `<div>` from getting the border.
 
 The `:has()` pseudo-class is, in one real sense, the mythical "parent
-selector" CSS authors have wished for since the beginning of CSS itself.
+selector" CSS authors have wished for since the beginning of CSS itself.
 Except it isn't just for parent selection, because you can select based
 on siblings, or make the selection happen as far up the ancestry chain
 as you like. And if all that didn't quite make sense to you, hang on:
@@ -7128,7 +6440,7 @@ descendant `<h1>`." The `<html>` element will never be a descendant of
 To pick something a little more realistic, here's a bit of markup
 showing lists nested inside one another, which has the document
 structure shown in
-[Figure 3-27](#ch03.xhtml_a_fragment_of_a_doc){data-type="xref"}:
+[Figure 3-27](#ch03.xhtml_a_fragment_of_a_doc){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <ol>
@@ -7182,7 +6494,7 @@ that descend from the `<ul>`, then the `<ul>` is matched, and in this
 case will be given a red border.
 
 If we study the markup structure, either in the code or in
-[Figure 3-27](#ch03.xhtml_a_fragment_of_a_doc){data-type="xref"}, we can
+[Figure 3-27](#ch03.xhtml_a_fragment_of_a_doc){data-type="xref"}, we can
 see two `<ul>` elements. The first has `<li>` descendants but not any
 `<ol>` descendants, so it won't be matched. The second `<ul>` also has
 `<li>` descendants, and one of them has an `<ol>` descendant. It's a
@@ -7223,7 +6535,7 @@ Here, if an element *is* one of the listed heading levels, but an
 `<img>` element is *not* one of the descendants it has, then the heading
 will be selected. If we bring them together and apply them to numerous
 headings, we get the results shown in
-[Figure 3-28](#ch03.xhtml_to_has_and_has_not){data-type="xref"}.
+[Figure 3-28](#ch03.xhtml_to_has_and_has_not){data-type="xref"}.
 
 <figure>
 <div id="ch03.xhtml_to_has_and_has_not" class="figure">
@@ -7263,7 +6575,7 @@ element loses that class value, potentially affecting elements in
 entirely different parts of the document.
 
 This sort of performance hit is why there hasn't been a "parent
-selector" or anything like it before. Computers are getting fast enough,
+selector" or anything like it before. Computers are getting fast enough,
 and browser engines smart enough, that this is much less of a worry than
 it was in the past---but it's still something to keep in mind and test
 out thoroughly.[]{#ch03.xhtml_idm45797104200736 primary=""
@@ -7289,7 +6601,7 @@ Even more pseudo-classes are defined in the CSS Selectors specification,
 but they are partially supported in browsers, or in some cases not
 supported at all as of early 2023, or else are things we'll cover
 elswhere in the book. We're listing them in
-[Table 3-5](#ch03.xhtml_other_pseudo-classes){data-type="xref"} for the
+[Table 3-5](#ch03.xhtml_other_pseudo-classes){data-type="xref"} for the
 sake of completeness, and to point you toward pseudo-classes that might
 be supported between this edition of the book and the next one. (Or
 could be replaced with an equivalent pseudo-class with a different name;
@@ -7299,14 +6611,14 @@ that happens sometimes.)
   ----------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   `:nth-col()`            Refers to table cells or grid items that are in an nth column, which is found using the *an* + *b* pattern; essentially the same as `:nth-child()`, but refers specifically to table or grid columns
   `:nth-last-col()`       Refers to table cells or grid items that are in an nth-last column, which is found using the *an* + *b* pattern; essentially the same as `:nth-last-child()`, but refers specifically to table or grid columns
-  `:left`                 Refers to any lefthand page in a printed document; see [Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"} for more
-  `:right`                Refers to any righthand page in a printed document; see [Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"} for more
+  `:left`                 Refers to any lefthand page in a printed document; see [Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"} for more
+  `:right`                Refers to any righthand page in a printed document; see [Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"} for more
   `:fullscreen`           Refers to an element that is being displayed full-screen (e.g., a video that's in full-screen mode)
   `:past`                 Refers to an element that appeared before (in time) an element being matched by `:current`
   `:current`              Refers to an element, or the ancestor of an element, that is currently being displayed in a time-based format like a video (e.g., an element containing closed-caption text)
   `:future`               Refers to an element that will appear after (in time) an element being matched by `:current`
-  `:paused`               Refers to any element that can have the states "playing" or "paused" (e.g., audio, video, etc.) when it is in the "paused" state
-  `:playing`              Refers to any element that can have the states "playing" or "paused" (e.g., audio, video, etc.) when it is in the "playing" state
+  `:paused`               Refers to any element that can have the states "playing" or "paused" (e.g., audio, video, etc.) when it is in the "paused" state
+  `:playing`              Refers to any element that can have the states "playing" or "paused" (e.g., audio, video, etc.) when it is in the "playing" state
   `:picture-in-picture`   Refers to an element that is used as a picture-in-picture display[]{#ch03.xhtml_idm45797104147856 primary="" startref="ix_pseudo_class_ch3" data-type="indexterm"}
 
   : [Table 3-5. ]{.label}Other pseudo-classes {#other_pseudo-classes}
@@ -7371,7 +6683,7 @@ paragraph:
 p:first-of-type::first-letter {font-size: 200%;}
 ```
 
-[Figure 3-29](#ch03.xhtml_the_colon_colon_first-letter_pseudo-elem){data-type="xref"}
+[Figure 3-29](#ch03.xhtml_the_colon_colon_first-letter_pseudo-elem){data-type="xref"}
 illustrates the result of this rule.
 
 <figure class="coderesult">
@@ -7435,7 +6747,7 @@ p::first-line {
 ```
 
 In
-[Figure 3-30](#ch03.xhtml_the_colon_colon_first-line_pseudo-elemen){data-type="xref"},
+[Figure 3-30](#ch03.xhtml_the_colon_colon_first-line_pseudo-elemen){data-type="xref"},
 the style is applied to the first displayed line of text in each
 paragraph. This is true no matter how wide or narrow the display region
 is. If the first line contains only the first five words of the
@@ -7497,7 +6809,7 @@ currently can be applied only to block-display elements such as headings
 or paragraphs, and not to inline-display elements such as hyperlinks.
 There are also limits on the CSS properties that may be applied to
 `::first-line` and `::first-letter`.
-[Table 3-6](#ch03.xhtml_properties_permitted_on_pseudo-elements){data-type="xref"}
+[Table 3-6](#ch03.xhtml_properties_permitted_on_pseudo-elements){data-type="xref"}
 gives an idea of these limitations. Like all pseudo-elements, neither
 can be included in `:has()` or `:not()`.
 
@@ -7596,7 +6908,7 @@ That second line gets replaced with a control whose appearance is
 dependent on the combination of operating system and browser, so it
 tends to look at least a little different (sometimes a lot different)
 from one user to the next.
-[Figure 3-31](#ch03.xhtml_styling_button_file_submission){data-type="xref"}
+[Figure 3-31](#ch03.xhtml_styling_button_file_submission){data-type="xref"}
 shows one possible rendering of the input, with the button styled by the
 following CSS:
 
@@ -7637,7 +6949,7 @@ CSS lets you []{#ch03.xhtml_idm45797103694528
 primary="::after pseudo-element" primary-sortas="after pseudo-element"
 data-type="indexterm"}insert *generated content*, and then style it
 directly using the pseudo-elements `::before` and `::after`.
-[Figure 3-32](#ch03.xhtml_inserting_content_before_an_element){data-type="xref"}
+[Figure 3-32](#ch03.xhtml_inserting_content_before_an_element){data-type="xref"}
 illustrates an example.
 
 <figure class="coderesult">
@@ -7666,7 +6978,7 @@ in order to insert something to style.
 Generated content is its own subject, and the entire topic (including
 more detail on `::before`, `::after`, and `content`) is covered more
 thoroughly in
-[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.
+[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.
 :::
 ::::
 
@@ -7681,7 +6993,7 @@ primary="highlight pseudo-elements" data-type="indexterm"}concept in CSS
 is the ability to style pieces of content that have been highlighted,
 either by user selection or by the user agent itself. These are
 summarized in
-[Table 3-7](#ch03.xhtml_highlight_pseudo-elements){data-type="xref"}.
+[Table 3-7](#ch03.xhtml_highlight_pseudo-elements){data-type="xref"}.
 
   Name                 Description
   -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -7694,7 +7006,7 @@ summarized in
   {#highlight_pseudo-elements}
 
 Of the four pseudo-elements in
-[Table 3-7](#ch03.xhtml_highlight_pseudo-elements){data-type="xref"},
+[Table 3-7](#ch03.xhtml_highlight_pseudo-elements){data-type="xref"},
 only one, `::selection`, has any appreciable support as of early 2023.
 So we'll explore it and leave the others for a future edition.
 
@@ -7734,7 +7046,7 @@ the next. In effect, each paragraph will get its own selection
 pseudo-element nested inside, and selection styling will be handled as
 appropriate for the context. Given the following CSS and HTML, you'll
 get a result like that shown in
-[Figure 3-33](#ch03.xhtml_selection_styling){data-type="xref"}:
+[Figure 3-33](#ch03.xhtml_selection_styling){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .p1::selection {color: silver; background-color: black;}
@@ -7795,7 +7107,7 @@ The part at the end says to the browser, "Once you've loaded the page,
 highlight any examples of this text." The text is encoded for use in
 URLs, which is why it's filled with `%20` strings---they represent
 spaces. The result will look something like
-[Figure 3-34](#ch03.xhtml_target_text_styling){data-type="xref"}.
+[Figure 3-34](#ch03.xhtml_target_text_styling){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch03.xhtml_target_text_styling" class="figure">
@@ -8422,7 +7734,7 @@ p {color: gray; background: white; font-style: normal;} /* 0,0,1 */
 
 When applied to the following markup, the content will be rendered as
 shown in
-[Figure 4-1](#ch04.xhtml_how_different_rules_affect_a_document){data-type="xref"}:
+[Figure 4-1](#ch04.xhtml_how_different_rules_affect_a_document){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <h1>Greetings!</h1>
@@ -8667,7 +7979,7 @@ important and an unimportant declaration conflict, an important
 declaration will always win (unless the user agent or user have declared
 the same property as important, which you'll see later in the chapter).
 
-[Figure 4-2](#ch04.xhtml_important_rules_always_win){data-type="xref"}
+[Figure 4-2](#ch04.xhtml_important_rules_always_win){data-type="xref"}
 illustrates the result of the following rules and markup
 fragment:[]{#ch04.xhtml_idm45797098304032 primary=""
 startref="ix_import_declar"
@@ -8762,7 +8074,7 @@ We expect that style applied to a `<ul>` will also be applied to its
 list items, as well as to any content of those list items, including the
 marker (i.e., the bullet next to each list item). Thanks to inheritance,
 that's exactly what happens, as
-[Figure 4-3](#ch04.xhtml_inheritance_of_styles){data-type="xref"}
+[Figure 4-3](#ch04.xhtml_inheritance_of_styles){data-type="xref"}
 demonstrates.
 
 <figure class="coderesult">
@@ -8776,9 +8088,9 @@ alt="css5 0403" />
 
 It's easier to see how inheritance works by turning to a tree diagram of
 a document.
-[Figure 4-4](#ch04.xhtml_a_simple_tree_diagram){data-type="xref"} shows
+[Figure 4-4](#ch04.xhtml_a_simple_tree_diagram){data-type="xref"} shows
 the tree diagram for a document much like the very simple document shown
-in [Figure 4-3](#ch04.xhtml_inheritance_of_styles){data-type="xref"}.
+in [Figure 4-3](#ch04.xhtml_inheritance_of_styles){data-type="xref"}.
 
 <figure>
 <div id="ch04.xhtml_a_simple_tree_diagram" class="figure">
@@ -8821,7 +8133,7 @@ secondary="inheritance risks with" data-type="indexterm"}properties are
 not inherited---generally in order to avoid undesirable outcomes. For
 example, the property `border` (which is used to set borders on
 elements) does not inherit. A quick glance at
-[Figure 4-5](#ch04.xhtml_why_borders_arenat_inherited){data-type="xref"}
+[Figure 4-5](#ch04.xhtml_why_borders_arenat_inherited){data-type="xref"}
 reveals why this is the case. If borders were inherited, documents would
 become much more cluttered---unless the author took the extra effort to
 turn off the inherited borders.
@@ -8847,7 +8159,7 @@ specificity. This seems like an academic distinction until you work
 through the consequences of the lack of inherited specificity. Consider
 the following rules and markup fragment and compare them to the result
 shown in
-[Figure 4-6](#ch04.xhtml_zero_specificity_defeats_no_specificity){data-type="xref"}:
+[Figure 4-6](#ch04.xhtml_zero_specificity_defeats_no_specificity){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 * {color: gray;}
@@ -8924,7 +8236,7 @@ To overcome this problem, you must declare something like this:
 
 By targeting a rule directly at the `a` elements within the toolbar,
 you'll get the result shown in
-[Figure 4-7](#ch04.xhtml_directly_assigning_styles_to_the_relevan){data-type="xref"}.
+[Figure 4-7](#ch04.xhtml_directly_assigning_styles_to_the_relevan){data-type="xref"}.
 
 <figure>
 <div id="ch04.xhtml_directly_assigning_styles_to_the_relevan"
@@ -8945,7 +8257,7 @@ covered in the next chapter. We can alter the previous example like so:
 ```
 
 This also leads to the result shown in
-[Figure 4-7](#ch04.xhtml_directly_assigning_styles_to_the_relevan){data-type="xref"},
+[Figure 4-7](#ch04.xhtml_directly_assigning_styles_to_the_relevan){data-type="xref"},
 because the value of `color` is explicitly inherited thanks to an
 assigned rule whose selector has
 specificity.[]{#ch04.xhtml_idm45797097849728 primary=""
@@ -9145,7 +8457,7 @@ declaration precedence. In order of most to least precedence, these are
 as follows:
 
 1.  Transition declarations (see
-    [Chapter 18](../Text/ch18.xhtml#x-transitions){data-type="xref"})
+    [Chapter 18](../Text/ch18.xhtml#x-transitions){data-type="xref"})
 
 2.  User agent important declarations
 
@@ -9154,7 +8466,7 @@ as follows:
 4.  Author important declarations
 
 5.  Animation declarations (see
-    [Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"})
+    [Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"})
 
 6.  Author normal declarations
 
@@ -9474,7 +8786,7 @@ p {color: black;}
 
 Given these rules, the text of the paragraph will be silver, as
 illustrated in
-[Figure 4-8](#ch04.xhtml_higher_specificity_wins_out_over_lower){data-type="xref"}.
+[Figure 4-8](#ch04.xhtml_higher_specificity_wins_out_over_lower){data-type="xref"}.
 Why? Because the specificity of `p#bright` (`1,0,1`) overrides the
 specificity of `p` (`0,0,1)`, even though the latter rule comes later in
 the stylesheet. The styles from the `page` layer, even though they have
@@ -10304,7 +9616,7 @@ one of the following:
     data-type="indexterm"} to either a linear, radial, or conic gradient
     image, either singly or in a repeating pattern. Gradients are fairly
     complex and are covered in detail in
-    [Chapter 9](../Text/ch09.xhtml#gradients){data-type="xref"}.
+    [Chapter 9](../Text/ch09.xhtml#gradients){data-type="xref"}.
 
 \<*`image-set`*\>
 
@@ -10455,7 +9767,7 @@ they cannot be used with other unit types in `calc()` functions.
 ###### Note {#ch05.xhtml_sigil_toc_id_252}
 
 Fraction values are mostly used in grid layout (see
-[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}), but
+[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}), but
 there are plans to use it in more contexts, such as the planned (as of
 early 2023) `stripes()` function.[]{#ch05.xhtml_idm45797106290480
 primary="" startref="ix_value_number" data-type="indexterm"}
@@ -10569,7 +9881,7 @@ screen is set; there isn't much that you, as the author, can do about
 these factors. If nothing else, measurements should be consistent in
 relation to each other---that is, a setting of `1.0in` should be twice
 as large as `0.5in`, as shown in
-[Figure 5-1](#ch05.xhtml_setting_absolute-length_left_margins){data-type="xref"}.
+[Figure 5-1](#ch05.xhtml_setting_absolute-length_left_margins){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch05.xhtml_setting_absolute-length_left_margins"
@@ -10609,7 +9921,7 @@ The following image is 20 pixels tall and wide: <img src="test.gif"
 
 Then it follows that the element will be that many screen elements tall
 and wide, as shown in
-[Figure 5-2](#ch05.xhtml_using_pixel_lengths){data-type="xref"}.
+[Figure 5-2](#ch05.xhtml_using_pixel_lengths){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch05.xhtml_using_pixel_lengths" class="figure">
@@ -10644,7 +9956,7 @@ The [W3C](https://www.w3.org/TR/css-values-4/#reference-pixel) defines
 > of 96dpi and a distance from the reader of an arm's length. For a
 > nominal arm's length of 28 inches, the visual angle is therefore about
 > 0.0213 degrees. For reading at arm's length, 1px thus corresponds to
-> about 0.26 mm (1/96 inch).
+> about 0.26 mm (1/96 inch).
 
 On most modern displays, the actual number of pixels per inch (ppi) is
 higher than 96---sometimes much higher. The Retina display on an iPhone
@@ -10776,7 +10088,7 @@ small {font-size: 0.8em;}
 
 When setting the size of the font, on the other hand, the value of `em`
 is relative to the font size of the parent element, as illustrated in
-[Figure 5-3](#ch05.xhtml_using_em_for_margins_and_font_sizing){data-type="xref"}.
+[Figure 5-3](#ch05.xhtml_using_em_for_margins_and_font_sizing){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch05.xhtml_using_em_for_margins_and_font_sizing"
@@ -10804,7 +10116,7 @@ the font being used. Therefore, if two paragraphs use text that is 24
 points in size, but each paragraph uses a different font, then the value
 of `ex` could be different for each paragraph. This is because different
 fonts have different heights for *x*, as you can see in
-[Figure 5-4](#ch05.xhtml_varying_x-heights){data-type="xref"}. Even
+[Figure 5-4](#ch05.xhtml_varying_x-heights){data-type="xref"}. Even
 though the examples use 24-point text---and therefore each example's
 `em` value is 24 points---the x-height for each [is
 different.]{.keep-together}
@@ -10848,7 +10160,7 @@ either positive or negative).
 The easiest way to demonstrate the `ch` unit is to run a bunch of zeros
 together and then set an image to have a width with the same number of
 `ch` units as the number of zeros, as shown in
-[Figure 5-5](#ch05.xhtml_character-relative_sizing){data-type="xref"}:
+[Figure 5-5](#ch05.xhtml_character-relative_sizing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {height: 1em; width: 25ch;}
@@ -10933,7 +10245,7 @@ same font-size value as the root element of the document.
 
 As an example, consider the following markup fragment. It will have the
 result shown in
-[Figure 5-6](#ch05.xhtml_ems_versus_rems){data-type="xref"}:
+[Figure 5-6](#ch05.xhtml_ems_versus_rems){data-type="xref"}:
 
 ``` {code-language="html" data-type="programlisting"}
 <p> This paragraph has the same font size as the root element thanks to
@@ -11010,7 +10322,7 @@ font size is set for the root element.
 
 As mentioned previously, `rem` is not the only root-relative unit
 defined by CSS.
-[Table 5-1](#ch05.xhtml_root-relative_equivalents){data-type="xref"}
+[Table 5-1](#ch05.xhtml_root-relative_equivalents){data-type="xref"}
 summarizes the other root-relative units.
 
   Length   Root-relative unit   Relative to
@@ -11074,7 +10386,7 @@ display, etc.:
     primary="vb (viewport block) unit" data-type="indexterm"} to the
     size of the viewport along the block axis, divided by 100. The block
     axis is explained in
-    [Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}.
+    [Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}.
     In top-to-bottom languages like English or Arabic, `vb` will be
     equal to `vh` by default.
 
@@ -11084,7 +10396,7 @@ display, etc.:
     primary="vi (viewport inline) unit" data-type="indexterm"} to the
     size of the viewport along the inline axis, divided by 100. The
     inline axis is explained in
-    [Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}.
+    [Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}.
     In horizontally written languages like English or Arabic, `vi` will
     be equal to `vw` by default.
 
@@ -11120,7 +10432,7 @@ have to worry about the precise dimensions of the actual viewport in any
 particular case.
 
 A basic example of viewport-relative sizing is illustrated in
-[Figure 5-7](#ch05.xhtml_viewport-relative_sizing){data-type="xref"}:
+[Figure 5-7](#ch05.xhtml_viewport-relative_sizing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {width: 50vh; height: 33vw; background: gray;}
@@ -11405,7 +10717,7 @@ in fact, a *lot* of these, listed here:
 That's 97 different function values. We'll cover some in the rest of
 this chapter. The rest are covered in other chapters, as appropriate for
 their topics (e.g., the filter functions are described in
-[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}).
+[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}).
 
 :::: {.section pdf-bookmark="Calculation Values" data-type="sect2"}
 ::: {#ch05.xhtml_calc .sect2}
@@ -11516,7 +10828,7 @@ The browser will compute the width of `25vw` and compare that to
 the width of the viewport, then `200px` will be used. Otherwise, the
 element will be 25% as wide as the viewport, which could easily be
 smaller than `1em`. Note that *smaller* in this case means closest to
-negative infinity, not closest to zero. Thus, if you compare two terms
+negative infinity, not closest to zero. Thus, if you compare two terms
 that compute to (say) `-1500px` and `-2px`, `min()` will pick `-1500px`.
 
 You can nest `min()` inside `min()`, or throw a mathematical expression
@@ -11602,7 +10914,7 @@ If you've []{#ch05.xhtml_idm45797087379056
 primary="clamping values, functions" data-type="indexterm"}already been
 thinking about ways to nest `min()` and `max()` to set upper and lower
 bounds on a value, there's a way to not only do that, but set an
-"ideal" value as well: `clamp()`. This function value takes three
+"ideal" value as well: `clamp()`. This function value takes three
 parameters representing, in order, the minimum allowed value, preferred
 value, and maximum allowed value.
 
@@ -11655,7 +10967,7 @@ with the `attr()` function.
 For example, with generated content, you can insert the value of any
 attribute. It looks something like this (don't worry about understanding
 the exact syntax, which we'll explore in
-[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}):
+[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 p::before {content: "[" attr(id) "]";}
@@ -11665,7 +10977,7 @@ That expression would prefix any paragraph that has an `id` attribute
 with the value of that `id`, enclosed in square brackets. Therefore,
 applying the previous style to the following paragraphs would have the
 result shown in
-[Figure 5-8](#ch05.xhtml_inserting_attribute_values){data-type="xref"}:
+[Figure 5-8](#ch05.xhtml_inserting_attribute_values){data-type="xref"}:
 
 ``` {code-language="html" data-type="programlisting"}
 <p id="leadoff">This is the first paragraph.</p>
@@ -11764,7 +11076,7 @@ h1 {color: maroon;}
 ```
 
 Simple enough, isn't it?
-[Figure 5-9](#ch05.xhtml_naming_colors){data-type="xref"} shows a few
+[Figure 5-9](#ch05.xhtml_naming_colors){data-type="xref"} shows a few
 more examples:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -11838,7 +11150,7 @@ declaration uses `currentcolor` to copy the computed value of
 `color`---in this case `gray`---and apply it to any borders the `<main>`
 elements might have. Incidentally, `currentcolor` is actually the
 default value for `border-color`, which we'll cover in
-[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"}.
+[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"}.
 
 As with all the named colors, these color names are case-insensitive. We
 show `currentcolor` with mixed capitalization because it is generally
@@ -11933,7 +11245,7 @@ h1 {color: rgb(191,127,127);}
 
 The easiest way to visualize how these values correspond to color is to
 create a table of gray values. The result is shown in
-[Figure 5-10](#ch05.xhtml_text_set_in_shades_of_gray){data-type="xref"}:
+[Figure 5-10](#ch05.xhtml_text_set_in_shades_of_gray){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p.one {color: rgb(0%,0%,0%);}
@@ -12032,7 +11344,7 @@ rgba(100% 100% 100% / 0.5)  /* commas would also be allowed */
 To make a color completely transparent, you set the alpha value to `0`;
 to be completely opaque, the correct value is `1`. Thus `rgb(0,0,0)` and
 `rgba(0,0,0,1)` will yield precisely the same result (black).
-[Figure 5-11](#ch05.xhtml_text_set_in_progressive_translucency){data-type="xref"}
+[Figure 5-11](#ch05.xhtml_text_set_in_progressive_translucency){data-type="xref"}
 shows a series of paragraphs set in increasingly transparent black,
 which is the result of the following rules:
 
@@ -12131,7 +11443,7 @@ data-type="indexterm"}[]{#ch05.xhtml_idm45797086239632
 primary="hexadecimal RGBa colors" data-type="indexterm"}notation can
 have a fourth hex value to represent the alpha channel value. The
 following rules style the series of paragraphs in
-[Figure 5-12](#ch05.xhtml_text_set_in_progressive_translucency_redux){data-type="xref"},
+[Figure 5-12](#ch05.xhtml_text_set_in_progressive_translucency_redux){data-type="xref"},
 which are set in increasingly transparent black, just as you saw in the
 previous section:
 
@@ -12193,7 +11505,7 @@ Similarly, *lightness* defines how dark or light the color appears. A
 lightness of `0%` is always black, regardless of the other hue and
 saturation values, just as a lightness of `100%` always yields white.
 Consider the results of the following styles, illustrated on the left
-side of [Figure 5-13](#ch05.xhtml_varying_lightness){data-type="xref"}.
+side of [Figure 5-13](#ch05.xhtml_varying_lightness){data-type="xref"}.
 
 ``` {code-language="css" data-type="programlisting"}
 p.one {color: hsl(0,0%,0%);}
@@ -12233,7 +11545,7 @@ is raised to, say, `50%`, then the hue angle will become very important,
 because it will control what sort of color you see. Consider the same
 set of values that we saw before, but all set to `50%` saturation; this
 is illustrated on the right side of
-[Figure 5-13](#ch05.xhtml_varying_lightness){data-type="xref"}, although
+[Figure 5-13](#ch05.xhtml_varying_lightness){data-type="xref"}, although
 the color is not visible in the print version of this
 book.[]{#ch05.xhtml_idm45797086003040 primary=""
 startref="ix_hsl_colors"
@@ -12250,7 +11562,7 @@ are all black with varying shades of transparency, just as in
 ["Hexadecimal RGBa
 colors"](#ch05.xhtml_hexadecimal_rgba_colors){data-type="xref"} (and
 illustrated in
-[Figure 5-12](#ch05.xhtml_text_set_in_progressive_translucency_redux){data-type="xref"}):
+[Figure 5-12](#ch05.xhtml_text_set_in_progressive_translucency_redux){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 p.one {color: hsl(0,0%,0%,1);}
@@ -12530,7 +11842,7 @@ or `rgb(100% 80% 0% / 0.5)`.
 
 For nonreplaced elements like paragraphs or `<em>` elements, `color`
 sets the color of the text in the element. The following code results in
-[Figure 5-14](#ch05.xhtml_cab_fig01){data-type="xref"}:
+[Figure 5-14](#ch05.xhtml_cab_fig01){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 <p style="color: gray;">This paragraph has a gray foreground.</p>
@@ -12576,7 +11888,7 @@ Then you change your mind, deciding that warning text should be dark
 red, and that unvisited links in such text should be medium purple. The
 preceding rules need only be changed to reflect the new values. The
 following code results in
-[Figure 5-15](#ch05.xhtml_cab_fig02){data-type="xref"}:
+[Figure 5-15](#ch05.xhtml_cab_fig02){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p.warn {color: #600;}
@@ -12656,7 +11968,7 @@ data-type="indexterm"}[]{#ch05.xhtml_idm45797085264592
 primary="color values" secondary="affecting form elements"
 data-type="indexterm"}can also set the foreground color of input
 elements---although, as you can see in
-[Figure 5-16](#ch05.xhtml_cab_fig05){data-type="xref"}, doing so would
+[Figure 5-16](#ch05.xhtml_cab_fig05){data-type="xref"}, doing so would
 apply that color to all inputs, from text to radio buttons to checkbox
 inputs:
 
@@ -12674,7 +11986,7 @@ alt="css5 0516" />
 </div>
 </figure>
 
-Note in [Figure 5-16](#ch05.xhtml_cab_fig05){data-type="xref"} that the
+Note in [Figure 5-16](#ch05.xhtml_cab_fig05){data-type="xref"} that the
 text color next to the checkboxes is still black. This is because the
 rules shown assign styles only to elements like `<input>` and
 `<select>`, not normal paragraph (or other) text.
@@ -12690,7 +12002,7 @@ style the contents of form elements (though this may change in the
 future).
 
 In practice, the line is a lot blurrier than that, as
-[Figure 5-16](#ch05.xhtml_cab_fig05){data-type="xref"} demonstrates.
+[Figure 5-16](#ch05.xhtml_cab_fig05){data-type="xref"} demonstrates.
 Some form inputs have the color of their text and even portions of their
 UI changed, while others do not. And since the rules aren't explicitly
 defined, behavior is inconsistent across browsers. In short, form
@@ -12713,7 +12025,7 @@ you probably expect that any text within that paragraph will also be
 gray, even if it's emphasized or boldfaced or whatever. If you *want*
 such [elements]{.keep-together} to be different colors, that's easy
 enough. The following code, for example, results in
-[Figure 5-17](#ch05.xhtml_cab_fig06){data-type="xref"}:
+[Figure 5-17](#ch05.xhtml_cab_fig06){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 em {color: red;}
@@ -12780,7 +12092,7 @@ types:
     2023, and will be ignored.)
 
 To help understand the relationships among these angle types,
-[Table 5-2](#ch05.xhtml_angle_equivalents){data-type="xref"} shows how
+[Table 5-2](#ch05.xhtml_angle_equivalents){data-type="xref"} shows how
 some angles are expressed in the various angle units. Unlike for length
 values, when including angles, the unit is always required, even if the
 value is `0deg`.
@@ -12947,7 +12259,7 @@ itself has this capability as well. The technical term for this is
 something like variables in your CSS.
 
 Here's a basic example, with the result shown in
-[Figure 5-18](#ch05.xhtml_val_css4_custom-values){data-type="xref"}
+[Figure 5-18](#ch05.xhtml_val_css4_custom-values){data-type="xref"}
 (though color won't be visible in the printed version):
 
 ``` {code-language="css" data-type="programlisting"}
@@ -13008,7 +12320,7 @@ of custom properties is their ability to scope themselves to a given
 portion of the DOM. If that sentence made any sense to you, it probably
 gave a little thrill. If not, here's an example to illustrate scoping,
 with the result shown in
-[Figure 5-19](#ch05.xhtml_val_css4_custom-value-scoping){data-type="xref"}:
+[Figure 5-19](#ch05.xhtml_val_css4_custom-value-scoping){data-type="xref"}:
 
 ``` {.pagebreak-before code-language="css" data-type="programlisting"}
 html {
@@ -13238,7 +12550,7 @@ area* at its center. This content area is surrounded by optional amounts
 of padding, borders, outlines, and margins. These areas are considered
 optional because they could all be set to a size of 0, effectively
 removing them from the element box.
-[Figure 6-1](#ch06.xhtml_bvf_fig01){data-type="xref"} shows an example
+[Figure 6-1](#ch06.xhtml_bvf_fig01){data-type="xref"} shows an example
 content area, along with the surrounding regions of padding, borders,
 and margins.
 
@@ -13280,7 +12592,7 @@ Block flow direction
     (CJK) languages, this can be either right to left or top to bottom.
     The actual block flow direction is set by the writing mode, which is
     discussed in
-    [Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}.
+    [Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}.
 
 Inline base direction
 
@@ -13447,7 +12759,7 @@ primary="visual formatting" secondary="borders"
 data-type="indexterm"}[]{#ch06.xhtml_idm45797084209024
 primary="border-style property" data-type="indexterm"}understand some of
 the terminology, we can address the properties that make up
-[Figure 6-1](#ch06.xhtml_bvf_fig01){data-type="xref"}. The various
+[Figure 6-1](#ch06.xhtml_bvf_fig01){data-type="xref"}. The various
 margin, border, and padding features, such as `border-style`, can be set
 using various side-specific longhand properties, such as
 `margin-inline-start` or `border-bottom-width`. (The outline properties
@@ -13552,7 +12864,7 @@ We're going to ignore the `ruby`- and `table`-related values, since
 they're far too complex for this chapter. We'll also temporarily ignore
 the value `list-item`, since it's very similar to block boxes and is
 explored in detail in
-[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.
+[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.
 For now, we'll spend a moment talking about how altering an element's
 display role can alter layout.
 
@@ -13589,7 +12901,7 @@ nav a {display: block;}
 This will make every `<a>` element within the navigation element `<nav>`
 generate a block box, instead of its usual inline box. If we add on a
 few more styles, we could have a result like that shown in
-[Figure 6-2](#ch06.xhtml_bvf_fig02){data-type="xref"}.
+[Figure 6-2](#ch06.xhtml_bvf_fig02){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig02" class="figure">
@@ -13630,7 +12942,7 @@ data-type="indexterm"}this markup, say we want our display to show a
 series of inline names with vertical bars between them (and on each end
 of the list). The only way to do so is to change their display role. The
 following rules will have the effect shown in
-[Figure 6-3](#ch06.xhtml_bvf_fig03){data-type="xref"}:
+[Figure 6-3](#ch06.xhtml_bvf_fig03){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #rollcall li {display: inline; border-right: 1px solid; padding: 0 0.33em;}
@@ -13706,7 +13018,7 @@ surprising, ways. The handling of box placement along the block and
 inline axes can differ, for example. To fully understand how block boxes
 are handled, you must clearly understand several aspects of these boxes.
 They are shown in detail in
-[Figure 6-4](#ch06.xhtml_css5_07box){data-type="xref"}, which
+[Figure 6-4](#ch06.xhtml_css5_07box){data-type="xref"}, which
 illustrates placement in two different [writing modes.]{.keep-together}
 
 <figure class="bordernone">
@@ -13720,7 +13032,7 @@ alt="css5 0604" />
 
 As []{#ch06.xhtml_ix_vis_format_horiz primary="visual formatting"
 secondary="horizontal formatting" data-type="indexterm"}shown in
-[Figure 6-4](#ch06.xhtml_css5_07box){data-type="xref"},
+[Figure 6-4](#ch06.xhtml_css5_07box){data-type="xref"},
 []{#ch06.xhtml_idm45797083823664 primary="blocks"
 secondary="element boxes"
 data-type="indexterm"}[]{#ch06.xhtml_ix_write_mode_flow
@@ -13738,8 +13050,8 @@ Properties are available to set all these sizes, which we'll talk about
 shortly.
 
 Something important to note in
-[Figure 6-4](#ch06.xhtml_css5_07box){data-type="xref"} is the use of
-*start* and *end* to describe various parts of the element box.
+[Figure 6-4](#ch06.xhtml_css5_07box){data-type="xref"} is the use of
+*start* and *end* to describe various parts of the element box.
 []{#ch06.xhtml_idm45797083816896 primary="logical properties"
 secondary="margins" data-type="indexterm"}For example, you'll see a
 block-start margin and a block-end margin. The *start edge* is the edge
@@ -13748,7 +13060,7 @@ that you come to first as you move along an axis.
 This []{#ch06.xhtml_idm45797083814928 primary="boxes"
 secondary="element boxes" tertiary="edges" data-type="indexterm"}may be
 clearer if you look at
-[Figure 6-5](#ch06.xhtml_css5_07block-inline-axes){data-type="xref"} and
+[Figure 6-5](#ch06.xhtml_css5_07block-inline-axes){data-type="xref"} and
 trace your finger along each axis from arrow tail to tip. As you move
 along a block axis, the first edge you come to for each element is that
 element's block-start edge. As you pass out of the element, you move
@@ -13833,7 +13145,7 @@ even if that leads to content spilling out of the element box. (We'll
 discuss that in more detail later in the chapter.)
 
 Consider the following, which has the results shown in
-[Figure 6-6](#ch06.xhtml_sizing-elements-inline-axis){data-type="xref"}
+[Figure 6-6](#ch06.xhtml_sizing-elements-inline-axis){data-type="xref"}
 when applied in various writing modes:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -13850,7 +13162,7 @@ alt="css5 0606" />
 </figure>
 
 As seen in
-[Figure 6-6](#ch06.xhtml_sizing-elements-inline-axis){data-type="xref"},
+[Figure 6-6](#ch06.xhtml_sizing-elements-inline-axis){data-type="xref"},
 the elements are sized consistently along their inline axis, regardless
 of the writing direction. If you tilt your head to the side, you can see
 that the lines wrap in exactly the same places. This yields a consistent
@@ -13936,12 +13248,12 @@ sizing:
     all sounds a bit confusing, but we'll explain it in a moment.
 
 If you've worked at all with CSS Grid (covered in
-[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}), you may
+[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}), you may
 recognize these keywords, as they were originally defined as ways to
 size grid items. Now they're making their way into other areas of CSS.
 Let's consider the first two keywords, which are
 [demonstrated]{.keep-together} in
-[Figure 6-7](#ch06.xhtml_content-sizing){data-type="xref"}.
+[Figure 6-7](#ch06.xhtml_content-sizing){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_content-sizing" class="figure">
@@ -13970,7 +13282,7 @@ element would become just wide enough to fit *that* word, and every
 other line of text would very likely contain multiple words.
 
 Notice that, at the end of the `min-content` example in
-[Figure 6-7](#ch06.xhtml_content-sizing){data-type="xref"}, the browser
+[Figure 6-7](#ch06.xhtml_content-sizing){data-type="xref"}, the browser
 took advantage of the presence of the hyphen in `min-content` to trigger
 a line wrap there. Had it not made that choice, `min-content` would
 almost certainly have been the longest piece of content in the
@@ -13980,10 +13292,10 @@ understand to be natural line-wrapping points (e.g., spaces and
 hyphens), they'll likely be considered in the `min-content`
 calculations. If you want to squeeze the element width even further, you
 can enable auto-hyphenating of words with the `hyphens` property (see
-[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}).
+[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}).
 
 For some more examples of `min-content` sizing, see
-[Figure 6-8](#ch06.xhtml_minimum-content-sizing){data-type="xref"}.
+[Figure 6-8](#ch06.xhtml_minimum-content-sizing){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_minimum-content-sizing" class="figure">
@@ -14004,7 +13316,7 @@ inline size (usually its width) will be just big enough to enclose it,
 as if `max-content` were used. If there's enough content to wrap to
 multiple lines or otherwise threaten to overflow the element's
 container, the inline size stops there. This is illustrated in
-[Figure 6-9](#ch06.xhtml_fit-content-sizing){data-type="xref"}.
+[Figure 6-9](#ch06.xhtml_fit-content-sizing){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_fit-content-sizing" class="figure">
@@ -14079,7 +13391,7 @@ to a readable amount.
 It's also possible to set bounds on block sizing. A good example is
 limiting any image embedded in the normal flow to be its intrinsic size
 up to a certain point. The following CSS would have the effects shown in
-[Figure 6-10](#ch06.xhtml_maximum-block-sizing){data-type="xref"}:
+[Figure 6-10](#ch06.xhtml_maximum-block-sizing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #cb1 img {max-block-size: 2em;}
@@ -14116,7 +13428,7 @@ added new directions to the mix.
 
 If you were to change `inline-size` to `width` in the previous code
 example, you'd get a result more like that shown in
-[Figure 6-11](#ch06.xhtml_sizing-elements-width){data-type="xref"} (in
+[Figure 6-11](#ch06.xhtml_sizing-elements-width){data-type="xref"} (in
 which the vertical writing modes are clipped off well short of their
 full height).
 
@@ -14192,7 +13504,7 @@ Setting `height` to a \<*`percentage`*\> works similarly, except this
 works only if the containing block has an explicitly set height. If the
 containing block's height is automatically set, a percentage value is
 treated as `auto` instead, as seen in the `#cb4` example in
-[Figure 6-12](#ch06.xhtml_heights-and-widths){data-type="xref"}.
+[Figure 6-12](#ch06.xhtml_heights-and-widths){data-type="xref"}.
 
 ::: {.note data-type="note"}
 ###### Note {#ch06.xhtml_sigil_toc_id_350}
@@ -14208,7 +13520,7 @@ xrefstyle="select:labelnumber"}.
 
 Here are some examples of these values and combinations, with the result
 shown in
-[Figure 6-12](#ch06.xhtml_heights-and-widths){data-type="xref"}:
+[Figure 6-12](#ch06.xhtml_heights-and-widths){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 [id^="cb"] {border: 1px solid;}  /* "cb" for "containing block" */
@@ -14328,7 +13640,7 @@ element box will be 400 pixels from the inline-start border edge to the
 inline-end border edge; any inline-start or -end border or padding will
 be placed within that distance, thus shrinking the inline size of the
 content area. This is illustrated in
-[Figure 6-13](#ch06.xhtml_bvf_fig05){data-type="xref"}.
+[Figure 6-13](#ch06.xhtml_bvf_fig05){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig05" class="figure">
@@ -14348,7 +13660,7 @@ on will be added to that. If, on the other hand, you declare
 left outer border edge to the right outer border edge; any left or right
 border or padding will be placed within that distance, thus shrinking
 the width of the content area (again, as seen in
-[Figure 6-13](#ch06.xhtml_bvf_fig05){data-type="xref"}).
+[Figure 6-13](#ch06.xhtml_bvf_fig05){data-type="xref"}).
 
 We're talking about the `box-sizing` property here because, as stated,
 it applies to "all elements that accept `width` or `height` values"
@@ -14400,9 +13712,9 @@ data-type="indexterm"}total, block-axis formatting is affected by seven
 related properties: `margin-block-start`, `border-block-start`,
 `padding-block-start`, `height`, `padding-block-end`,
 `border-block-end`, and `margin-block-end`. These properties are
-diagrammed in [Figure 6-14](#ch06.xhtml_bvf_fig20){data-type="xref"}.
+diagrammed in [Figure 6-14](#ch06.xhtml_bvf_fig20){data-type="xref"}.
 These properties are all covered in detail in
-[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"};
+[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"};
 here, we will talk about the general principles and behavior of these
 properties before looking at the details of their values.
 
@@ -14410,7 +13722,7 @@ The block-start and -end padding and borders must be set to specific
 values, or else they default to a width of 0, assuming no border style
 is declared. If `border-style` has been set, the thickness of the
 borders is set to `medium`, which is 3 pixels wide in all known
-browsers. [Figure 6-14](#ch06.xhtml_bvf_fig20){data-type="xref"} depicts
+browsers. [Figure 6-14](#ch06.xhtml_bvf_fig20){data-type="xref"} depicts
 the block-axis formatting properties in two writing modes and indicates
 which parts of the box may have a value of `auto` and which may not.
 
@@ -14478,7 +13790,7 @@ block-end margin edge of its last child:
 </div>
 ```
 
-[Figure 6-15](#ch06.xhtml_bvf_fig23){data-type="xref"} demonstrates both
+[Figure 6-15](#ch06.xhtml_bvf_fig23){data-type="xref"} demonstrates both
 of these behaviors.[]{#ch06.xhtml_idm45797083111568 primary=""
 startref="ix_vis_format_border" data-type="indexterm"}
 
@@ -14532,7 +13844,7 @@ will now have its block size determined automatically:
 </div>
 ```
 
-[Figure 6-16](#ch06.xhtml_bvf_fig22){data-type="xref"} illustrates these
+[Figure 6-16](#ch06.xhtml_bvf_fig22){data-type="xref"} illustrates these
 two possibilities. (The spaces between the paragraph borders and the
 `<div>` borders are the block-start and -end margins on the paragraphs.)
 
@@ -14546,7 +13858,7 @@ alt="css5 0616" />
 </figure>
 
 Before we move on, take a closer look at the first example in
-[Figure 6-16](#ch06.xhtml_bvf_fig22){data-type="xref"}, the half-as-tall
+[Figure 6-16](#ch06.xhtml_bvf_fig22){data-type="xref"}, the half-as-tall
 paragraph. It may be half as tall, but it isn't centered along the block
 axis. That's because the containing `<div>` is 6 em tall, which means
 the half-as-tall paragraph is 3 em tall. It has block-start and -end
@@ -14555,7 +13867,7 @@ block size is 5 em. That means there is actually 2 em of space between
 the block end of the paragraph's visible box and the `<div>`'s block-end
 border, not 1 em.[]{#ch06.xhtml_idm45797082992784 primary=""
 startref="ix_vert_format_auto_block" data-type="indexterm"}
-[Figure 6-17](#ch06.xhtml_block-axis-sizing-placement-in-detail){data-type="xref"}
+[Figure 6-17](#ch06.xhtml_block-axis-sizing-placement-in-detail){data-type="xref"}
 illustrates this in detail.
 
 <figure>
@@ -14613,7 +13925,7 @@ value of `visible` means that the element's content may be visible
 outside the element's box. Typically, this leads to the content running
 outside its own element box, but not altering the shape of that box. The
 following markup would result in
-[Figure 6-18](#ch06.xhtml_overflow_methods){data-type="xref"}:
+[Figure 6-18](#ch06.xhtml_overflow_methods){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div#sidebar {block-size: 7em; background: #BBB; overflow: visible;}
@@ -14636,7 +13948,7 @@ primary="clipping" secondary="based on boxes" data-type="indexterm"}
 If `overflow` is set to `scroll`, the overflowing content is clipped,
 but the content can be made available to the user via scrolling methods,
 including a scrollbar (or set of them).
-[Figure 6-18](#ch06.xhtml_overflow_methods){data-type="xref"} depicts
+[Figure 6-18](#ch06.xhtml_overflow_methods){data-type="xref"} depicts
 one possibility.
 
 If `scroll` is used, the panning mechanisms (e.g., scrollbars) should
@@ -14653,7 +13965,7 @@ in a print medium, the content may be displayed as though the value of
 `visible`.[]{#ch06.xhtml_idm45797082930912 primary="visible keyword"
 data-type="indexterm"}
 
-[Figure 6-18](#ch06.xhtml_overflow_methods){data-type="xref"}
+[Figure 6-18](#ch06.xhtml_overflow_methods){data-type="xref"}
 illustrates these `overflow` values, with two of them combined in a
 [single example.]{.keep-together}
 
@@ -14713,7 +14025,7 @@ secondary="block box overflow" data-type="indexterm"}setting the
 overflow behavior separately along each axis, you're essentially
 deciding where scrollbars will appear and where they won't. Consider the
 following, which is [rendered]{.keep-together} in
-[Figure 6-19](#ch06.xhtml_overflow_x_y){data-type="xref"}:
+[Figure 6-19](#ch06.xhtml_overflow_x_y){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div.one   {overflow-x: scroll; overflow-y: hidden;}
@@ -14750,7 +14062,7 @@ This brings us to the true nature of `overflow`: it's a shorthand
 property that brings `overflow-x` and `overflow-y` together under one
 roof. The following is exactly equivalent to the previous example and
 will have the same result shown in
-[Figure 6-19](#ch06.xhtml_overflow_x_y){data-type="xref"}:
+[Figure 6-19](#ch06.xhtml_overflow_x_y){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div.one   {overflow: scroll hidden;}
@@ -14815,7 +14127,7 @@ p.neg {margin-block-start: -50px; margin-block-end: 0;
 </div>
 ```
 
-As we see in [Figure 6-20](#ch06.xhtml_bvf_fig28){data-type="xref"}, the
+As we see in [Figure 6-20](#ch06.xhtml_bvf_fig28){data-type="xref"}, the
 paragraph has been pulled upward by its negative block-start margin.
 Note that the content of the `<div>` that follows the paragraph in the
 markup has also been pulled up the block axis by 50 pixels.
@@ -14830,7 +14142,7 @@ alt="css5 0620" />
 </figure>
 
 Now compare the following markup to the situation shown in
-[Figure 6-21](#ch06.xhtml_bvf_fig29){data-type="xref"}:
+[Figure 6-21](#ch06.xhtml_bvf_fig29){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p.neg {margin-block-end: -50px; margin-block-end: 0;
@@ -14860,7 +14172,7 @@ alt="css5 0621" />
 What's happening? The elements following the `<div>` are placed
 according to the location of the block-end margin edge of the `<div>`,
 which is 50 pixels higher than it would be without the negative margin.
-As [Figure 6-21](#ch06.xhtml_bvf_fig29){data-type="xref"} shows, the
+As [Figure 6-21](#ch06.xhtml_bvf_fig29){data-type="xref"} shows, the
 block-end of the `<div>` is actually *above* the visual block-end of its
 child paragraph. The next element after the `<div>` is the appropriate
 distance from the block-end of the `<div>`.
@@ -14900,7 +14212,7 @@ block-end margin. When the list is rendered, however, the visible
 distance between adjacent list items is 15 pixels, not 25. This happens
 because, along the block axis, adjacent margins are collapsed. In other
 words, the smaller of the two margins is eliminated in favor of the
-larger. [Figure 6-22](#ch06.xhtml_bvf_fig24){data-type="xref"} shows the
+larger. [Figure 6-22](#ch06.xhtml_bvf_fig24){data-type="xref"} shows the
 difference between collapsed and uncollapsed margins.
 
 <figure>
@@ -14913,7 +14225,7 @@ alt="css5 0622" />
 </figure>
 
 User agents will collapse block-adjacent margins as shown in the first
-list in [Figure 6-22](#ch06.xhtml_bvf_fig24){data-type="xref"}, so that
+list in [Figure 6-22](#ch06.xhtml_bvf_fig24){data-type="xref"}, so that
 15-pixel spaces appear between each list item. The second list shows
 what happens if browsers don't collapse margins, resulting in 25-pixel
 spaces between list items.
@@ -14951,7 +14263,7 @@ block-end margin of the `<ul>` is 15 pixels, and the block-start margin
 of a succeeding `<h1>` is 28 pixels. So once the margins have been
 collapsed, the distance between the end of the last `<li>` in the list
 and the beginning of the `<h1>` is 28 pixels, as shown in
-[Figure 6-23](#ch06.xhtml_bvf_fig25){data-type="xref"}.
+[Figure 6-23](#ch06.xhtml_bvf_fig25){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig25" class="figure">
@@ -14984,7 +14296,7 @@ With this change, the block-end margin of the `<li>` element is now
 placed inside its parent element (the `<ul>`). Therefore, the only
 margin collapsing that takes place is between the `<ul>` and the `<h1>`,
 as illustrated in
-[Figure 6-24](#ch06.xhtml_bvf_fig26){data-type="xref"}.
+[Figure 6-24](#ch06.xhtml_bvf_fig26){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig26" class="figure">
@@ -15003,7 +14315,7 @@ browser takes the absolute value of the negative margin and subtracts it
 from any adjacent positive margins. In other words, the negative length
 is added to the positive length(s), and the resulting value is the
 distance between the elements, even if that distance is a negative
-length. [Figure 6-25](#ch06.xhtml_bvf_fig27){data-type="xref"} provides
+length. [Figure 6-25](#ch06.xhtml_bvf_fig27){data-type="xref"} provides
 some concrete examples.
 
 <figure>
@@ -15029,7 +14341,7 @@ The negative margin of the greatest magnitude (`-18px`) is added to the
 largest positive margin (`20px`), yielding `20px` -- `18px` = `2px`.
 Thus, we have only 2 pixels between the block-end of the list item's
 content and the block-start of the `<h1>`'s content, as we can see in
-[Figure 6-26](#ch06.xhtml_bvf_fig30){data-type="xref"}.
+[Figure 6-26](#ch06.xhtml_bvf_fig30){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig30" class="figure">
@@ -15111,7 +14423,7 @@ The visible element box is now 220 pixels in inline size, since we've
 added 10 pixels of padding to every side of the content. The margins
 will now extend another 20 pixels to both inline sides for an overall
 element inline size of 260 pixels. This is illustrated in
-[Figure 6-27](#ch06.xhtml_bvf_fig06){data-type="xref"}.
+[Figure 6-27](#ch06.xhtml_bvf_fig06){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig06" class="figure">
@@ -15127,7 +14439,7 @@ will be different. In that case, the visible box will be 200 pixels wide
 along the inline axis with a content inline size of 180 pixels, and a
 total of 40 pixels of margin on the inline sides, giving an overall box
 inline size of 240 pixels, as illustrated in
-[Figure 6-28](#ch06.xhtml_bvf_fig07){data-type="xref"}.
+[Figure 6-28](#ch06.xhtml_bvf_fig07){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig07" class="figure">
@@ -15151,7 +14463,7 @@ will always add up to the inline size of the `<div>`'s content area.
 Let's say the inline size of the `<div>` is `30em`. That makes the sum
 total of the content size, padding, borders, and margins of each
 paragraph 30 em. In
-[Figure 6-29](#ch06.xhtml_bvf_fig08){data-type="xref"}, the "blank"
+[Figure 6-29](#ch06.xhtml_bvf_fig08){data-type="xref"}, the "blank"
 space around the paragraphs is actually their
 margins.[]{#ch06.xhtml_idm45797082160864 primary=""
 startref="ix_horiz_format_inlineaxis"
@@ -15199,7 +14511,7 @@ primary="inline-size property" data-type="indexterm"}seven properties of
 inline formatting---`margin-inline-start`, `border-inline-start`,
 `padding-inline-start`, `inline-size`, `padding-inline-end`,
 `padding-inline-end`, and `padding-inline-end`---are diagrammed in
-[Figure 6-30](#ch06.xhtml_bvf_fig09){data-type="xref"}.
+[Figure 6-30](#ch06.xhtml_bvf_fig09){data-type="xref"}.
 
 The values of these seven properties must add up to the inline size of
 the element's containing block, which is usually the value of
@@ -15210,7 +14522,7 @@ Of these seven properties, only three may be set to `auto`: the inline
 size of the element's content, and the inline-start and -end margins.
 The remaining properties must either be set to specific values or
 default to a width of 0.
-[Figure 6-30](#ch06.xhtml_bvf_fig09){data-type="xref"} shows which parts
+[Figure 6-30](#ch06.xhtml_bvf_fig09){data-type="xref"} shows which parts
 of the box can take a value of `auto` and which cannot. (That said, CSS
 is forgiving: if any part that can't accept `auto` is erroneously set to
 `auto`, it will default to `0`.)
@@ -15281,7 +14593,7 @@ will reset the inline-end margin to `auto`. The inline-end margin's
 width will then be set according to the rule that one `auto` value
 "fills in" the distance needed to make the element's overall inline size
 equal to that of its containing block's content inline size.
-[Figure 6-31](#ch06.xhtml_bvf_fig11){data-type="xref"} shows the result
+[Figure 6-31](#ch06.xhtml_bvf_fig11){data-type="xref"} shows the result
 of the following markup in left-to-right languages like English:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -15307,7 +14619,7 @@ primary="margin-inline-end property"
 data-type="indexterm"}[]{#ch06.xhtml_idm45797082015360
 primary="margin-inline-start property" data-type="indexterm"}results of
 the following markup are shown in
-[Figure 6-32](#ch06.xhtml_bvf_fig12){data-type="xref"}:
+[Figure 6-32](#ch06.xhtml_bvf_fig12){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {margin-inline-start: 100px; margin-inline-end: 100px;
@@ -15317,7 +14629,7 @@ p {margin-inline-start: 100px; margin-inline-end: 100px;
 This type of formatting is the most common, since it is equivalent to
 setting the margins and not declaring anything for the `inline-size`.
 The result of the following markup is exactly the same as that shown in
-[Figure 6-32](#ch06.xhtml_bvf_fig12){data-type="xref"}:
+[Figure 6-32](#ch06.xhtml_bvf_fig12){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {margin-inline-start: 100px; margin-inline-end: 100px;} /* same as before */
@@ -15357,7 +14669,7 @@ to `auto`. If both margins are set to `auto` but the `inline-size` is
 set to a specific length, then both margins are set to equal lengths,
 thus centering the element within its parent along the inline axis. The
 following code creates this layout, illustrated in
-[Figure 6-33](#ch06.xhtml_bvf_fig13){data-type="xref"}:
+[Figure 6-33](#ch06.xhtml_bvf_fig13){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {inline-size: 500px;}
@@ -15387,7 +14699,7 @@ p {margin-inline-start: auto; margin-inline-end: 100px; inline-size: auto;}
 The `inline-size` property is then set to the value necessary to make
 the element fill its containing block; in the preceding example, it
 would be 400 pixels, as shown in
-[Figure 6-34](#ch06.xhtml_bvf_fig14){data-type="xref"}.
+[Figure 6-34](#ch06.xhtml_bvf_fig14){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig14" class="figure">
@@ -15423,7 +14735,7 @@ startref="ix_horiz_format_auto"
 data-type="indexterm"}[]{#ch06.xhtml_idm45797081739936 primary=""
 startref="ix_inlineaxis_format_auto" data-type="indexterm"} The results
 of the following markup are shown in
-[Figure 6-35](#ch06.xhtml_bvf_fig15){data-type="xref"}:
+[Figure 6-35](#ch06.xhtml_bvf_fig15){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {padding: 50px; background: silver;}
@@ -15463,7 +14775,7 @@ equals the inline size of the content area of the parent element. As
 long as all inline properties are 0 or greater, an element's inline size
 can never be greater than its parent's content area inline size.
 However, consider the following markup, depicted in
-[Figure 6-36](#ch06.xhtml_bvf_fig16){data-type="xref"}:
+[Figure 6-36](#ch06.xhtml_bvf_fig16){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {inline-size: 500px; border: 3px solid black;}
@@ -15535,7 +14847,7 @@ dimensions are overconstrained, the inline-end margin is reset to
 whatever is needed to make the numbers work out correctly.
 
 Let's consider another example, illustrated in
-[Figure 6-37](#ch06.xhtml_bvf_fig17){data-type="xref"}, in which the
+[Figure 6-37](#ch06.xhtml_bvf_fig17){data-type="xref"}, in which the
 inline-start margin is set to be negative:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -15679,7 +14991,7 @@ image three times, each with a different width value:
    alt="large smile" role="img">
 ```
 
-[Figure 6-38](#ch06.xhtml_bvf_fig18){data-type="xref"} illustrates the
+[Figure 6-38](#ch06.xhtml_bvf_fig18){data-type="xref"} illustrates the
 result.
 
 <figure>
@@ -15723,7 +15035,7 @@ attached to a list item element can be either outside the content of the
 list item or treated as an inline marker at the beginning of the
 content, depending on the value of the property `list-style-position`,
 as illustrated in
-[Figure 6-39](#ch06.xhtml_bvf_fig32){data-type="xref"}.
+[Figure 6-39](#ch06.xhtml_bvf_fig32){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig32" class="figure">
@@ -15747,7 +15059,7 @@ descendant boxes, just like regular block boxes.
 
 List markers are discussed in more detail, including how to create and
 style them using the `::marker` pseudo-element, in
-[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.[]{#ch06.xhtml_idm45797081113552
+[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.[]{#ch06.xhtml_idm45797081113552
 primary="" startref="ix_vis_format_inline_axis"
 data-type="indexterm"}[]{#ch06.xhtml_idm45797081112608 primary=""
 startref="ix_inline_axis_format"
@@ -15801,7 +15113,7 @@ other axis is autosized, and set an aspect ratio:
 .gallery div {width: auto; aspect-ratio: 1/1;}
 ```
 
-[Figure 6-40](#ch06.xhtml_aspect-ratio){data-type="xref"} shows the same
+[Figure 6-40](#ch06.xhtml_aspect-ratio){data-type="xref"} shows the same
 set of HTML, both with and without the previous CSS applied.
 
 <figure>
@@ -15860,7 +15172,7 @@ data-type="indexterm"}[]{#ch06.xhtml_ix_inline_format_line
 primary="inline formatting" secondary="line layout"
 data-type="indexterm"}lines are generated, first consider an element
 containing one very long line of text, as shown in
-[Figure 6-41](#ch06.xhtml_bvf_fig33){data-type="xref"}. Note that we've
+[Figure 6-41](#ch06.xhtml_bvf_fig33){data-type="xref"}. Note that we've
 put a border around the line by wrapping the entire line in a `<span>`
 element and then assigning it a border style:
 
@@ -15877,7 +15189,7 @@ alt="css5 0641" />
 </div>
 </figure>
 
-[Figure 6-41](#ch06.xhtml_bvf_fig33){data-type="xref"} shows the
+[Figure 6-41](#ch06.xhtml_bvf_fig33){data-type="xref"} shows the
 simplest case of an inline element contained by a block-level
 [element.]{.keep-together}
 
@@ -15886,7 +15198,7 @@ have to do is determine how wide (along the inline axis) the element
 should be, and then break up the line so that the resulting pieces will
 fit into the content inline size of the element. Therefore, we arrive at
 the state shown in
-[Figure 6-42](#ch06.xhtml_bvf_fig34){data-type="xref"}.
+[Figure 6-42](#ch06.xhtml_bvf_fig34){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig34" class="figure">
@@ -15901,7 +15213,7 @@ Nothing has really changed. All we did was take the single line and
 break it into pieces, and then stack those pieces one after the other
 along the direction of the block flow.
 
-In [Figure 6-42](#ch06.xhtml_bvf_fig34){data-type="xref"}, the borders
+In [Figure 6-42](#ch06.xhtml_bvf_fig34){data-type="xref"}, the borders
 for each line of text also happen to coincide with the top and bottom of
 each line. This is true only because no padding has been set for the
 inline text. Notice that the borders overlap each other slightly; for
@@ -15909,12 +15221,12 @@ example, the bottom border of the first line is just below the top
 border of the second line. This is because the border is drawn on the
 next pixel to the *outside* of each line. Since the lines are touching
 each other, their borders overlap as shown in
-[Figure 6-42](#ch06.xhtml_bvf_fig34){data-type="xref"}.
+[Figure 6-42](#ch06.xhtml_bvf_fig34){data-type="xref"}.
 
 ::: {.note data-type="note"}
 ###### Note {#ch06.xhtml_sigil_toc_id_408}
 
-For simplicity, we use terms such as *top* and *bottom* when talking
+For simplicity, we use terms such as *top* and *bottom* when talking
 about the edges of line boxes. In this context, the top of a line box is
 the one closest to the block-start, and the bottom of a line box is the
 one closest to the block-end. Similarly, *tall* and *short* refer to the
@@ -15925,10 +15237,10 @@ If we alter the span styles to have a []{#ch06.xhtml_idm45797080946304
 primary="inline formatting" secondary="background"
 data-type="indexterm"}background color, the actual placement of the
 lines becomes clearer. Consider
-[Figure 6-43](#ch06.xhtml_bvf_fig35){data-type="xref"}, which shows four
+[Figure 6-43](#ch06.xhtml_bvf_fig35){data-type="xref"}, which shows four
 paragraphs in each of two writing modes, and the effects of different
 values of `text-align` (see
-[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}), by
+[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}), by
 each paragraph having the backgrounds of its lines [filled
 in.]{.keep-together}
 
@@ -15941,7 +15253,7 @@ alt="css5 0643" />
 </div>
 </figure>
 
-As [Figure 6-43](#ch06.xhtml_bvf_fig35){data-type="xref"} shows, not
+As [Figure 6-43](#ch06.xhtml_bvf_fig35){data-type="xref"} shows, not
 every line reaches to the edge of its parent paragraph's content area,
 which has been denoted with a dashed gray border. For the left-aligned
 paragraph, the lines are all pushed flush against the left content edge
@@ -16052,7 +15364,7 @@ Line box
     other words, the top edge of the line box is placed along the top of
     the highest inline-box top, and the bottom of the line box is placed
     along the bottom of the lowest inline-box bottom. Remember that
-    "top" and "bottom" are considered with respect to the block flow
+    "top" and "bottom" are considered with respect to the block flow
     direction.
 
 CSS also contains a set of behaviors and useful concepts that fall
@@ -16082,7 +15394,7 @@ outside of the preceding list of terms and definitions:
 
 One more thing to note: inline boxes are vertically aligned within the
 line according to their values for the property `vertical-align` (see
-[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}).
+[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}).
 
 Before moving on, let's look at a []{#ch06.xhtml_idm45797080896096
 primary="line boxes" data-type="indexterm"}step-by-step process for
@@ -16216,14 +15528,14 @@ differences between nonreplaced and replaced elements in inline layout.
 ::: {.note data-type="note"}
 ###### Note {#ch06.xhtml_sigil_toc_id_413}
 
-In this section, we use *top* and *bottom* to label where half-leading
+In this section, we use *top* and *bottom* to label where half-leading
 is placed and how line boxes are placed together.
 []{#ch06.xhtml_idm45797080801376 primary="half-leading"
 data-type="indexterm"}Always remember that these terms are in relation
-to the direction of block flow: the *top edge* of an inline box is the
-one closest to the block-start edge, and the *bottom edge* of an inline
-box is closest to its block-end edge. Similarly, *height* means the
-distance along the inline box's block axis, and *width* is the distance
+to the direction of block flow: the *top edge* of an inline box is the
+one closest to the block-start edge, and the *bottom edge* of an inline
+box is closest to its block-end edge. Similarly, *height* means the
+distance along the inline box's block axis, and *width* is the distance
 along its inline axis.
 :::
 ::::
@@ -16243,7 +15555,7 @@ or piece of anonymous text, the value of `font-size` determines the
 height of the content area. If an inline element has a `font-size` of
 `15px`, the content area's height is 15 pixels because all of the em
 boxes in the element are 15 pixels tall, as illustrated in
-[Figure 6-44](#ch06.xhtml_bvf_fig36){data-type="xref"}.
+[Figure 6-44](#ch06.xhtml_bvf_fig36){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig36" class="figure">
@@ -16260,7 +15572,7 @@ an inline nonreplaced element has a `font-size` of `15px` and a
 `line-height` of `21px`, the difference is 6 pixels. The user agent
 splits the 6 pixels in half and applies half (3 pixels) to the top and
 half (3 pixels) to the bottom of the content area, which yields the
-inline box. [Figure 6-45](#ch06.xhtml_bvf_fig37){data-type="xref"}
+inline box. [Figure 6-45](#ch06.xhtml_bvf_fig37){data-type="xref"}
 illustrates this process.
 
 <figure class="bordernone">
@@ -16306,7 +15618,7 @@ So far, it sounds like we've done the same thing to each bit of text,
 and that all the inline boxes are the same size, but that's not quite
 true. The inline boxes in the second line, although they're the same
 size, don't line up because the text is all baseline aligned (see
-[Figure 6-46](#ch06.xhtml_bvf_fig38){data-type="xref"}), a concept we'll
+[Figure 6-46](#ch06.xhtml_bvf_fig38){data-type="xref"}), a concept we'll
 discuss later in the chapter.
 
 Since inline boxes determine the height of the overall line box, their
@@ -16315,7 +15627,7 @@ defined as the distance from the top of the highest inline box in the
 line to the bottom of the lowest inline box, and the top of each line
 box butts up against the bottom of the line box for the preceding line.
 
-In [Figure 6-46](#ch06.xhtml_bvf_fig38){data-type="xref"}, three boxes
+In [Figure 6-46](#ch06.xhtml_bvf_fig38){data-type="xref"}, three boxes
 are being laid out for a single line of text: the two anonymous text
 boxes to either side of the `<strong>` element, and the `<strong>`
 element itself. Because the enclosing paragraph has a `line-height` of
@@ -16342,9 +15654,9 @@ alt="css5 0646" />
 
 After all that, the middle line of text is placed between two other
 lines of text, as depicted in
-[Figure 6-47](#ch06.xhtml_bvf_fig39){data-type="xref"}. The bottom edge
+[Figure 6-47](#ch06.xhtml_bvf_fig39){data-type="xref"}. The bottom edge
 of the first line of text is placed against the top edge of the line of
-text we saw in [Figure 6-46](#ch06.xhtml_bvf_fig38){data-type="xref"}.
+text we saw in [Figure 6-46](#ch06.xhtml_bvf_fig38){data-type="xref"}.
 Similarly, the top edge of the third line of text is placed against the
 bottom edge of the middle line of text. Because the middle line of text
 has a slightly taller line box, the result is that the lines of text
@@ -16405,7 +15717,7 @@ up both its content area and its inline box. Because the `<strong>`
 element's inline-box top was already the highest in the line, this
 change in vertical alignment also pushes the top of the line box upward
 by 4 pixels, as shown in
-[Figure 6-48](#ch06.xhtml_bvf_fig40){data-type="xref"}.
+[Figure 6-48](#ch06.xhtml_bvf_fig40){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig40" class="figure">
@@ -16420,7 +15732,7 @@ alt="css5 0648" />
 ###### Note {#ch06.xhtml_sigil_toc_id_422}
 
 A formal definition for `vertical-align` can be found in
-[[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}.]{.keep-together}
+[[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}.]{.keep-together}
 :::
 
 Let's consider another situation. Here, we have another inline element
@@ -16439,7 +15751,7 @@ larger than the surrounding text.
 Now we have the same result as in our earlier example, where the middle
 line box is taller than the other line boxes. However, notice how the
 "tall" text is aligned in
-[Figure 6-49](#ch06.xhtml_bvf_fig41){data-type="xref"}.
+[Figure 6-49](#ch06.xhtml_bvf_fig41){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig41" class="figure">
@@ -16469,7 +15781,7 @@ Since the `line-height` for the "tall" text is less than its
 area. This tiny fact changes the placement of the text itself, because
 the top of its inline box must be aligned with the top of the line box
 for its line. Thus, we get the result shown in
-[Figure 6-50](#ch06.xhtml_bvf_fig42){data-type="xref"}.
+[Figure 6-50](#ch06.xhtml_bvf_fig42){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig42" class="figure">
@@ -16582,7 +15894,7 @@ of `1em` so that the `line-height` for the `<strong>` element will be
 set to the same size as `<strong>`'s `font-size`. Remember,
 `line-height` is set in relation to the `font-size` of the element
 itself, not the parent element.
-[Figure 6-51](#ch06.xhtml_bvf_fig43){data-type="xref"} shows the
+[Figure 6-51](#ch06.xhtml_bvf_fig43){data-type="xref"} shows the
 results.
 
 <figure>
@@ -16622,7 +15934,7 @@ a:link {border: 5px solid blue;}
 
 Because extra space is added above and below each line, the border
 around the hyperlink doesn't impinge on any other line, as shown in
-[Figure 6-52](#ch06.xhtml_bvf_fig44){data-type="xref"}.
+[Figure 6-52](#ch06.xhtml_bvf_fig44){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig44" class="figure">
@@ -16694,7 +16006,7 @@ body {line-height: 1.5;}
 This scaling factor of 1.5 is passed down from element to element, and,
 at each level, the factor is used as a multiplier of the `font-size` of
 each element. Therefore, the following markup would be displayed as
-shown in [Figure 6-53](#ch06.xhtml_bvf_fig45){data-type="xref"}:
+shown in [Figure 6-53](#ch06.xhtml_bvf_fig45){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {font-size: 15px; line-height: 1.5;}
@@ -16769,7 +16081,7 @@ the actual shape of the content height, and so it will not affect the
 height of the inline box for this element. Similarly, adding borders to
 an inline element will not affect the way line boxes are generated and
 laid out, as illustrated in
-[Figure 6-54](#ch06.xhtml_bvf_fig47){data-type="xref"} (both with and
+[Figure 6-54](#ch06.xhtml_bvf_fig47){data-type="xref"} (both with and
 without the 4-pixel padding).
 
 <figure>
@@ -16811,7 +16123,7 @@ pixels tall, and we've applied 10 pixels of padding to the top and
 bottom of each content area. The extra pixels won't increase the height
 of the line box, which would be fine, except there is a background
 color. Thus, we get the result shown in
-[Figure 6-55](#ch06.xhtml_bvf_fig48){data-type="xref"}.
+[Figure 6-55](#ch06.xhtml_bvf_fig48){data-type="xref"}.
 
 <figure>
 <div id="ch06.xhtml_bvf_fig48" class="figure">
@@ -16826,7 +16138,7 @@ CSS explicitly states that the line boxes are drawn in document order:
 "This will cause the borders on subsequent lines to paint over the
 borders and text of previous lines." The same principle applies to
 backgrounds as well, as
-[Figure 6-55](#ch06.xhtml_bvf_fig48){data-type="xref"}
+[Figure 6-55](#ch06.xhtml_bvf_fig48){data-type="xref"}
 shows.[]{#ch06.xhtml_idm45797079764192 primary=""
 startref="ix_inline_format_nonrep" data-type="indexterm"}
 :::
@@ -16872,7 +16184,7 @@ changed via the property `box-decoration-break`.
 The default value, `slice`, is what you saw in the previous section. The
 other value, `clone`, causes each fragment of the element to be drawn as
 if it were a standalone box. What does that mean? Compare the two
-examples in [Figure 6-56](#ch06.xhtml_bvf_fig50){data-type="xref"}, in
+examples in [Figure 6-56](#ch06.xhtml_bvf_fig50){data-type="xref"}, in
 which exactly the same markup and styles are treated as either sliced or
 cloned.
 
@@ -16959,7 +16271,7 @@ element, plus any box properties. In other words, the entirety of the
 replaced element---content, margins, borders, and padding---is used to
 define the element's inline box. The following styles lead to one such
 example, as shown in
-[Figure 6-57](#ch06.xhtml_bvf_fig51){data-type="xref"}:
+[Figure 6-57](#ch06.xhtml_bvf_fig51){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {font-size: 15px; line-height: 18px;}
@@ -16985,7 +16297,7 @@ primary="line-height property" data-type="indexterm"}blank space, the
 effective value of `line-height` has not changed, either for the
 paragraph or the image itself. The `line-height` value has no effect on
 the image's inline box. Because the image in
-[Figure 6-57](#ch06.xhtml_bvf_fig51){data-type="xref"} has no padding,
+[Figure 6-57](#ch06.xhtml_bvf_fig51){data-type="xref"} has no padding,
 margins, or borders, its inline box is equivalent to its content area,
 which is, in this case, 30 pixels tall.
 
@@ -17038,7 +16350,7 @@ content, and the border surrounds the padding. What's unusual about the
 process is that the padding and border actually influence the height of
 the line box because they are part of the inline box of an inline
 replaced element (unlike with inline nonreplaced elements). Consider
-[Figure 6-58](#ch06.xhtml_bvf_fig52){data-type="xref"}, which results
+[Figure 6-58](#ch06.xhtml_bvf_fig52){data-type="xref"}, which results
 from the following styles:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -17070,7 +16382,7 @@ wrinkles. Setting a positive margin is no mystery; it will make the
 inline box of the replaced element taller. Setting negative margins has
 a similar effect: it decreases the size of the replaced element's inline
 box. This is illustrated in
-[Figure 6-59](#ch06.xhtml_bvf_fig53){data-type="xref"}, where we can see
+[Figure 6-59](#ch06.xhtml_bvf_fig53){data-type="xref"}, where we can see
 that a negative top margin is pulling down the line above the image:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -17111,7 +16423,7 @@ move upward along the block axis. Replaced elements do not have
 baselines of their own, so the next best thing is to align the bottom of
 their inline boxes with the baseline. Thus, it is actually the outer
 block-end margin edge that is aligned with the baseline, as illustrated
-in [Figure 6-60](#ch06.xhtml_bvf_fig54){data-type="xref"}.
+in [Figure 6-60](#ch06.xhtml_bvf_fig54){data-type="xref"}.
 
 <figure class="width-75">
 <div id="ch06.xhtml_bvf_fig54" class="figure">
@@ -17156,7 +16468,7 @@ the baseline: if we apply a negative bottom (block-end) margin, the
 element will get pulled downward because the bottom of its inline box
 will be higher than the bottom of its content area. Thus, the following
 rule would have the result shown in
-[Figure 6-61](#ch06.xhtml_bvf_fig55){data-type="xref"}:
+[Figure 6-61](#ch06.xhtml_bvf_fig55){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p img {margin-block-end: -10px;}
@@ -17173,7 +16485,7 @@ margin</h6>
 </figure>
 
 This can easily cause a replaced element to bleed into following lines
-of text, as [Figure 6-61](#ch06.xhtml_bvf_fig55){data-type="xref"}
+of text, as [Figure 6-61](#ch06.xhtml_bvf_fig55){data-type="xref"}
 shows.[]{#ch06.xhtml_idm45797079359296 primary=""
 startref="ix_inline_format_replaced"
 data-type="indexterm"}[]{#ch06.xhtml_idm45797079327088 primary=""
@@ -17239,7 +16551,7 @@ div#two p {display: inline; inline-size: 6em; text-align: center;}
 div#three p {display: inline-block; inline-size: 6em; text-align: center;}
 ```
 
-[Figure 6-62](#ch06.xhtml_bvf_fig56){data-type="xref"} depicts the
+[Figure 6-62](#ch06.xhtml_bvf_fig56){data-type="xref"} depicts the
 result of this stylesheet.
 
 <figure class="bordernone">
@@ -17274,7 +16586,7 @@ div#three p {display: inline-block; block-size: 4em;}
 
 This will create a tall box that's just wide enough to enclose the
 content, as shown in
-[Figure 6-63](#ch06.xhtml_bvf_fig57){data-type="xref"}.
+[Figure 6-63](#ch06.xhtml_bvf_fig57){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch06.xhtml_bvf_fig57" class="figure">
@@ -17341,7 +16653,7 @@ of thing that would be applied to the root element of a document, like
 `<html>`, to say, "This is where the formatting root lies."
 
 The old `display` values you may be familiar with are still available.
-[Table 6-1](#ch06.xhtml_display_values_reference){data-type="xref"}
+[Table 6-1](#ch06.xhtml_display_values_reference){data-type="xref"}
 shows how the old values will be represented using the new values.
 
   Old values           New values
@@ -17396,7 +16708,7 @@ with silver borders.
 If we then apply `display: contents` to the `<ul>` element, the user
 agent will render the list as if the `<ul>` and `</ul>` lines had been
 deleted from the document source.
-[Figure 6-64](#ch06.xhtml_bvf_css4_display_contents){data-type="xref"}
+[Figure 6-64](#ch06.xhtml_bvf_css4_display_contents){data-type="xref"}
 shows the difference between the regular result and the `contents`
 result.
 
@@ -17415,7 +16727,7 @@ the `<ul>` is gone, as if it had never been. Not only does the list's
 border go away, but also the top and bottom margins that usually
 separate the list from surrounding content. This is why the second list
 in
-[Figure 6-64](#ch06.xhtml_bvf_css4_display_contents){data-type="xref"}
+[Figure 6-64](#ch06.xhtml_bvf_css4_display_contents){data-type="xref"}
 appears higher up than the first.
 :::
 ::::
@@ -17426,9 +16738,9 @@ appears higher up than the first.
 
 We haven't covered a great many more display values in this chapter, and
 won't. The various table-related values will come up in
-[Chapter 13](../Text/ch13.xhtml#title-table-layout-in-css){data-type="xref"},
+[Chapter 13](../Text/ch13.xhtml#title-table-layout-in-css){data-type="xref"},
 and we'll talk about list items again in
-[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.
+[Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"}.
 
 The values we won't really talk about are the Ruby-related values, which
 need their own book and are poorly supported as of late
@@ -17485,7 +16797,7 @@ other words, the element is still there---you just can't see it.
 Note the difference between this and `display: none`. In the latter
 case, the element is not displayed *and* is removed from the document
 altogether so that it doesn't have any effect on document layout.
-[Figure 6-65](#ch06.xhtml_making_elements_invisible){data-type="xref"}
+[Figure 6-65](#ch06.xhtml_making_elements_invisible){data-type="xref"}
 shows a document in which an inline element inside a paragraph has been
 set to `hidden`, based on the following styles and markup:
 
@@ -17602,7 +16914,7 @@ nonreplaced.
 # [Chapter 7. ]{.label}Padding, Borders, Outlines, and Margins
 
 In
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
 we talked about the basics of element display. In this chapter, we'll
 look at the CSS properties and values you can use to affect how element
 boxes are drawn and separated from one another. These include the
@@ -17642,7 +16954,7 @@ elements.
 
 To understand how margins, padding, and borders are handled, you must
 understand the *box model*, illustrated in
-[Figure 7-1](#ch07.xhtml_TheCSSboxmodel){data-type="xref"}.
+[Figure 7-1](#ch07.xhtml_TheCSSboxmodel){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_TheCSSboxmodel" class="figure">
@@ -17654,7 +16966,7 @@ alt="css5 0701" />
 </figure>
 
 The diagram in
-[Figure 7-1](#ch07.xhtml_TheCSSboxmodel){data-type="xref"} intentionally
+[Figure 7-1](#ch07.xhtml_TheCSSboxmodel){data-type="xref"} intentionally
 omits outlines, for reasons that will hopefully be clear once we discuss
 outlines.
 
@@ -17663,7 +16975,7 @@ outlines.
 
 The height and width of the content area, as well as the sizing of the
 content area along the block and inline directions, are covered in
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}.
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}.
 If you find some of the rest of this chapter a little confusing because
 of the way height, width, block axis, and inline axis are discussed,
 refer to that chapter for a detailed explanation.
@@ -17710,7 +17022,7 @@ padding is by using the [property `padding`.]{.keep-together}
 This property accepts any length value or a percentage value. So if you
 want all `<h2>` elements to have 2 em of padding on all sides, it's this
 easy (see
-[Figure 7-2](#ch07.xhtml_Addingpaddingtoelements){data-type="xref"}):
+[Figure 7-2](#ch07.xhtml_Addingpaddingtoelements){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 h2 {padding: 2em; background-color: silver;}
@@ -17725,7 +17037,7 @@ alt="css5 0702" />
 </div>
 </figure>
 
-As [Figure 7-2](#ch07.xhtml_Addingpaddingtoelements){data-type="xref"}
+As [Figure 7-2](#ch07.xhtml_Addingpaddingtoelements){data-type="xref"}
 illustrates, the background of an element extends into the padding by
 default. If the background is transparent, setting padding will create
 extra transparent space around the element's content, but any visible
@@ -17745,7 +17057,7 @@ data-type="indexterm"}[]{#ch07.xhtml_idm45797078482880
 primary="backgrounds" secondary="padding with"
 data-type="indexterm"}backgrounds can be prevented from extending into
 the padding by using the property `background-clip` (see
-[Chapter 8](../Text/ch08.xhtml#backgrounds){data-type="xref"}).
+[Chapter 8](../Text/ch08.xhtml#backgrounds){data-type="xref"}).
 :::
 
 By default, []{#ch07.xhtml_idm45797078480016 primary="borders"
@@ -17755,7 +17067,7 @@ enforced with margins alone (as you'll see later). On the other hand,
 without padding, the border of an element will come very close to the
 content of the element itself. Thus, when putting a border on an
 element, it's usually a good idea to add some padding as well, as
-[Figure 7-3](#ch07.xhtml_Theeffectofpaddingonborderedblock-levelelements){data-type="xref"}
+[Figure 7-3](#ch07.xhtml_Theeffectofpaddingonborderedblock-levelelements){data-type="xref"}
 illustrates.
 
 <figure class="bordernone">
@@ -17809,7 +17121,7 @@ use whatever makes sense for a given side of the element, as shown here:
 h2 {padding: 14px 5em 0.1in 3ex;} /* value variety! */
 ```
 
-[Figure 7-4](#ch07.xhtml_Mixed-valuepadding){data-type="xref"} shows
+[Figure 7-4](#ch07.xhtml_Mixed-valuepadding){data-type="xref"} shows
 you, []{#ch07.xhtml_idm45797078389392 primary="values"
 secondary="mixed-value padding" data-type="indexterm"}with a little
 extra annotation, the results of this declaration.
@@ -17860,7 +17172,7 @@ defines a few rules to accommodate fewer than four values for `padding`
     *top*.
 
 If you prefer a more visual approach, take a look at
-[Figure 7-5](#ch07.xhtml_Valuereplicationpattern){data-type="xref"}.
+[Figure 7-5](#ch07.xhtml_Valuereplicationpattern){data-type="xref"}.
 
 <figure>
 <div id="ch07.xhtml_Valuereplicationpattern" class="figure">
@@ -17924,7 +17236,7 @@ each other and total an em of separation. Why would you bother to do
 this? Because then you could insert separation borders between the
 paragraphs, and the side borders will touch to form the appearance of a
 solid line. The following code defines these effects, illustrated in
-[Figure 7-6](#ch07.xhtml_Usingpaddinginsteadofmargins){data-type="xref"}:[]{#ch07.xhtml_idm45797078153728
+[Figure 7-6](#ch07.xhtml_Usingpaddinginsteadofmargins){data-type="xref"}:[]{#ch07.xhtml_idm45797078153728
 primary="" startref="ix_padding_prop"
 data-type="indexterm"}[]{#ch07.xhtml_idm45797078129232 primary=""
 startref="ix_padding_rep_value"
@@ -18031,7 +17343,7 @@ h2 {padding-left: 3em; padding-bottom: 2em;
 ```
 
 As you can see in
-[Figure 7-7](#ch07.xhtml_Morethanonesingle-sidepadding){data-type="xref"},
+[Figure 7-7](#ch07.xhtml_Morethanonesingle-sidepadding){data-type="xref"},
 the padding is set as we wanted. In this case, it might have been easier
 to use `padding` after all, like so:
 
@@ -18112,7 +17424,7 @@ little bit of padding to set the background edges away from the start
 and end of each block element, and more padding to the sides of each
 line of text. Here's a way to make that [happen]{.keep-together}, with
 the result shown in
-[Figure 7-8](#ch07.xhtml_logical-padding-figure){data-type="xref"}:
+[Figure 7-8](#ch07.xhtml_logical-padding-figure){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {
@@ -18223,7 +17535,7 @@ the width of the parent element's content area, so they change if the
 parent element's width changes in some way.
 
 For example, assume the following, which is illustrated in
-[Figure 7-9](#ch07.xhtml_Paddingpercentagesandthewidthsofparentelements){data-type="xref"}:
+[Figure 7-9](#ch07.xhtml_Paddingpercentagesandthewidthsofparentelements){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {padding: 10%; background-color: silver;}
@@ -18259,7 +17571,7 @@ alt="css5 0709" />
 </figure>
 
 You may have noticed something odd about the paragraphs in
-[Figure 7-9](#ch07.xhtml_Paddingpercentagesandthewidthsofparentelements){data-type="xref"}.
+[Figure 7-9](#ch07.xhtml_Paddingpercentagesandthewidthsofparentelements){data-type="xref"}.
 Not only did their side padding change according to the width of their
 parent elements, but so did their top and bottom padding. That's the
 desired behavior in CSS. Refer back to the property definition, and
@@ -18309,7 +17621,7 @@ You also can mix percentages with length values. Thus, to set `<h2>`
 elements to have top and bottom padding of one-half em, and side padding
 of 10% the width of their parent elements, you can declare the
 following, illustrated in
-[Figure 7-10](#ch07.xhtml_Mixedpadding){data-type="xref"}:
+[Figure 7-10](#ch07.xhtml_Mixedpadding){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h2 {padding: 0.5em 10%;}
@@ -18370,7 +17682,7 @@ like this:
 strong {padding-top: 0.5em; background-color: silver;}
 ```
 
-[Figure 7-11](#ch07.xhtml_Paddingonaninlinenonreplacedelement){data-type="xref"}
+[Figure 7-11](#ch07.xhtml_Paddingonaninlinenonreplacedelement){data-type="xref"}
 gives you an idea of what this might look like.
 
 <figure>
@@ -18391,7 +17703,7 @@ inline [nonreplaced]{.keep-together} elements; the left and right sides
 are a different story. We'll start by considering the case of a small,
 inline nonreplaced element within a single line. Here, if you set values
 for the left or right padding, they will be visible, as
-[Figure 7-12](#ch07.xhtml_Aninlinenonreplacedelementwithleftpadding){data-type="xref"}
+[Figure 7-12](#ch07.xhtml_Aninlinenonreplacedelementwithleftpadding){data-type="xref"}
 makes clear (so to speak):
 
 ``` {code-language="css" data-type="programlisting"}
@@ -18417,7 +17729,7 @@ strong {padding-left: 25px; padding-right: 25px; background: silver;}
 ```
 
 As expected,
-[Figure 7-13](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidepadding){data-type="xref"}
+[Figure 7-13](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidepadding){data-type="xref"}
 shows a little extra space on the right and left sides of the inline
 element, and no extra space above or below it.
 
@@ -18433,7 +17745,7 @@ alt="css5 0713" />
 
 Now, when an inline nonreplaced element stretches across multiple lines,
 the situation changes a bit.
-[Figure 7-14](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidepaddingdisplayedacrosstwolinesoftext){data-type="xref"}
+[Figure 7-14](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidepaddingdisplayedacrosstwolinesoftext){data-type="xref"}
 shows what happens when an inline nonreplaced element with padding is
 displayed across multiple lines:
 
@@ -18465,7 +17777,7 @@ displayed across two lines of text</h6>
 
 The way padding is (or isn't) applied to the ends of each line box can
 be altered with the property `box-decoration-break`. See
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
 for more details.[]{#ch07.xhtml_idm45797077226336 primary=""
 startref="ix_background_padding"
 data-type="indexterm"}[]{#ch07.xhtml_idm45797077225360 primary=""
@@ -18495,7 +17807,7 @@ img {background: silver; padding: 1em;}
 Regardless of whether the replaced element is block-level or inline, the
 padding will surround its content, and the background color will fill
 into that padding, as shown in
-[Figure 7-15](#ch07.xhtml_Paddingreplacedelements){data-type="xref"}.
+[Figure 7-15](#ch07.xhtml_Paddingreplacedelements){data-type="xref"}.
 You can also see that padding will push a replaced element's border
 (dashed, in this case) away from its content.
 
@@ -18512,7 +17824,7 @@ Now, remember all that stuff about how padding on inline nonreplaced
 elements doesn't affect the height of the lines of text? You can throw
 it all out for *replaced* elements, because they have a different set of
 rules. As you can see in
-[Figure 7-16](#ch07.xhtml_Paddingreplacedelements2){data-type="xref"},
+[Figure 7-16](#ch07.xhtml_Paddingreplacedelements2){data-type="xref"},
 the padding of an inline replaced element very much affects the height
 of the line.
 
@@ -18528,7 +17840,7 @@ alt="css5 0716" />
 The same goes for borders and margins, as you'll soon see.
 
 Note that if the image in
-[Figure 7-16](#ch07.xhtml_Paddingreplacedelements2){data-type="xref"}
+[Figure 7-16](#ch07.xhtml_Paddingreplacedelements2){data-type="xref"}
 had not loaded, or had somehow been set to have 0 height and width, the
 padding would still be rendered around the spot where the element should
 have been displayed, even if that spot has no height or width.
@@ -18570,7 +17882,7 @@ default, the []{#ch07.xhtml_idm45797077172832 primary="borders"
 secondary="background and" data-type="indexterm"}background of the
 element stops at the outer border edge, since the background does not
 extend into the margins, and the border is just inside the margin, and
-is thus drawn "underneath" the border. This matters when parts of the
+is thus drawn "underneath" the border. This matters when parts of the
 border are transparent, such as with dashed borders.
 
 Every border has three aspects: its width, or thickness; its style, or
@@ -18620,7 +17932,7 @@ portions of the border.
 
 Visible backgrounds can be prevented from extending into the border area
 by using the property `background-clip`. See
-[Chapter 8](../Text/ch08.xhtml#backgrounds){data-type="xref"} for
+[Chapter 8](../Text/ch08.xhtml#backgrounds){data-type="xref"} for
 details.
 :::
 
@@ -18657,7 +17969,7 @@ but because without a style, there wouldn't be any border at all.
 ```
 CSS defines 10 distinct styles for the property `border-style`,
 including the default value of `none`.
-[Figure 7-17](#ch07.xhtml_Borderstyles){data-type="xref"} demonstrates
+[Figure 7-17](#ch07.xhtml_Borderstyles){data-type="xref"} demonstrates
 these styles. This property is not inherited.
 
 The style value `hidden` is equivalent to `none`, except when applied to
@@ -18683,13 +17995,13 @@ are left up to the user agent to decide, and the author has no reliable
 way to influence the final result.
 
 All the borders shown in
-[Figure 7-17](#ch07.xhtml_Borderstyles){data-type="xref"} are based on a
+[Figure 7-17](#ch07.xhtml_Borderstyles){data-type="xref"} are based on a
 `color` value of `gray`, which makes all of the visual effects easier to
 see. The look of a border style is always based in some way on the color
 of the border, although the exact method may vary among user agents. The
 way browsers treat colors in the border styles `inset`, `outset`,
 `groove`, and `ridge` can and does vary. For example,
-[Figure 7-18](#ch07.xhtml_Twovalidwaysofrenderinginset){data-type="xref"}
+[Figure 7-18](#ch07.xhtml_Twovalidwaysofrenderinginset){data-type="xref"}
 illustrates two ways a browser could render an inset
 [border.]{.keep-together}
 
@@ -18710,7 +18022,7 @@ not as dark as the first browser.
 Now let's define a border style for images that are inside any unvisited
 hyperlink. [We might]{.keep-together} make them `outset`, so they have a
 "raised button" look, as depicted in
-[Figure 7-19](#ch07.xhtml_Applyinganoutsetbordertoahyperlinkedimage){data-type="xref"}:
+[Figure 7-19](#ch07.xhtml_Applyinganoutsetbordertoahyperlinkedimage){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a:link img {border-style: outset;}
@@ -18752,10 +18064,10 @@ Colors"](#ch07.xhtml_border-colors){data-type="xref"}.
 Remember, though, that the color-shifting in borders is up to the user
 agent. Let's go back to the blue outset border and compare it in two
 browsers, as shown in
-[Figure 7-20](#ch07.xhtml_Twooutsetborders){data-type="xref"}.
+[Figure 7-20](#ch07.xhtml_Twooutsetborders){data-type="xref"}.
 
 Again, notice that one browser shifts the colors to the lighter and
-darker, while another just shifts the "shadowed" sides to be darker than
+darker, while another just shifts the "shadowed" sides to be darker than
 blue. This is why, if a specific set of colors is desired, authors
 usually set the exact colors they want instead of using a border style
 like `outset` and leaving the result up to the browser. You'll soon see
@@ -18791,7 +18103,7 @@ of setting `padding` with multiple values. All the same rules about
 value replication apply to border styles, just as they did with padding.
 Thus, the following two statements would have the same effect, as
 depicted in
-[Figure 7-21](#ch07.xhtml_Equivalentstylerules){data-type="xref"}:[]{#ch07.xhtml_idm45797076971008
+[Figure 7-21](#ch07.xhtml_Equivalentstylerules){data-type="xref"}:[]{#ch07.xhtml_idm45797076971008
 primary="" startref="ix_border_style_prop" data-type="indexterm"}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -18855,7 +18167,7 @@ want to change the style for the bottom border, for example, you use
 It's not uncommon to see `border` used in conjunction with a single-side
 property. Suppose you want to set a solid border on three sides of a
 heading, but not have a left border, as shown in
-[Figure 7-22](#ch07.xhtml_Removingtheleftborder){data-type="xref"}.
+[Figure 7-22](#ch07.xhtml_Removingtheleftborder){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Removingtheleftborder" class="figure">
@@ -18950,7 +18262,7 @@ primary="border-inline-style property" data-type="indexterm"}with
 `border-inline-style` each accept one or two values. If two values are
 given, they are taken in the order of *start end*. Given the following
 CSS, you'll get a result like that shown in
-[Figure 7-23](#ch07.xhtml_logical-border-styles){data-type="xref"}:
+[Figure 7-23](#ch07.xhtml_logical-border-styles){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {border-block-style: solid double; border-inline-style: dashed dotted;}
@@ -19058,7 +18370,7 @@ These keywords are `thin`, `medium` (the default value), and `thick`.
 According to the specification, `thick` is 5px, wider than `medium`'s
 3px, which is wider than the 1-px `thin`---which makes sense.
 
-[Figure 7-24](#ch07.xhtml_Therelationofborder-widthkeywordstoeachother){data-type="xref"}
+[Figure 7-24](#ch07.xhtml_Therelationofborder-widthkeywordstoeachother){data-type="xref"}
 illustrates these three keywords, and how they relate to one another and
 to the content they surround.
 
@@ -19100,7 +18412,7 @@ the beginning of the section, such as `border-bottom-width`.
 secondary="replicating in borders" data-type="indexterm"}The other way
 is to use value replication in `border-width`, following the usual TRBL
 pattern, which is illustrated in
-[Figure 7-25](#ch07.xhtml_Valuereplicationandunevenborderwidths){data-type="xref"}:
+[Figure 7-25](#ch07.xhtml_Valuereplicationandunevenborderwidths){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {border-style: dotted; border-width: thin 0px;}
@@ -19292,7 +18604,7 @@ If there are fewer than four values, value replication takes effect as
 usual. So if you want `<h1>` elements to have thin gray top and bottom
 borders with thick green side borders, and medium gray borders around
 `<p>` elements, the following styles will suffice, with the result shown
-in [Figure 7-26](#ch07.xhtml_Bordershavemanyaspects){data-type="xref"}:
+in [Figure 7-26](#ch07.xhtml_Bordershavemanyaspects){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {border-style: solid; border-width: thin thick; border-color: gray green;}
@@ -19322,7 +18634,7 @@ p {border-style: solid; border-width: thick;
 If you don't declare a color, the default is `currentcolor`, which is
 always the foreground color of the element. Thus, the following
 declaration will be displayed as shown in
-[Figure 7-27](#ch07.xhtml_Bordercolorsbasedontheelementsforegroundandthevalueoftheborder-colorproperty){data-type="xref"}:
+[Figure 7-27](#ch07.xhtml_Bordercolorsbasedontheelementsforegroundandthevalueoftheborder-colorproperty){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p.shade1 {border-style: solid; border-width: thick; color: gray;}
@@ -19489,7 +18801,7 @@ a:hover {border-color: gray;}
 ```
 
 This will have the effect shown in
-[Figure 7-28](#ch07.xhtml_using_transparent_borders){data-type="xref"}.[]{#ch07.xhtml_idm45797075832592
+[Figure 7-28](#ch07.xhtml_using_transparent_borders){data-type="xref"}.[]{#ch07.xhtml_idm45797075832592
 primary="" startref="ix_borders_colors"
 data-type="indexterm"}[]{#ch07.xhtml_idm45797075831712 primary=""
 startref="ix_color_border" data-type="indexterm"}
@@ -19543,7 +18855,7 @@ h1 {border-bottom: thick solid rgb(50% 40% 75%);}
 ```
 
 This will apply the values to the bottom border alone, as shown in
-[Figure 7-29](#ch07.xhtml_Settingabottomborderwithashorthandproperty){data-type="xref"},
+[Figure 7-29](#ch07.xhtml_Settingabottomborderwithashorthandproperty){data-type="xref"},
 leaving the others to their defaults. Since the default border style is
 `none`, no borders appear on the other three sides of the element.
 
@@ -19596,7 +18908,7 @@ shorthand properties and four logical shorthand properties.
 ```
 We can use these properties to create some complex borders, such as
 those shown in
-[Figure 7-30](#ch07.xhtml_Verycomplexborders){data-type="xref"}:
+[Figure 7-30](#ch07.xhtml_Verycomplexborders){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {border-left: 3px solid gray;
@@ -19639,7 +18951,7 @@ say you want a top border style of `dashed` and you're willing to let
 the width default to `medium` and the color be the same as the text of
 the element itself. All you need in such a case is the following markup
 (shown in
-[Figure 7-31](#ch07.xhtml_Dashingacrossthetopofanelement){data-type="xref"}):
+[Figure 7-31](#ch07.xhtml_Dashingacrossthetopofanelement){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 p.roof {border-top: dashed;}
@@ -19724,7 +19036,7 @@ This property has the advantage of being very compact, although that
 brevity introduces a few limitations. Before we worry about that, let's
 see how `border` works. If you want all `<h1>` elements to have a thick
 silver border, the following declaration would display as shown in
-[Figure 7-32](#ch07.xhtml_Areallyshortborderdeclaration){data-type="xref"}:
+[Figure 7-32](#ch07.xhtml_Areallyshortborderdeclaration){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {border: thick silver solid;}
@@ -19752,7 +19064,7 @@ h1 {border: thick goldenrod solid;
 
 The second rule overrides the width value for the left border assigned
 by the first rule, thus replacing `thick` with `20px`, as you can see in
-[Figure 7-33](#ch07.xhtml_Usingthecascadetoonesadvantage){data-type="xref"}.
+[Figure 7-33](#ch07.xhtml_Usingthecascadetoonesadvantage){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch07.xhtml_Usingthecascadetoonesadvantage" class="figure">
@@ -19802,7 +19114,7 @@ strong {border-block-start: 10px solid hsl(216,50%,50%);
 As seen before, adding borders to the block start and end will have
 absolutely no effect on the line height. However, since borders are
 visible, they'll be drawn---as illustrated in
-[Figure 7-34](#ch07.xhtml_Bordersoninlinenonreplacedelements){data-type="xref"}.
+[Figure 7-34](#ch07.xhtml_Bordersoninlinenonreplacedelements){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch07.xhtml_Bordersoninlinenonreplacedelements" class="figure">
@@ -19821,7 +19133,7 @@ Again, all of this is true only for the block-start and -end sides of
 inline elements; the inline sides are a different story. If you apply a
 border along an inline side, not only will they be visible, but they'll
 displace the text around them, as you can see in
-[Figure 7-35](#ch07.xhtml_Aninlinenonreplacedelementwithaleftborder){data-type="xref"}:
+[Figure 7-35](#ch07.xhtml_Aninlinenonreplacedelementwithaleftborder){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 strong {border-inline-start: 25px double hsl(216 50% 50%); background: silver;}
@@ -19848,7 +19160,7 @@ change which word is at the end of the line.
 
 The way borders are (or aren't) drawn at the ends of each line box can
 be altered with the property `box-decoration-break`. See
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
 for more details.
 :::
 
@@ -19858,7 +19170,7 @@ images, on the other hand, the effects are very much like those we saw
 with padding: a border *will* affect the height of the lines of text, in
 addition to shifting text around to the sides. Thus, assuming the
 following styles, we get a result like that seen in
-[Figure 7-36](#ch07.xhtml_Bordersoninlinereplacedelements){data-type="xref"}:[]{#ch07.xhtml_idm45797075235216
+[Figure 7-36](#ch07.xhtml_Bordersoninlinereplacedelements){data-type="xref"}:[]{#ch07.xhtml_idm45797075235216
 primary="" startref="ix_border_inline_elem"
 data-type="indexterm"}[]{#ch07.xhtml_idm45797075233136 primary=""
 startref="ix_inline_format_borders" data-type="indexterm"}
@@ -19929,7 +19241,7 @@ pretty obviously rounded. Here's one way to do that:
 ```
 
 That will have the result shown in
-[Figure 7-37](#ch07.xhtml_Howborderradiiarecalculated){data-type="xref"},
+[Figure 7-37](#ch07.xhtml_Howborderradiiarecalculated){data-type="xref"},
 where circle diagrams have been added to two of the corners. (The same
 rounding is done in all four corners.)
 
@@ -19954,7 +19266,7 @@ same would happen in the bottom- [right corner.]{.keep-together}
 With single length values, we get circular corner-rounding shapes. If a
 single percentage is used, the results are far more oval. For example,
 consider the following, illustrated in
-[Figure 7-38](#ch07.xhtml_Howpercentageborderradiiarecalculated){data-type="xref"}:
+[Figure 7-38](#ch07.xhtml_Howpercentageborderradiiarecalculated){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #example {border-radius: 33%;}
@@ -20015,7 +19327,7 @@ fourth is copied from the second. If there are two, the third is copied
 from the first, and the fourth from the second. If there's just one, the
 missing three are copied from the first. Thus, the following two rules
 are identical and will have the result shown in
-[Figure 7-39](#ch07.xhtml_Avarietyofroundedcorners){data-type="xref"}:
+[Figure 7-39](#ch07.xhtml_Avarietyofroundedcorners){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #example {border-radius: 1em 2em 3em 2em;}
@@ -20032,19 +19344,19 @@ alt="css5 0739" />
 </figure>
 
 There's an important aspect to
-[Figure 7-39](#ch07.xhtml_Avarietyofroundedcorners){data-type="xref"}:
+[Figure 7-39](#ch07.xhtml_Avarietyofroundedcorners){data-type="xref"}:
 the rounding of the content area's background along with the rest of the
 background. See how the silver curves, and the period sits outside it?
 That's the expected behavior when the content area's background is
 different from the padding background (you'll see how to do that in
-[Chapter 8](../Text/ch08.xhtml#backgrounds){data-type="xref"}) and the
+[Chapter 8](../Text/ch08.xhtml#backgrounds){data-type="xref"}) and the
 curving of a corner is large enough to affect the boundary between
 content and padding.
 
 This is because while `border-radius` changes the way the border and
 background(s) of an element are drawn, it does *not* change the shape of
 the element box. Consider the situation depicted in
-[Figure 7-40](#ch07.xhtml_Elementswithroundedcornersarestillboxes){data-type="xref"}.
+[Figure 7-40](#ch07.xhtml_Elementswithroundedcornersarestillboxes){data-type="xref"}.
 
 <figure>
 <div id="ch07.xhtml_Elementswithroundedcornersarestillboxes"
@@ -20127,7 +19439,7 @@ of each corner is given. In both cases, the values are in TiLTeR BuRBLe
 order.
 
 Here's a simpler example, illustrated in
-[Figure 7-41](#ch07.xhtml_Ellipticalcornerrounding){data-type="xref"}:
+[Figure 7-41](#ch07.xhtml_Ellipticalcornerrounding){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #example {border-radius: 1em / 2em;}
@@ -20148,7 +19460,7 @@ section.
 
 Here's a slightly more complex version, providing two lengths to either
 side of the slash, as depicted in
-[Figure 7-42](#ch07.xhtml_Differentellipticalroundingcalculations){data-type="xref"}:
+[Figure 7-42](#ch07.xhtml_Differentellipticalroundingcalculations){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #example {border-radius: 2.5em 2em / 1.5em 3em;}
@@ -20215,7 +19527,7 @@ throughout the curve of the rounded corner.
 When it comes to differing styles and colors, the specification is less
 clear about how this should be accomplished. Consider the various
 samples shown in
-[Figure 7-43](#ch07.xhtml_Roundedcornersupclose){data-type="xref"}.
+[Figure 7-43](#ch07.xhtml_Roundedcornersupclose){data-type="xref"}.
 
 <figure>
 <div id="ch07.xhtml_Roundedcornersupclose" class="figure">
@@ -20240,7 +19552,7 @@ The fourth example shows a transition from a thick solid to a thinner
 double border. []{#ch07.xhtml_idm45797074776176 primary="transitions"
 secondary="border corner rounding" data-type="indexterm"}Note the
 placement of the transition, which is *not* at the halfway point. It is
-instead determined by taking the ratio of the two borders' thicknesses
+instead determined by taking the ratio of the two borders' thicknesses
 and using that to find the transition point. Let's assume the left
 border is 10 pixels thick, and the top border 5 pixels thick. By summing
 the two to get 15 pixels, the left border gets 2/3 (10/15), and the top
@@ -20257,7 +19569,7 @@ linear gradient. Perhaps one day they will, but for now, the changeover
 is sharp.
 
 The seventh example in
-[Figure 7-43](#ch07.xhtml_Roundedcornersupclose){data-type="xref"} shows
+[Figure 7-43](#ch07.xhtml_Roundedcornersupclose){data-type="xref"} shows
 a case we haven't really discussed: "What happens if the borders are
 equal to or thicker than the value of `border-radius`?" In this case,
 the outside of the corner is rounded, but the inside is not, as shown.
@@ -20330,7 +19642,7 @@ The individual corner border radius properties are mostly useful for
 setting a common corner rounding and then overriding just one. Thus, a
 comic-book-like word balloon shape could be done as follows, with the
 result shown in
-[Figure 7-44](#ch07.xhtml_links-shaped-like-balloons){data-type="xref"}:
+[Figure 7-44](#ch07.xhtml_links-shaped-like-balloons){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .tabs {border-radius: 2em;
@@ -20393,7 +19705,7 @@ in the pattern *border-block-inline-radius*. Thus,
 `border-start-end-radius` sets the radius of the corner that's at the
 junction of the block-start and inline-end edges. Take the following
 example, which is illustrated in
-[Figure 7-45](#ch07.xhtml_logical-border-radius){data-type="xref"}:
+[Figure 7-45](#ch07.xhtml_logical-border-radius){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {border-start-end-radius: 2em;}
@@ -20478,7 +19790,7 @@ you tell the browser where to look for it.
 ```
 Let's load an image of a single circle to be used as the border image,
 using the following styles, whose result is shown in
-[Figure 7-46](#ch07.xhtml_Definingaborderimagessource){data-type="xref"}:
+[Figure 7-46](#ch07.xhtml_Definingaborderimagessource){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 border: 25px solid;
@@ -20541,7 +19853,7 @@ bottom, and left edges. Yep, there's that TRBL pattern again, which pegs
 `border-image-slice` as a physical property. And value replication is
 also in effect here, so a single value will be used for all four
 offsets.
-[Figure 7-47](#ch07.xhtml_Variousslicingpatterns){data-type="xref"}
+[Figure 7-47](#ch07.xhtml_Variousslicingpatterns){data-type="xref"}
 shows a small sampling of offset patterns, all based on percentages.
 
 <figure>
@@ -20564,9 +19876,9 @@ single-side properties; that is, there is no such thing as
 `border-left-image-slice`.
 :::
 
-Now let's take an image that has a 3 × 3 grid of circles, each a
+Now let's take an image that has a 3 × 3 grid of circles, each a
 different color, and slice it up for use in an image border.
-[Figure 7-48](#ch07.xhtml_Anall-aroundimageborder){data-type="xref"}
+[Figure 7-48](#ch07.xhtml_Anall-aroundimageborder){data-type="xref"}
 shows a single copy of this image and the resulting image border:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -20580,7 +19892,7 @@ default behavior, and it makes a fair amount of sense, as you'll see
 (and find out how to change) in ["Altering the repeat
 pattern"](#ch07.xhtml_altering-the-repeat-pattern){data-type="xref"}.
 Beyond that effect, you can see in
-[Figure 7-48](#ch07.xhtml_Anall-aroundimageborder){data-type="xref"}
+[Figure 7-48](#ch07.xhtml_Anall-aroundimageborder){data-type="xref"}
 that the slice-lines fall right between the circles, because the circles
 are all the same size and so one-third offsets place the slice-lines
 right between them. The corner circles go into the corners of the
@@ -20615,9 +19927,9 @@ the image isn't sliced into neat quadrants anymore. Thus, for
 `border-image-slice: 100%`---which is the default value---each corner
 gets the entire image, and the sides are left empty. A few examples of
 this effect are shown in
-[Figure 7-49](#ch07.xhtml_Variouspatternsthatpreventsideslices){data-type="xref"}.
+[Figure 7-49](#ch07.xhtml_Variouspatternsthatpreventsideslices){data-type="xref"}.
 
-That's why we had to have a 3 × 3 grid of circles when we wanted to go
+That's why we had to have a 3 × 3 grid of circles when we wanted to go
 all the way around the border area, corners, and sides.
 
 <figure>
@@ -20636,7 +19948,7 @@ In raster images like PNGs or JPEGs, the number corresponds to pixels in
 the image on a 1:1 basis. If you have a raster image and want to define
 25-pixel offsets for the slice-lines, this is how to do that, as
 illustrated in
-[Figure 7-50](#ch07.xhtml_Numberslicing){data-type="xref"}:
+[Figure 7-50](#ch07.xhtml_Numberslicing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 border: 25px solid;
@@ -20653,11 +19965,11 @@ alt="css5 0750" />
 </div>
 </figure>
 
-Yikes again! What happened there is that the raster image is 150 × 150
-pixels, so each circle is 50 × 50 pixels. Our offsets, though, were only
+Yikes again! What happened there is that the raster image is 150 × 150
+pixels, so each circle is 50 × 50 pixels. Our offsets, though, were only
 `25`, as in 25 pixels. So the slice-lines were placed on the image as
 shown in
-[Figure 7-51](#ch07.xhtml_Slicelinesat25pixels){data-type="xref"}.
+[Figure 7-51](#ch07.xhtml_Slicelinesat25pixels){data-type="xref"}.
 
 This begins to give us an idea of why the default behavior for the side
 images is to stretch them. Note how the corners flow into the sides,
@@ -20681,14 +19993,14 @@ alt="css5 0751" />
 </figure>
 
 Now let's address the curious case of the image's center. In the
-previous examples, a circle is at the center of the 3 × 3 grid of
+previous examples, a circle is at the center of the 3 × 3 grid of
 circles, but it disappears when the image is applied to the border. In
 the preceding example, in fact, not only the middle circle was missing,
 but the entire center slice. This dropping of the center slice is the
 default behavior for image slicing, but you can override it by adding a
 `fill` keyword to the end of your `border-image-slice` value. If we add
 `fill` to the previous example, as shown here, we'll get the result
-shown in [Figure 7-52](#ch07.xhtml_Usingthefillslice){data-type="xref"}:
+shown in [Figure 7-52](#ch07.xhtml_Usingthefillslice){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 border: 25px solid;
@@ -20727,7 +20039,7 @@ border-image-slice: 50;
 ```
 
 This would have a result like that shown in
-[Figure 7-53](#ch07.xhtml_Unevenborderimagewidths){data-type="xref"}.
+[Figure 7-53](#ch07.xhtml_Unevenborderimagewidths){data-type="xref"}.
 Even though the slice-lines are intrinsically set to 50 pixels (via
 `50`), the resulting slices are resized to fit into the border areas
 they occupy.
@@ -20792,7 +20104,7 @@ border-image-width: 1em;
 
 That pushes slice-lines 1 em inward from each of the border area's
 sides, as shown in
-[Figure 7-54](#ch07.xhtml_Placingslice-linesfortheborderimageswidth){data-type="xref"}.
+[Figure 7-54](#ch07.xhtml_Placingslice-linesfortheborderimageswidth){data-type="xref"}.
 
 <figure>
 <div id="ch07.xhtml_Placingslice-linesfortheborderimageswidth"
@@ -20809,7 +20121,7 @@ border areas are 1 em wide, and each corner is 1 em tall and wide. Given
 that, the border images created with `border-image-slice` are filled
 into those border areas in the manner prescribed by
 `border-image-repeat` (which we'll get to shortly). Therefore, in
-[Figure 7-55](#ch07.xhtml_css5_border_images-with-and-without){data-type="xref"},
+[Figure 7-55](#ch07.xhtml_css5_border_images-with-and-without){data-type="xref"},
 we could have had a `border-width` of 0 and still made the border images
 show up, by using `border-image-width`. This is useful if you want to
 have a solid border as a fallback in case the border image doesn't load,
@@ -20844,7 +20156,7 @@ percentage values are handled should make sense, as long as you keep in
 mind that the offsets are with respect to the overall border box, *not*
 each border side. For example, consider the following declaration,
 illustrated in
-[Figure 7-56](#ch07.xhtml_Placementofpercentageslice-lines){data-type="xref"}:
+[Figure 7-56](#ch07.xhtml_Placementofpercentageslice-lines){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 border-image-width: 33%;
@@ -20906,7 +20218,7 @@ border-width: 1em 2em; border-image-width: 1;
 
 You can increase or reduce the number values to get a certain multiple
 of the border area that `border-width` defines.
-[Figure 7-57](#ch07.xhtml_Variousnumericborderimagewidths){data-type="xref"}
+[Figure 7-57](#ch07.xhtml_Variousnumericborderimagewidths){data-type="xref"}
 shows a few examples.
 
 In each case, the number has been multiplied by the border area's width
@@ -21046,7 +20358,7 @@ border-image-outset: 8px;
 ```
 
 This is illustrated in
-[Figure 7-58](#ch07.xhtml_Creatinganimageborderoverhang){data-type="xref"},
+[Figure 7-58](#ch07.xhtml_Creatinganimageborderoverhang){data-type="xref"},
 and is compared to having no outset nor border image.
 
 <figure>
@@ -21138,7 +20450,7 @@ its side box, and then tile copies of the image outward from that point,
 until the border side area is filled. This can lead to some of the
 repeated images being clipped at the sides of the border area, as seen
 in
-[Figure 7-59](#ch07.xhtml_Variousimagerepeatpatterns){data-type="xref"}.
+[Figure 7-59](#ch07.xhtml_Variousimagerepeatpatterns){data-type="xref"}.
 
 <figure>
 <div id="ch07.xhtml_Variousimagerepeatpatterns" class="figure">
@@ -21160,10 +20472,10 @@ the image being tiled is 50 pixels wide. Dividing 420 by 50 results in
 8.4, so that's rounded to 8. Thus, eight images are tiled. However, each
 is stretched to be 52.5 pixels wide (420 ÷ 8 = 52.5). Similarly, if the
 right border side area is 280 pixels tall, a 50-pixel-tall image will be
-tiled six times (280 ÷ 50 = 5.6, rounded to 6) and each image will be
-squashed to 46.6667 pixels tall (280 ÷ 6 = 46.6667). If you look closely
+tiled six times (280 ÷ 50 = 5.6, rounded to 6) and each image will be
+squashed to 46.6667 pixels tall (280 ÷ 6 = 46.6667). If you look closely
 at
-[Figure 7-59](#ch07.xhtml_Variousimagerepeatpatterns){data-type="xref"},
+[Figure 7-59](#ch07.xhtml_Variousimagerepeatpatterns){data-type="xref"},
 you can see the top and bottom circles are stretched a bit, whereas the
 right and left circles show some squashing. The last value, `space`,
 starts out similar to `round`, in that the border side area's length is
@@ -21185,7 +20497,7 @@ that is put to each side of each image, meaning each image gets 1.25
 pixels of space to either side. That puts 2.5 pixels of space between
 each image, and 1.25 pixels of space before the first and after the last
 image (see
-[Figure 7-60](#ch07.xhtml_Avarietyofspacerepetitions){data-type="xref"}
+[Figure 7-60](#ch07.xhtml_Avarietyofspacerepetitions){data-type="xref"}
 for examples of `space` repeating).
 
 <figure>
@@ -21295,7 +20607,7 @@ First, let's set up a border with scooped-out corners and a raised
 appearance, like a plaque, with a fallback to a simple outset border of
 similar colors. We might use something like these styles and an image,
 which is shown in
-[Figure 7-61](#ch07.xhtml_border-ex-01){data-type="xref"}, along with
+[Figure 7-61](#ch07.xhtml_border-ex-01){data-type="xref"}, along with
 both the final result and the fallback result:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -21333,7 +20645,7 @@ the element will be ahead of time, and we want the waves to flow from
 one to another, we'll use `round` to take advantage of its scaling
 behavior while getting in as many waves as will reasonably fit. You can
 see the result in
-[Figure 7-62](#ch07.xhtml_wavy-border){data-type="xref"}, along with the
+[Figure 7-62](#ch07.xhtml_wavy-border){data-type="xref"}, along with the
 image that's used to create the effect:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -21356,7 +20668,7 @@ alt="css5 0762" />
 You should be wary of one issue here, which is what happens if you add
 in an element background. Just to make the situation clear, we'll add a
 red background to this element, with the result shown in
-[Figure 7-63](#ch07.xhtml_border-ex-03){data-type="xref"}:
+[Figure 7-63](#ch07.xhtml_border-ex-03){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #oceanic {
@@ -21483,7 +20795,7 @@ same as the outline for a form input. When using `auto`, the value for
 
 Beyond those differences, outlines have all the same styles that borders
 have, as illustrated in
-[Figure 7-64](#ch07.xhtml_Variousoutlinestyles){data-type="xref"}.
+[Figure 7-64](#ch07.xhtml_Variousoutlinestyles){data-type="xref"}.
 
 The less obvious difference is that unlike `border-style`,
 `outline-style` is *not* a shorthand property.
@@ -21541,7 +20853,7 @@ about border width. If the outline style is `none`, the outline's width
 is set to `0`. The `thick` value is wider than `medium`, which is wider
 than `thin`, but the specification doesn't define exact widths for these
 keywords.
-[Figure 7-65](#ch07.xhtml_Variousoutlinewidths){data-type="xref"} shows
+[Figure 7-65](#ch07.xhtml_Variousoutlinewidths){data-type="xref"} shows
 a few outline widths.
 
 <figure>
@@ -21650,7 +20962,7 @@ primary="borders" secondary="versus outlines"
 secondary-sortas="outlines" data-type="indexterm"}comes as little
 surprise that, like `border`, this is a convenient way to set the
 overall style, width, and color of an outline.
-[Figure 7-66](#ch07.xhtml_Variousoutlines){data-type="xref"} illustrates
+[Figure 7-66](#ch07.xhtml_Variousoutlines){data-type="xref"} illustrates
 a variety of outlines.
 
 <figure class="width-75">
@@ -21679,7 +20991,7 @@ way. They're purely presentational.
 
 To understand what this means, consider the following styles,
 illustrated in
-[Figure 7-67](#ch07.xhtml_Outlineovermargin){data-type="xref"}:
+[Figure 7-67](#ch07.xhtml_Outlineovermargin){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {padding: 10px; border: 10px solid green;
@@ -21703,7 +21015,7 @@ outline. (We'll deal with margins in the next section.)
 This is what's meant by outlines not affecting layout. Let's consider
 another example, this time with two `<span>` elements that are given
 outlines. You can see the results in
-[Figure 7-68](#ch07.xhtml_Overlappingoutlines){data-type="xref"}:
+[Figure 7-68](#ch07.xhtml_Overlappingoutlines){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 span {outline: 1em solid rgba(0,128,0,0.5);}
@@ -21727,7 +21039,7 @@ This raises an even more interesting feature of outlines: they are not
 always rectangular, nor are they always contiguous. Consider this
 outline applied to a `<strong>` element that breaks across two lines, as
 illustrated in two scenarios in
-[Figure 7-69](#ch07.xhtml_Discontinuousandnon-rectangularoutlines){data-type="xref"}:
+[Figure 7-69](#ch07.xhtml_Discontinuousandnon-rectangularoutlines){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 strong {outline: 2px dotted gray;}
@@ -21760,7 +21072,7 @@ As of late 2022, not every browser combines the inline fragments into a
 single contiguous polygon. In those that do not support this behavior,
 each fragment is still a self-contained rectangle, as in the first
 example in
-[Figure 7-69](#ch07.xhtml_Discontinuousandnon-rectangularoutlines){data-type="xref"}.
+[Figure 7-69](#ch07.xhtml_Discontinuousandnon-rectangularoutlines){data-type="xref"}.
 []{#ch07.xhtml_idm45797073042624 primary="border-radius property"
 data-type="indexterm"}Also, Firefox and Chrome have outlines follow
 `border-radius` rounding, whereas Safari keeps the corners
@@ -21793,7 +21105,7 @@ between most normal-flow elements occurs because of element *margins*.
 Setting a margin creates extra blank space around an element. *Blank
 space* generally refers to an area in which other elements cannot also
 exist and in which the parent element's background is visible.
-[Figure 7-70](#ch07.xhtml_Paragraphswithandwithoutmargins){data-type="xref"}
+[Figure 7-70](#ch07.xhtml_Paragraphswithandwithoutmargins){data-type="xref"}
 shows the difference between two paragraphs without any margins and the
 same two paragraphs with margins.
 
@@ -21841,7 +21153,7 @@ h1 {margin: 0.25in; background-color: silver;}
 
 This sets a quarter-inch of blank space on each side of an `<h1>`
 element, as illustrated in
-[Figure 7-71](#ch07.xhtml_Settingamarginforh1elements){data-type="xref"}.
+[Figure 7-71](#ch07.xhtml_Settingamarginforh1elements){data-type="xref"}.
 Here, dashed lines represent the margin's outer edge, but the lines are
 purely illustrative and would not actually appear in a web browser.
 
@@ -21915,7 +21227,7 @@ shown here:
 h2 {margin: 14px 5em 0.1in 3ex;} /* value variety! */
 ```
 
-[Figure 7-72](#ch07.xhtml_Mixed-valuemargins){data-type="xref"} shows,
+[Figure 7-72](#ch07.xhtml_Mixed-valuemargins){data-type="xref"} shows,
 with a little extra annotation, the results of this declaration.
 
 <figure class="bordernone">
@@ -21939,7 +21251,7 @@ for the margins of an element. As with padding, percentage margin values
 are computed in relation to the width of the parent element's content
 area, so they can change if the parent element's width changes in some
 way. For example, assume the following, which is illustrated in
-[Figure 7-73](#ch07.xhtml_Parentwidthsandpercentages){data-type="xref"}:
+[Figure 7-73](#ch07.xhtml_Parentwidthsandpercentages){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {margin: 10%;}
@@ -22106,7 +21418,7 @@ only 1; the two margins collapse together.
 To illustrate this a little more clearly, let's return to the
 percentage-margin example. This time, we'll add dashed lines to indicate
 where the margins fall, as shown in
-[Figure 7-74](#ch07.xhtml_Collapsingmargins){data-type="xref"}.
+[Figure 7-74](#ch07.xhtml_Collapsingmargins){data-type="xref"}.
 
 <figure>
 <div id="ch07.xhtml_Collapsingmargins" class="figure">
@@ -22124,7 +21436,7 @@ second paragraph is collapsed, leaving the first paragraph's block-end
 margin in charge.
 
 So in a sense,
-[Figure 7-74](#ch07.xhtml_Collapsingmargins){data-type="xref"} is lying:
+[Figure 7-74](#ch07.xhtml_Collapsingmargins){data-type="xref"} is lying:
 if you take the CSS specification strictly at its word, the block-start
 (top) margin of the second paragraph is actually reset to 0. It doesn't
 stick into the block-end margin of the first paragraph because once it
@@ -22144,7 +21456,7 @@ h1 {margin: 1em;}
 
 The margin on the `<h1>` will push the edges of the `header` away from
 the content of the `<h1>`, right? Well, not entirely. See
-[Figure 7-75](#ch07.xhtml_Marginscollapsingwithparents){data-type="xref"}.
+[Figure 7-75](#ch07.xhtml_Marginscollapsingwithparents){data-type="xref"}.
 
 What happened? The inline-side margins took effect---we can see that
 from the way the text is moved over---but the block-start and block-end
@@ -22153,7 +21465,7 @@ margins are gone!
 Only they aren't gone. They're just sticking out of the `header`
 element, having interacted with the (zero-width) block-start margin of
 the `header` element. The magic of dashed lines in
-[Figure 7-76](#ch07.xhtml_Marginscollapsingwithparentsrevealed){data-type="xref"}
+[Figure 7-76](#ch07.xhtml_Marginscollapsingwithparentsrevealed){data-type="xref"}
 shows us what's happening.
 
 <figure class="bordernone">
@@ -22211,7 +21523,7 @@ data-type="indexterm"}[]{#ch07.xhtml_ix_margin_neg3 primary="margins"
 secondary="negative" data-type="indexterm"}negative margins for an
 element. This can cause the element's box to stick out of its parent or
 to overlap other elements. Consider these rules, which are illustrated
-in [Figure 7-77](#ch07.xhtml_Negativemarginsinaction){data-type="xref"}:
+in [Figure 7-77](#ch07.xhtml_Negativemarginsinaction){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {border: 1px solid gray; margin: 1em;}
@@ -22243,7 +21555,7 @@ example, you can make a paragraph "punch out" of a parent element by
 being creative with positive and negative margins, or you can create a
 Mondrian effect with several overlapping or randomly placed boxes, as
 shown in
-[Figure 7-78](#ch07.xhtml_Punchingoutofaparent){data-type="xref"}:
+[Figure 7-78](#ch07.xhtml_Punchingoutofaparent){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {background: hsl(42,80%,80%); border: 1px solid;}
@@ -22295,7 +21607,7 @@ effect, they'll have no effect at all.
 As with padding, the layout effects change a bit when you apply margins
 to the inline-start and inline-end sides of an inline nonreplaced
 element, as illustrated in
-[Figure 7-79](#ch07.xhtml_Aninlinenonreplacedelementwithaleftmargin){data-type="xref"}:
+[Figure 7-79](#ch07.xhtml_Aninlinenonreplacedelementwithaleftmargin){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 strong {margin-inline-start: 25px; background: silver;}
@@ -22320,7 +21632,7 @@ strong {margin: 25px; background: silver;}
 ```
 
 As expected,
-[Figure 7-80](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidemargins){data-type="xref"}
+[Figure 7-80](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidemargins){data-type="xref"}
 shows a little extra space on the inline-start and -end sides of the
 inline element, and no extra space above or below it.
 
@@ -22336,7 +21648,7 @@ alt="css5 0780" />
 
 Now, when an inline nonreplaced element stretches across multiple lines,
 the situation changes.
-[Figure 7-81](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidemargindisplayedacrosstwolinesoftext){data-type="xref"}
+[Figure 7-81](#ch07.xhtml_Aninlinenonreplacedelementwith25-pixelsidemargindisplayedacrosstwolinesoftext){data-type="xref"}
 shows what happens when an inline nonreplaced element with a margin is
 displayed across multiple lines:
 
@@ -22368,7 +21680,7 @@ the element's content begins within a line.
 
 You can alter the way margins are (or aren't) applied to the ends of
 each line box by using the property `box-decoration-break`. See
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
 for more details.
 :::
 
@@ -22377,7 +21689,7 @@ to inline nonreplaced elements. The block-start and block-end of the
 element aren't affected, and neither are the heights of lines, but the
 inline-start and inline-end sides of the element can overlap other
 content, as depicted in
-[Figure 7-82](#ch07.xhtml_Aninlinenonreplacedelementwithanegativemargin){data-type="xref"}:
+[Figure 7-82](#ch07.xhtml_Aninlinenonreplacedelementwithanegativemargin){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 strong {margin: -25px; background: silver;}
@@ -22408,7 +21720,7 @@ data-type="indexterm"}[]{#ch07.xhtml_idm45797072050752 primary=""
 startref="ix_margins_inline_format" data-type="indexterm"} The
 inline-side margins of an inline replaced element act the same as for a
 nonreplaced element.
-[Figure 7-83](#ch07.xhtml_Inlinereplacedelementswithdifferingmarginvalues){data-type="xref"}
+[Figure 7-83](#ch07.xhtml_Inlinereplacedelementswithdifferingmarginvalues){data-type="xref"}
 shows a series of effects on layout from margins set on inline replaced
 elements.
 
@@ -22491,7 +21803,7 @@ accepts any valid color value.
 If you want the color to extend out a little bit from the content area
 of the element, add some padding to the mix, as shown in the following
 code and illustrated in
-[Figure 8-1](#ch08.xhtml_cab_fig07){data-type="xref"}:
+[Figure 8-1](#ch08.xhtml_cab_fig07){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {background-color: #AEA;}
@@ -22588,7 +21900,7 @@ h1 {color: white; background-color: rgb(20% 20% 20%);
     font-family: Arial, sans-serif;}
 ```
 
-[Figure 8-2](#ch08.xhtml_cab_fig08){data-type="xref"} depicts this
+[Figure 8-2](#ch08.xhtml_cab_fig08){data-type="xref"} depicts this
 example.
 
 <figure>
@@ -22605,7 +21917,7 @@ show all of them here. Still, we'll try to give you some idea of what
 you can do.
 
 This stylesheet is a little more complicated, as illustrated by
-[Figure 8-3](#ch08.xhtml_cab_fig09){data-type="xref"}:
+[Figure 8-3](#ch08.xhtml_cab_fig09){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {color: black; background-color: white;}
@@ -22630,7 +21942,7 @@ transparent portions, like a PNG or WebP. Suppose, though, you want to
 create a two-tone border around a JPEG. You can pull that off by adding
 a background color and a little bit of padding to your image, as shown
 in the following code and illustrated in
-[Figure 8-4](#ch08.xhtml_cab_fig10){data-type="xref"}:
+[Figure 8-4](#ch08.xhtml_cab_fig10){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img.twotone {background-color: red; padding: 5px; border: 5px solid gold;}
@@ -22652,7 +21964,7 @@ between the image and its border, creating the visual effect of an
 "inner border." This technique could be extended to create more
 complicated effects with box shadows (discussed at the end of the
 chapter) and background images like gradients (discussed in
-[Chapter 9](../Text/ch09.xhtml#gradients){data-type="xref"}).[]{#ch08.xhtml_idm45797071725648
+[Chapter 9](../Text/ch09.xhtml#gradients){data-type="xref"}).[]{#ch08.xhtml_idm45797071725648
 primary="" startref="ix_background_color_prop"
 data-type="indexterm"}[]{#ch08.xhtml_idm45797071724704 primary=""
 startref="ix_background_colors"
@@ -22721,7 +22033,7 @@ value `content-box`, on the other hand, restricts the background to just
 the content area of the element.
 
 The effects of these three values are illustrated in
-[Figure 8-5](#ch08.xhtml_cab_fig11){data-type="xref"}, which is the
+[Figure 8-5](#ch08.xhtml_cab_fig11){data-type="xref"}, which is the
 result of the following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -22753,7 +22065,7 @@ data-type="indexterm"}[]{#ch08.xhtml_idm45797071637376 primary="borders"
 secondary="corner rounding" data-type="indexterm"}clipping of the
 background area can be reduced if the element has rounded corners,
 thanks to the `border-radius` property (see
-[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"}).
+[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"}).
 This is basically common sense, since if you give your element
 significantly rounded corners, you want the background to be clipped by
 those corners instead of stick out past them. The way to think of this
@@ -22787,7 +22099,7 @@ secondary="foreground" data-type="indexterm"}kicker is that to see this
 effect, you have to remove the foreground color of the element.
 Otherwise, the foreground color obscures the background. Consider the
 following, which has the result shown in
-[Figure 8-6](#ch08.xhtml_cbag_css4_background-clip-text){data-type="xref"}:
+[Figure 8-6](#ch08.xhtml_cbag_css4_background-clip-text){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {color: rgb(255,0,0); background: rgb(0,0,255);
@@ -22841,7 +22153,7 @@ support the `text` value in the future (it's under discussion for
 removal from CSS as we write this), include the prefixed and nonprefixed
 versions of `background-clip` and set the transparent color inside a
 `@supports` feature query (for more [information,]{.keep-together} see
-[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}).[]{#ch08.xhtml_idm45797071454176
+[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}).[]{#ch08.xhtml_idm45797071454176
 primary="" startref="ix_background_clip_prop"
 data-type="indexterm"}[]{#ch08.xhtml_idm45797071453264 primary=""
 startref="ix_back_image_clipping"
@@ -22916,7 +22228,7 @@ body {background-image: url(bg23.gif);}
 
 Because of the default values of other background properties, this will
 cause the image *bg23.gif* to be tiled in the document's background, as
-shown in [Figure 8-7](#ch08.xhtml_cab_fig12){data-type="xref"}. You'll
+shown in [Figure 8-7](#ch08.xhtml_cab_fig12){data-type="xref"}. You'll
 learn how to change that shortly.
 
 <figure>
@@ -22945,7 +22257,7 @@ If you combine simple icons with creative attribute selectors, you can
 (by using properties we'll get to in just a bit) mark when a link points
 to a PDF, word processor document, email address, or other unusual
 resource. You can, for example, use the following code to display
-[Figure 8-8](#ch08.xhtml_cab_fig14){data-type="xref"}:
+[Figure 8-8](#ch08.xhtml_cab_fig14){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a[href] {padding-left: 1em; background-repeat: no-repeat;}
@@ -22992,7 +22304,7 @@ be a bad thing. Imagine a situation that backgrounds were inherited, and
 you applied a background image to the `<body>`. That image would be used
 for the background of every element in the document, with each element
 doing its own tiling, as shown in
-[Figure 8-9](#ch08.xhtml_cab_fig15){data-type="xref"}.
+[Figure 8-9](#ch08.xhtml_cab_fig15){data-type="xref"}.
 
 <figure>
 <div id="ch08.xhtml_cab_fig15" class="figure">
@@ -23043,7 +22355,7 @@ image of a clear blue sky as a background image with dark text, that is
 likely very legible. But what if there is a bird in the sky? If dark
 text lands on a dark part of the background, that text will not be
 legible. Adding a drop shadow to the text (see
-[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}) or a
+[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}) or a
 list semitransparent background color behind all the text can reduce the
 risk of illegibility.
 :::
@@ -23117,7 +22429,7 @@ Thereof)"](#ch08.xhtml_background-repeating-or-lack-thereof){data-type="xref"}.
 
 For example, we can center a background image in the `<body>` element as
 follows, with the result depicted in
-[Figure 8-10](#ch08.xhtml_cab_fig17){data-type="xref"}:
+[Figure 8-10](#ch08.xhtml_cab_fig17){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {background-image: url(hazard-rad.png);
@@ -23215,7 +22527,7 @@ way. If the image is placed at `0% 0%`, its top-left corner is placed in
 the top-left corner of the element's background. Using `100% 100%`
 causes the bottom-right corner of the origin image to go into the
 bottom-right corner of the background.
-[Figure 8-11](#ch08.xhtml_cab_fig19){data-type="xref"} contains examples
+[Figure 8-11](#ch08.xhtml_cab_fig19){data-type="xref"} contains examples
 of those values, as well as a few others, with the points of alignment
 for each located at the center of the concentric rings.
 
@@ -23262,7 +22574,7 @@ The origin image is placed one-quarter of the way across the paragraph's
 background and halfway down it, as if `background-position: 25% 50%;`
 had been set.
 
-[Table 8-1](#ch08.xhtml_cab_table02){data-type="xref"} gives a breakdown
+[Table 8-1](#ch08.xhtml_cab_table02){data-type="xref"} gives a breakdown
 of keyword and percentage equivalencies.
 
   -----------------------------------------------------------------------
@@ -23316,7 +22628,7 @@ origin image; thus, if you set the values `20px 30px`, the top-left
 corner of the origin image will be 20 pixels to the right of, and 30
 pixels below, the top-left corner of the element's background, as shown
 (along with a few other length examples) in
-[Figure 8-12](#ch08.xhtml_cab_fig21){data-type="xref"}. As with
+[Figure 8-12](#ch08.xhtml_cab_fig21){data-type="xref"}. As with
 percentages, the horizontal value comes first with length values.
 
 <figure>
@@ -23368,7 +22680,7 @@ background? No problem, at least in theory.
 Assuming that the origin image is 300 pixels tall by 300 pixels wide and
 that only the bottom-right third of the image should be visible, we get
 the desired effect (shown in
-[Figure 8-13](#ch08.xhtml_cab_fig23){data-type="xref"}) like this:
+[Figure 8-13](#ch08.xhtml_cab_fig23){data-type="xref"}) like this:
 
 ``` {code-language="css" data-type="programlisting"}
 body {background-image: url(yinyang.png);
@@ -23403,7 +22715,7 @@ interesting to calculate. The origin image and the element are likely to
 be very different sizes, for one thing, and that can lead to unexpected
 effects. Consider, for example, the situation created by the following
 rule, illustrated in
-[Figure 8-14](#ch08.xhtml_cab_fig24){data-type="xref"}:
+[Figure 8-14](#ch08.xhtml_cab_fig24){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {background-image: url(pix/yinyang.png);
@@ -23442,7 +22754,7 @@ If a paragraph is 50 pixels tall, its alignment point would be `-5px`,
 and the top of the origin image will actually be 25 pixels *below* the
 top of the background. This is why you can see all the tops of the
 background images in
-[Figure 8-14](#ch08.xhtml_cab_fig24){data-type="xref"}---the paragraphs
+[Figure 8-14](#ch08.xhtml_cab_fig24){data-type="xref"}---the paragraphs
 are shorter than the background image.
 :::
 ::::
@@ -23484,7 +22796,7 @@ offset of `25%`; from the `top` edge, have an offset of `30px`."
 Great, so that's a more verbose way of getting the default behavior. Now
 let's change the code so the origin image is placed a quarter of the way
 across and 30 pixels up from the bottom-right corner, as shown in
-[Figure 8-15](#ch08.xhtml_cab_fig25){data-type="xref"} (which assumes no
+[Figure 8-15](#ch08.xhtml_cab_fig25){data-type="xref"} (which assumes no
 repeating of the background image, for clarity's sake):
 
 ``` {code-language="css" data-type="programlisting"}
@@ -23516,7 +22828,7 @@ against the right edge and 30 pixels up from the bottom of the
 background area, whereas `right 25% bottom` would place the origin image
 a quarter of the way across from the right edge and up against the
 bottom. These are both illustrated in
-[Figure 8-16](#ch08.xhtml_cab_fig26){data-type="xref"}.
+[Figure 8-16](#ch08.xhtml_cab_fig26){data-type="xref"}.
 
 <figure>
 <div id="ch08.xhtml_cab_fig26" class="figure">
@@ -23593,7 +22905,7 @@ image (assuming the background painting area wasn't restricted to be
 
 With `content-box`, you shift the origin image to the top-left corner of
 the content area. The following code depicts the three options,
-illustrated in [Figure 8-17](#ch08.xhtml_cab_fig27){data-type="xref"}:
+illustrated in [Figure 8-17](#ch08.xhtml_cab_fig27){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div[id] {color: navy; background: silver;
@@ -23620,7 +22932,7 @@ of the origin image is calculated with respect to the box defined by
 `background-origin`: the border edge, the padding edge, or the content
 edge. Consider, for example, this variant of our previous example, which
 is illustrated in
-[Figure 8-18](#ch08.xhtml_cab_fig28){data-type="xref"}:
+[Figure 8-18](#ch08.xhtml_cab_fig28){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div[id] {color: navy; background: silver;
@@ -23646,7 +22958,7 @@ Things can get *really* interesting if you've explicitly defined your
 background origin and clipping to be different boxes. Imagine you have
 the origin placed with respect to the padding edge but the background
 clipped to the content area, or vice versa. The following code results
-in [Figure 8-19](#ch08.xhtml_cab_fig29){data-type="xref"}:
+in [Figure 8-19](#ch08.xhtml_cab_fig29){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
  #ex01 {background-origin: padding-box;
@@ -23735,13 +23047,13 @@ first glance, but it's fairly straightforward. In fact, at its base, it
 uses just four values: `repeat`, `no-repeat`, `space`, and `round`. The
 other two, `repeat-x` and `repeat-y`, are considered shorthand for
 combinations of the others.
-[Table 8-2](#ch08.xhtml_cab_table03){data-type="xref"} shows how they
+[Table 8-2](#ch08.xhtml_cab_table03){data-type="xref"} shows how they
 break down.
 
 If two values are given, the first applies in the horizontal direction,
 and the second in the vertical. If there is just one value, it applies
 in both the horizontal and vertical directions, with the exception, as
-shown in [Table 8-2](#ch08.xhtml_cab_table03){data-type="xref"}, of
+shown in [Table 8-2](#ch08.xhtml_cab_table03){data-type="xref"}, of
 `repeat-x` and `repeat-y`.
 
   Single keyword   Equivalent keywords
@@ -23767,7 +23079,7 @@ other than the top-left corner of the clip box. With `repeat`, the image
 repeats in all directions. By default, the background image will start
 from the top-left corner of an element. Therefore, the following rules
 will have the effect shown in
-[Figure 8-20](#ch08.xhtml_cab_fig30){data-type="xref"}:
+[Figure 8-20](#ch08.xhtml_cab_fig30){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {background-image: url(yinyang-sm.png);
@@ -23793,7 +23105,7 @@ body {background-image: url(yinyang-sm.png);
       background-repeat: repeat-x;}
 ```
 
-As [Figure 8-21](#ch08.xhtml_cab_fig31){data-type="xref"} shows, the
+As [Figure 8-21](#ch08.xhtml_cab_fig31){data-type="xref"} shows, the
 image is repeated along the x-axis (horizontally) from its starting
 position---in this case, the top-left corner of the `<body>` element's
 background area.
@@ -23818,7 +23130,7 @@ body {background-image: url(yinyang-sm.png);
 With this tiny image, `no-repeat` may not seem terribly useful, but it
 is the most common value, and unfortunately not the default. Let's try
 it again with a much bigger symbol. The following code results in
-[Figure 8-22](#ch08.xhtml_cab_fig32){data-type="xref"}:
+[Figure 8-22](#ch08.xhtml_cab_fig32){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {background-image: url(yinyang.png);
@@ -23840,7 +23152,7 @@ border on the left side of each `<h1>` element in your document. You can
 take that concept further and decide to set a wavy border along the top
 of each `<h2>` element. The image is colored in such a way that it
 blends with the background color and produces the wavy effect shown in
-[Figure 8-23](#ch08.xhtml_cab_fig33){data-type="xref"}, which is the
+[Figure 8-23](#ch08.xhtml_cab_fig33){data-type="xref"}, which is the
 result of the following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -23884,7 +23196,7 @@ need to know how user agents will handle it.
 
 It will be easier to show an example and then explain it. Consider the
 following markup, which is illustrated in
-[Figure 8-24](#ch08.xhtml_cab_fig34){data-type="xref"}:
+[Figure 8-24](#ch08.xhtml_cab_fig34){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {background-image: url(yinyang-sm.png);
@@ -23947,7 +23259,7 @@ data-type="indexterm"}basic tiling patterns you've seen thus far,
 `background-repeat` has the ability to exactly fill out the background
 area. Consider, for example, what happens if we use the value `space` to
 define the tiling pattern, as shown in
-[Figure 8-25](#ch08.xhtml_cab_fig36){data-type="xref"}:
+[Figure 8-25](#ch08.xhtml_cab_fig36){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div#example {background-image: url(yinyang.png);
@@ -23976,7 +23288,7 @@ that you'll have what look like columns and rows of background images.
 While no image will be clipped, unless there isn't enough room for even
 one iteration (as can happen with very large background images), this
 value often results in different horizontal and vertical separations.
-[Figure 8-26](#ch08.xhtml_cab_fig37){data-type="xref"} shows some
+[Figure 8-26](#ch08.xhtml_cab_fig37){data-type="xref"} shows some
 examples.
 
 <figure>
@@ -23993,7 +23305,7 @@ class="keep-together">elements</span> of different sizes</h6>
 ::: {.note data-type="note"}
 ###### Note {#ch08.xhtml_sigil_toc_id_693}
 
-Keep in mind that any background color, or the "backdrop" of the element
+Keep in mind that any background color, or the "backdrop" of the element
 (that is, the combined backgrounds of the element's ancestors) will show
 through the gaps between `space`-separated background images.
 :::
@@ -24005,7 +23317,7 @@ as necessary. The flip side is that if more than one repetition of [ the
 image]{.keep-together} will fit along an axis, the value of
 `background-position` is ignored along that axis. The following code,
 for example, displays
-[Figure 8-27](#ch08.xhtml_cab_fig38){data-type="xref"}:
+[Figure 8-27](#ch08.xhtml_cab_fig38){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div#example {background-image: url(yinyang.png);
@@ -24044,7 +23356,7 @@ can alter an image's intrinsic aspect ratio automatically if needed.
 While `background-size` can also lead to a change in the aspect ratio,
 distorting the image, this happens only by explicit direction from the
 author. You can see an example in
-[Figure 8-28](#ch08.xhtml_cab_fig39){data-type="xref"}, which is the
+[Figure 8-28](#ch08.xhtml_cab_fig39){data-type="xref"}, which is the
 result of the following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -24076,7 +23388,7 @@ background. The only way to make sure your repeating pattern fits and no
 background images are clipped is to put the origin image in a corner. If
 the origin image is anywhere [else,]{.keep-together} clipping will
 occur. The following code shows an example, illustrated in
-[Figure 8-29](#ch08.xhtml_cab_fig40){data-type="xref"}:[]{#ch08.xhtml_idm45797069852208
+[Figure 8-29](#ch08.xhtml_cab_fig40){data-type="xref"}:[]{#ch08.xhtml_idm45797069852208
 primary="" startref="ix_back_image_space"
 data-type="indexterm"}[]{#ch08.xhtml_idm45797069851232 primary=""
 startref="ix_spacing_back_image" data-type="indexterm"}
@@ -24131,7 +23443,7 @@ The basic answer is that if your values for `background-origin` and
 `background-clip` aren't the same, clipping will happen. This is because
 `space` and `round` are calculated with respect to the background
 positioning area, not the painting area.
-[Figure 8-30](#ch08.xhtml_cab_fig41){data-type="xref"} shows some
+[Figure 8-30](#ch08.xhtml_cab_fig41){data-type="xref"} shows some
 examples of what can happen.
 
 <figure>
@@ -24221,7 +23533,7 @@ Doing this has two immediate effects. First, the origin image does not
 scroll along with the document. Second, the placement of the origin
 image is determined by the size of the viewport, not the size (or
 placement within the viewport) of the element that contains it.
-[Figure 8-31](#ch08.xhtml_cab_fig43){data-type="xref"} shows the image
+[Figure 8-31](#ch08.xhtml_cab_fig43){data-type="xref"} shows the image
 still sitting in the center of the viewport, even though the document
 has been scrolled partway through the text.
 
@@ -24256,7 +23568,7 @@ box.
 By adding `background-attachment: local`, the image is attached to the
 local context. The visual effect is rather like an `iframe`, if you have
 any experience with those.
-[Figure 8-32](#ch08.xhtml_cbag_css4_background-attachment-local){data-type="xref"}
+[Figure 8-32](#ch08.xhtml_cbag_css4_background-attachment-local){data-type="xref"}
 shows the results of the previous code sample and the following code
 side [by side:]{.keep-together}
 
@@ -24301,7 +23613,7 @@ Let's say you have a document with a tiled background that actually
 looks like it's tiled, and both `<h1>` and `<h2>` elements with the same
 pattern, only in a different color. You set both the `<body>` and
 heading elements to have fixed backgrounds as follows, resulting in
-[Figure 8-33](#ch08.xhtml_cab_fig44){data-type="xref"}:
+[Figure 8-33](#ch08.xhtml_cab_fig44){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {background-image: url(grid1.gif); background-repeat: repeat;
@@ -24318,7 +23630,7 @@ the `<body>`, you can see the entire repeat pattern. For the `<h1>`,
 however, the only place you can see its background is in the padding and
 content of the `<h1>` itself. Since both background images are the same
 size and have precisely the same origin, they appear to line up, as
-shown in [Figure 8-33](#ch08.xhtml_cab_fig44){data-type="xref"}.
+shown in [Figure 8-33](#ch08.xhtml_cab_fig44){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig44" class="figure">
@@ -24332,7 +23644,7 @@ alt="css5 0833" />
 This capability can be used to create sophisticated effects. One of the
 most famous examples is the ["complexspiral distorted"
 demonstration](https://meyerweb.com/eric/css/edge/complexspiral/glassy.xhtml),
-shown in [Figure 8-34](#ch08.xhtml_cab_fig45){data-type="xref"}.
+shown in [Figure 8-34](#ch08.xhtml_cab_fig45){data-type="xref"}.
 
 <figure>
 <div id="ch08.xhtml_cab_fig45" class="figure">
@@ -24402,7 +23714,7 @@ all the tiled images that spawn from it?
 Let's start by explicitly resizing a background image. We'll drop in an
 image that's 200 × 200 pixels and then resize it to be twice as big. The
 following code results in
-[Figure 8-35](#ch08.xhtml_cab_fig46){data-type="xref"}:
+[Figure 8-35](#ch08.xhtml_cab_fig46){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 main {background-image: url(yinyang.png);
@@ -24425,7 +23737,7 @@ can size it using ems, pixels, viewport widths, any length unit, or a
 combination thereof.
 
 We can even distort the image by changing its size.
-[Figure 8-36](#ch08.xhtml_cab_fig47){data-type="xref"} illustrates the
+[Figure 8-36](#ch08.xhtml_cab_fig47){data-type="xref"} illustrates the
 results when changing the previous code sample to use
 `background-size: 400px 4em`, with both repeated and nonrepeated
 backgrounds.
@@ -24449,7 +23761,7 @@ value, it's calculated with respect to the background positioning
 area---that is, the area defined by `background-origin`, and *not* by
 `background-clip`. Suppose you want an image that's half as wide and
 half as tall as its background positioning area; the following code
-results in [Figure 8-37](#ch08.xhtml_cab_fig48){data-type="xref"}:
+results in [Figure 8-37](#ch08.xhtml_cab_fig48){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 background-size: 50% 50%;
@@ -24525,7 +23837,7 @@ main {background-image: url(yinyang.png);
 This scales the origin image so that it completely covers the background
 positioning area while still preserving its intrinsic aspect ratio,
 assuming it has one. You can [see an example]{.keep-together} in
-[Figure 8-38](#ch08.xhtml_cab_fig50){data-type="xref"}, where a 200 ×
+[Figure 8-38](#ch08.xhtml_cab_fig50){data-type="xref"}, where a 200 ×
 200 pixel image is scaled up to cover the background of an 800 × 400
 pixel element. The following code provides this result:
 
@@ -24562,7 +23874,7 @@ primary="containing background image" data-type="indexterm"}contrast,
 `contain` will scale the image so that it fits exactly inside the
 background positioning area, even if that leaves some of the rest of the
 background showing around it. This is illustrated in
-[Figure 8-39](#ch08.xhtml_cab_fig51){data-type="xref"}, which is the
+[Figure 8-39](#ch08.xhtml_cab_fig51){data-type="xref"}, which is the
 result of the following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -24595,7 +23907,7 @@ data-type="indexterm"}note that we brought `no-repeat` back to the
 example so the visual result wouldn't become too visually confusing.
 Removing that declaration would cause the background to repeat, which is
 no big deal if that's what you want.
-[Figure 8-40](#ch08.xhtml_cab_fig52){data-type="xref"} shows the result.
+[Figure 8-40](#ch08.xhtml_cab_fig52){data-type="xref"} shows the result.
 
 <figure>
 <div id="ch08.xhtml_cab_fig52" class="figure">
@@ -24618,7 +23930,7 @@ data-type="indexterm"}[]{#ch08.xhtml_idm45797069161184
 primary="background-clip property" data-type="indexterm"}This is true
 even if the background painting area defined by `background-clip` is
 different! Consider the following rules, which are depicted in
-[Figure 8-41](#ch08.xhtml_cab_fig53){data-type="xref"}:
+[Figure 8-41](#ch08.xhtml_cab_fig53){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {border: 1px solid red;
@@ -24647,7 +23959,7 @@ others get clipped. That's the difference between the painting area and
 the positioning area. You'd think that `cover` and `contain` would be
 sized with respect to the painting area, but they aren't, as depicted in
 the last examples in
-[Figure 8-41](#ch08.xhtml_cab_fig53){data-type="xref"}. Keep that firmly
+[Figure 8-41](#ch08.xhtml_cab_fig53){data-type="xref"}. Keep that firmly
 in mind whenever you use these values.
 
 If you have more than one background image, with different values for
@@ -24733,7 +24045,7 @@ way up.
 
 First off, the following statements are all equivalent to one another
 and will have the effect shown in
-[Figure 8-42](#ch08.xhtml_cab_fig54){data-type="xref"}:
+[Figure 8-42](#ch08.xhtml_cab_fig54){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {background-color: white;
@@ -24881,7 +24193,7 @@ section {background-image: url(bg01.png), url(bg02.gif), url(bg03.jpg);
 ```
 
 Seriously. It will look like
-[Figure 8-43](#ch08.xhtml_cab_fig55){data-type="xref"}.
+[Figure 8-43](#ch08.xhtml_cab_fig55){data-type="xref"}.
 
 <figure>
 <div id="ch08.xhtml_cab_fig55" class="figure">
@@ -24921,7 +24233,7 @@ data-type="indexterm"}suppose we want to put the first image at the top
 right, put the second at the center of the left side, and put the last
 layer at the center of the bottom. We can layer `background-position` as
 follows, resulting in
-[Figure 8-44](#ch08.xhtml_cab_fig56){data-type="xref"}:
+[Figure 8-44](#ch08.xhtml_cab_fig56){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 section {background-image: url(bg01.png), url(bg02.gif), url(bg03.jpg);
@@ -24955,7 +24267,7 @@ it's just going to get silly.
 
 Even the shorthand `background` can be comma-separated. The following
 example is exactly equivalent to the previous one, and the result is
-shown in [Figure 8-45](#ch08.xhtml_cab_fig57){data-type="xref"}:
+shown in [Figure 8-45](#ch08.xhtml_cab_fig57){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 section {
@@ -25050,7 +24362,7 @@ backgrounds is to use the `background` shorthand and forget to
 explicitly turn off background tiling for your background layers by
 letting the `background-repeat` value default to `repeat`, thus
 obscuring all but the top layer. See
-[Figure 8-46](#ch08.xhtml_cab_fig59){data-type="xref"}, for example,
+[Figure 8-46](#ch08.xhtml_cab_fig59){data-type="xref"}, for example,
 which is the result of the [following]{.keep-together} code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -25126,7 +24438,7 @@ background-repeat: no-repeat;
 
 The result, however, would be to place a single red box in the top-left
 corner of the element. To get images in all four corners, as shown in
-[Figure 8-47](#ch08.xhtml_cab_fig60){data-type="xref"}, you'll have to
+[Figure 8-47](#ch08.xhtml_cab_fig60){data-type="xref"}, you'll have to
 list the same image four times:[]{#ch08.xhtml_idm45797068006096
 primary="" startref="ix_back_image_ch8" data-type="indexterm"}
 
@@ -25192,7 +24504,7 @@ Let's consider a simple box drop shadow: one that's 10 pixels down and
 10 pixels to the right of an element box, and a half-opaque black.
 Behind it we'll put a repeating [background]{.keep-together} on the
 `<body>` element. All of this is illustrated in
-[Figure 8-48](#ch08.xhtml_Asimpleboxshadow){data-type="xref"} and
+[Figure 8-48](#ch08.xhtml_Asimpleboxshadow){data-type="xref"} and
 created with the following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -25220,7 +24532,7 @@ couldn't really see that in the previous figure, because the element had
 an opaque background. You might have just assumed that the shadow
 extended all the way under the element, but it doesn't. Consider the
 following, illustrated in
-[Figure 8-49](#ch08.xhtml_Boxshadowsareincomplete){data-type="xref"}:
+[Figure 8-49](#ch08.xhtml_Boxshadowsareincomplete){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #box {background: transparent; border: thin dashed;
@@ -25240,8 +24552,8 @@ So it looks as though the element's content (and padding and border)
 area "knocks out" part of the shadow. In truth, it's just that the
 shadow was never drawn there, because of the way box shadows are defined
 in the specification. This does mean, as
-[Figure 8-49](#ch08.xhtml_Boxshadowsareincomplete){data-type="xref"}
-demonstrates, that any background "behind" the box with a drop shadow
+[Figure 8-49](#ch08.xhtml_Boxshadowsareincomplete){data-type="xref"}
+demonstrates, that any background "behind" the box with a drop shadow
 can be visible through the element itself. This (perhaps
 bizarre-seeming) interaction with the backgrounds and borders is why
 `box-shadow` is covered here, instead of at an earlier point in the
@@ -25261,7 +24573,7 @@ blurring. A fourth length defines a spread distance, which changes the
 size of the shadow. Positive length values make the shadow expand before
 blurring happens; negative values cause the shadow to shrink. The
 following has the results shown in
-[Figure 8-50](#ch08.xhtml_Variousblurredandspreadshadows){data-type="xref"}:
+[Figure 8-50](#ch08.xhtml_Variousblurredandspreadshadows){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .box:nth-of-type(1) {box-shadow: 1em 1em 2px rgba(0,0,0,0.5);}
@@ -25294,7 +24606,7 @@ box, as if the box were a punched-out hole in the canvas rather than
 floating above it (visually speaking). Let's take the previous set of
 examples and redo them with inset shadows. This will have the result
 shown in
-[Figure 8-51](#ch08.xhtml_Variousinsetshadows){data-type="xref"}:
+[Figure 8-51](#ch08.xhtml_Variousinsetshadows){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .box:nth-of-type(1) {box-shadow: inset 1em 1em 2px rgba(0,0,0,0.5);}
@@ -25361,7 +24673,7 @@ The `filter` []{#ch08.xhtml_idm45797067156048 primary="filter property"
 data-type="indexterm"}property is another way to create element drop
 shadows, although it is much closer in behavior to `text-shadow` than
 `box-shadow`, albeit applying to the entire element box and text. See
-[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}
+[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}
 for details.[]{#ch08.xhtml_idm45797067135936 primary=""
 startref="ix_backgrounds_ch8"
 data-type="indexterm"}[]{#ch08.xhtml_idm45797067134960 primary=""
@@ -25410,7 +24722,7 @@ space the gradient has and the way you define color stops and
 progression color hints. If you run from white to black over 100 pixels,
 each pixel along the gradient's default progression will be another 1%
 darker gray, as shown in
-[Figure 9-1](#ch09.xhtml_cab_fig61){data-type="xref"}.
+[Figure 9-1](#ch09.xhtml_cab_fig61){data-type="xref"}.
 
 <figure>
 <div id="ch09.xhtml_cab_fig61" class="figure">
@@ -25452,7 +24764,7 @@ data-type="indexterm"}[]{#ch09.xhtml_ix_linear_grad_ch9
 primary="linear gradients" data-type="indexterm"}gradient fills that
 proceed along a linear vector, referred to as the *gradient line*. Here
 are a few relatively simple gradients, with the results shown in
-[Figure 9-2](#ch09.xhtml_cab_fig62){data-type="xref"}:
+[Figure 9-2](#ch09.xhtml_cab_fig62){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #ex01 {background-image: linear-gradient(purple, gold);}
@@ -25483,7 +24795,7 @@ from top to bottom because the default direction for gradients is
 (for example, `0.5turn`). If you'd like to go in a different direction,
 you can start the gradient value with a direction. That's what we did
 for all the other gradients shown in
-[Figure 9-2](#ch09.xhtml_cab_fig62){data-type="xref"}.
+[Figure 9-2](#ch09.xhtml_cab_fig62){data-type="xref"}.
 
 A []{#ch09.xhtml_idm45797067026528 primary="color stops"
 secondary="linear gradients"
@@ -25496,7 +24808,7 @@ They can be the same color, though. If you want to have a solid color
 behind only part of your content, a gradient with the same color
 declared twice, along with a background size and a no-repeat, enables
 that, as shown in
-[Figure 9-3](#ch09.xhtml_linear-gradients-solid-color-sized){data-type="xref"}:
+[Figure 9-3](#ch09.xhtml_linear-gradients-solid-color-sized){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 blockquote {
@@ -25540,7 +24852,7 @@ quadrant with keywords like `top` and `right`, the direction you give
 other words, `linear-gradient(0deg,red,green)` will have red at the
 bottom and green at the top because the gradient line points toward 0
 degrees (the top of the element) and thus ends with green. While it is
-indeed "going toward 0 degrees," remember to omit the `to` if you're
+indeed "going toward 0 degrees," remember to omit the `to` if you're
 using an angle value, because something like `to 45deg` is invalid and
 will be ignored. Degrees increase clockwise from 0 at the top.
 
@@ -25568,7 +24880,7 @@ like in gradients, including alpha-channel values such as `rgba()` and
 keywords like `transparent`. Thus it's entirely possible to fade out
 pieces of your gradient by blending to (or from) a color with zero
 opacity. Consider the following rules, which are depicted in
-[Figure 9-4](#ch09.xhtml_cab_fig63){data-type="xref"}:
+[Figure 9-4](#ch09.xhtml_cab_fig63){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #ex01 {background-image:
@@ -25607,7 +24919,7 @@ color names, and they are, by default, distributed evenly along the
 gradient line, with the first at the beginning of the line and the last
 at the end. Between the color stops, by default the colors are blended
 as smoothly as possible from one color to the other. This is shown in
-[Figure 9-5](#ch09.xhtml_cab_fig64){data-type="xref"}, with extra labels
+[Figure 9-5](#ch09.xhtml_cab_fig64){data-type="xref"}, with extra labels
 indicating how far along the gradient line the color stops are placed.
 
 <figure>
@@ -25649,7 +24961,7 @@ distributed progression of color stops into something else.
 We'll start with lengths, since they're pretty simple. Let's take a
 rainbow progression (only a single rainbow this time) and have each
 color of the rainbow occur every 25 pixels, as shown in
-[Figure 9-6](#ch09.xhtml_cab_fig65){data-type="xref"}:
+[Figure 9-6](#ch09.xhtml_cab_fig65){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #spectrum {background-image: linear-gradient(90deg,
@@ -25676,7 +24988,7 @@ Conversely, if your color stops go beyond the end of a basic gradient
 line, the gradient will appear to stop at whatever point it manages to
 reach when it gets to the end of the visible part of the gradient line.
 This is illustrated in
-[Figure 9-7](#ch09.xhtml_cab_fig66){data-type="xref"}, created with the
+[Figure 9-7](#ch09.xhtml_cab_fig66){data-type="xref"}, created with the
 following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -25715,7 +25027,7 @@ want; doing so will place a color stop before the beginning of the
 gradient line, all the color transitions will happen as expected, and
 clipping will occur in the same manner as it happens at the end of the
 line. The following code, for example, results in
-[Figure 9-8](#ch09.xhtml_cab_fig67){data-type="xref"}:
+[Figure 9-8](#ch09.xhtml_cab_fig67){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #spectrum {background-image: linear-gradient(90deg,
@@ -25738,7 +25050,7 @@ the gradient line. Let's return to our rainbow example, and instead of
 having a color stop every 25 pixels, we'll have one every 10% of the
 gradient line's length. This would look like the following, which has
 the result shown in
-[Figure 9-9](#ch09.xhtml_cab_fig68){data-type="xref"}:
+[Figure 9-9](#ch09.xhtml_cab_fig68){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #spectrum {background-image: linear-gradient(90deg,
@@ -25792,7 +25104,7 @@ same point, like this:
 ```
 
 All that happens is the two color stops are put on top of each other.
-[Figure 9-10](#ch09.xhtml_cab_fig70){data-type="xref"} shows the result.
+[Figure 9-10](#ch09.xhtml_cab_fig70){data-type="xref"} shows the result.
 
 <figure>
 <div id="ch09.xhtml_cab_fig70" class="figure">
@@ -25816,7 +25128,7 @@ zero length, then blends from green at 50% over to blue at 66.67%
 
 This hard-stop effect can be useful if you want to create a striped
 effect. The following code results in the stripes shown in
-[Figure 9-11](#ch09.xhtml_cab_fig71){data-type="xref"}:
+[Figure 9-11](#ch09.xhtml_cab_fig71){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .stripes {background-image: linear-gradient(90deg,
@@ -25838,7 +25150,7 @@ alt="css5 0911" />
 That said, there's an easier and more readable way to do that kind of
 thing, which is to give each color a starting and ending stop position.
 Here's how to do that, with exactly the same result as shown in
-[Figure 9-11](#ch09.xhtml_cab_fig71){data-type="xref"}:
+[Figure 9-11](#ch09.xhtml_cab_fig71){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .stripes {background-image:
@@ -25899,7 +25211,7 @@ the `50%` specified at the yellow stop. Thus, the gradient fades from
 red to orange to yellow, then has a hard switch to indigo before fading
 from indigo to violet. The green and blue aren't skipped; rather, the
 gradients transition from yellow to green to blue to indigo over zero
-distance. See [Figure 9-12](#ch09.xhtml_cab_fig72){data-type="xref"} for
+distance. See [Figure 9-12](#ch09.xhtml_cab_fig72){data-type="xref"} for
 the results.
 
 <figure>
@@ -25950,7 +25262,7 @@ color stops to either side. By default, the blend from one color stop to
 the next is linear, with the midpoint of the blend at the halfway mark
 between two color stops, or 50%. It doesn't have to be that simple. The
 following two gradients are the same and have the result shown in
-[Figure 9-13](#ch09.xhtml_cbag_css4_gradient-color-hints-default){data-type="xref"}:
+[Figure 9-13](#ch09.xhtml_cbag_css4_gradient-color-hints-default){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 linear-gradient(
@@ -25975,7 +25287,7 @@ With color hints, we can change the midpoint of the progression. Instead
 of reaching `rgb(45% 45% 45%)` at the halfway point, it can be set for
 any point between the two stops. Thus, the following CSS leads to the
 result seen in
-[Figure 9-14](#ch09.xhtml_cbag_css4_gradient-color-hints-various){data-type="xref"}:
+[Figure 9-14](#ch09.xhtml_cbag_css4_gradient-color-hints-various){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #ex01 {background:
@@ -26028,7 +25340,7 @@ logarithmic and based on the gradient-progression equation used by
 Photoshop.) This is easiest to see by comparing what would seem to be,
 but actually is not, two gradients that do the same thing. As you can
 see in
-[Figure 9-15](#ch09.xhtml_cbag_css4_gradient-color-hints-curve){data-type="xref"},
+[Figure 9-15](#ch09.xhtml_cbag_css4_gradient-color-hints-curve){data-type="xref"},
 the result is rather different for these two examples:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -26073,7 +25385,7 @@ animations, you might think to put easing functions (such as `ease-in`)
 into a color hint, in order to exert more control over the way the
 colors are blended. While the browser does this to some extent, as
 illustrated in
-[Figure 9-15](#ch09.xhtml_cbag_css4_gradient-color-hints-curve){data-type="xref"},
+[Figure 9-15](#ch09.xhtml_cbag_css4_gradient-color-hints-curve){data-type="xref"},
 this isn't something developers can control as of late 2022 (though that
 capability is under serious discussion by the CSS Working Group at this
 time).[]{#ch09.xhtml_idm45797062886432 primary=""
@@ -26108,7 +25420,7 @@ linear-gradient(
 Now, how does this one-dimensional construct---a line at 55 degrees on
 the compass---create a two-dimensional gradient fill? First, the
 gradient line is placed and its start and ending points determined. This
-is diagrammed in [Figure 9-16](#ch09.xhtml_cab_fig73){data-type="xref"},
+is diagrammed in [Figure 9-16](#ch09.xhtml_cab_fig73){data-type="xref"},
 with the final gradient shown next to it.
 
 <figure>
@@ -26127,7 +25439,7 @@ lot of factors, whether it's the size of the element's background or the
 application of properties like `background-size`, which is a topic we'll
 cover in a bit. For now, we're just concentrating on the image itself.
 
-So, in [Figure 9-16](#ch09.xhtml_cab_fig73){data-type="xref"}, you can
+So, in [Figure 9-16](#ch09.xhtml_cab_fig73){data-type="xref"}, you can
 see that the gradient line goes straight through the center of the
 image. The gradient line *always* goes through the center of the
 gradient image, and in this case, the gradient image is centered in the
@@ -26164,7 +25476,7 @@ The color at the starting point will be `#4097FF`, the color at the
 midpoint (which is also the center of the gradient image) will be
 `#FFBE00`, and the color at the ending point will be `#4097FF`, with
 smooth blending in between. This is illustrated in
-[Figure 9-17](#ch09.xhtml_cab_fig74){data-type="xref"}.
+[Figure 9-17](#ch09.xhtml_cab_fig74){data-type="xref"}.
 
 <figure>
 <div id="ch09.xhtml_cab_fig74" class="figure">
@@ -26181,7 +25493,7 @@ calculated for the starting and ending points, if those points are
 outside the image? Because the color at each point along the gradient
 line is extended out perpendicularly from the gradient line. This is
 partially shown in
-[Figure 9-18](#ch09.xhtml_cab_fig75){data-type="xref"} by extending
+[Figure 9-18](#ch09.xhtml_cab_fig75){data-type="xref"} by extending
 perpendicular lines at the starting and ending points, as well as every
 5% of the gradient line between them. Note that each line perpendicular
 to the gradient line is a solid color.
@@ -26199,7 +25511,7 @@ Hopefully, that should be enough to let you mentally fill in the rest,
 so let's consider what happens to the gradient image in various other
 settings. We'll use the same gradient definition as before, but this
 time apply it to wide, square, and tall images. These are shown in
-[Figure 9-19](#ch09.xhtml_cab_fig76){data-type="xref"}. Note that the
+[Figure 9-19](#ch09.xhtml_cab_fig76){data-type="xref"}. Note that the
 starting-point and ending-point colors always make their way into the
 corners of the gradient image.
 
@@ -26226,7 +25538,7 @@ linear-gradient(
 The placement of these color stops, the starting and ending points, the
 way the colors are calculated along the gradient line, and the final
 gradient are all shown in
-[Figure 9-20](#ch09.xhtml_cab_fig77){data-type="xref"}.
+[Figure 9-20](#ch09.xhtml_cab_fig77){data-type="xref"}.
 
 <figure>
 <div id="ch09.xhtml_cab_fig77" class="figure">
@@ -26258,7 +25570,7 @@ linear-gradient(
 This does *not* cause the gradient line to intersect with the top-right
 corner. If only that were so! Instead, what happens is a good deal
 stranger. First, let's diagram it in
-[Figure 9-21](#ch09.xhtml_cab_fig78){data-type="xref"} so that we have
+[Figure 9-21](#ch09.xhtml_cab_fig78){data-type="xref"} so that we have
 something to refer to.
 
 <figure>
@@ -26275,7 +25587,7 @@ top-right corner. It *is* headed into the top-right quadrant of the
 image, though. That's what `to top right` really means: head into the
 top-right quadrant of the image, not into the top-right corner.
 
-As [Figure 9-21](#ch09.xhtml_cab_fig78){data-type="xref"} shows, the way
+As [Figure 9-21](#ch09.xhtml_cab_fig78){data-type="xref"} shows, the way
 to find out exactly what that means is to do the following:
 
 1.  Draw a line from the midpoint of the image into the corners adjacent
@@ -26298,7 +25610,7 @@ ratio changes---the gradient line will also reset its direction,
 reorienting slightly to fit the new aspect ratio. So watch out for that
 if you have flexible elements. Third, a perfectly square gradient image
 will have a gradient line that intersects with a corner.
-[Figure 9-22](#ch09.xhtml_cab_fig79){data-type="xref"} depicts examples
+[Figure 9-22](#ch09.xhtml_cab_fig79){data-type="xref"} depicts examples
 of these three side effects, using the following gradient definition in
 all three cases:
 
@@ -26322,7 +25634,7 @@ of a nonsquare image," short of calculating the necessary degree heading
 yourself and declaring it explicitly, a process that will most likely
 require JavaScript unless you know the image will always be an exact
 size in all cases, forever. (Or use the `aspect-ratio` property; see
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
 for details.)
 
 While linear gradients follow a gradient line in the direction set forth
@@ -26355,7 +25667,7 @@ perpendicular gradient lines, and different background colors, you can
 create picnic tablecloth effects for any place setting by setting up
 some gradient images, tiling them, and then putting a color underneath,
 as illustrated in
-[Figure 9-23](#ch09.xhtml_linear-gradients-tablecloth-regular){data-type="xref"}:
+[Figure 9-23](#ch09.xhtml_linear-gradients-tablecloth-regular){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {
@@ -26390,7 +25702,7 @@ line when using `repeating-linear-gradient` is the size of the last
 color stop position less the first color stop position (in this case,
 `2vw`). Thus, we can remove the sizing and repetition properties, as in
 the following, and get the same result shown in
-[Figure 9-23](#ch09.xhtml_linear-gradients-tablecloth-regular){data-type="xref"}:
+[Figure 9-23](#ch09.xhtml_linear-gradients-tablecloth-regular){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {
@@ -26409,7 +25721,7 @@ This is nice for simple patterns like these tablecloths, but it comes in
 really handy for more complex situations. For example, if you declare
 the following nonrepeating gradient, you end up with discontinuity where
 the image repeats, as shown in
-[Figure 9-24](#ch09.xhtml_cab_fig96){data-type="xref"}:
+[Figure 9-24](#ch09.xhtml_cab_fig96){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1.example {background:
@@ -26430,7 +25742,7 @@ You *could* try to nail down the exact sizes of the element and gradient
 image and then mess with the construction of the gradient image to try
 to make the sides line up, but it would be a lot easier to do the
 following, with the result shown in
-[Figure 9-25](#ch09.xhtml_cab_fig97){data-type="xref"}:
+[Figure 9-25](#ch09.xhtml_cab_fig97){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1.example {background: repeating-linear-gradient(-45deg,
@@ -26470,7 +25782,7 @@ hard-stop lines:
 repeating-linear-gradient(-45deg, purple 0px, gold 50px, purple 100px)
 ```
 
-See [Figure 9-26](#ch09.xhtml_cab_fig98){data-type="xref"} for a
+See [Figure 9-26](#ch09.xhtml_cab_fig98){data-type="xref"} for a
 comparison of the two approaches.
 
 <figure>
@@ -26539,7 +25851,7 @@ available in the shape and size bits, so let's build up to those.
 
 First, let's look at a simple radial gradient---the simplest possible,
 in fact---presented in a variety of differently shaped elements
-([Figure 9-27](#ch09.xhtml_cab_fig80){data-type="xref"}):
+([Figure 9-27](#ch09.xhtml_cab_fig80){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 .radial {background-image: radial-gradient(purple, gold);}
@@ -26601,7 +25913,7 @@ length and as tall as the second length:
 radial-gradient(50px 100px, purple, gold)
 ```
 
-[Figure 9-28](#ch09.xhtml_cab_fig81){data-type="xref"} shows these two
+[Figure 9-28](#ch09.xhtml_cab_fig81){data-type="xref"} shows these two
 gradients.
 
 <figure class="width-50">
@@ -26629,7 +25941,7 @@ entire declaration will fail because of the invalid value.
 If you do supply percentages to an ellipse, then as usual, the first
 refers to the horizontal axis and the second to the vertical. The
 following gradient is shown in various settings in
-[Figure 9-29](#ch09.xhtml_cab_fig82){data-type="xref"}:
+[Figure 9-29](#ch09.xhtml_cab_fig82){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 radial-gradient(50% 25%, purple, gold)
@@ -26709,7 +26021,7 @@ summarized here:
     values are declared.
 
 To better visualize the results of each keyword, see
-[Figure 9-30](#ch09.xhtml_cab_fig83){data-type="xref"}, which depicts
+[Figure 9-30](#ch09.xhtml_cab_fig83){data-type="xref"}, which depicts
 each keyword applied as both a circle and an ellipse.
 
 <figure>
@@ -26727,7 +26039,7 @@ radial gradients; thus, `closest-side 25px` is invalid and will be
 ignored.
 
 Something you might have noticed in
-[Figure 9-30](#ch09.xhtml_cab_fig83){data-type="xref"} is that the
+[Figure 9-30](#ch09.xhtml_cab_fig83){data-type="xref"} is that the
 gradients didn't start at the center of the image. That's because they
 were positioned elsewhere, which is the topic of the next
 section.[]{#ch09.xhtml_idm45797061985488 primary=""
@@ -26760,7 +26072,7 @@ the default: for radial gradients, the default position is `center`, not
 `0% 0%`.
 
 To give an idea of the possibilities, consider the following rules,
-illustrated in [Figure 9-31](#ch09.xhtml_cab_fig84){data-type="xref"}:
+illustrated in [Figure 9-31](#ch09.xhtml_cab_fig84){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 radial-gradient(at bottom left, purple, gold);
@@ -26783,7 +26095,7 @@ None of those positioned radial gradients are explicitly sized, so they
 all default to `farthest-corner`. That's a reasonable guess at the
 intended default behavior, but it's not the only possibility. Let's mix
 some sizes into these gradients and find out how that changes things (as
-depicted in [Figure 9-32](#ch09.xhtml_cab_fig85){data-type="xref"}):
+depicted in [Figure 9-32](#ch09.xhtml_cab_fig85){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 radial-gradient(30px at bottom left, purple, gold);
@@ -26841,7 +26153,7 @@ gold.
 If we add a stop between purple and gold, but don't give it a position,
 the stop will be placed midway between the two colors, and the blending
 will be altered accordingly, as shown in
-[Figure 9-33](#ch09.xhtml_cab_fig86){data-type="xref"}:
+[Figure 9-33](#ch09.xhtml_cab_fig86){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 radial-gradient(100px circle at center, purple 0%, green, gold 100%);
@@ -26866,7 +26178,7 @@ the color perpendicularly at each point along the gradient line. A
 similar behavior occurs with a radial gradient, except instead of the
 lines that come off the gradient ray, ellipses are created; these are
 scaled-up or scaled-down versions of the ellipse at the ending point.
-[Figure 9-34](#ch09.xhtml_cab_fig87){data-type="xref"} illustrates a
+[Figure 9-34](#ch09.xhtml_cab_fig87){data-type="xref"} illustrates a
 gradient ray and the ellipses that are drawn at various points along it.
 
 <figure>
@@ -26890,7 +26202,7 @@ For an ellipse, it's essentially the same operation, except that the
 distance from the center is dependent on the horizontal axis of the
 ellipse. Given a radial gradient that's a `40px 20px ellipse`, the
 ending point will be 40 pixels from the center and directly to its
-right. [Figure 9-35](#ch09.xhtml_cab_fig88){data-type="xref"} shows this
+right. [Figure 9-35](#ch09.xhtml_cab_fig88){data-type="xref"} shows this
 in some detail.
 
 <figure>
@@ -26917,7 +26229,7 @@ already seen this in several previous figures.)
 Conversely, if you set a color stop that's beyond the ending point of a
 ray, you might get to see the color out to that stop. Consider the
 following gradient, illustrated in
-[Figure 9-36](#ch09.xhtml_cab_fig89){data-type="xref"}:
+[Figure 9-36](#ch09.xhtml_cab_fig89){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 radial-gradient(50px circle at center, purple, green, gold 80px)
@@ -26967,7 +26279,7 @@ Now, what if you set a negative position for a color stop? The result is
 pretty much the same as for linear gradient lines: the negative color
 stop is used to figure out the color at the starting point but is
 otherwise unseen. Thus, the following gradient will have the result
-shown in [Figure 9-37](#ch09.xhtml_cab_fig90){data-type="xref"}:
+shown in [Figure 9-37](#ch09.xhtml_cab_fig90){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 radial-gradient(80px, purple -40px, green, gold)
@@ -27068,7 +26380,7 @@ last color stop.
 On the other hand, if you use lengths to position the color stops, you
 can get a vertically mirrored horizontal linear gradient for free.
 Consider the following gradient, illustrated in
-[Figure 9-38](#ch09.xhtml_cab_fig91){data-type="xref"}:
+[Figure 9-38](#ch09.xhtml_cab_fig91){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 radial-gradient(0px 50% at center, purple 0px, gold 100px)
@@ -27098,7 +26410,7 @@ ratio. That means the ellipse at half a pixel along the gradient ray is
 200,000 pixels tall. At 5 pixels, the ellipse is 10 pixels by a
 [million]{.keep-together} pixels. At 50 pixels along the gradient ray,
 the ellipse is 100 pixels wide and 10 million tall. And so on. This is
-diagrammed in [Figure 9-39](#ch09.xhtml_cab_fig92){data-type="xref"}.
+diagrammed in [Figure 9-39](#ch09.xhtml_cab_fig92){data-type="xref"}.
 
 <figure>
 <div id="ch09.xhtml_cab_fig92" class="figure">
@@ -27198,7 +26510,7 @@ occur every 20 pixels, with the colors repeating in the declared
 pattern. Because the first and last color stops have the same color
 value, there is no hard color switch. The ripples just spread out
 forever, or at least until they're beyond the edges of the gradient
-image. See [Figure 9-40](#ch09.xhtml_cab_fig100){data-type="xref"} for
+image. See [Figure 9-40](#ch09.xhtml_cab_fig100){data-type="xref"} for
 an example.
 
 <figure>
@@ -27269,7 +26581,7 @@ a linear gradient with the color stop specified.
 
 Conic gradients are more easily shown than described, so consider the
 following CSS, which is illustrated in
-[Figure 9-41](#ch09.xhtml_conic-gradient-simple){data-type="xref"} along
+[Figure 9-41](#ch09.xhtml_conic-gradient-simple){data-type="xref"} along
 with a linear diagram to show how the stops wrap around the conical
 space:
 
@@ -27317,7 +26629,7 @@ conic-gradient(from 0.4turn, black, gray, black, white)
 If the conic gradient is given a different start angle, such as
 `from 45deg`, it acts as a rotation of the entire conic gradient.
 Consider the following two examples, with the results depicted in
-[Figure 9-42](#ch09.xhtml_conic-gradients-different-start-angles){data-type="xref"}:
+[Figure 9-42](#ch09.xhtml_conic-gradients-different-start-angles){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 conic-gradient(black, white 90deg, gray 180deg, black 270deg, white)
@@ -27343,7 +26655,7 @@ angle of `90deg`, it actually occurs at the 135-degree mark, that being
 It's also possible to change the location of the gradient's center point
 within the image, just as with radial gradients. The syntax is quite
 similar, as you can see in this code block (illustrated in
-[Figure 9-43](#ch09.xhtml_conic-gradients-rotated-and-offset){data-type="xref"}):
+[Figure 9-43](#ch09.xhtml_conic-gradients-rotated-and-offset){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 conic-gradient(from 144deg at 3em 6em, black, gray, black, white)
@@ -27413,11 +26725,11 @@ Except that's not actually a wheel, since the conic-gradient image fills
 the entire background area, and background areas in CSS are (thus far)
 rectangular by default. To make the color wheel actually look like a
 color wheel, you'd need to either use a circular clipping path (see
-[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"})
+[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"})
 or round the corners on a square element (see
-[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"}).
+[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"}).
 For example, the following will have the result shown in
-[Figure 9-44](#ch09.xhtml_conic-gradients-hue-wheels){data-type="xref"}:
+[Figure 9-44](#ch09.xhtml_conic-gradients-hue-wheels){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .hues {
@@ -27483,7 +26795,7 @@ occurs from yellow to red between 216 degrees and 234 degrees (65%), and
 beyond that, a solid red wedge running to 360 degrees.
 
 All this is illustrated in
-[Figure 9-45](#ch09.xhtml_conic-gradients-smoothed-triple){data-type="xref"},
+[Figure 9-45](#ch09.xhtml_conic-gradients-smoothed-triple){data-type="xref"},
 with extra annotations to mark where the calculated angles land.
 
 <figure>
@@ -27550,7 +26862,7 @@ repeating-conic-gradient(
 All that was necessary in this simple repeating case was to set up the
 first two color stops. After that, the stops are repeated until the full
 360 degrees of the conic gradient are filled, as shown in
-[Figure 9-46](#ch09.xhtml_repeating-conic-checkerboard){data-type="xref"}.
+[Figure 9-46](#ch09.xhtml_repeating-conic-checkerboard){data-type="xref"}.
 
 <figure>
 <div id="ch09.xhtml_repeating-conic-checkerboard" class="figure">
@@ -27566,7 +26878,7 @@ primary="starburst pattern, conic gradient" data-type="indexterm"}means
 we can create wedges of any size, with any transition, and repeat them
 all the way around the conic circle. Here are just three examples,
 rendered in
-[Figure 9-47](#ch09.xhtml_repeating-conic-starbursts){data-type="xref"}:
+[Figure 9-47](#ch09.xhtml_repeating-conic-starbursts){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 repeating-conic-gradient(#117 5deg, #ABE 15deg, #117 25deg)
@@ -27587,9 +26899,9 @@ Notice that the first (leftmost) example's smoothed transitions hold
 true even at the top of the image: the transition from `#117` at 350
 degrees to `#ABE` at 5 degrees is handled like all of the other
 transitions. Repeated conic gradients are unique in this way, since both
-linear and radial gradients never "wrap around" to have the end meet the
+linear and radial gradients never "wrap around" to have the end meet the
 beginning. This is also seen in the third (rightmost) example in
-[Figure 9-47](#ch09.xhtml_repeating-conic-starbursts){data-type="xref"}.
+[Figure 9-47](#ch09.xhtml_repeating-conic-starbursts){data-type="xref"}.
 
 It's possible to break this special behavior, though, as the second
 (center) example illustrates: note the narrower wedge from 355 degrees
@@ -27620,7 +26932,7 @@ One way this can be leveraged is to repeat simple gradients. (Repeating
 in more complex ways is the subject of the next section.) For example,
 you could use a hard-stop radial gradient to give your background a
 dotted look, as shown in
-[Figure 9-48](#ch09.xhtml_cab_fig93){data-type="xref"}:
+[Figure 9-48](#ch09.xhtml_cab_fig93){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {background: radial-gradient(circle at center,
@@ -27662,7 +26974,7 @@ data-type="indexterm"}everything a raster or vector image can, so it's
 not as though you'll be giving up external images completely now that
 gradients are a thing. You can still pull off some pretty impressive
 effects with gradients, though. Consider the background effect shown in
-[Figure 9-49](#ch09.xhtml_cab_fig94){data-type="xref"}.
+[Figure 9-49](#ch09.xhtml_cab_fig94){data-type="xref"}.
 
 <figure>
 <div id="ch09.xhtml_cab_fig94" class="figure">
@@ -27696,7 +27008,7 @@ background-repeat: repeat-x;
 The first (and therefore topmost) gradient is just a fade from a
 75%-transparent light red up to full transparency at the 75% point of
 the gradient line. Then two "fold" images are created.
-[Figure 9-50](#ch09.xhtml_cab_fig95){data-type="xref"} shows each
+[Figure 9-50](#ch09.xhtml_cab_fig95){data-type="xref"} shows each
 separately.
 
 With those images defined, they are repeated along the x-axis and given
@@ -27845,7 +27157,7 @@ For example, to float an image to the left, you could use this markup:
 <img src="b4.gif" style="float: left;" alt="b4">
 ```
 
-As [Figure 10-1](#ch10.xhtml_floating_image_fig){data-type="xref"}
+As [Figure 10-1](#ch10.xhtml_floating_image_fig){data-type="xref"}
 illustrates, the image "floats" to the left side of the browser window,
 and the text flows around it.
 
@@ -27862,7 +27174,7 @@ You can float to the `left` or `right`, as well as to the `inline-start`
 and `inline-end` edges of an element. These latter two are useful when
 you want to float an element toward the start or end of the inline axis,
 regardless of the direction that axis is pointing. (See
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
 for details on the inline axis.)
 
 ::: {.note data-type="note"}
@@ -27891,7 +27203,7 @@ This influence arises because when an element is floated, other
 normal-flow content "flows around" it. This is familiar behavior with
 floated images, but the same is true if you float a paragraph, for
 example. In
-[Figure 10-2](#ch10.xhtml_floating_paragraph_fig){data-type="xref"}, you
+[Figure 10-2](#ch10.xhtml_floating_paragraph_fig){data-type="xref"}, you
 can see this effect quite clearly, thanks to the margin added to the
 floated paragraph:
 
@@ -27919,7 +27231,7 @@ be at least 25 pixels of space around that image. If other elements
 adjacent to the image---and that means adjacent horizontally *and*
 vertically---also have margins, those margins will not collapse with the
 margins on the floated image. The following code results in
-[Figure 10-3](#ch10.xhtml_floating_images_with_margins_fig){data-type="xref"},
+[Figure 10-3](#ch10.xhtml_floating_images_with_margins_fig){data-type="xref"},
 with 50 pixels of space between the two floated images:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -28016,7 +27328,7 @@ follows:
     of its containing block. Similarly, the farthest right a
     right-floated element may go is its containing block's inner-right
     edge, as shown in
-    [Figure 10-4](#ch10.xhtml_floating_to_the_left_fig){data-type="xref"}.
+    [Figure 10-4](#ch10.xhtml_floating_to_the_left_fig){data-type="xref"}.
     (In this and subsequent figures, the circled numbers show the
     position where the markup element actually appears in relation to
     the source, and the numbered boxes show the position and size of the
@@ -28052,7 +27364,7 @@ follows:
     floated element's top is below the bottom of all earlier floated
     images, it can float all the way to the inner-left edge of the
     parent.
-    [Figure 10-5](#ch10.xhtml_keeping_floats_from_overlapping_fig){data-type="xref"}
+    [Figure 10-5](#ch10.xhtml_keeping_floats_from_overlapping_fig){data-type="xref"}
     shows some examples.
 
     <figure class="bordernone">
@@ -28083,7 +27395,7 @@ follows:
     prevents the second image from overlapping the first by 100 pixels.
     Instead, it is forced down until its top is below the bottom of the
     right-floating image, as depicted in
-    [Figure 10-6](#ch10.xhtml_more_overlap_prevention_fig){data-type="xref"}.
+    [Figure 10-6](#ch10.xhtml_more_overlap_prevention_fig){data-type="xref"}.
 
     <figure class="bordernone">
     <div id="ch10.xhtml_more_overlap_prevention_fig" class="figure">
@@ -28101,7 +27413,7 @@ follows:
 
     The first part of this rule keeps floating elements from floating
     all the way to the top of the document.
-    [Figure 10-7](#ch10.xhtml_unlike_balloons_fig){data-type="xref"}
+    [Figure 10-7](#ch10.xhtml_unlike_balloons_fig){data-type="xref"}
     illustrates the correct behavior. The second part of this rule
     fine-tunes the alignment in some situations---for example, when the
     middle of three paragraphs is floated. In that case, the floated
@@ -28129,7 +27441,7 @@ follows:
     the way to the top of their parent elements. It is also impossible
     for a floated element's top to be any higher than the top of a
     floated element that occurs earlier.
-    [Figure 10-8](#ch10.xhtml_keeping_floats_below_fig){data-type="xref"}
+    [Figure 10-8](#ch10.xhtml_keeping_floats_below_fig){data-type="xref"}
     shows an example: since the second float was forced to be below the
     first one, the third float's top is even with the top of the second
     float, not the first.
@@ -28154,7 +27466,7 @@ follows:
     floated image. The highest the top of that image may be placed is
     the top of the line box from which the image originates. As you can
     see in
-    [Figure 10-9](#ch10.xhtml_keeping_floats_level_fig){data-type="xref"},
+    [Figure 10-9](#ch10.xhtml_keeping_floats_level_fig){data-type="xref"},
     this keeps images from floating too far upward.
 
     <figure class="bordernone">
@@ -28179,7 +27491,7 @@ follows:
     block. Instead, a float that would otherwise stick out of its
     containing block by appearing next to another one will be floated
     down to a point below any previous floats, as illustrated by
-    [Figure 10-10](#ch10.xhtml_if_theres_no_room_fig){data-type="xref"}
+    [Figure 10-10](#ch10.xhtml_if_theres_no_room_fig){data-type="xref"}
     (in the figure, the floats start on the next line in order to more
     clearly illustrate the principle at work here).
 
@@ -28200,7 +27512,7 @@ follows:
     after the one in which the image's tag appears. Rule 8, however,
     implies that its top should be even with the top of the same line
     box as that in which its tag appears, assuming there is enough room.
-    [Figure 10-11](#ch10.xhtml_given_the_other_constraints_fig){data-type="xref"}
+    [Figure 10-11](#ch10.xhtml_given_the_other_constraints_fig){data-type="xref"}
     shows the theoretically correct behaviors.
 
     <figure class="bordernone">
@@ -28220,7 +27532,7 @@ follows:
 
     Again, this rule is subject to restrictions introduced in the
     preceding rules. As you can see in
-    [Figure 10-12](#ch10.xhtml_get_as_far_to_the_left_fig){data-type="xref"},
+    [Figure 10-12](#ch10.xhtml_get_as_far_to_the_left_fig){data-type="xref"},
     it is pretty easy to tell when an element has gone as far as
     possible to the right or left.
 
@@ -28251,7 +27563,7 @@ no more than a few paragraphs and `<h3>` elements, where the first
 paragraph contains a floated image. Further, this floated image has a
 margin of 5 pixels (`5px`). You would expect the document to be rendered
 as shown in
-[Figure 10-13](#ch10.xhtml_expected_floating_fig){data-type="xref"}.
+[Figure 10-13](#ch10.xhtml_expected_floating_fig){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_expected_floating_fig" class="figure">
@@ -28263,7 +27575,7 @@ alt="image" />
 </figure>
 
 Nothing there is unusual, but
-[Figure 10-14](#ch10.xhtml_backgrounds_and_floated_elements){data-type="xref"}
+[Figure 10-14](#ch10.xhtml_backgrounds_and_floated_elements){data-type="xref"}
 shows what happens when you set the first paragraph to have a
 background.
 
@@ -28274,7 +27586,7 @@ less obvious there because you couldn't see the background. The floating
 rules we discussed earlier address only the left, right, and top edges
 of floats and their parents. The deliberate omission of bottom edges
 requires the behavior in
-[Figure 10-14](#ch10.xhtml_backgrounds_and_floated_elements){data-type="xref"}.
+[Figure 10-14](#ch10.xhtml_backgrounds_and_floated_elements){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_backgrounds_and_floated_elements" class="figure">
@@ -28300,7 +27612,7 @@ the parent, as in this example:
 On a related note, consider backgrounds and their relationship to
 floated elements that occur earlier in the document, which is
 illustrated in
-[Figure 10-15](#ch10.xhtml_element_backgrounds_fig_){data-type="xref"}.
+[Figure 10-15](#ch10.xhtml_element_backgrounds_fig_){data-type="xref"}.
 
 Because the []{#ch10.xhtml_idm45797059472544 primary="floating"
 secondary="width of" data-type="indexterm"}floated element is both
@@ -28340,7 +27652,7 @@ protrude out of their parents.
 Let's consider an image that is floated to the left, and that has left
 and top margins of `-15px`. This image is placed inside a `<div>` that
 has no padding, borders, or margins.
-[Figure 10-16](#ch10.xhtml_floating_with_negative_fig){data-type="xref"}
+[Figure 10-16](#ch10.xhtml_floating_with_negative_fig){data-type="xref"}
 shows the result.
 
 <figure>
@@ -28360,7 +27672,7 @@ the rules in the previous section will show that the outer edges of a
 floating element must be within the element's parent. However, negative
 margins can place the floated element's content such that it effectively
 overlaps its own outer edge, as detailed in
-[Figure 10-17](#ch10.xhtml_the_details_of_floating_fig){data-type="xref"}.
+[Figure 10-17](#ch10.xhtml_the_details_of_floating_fig){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_the_details_of_floating_fig" class="figure">
@@ -28398,7 +27710,7 @@ that case, the floated element will overflow the right or left inner
 edge---depending on which way the element is floated---in its best
 attempt to display itself correctly. This will lead to a result like
 that shown in
-[Figure 10-18](#ch10.xhtml_floating_an_element_thats_wider_fig){data-type="xref"}.
+[Figure 10-18](#ch10.xhtml_floating_an_element_thats_wider_fig){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_floating_an_element_thats_wider_fig" class="figure">
@@ -28460,7 +27772,7 @@ To illustrate these rules, consider the following situation:
 ```
 
 To that markup, apply the following styles, with the result seen in
-[Figure 10-19](#ch10.xhtml_layout_behavior_when_overlapping_fig){data-type="xref"}:
+[Figure 10-19](#ch10.xhtml_layout_behavior_when_overlapping_fig){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .sideline {float: left; margin: 10px -15px 10px 10px;}
@@ -28514,7 +27826,7 @@ prohibit floating elements from appearing next to it. If the first
 element might otherwise be placed next to a floated element, it will be
 pushed down until it appears below the floated image, and all subsequent
 content will appear after that, as shown in
-[Figure 10-20](#ch10.xhtml_displaying_an_element_fig){data-type="xref"}.
+[Figure 10-20](#ch10.xhtml_displaying_an_element_fig){data-type="xref"}.
 
 <figure class="smaller">
 <div id="ch10.xhtml_displaying_an_element_fig" class="figure">
@@ -28561,7 +27873,7 @@ h3 {clear: left;}
 While this will push the `<h3>` past any left-floating elements, it will
 allow floated elements to appear on the right side of `<h3>` elements,
 as shown in
-[Figure 10-21](#ch10.xhtml_clear_to_the_left_fig){data-type="xref"}.
+[Figure 10-21](#ch10.xhtml_clear_to_the_left_fig){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_clear_to_the_left_fig" class="figure">
@@ -28582,7 +27894,7 @@ h3 {clear: both;}
 
 Understandably, this value prevents coexistence with floated elements on
 both sides of the cleared element, as demonstrated in
-[Figure 10-22](#ch10.xhtml_clear_on_both_sides_fig){data-type="xref"}.
+[Figure 10-22](#ch10.xhtml_clear_on_both_sides_fig){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_clear_on_both_sides_fig" class="figure">
@@ -28607,7 +27919,7 @@ element. As with `float: none`, this value mostly exists to allow for
 normal document behavior, in which elements will permit floated elements
 to both sides. The `none` value can be used to override other styles, as
 shown in
-[Figure 10-23](#ch10.xhtml_not_clear_at_all_fig){data-type="xref"}.
+[Figure 10-23](#ch10.xhtml_not_clear_at_all_fig){data-type="xref"}.
 Despite the document-wide rule that `<h3>` elements will not permit
 floated elements to either side, one `<h3>` in particular has been set
 so that it does permit floated elements on either side:
@@ -28634,7 +27946,7 @@ in order to push it past any floated elements. This means that the top
 margin of a cleared element does not change when an element is cleared.
 Its downward movement is caused by the clearance instead. Pay close
 attention to the placement of the heading's border in
-[Figure 10-24](#ch10.xhtml_clearing_and_its_effect_fig){data-type="xref"},
+[Figure 10-24](#ch10.xhtml_clearing_and_its_effect_fig){data-type="xref"},
 which results from the following:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -28975,7 +28287,7 @@ containing block, so the two are coincident. Similar reasoning holds
 true for the top and bottom of the positioned element: the outer-top
 edge is placed halfway down the containing block, but the outer-bottom
 edge is not moved up from the bottom. This leads to what's shown in
-[Figure 10-25](#ch10.xhtml_filling_lower-right-quarter){data-type="xref"}.
+[Figure 10-25](#ch10.xhtml_filling_lower-right-quarter){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_filling_lower-right-quarter" class="figure">
@@ -28990,7 +28302,7 @@ alt="css5 1025" />
 ###### Note {#ch10.xhtml_sigil_toc_id_850}
 
 What's depicted in
-[Figure 10-25](#ch10.xhtml_filling_lower-right-quarter){data-type="xref"},
+[Figure 10-25](#ch10.xhtml_filling_lower-right-quarter){data-type="xref"},
 and in most of the examples in this chapter, is based around
 []{#ch10.xhtml_idm45797058688384 primary="offsets"
 secondary="absolute positioning"
@@ -29002,7 +28314,7 @@ now.
 :::
 
 Note the background area of the positioned element. In
-[Figure 10-25](#ch10.xhtml_filling_lower-right-quarter){data-type="xref"},
+[Figure 10-25](#ch10.xhtml_filling_lower-right-quarter){data-type="xref"},
 it has no margins, but if it did, they would create blank space between
 the borders and the offset edges. This would make the positioned element
 appear as though it did not completely fill the lower-right quarter of
@@ -29022,7 +28334,7 @@ visual appearance, assuming that the containing block is `100em` high by
 By using negative offset values, we can position an element outside its
 [containing]{.keep-together} block. For example, the following values
 will lead to the result shown in
-[Figure 10-26](#ch10.xhtml_positioning_outside_block){data-type="xref"}:
+[Figure 10-26](#ch10.xhtml_positioning_outside_block){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 top: 50%; bottom: -2em; left: 75%; right: -7em;
@@ -29145,7 +28457,7 @@ but it isn't. The following two rules have the same result:
 ```
 
 As with other physical shorthands such as those seen in
-[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"},
+[Chapter 7](../Text/ch07.xhtml#padding-borders-outlines-and-margins){data-type="xref"},
 the values are in the order TRBL (top, right, bottom, left), and an
 omitted value is copied from the opposite side. Thus, `inset: 20px 2em`
 is the same as writing
@@ -29186,7 +28498,7 @@ element are implicitly determined by the offsets. Assume that we want an
 absolutely positioned element to fill the left half of its containing
 block, from top to bottom. We could use these values, with the result
 depicted in
-[Figure 10-27](#ch10.xhtml_positioning_offset_only){data-type="xref"}:
+[Figure 10-27](#ch10.xhtml_positioning_offset_only){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 inset: 0 50% 0 0;
@@ -29204,7 +28516,7 @@ properties</h6>
 
 Since the default value of both `width` and `height` is `auto`, the
 result shown in
-[Figure 10-27](#ch10.xhtml_positioning_offset_only){data-type="xref"} is
+[Figure 10-27](#ch10.xhtml_positioning_offset_only){data-type="xref"} is
 exactly the same as if we had used these values:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -29224,7 +28536,7 @@ inset: 0 50% 0 0; width: 50%; height: 100%; padding: 2em;
 
 This will give us a positioned element that extends out of its
 containing block, as shown in
-[Figure 10-28](#ch10.xhtml_positioning_partially_outside_block){data-type="xref"}.
+[Figure 10-28](#ch10.xhtml_positioning_partially_outside_block){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_positioning_partially_outside_block" class="figure">
@@ -29313,7 +28625,7 @@ values for all these properties cannot be negative.
 
 The following styles will force the positioned element to be at least
 `10em` wide by `20em` tall, as illustrated in
-[Figure 10-29](#ch10.xhtml_setting_minimum_width_height){data-type="xref"}:
+[Figure 10-29](#ch10.xhtml_setting_minimum_width_height){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 inset: 10% 10% 20% 50%; min-width: 10em; min-height: 20em;
@@ -29450,7 +28762,7 @@ containing block for the absolutely positioned element and give it a
 ```
 
 Consider the example in
-[Figure 10-30](#ch10.xhtml_using_relative_positioning){data-type="xref"},
+[Figure 10-30](#ch10.xhtml_using_relative_positioning){data-type="xref"},
 which illustrates the following:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -29508,7 +28820,7 @@ entirely.
 Assuming the containing block is the root element, you could drop in an
 absolutely positioned paragraph, as follows, and get a result like that
 shown in
-[Figure 10-31](#ch10.xhtml_positioning_element_contained_by_root){data-type="xref"}:
+[Figure 10-31](#ch10.xhtml_positioning_element_contained_by_root){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 <p style="position: absolute; top: 0; right: 25%; left: 25%; bottom:
@@ -29536,7 +28848,7 @@ positioned, it establishes a containing block for its descendant
 elements. For example, we can absolutely position an element and then
 absolutely position one of its children by using the following styles
 and basic markup (depicted in
-[Figure 10-32](#ch10.xhtml_containing_blocks_from_absolute_pos){data-type="xref"}):
+[Figure 10-32](#ch10.xhtml_containing_blocks_from_absolute_pos){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 div {position: relative; width: 100%; height: 10em;
@@ -29614,7 +28926,7 @@ four physical offset properties, like so:
 
 Here, the height and width of the `<h1>`'s element box is determined by
 the placement of its outer margin edges, as shown in
-[Figure 10-33](#ch10.xhtml_determining_height_based_on_offset){data-type="xref"}.
+[Figure 10-33](#ch10.xhtml_determining_height_based_on_offset){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_determining_height_based_on_offset" class="figure">
@@ -29646,7 +28958,7 @@ exactly two and a half times as wide as the `<h1>`'s computed value of
 `width` would mean at least one value is wrong and has to be ignored.
 Figuring out which one depends on multiple factors, and the factors
 change depending on whether an element is replaced or nonreplaced. (See
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
 for replaced versus nonreplaced [elements.)]{.keep-together}
 
 For that matter, consider the following:
@@ -29702,7 +29014,7 @@ where the `<span>` would have been placed if its `position` value were
 `static`; this is its *static position*---the place where its top edge
 should be calculated to sit. Therefore, we should get the result shown
 in
-[Figure 10-34](#ch10.xhtml_using_static_top_for_absolute_pos){data-type="xref"}.
+[Figure 10-34](#ch10.xhtml_using_static_top_for_absolute_pos){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_using_static_top_for_absolute_pos" class="figure">
@@ -29735,7 +29047,7 @@ both `top` and `left` are set to `auto`:
 ```
 
 This results in
-[Figure 10-35](#ch10.xhtml_static_pos_for_absolute_pos){data-type="xref"}.
+[Figure 10-35](#ch10.xhtml_static_pos_for_absolute_pos){data-type="xref"}.
 
 <figure>
 <div id="ch10.xhtml_static_pos_for_absolute_pos" class="figure">
@@ -29827,7 +29139,7 @@ The nonstatic position property (`right` in left-to-right languages,
 ```
 
 This results in
-[Figure 10-36](#ch10.xhtml_shrink-to-fit){data-type="xref"}.
+[Figure 10-36](#ch10.xhtml_shrink-to-fit){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_shrink-to-fit" class="figure">
@@ -29860,7 +29172,7 @@ Now suppose that only the left and right margins are set to `auto`, not
 What happens here is that the left and right margins, which are both
 `auto`, are set to be equal. This will effectively center the element,
 as shown in
-[Figure 10-37](#ch10.xhtml_horizontally_centering_with_auto_margins){data-type="xref"}.
+[Figure 10-37](#ch10.xhtml_horizontally_centering_with_auto_margins){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_horizontally_centering_with_auto_margins"
@@ -29900,7 +29212,7 @@ right: auto; background: silver;">shrink-wrapped</span>
 ```
 
 This results in
-[Figure 10-38](#ch10.xhtml_ignoring_value_for_right){data-type="xref"}.
+[Figure 10-38](#ch10.xhtml_ignoring_value_for_right){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_ignoring_value_for_right" class="figure">
@@ -29922,13 +29234,13 @@ background: silver;">shrink-wrapped</span>
 ```
 
 The visual result would be the same as that in
-[Figure 10-38](#ch10.xhtml_ignoring_value_for_right){data-type="xref"},
+[Figure 10-38](#ch10.xhtml_ignoring_value_for_right){data-type="xref"},
 only it would be attained by computing the right margin to `12em`
 instead of overriding the value assigned to the property `right`.
 
 If, on the other hand, we made the left margin `auto`, *it* would be
 reset, as illustrated in
-[Figure 10-39](#ch10.xhtml_ignoring_margin-right){data-type="xref"}:
+[Figure 10-39](#ch10.xhtml_ignoring_margin-right){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <span style="position: absolute; top: 0; left: 1em;
@@ -29961,7 +29273,7 @@ So far we've really examined behavior only along the horizontal axis,
 but very similar rules hold true along the vertical axis. If we take the
 previous discussion and rotate it 90 degrees, as it were, we get almost
 the same behavior. For example, the following markup results in
-[Figure 10-40](#ch10.xhtml_vertical_layout_behavior){data-type="xref"}:
+[Figure 10-40](#ch10.xhtml_vertical_layout_behavior){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <div style="position: relative; width: 30em; height: 10em; border: 1px solid;">
@@ -29998,7 +29310,7 @@ alt="image" />
 For that matter, auto-margins can lead to vertical centering. Given the
 following styles, the absolutely positioned `<div>` will be vertically
 centered within its containing block, as shown in
-[Figure 10-41](#ch10.xhtml_vertically_centering_with_auto_margins){data-type="xref"}:
+[Figure 10-41](#ch10.xhtml_vertically_centering_with_auto_margins){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <div style="position: relative; width: 10em; height: 10em; border: 1px solid;">
@@ -30093,7 +29405,7 @@ positioned nonreplaced elements, as long as you assume that there is an
 explicit `width` for the nonreplaced element. Therefore, the following
 two elements will have the same width and placement, assuming the
 image's intrinsic width is 100 pixels (see
-[Figure 10-42](#ch10.xhtml_absolutely_positioning_replaced_element){data-type="xref"}):
+[Figure 10-42](#ch10.xhtml_absolutely_positioning_replaced_element){data-type="xref"}):
 
 ``` {code-language="xml" data-type="programlisting"}
 <div>
@@ -30161,7 +29473,7 @@ data-type="indexterm"}[]{#ch10.xhtml_idm45797056323392 primary=""
 startref="ix_replaced_pos" data-type="indexterm"}
 
 Thus, the following markup results in
-[Figure 10-43](#ch10.xhtml_stretching_replaced_elements){data-type="xref"}:
+[Figure 10-43](#ch10.xhtml_stretching_replaced_elements){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <div style="position: relative; height: 200px; width: 200px; border: 1px solid;">
@@ -30212,7 +29524,7 @@ the x-axis and top-to-bottom is the y-axis. In such a case, the third
 axis---which runs from back to front, as you look at the display
 surface---is termed the *z-axis*. Thus, elements are given values along
 this axis by using `z-index`.
-[Figure 10-44](#ch10.xhtml_conceptual_view_of_zindex){data-type="xref"}
+[Figure 10-44](#ch10.xhtml_conceptual_view_of_zindex){data-type="xref"}
 illustrates this system.
 
 ```{=html}
@@ -30248,9 +29560,9 @@ data-type="indexterm"}coordinate system, an element with a higher
 `z-index` value is closer to the reader than those with lower `z-index`
 values. This will cause the high-value element to overlap the others, as
 illustrated in
-[Figure 10-45](#ch10.xhtml_how_elements_are_stacked){data-type="xref"},
+[Figure 10-45](#ch10.xhtml_how_elements_are_stacked){data-type="xref"},
 which is a "head-on" view of
-[Figure 10-44](#ch10.xhtml_conceptual_view_of_zindex){data-type="xref"}.
+[Figure 10-44](#ch10.xhtml_conceptual_view_of_zindex){data-type="xref"}.
 This precedence of overlapping is referred to as *stacking*.
 
 <figure class="bordernone">
@@ -30266,7 +29578,7 @@ Any integer can be used as a value for `z-index`, including negative
 numbers. Assigning an element a negative `z-index` will move it further
 away from the reader; that is, it will be moved lower in the stack.
 Consider the following styles, illustrated in
-[Figure 10-46](#ch10.xhtml_stacked_elements_can_overlap){data-type="xref"}:
+[Figure 10-46](#ch10.xhtml_stacked_elements_can_overlap){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {background: rgba(255,255,255,0.9); border: 1px solid;}
@@ -30311,7 +29623,7 @@ that all of the element's descendants have their own stacking order,
 except relative to their ancestor element. This is very similar to the
 way that elements establish new containing blocks. Given the following
 styles, you would see something like
-[Figure 10-47](#ch10.xhtml_local_stacking_from_positioned){data-type="xref"}:
+[Figure 10-47](#ch10.xhtml_local_stacking_from_positioned){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {border: 1px solid; background: #DDD; margin: 0;}
@@ -30342,7 +29654,7 @@ a list of the various ways to establish a stacking context in ["Blending
 in
 Isolation"](../Text/ch20.xhtml#blending-in-isolation1){data-type="xref"}
 in
-[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}).
+[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}).
 Each is correctly layered with respect to its parent element. Each
 `<em>` is drawn in front of its parent element, whether or not its
 `z-index` is negative, and parents and children are grouped together
@@ -30408,7 +29720,7 @@ relative to any part of [the document.]{.keep-together}
 Fixed positioning can be exploited in interesting ways. First off, it's
 possible to create frame-style interfaces by using fixed positioning.
 Consider
-[Figure 10-48](#ch10.xhtml_emulating_frames_with_fixed){data-type="xref"},
+[Figure 10-48](#ch10.xhtml_emulating_frames_with_fixed){data-type="xref"},
 which shows a common layout scheme.
 
 <figure class="bordernone">
@@ -30474,7 +29786,7 @@ leave it there no matter how much the document is scrolled.
 
 Many of the layout cases for fixed positioning, besides "persistent
 elements," are handled as well, if not better, by grid layout (see
-[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"} for
+[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"} for
 more).[]{#ch10.xhtml_idm45797055283104 primary=""
 startref="ix_fixed_pos"
 data-type="indexterm"}[]{#ch10.xhtml_idm45797055282128 primary=""
@@ -30501,7 +29813,7 @@ this can have some interesting consequences.
 
 On the surface, it seems simple enough. Suppose we want to shift an
 image up and to the left.
-[Figure 10-49](#ch10.xhtml_relatively_positioned_element){data-type="xref"}
+[Figure 10-49](#ch10.xhtml_relatively_positioned_element){data-type="xref"}
 shows the result of these styles:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -30529,11 +29841,11 @@ disappear.]{.keep-together}
 
 Relative positioning is very similar to translation element transforms,
 which are discussed in
-[Chapter 17](../Text/ch17.xhtml#transforms){data-type="xref"}.
+[Chapter 17](../Text/ch17.xhtml#transforms){data-type="xref"}.
 :::
 
 Consider the results of the following styles, which are depicted in
-[Figure 10-50](#ch10.xhtml_another_relatively_positioned_element){data-type="xref"}:
+[Figure 10-50](#ch10.xhtml_another_relatively_positioned_element){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 em {position: relative; top: 10em; color: red;}
@@ -30556,7 +29868,7 @@ in its new position exactly mirrors the space it left behind.
 It's also possible to shift a relatively positioned element to overlap
 other content. For example, the following styles and markup are
 illustrated in
-[Figure 10-51](#ch10.xhtml_relatively_positioned_elements_overlap_content){data-type="xref"}:
+[Figure 10-51](#ch10.xhtml_relatively_positioned_elements_overlap_content){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img.slide {position: relative; left: 30px;}
@@ -30646,7 +29958,7 @@ secondary="sticky positioning and" data-type="indexterm"}scroll through
 an alphabetized list of artists, the current letter stays stuck at the
 top of the window until a new letter section is entered, at which point
 the new letter replaces the old. It's a little hard to show in print,
-but [Figure 10-52](#ch10.xhtml_sticky_positioning){data-type="xref"}
+but [Figure 10-52](#ch10.xhtml_sticky_positioning){data-type="xref"}
 takes a stab at it by showing three points in a scroll.
 
 <figure class="bordernone">
@@ -30664,7 +29976,7 @@ CSS makes this sort of thing possible by declaring an element to be
 First off, the offsets (`top`, `left`, etc.) are used to define a
 *sticky-positioning rectangle* with relation to the containing block.
 Take the following as an example. It will have the effect shown in
-[Figure 10-53](#ch10.xhtml_sticky-positioning_rectangle){data-type="xref"},
+[Figure 10-53](#ch10.xhtml_sticky-positioning_rectangle){data-type="xref"},
 where the dashed line shows where the sticky-positioning [rectangle is
 created:]{.keep-together}
 
@@ -30684,14 +29996,14 @@ alt="css5 1053" />
 </figure>
 
 Notice that the `<h2>` is in the middle of the rectangle in
-[Figure 10-53](#ch10.xhtml_sticky-positioning_rectangle){data-type="xref"}.
+[Figure 10-53](#ch10.xhtml_sticky-positioning_rectangle){data-type="xref"}.
 That's its place in the normal flow of the content inside the
 `#scrollbox` element. The only way to make the `<h2>` sticky is to
 scroll that content until the top of the `<h2>` touches the top of the
 sticky-positioning rectangle (which is `2em` below the top of the
 scrollbox)---at which point, the `<h2>` will stick there. This is
 illustrated in
-[Figure 10-54](#ch10.xhtml_sticking_to_the_top){data-type="xref"}.
+[Figure 10-54](#ch10.xhtml_sticking_to_the_top){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_sticking_to_the_top" class="figure">
@@ -30717,7 +30029,7 @@ containing block isn't determined by `position`.
 If the scrolling is reversed so that the `<h2>`'s normal-flow position
 moves lower than the top of the rectangle, the `<h2>` is detached from
 the rectangle and resumes its place in the normal flow. This is shown in
-[Figure 10-55](#ch10.xhtml_detaching_from_the_top){data-type="xref"}.
+[Figure 10-55](#ch10.xhtml_detaching_from_the_top){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch10.xhtml_detaching_from_the_top" class="figure">
@@ -30734,7 +30046,7 @@ these examples is that the value of `top` is set to something other than
 can use whatever offset side you want. For example, you could have
 elements stick to the bottom of the rectangle as you scroll downward
 through the content. The following code is illustrated in
-[Figure 10-56](#ch10.xhtml_sticking_to_the_bottom){data-type="xref"}:
+[Figure 10-56](#ch10.xhtml_sticking_to_the_bottom){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #scrollbox {overflow: scroll; position: relative; width: 15em; height: 10em;}
@@ -30759,7 +30071,7 @@ If you define more than one offset property to have a value other than
 `auto`, *all* of them will become sticky edges. For example, this set of
 styles will force the `<h2>` to always appear inside the scrollbox,
 regardless of which way its content is scrolled (see
-[Figure 10-57](#ch10.xhtml_making_every_side_sticky){data-type="xref"}):
+[Figure 10-57](#ch10.xhtml_making_every_side_sticky){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 #scrollbox {overflow: scroll; : 15em; height: 10em;}
@@ -30789,7 +30101,7 @@ h2#h03 {margin-left: auto; margin-right: auto;
 ```
 
 It's not easy to see in static images like
-[Figure 10-58](#ch10.xhtml_sticky-header_pileup){data-type="xref"}, but
+[Figure 10-58](#ch10.xhtml_sticky-header_pileup){data-type="xref"}, but
 the way the headers are piling up is that the later they are in the
 source, the closer they are to the viewer.
 []{#ch10.xhtml_idm45797054561616 primary="z-index property"
@@ -30900,7 +30212,7 @@ data-type="indexterm"}element becomes a *flex container*, arranging its
 children within the space provided and controlling their layout. The
 children of this flex container become *flex items*. Consider the
 following styles and markup, illustrated in
-[Figure 11-1](#ch11.xhtml_display_flex){data-type="xref"}:
+[Figure 11-1](#ch11.xhtml_display_flex){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div#one {display: flex;}
@@ -30950,7 +30262,7 @@ Notice how each child element of the `<div>`s becomes a flex item, and
 furthermore, how they all lay out in the same way? It doesn't matter
 that some are paragraphs and others are `<span>`s. They all become flex
 items. (There would likely have been some differences due to the
-paragraphs' browser-default margins, except those were removed.)
+paragraphs' browser-default margins, except those were removed.)
 
 The only real difference between the first and second flex containers is
 that one is set to `display: flex`, and the other to
@@ -30960,7 +30272,7 @@ inline-block box with flex inside it.
 
 The key thing to keep in mind is that once you set an element to be a
 flex container, like the `<div>`s in
-[Figure 11-1](#ch11.xhtml_display_flex){data-type="xref"}, it will flex
+[Figure 11-1](#ch11.xhtml_display_flex){data-type="xref"}, it will flex
 only its immediate children, and not further descendants. However, you
 can make those descendants flex containers as well, enabling some really
 complex layouts.
@@ -30974,7 +30286,7 @@ in ["Understanding
 Axes"](#ch11.xhtml_understanding-axis){data-type="xref"}.
 
 As the first `<div>` in
-[Figure 11-1](#ch11.xhtml_display_flex){data-type="xref"} demonstrates,
+[Figure 11-1](#ch11.xhtml_display_flex){data-type="xref"} demonstrates,
 when the flex items don't fill up the entire main-axis (in this case,
 the width) of the container, they will leave extra space. Certain
 properties dictate how to handle that extra space, which we'll explore
@@ -31055,7 +30367,7 @@ a:hover, a:focus, a:active {
 ```
 
 We now have ourselves a simple tabbed navigation bar, as shown in
-[Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"}.
+[Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"}.
 
 <figure>
 <div id="ch11.xhtml_simple_tabbed_navigation" class="figure">
@@ -31096,9 +30408,9 @@ For years we joked about the challenges of vertical centering and
 multiple column layout. Some layouts were no laughing matter, like
 ensuring equal heights in sets of multiple side-by-side boxes, with
 buttons or "more" links fixed to the bottom of each box
-([Figure 11-3](#ch11.xhtml_power_grid_layout_flexbox){data-type="xref"});
+([Figure 11-3](#ch11.xhtml_power_grid_layout_flexbox){data-type="xref"});
 or, keeping the pieces of a single button all neatly lined up
-([Figure 11-4](#ch11.xhtml_fb_button-vert-centered){data-type="xref"}).
+([Figure 11-4](#ch11.xhtml_fb_button-vert-centered){data-type="xref"}).
 Flexbox makes what used to be challenging layout effects fairly simple.
 
 <figure>
@@ -31152,7 +30464,7 @@ dimension, or axis. While you can create grid-like layouts
 (two-dimensional alignment) with flexbox, this is not its intended
 purpose, and it has significant flaws for this use case. If you find
 yourself pining for two-dimensional layout capabilities, see
-[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}.
+[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}.
 :::
 ::::
 :::::::
@@ -31234,7 +30546,7 @@ Assume the following basic markup structure:
 </ol>
 ```
 
-[Figure 11-5](#ch11.xhtml_four-values-flex-dir){data-type="xref"} shows
+[Figure 11-5](#ch11.xhtml_four-values-flex-dir){data-type="xref"} shows
 how that []{#ch11.xhtml_idm45797054004288
 primary="writing modes (flow direction)"
 secondary="changing for languages" data-type="indexterm"}simple list
@@ -31263,7 +30575,7 @@ For example, you can reverse this layout of the items with
 `flex-direction: row-reverse`. The flex items are laid out from top to
 bottom when `flex-direction: column` is set, and from bottom to top if
 `flex-direction: column-reverse` is set, as shown in
-[Figure 11-5](#ch11.xhtml_four-values-flex-dir){data-type="xref"}.
+[Figure 11-5](#ch11.xhtml_four-values-flex-dir){data-type="xref"}.
 
 We specified left-to-right languages, because the direction of the
 main-axis for `row`---the direction that the flex items are laid
@@ -31309,7 +30621,7 @@ sidebar-style navigation for the list of links we saw earlier as a
 horizontal row of tabs. For the new layout, we change the
 `flex-direction` from the default value of `row` to `column` and move
 the border from the bottom to the right;
-[Figure 11-6](#ch11.xhtml_changing-flex-dir){data-type="xref"} shows the
+[Figure 11-6](#ch11.xhtml_changing-flex-dir){data-type="xref"} shows the
 result.
 
 <figure>
@@ -31330,7 +30642,7 @@ is reversed; thus, `main-start` is placed at the *end* of the main-axis,
 and `main-end` is placed at the *start* of the main-axis. In
 top-to-bottom writing modes, that means the flex items are arranged
 going upward, as shown previously in
-[Figure 11-5](#ch11.xhtml_four-values-flex-dir){data-type="xref"}. The
+[Figure 11-5](#ch11.xhtml_four-values-flex-dir){data-type="xref"}. The
 `-reverse` values only change the appearance. The keyboard-navigation
 tab order remains the same as the underlying markup.
 
@@ -31377,7 +30689,7 @@ navigation as a component within a home page:
 ```
 
 By adding a few lines of CSS, we get a nicely laid-out home page
-([Figure 11-7](#ch11.xhtml_using_flex_direction_row_and_column){data-type="xref"}):
+([Figure 11-7](#ch11.xhtml_using_flex_direction_row_and_column){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 * {
@@ -31414,7 +30726,7 @@ directions, and we let `<nav>` and `<main>` default to `row`. And all
 that with just two lines of CSS!
 
 To be clear, there's more styling at work in
-[Figure 11-7](#ch11.xhtml_using_flex_direction_row_and_column){data-type="xref"}.
+[Figure 11-7](#ch11.xhtml_using_flex_direction_row_and_column){data-type="xref"}.
 Borders, margins, and padding were applied to all the elements, so you
 can visually differentiate the flex items for the sake of learning (we
 wouldn't put this less-than-attractive site into production!).
@@ -31461,12 +30773,12 @@ data-type="indexterm"}[]{#ch11.xhtml_idm45797053549184
 primary="writing-mode property" data-type="indexterm"}writing mode is
 set by the `writing-mode`, `direction`, and `text-orientation`
 properties, or by the `dir` attribute in HTML. (These are covered in
-[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}.)
+[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}.)
 When the writing mode is right to left, the direction of the
 main-axis---and therefore the flex items within the flex
 container---will go from right to left when the `flex-direction` is
 `row`. This is illustrated in
-[Figure 11-8](#ch11.xhtml_four-vals-flex-dir){data-type="xref"}.
+[Figure 11-8](#ch11.xhtml_four-vals-flex-dir){data-type="xref"}.
 
 <figure>
 <div id="ch11.xhtml_four-vals-flex-dir" class="figure">
@@ -31505,7 +30817,7 @@ For top-to-bottom languages, `writing-mode: horizontal-tb` is in effect,
 meaning the main-axis is rotated 90 degrees clockwise from the default
 left to right. Thus, `flex-direction: row` goes from top to bottom, and
 `flex-direction: column` proceeds from right to left.
-[Figure 11-9](#ch11.xhtml_writing_mode_horizontal_tb){data-type="xref"}
+[Figure 11-9](#ch11.xhtml_writing_mode_horizontal_tb){data-type="xref"}
 shows the effects of the various `flex-direction` values on the
 following markup:
 
@@ -31601,7 +30913,7 @@ via `wrap` or `wrap-reverse`, it determines where additional lines of
 flex items appear: either before or after the original line of flex
 items.
 
-[Figure 11-10](#ch11.xhtml_three_values_of_flex_wrap){data-type="xref"}
+[Figure 11-10](#ch11.xhtml_three_values_of_flex_wrap){data-type="xref"}
 demonstrates the three values of the `flex-wrap` property when the
 `flex-direction` value is `row` (and the language is LTR). Where these
 examples show two flex lines, the second line and subsequent flex lines
@@ -31681,7 +30993,7 @@ and cross-axes.
 As long as `display` is set to `flex` or `inline-flex`, omitting
 `flex-flow`, `flex-direction`, and `flex-wrap` is the same as declaring
 any of the following three, all of which have the result shown in
-[Figure 11-11](#ch11.xhtml_flex_flow_row){data-type="xref"}:
+[Figure 11-11](#ch11.xhtml_flex_flow_row){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 flex-flow: row;
@@ -31705,7 +31017,7 @@ height="100" /></span></a></h6>
 In LTR writing modes, declaring any of the property values just listed,
 or omitting the `flex-flow` property altogether, will create a flex
 container with a horizontal main-axis that doesn't wrap.
-[Figure 11-11](#ch11.xhtml_flex_flow_row){data-type="xref"} illustrates
+[Figure 11-11](#ch11.xhtml_flex_flow_row){data-type="xref"} illustrates
 flex items distributed along the horizontal axis, on one line,
 overflowing a container that's 500 pixels wide.
 
@@ -31828,7 +31140,7 @@ don't fit onto one line, the flex lines are laid out starting from the
 cross-start edge and proceeding toward the cross-end edge.
 
 As shown in
-[Figure 11-12](#ch11.xhtml_flex_lines_on_row_and_row_reverse){data-type="xref"},
+[Figure 11-12](#ch11.xhtml_flex_lines_on_row_and_row_reverse){data-type="xref"},
 when we have horizontal rows of flex items, the cross-axis is vertical.
 []{#ch11.xhtml_idm45797053290672
 primary="left-to-right (LTR) writing mode"
@@ -31878,7 +31190,7 @@ lines.[]{#ch11.xhtml_idm45797053273344 primary=""
 startref="ix_flex_direct_prop2"
 data-type="indexterm"}[]{#ch11.xhtml_idm45797053272368 primary=""
 startref="ix_flex_cont_direct_prop2" data-type="indexterm"} As shown in
-[Figure 11-13](#ch11.xhtml_flex_wrap_wrap_reverse){data-type="xref"},
+[Figure 11-13](#ch11.xhtml_flex_wrap_wrap_reverse){data-type="xref"},
 when `flex-wrap` is set to `wrap-reverse`, the cross-axis is inverted,
 with cross-start being on the right, cross-end being on the left, the
 [cross-axis]{.keep-together} going from right to left, and additional
@@ -31911,7 +31223,7 @@ have them grow to fill all available space, or distribute themselves
 throughout the line?
 
 For an example of what we're talking about here, check out
-[Figure 11-14](#ch11.xhtml_empty-space-dir-main-cross){data-type="xref"}.
+[Figure 11-14](#ch11.xhtml_empty-space-dir-main-cross){data-type="xref"}.
 Notice the extra space at the top left. In this bottom-to-top,
 right-to-left flow, new flex items get placed above the previous ones,
 with new wrap lines being placed to the left of each previously filled
@@ -32012,7 +31324,7 @@ most browsers as of early 2023. This means the value is ignored, but its
 presence does not render the rest of the declaration invalid.
 :::
 
-[Figure 11-15](#ch11.xhtml_justify-content-values){data-type="xref"}
+[Figure 11-15](#ch11.xhtml_justify-content-values){data-type="xref"}
 shows the effects of the various values in a writing mode like English.
 
 <figure>
@@ -32081,7 +31393,7 @@ item's main-end side. (Remember, the location of the main-start side
 depends on the flex direction and writing mode.) If there isn't enough
 room for all the items and wrapping is not allowed, the items will
 overflow the main-end edge. This is illustrated in
-[Figure 11-16](#ch11.xhtml_justify_content_start){data-type="xref"}.
+[Figure 11-16](#ch11.xhtml_justify_content_start){data-type="xref"}.
 
 <figure>
 <div id="ch11.xhtml_justify_content_start" class="figure">
@@ -32101,7 +31413,7 @@ preceding flex item being placed flush with the subsequent item. In this
 case, if the items aren't allowed to wrap, and if there isn't enough
 room for all the items, the items will overflow on the main-start edge,
 as illustrated in
-[Figure 11-17](#ch11.xhtml_justify_content_end){data-type="xref"}.
+[Figure 11-17](#ch11.xhtml_justify_content_end){data-type="xref"}.
 
 <figure>
 <div id="ch11.xhtml_justify_content_end" class="figure">
@@ -32122,7 +31434,7 @@ room for all the items and they aren't allowed to wrap, the items will
 overflow evenly on both the main-start and [main-end
 edges.]{.keep-together}
 
-[Figure 11-18](#ch11.xhtml_justify_content_center){data-type="xref"}
+[Figure 11-18](#ch11.xhtml_justify_content_center){data-type="xref"}
 illustrates these effects.
 
 <figure>
@@ -32161,7 +31473,7 @@ Setting `justify-content: space-between` puts the first flex item flush
 with main-start and the last flex item on the line flush with main-end,
 and then puts an equal amount of space around each flex item, until the
 flex line is filled (see
-[Figure 11-19](#ch11.xhtml_justify_content_space-between){data-type="xref"}).
+[Figure 11-19](#ch11.xhtml_justify_content_space-between){data-type="xref"}).
 If we have three flex items, the same amount of space will be between
 the first and second items as between the second and third, but there
 will be no extra empty space between the main-start and main-end edges
@@ -32189,7 +31501,7 @@ Setting `justify-content: space-around` evenly distributes the extra
 space on the line around each of the flex items, as if noncollapsing
 margins of equal size were around each element on the main-dimension
 sides
-([Figure 11-20](#ch11.xhtml_justify_content_space-around){data-type="xref"}).
+([Figure 11-20](#ch11.xhtml_justify_content_space-around){data-type="xref"}).
 Thus, there will be twice as much space between the first and second
 item as there is between main-start and the first item, and main-end and
 the last item. If there isn't enough room for all the items and they
@@ -32212,7 +31524,7 @@ Setting `justify-content: space-evenly` means the user agent counts the
 items, adds one, and then splits any extra space on the line by that
 many (i.e., if we have five items, the amount of space is split into six
 equal-size portions); see
-[Figure 11-21](#ch11.xhtml_justify_content_space-evenly){data-type="xref"}.
+[Figure 11-21](#ch11.xhtml_justify_content_space-evenly){data-type="xref"}.
 One portion of the space is placed before each item on the line, as if
 it were a noncollapsing margin, and the last portion is placed after the
 last item on the list. Thus, the same amount of space will appear
@@ -32257,7 +31569,7 @@ many cases) be consistent from one line to the next.
 ### justify-content example {#ch11.xhtml_sigil_toc_id_953}
 
 We took advantage of the default value of `justify-content` in
-[Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"},
+[Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"},
 creating a left-aligned navigation bar. By changing the default value to
 `justify-content: flex-end`, we can right-align the navigation bar in
 English:
@@ -32282,7 +31594,7 @@ main-start is on the left. For Hebrew, main-start is on the right. If
 `flex-end` is applied and the `flex-direction` is `row`, then the tabs
 go to the right side in English, and the left side in Hebrew, as shown
 in
-[Figure 11-22](#ch11.xhtml_right_and_left_aligned_navigation){data-type="xref"}.
+[Figure 11-22](#ch11.xhtml_right_and_left_aligned_navigation){data-type="xref"}.
 
 <figure>
 <div id="ch11.xhtml_right_and_left_aligned_navigation" class="figure">
@@ -32305,7 +31617,7 @@ the inline-start and inline-end don't, because the inline directions for
 the flex items remain the same even if their flex order changes.
 
 We could have centered that navigation, as shown in
-[Figure 11-23](#ch11.xhtml_changing-layout-one-prop){data-type="xref"}:
+[Figure 11-23](#ch11.xhtml_changing-layout-one-prop){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 nav {
@@ -32382,7 +31694,7 @@ alignment for individual flex items, as you'll see in ["The align-self
 property"](#ch11.xhtml_the-align-self-property){data-type="xref"}.
 :::
 
-In [Figure 11-24](#ch11.xhtml_vals-align-items){data-type="xref"}, note
+In [Figure 11-24](#ch11.xhtml_vals-align-items){data-type="xref"}, note
 how the flex items are arranged with respect to the cross-axis. (The
 cross-axis is the block axis for row-flowed flex containers, and the
 inline axis for column-flowed flex containers.)
@@ -32441,7 +31753,7 @@ item that has the greatest distance between its first baseline and its
 cross-start side will be flush against the cross-start edge of the line.
 The other flex items will be placed so that their first baselines line
 up with the first baseline of the flex item that's flush against the
-cross-start edge (and thus each other's first baselines). When
+cross-start edge (and thus each other's first baselines). When
 `align-items: last baseline;` is set, the inverse occurs. The flex item
 with the greatest distance between its last baseline and the cross-end
 side will be flush against the cross-end edge of the line. The other
@@ -32488,7 +31800,7 @@ play when we discuss the `baseline` value.)
 
 The effects of these margins on both the `stretch` and `center`
 alignments can be seen in
-[Figure 11-25](#ch11.xhtml_margins-and-align){data-type="xref"}.
+[Figure 11-25](#ch11.xhtml_margins-and-align){data-type="xref"}.
 
 <figure>
 <div id="ch11.xhtml_margins-and-align" class="figure">
@@ -32503,7 +31815,7 @@ The `stretch` value, as its name implies, stretches all "stretchable"
 flex items to be as tall or wide as the tallest or widest flex item on
 the line. A stretchable flex item is one that does not have a non-`auto`
 value set for any of the sizing properties along the cross-axis. In
-[Figure 11-25](#ch11.xhtml_margins-and-align){data-type="xref"}, that
+[Figure 11-25](#ch11.xhtml_margins-and-align){data-type="xref"}, that
 would be the `block-size`, `min-block-size`, `max-block-size`, `height`,
 `min-height`, and `max-height` properties. If all are set to `auto`, the
 flex item is stretchable. If not, it is not.
@@ -32514,7 +31826,7 @@ flush with the flex line's cross-end edge. The flex item with the
 largest cross-size will remain its default size, and the other flex
 items will grow to the size of that largest flex item.
 
-What [Figure 11-25](#ch11.xhtml_margins-and-align){data-type="xref"}
+What [Figure 11-25](#ch11.xhtml_margins-and-align){data-type="xref"}
 shows us is that it's the outer edge of the flex items' *margins* that
 will be flush with cross-start and cross-end, not their border edges.
 This is demonstrated by items C, D, H, and I, which appear smaller than
@@ -32563,7 +31875,7 @@ edge of the line, and all other flex items' baselines are lined up with
 the baseline of that flex item.
 
 To understand this, take a look at the first set of flex items in
-[Figure 11-26](#ch11.xhtml_align-items_baseline){data-type="xref"}, the
+[Figure 11-26](#ch11.xhtml_align-items_baseline){data-type="xref"}, the
 ones labeled `baseline` (and `first baseline`). For each flex line, the
 cross-start and -end edges are marked with solid red and blue lines,
 respectively. The baseline to which the items in each line are aligned
@@ -32607,7 +31919,7 @@ flex line.
 In many cases, `first baseline` will look like `start` (and its
 equivalents, such as `flex-start`), and `last baseline` will look like
 `end`. For example, had C lacked a top margin in
-[Figure 11-26](#ch11.xhtml_align-items_baseline){data-type="xref"}, all
+[Figure 11-26](#ch11.xhtml_align-items_baseline){data-type="xref"}, all
 the items in that first line would have been visibly flush against the
 top of the flex line, instead of pushed away from it. Anytime flex items
 have different margins, borders, padding, font sizes, or line heights on
@@ -32618,7 +31930,7 @@ between the results of `last baseline` and `end`.
 Any of the baseline values can become `start` when the baselines of the
 flex items are parallel to the cross-axis. For example, suppose we take
 the flex containers in
-[Figure 11-26](#ch11.xhtml_align-items_baseline){data-type="xref"} and
+[Figure 11-26](#ch11.xhtml_align-items_baseline){data-type="xref"} and
 change them to `flex-direction: column`. Now the cross-axis, like the
 baselines of the English text within, is horizontal. Since there's no
 way to create an offset from the cross-start edge of the columns that
@@ -32662,7 +31974,7 @@ browsers should default to `unsafe` behavior *unless* this would cause
 flex items to overflow the scrollable area of their nearest ancestor's
 scroll container, in which case they should align to the cross-axis edge
 farthest away from the edge they would otherwise overflow.
-[Figure 11-27](#ch11.xhtml_safe_unsafe_alignment){data-type="xref"}
+[Figure 11-27](#ch11.xhtml_safe_unsafe_alignment){data-type="xref"}
 shows some examples.
 
 ::: {.warning data-type="warning"}
@@ -32730,7 +32042,7 @@ container.
 The default value of `align-items` is `stretch`, but let's make that
 explicit in the following code, which will let us set different
 `align-self` values for the second flex item, as illustrated in
-[Figure 11-28](#ch11.xhtml_align_self_fig){data-type="xref"}:
+[Figure 11-28](#ch11.xhtml_align_self_fig){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .flex-container {align-items: stretch;}
@@ -32838,7 +32150,7 @@ margins:
 }
 ```
 
-[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}
+[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}
 demonstrates the possible values of the `align-content` property, as
 used in conjunction with that CSS. We've concentrated on the primary
 alignment values, and left out examples of things such as safe and
@@ -32848,7 +32160,7 @@ With a height of 14 ems, the flex container is taller than the default
 combined heights of the three flex lines. Given the larger text of some
 flex items and the various bits of padding and borders, each flex
 container in
-[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}
+[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}
 has approximately 3 ems of [leftover space.]{.keep-together}
 
 <figure>
@@ -32868,7 +32180,7 @@ height="100" /></span></a></h6>
 With the values `normal`, `stretch`, `center`, `start`, `flex-start`,
 `end`, and `flex-end`, the free space is distributed outside the flex
 lines, as illustrated in
-[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}.
+[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}.
 These act in the same ways as they do for `align-items`.
 []{#ch11.xhtml_idm45797052666048 primary="stretching"
 secondary="aligning content" data-type="indexterm"}With the value
@@ -32908,7 +32220,7 @@ same amount added to each.
 If there isn't enough room for all the lines, they will overflow at
 cross-start, cross-end, or both, depending on the value of the
 `align-content` property. This is shown in
-[Figure 11-30](#ch11.xhtml_align_content_overflowing){data-type="xref"},
+[Figure 11-30](#ch11.xhtml_align_content_overflowing){data-type="xref"},
 where the dotted box with a light-gray background represents a short
 flex container. (A little bit of inline padding was added to each flex
 container to make it more obvious where it starts and ends.)
@@ -32924,7 +32236,7 @@ alt="Appearance of align-content property when lines are overflowing the contain
 </figure>
 
 The only difference in the CSS between this and
-[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}
+[Figure 11-29](#ch11.xhtml_distribution_of_extra_space){data-type="xref"}
 is the height of the flex container. Here, the flex containers have been
 reduced to a height of 7 ems, so as to create flex containers not tall
 enough to encompass all their flex lines (which, as you may recall,
@@ -33014,7 +32326,7 @@ align and justify content by using a single shorthand property,
 separately.
 
 Two more `place-` shorthand properties are covered in
-[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}.[]{#ch11.xhtml_idm45797052469872
+[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}.[]{#ch11.xhtml_idm45797052469872
 primary="" startref="ix_align_flex_item"
 data-type="indexterm"}[]{#ch11.xhtml_idm45797052468896 primary=""
 startref="ix_flex_items_align" data-type="indexterm"}
@@ -33076,7 +32388,7 @@ a single length or percentage value.
 Suppose we have a set of flex items that will wrap to multiple flex
 lines, and we want to open a 15-pixel gap between the flex lines. Here's
 what that CSS would look like, illustrated in
-[Figure 11-31](#ch11.xhtml_row-gaps){data-type="xref"}:
+[Figure 11-31](#ch11.xhtml_row-gaps){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .gallery {display: flex; flex-wrap: wrap; row-gap: 15px;}
@@ -33114,7 +32426,7 @@ container edges, you would write something like this:
 In a like manner, we can open spaces between the flex items along the
 inline axis by using `column-gap`. We can modify the earlier example to
 push items apart as follows, with the result shown in
-[Figure 11-32](#ch11.xhtml_column-gaps){data-type="xref"}:
+[Figure 11-32](#ch11.xhtml_column-gaps){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .gallery {display: flex; flex-wrap: wrap; column-gap: 15px;}
@@ -33149,7 +32461,7 @@ Gaps are inserted between the outer margin edges of adjacent flex items,
 so if you add margins to your flex items, the actual visible space
 between two flex items will be the width of the gap plus the widths of
 the margins. Consider the following, which is illustrated in
-[Figure 11-33](#ch11.xhtml_column-gaps-plus-margins){data-type="xref"}:
+[Figure 11-33](#ch11.xhtml_column-gaps-plus-margins){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .gallery {display: flex; flex-wrap: wrap; column-gap: 15px;}
@@ -33181,7 +32493,7 @@ explicit block size, percentages are just a percentage of that block
 size. A `block-size` (which could also be set with `height` or `width`)
 of `25em` and a `row-gap` of `10%` means row gaps will be 2.5 ems wide.
 This same sort of thing can also happen if the block size happens to be
-larger than the sum total of the rows' block sizes.
+larger than the sum total of the rows' block sizes.
 
 But when the []{#ch11.xhtml_idm45797052238944
 primary="cyclic calculation" data-type="indexterm"}block size is solely
@@ -33203,7 +32515,7 @@ zero-width whenever a cyclic calculation would happen, and everyone
 moves on with their lives. In practice, this means that percentage
 values for row gaps are useful only in a narrow range of cases, whereas
 they can be more broadly useful for column gaps.
-[Figure 11-34](#ch11.xhtml_percentage-based-row-gaps){data-type="xref"}
+[Figure 11-34](#ch11.xhtml_percentage-based-row-gaps){data-type="xref"}
 shows examples of percentage row gaps.
 
 <figure>
@@ -33244,7 +32556,7 @@ You need to supply only one value to `gap`, in which case it will be
 used for both the row and column gaps. If you supply two values, the
 first will always be used for row gaps, and the second for column gaps.
 Thus you get the results shown in
-[Figure 11-35](#ch11.xhtml_using-the-gap-shorthand){data-type="xref"}
+[Figure 11-35](#ch11.xhtml_using-the-gap-shorthand){data-type="xref"}
 from the [following]{.keep-together} CSS:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -33312,7 +32624,7 @@ chapter, we create flex containers by adding `display: flex` or
 of those flex containers are called *flex items*---whether they're child
 elements, non-empty text nodes between child elements, or generated
 content. In
-[Figure 11-36](#ch11.xhtml_display_flex_containers_children){data-type="xref"},
+[Figure 11-36](#ch11.xhtml_display_flex_containers_children){data-type="xref"},
 each letter is enclosed in its own element, including the space between
 words, so that each letter and space becomes a flex item.
 
@@ -33473,7 +32785,7 @@ aside * {
 This markup is similar to the previous code example, except in this
 example we've added a link within the non-empty text node. In this case,
 we are creating five flex items illustrated in
-[Figure 11-37](#ch11.xhtml_display_flex_five_items){data-type="xref"}.
+[Figure 11-37](#ch11.xhtml_display_flex_five_items){data-type="xref"}.
 The comment and whitespace-only text nodes are ignored. The header, the
 image, the text node before the link, the link, and the text node after
 the link are all flex items.
@@ -33498,7 +32810,7 @@ primary="text nodes" secondary="in flex items"
 secondary-sortas="flex items" data-type="indexterm"}nodes containing
 "Some text" and "and more text" are wrapped in anonymous flex items,
 represented in
-[Figure 11-37](#ch11.xhtml_display_flex_five_items){data-type="xref"} by
+[Figure 11-37](#ch11.xhtml_display_flex_five_items){data-type="xref"} by
 the dashed boxes (the dashes having been added for illustrative
 purposes) with no background. The header, image, and link, being actual
 DOM nodes, can be styled directly with CSS, as you can see with the
@@ -33565,7 +32877,7 @@ its siblings.
 ::: {#ch11.xhtml_min-width .sect2}
 ## Minimum Widths {#ch11.xhtml_sigil_toc_id_992}
 
-In [Figure 11-38](#ch11.xhtml_three-vals-flex-wrap){data-type="xref"},
+In [Figure 11-38](#ch11.xhtml_three-vals-flex-wrap){data-type="xref"},
 you'll note that the []{#ch11.xhtml_ix_min_width_prop2
 primary="min-width property"
 data-type="indexterm"}[]{#ch11.xhtml_ix_flex_items_min_width
@@ -33597,7 +32909,7 @@ If you set `min-width` to a width narrower than the computed value of
 the `nowrap` example will shrink to be narrower than their actual
 content (in some cases). If the items are allowed to wrap, they will be
 as narrow as possible to fit their content, but no narrower.
-[Figure 11-39](#ch11.xhtml_three-vals-min-width-0){data-type="xref"}
+[Figure 11-39](#ch11.xhtml_three-vals-min-width-0){data-type="xref"}
 illustrates [both situations.]{.keep-together}
 
 <figure>
@@ -33787,7 +33099,7 @@ flex items, each set to `width: 100px`. A total of 300 pixels of space
 is taken up by the flex items, leaving 450 pixels of "leftover" or
 available space (since 750 -- 300 = 450). This is the first scenario
 shown in
-[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"}:
+[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"}:
 none of the flex items are permitted to grow.
 
 <figure>
@@ -33804,7 +33116,7 @@ height="100" /></span></a></h6>
 </figure>
 
 In the second scenario in
-[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"},
+[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"},
 only one of the flex items (the third) has been given a growth factor.
 The declaration we gave it is `flex-grow: 1`, but it could be any
 positive number the browser can understand. In this case, with two items
@@ -33838,7 +33150,7 @@ The fourth scenario has the same result, because the proportions are the
 same. Imagine for a moment that we alter the growth factors to be 0.5,
 1, and 1.5. Now the math works out such that the first flex item gets
 one-sixth of the available space, the second gets a third, and the third
-gets half. This results in the flex items' final widths being 175, 250,
+gets half. This results in the flex items' final widths being 175, 250,
 and 425 pixels, respectively. Had we declared growth factors of 0.1,
 0.1, and 0.3, or 25, 25, and 75, or really any combination of numbers
 with a 1:1:3 correspondence, the result would have been identical.
@@ -33866,7 +33178,7 @@ is coming soon!
 
 Now let's consider flex items with different `width` values as well as
 different growth factors. In
-[Figure 11-41](#ch11.xhtml_even-dist-avail-space){data-type="xref"}, in
+[Figure 11-41](#ch11.xhtml_even-dist-avail-space){data-type="xref"}, in
 the second example, we have flex items that are 100 pixels, 250 pixels,
 and 100 pixels wide, with growth factors of 1, 1, and 3, respectively,
 in a container that is 750 pixels wide. This means we have 300 pixels of
@@ -33921,7 +33233,7 @@ if neither `flex` nor `flex-grow` is declared, the growth factor
 defaults to `0`. Yes, really.
 
 Recall the second example in
-[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"},
+[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"},
 where the flex growth factors were 0, 0, and 1. Because we declared a
 value for `flex-grow` only, the []{#ch11.xhtml_ix_flex_basis_prop
 primary="flex-basis property" secondary="growth factors and"
@@ -33942,7 +33254,7 @@ primary="shrink factor, for flexbox layout" data-type="indexterm"}So
 that means the first two flex items had no growth factor, a shrink
 factor, and a flex basis of `auto`. Had we used `flex` in the examples
 in
-[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"}
+[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"}
 instead of ill-advisedly using `flex-grow`, the flex basis in each case
 would be set to `0%`, as if this had been done:
 
@@ -33968,9 +33280,9 @@ following CSS is identical to the preceding snippet:
 ```
 
 This would have the result shown in
-[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}. Compare
+[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}. Compare
 this to
-[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"}
+[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"}
 to see how things have changed (or not).
 
 You may notice something odd in the first two scenarios: the flex basis
@@ -33986,7 +33298,7 @@ property declaration explicitly sets or defaults the flex basis to `0%`
 and a flex item's growth factor is `0`, the length of the main-axis of
 the nongrowing flex items will shrink to the smallest length the content
 allows, or smaller. In
-[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}, that
+[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}, that
 minimum length is the width of the widest sequence of letters, "flex:"
 (including the colon).
 
@@ -34013,7 +33325,7 @@ If all items are allowed to grow, and the flex basis for each flex item
 is `0%`, *all* of the space, rather than just excess space, is
 distributed proportionally based on the growth factors. In the third
 example in
-[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}, two flex
+[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}, two flex
 items have growth factors of 1, and one flex item has a growth factor of
 3. We thus have a total of five growth factors:
 
@@ -34032,7 +33344,7 @@ the last flex item with a width of 450 pixels:
 -   3 × 150 px = 450 px
 
 Similarly, in the last example of
-[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}, with two
+[Figure 11-42](#ch11.xhtml_flex_basis_is_0){data-type="xref"}, with two
 flex items having growth factors of 0.5, and one flex item having a
 growth factor of 1.5, we have a total of 2.5 growth factors:
 
@@ -34055,7 +33367,7 @@ means the flex basis defaults to `auto`. In that case, only the extra
 space, not all the space, is distributed proportionally. When using
 `flex`, on the other hand, the flex basis is set to `0%`, so the flex
 items grow in proportion to the total space, not just the leftover
-space. [Figure 11-43](#ch11.xhtml_flex-grow-basis-0){data-type="xref"}
+space. [Figure 11-43](#ch11.xhtml_flex-grow-basis-0){data-type="xref"}
 illustrates the difference.
 
 <figure>
@@ -34135,11 +33447,11 @@ like, just as long as they're greater than 0.
 Basically, the shrink factor defines how "negative available space" is
 distributed when there isn't enough room for the flex items, and the
 flex container isn't allowed to otherwise grow or wrap. See
-[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}.
+[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}.
 
-[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"} is similar
+[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"} is similar
 to
-[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"},
+[Figure 11-40](#ch11.xhtml_variety_of_growth_factor_scenarios){data-type="xref"},
 except the flex items are set to `width: 300px` instead of 100 pixels.
 We still have a 750-pixel-wide flex container. The total width of the
 three items is 900 pixels, meaning the content starts out 150 pixels
@@ -34148,7 +33460,7 @@ shrink or wrap (see ["Wrapping Flex
 Lines"](#ch11.xhtml_the-flex-wrap-property){data-type="xref"}), they
 will burst out from the fixed-size flex container. This is demonstrated
 in the first example in
-[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}: those items
+[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}: those items
 will not shrink because they have a zero shrink factor. Instead, they
 overflow the flex container.
 
@@ -34166,7 +33478,7 @@ height="100" /></span></a></h6>
 </figure>
 
 In the second example in
-[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}, only the
+[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}, only the
 last flex item is set to be able to shrink. The last flex item is thus
 forced to do all the shrinking necessary to enable all the flex items to
 fit within the flex container. With 900 pixels of content needing to fit
@@ -34262,7 +33574,7 @@ second flex item, and three from the third) for 150 pixels of negative
 space, with each shrink factor being worth 37.5 pixels. The flex items
 will end up 300, 262.5, and 187.5 pixels, respectively, for a total of
 750 pixels, as shown here and illustrated in
-[Figure 11-45](#ch11.xhtml_flex-shrink-with-image){data-type="xref"}:
+[Figure 11-45](#ch11.xhtml_flex-shrink-with-image){data-type="xref"}:
 
 -   item1 = 300 px -- (0 × 37.5 px) = 300.0 px
 -   item2 = 300 px -- (1 × 37.5 px) = 262.5 px
@@ -34289,7 +33601,7 @@ would then be distributed among the four remaining factors, yielding
 If all three flex items contained nonwrappable text or media 300 pixels
 or wider, none of the three flex items would not shrink, appearing
 similar to the first example in
-[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}.
+[Figure 11-44](#ch11.xhtml_flex-shrink-0){data-type="xref"}.
 
 ::::: {.section pdf-bookmark="Proportional shrinkage based on width and shrink factor" data-type="sect3"}
 :::: {#ch11.xhtml_proportional-based-on-width-and-shrink-factor .sect3}
@@ -34301,7 +33613,7 @@ examples are fairly simple because all the flex items start with the
 same width. But what if the widths are different? What if the first and
 last flex items have a width of 250 pixels and the middle flex item has
 a width of 500 pixels, as shown in
-[Figure 11-46](#ch11.xhtml_flex-items-shrink-factor){data-type="xref"}?
+[Figure 11-46](#ch11.xhtml_flex-items-shrink-factor){data-type="xref"}?
 
 <figure>
 <div id="ch11.xhtml_flex-items-shrink-factor" class="figure">
@@ -34320,7 +33632,7 @@ height="100" /></span></a></h6>
 Flex items shrink proportionally relative to both the shrink factor
 *and* the flex item's width, with the width often being the width of the
 flex item's content with no wrapping. In
-[Figure 11-46](#ch11.xhtml_flex-items-shrink-factor){data-type="xref"},
+[Figure 11-46](#ch11.xhtml_flex-items-shrink-factor){data-type="xref"},
 we are trying to fit 1,000 pixels into a flex container that's 750
 pixels wide. We have an excess of 250 pixels to be removed from five
 shrink factors.
@@ -34375,7 +33687,7 @@ similar shrink factors, the content should wrap over a similar number of
 lines.
 
 In the three examples shown in
-[Figure 11-47](#ch11.xhtml_flex_items_shrink_proportionally){data-type="xref"},
+[Figure 11-47](#ch11.xhtml_flex_items_shrink_proportionally){data-type="xref"},
 the flex items do not have a declared width. Therefore, the width is
 based on the content, because `width` defaults to `auto`. The flex
 container has been made 520 pixels wide instead of our usual 750 pixels.
@@ -34459,7 +33771,7 @@ equal height---though, by doing this, the widths of those columns will
 not necessarily be uniform.
 
 In the second example in
-[Figure 11-47](#ch11.xhtml_flex_items_shrink_proportionally){data-type="xref"},
+[Figure 11-47](#ch11.xhtml_flex_items_shrink_proportionally){data-type="xref"},
 the flex items don't all have the same shrink factor. The first flex
 item will, proportionally, shrink half as much as the others. We start
 with the same widths: 280, 995, and 480 pixels, respectively, but their
@@ -34511,9 +33823,9 @@ data-type="indexterm"}flex items to shrink proportionally allows for
 responsive objects and layouts that can shrink proportionally without
 breaking. For example, you can create a three-column layout that smartly
 grows and shrinks without media queries, as shown on a wide screen in
-[Figure 11-48](#ch11.xhtml_set_diff_values){data-type="xref"} and narrow
+[Figure 11-48](#ch11.xhtml_set_diff_values){data-type="xref"} and narrow
 screen in
-[Figure 11-49](#ch11.xhtml_set_diff_values-2){data-type="xref"}:
+[Figure 11-49](#ch11.xhtml_set_diff_values-2){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 nav {
@@ -34624,7 +33936,7 @@ Flexbox can be useful for a one-dimensional page layout like the one
 shown in this section, with only three columns in a line. For anything
 more complex, or for a more powerful set of options, use grid layout.
 (See
-[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}.)[]{#ch11.xhtml_idm45797050849088
+[Chapter 12](../Text/ch12.xhtml#grid-layout){data-type="xref"}.)[]{#ch11.xhtml_idm45797050849088
 primary="" startref="ix_flex_shrink_prop"
 data-type="indexterm"}[]{#ch11.xhtml_idm45797050848112 primary=""
 startref="ix_shrink_factor_flex"
@@ -34715,7 +34027,7 @@ data-type="indexterm"}[]{#ch11.xhtml_ix_content_keys
 primary="content keywords" data-type="indexterm"}lengths and
 percentages, `flex-basis` supports the `min-content`, `max-content`,
 `fit-content`, and `content` keywords. We covered the first three in
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
 but `fit-content` deserves a revisit here, and `content` needs to be
 explored.
 
@@ -34726,7 +34038,7 @@ data-type="indexterm"}using `fit-content` as the value for `flex-basis`,
 the browser will do its best to balance all the flex items in a line so
 that they are similar in block size. Consider this code, which is
 illustrated in
-[Figure 11-50](#ch11.xhtml_flex-basis-fit-sizing){data-type="xref"}:
+[Figure 11-50](#ch11.xhtml_flex-basis-fit-sizing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .flex-item {flex-basis: 25%; width: auto;}
@@ -34768,7 +34080,7 @@ It's the equivalent of declaring `flex-basis: auto; inline-size: auto;`
 on a flex item.
 
 The value `content` has the effects shown in
-[Figure 11-51](#ch11.xhtml_content_basis_width){data-type="xref"}.
+[Figure 11-51](#ch11.xhtml_content_basis_width){data-type="xref"}.
 
 <figure>
 <div id="ch11.xhtml_content_basis_width" class="figure">
@@ -34805,20 +34117,20 @@ the flex items are defaulting to a shrink factor of 1, so the text in
 this example wraps because the flex items can shrink. Thus, while the
 width of the flex item is not the width of the content, the flex
 basis---the basis by which it will proportionally shrink---is the width
-of the [items' contents.]{.keep-together}
+of the [items' contents.]{.keep-together}
 
 The []{#ch11.xhtml_idm45797050758096 primary="flex-shrink property"
 secondary="max-content keyword"
 data-type="indexterm"}[]{#ch11.xhtml_idm45797050757088
 primary="max-content keyword" data-type="indexterm"}third example in
-[Figure 11-51](#ch11.xhtml_content_basis_width){data-type="xref"} is
+[Figure 11-51](#ch11.xhtml_content_basis_width){data-type="xref"} is
 also a good illustration of what would happen with the `max-content`
 keyword with `flex-shrink: 0`: the flex basis for each item will be the
 maximum size of its content. If flex shrinking is allowed, then the
 browser will start with the `max-content` for the basis of each item's
 flexing, and shrink them down from there. The difference between the two
 is captured in the following code and illustrated in
-[Figure 11-52](#ch11.xhtml_max_content_basis_width){data-type="xref"}:
+[Figure 11-52](#ch11.xhtml_max_content_basis_width){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #example1 {flex-basis: max-content; flex-shrink: 0;}
@@ -34846,7 +34158,7 @@ require wrapping the content to one more line than the other items.
 For a `min-content` flex []{#ch11.xhtml_idm45797050697200
 primary="min-content keyword" data-type="indexterm"}basis, the reverse
 happens. Consider the following, illustrated in
-[Figure 11-53](#ch11.xhtml_min_content_basis_width){data-type="xref"}:
+[Figure 11-53](#ch11.xhtml_min_content_basis_width){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #example1 {flex-basis: min-content; flex-grow: 0;}
@@ -34872,7 +34184,7 @@ widths are grown equally until they all fill out the flex container
 without overflowing it.
 
 In the browser used to create
-[Figure 11-53](#ch11.xhtml_min_content_basis_width){data-type="xref"},
+[Figure 11-53](#ch11.xhtml_min_content_basis_width){data-type="xref"},
 the widths of the flex items in the first example added up to 361.1
 pixels (rounded to the nearest tenth of a pixel), with 20 pixels of
 space between each flex item. This means from the left edge of the first
@@ -34913,7 +34225,7 @@ flex items (that is, there's no `inline-size`, `min-inline-size`,
 `width`, or `min-width` set on these flex items), and `flex-basis: auto`
 or `flex: 0 1 auto` is set, the flex items will be only as wide as they
 need to be for the content to fit, as seen in the first example in
-[Figure 11-54](#ch11.xhtml_when_flex_basis_set){data-type="xref"}. In
+[Figure 11-54](#ch11.xhtml_when_flex_basis_set){data-type="xref"}. In
 this case, they are the width of the text "flex-basis: auto," which is
 approximately 110 pixels. The flex items are their preflexed size, as if
 set to `display: inline-block`. In this example, they're grouped at
@@ -34921,7 +34233,7 @@ main-start because the `justify-content` property, the flex container's
 `justify-content` defaults to `flex-start`.
 
 In the second example in
-[Figure 11-54](#ch11.xhtml_when_flex_basis_set){data-type="xref"}, each
+[Figure 11-54](#ch11.xhtml_when_flex_basis_set){data-type="xref"}, each
 flex item has a flex basis of `auto` and an explicitly declared width.
 The main-axis size of the elements, had they not been turned into flex
 items, would be 100, 150, and 200 pixels, respectively. And so they are
@@ -34942,7 +34254,7 @@ height="100" /></span></a></h6>
 </figure>
 
 In the third example in
-[Figure 11-54](#ch11.xhtml_when_flex_basis_set){data-type="xref"}, each
+[Figure 11-54](#ch11.xhtml_when_flex_basis_set){data-type="xref"}, each
 of the flex items has a flex basis of `auto` and a very large explicitly
 declared width. The main-axis size of the elements, had they not been
 turned into flex items, would be 2,000, 3,000, and 4,000 pixels,
@@ -34971,7 +34283,7 @@ tertiary="default sizing" data-type="indexterm"}neither `flex-basis` nor
 item, as the default value is `auto`.
 
 In
-[Figure 11-55](#ch11.xhtml_when_no_flex_properties_are_set){data-type="xref"}:
+[Figure 11-55](#ch11.xhtml_when_no_flex_properties_are_set){data-type="xref"}:
 the flex basis values are defaulting to `auto`, the growth factor is
 defaulting to `0`, and the shrink factor of each item is defaulting to
 `1`. For each flex item, the flex basis is its individual `width` value.
@@ -35029,7 +34341,7 @@ height="100" /></span></a></h6>
 When we have both `flex-basis` and `width` (or `height`, for vertical
 main-axes) values, the basis trumps the width (or height). Let's add
 basis values to the first example from
-[Figure 11-55](#ch11.xhtml_when_no_flex_properties_are_set){data-type="xref"}.
+[Figure 11-55](#ch11.xhtml_when_no_flex_properties_are_set){data-type="xref"}.
 The flex items include the following CSS:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -35074,7 +34386,7 @@ data-type="indexterm"}values for `flex-basis` are calculated relative to
 the size of the main dimension of the flex container.
 
 We've already seen the first example in
-[Figure 11-57](#ch11.xhtml_percentage-val-flex-basis){data-type="xref"};
+[Figure 11-57](#ch11.xhtml_percentage-val-flex-basis){data-type="xref"};
 it's included here to recall that the width of the text "flex-basis:
 auto" in this case is approximately 110 pixels wide. In this case only,
 declaring `flex-basis: auto` looks the same as writing
@@ -35090,7 +34402,7 @@ flex-item {
 ```
 
 In the second example in
-[Figure 11-57](#ch11.xhtml_percentage-val-flex-basis){data-type="xref"},
+[Figure 11-57](#ch11.xhtml_percentage-val-flex-basis){data-type="xref"},
 the first two flex items have a flex basis of `auto` with a default
 `width` of `auto`, which is as if their flex basis were set to
 `content`. As we've noted previously, the `flex-basis` of the first two
@@ -35151,7 +34463,7 @@ flex items can't shrink to be as narrow as this value, they'll both have
 to absorb some of that negative space.
 
 In the third example in
-[Figure 11-57](#ch11.xhtml_percentage-val-flex-basis){data-type="xref"},
+[Figure 11-57](#ch11.xhtml_percentage-val-flex-basis){data-type="xref"},
 the `flex-basis: auto` item wraps over three lines. The CSS for this
 example is the equivalent of the following:
 
@@ -35224,7 +34536,7 @@ the remaining 30%, or 162 pixels. In this case, we expect widths to be
 378 pixels, 32.875 pixels, and 129.125 pixels. As the text "basis:" is
 wider than that---assume 42 pixels---we get 378 pixels, 42 pixels, and
 120 pixels.
-[Figure 11-58](#ch11.xhtml_flex-basis-rel-main-axis-size){data-type="xref"}
+[Figure 11-58](#ch11.xhtml_flex-basis-rel-main-axis-size){data-type="xref"}
 shows the result.
 
 <figure>
@@ -35277,7 +34589,7 @@ factors---its default original main-axis size as defined by `height`,
 `max-width`, `min-height`, and `max-height` do impact the flexed size.
 
 As shown in
-[Figure 11-59](#ch11.xhtml_flex-basis-auto-vs-0){data-type="xref"}, when
+[Figure 11-59](#ch11.xhtml_flex-basis-auto-vs-0){data-type="xref"}, when
 the basis is `auto`, only the extra space is divided up proportionally
 and added to each flex item set to grow. Again, assuming the width of
 the text "flex: *X X* auto" is 110 pixels, in the first example we have
@@ -35388,7 +34700,7 @@ flex: 0 1 auto;
 
 Declaring `flex: initial` sets a null growth factor, a shrink factor of
 `1`, and the flex basis values to `auto`. In
-[Figure 11-60](#ch11.xhtml_flex-shrink-flex-initial){data-type="xref"},
+[Figure 11-60](#ch11.xhtml_flex-shrink-flex-initial){data-type="xref"},
 we can see the effect of the `auto` flex basis values. In the first two
 examples, the basis of each flex item is `content`---with each flex item
 having the width of the single line of letters that makes up the
@@ -35449,7 +34761,7 @@ flex: auto;
 flex: 1 1 auto;
 ```
 
-[Figure 11-61](#ch11.xhtml_flex-auto-grow-shrink){data-type="xref"}
+[Figure 11-61](#ch11.xhtml_flex-auto-grow-shrink){data-type="xref"}
 shows a variety of scenarios using `auto` flexing.
 
 <figure>
@@ -35467,9 +34779,9 @@ height="100" /></span></a></h6>
 </figure>
 
 The first and third examples of
-[Figure 11-61](#ch11.xhtml_flex-auto-grow-shrink){data-type="xref"} are
+[Figure 11-61](#ch11.xhtml_flex-auto-grow-shrink){data-type="xref"} are
 identical to the examples in
-[Figure 11-60](#ch11.xhtml_flex-shrink-flex-initial){data-type="xref"},
+[Figure 11-60](#ch11.xhtml_flex-shrink-flex-initial){data-type="xref"},
 as the shrinking and basis values are the same. However, the second and
 fourth examples are different. This is because when `flex: auto` is set,
 the growth factor is `1`, and the flex items therefore can grow to
@@ -35489,7 +34801,7 @@ flex: none;
 flex: 0 0 auto;
 ```
 
-[Figure 11-62](#ch11.xhtml_flex-none-no-grow-shrink){data-type="xref"}
+[Figure 11-62](#ch11.xhtml_flex-none-no-grow-shrink){data-type="xref"}
 shows the effects of `none`.
 
 <figure>
@@ -35507,7 +34819,7 @@ height="100" /></span></a></h6>
 </figure>
 
 As demonstrated in the first and third examples of
-[Figure 11-62](#ch11.xhtml_flex-none-no-grow-shrink){data-type="xref"},
+[Figure 11-62](#ch11.xhtml_flex-none-no-grow-shrink){data-type="xref"},
 if there isn't enough space, the flex items overflow the flex container.
 This is different from `flex: initial` and `flex: auto`, which both set
 a positive shrink factor.
@@ -35543,7 +34855,7 @@ shrink factor is actually moot: the flex basis is set to `0`, so the
 flex item can grow only from that basis.
 
 In the first two examples in
-[Figure 11-63](#ch11.xhtml_flex-n-grow-shrink){data-type="xref"}, all
+[Figure 11-63](#ch11.xhtml_flex-n-grow-shrink){data-type="xref"}, all
 the flex items have a flex growth factor of `3`. The flex basis is `0`,
 so they don't "shrink"; they just grow equally from 0 pixels wide until
 the sum of their main-axis sizes to fill the container along the
@@ -35573,7 +34885,7 @@ be distributed proportionally to each flex item based on its growth
 factor.
 
 The last three examples of
-[Figure 11-63](#ch11.xhtml_flex-n-grow-shrink){data-type="xref"} declare
+[Figure 11-63](#ch11.xhtml_flex-n-grow-shrink){data-type="xref"} declare
 six flex items with `flex: 0`, `flex: 1`, `flex: 2`, `flex: 3`,
 `flex: 4`, and `flex: 5`, respectively. These are the growth factors for
 the flex items, with each having a shrink factor of `1` and a flex basis
@@ -35691,7 +35003,7 @@ li:nth-of-type(7) {
 In this scenario, we are explicitly setting the order for the sixth and
 seventh list items, while the other list items are defaulting to
 `order: 0`.
-[Figure 11-64](#ch11.xhtml_setting-order-to-any){data-type="xref"} shows
+[Figure 11-64](#ch11.xhtml_setting-order-to-any){data-type="xref"} shows
 the result.
 
 <figure>
@@ -35742,7 +35054,7 @@ li:nth-of-type(3n+1) {
 By setting the same `order` value to more than one flex item, the items
 will appear by ordinal group, and by source order within each individual
 ordinal group.
-[Figure 11-65](#ch11.xhtml_flex-items-appear-ordinal){data-type="xref"}
+[Figure 11-65](#ch11.xhtml_flex-items-appear-ordinal){data-type="xref"}
 shows the result.
 
 <figure>
@@ -35783,7 +35095,7 @@ they aren't.
 
 Changing the layout with the `order` property has no effect on the tab
 order of the page. If the numbers in
-[Figure 11-65](#ch11.xhtml_flex-items-appear-ordinal){data-type="xref"}
+[Figure 11-65](#ch11.xhtml_flex-items-appear-ordinal){data-type="xref"}
 were links, tabbing through the links would go through the links in the
 order of the source code, *not* in the order of the layout.
 
@@ -35792,9 +35104,9 @@ order of the source code, *not* in the order of the layout.
 ## Tabbed Navigation Revisited {#ch11.xhtml_sigil_toc_id_1059}
 
 Adding to our tabbed navigation bar example in
-[Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"},
+[Figure 11-2](#ch11.xhtml_simple_tabbed_navigation){data-type="xref"},
 we can make the currently active tab appear first, as
-[Figure 11-66](#ch11.xhtml_changing-order-tab){data-type="xref"} shows:
+[Figure 11-66](#ch11.xhtml_changing-order-tab){data-type="xref"} shows:
 
 ``` {code-language="css" data-type="programlisting"}
 nav {
@@ -35860,7 +35172,7 @@ area before the side columns for mobile devices and those using screen
 readers and other assistive technology, while creating the appearance of
 the common three-column layout: a center main content area, with site
 navigation on the left and a sidebar on the right, as shown way back in
-[Figure 11-48](#ch11.xhtml_set_diff_values){data-type="xref"}.
+[Figure 11-48](#ch11.xhtml_set_diff_values){data-type="xref"}.
 
 While you can put your footer before your header in your markup, and use
 `order` to reorder the page, this is an inappropriate use of the
@@ -35882,7 +35194,7 @@ content, shown here side by side to make comparing them easier:
 We've been marking up websites in the order we want them to appear, as
 shown on the right in the code example, which is the same code as in our
 three-column layout example
-([Figure 11-48](#ch11.xhtml_set_diff_values){data-type="xref"}).
+([Figure 11-48](#ch11.xhtml_set_diff_values){data-type="xref"}).
 
 It really would make more sense if we marked up the page as shown on the
 left, with the `<article>` content, which is the main content, first in
@@ -35973,7 +35285,7 @@ center. Designers bent other features to the purposes of layout, most
 notably `float` and `clear`, and generally hacked their way around that
 hole. Flexbox layout helped to fill it, but flexbox is really meant for
 specific use cases, like navigation bars (navbars), as shown in
-[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.
+[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.
 
 Grid layout, by contrast, is a *generalized* layout system. With its
 emphasis on rows and columns, it might at first feel like a return to
@@ -36035,7 +35347,7 @@ data-type="indexterm"}kinds of grids: *regular* grids and *inline*
 grids. These are created with special values for the `display` property:
 `grid` and `inline-grid`. The first generates a block-level box, and the
 second an inline-level box.
-[Figure 12-1](#ch12.xhtml_grids_and_inline_grids){data-type="xref"}
+[Figure 12-1](#ch12.xhtml_grids_and_inline_grids){data-type="xref"}
 illustrates the difference.
 
 <figure>
@@ -36063,7 +35375,7 @@ primary="grid layout" secondary="floated elements and"
 data-type="indexterm"}floated elements do not intrude into the grid
 container. What this means in practice is that a grid will not slide
 under a floated element, as a block container will. See
-[Figure 12-2](#ch12.xhtml_floats_interact_differently){data-type="xref"}
+[Figure 12-2](#ch12.xhtml_floats_interact_differently){data-type="xref"}
 for a demonstration of the difference.
 
 <figure>
@@ -36091,7 +35403,7 @@ descendants. For example, the first list item in an ordered list may
 have a top margin, but this margin will collapse with the list element's
 top margin. The top margin of a grid item will *never* collapse with the
 top margin of its grid container.
-[Figure 12-3](#ch12.xhtml_margin_collapsing){data-type="xref"}
+[Figure 12-3](#ch12.xhtml_margin_collapsing){data-type="xref"}
 [illustrates]{.keep-together} the difference.
 
 <figure>
@@ -36190,7 +35502,7 @@ grid-formatting context. This is usually a child element of a grid
 container, but it can also be the anonymous (that is, not contained
 within an element) bits of text that are part of an element's content.
 Consider the following, which has the result shown in
-[Figure 12-4](#ch12.xhtml_grid_items){data-type="xref"}:
+[Figure 12-4](#ch12.xhtml_grid_items){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #warning {display: grid;
@@ -36227,7 +35539,7 @@ If you're wondering about `grid-template-rows` and
 
 In the course of using those properties, you'll create or reference
 several core components of grid layout. These are summarized in
-[Figure 12-5](#ch12.xhtml_grid_components){data-type="xref"}.
+[Figure 12-5](#ch12.xhtml_grid_components){data-type="xref"}.
 
 The []{#ch12.xhtml_ix_grid_layout_lines primary="grid layout"
 secondary="grid lines" data-type="indexterm"}most fundamental unit is
@@ -36369,7 +35681,7 @@ First, []{#ch12.xhtml_idm45797049215440 primary="grid layout"
 secondary="grid lines" tertiary="naming" data-type="indexterm"}grid
 lines can always be referred to by number, but can also be explicitly
 named by the author. Take the grid shown in
-[Figure 12-6](#ch12.xhtml_grid_line_numbers_and_names){data-type="xref"},
+[Figure 12-6](#ch12.xhtml_grid_line_numbers_and_names){data-type="xref"},
 for example. From your CSS, you can use any of the numbers to refer to a
 grid line, or you can use the defined names, or you can mix them
 together. Thus, you could say that a grid item stretches from column
@@ -36391,7 +35703,7 @@ alt="image" />
 </figure>
 
 We used intentionally silly grid-line names in
-[Figure 12-6](#ch12.xhtml_grid_line_numbers_and_names){data-type="xref"}
+[Figure 12-6](#ch12.xhtml_grid_line_numbers_and_names){data-type="xref"}
 to illustrate that you can pick any name you like, as well as to avoid
 the implication that there are "default" names. If you'd seen `start`
 for the first line, you might have assumed that the first line is always
@@ -36442,7 +35754,7 @@ That will place a line 200 pixels from the start of the grid container
 (by default, the left side); a second grid line half the width of the
 grid container away from the first; and a third line 100 pixels away
 from the second. This is illustrated in
-[Figure 12-7](#ch12.xhtml_grid_line_placement){data-type="xref"}.
+[Figure 12-7](#ch12.xhtml_grid_line_placement){data-type="xref"}.
 
 <figure>
 <div id="ch12.xhtml_grid_line_placement" class="figure">
@@ -36471,7 +35783,7 @@ grid lines? Just place any grid-line name you want, and as many as you
 want, in the appropriate place in the value, surrounded by square
 brackets. That's all! Let's add some names to our previous example, with
 the result shown in
-[Figure 12-8](#ch12.xhtml_grid_name_placement){data-type="xref"}:
+[Figure 12-8](#ch12.xhtml_grid_name_placement){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -36495,7 +35807,7 @@ grid line to either side of a width value. Thus, for the three widths we
 have, four grid lines are actually created.
 
 Row grid lines are placed in exactly the same way as columns, as
-[Figure 12-9](#ch12.xhtml_creating_a_grid){data-type="xref"} shows:
+[Figure 12-9](#ch12.xhtml_creating_a_grid){data-type="xref"} shows:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -36530,7 +35842,7 @@ container will be, which won't always be the case.
 
 You might think we could just say `100%` and have it fill out the space,
 but that doesn't work, as
-[Figure 12-10](#ch12.xhtml_exceeding_the_grid_container){data-type="xref"}
+[Figure 12-10](#ch12.xhtml_exceeding_the_grid_container){data-type="xref"}
 illustrates: the `content` row track will be as tall as the grid
 container itself, thus pushing the `footer` row track out of the
 container altogether:
@@ -36576,7 +35888,7 @@ the browser to bring up the size until it's tall enough to fit the space
 left over from the `masthead` and `footer` tracks, and no more. It also
 allows the browser to make it shorter than that, as long as it's not
 shorter than `3em`, so this is not a guaranteed result.
-[Figure 12-11](#ch12.xhtml_adapting_to_the_grid_container){data-type="xref"}
+[Figure 12-11](#ch12.xhtml_adapting_to_the_grid_container){data-type="xref"}
 shows one possible outcome of this approach.
 
 <figure>
@@ -36668,7 +35980,7 @@ following:
 grid-template-columns: 25% 25% 25% 25%;
 ```
 
-[Figure 12-12](#ch12.xhtml_dividing_the_container){data-type="xref"}
+[Figure 12-12](#ch12.xhtml_dividing_the_container){data-type="xref"}
 shows the result of either.
 
 <figure class="bordernone">
@@ -36680,7 +35992,7 @@ alt="image" />
 </div>
 </figure>
 
-This works because all of the grid container was "leftover space," so
+This works because all of the grid container was "leftover space," so
 all of it is available to be divided up by the `fr` lengths. We'll get
 into how that plays out with nonflexible grid tracks in just a bit.
 
@@ -36735,7 +36047,7 @@ than just replacing percentages with something more intuitive.
 Fractional units really come into their own when we have some fixed
 tracks and some flexible space. Consider, for example, the following,
 which is illustrated in
-[Figure 12-13](#ch12.xhtml_giving_the_center_column){data-type="xref"}:
+[Figure 12-13](#ch12.xhtml_giving_the_center_column){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 grid-template-columns: 15em 1fr 10%;
@@ -36770,7 +36082,7 @@ width: 100em; grid-template-columns: 15em 4.5fr 3fr 10%;
 ```
 
 In this case, the columns will be sized as shown in
-[Figure 12-14](#ch12.xhtml_flexible_column_sizing){data-type="xref"}.
+[Figure 12-14](#ch12.xhtml_flexible_column_sizing){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_flexible_column_sizing" class="figure">
@@ -36827,7 +36139,7 @@ to `0`, like this:
 grid-template-columns: 15em 1fr minmax(0,500px) 10%;
 ```
 
-[Figure 12-15](#ch12.xhtml_minmaxed_column_sizing){data-type="xref"}
+[Figure 12-15](#ch12.xhtml_minmaxed_column_sizing){data-type="xref"}
 illustrates the narrowest grid width at which the third column can
 remain 500 pixels wide. Any narrower, and the `minmax`-ed column will be
 narrower than 500 pixels. Any wider, and the second column, the `fr`
@@ -36847,7 +36159,7 @@ If you look closely, you'll see the `1fr` label next to the boundary
 between the `15em` and `minmax(0,500px)` columns. That's there because
 the `1fr` is placed with its left edge on the second-column grid line,
 and has no width, because there is no space left to flex. Similarly, the
-`minmax` is placed on the third-column grid line. It's just that, in
+`minmax` is placed on the third-column grid line. It's just that, in
 this specific situation, the second- and third-column grid lines are in
 the same place (which is why the `1fr` column has zero width).
 
@@ -36894,7 +36206,7 @@ that take up fractions of the space available to them, or that occupy
 fixed amounts of space. But what if you want to line up a bunch of
 pieces of a page and can't guarantee how wide or tall they might get?
 This is where `min-content` and `max-content` come in. (See
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"}
 for a detailed explanation of these keywords.)
 
 What's so powerful about using these sizing keywords in CSS Grid is that
@@ -36903,7 +36215,7 @@ size a column to be `max-content`, the entire column track will be as
 wide as the widest content within it. This is easiest to illustrate with
 a grid of images (12, in this case) with the grid declared as follows
 and shown in
-[Figure 12-16](#ch12.xhtml_sizing_grid_tracks_by_content){data-type="xref"}:
+[Figure 12-16](#ch12.xhtml_sizing_grid_tracks_by_content){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #gallery {display: grid;
@@ -36931,7 +36243,7 @@ The advantage here is that this works for any sort of content, no matter
 what's in there. Say we add captions to the photos. All of the columns
 and rows will resize themselves as needed to handle both text and
 images, as shown in
-[Figure 12-17](#ch12.xhtml_sizing_grid_tracks_around_mixed_content){data-type="xref"}.
+[Figure 12-17](#ch12.xhtml_sizing_grid_tracks_around_mixed_content){data-type="xref"}.
 
 This isn't a []{#ch12.xhtml_idm45797048267408
 primary="max-content keyword" data-type="indexterm"}full-fledged
@@ -36960,7 +36272,7 @@ and captions would be laid out just the same. That's why things like
 following, where grids with and without `minmax()` appear side by side.
 In both cases, the grid container is represented by a shaded background
 (see
-[Figure 12-18](#ch12.xhtml_sizing_grid_tracks_minmax){data-type="xref"}):
+[Figure 12-18](#ch12.xhtml_sizing_grid_tracks_minmax){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 #g1 {display: grid;
@@ -37102,7 +36414,7 @@ That means `max-content` evaluates to `256ch`. This is well beyond the
 
 As further illustration, consider the results of the following, as shown
 in
-[Figure 12-19](#ch12.xhtml_sizing_grid_tracks_fit_content){data-type="xref"}:
+[Figure 12-19](#ch12.xhtml_sizing_grid_tracks_fit_content){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #thefollowing  {
@@ -37135,7 +36447,7 @@ the *minimum* of `500px` and `max-content` is determined. The text,
 rendered as a single line, would go on past `500px`, so the minimum is
 `500px`. Thus, the second column is now 500 pixels wide. This is
 depicted in
-[Figure 12-20](#ch12.xhtml_sizing_grid_tracks_fit_content_wide){data-type="xref"}.
+[Figure 12-20](#ch12.xhtml_sizing_grid_tracks_fit_content_wide){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_sizing_grid_tracks_fit_content_wide" class="figure">
@@ -37211,7 +36523,7 @@ together more than one sizing value. Suppose we want to define a column
 structure such that there's a `2em` track, then a `1fr` track, and then
 another `1fr` track---and, furthermore, we want to repeat that pattern
 three times. Here's how to do that, with the result shown in
-[Figure 12-21](#ch12.xhtml_repeating_a_track_pattern){data-type="xref"}:
+[Figure 12-21](#ch12.xhtml_repeating_a_track_pattern){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -37257,7 +36569,7 @@ grid line, a 250-pixel track, and then another named grid line. Then,
 after the four repetitions, a final 10-pixel column track. Yes, that
 means there will be four column grid lines named `col-start`, and
 another four named `col-end`, as shown in
-[Figure 12-22](#ch12.xhtml_repeated_columns_w_named_grid_lines){data-type="xref"}.
+[Figure 12-22](#ch12.xhtml_repeated_columns_w_named_grid_lines){data-type="xref"}.
 This is acceptable; grid-line names are not required to be unique.
 
 <figure>
@@ -37327,7 +36639,7 @@ grid-template-rows: [top] 5em [bottom top] 5em [top bottom] 5em [bottom];
 ```
 
 See
-[Figure 12-23](#ch12.xhtml_auto-fill-rows-three-heights){data-type="xref"}
+[Figure 12-23](#ch12.xhtml_auto-fill-rows-three-heights){data-type="xref"}
 for examples of the autofilled rows at three grid container heights.
 
 <figure>
@@ -37364,7 +36676,7 @@ data-type="indexterm"}might wish you could auto-repeat multiple track
 sizes in order to define gutters around your content columns. This is
 usually unnecessary because of the properties `row-gap` and `column-gap`
 and their shorthand `gap`, which are covered in
-[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"} but also
+[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"} but also
 apply in CSS Grid.
 :::
 
@@ -37394,7 +36706,7 @@ That works because the grid layout algorithm assigns space to the fixed
 tracks first, and then fills up whatever space is left with
 auto-repeated tracks. The end result is to have one or more autofilled
 2-em tracks, and then three 20-em tracks.
-[Figure 12-24](#ch12.xhtml_auto-fill-columns-with-fixed){data-type="xref"}
+[Figure 12-24](#ch12.xhtml_auto-fill-columns-with-fixed){data-type="xref"}
 shows two examples.
 
 <figure class="bordernone">
@@ -37431,7 +36743,7 @@ accordance with the values of `align-content` and `justify-content`
 (discussed in ["Setting Alignment in
 Grids"](#ch12.xhtml_aligning-and-grids){data-type="xref"}). A simple
 comparison of `auto-fill` and `auto-fit` is shown in
-[Figure 12-25](#ch12.xhtml_auto-fill-and-auto-fit){data-type="xref"},
+[Figure 12-25](#ch12.xhtml_auto-fill-and-auto-fit){data-type="xref"},
 where the numbers in the colored boxes indicate the grid-column number
 to which they've been attached.[]{#ch12.xhtml_idm45797047384736
 primary="" startref="ix_grid_temp_col_prop"
@@ -37497,7 +36809,7 @@ with the `grid-template-areas` property.
 ```
 We could go through a wordy description of how this works, but it's a
 lot more fun to just show it. The following rule has the result shown in
-[Figure 12-26](#ch12.xhtml_simple_set_of_grid_areas){data-type="xref"}:
+[Figure 12-26](#ch12.xhtml_simple_set_of_grid_areas){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -37530,7 +36842,7 @@ so:
 ```
 
 The grid layout is the same as that shown in
-[Figure 12-26](#ch12.xhtml_simple_set_of_grid_areas){data-type="xref"},
+[Figure 12-26](#ch12.xhtml_simple_set_of_grid_areas){data-type="xref"},
 though the name of each area would be different (e.g., `footer` instead
 of `f`).
 
@@ -37568,7 +36880,7 @@ identifier from another.
 If you look at these values closely, you may come to realize that each
 individual identifier represents a grid cell. Let's bring back our first
 example from this section, and consider the result shown in
-[Figure 12-27](#ch12.xhtml_grid_cells_with_ids){data-type="xref"}, which
+[Figure 12-27](#ch12.xhtml_grid_cells_with_ids){data-type="xref"}, which
 uses Firefox's Grid Inspector to label each cell:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -37590,7 +36902,7 @@ alt="image" />
 
 This []{#ch12.xhtml_idm45797047190608 primary="grid cells"
 data-type="indexterm"}is exactly the same layout result as in
-[Figure 12-26](#ch12.xhtml_simple_set_of_grid_areas){data-type="xref"},
+[Figure 12-26](#ch12.xhtml_simple_set_of_grid_areas){data-type="xref"},
 but here, we've shown how each grid identifier in the
 `grid-template-areas` value corresponds to a grid cell. Once all the
 cells are identified, the browser merges any adjacent cells with the
@@ -37617,7 +36929,7 @@ leave others unlabeled, you can use one or more `.` characters to fill
 in for those unnamed cells. Let's say you just want to define some
 header, footer, and sidebar areas, and leave the rest unnamed. That
 would look something like this, with the result shown in
-[Figure 12-28](#ch12.xhtml_grid_with_unnamed_cells){data-type="xref"}:
+[Figure 12-28](#ch12.xhtml_grid_with_unnamed_cells){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -37653,7 +36965,7 @@ identifiers...as are emoji!
 size the grid tracks created by these areas, we bring in our old friends
 `grid-template-columns` and `grid-template-rows`. Let's add both to the
 previous example, with the result shown in
-[Figure 12-29](#ch12.xhtml_named_areas_and_sized_tracks){data-type="xref"}:
+[Figure 12-29](#ch12.xhtml_named_areas_and_sized_tracks){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -37678,7 +36990,7 @@ Thus, the columns and rows created by naming the grid areas are given
 track sizes. If we give more track sizes than there are area tracks,
 that will add more tracks past the named areas. Therefore, the following
 CSS will lead to the result shown in
-[Figure 12-30](#ch12.xhtml_adding_more_tracks){data-type="xref"}:
+[Figure 12-30](#ch12.xhtml_adding_more_tracks){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -37710,7 +37022,7 @@ grid lines.
 
 Grid lines extend throughout the whole grid area, so a lot of these
 names are coincident.
-[Figure 12-31](#ch12.xhtml_implicit_grid_line_names_explicit){data-type="xref"}
+[Figure 12-31](#ch12.xhtml_implicit_grid_line_names_explicit){data-type="xref"}
 shows the naming of the lines created by the following template:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -37751,7 +37063,7 @@ grid-line names. Instead, they just keep piling up.
 Even more interesting, this implicit-name mechanism runs in reverse.
 Suppose you don't use `grid-template-areas` at all, but instead set up
 some named grid lines like so, as illustrated in
-[Figure 12-32](#ch12.xhtml_implicit_grid_area_names_explicit){data-type="xref"}:
+[Figure 12-32](#ch12.xhtml_implicit_grid_area_names_explicit){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
     grid-template-columns:
@@ -37868,7 +37180,7 @@ These properties let you say, "I want the edge of the element to be
 attached to grid line such-and-so." As with so much of CSS Grid, it's a
 lot easier to show than to describe, so ponder the following styles and
 their result (see
-[Figure 12-33](#ch12.xhtml_attaching_elements_to_grid_lines){data-type="xref"}):
+[Figure 12-33](#ch12.xhtml_attaching_elements_to_grid_lines){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 .grid {display: grid; width: 50em;
@@ -37952,7 +37264,7 @@ line and make the start line a `span` value, it will search toward the
 start of the grid.
 
 That means the following rules will have the result shown in
-[Figure 12-34](#ch12.xhtml_spanning_grid_lines){data-type="xref"} (the
+[Figure 12-34](#ch12.xhtml_spanning_grid_lines){data-type="xref"} (the
 column and row numbers were added for clarity):
 
 ``` {code-language="css" data-type="programlisting"}
@@ -37996,7 +37308,7 @@ can use numbers to identify which instance of the
 [grid-line]{.keep-together} name you're talking about. Thus, to start
 from the fourth instance of a row grid named `mast-slice`, you can say
 `mast-slice 4`. Take a look at the following, illustrated in
-[Figure 12-35](#ch12.xhtml_attaching_elements_to_named_grid_lines){data-type="xref"},
+[Figure 12-35](#ch12.xhtml_attaching_elements_to_named_grid_lines){data-type="xref"},
 for an idea of how this works:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -38047,7 +37359,7 @@ There's an alternative way to use names with named grid
 lines---specifically, the named grid lines that are implicitly created
 by grid areas. For example, consider the following styles, illustrated
 in
-[Figure 12-36](#ch12.xhtml_another_way_of_attaching){data-type="xref"}:
+[Figure 12-36](#ch12.xhtml_another_way_of_attaching){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 grid-template-areas:
@@ -38190,7 +37502,7 @@ and `footer-end` grid lines to its bottom and right.
 In that case, if you refer to those grid lines by the area's name, the
 element will still be placed properly. Thus, the following styles have
 the result shown in
-[Figure 12-37](#ch12.xhtml_attaching_to_implicit_grid_lines){data-type="xref"}:
+[Figure 12-37](#ch12.xhtml_attaching_to_implicit_grid_lines){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -38237,7 +37549,7 @@ Consider the following:
     grid-template-columns: 25% 75%;
 ```
 
-This explicitly sets grid lines named `footer` above the "footer" row
+This explicitly sets grid lines named `footer` above the "footer" row
 and below the "legal" row...and now there's trouble ahead. Suppose we
 add this:
 
@@ -38254,7 +37566,7 @@ implicit grid lines.
 For `grid-row`, everything starts out the same. The `footer` name
 becomes `footer / footer`, which is translated to
 `footer-start / footer-end`. But that means the `#footer` will only be
-as tall as the "footer" row. It will *not* stretch to the second
+as tall as the "footer" row. It will *not* stretch to the second
 explicitly named `footer` grid line below the "legal" row, because the
 translation of `footer` to `footer-end` (due to the match between the
 grid-line name and the grid-area name) takes precedence.
@@ -38311,7 +37623,7 @@ What happens is that another row line is created to handle the
 situation. This grid line, and the new row track it creates, are both
 part of the *implicit grid*. Here are a few examples of grid items that
 create implicit grid lines (and tracks) and how they're laid out (see
-[Figure 12-38](#ch12.xhtml_creating_implicit_grid_lines_and_tracks){data-type="xref"}):
+[Figure 12-38](#ch12.xhtml_creating_implicit_grid_lines_and_tracks){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 .box1 {grid-column: 1; grid-row: 1 / 4;}
@@ -38379,7 +37691,7 @@ the grid item in the implicit seventh column.
 
 Now let's take those principles and add named grid lines to the mix.
 Consider the following, illustrated in
-[Figure 12-39](#ch12.xhtml_named_implicit_grid_lines_and_tracks){data-type="xref"}:
+[Figure 12-39](#ch12.xhtml_named_implicit_grid_lines_and_tracks){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -38399,7 +37711,7 @@ an end line of `final`, but there is no line with that name. Thus the
 span-search goes to the end of the explicit grid and, having not found
 the name it's looking for, creates a new grid line, to which it attaches
 the name `final`. (In
-[Figure 12-39](#ch12.xhtml_named_implicit_grid_lines_and_tracks){data-type="xref"},
+[Figure 12-39](#ch12.xhtml_named_implicit_grid_lines_and_tracks){data-type="xref"},
 the implicitly created line names are italicized and faded out a bit.)
 
 <figure>
@@ -38525,7 +37837,7 @@ Let's start with a simple use of `grid-area`: assigning an element to a
 previously defined grid area. For this, we'll bring back our old friend
 `grid-template-areas`, put it together with `grid-area` and some markup,
 and see what magic results (as shown in
-[Figure 12-40](#ch12.xhtml_assigning_elements_to_grid_areas){data-type="xref"}):
+[Figure 12-40](#ch12.xhtml_assigning_elements_to_grid_areas){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -38568,7 +37880,7 @@ areas. Fair warning: it's likely to be confusing at first.
 
 Here's an example of a grid template that defines some grid lines, and
 some `grid-area` rules that reference the lines, as illustrated in
-[Figure 12-41](#ch12.xhtml_assigning_elements_to_grid_lines){data-type="xref"}:
+[Figure 12-41](#ch12.xhtml_assigning_elements_to_grid_lines){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -38650,7 +37962,7 @@ data-type="indexterm"}thing we've been very careful to do in our grid
 layouts thus far is to avoid overlap. Rather like positioning, it's
 absolutely (get it?) possible to make grid items overlap each other.
 Let's take a simple case, illustrated in
-[Figure 12-42](#ch12.xhtml_overlapping_grid_items){data-type="xref"}:
+[Figure 12-42](#ch12.xhtml_overlapping_grid_items){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -38682,7 +37994,7 @@ them to be shown one at a time by script or user interaction.
 
 Overlap isn't restricted to situations involving raw grid numbers. In
 the following case, the sidebar and the footer will overlap, as shown in
-[Figure 12-43](#ch12.xhtml_overlapping_sidebar_and_footer){data-type="xref"}.
+[Figure 12-43](#ch12.xhtml_overlapping_sidebar_and_footer){data-type="xref"}.
 (Assuming the footer comes later than the sidebar in the markup, then in
 the absence of other styles, the footer will be on top of the sidebar.)
 
@@ -38776,7 +38088,7 @@ To that markup, let's apply the following styles:
 
 Assuming a grid with a column line every 15 ems and a row line every 4
 ems, we get the result shown in
-[Figure 12-44](#ch12.xhtml_row-oriented_grid_flow){data-type="xref"}.
+[Figure 12-44](#ch12.xhtml_row-oriented_grid_flow){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_row-oriented_grid_flow" class="figure">
@@ -38791,7 +38103,7 @@ This probably seems pretty normal, the same sort of thing you'd get if
 you floated all the boxes, or if all of them were inline blocks. That
 familiarity is why `row` is the default value. Now, let's try switching
 the `grid-auto-flow` value to `column`, as shown in
-[Figure 12-45](#ch12.xhtml_column-oriented_grid_flow){data-type="xref"}:
+[Figure 12-45](#ch12.xhtml_column-oriented_grid_flow){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid; width: 45em; height: 8em;
@@ -38817,7 +38129,7 @@ sized. By default, they were resized to attach to the defined grid
 lines. This can be overridden by assigning explicit sizing to the
 elements. For example, if we make the list items 7 ems wide and 1.5 ems
 tall, we'll get the result shown in
-[Figure 12-46](#ch12.xhtml_explicitly_sized_grid_items){data-type="xref"}:
+[Figure 12-46](#ch12.xhtml_explicitly_sized_grid_items){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid; width: 45em; height: 8em;
@@ -38847,7 +38159,7 @@ elements into grid items. Let's say we want to put a bunch of images,
 each a different size, into a grid that's set up to have a column line
 every 50 horizontal pixels, and a row line every 50 vertical pixels.
 This grid is illustrated in
-[Figure 12-47](#ch12.xhtml_flowing_images_in_grids){data-type="xref"},
+[Figure 12-47](#ch12.xhtml_flowing_images_in_grids){data-type="xref"},
 along with the results of flowing a series of images into that grid by
 either row or column:
 
@@ -38883,7 +38195,7 @@ This can be managed with class names or other identifiers. We could
 class images as `tall` or `wide` (or both) and specify that they get
 more grid tracks. Here's some CSS to add to the previous example, with
 the result shown in
-[Figure 12-48](#ch12.xhtml_giving_images_more_track_space){data-type="xref"}:
+[Figure 12-48](#ch12.xhtml_giving_images_more_track_space){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img.wide {grid-column: auto / span 2;}
@@ -38906,7 +38218,7 @@ However, notice the gaps in this grid? That happens because the
 placement of some grid items across grid lines doesn't leave enough room
 for other items in the flow. To illustrate this, and the two flow
 patterns, more clearly, let's try an example with numbered boxes
-([Figure 12-49](#ch12.xhtml_illustrating_flow_patterns){data-type="xref"}).
+([Figure 12-49](#ch12.xhtml_illustrating_flow_patterns){data-type="xref"}).
 
 <figure class="bordernone">
 <div id="ch12.xhtml_illustrating_flow_patterns" class="figure">
@@ -38930,7 +38242,7 @@ item 10 didn't get filled, because there wasn't room for item 11. Item
 the row was reached.
 
 As shown by the second example in
-[Figure 12-49](#ch12.xhtml_illustrating_flow_patterns){data-type="xref"},
+[Figure 12-49](#ch12.xhtml_illustrating_flow_patterns){data-type="xref"},
 the same basic mechanisms hold true for column flow, except in this case
 you work from top to bottom. Thus, the cell below item 9 is empty
 because item 10 wouldn't fit there. Instead, item 10 went into the next
@@ -38952,7 +38264,7 @@ If you were just now wishing for a way to pack grid items as densely as
 possible, regardless of how that affected the ordering, good news: you
 can! Just add the keyword `dense` to your `grid-auto-flow` value, and
 that's exactly what will happen. We can see the result in
-[Figure 12-50](#ch12.xhtml_illustrating_dense_flow_patterns){data-type="xref"},
+[Figure 12-50](#ch12.xhtml_illustrating_dense_flow_patterns){data-type="xref"},
 which shows the results of `grid-auto-flow: row dense` and
 `grid-auto-flow: dense column` side by side.
 
@@ -39057,7 +38369,7 @@ at a reduced version of the grid-flow example from the previous section:
 we'll set up a 2 × 2 grid and try to put five items into it. In fact,
 let's do it twice: once with `grid-auto-rows` and once without, as
 illustrated in
-[Figure 12-51](#ch12.xhtml_grids_auto-row_sizing){data-type="xref"}:
+[Figure 12-51](#ch12.xhtml_grids_auto-row_sizing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .grid {display: grid;
@@ -39084,7 +38396,7 @@ alt="css5 1251" />
 
 If we flip things to a column-oriented flow, the same basic principles
 apply (see
-[Figure 12-52](#ch12.xhtml_grids_auto-column_sizing){data-type="xref"}):
+[Figure 12-52](#ch12.xhtml_grids_auto-column_sizing){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 .grid {display: grid; grid-auto-flow: column;
@@ -39114,7 +38426,7 @@ same size as the explicitly sized columns, in order to not have the last
 few grid items look weird. Let's bring back one of those figures, only
 this time the `grid-auto-rows` and `grid-auto-columns` styles will be
 removed. As shown in
-[Figure 12-53](#ch12.xhtml_auto-track_sizing_removed){data-type="xref"},
+[Figure 12-53](#ch12.xhtml_auto-track_sizing_removed){data-type="xref"},
 the last few items in each grid are shorter or narrower than the rest,
 because of the lack of auto-track
 sizing.[]{#ch12.xhtml_idm45797043645120 primary=""
@@ -39256,7 +38568,7 @@ grid:
 ```
 
 That creates the grid shown in
-[Figure 12-54](#ch12.xhtml_creating_grid_w_grid){data-type="xref"}, with
+[Figure 12-54](#ch12.xhtml_creating_grid_w_grid){data-type="xref"}, with
 the implicitly created named grid lines (e.g., `footer-start`), along
 with the explicitly named grid lines we wrote into the CSS.
 
@@ -39370,7 +38682,7 @@ main {grid-column: 2 / -2;}
 ```
 
 What we have so far is illustrated in
-[Figure 12-55](#ch12.xhtml_subgrid_simple_setup){data-type="xref"}, with
+[Figure 12-55](#ch12.xhtml_subgrid_simple_setup){data-type="xref"}, with
 dashed lines added to represent the grid-column tracks set for the
 `<body>` element, and some extra content that wasn't present in the
 initial markup code. (You'll see it in more detail soon.)
@@ -39429,7 +38741,7 @@ and span five column tracks, it starts on the body's second column line
 and spans five of the body's column lines. Similarly, the `<nav>`
 element is set to span seven tracks back from the second-to-last column
 line of the `<body>`.
-[Figure 12-56](#ch12.xhtml_subgrid_header){data-type="xref"} shows the
+[Figure 12-56](#ch12.xhtml_subgrid_header){data-type="xref"} shows the
 results, along with the self-alignment and text alignment of the `<nav>`
 element and some shaded backgrounds to clearly indicate where the
 header's pieces are being gridded.
@@ -39466,7 +38778,7 @@ Now the logo in the footer is placed right alongside the fifth column
 line, the `<nav>` starts from the column line at the center of the
 layout and spans over a few tracks, and the `<div>` containing the legal
 bits ends at the very last column line and spans back two tracks.
-[Figure 12-57](#ch12.xhtml_subgrid_footer){data-type="xref"} shows the
+[Figure 12-57](#ch12.xhtml_subgrid_footer){data-type="xref"} shows the
 result.
 
 <figure class="bordernone">
@@ -39515,7 +38827,7 @@ explicit grid row.
 So while the `<footer>` continues to subgrid the column template of the
 `body` element, it also defines its own private row template. Just two
 rows, in this case, but that's all we need.
-[Figure 12-58](#ch12.xhtml_subgrid_footer_own_rows){data-type="xref"}
+[Figure 12-58](#ch12.xhtml_subgrid_footer_own_rows){data-type="xref"}
 shows the result, with a dashed line added to show the boundary between
 the `<footer>`'s two rows.
 
@@ -39567,7 +38879,7 @@ column on either side.
 The contents within the `<main>` element are not participating in the
 `<body>` grid, because `<main>` isn't a subgrid. Well, not yet. Let's
 fix that by changing the rule to the following, with the result shown in
-[Figure 12-59](#ch12.xhtml_subgrid_main_placement){data-type="xref"}.
+[Figure 12-59](#ch12.xhtml_subgrid_main_placement){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_main_placement" class="figure">
@@ -39592,7 +38904,7 @@ Should it be `grid-column: 3` or `grid-column: 2`?
 The answer is `2`. When counting grid lines within a subgrid, you
 account for only those grid lines inside it. Thus, the following would
 have the result shown in
-[Figure 12-60](#ch12.xhtml_subgrid_main_column_count){data-type="xref"}:
+[Figure 12-60](#ch12.xhtml_subgrid_main_column_count){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .gallery {grid-column: 2 / -2;}
@@ -39617,7 +38929,7 @@ alt="css5 1260" />
 
 Instead, let's now suppose we add five more cards to the gallery, for a
 total of six, and we'll add some filler text rather than have each one
-just titled "Title" and so on. If we do that and don't change any of the
+just titled "Title" and so on. If we do that and don't change any of the
 CSS, we'll just have six `<div>`s stacked on top of each other, because
 while the gallery is stretched across the `<main>`'s subgrid, it isn't a
 subgrid (or even a not-subgrid), so its interior is a normal-flow
@@ -39634,7 +38946,7 @@ defines a not-subgridded column template, which is the `<body>` element,
 and thus the cards within the gallery will use the column template of
 the `<body>`. We want them to fill out the gallery, which has 12 tracks
 within it, so we'll have them each span 2 tracks, with the results shown
-in [Figure 12-61](#ch12.xhtml_subgrid_gallery_cards){data-type="xref"}:
+in [Figure 12-61](#ch12.xhtml_subgrid_gallery_cards){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .gallery > div {grid-column: span 2; padding: 0.5em;
@@ -39705,7 +39017,7 @@ titles:
 .gallery > div p {grid-row: desc;}
 ```
 
-[Figure 12-62](#ch12.xhtml_subgrid_gallery_card_rows){data-type="xref"}
+[Figure 12-62](#ch12.xhtml_subgrid_gallery_card_rows){data-type="xref"}
 shows the final result, with the titles vertically centered with respect
 to one another, the descriptive paragraphs all lined up along their top
 edges, and all the cards sharing the same height.
@@ -39724,7 +39036,7 @@ alt="css5 1262" />
 </div>
 </figure>
 
-We could also have made the cards' column template a subgrid, which
+We could also have made the cards' column template a subgrid, which
 would have meant they'd use the `<body>` element's column template,
 because the body is the nearest ancestor element with a column template
 that isn't a subgrid. In that case, the cards would use the gallery's
@@ -39785,7 +39097,7 @@ grid-template-rows: subgrid [pic] [title] [desc];
 
 Here's what that looks like in context with the rest of the CSS for
 these cards, which are laid out as shown in
-[Figure 12-63](#ch12.xhtml_gallery-cards-rows-repeat){data-type="xref"}:
+[Figure 12-63](#ch12.xhtml_gallery-cards-rows-repeat){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .gallery {display: grid;
@@ -39857,9 +39169,9 @@ the explore paragraph should start spanning at the same line. After
 another five no-name-assigned lines, we assign `explore-end` to a line,
 and that's it. Any lines that weren't addressed will be left alone.
 
-Now all we have to do is set the paragraphs' start and end column lines
+Now all we have to do is set the paragraphs' start and end column lines
 like so, and get the result shown in
-[Figure 12-64](#ch12.xhtml_subgrid_main_named_lines){data-type="xref"},
+[Figure 12-64](#ch12.xhtml_subgrid_main_named_lines){data-type="xref"},
 where the two cards on the second line of cards have been removed for
 clarity:
 
@@ -39914,7 +39226,7 @@ main {grid-column: 2 / -2;
 
 With this change, the `<main>` element is setting no row gaps but 2-em
 column gaps. This has the result shown in
-[Figure 12-65](#ch12.xhtml_subgrid_grid_gaps){data-type="xref"}.
+[Figure 12-65](#ch12.xhtml_subgrid_grid_gaps){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_subgrid_grid_gaps" class="figure">
@@ -39943,7 +39255,7 @@ startref="ix_grid_subgrid" data-type="indexterm"}
 
 If gaps aren't familiar to you, the properties `row-gap`, `column-gap`,
 and `gap` are covered in
-[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.[]{#ch12.xhtml_idm45797041468352
+[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.[]{#ch12.xhtml_idm45797041468352
 primary="" startref="ix_gaps_subgrid"
 data-type="indexterm"}[]{#ch12.xhtml_idm45797041467376 primary=""
 startref="ix_subgrid_gaps" data-type="indexterm"}
@@ -39976,7 +39288,7 @@ an element is attached to the grid by its margin edges. That means you
 can push the visible parts of the element inward from the grid area it
 occupies by setting positive margins---and pull it outward with negative
 margins. For example, these styles will have the result shown in
-[Figure 12-66](#ch12.xhtml_grid_items_with_margins){data-type="xref"}:
+[Figure 12-66](#ch12.xhtml_grid_items_with_margins){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -40047,7 +39359,7 @@ Now the element will add up 160 pixels for the right margin and content
 box, and then give the difference between that and the grid area's width
 to the left margin, since it's been explicitly set to `auto`. This
 results in
-[Figure 12-67](#ch12.xhtml_using_auto_margins_to_align_items){data-type="xref"},
+[Figure 12-67](#ch12.xhtml_using_auto_margins_to_align_items){data-type="xref"},
 with 10 pixels of margin on each side of the `exel` item, except the
 left margin, which is (as we just calculated) 40 pixels.
 
@@ -40066,7 +39378,7 @@ containing block, as long as you've given it an explicit `width`. Grid
 layout differs in that you can do the same thing on the vertical axis;
 that is, given an element with an absolute height, you can vertically
 center it by setting the top and bottom margins to `auto`.
-[Figure 12-68](#ch12.xhtml_various_auto-margin_alignments){data-type="xref"}
+[Figure 12-68](#ch12.xhtml_various_auto-margin_alignments){data-type="xref"}
 shows a variety of `auto` margin effects on images, which inherently
 have explicit heights and widths:
 
@@ -40115,7 +39427,7 @@ the containing block and positioning context for the grid, and so the
 grid item is positioned *within* that context. That means the offset
 properties (`top` et al.) are calculated in relation to the declared
 grid area. Thus, the previous CSS would have the result shown in
-[Figure 12-69](#ch12.xhtml_absolutely_positioning_a_grid_item){data-type="xref"},
+[Figure 12-69](#ch12.xhtml_absolutely_positioning_a_grid_item){data-type="xref"},
 with the lightly shaded area denoting grid area used as the positioning
 context, and the thick-bordered box denoting the absolutely positioned
 [grid item.]{.keep-together}
@@ -40148,7 +39460,7 @@ that corresponds to the padding edge of the grid container itself. This
 is true even if the explicit grid is smaller than the grid container, as
 can happen. To see this in action, we'll modify the previous example as
 follows, with the result shown in
-[Figure 12-70](#ch12.xhtml_auto_values_and_absolute_positioning){data-type="xref"}:
+[Figure 12-70](#ch12.xhtml_auto_values_and_absolute_positioning){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .exel {grid-row: 2 / auto; grid-column: 2 / auto;
@@ -40200,7 +39512,7 @@ If you have any []{#ch12.xhtml_ix_grid_align primary="grid layout"
 secondary="alignment" data-type="indexterm"}[]{#ch12.xhtml_ix_align_grid
 primary="alignment" secondary="grid items"
 data-type="indexterm"}familiarity with flexbox (see
-[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}), you're
+[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}), you're
 probably aware of the various alignment properties and their values.
 Those same properties are also available in grid layout and have very
 similar effects.
@@ -40208,7 +39520,7 @@ similar effects.
 First, a quick []{#ch12.xhtml_ix_inline_format_box_mod
 primary="inline formatting" secondary="box model and"
 data-type="indexterm"}refresher.
-[Table 12-1](#ch12.xhtml_grid_layout_properties){data-type="xref"}
+[Table 12-1](#ch12.xhtml_grid_layout_properties){data-type="xref"}
 summarizes the alignment properties that are available and what they
 affect. Note there are a few more than you might have expected from
 [flexbox.]{.keep-together}
@@ -40228,7 +39540,7 @@ affect. Note there are a few more than you might have expected from
   : [Table 12-1. ]{.label}Justify and align values
   {#grid_layout_properties}
 
-As [Table 12-1](#ch12.xhtml_grid_layout_properties){data-type="xref"}
+As [Table 12-1](#ch12.xhtml_grid_layout_properties){data-type="xref"}
 shows, the various `justify-*` properties change alignment along the
 inline axis---in English, this will be the horizontal direction. The
 difference is whether a property applies to a single grid item, all the
@@ -40249,7 +39561,7 @@ primary="justify-self property"
 data-type="indexterm"}[]{#ch12.xhtml_idm45797040996176
 primary="align-self property" data-type="indexterm"}while a second grid
 shows the effects of those same values when used by `align-self`. (See
-[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"}.)
+[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"}.)
 
 <figure class="bordernone">
 <div id="ch12.xhtml_self_alignment_in_the_inline_and_block_directions"
@@ -40262,7 +39574,7 @@ alt="image" />
 </figure>
 
 Each grid item in
-[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"}
+[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"}
 is shown with its grid area (the dashed line) and a label identifying
 the property value that's applied to it. Each deserves a bit of
 [commentary.]{.keep-together}
@@ -40281,7 +39593,7 @@ start or end edge of its grid area, which makes sense. Similarly,
 The `left` and `right` values cause the item to be aligned to the left
 or right edge of the grid area when the inline axis is horizontal, as
 shown in
-[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"}.
+[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"}.
 If the inline axis is vertical, as in `writing-mode: vertical-rl`, items
 are aligned along the inline axis as if the inline axis were still
 horizontal; thus, in a top-to-bottom inline axis, `left` will align to
@@ -40293,7 +39605,7 @@ primary="direction property" data-type="indexterm"}when `direction` is
 The `self-start` and `self-end` values are more interesting. The
 `self-start` option aligns a grid item with the grid-area edge that
 corresponds to the grid *item's* start edge. So in
-[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"},
+[Figure 12-71](#ch12.xhtml_self_alignment_in_the_inline_and_block_directions){data-type="xref"},
 the `self-start` and `self-end` boxes are set to `direction: rtl`. That
 sets them to use RTL language direction, meaning their start edges are
 their right edges, and their end edges their left. You can see in the
@@ -40357,7 +39669,7 @@ layout context, including grid layout.
 
 For a more detailed explanation of the values just discussed and how
 they cause items to interact, see
-[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.
+[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.
 :::
 
 The []{#ch12.xhtml_idm45797040867952 primary="place-self property"
@@ -40468,7 +39780,7 @@ individual grid items.
 As an example, you could set all of the grid items in a grid to be
 center-aligned within their grid areas as follows, with a result like
 that depicted in
-[Figure 12-72](#ch12.xhtml_centering_all_the_grid_items){data-type="xref"}:
+[Figure 12-72](#ch12.xhtml_centering_all_the_grid_items){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #grid {display: grid;
@@ -40486,7 +39798,7 @@ alt="image" />
 
 As you can see, that rule horizontally *and* vertically centers every
 grid item within its given grid area. Furthermore, it causes any grid
-item without an explicit width and height to "shrink-wrap" its content
+item without an explicit width and height to "shrink-wrap" its content
 rather than stretch out to fill its grid area, because of the way
 `center` is handled. If a grid item has an explicit inline or block
 size, those are honored instead of "shrink-wrapping" the content, and
@@ -40494,7 +39806,7 @@ the item is still centered within its grid area.
 
 For an overview of the effects of the various keyword values in the
 context of both `justify-items` and `align-items`, see
-[Figure 12-73](#ch12.xhtml_grid-alignment-justify-items-both){data-type="xref"};
+[Figure 12-73](#ch12.xhtml_grid-alignment-justify-items-both){data-type="xref"};
 the grid areas are represented with dashed lines, and the grid items are
 placed according to their alignment values.
 
@@ -40508,7 +39820,7 @@ alt="image" />
 </figure>
 
 Not illustrated in
-[Figure 12-73](#ch12.xhtml_grid-alignment-justify-items-both){data-type="xref"},
+[Figure 12-73](#ch12.xhtml_grid-alignment-justify-items-both){data-type="xref"},
 the `legacy` value is a new addition to grid alignment, and is
 essentially treated as `start`. (It exists to re-create the behaviors of
 HTML's ancient [`<CENTER>`]{.keep-together} element and `align`
@@ -40519,7 +39831,7 @@ attribute, neither of which is relevant in a grid context.)
 
 For an exploration of what `safe` and `unsafe` mean in terms of items
 overflowing their container, see
-[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.
+[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.
 :::
 
 The []{#ch12.xhtml_idm45797040629008 primary="place-items property"
@@ -40570,7 +39882,7 @@ justifying every grid item, it's possible to distribute the grid items,
 or even to justify or align the entire grid, using `align-content` and
 `justify-content`. A small set of distributive values is used for these
 properties.
-[Figure 12-74](#ch12.xhtml_distributing_grid_items_horizontally){data-type="xref"}
+[Figure 12-74](#ch12.xhtml_distributing_grid_items_horizontally){data-type="xref"}
 illustrates the effects of each value as applied to `justify-content`,
 with each grid sharing the following styles:
 
@@ -40606,7 +39918,7 @@ having individual grid items be left-, center-, or start-justified
 This []{#ch12.xhtml_idm45797040456288 primary="align-content property"
 data-type="indexterm"}works just as well in column tracks as it does in
 row tracks, as
-[Figure 12-75](#ch12.xhtml_distributing_grid_items_vertically){data-type="xref"}
+[Figure 12-75](#ch12.xhtml_distributing_grid_items_vertically){data-type="xref"}
 illustrates, as long as you switch to `align-content`. This time, the
 grids all share these styles:
 
@@ -40684,9 +39996,9 @@ margins are used to pull a grid item beyond the edges of its grid area,
 or because the grid areas of two different grid items share grid cells.
 By default, the grid items will visually overlap in document source
 order: grid items later in the document source will appear above (or "in
-front of") grid items earlier in the [document]{.keep-together} source.
+front of") grid items earlier in the [document]{.keep-together} source.
 Thus the following results in
-[Figure 12-76](#ch12.xhtml_grid_items_overlapping){data-type="xref"}
+[Figure 12-76](#ch12.xhtml_grid_items_overlapping){data-type="xref"}
 (assume the number in each class name represents the grid item's source
 order):
 
@@ -40715,7 +40027,7 @@ another on the z-axis, which is perpendicular to the display surface.
 Positive values are closer to you, and negative values further away. So
 to bring the second box to the "top," as it were, all you need is to
 give it a `z-index` value higher than any other (with the result shown
-in [Figure 12-77](#ch12.xhtml_elevating_a_grid_item){data-type="xref"}):
+in [Figure 12-77](#ch12.xhtml_elevating_a_grid_item){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 .box02 {z-index: 10;}
@@ -40741,18 +40053,18 @@ grid items within a grid track by giving them `order` values. This
 affects not only placement within the track, but also *paint order* if
 they should overlap. For example, we could change the previous example
 from `z-index` to `order`, as shown here, and get the same result shown
-in [Figure 12-77](#ch12.xhtml_elevating_a_grid_item){data-type="xref"}:
+in [Figure 12-77](#ch12.xhtml_elevating_a_grid_item){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .box02 {order: 10;}
 ```
 
-In this case, `box02` appears "on top of" the other grid items because
+In this case, `box02` appears "on top of" the other grid items because
 its order places it after the rest of them. Thus, it's drawn last.
 Similarly, if those grid items were all placed in sequence in a grid
 track, the `order` value for `box02` would put it at the end of the
 sequence. This is depicted in
-[Figure 12-78](#ch12.xhtml_changing_grid_item_order){data-type="xref"}.
+[Figure 12-78](#ch12.xhtml_changing_grid_item_order){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch12.xhtml_changing_grid_item_order" class="figure">
@@ -40786,7 +40098,7 @@ about whether it's the best solution.
 ###### Tip {#ch12.xhtml_sigil_toc_id_1196}
 
 For a formal definition of the `order` property, see
-[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.[]{#ch12.xhtml_idm45797040124896
+[Chapter 11](../Text/ch11.xhtml#flexbox){data-type="xref"}.[]{#ch12.xhtml_idm45797040124896
 primary="" startref="ix_grid_layer_order"
 data-type="indexterm"}[]{#ch12.xhtml_idm45797040124160 primary=""
 startref="ix_grid_order_layer"
@@ -40884,7 +40196,7 @@ CSS has []{#ch13.xhtml_idm45797040102128 primary="grid cells, tables"
 data-type="indexterm"}six basic rules for arranging tables. The basis of
 these rules is a *grid cell*, which is one area between the grid lines
 on which a table is drawn. Consider the two tables in
-[Figure 13-1](#ch13.xhtml_formatting-grid-cells-basis){data-type="xref"};
+[Figure 13-1](#ch13.xhtml_formatting-grid-cells-basis){data-type="xref"};
 their grid cells are indicated by the dashed lines.
 
 <figure>
@@ -40901,10 +40213,10 @@ secondary="table versus grid cells"
 data-type="indexterm"}[]{#ch13.xhtml_idm45797040096544
 primary="table cells versus grid cells" data-type="indexterm"}simple 2 ×
 2 table, such as the lefthand table shown in
-[Figure 13-1](#ch13.xhtml_formatting-grid-cells-basis){data-type="xref"},
+[Figure 13-1](#ch13.xhtml_formatting-grid-cells-basis){data-type="xref"},
 the grid cells correspond to the actual table cells. In a more
 complicated table, like the righthand table in
-[Figure 13-1](#ch13.xhtml_formatting-grid-cells-basis){data-type="xref"},
+[Figure 13-1](#ch13.xhtml_formatting-grid-cells-basis){data-type="xref"},
 some table cells will span multiple grid cells---but note that every
 table cell's edges are placed along a grid-cell edge.
 
@@ -41338,7 +40650,7 @@ cells:]{.keep-together}
 </table>
 ```
 
-[Figure 13-2](#ch13.xhtml_anon-obj-row){data-type="xref"} shows a visual
+[Figure 13-2](#ch13.xhtml_anon-obj-row){data-type="xref"} shows a visual
 representation of this process. The dotted line represents the inserted
 anonymous table row.
 
@@ -41568,7 +40880,7 @@ For the []{#ch13.xhtml_idm45797066431088 primary="table layout"
 secondary="layers in" data-type="indexterm"}assembly of a table's
 presentation, CSS defines six individual *layers* on which the various
 aspects of a table are placed.
-[Figure 13-3](#ch13.xhtml_layers-formatting-schematic){data-type="xref"}
+[Figure 13-3](#ch13.xhtml_layers-formatting-schematic){data-type="xref"}
 shows these layers.
 
 <figure>
@@ -41590,7 +40902,7 @@ which corresponds to the table cells, is drawn last.
 For the most part, this is a logical process; after all, if you declare
 a background color for table cells, you would want that drawn over the
 background for the table element. The most important point revealed by
-[Figure 13-3](#ch13.xhtml_layers-formatting-schematic){data-type="xref"}
+[Figure 13-3](#ch13.xhtml_layers-formatting-schematic){data-type="xref"}
 is that column styles come below row styles, so a row's background will
 overwrite a column's background.
 
@@ -41599,7 +40911,7 @@ transparent backgrounds. Thus, in the following markup, the table
 element's background will be visible "through" cells, rows, columns, and
 so forth that do not have a background of their own, as
 [illustrated]{.keep-together} in
-[Figure 13-4](#ch13.xhtml_layers-seeing-background){data-type="xref"}:
+[Figure 13-4](#ch13.xhtml_layers-seeing-background){data-type="xref"}:
 
 ``` {code-language="xml" data-type="programlisting"}
 <table style="background: #B84;">
@@ -41672,7 +40984,7 @@ caption can still inherit values from the table.
 
 A simple example should suffice to illustrate most of the important
 aspects of caption presentation. Consider the following, illustrated in
-[Figure 13-5](#ch13.xhtml_captions-styling){data-type="xref"}:
+[Figure 13-5](#ch13.xhtml_captions-styling){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 table {color: white; background: #840; margin: 0.5em 0;}
@@ -41769,7 +41081,7 @@ border model, every cell in the table is separated from the other cells
 by some distance, and the borders of cells do not collapse into one
 another. Thus, given the following styles and markup, you should get the
 result shown in
-[Figure 13-6](#ch13.xhtml_borders-separated){data-type="xref"}:
+[Figure 13-6](#ch13.xhtml_borders-separated){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 td {border: 3px double black; padding: 3px;}
@@ -41855,7 +41167,7 @@ vertical.
 The spacing values are also applied between the borders of cells along
 the outside of a table and the padding on the `table` element itself.
 Given the following styles, you would get a result like that shown in
-[Figure 13-7](#ch13.xhtml_border-spacing-cells-table){data-type="xref"}:
+[Figure 13-7](#ch13.xhtml_border-spacing-cells-table){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 table {border-collapse: separate; border-spacing: 5px 8px;
@@ -41864,7 +41176,7 @@ td { border: 1px solid gray;}
 td#squeeze {border-width: 5px;}
 ```
 
-[Figure 13-7](#ch13.xhtml_border-spacing-cells-table){data-type="xref"}
+[Figure 13-7](#ch13.xhtml_border-spacing-cells-table){data-type="xref"}
 displays a space 5 pixels wide between the borders of any two
 horizontally adjacent cells, and 17 pixels of space between the borders
 of the right- and leftmost cells and the right and left borders of the
@@ -41989,7 +41301,7 @@ sections.
 
 To better understand how the collapsed border model works, let's look at
 the layout of a single table row, as shown in
-[Figure 13-8](#ch13.xhtml_border-spacing-collapsed-row-layout){data-type="xref"}.
+[Figure 13-8](#ch13.xhtml_border-spacing-collapsed-row-layout){data-type="xref"}.
 
 The padding and content width of each cell is inside the borders, as
 expected. For the borders between cells, half of the border is to one
@@ -42091,7 +41403,7 @@ and which will not:
     the element.
 
 The following styles and markup, presented in
-[Figure 13-9](#ch13.xhtml_border-spacing-collapsed-unusual){data-type="xref"},
+[Figure 13-9](#ch13.xhtml_border-spacing-collapsed-unusual){data-type="xref"},
 help illustrate each of the [four rules:]{.keep-together}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -42288,7 +41600,7 @@ the cell contents are clipped, visible, or generate [a
 scrollbar.]{.keep-together}
 
 Let's consider the following styles and markup, which are illustrated in
-[Figure 13-10](#ch13.xhtml_table-layout-fixed){data-type="xref"}:
+[Figure 13-10](#ch13.xhtml_table-layout-fixed){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 table {table-layout: fixed; width: 400px;
@@ -42455,7 +41767,7 @@ Once the last step is completed, then---and only then---can the user
 agent actually lay out the table.
 
 The following styles and markup, presented in
-[Figure 13-11](#ch13.xhtml_table-layout-automatic){data-type="xref"},
+[Figure 13-11](#ch13.xhtml_table-layout-automatic){data-type="xref"},
 help illustrate how this [process works:]{.keep-together}
 
 ``` {code-language="css" data-type="programlisting"}
@@ -42555,7 +41867,7 @@ the second column will be 140.5 pixels wide, and the third column will
 be 87.8 pixels wide. These may be rounded by the user agent to whole
 numbers such as `141px` and `88px`, or not, depending on the exact
 rendering method used. (These are the numbers used in
-[Figure 13-11](#ch13.xhtml_table-layout-automatic){data-type="xref"}.)
+[Figure 13-11](#ch13.xhtml_table-layout-automatic){data-type="xref"}.)
 
 Note that user agents are not required to actually use the maximum
 value; they may choose another course of action.
@@ -42698,7 +42010,7 @@ a table cell. To summarize the three simplest cases:
     aligned with the middle of all the rows it spans.
 
 These are illustrated in
-[Figure 13-12](#ch13.xhtml_alignment-vertical){data-type="xref"}, which
+[Figure 13-12](#ch13.xhtml_alignment-vertical){data-type="xref"}, which
 uses the following styles and markup:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -42740,7 +42052,7 @@ alt="css5 1312" />
 In each case, the alignment is carried out by automatically increasing
 the padding of the cell itself to achieve the desired effect. In the
 first cell in
-[Figure 13-12](#ch13.xhtml_alignment-vertical){data-type="xref"}, the
+[Figure 13-12](#ch13.xhtml_alignment-vertical){data-type="xref"}, the
 bottom padding of the cell has been changed to equal the difference
 between the height of the cell's box and the height of the content
 within the cell. For the second cell, the top and bottom padding of the
@@ -42759,7 +42071,7 @@ more complicated than the first three:
     baseline of the first row it spans.
 
 It's easiest to provide an illustration
-([Figure 13-13](#ch13.xhtml_alignment-baseline){data-type="xref"}) and
+([Figure 13-13](#ch13.xhtml_alignment-baseline){data-type="xref"}) and
 then discuss what's [happening.]{.keep-together}
 
 <figure class="bordernone">
@@ -42773,7 +42085,7 @@ alt="image" />
 
 A row's baseline is defined by the lowest initial cell baseline (that
 is, the baseline of the first line of text) out of all its cells. Thus,
-in [Figure 13-13](#ch13.xhtml_alignment-baseline){data-type="xref"}, the
+in [Figure 13-13](#ch13.xhtml_alignment-baseline){data-type="xref"}, the
 row's baseline is defined by the third cell, which has the lowest
 initial baseline. The first two cells then have the baseline of their
 first line of text aligned with the row's baseline.
@@ -43014,7 +42326,7 @@ some form-input controls.
 
 Using nothing more than these generic families, you can create a fairly
 sophisticated stylesheet. The following rule set is illustrated in
-[Figure 14-1](#ch14.xhtml_various_font_families){data-type="xref"}:
+[Figure 14-1](#ch14.xhtml_various_font_families){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {font-family: serif;}
@@ -43256,7 +42568,7 @@ and very much like properties, they take the format
 *`descriptor`*`: `*`value`*`;`. In fact, most of the descriptor names
 refer directly to property names, as will be examined throughout the
 rest of the chapter.
-[Table 14-1](#ch14.xhtml_font_descriptors){data-type="xref"} lists the
+[Table 14-1](#ch14.xhtml_font_descriptors){data-type="xref"} lists the
 possible descriptors, both required and optional.
 
   Descriptor                  Default value   Description
@@ -43287,7 +42599,7 @@ primary="font-family descriptor, @font-face"
 data-type="indexterm"}[]{#ch14.xhtml_ix_font_face_fam_desc
 primary="@font-face rule" primary-sortas="font-face rule"
 secondary="font-family descriptor" data-type="indexterm"}noted in
-[Table 14-1](#ch14.xhtml_font_descriptors){data-type="xref"}, two
+[Table 14-1](#ch14.xhtml_font_descriptors){data-type="xref"}, two
 descriptors are required: `font-family` and `src`.
 
 ```{=html}
@@ -43405,7 +42717,7 @@ match the `font-family` descriptor.
 As long as the font has cleanly downloaded and is in a format the user
 agent can handle, it will be used in the manner you direct, as
 illustrated in
-[Figure 14-2](#ch14.xhtml_using_a_downloaded_font){data-type="xref"}.
+[Figure 14-2](#ch14.xhtml_using_a_downloaded_font){data-type="xref"}.
 
 <figure>
 <div id="ch14.xhtml_using_a_downloaded_font" class="figure">
@@ -43467,7 +42779,7 @@ that might not have a common filename extension:
 }
 ```
 
-[Table 14-2](#ch14.xhtml_recognized_font_format_values){data-type="xref"}
+[Table 14-2](#ch14.xhtml_recognized_font_format_values){data-type="xref"}
 lists all of the allowed format values (as of late 2022).
 
   Value                 Format    Full name
@@ -43501,7 +42813,7 @@ font version of Switzera might look something like this:
 }
 ```
 
-[Table 14-3](#ch14.xhtml_recognized_font_tech_values){data-type="xref"}
+[Table 14-3](#ch14.xhtml_recognized_font_tech_values){data-type="xref"}
 lists all of the recognized font-technology values (as of late 2022).
 
   Value              Description
@@ -43909,7 +43221,7 @@ infinite, the failure period is never entered.
 The values of the `font-display` descriptor match these periods of the
 timeline, and their effect is to emphasize one part of the timeline at
 the expense of the others. The effects are summarized in
-[Table 14-4](#ch14.xhtml_font-display-values){data-type="xref"}.
+[Table 14-4](#ch14.xhtml_font-display-values){data-type="xref"}.
 
   Value                                                                                        Block period^[a](../Text/ch14.xhtml#fn-fdv-1){#ch14.xhtml_fn-fdv-1-marker data-type="noteref"}^   Swap period^[^1]^   Failure period^[^2]^
   -------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ------------------- ----------------------
@@ -44071,7 +43383,7 @@ How about normal-weight, italic, condensed text?
 We could keep this up for quite a while, but let's stop there. If we
 take all those rules and strip out anything with a `normal` value, we
 end up with the following result, illustrated in
-[Figure 14-3](#ch14.xhtml_employing_a_variety_of_faces){data-type="xref"}:
+[Figure 14-3](#ch14.xhtml_employing_a_variety_of_faces){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @font-face {
@@ -44209,7 +43521,7 @@ Light, and SwitzeraADF Regular. All of these use the same basic font
 shapes, but each has a different weight.
 
 If the specified weight doesn't exist, a nearby weight is used.
-[Table 14-5](#ch14.xhtml_weight_mappings){data-type="xref"} lists the
+[Table 14-5](#ch14.xhtml_weight_mappings){data-type="xref"} lists the
 numbers used for each of the commonly accepted font weight labels, as
 defined in the `"wght"` variation axis. If a font has only two weights
 corresponding to `400` and `700` (normal and bold), any number value for
@@ -44333,7 +43645,7 @@ and `bold` are assigned to the numbers `400` and `700`, respectively.
 In our second example, consider the font family SwitzeraADF.
 Hypothetically, its variants might be assigned numeric values for
 `font-weight`, as shown in
-[Table 14-6](#ch14.xhtml_hypothetical_weight_assignments_for_a_sp){data-type="xref"}.
+[Table 14-6](#ch14.xhtml_hypothetical_weight_assignments_for_a_sp){data-type="xref"}.
 
   Font face                Assigned keyword   Assigned number(s)
   ------------------------ ------------------ ---------------------
@@ -44366,7 +43678,7 @@ p.one {font-weight: bold;}
 ```
 
 then all of its children will inherit that boldness, as we see in
-[Figure 14-4](#ch14.xhtml_inherited_font-weight){data-type="xref"}.
+[Figure 14-4](#ch14.xhtml_inherited_font-weight){data-type="xref"}.
 
 <figure>
 <div id="ch14.xhtml_inherited_font-weight" class="figure">
@@ -44387,7 +43699,7 @@ If you set an element to have a weight of `bolder` or `lighter`, the
 user agent first must determine what `font-weight` value was inherited
 from the parent element. Once it has that number (say, `400`), it then
 changes the value as shown in
-[Table 14-7](#ch14.xhtml_bolder_and_lighter_weight_mappings){data-type="xref"}.
+[Table 14-7](#ch14.xhtml_bolder_and_lighter_weight_mappings){data-type="xref"}.
 
   Inherited value      `bolder`    `lighter`
   -------------------- ----------- -----------
@@ -44402,7 +43714,7 @@ changes the value as shown in
   {#bolder_and_lighter_weight_mappings}
 
 Thus, you might encounter the following situations, illustrated in
-[Figure 14-5](#ch14.xhtml_text_trying_to_be_bolder){data-type="xref"}:
+[Figure 14-5](#ch14.xhtml_text_trying_to_be_bolder){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {font-weight: normal;}
@@ -44484,7 +43796,7 @@ For example, the following rules explicitly assign five faces to six
 
 With these faces assigned, the author now has multiple weighting levels
 available for their use, as illustrated in
-[Figure 14-6](#ch14.xhtml_using_declared_font-weight_faces){data-type="xref"}:
+[Figure 14-6](#ch14.xhtml_using_declared_font-weight_faces){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1, h2, h3, h4 {font-family: SwitzeraADF, Helvetica, sans-serif;}
@@ -44576,7 +43888,7 @@ be this size. It is quite possible for fonts to have characters that are
 taller than the default distance between baselines. For that matter, a
 font might be defined such that all of its characters are smaller than
 its em square, as many fonts are.
-[Figure 14-7](#ch14.xhtml_font_characters_and_em_squares){data-type="xref"}
+[Figure 14-7](#ch14.xhtml_font_characters_and_em_squares){data-type="xref"}
 shows some hypothetical examples.
 
 <figure>
@@ -44601,7 +43913,7 @@ property has eight absolute-size values: `xx-small`, `x-small`, `small`,
 `medium`, `large`, `x-large`, `xx-large`, and the relatively new
 `xxx-large`. These are not defined precisely but instead are defined
 relative to each other, as
-[Figure 14-8](#ch14.xhtml_absolute_font_sizes){data-type="xref"}
+[Figure 14-8](#ch14.xhtml_absolute_font_sizes){data-type="xref"}
 demonstrates:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -44641,7 +43953,7 @@ primary="CSS Fonts Level 4 specification" data-type="indexterm"}CSS
 Fonts Level 4 specification doesn't have a one-size-fits-all scaling
 factor. Rather, each absolute-size keyword value has a size-specific
 scaling factor based on the value of `medium` (see
-[Table 14-8](#ch14.xhtml_size_mappings){data-type="xref"}). The `small`
+[Table 14-8](#ch14.xhtml_size_mappings){data-type="xref"}). The `small`
 value is listed as eight-ninths the size of `medium`, while `xx-small`
 is three-fifths. In any case, the scaling factors are guidelines, and
 user agents are free to alter them for any reason.
@@ -44723,7 +44035,7 @@ em {font-size: larger;}
 ```
 
 As you can see in
-[Figure 14-9](#ch14.xhtml_relative_font_sizing_at_the_edges_of_the){data-type="xref"},
+[Figure 14-9](#ch14.xhtml_relative_font_sizing_at_the_edges_of_the){data-type="xref"},
 the emphasized text in the `<h1>` element is slightly larger than
 `xxx-large`. The amount of scaling is left up to the user agent, with a
 scaling factor in the range of 1.2 to 1.5 being preferred, but not
@@ -44773,7 +44085,7 @@ of whatever size is inherited from an element's parent. Unlike the size
 keywords previously discussed, percentages permit much finer control
 over the computed font size. Consider the following example, illustrated
 in
-[Figure 14-10](#ch14.xhtml_throwing_percentages_into_the_mix){data-type="xref"}:
+[Figure 14-10](#ch14.xhtml_throwing_percentages_into_the_mix){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {font-size: 15px;}
@@ -44825,7 +44137,7 @@ p.two {font-size: 1.66em;}
 
 As with the relative-size keywords, percentages are effectively
 cumulative. Thus, the following markup is displayed as shown in
-[Figure 14-11](#ch14.xhtml_the_issues_of_inheritance){data-type="xref"}:
+[Figure 14-11](#ch14.xhtml_the_issues_of_inheritance){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {font-size: 12px;}
@@ -44850,7 +44162,7 @@ alt="css5 1411" />
 </figure>
 
 The size value for the `<strong>` element shown in
-[Figure 14-11](#ch14.xhtml_the_issues_of_inheritance){data-type="xref"}
+[Figure 14-11](#ch14.xhtml_the_issues_of_inheritance){data-type="xref"}
 is computed as follows:
 
 -   12 px × 120% = 14.4 px + 14.4 px × 135% = 19.44 px
@@ -44968,7 +44280,7 @@ em-square height.
 
 A good example is to compare the common fonts Verdana and Times.
 Consider
-[Figure 14-12](#ch14.xhtml_comparing_verdana_and_times){data-type="xref"}
+[Figure 14-12](#ch14.xhtml_comparing_verdana_and_times){data-type="xref"}
 and the following markup, which shows both fonts at a `font-size` of
 `10px`:
 
@@ -45006,7 +44318,7 @@ So, when Times is used instead of Verdana, the adjustment is as follows:
 -   `10px` × (`0.58` ÷ `0.46`) = `12.6px`
 
 This leads to the result shown in
-[Figure 14-13](#ch14.xhtml_adjusting_times){data-type="xref"}:
+[Figure 14-13](#ch14.xhtml_adjusting_times){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {font: 10px Verdana, sans-serif; font-size-adjust: ex-height 0.58;}
@@ -45037,7 +44349,7 @@ effect even if you don't know the actual aspect value of your
 first-choice font. For example, assuming that the user agent can
 determine that the aspect value of Verdana is 0.58, the following will
 have the same result as that shown in
-[Figure 14-13](#ch14.xhtml_adjusting_times){data-type="xref"}:
+[Figure 14-13](#ch14.xhtml_adjusting_times){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {font: 10px Verdana, sans-serif; font-size-adjust: auto;}
@@ -45195,7 +44507,7 @@ negative values are slanted toward the beginning (inline-start) of the
 line.
 
 To visualize the difference between italic and oblique text, refer to
-[Figure 14-14](#ch14.xhtml_italic_and_oblique_text_in_detail){data-type="xref"}.
+[Figure 14-14](#ch14.xhtml_italic_and_oblique_text_in_detail){data-type="xref"}.
 
 <figure>
 <div id="ch14.xhtml_italic_and_oblique_text_in_detail" class="figure">
@@ -45234,7 +44546,7 @@ b {font-style: oblique -8deg;}
 ```
 
 If you look closely at
-[Figure 14-15](#ch14.xhtml_more_font_styles){data-type="xref"}, you'll
+[Figure 14-15](#ch14.xhtml_more_font_styles){data-type="xref"}, you'll
 see no apparent difference between the `<em>` and `<i>` elements. In
 practice, not every font is so sophisticated as to have both an italic
 face and an oblique face, and even fewer web browsers are sophisticated
@@ -45288,7 +44600,7 @@ Switzera to the various kinds of `font-style` property values. Given the
 following, the result would be to render `<h2>` and `<h3>` elements
 using SwitzeraADF-Italic instead of SwitzeraADF-Regular, as illustrated
 in
-[Figure 14-16](#ch14.xhtml_using_declared_font-style_faces){data-type="xref"}:
+[Figure 14-16](#ch14.xhtml_using_declared_font-style_faces){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @font-face {
@@ -45406,7 +44718,7 @@ property instead behaves very much like the absolute-size keywords
 (e.g., `xx-large`) for the `font-size` property. You can set a
 percentage between 50% and 200% inclusive, or use a range of keyword
 values that have defined percentage equivalents.
-[Table 14-9](#ch14.xhtml_font_stretch_keyword_mapping){data-type="xref"}
+[Table 14-9](#ch14.xhtml_font_stretch_keyword_mapping){data-type="xref"}
 shows the mapping between keyword values and numeric percentages.
 
   Keyword             Percentage
@@ -45446,7 +44758,7 @@ footer {font-stretch: extra-condensed;}
 All of the text will be at Verdana's usual width. However, if the font
 family is changed to one that has multiple width faces, such as Futura,
 things will be different, as shown in
-[Figure 14-17](#ch14.xhtml_stretching_font_characters){data-type="xref"}:
+[Figure 14-17](#ch14.xhtml_stretching_font_characters){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {font-family: Verdana;}
@@ -45507,7 +44819,7 @@ explicitly assign three faces to the most directly analogous
 In a parallel to what you saw in previous sections, you can call on
 these different width faces through the `font-stretch` property, as
 illustrated in
-[Figure 14-18](#ch14.xhtml_using_declared_font-stretch_faces){data-type="xref"}:
+[Figure 14-18](#ch14.xhtml_using_declared_font-stretch_faces){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1, h2, h3 {font-family: SwitzeraADF, Helvetica, sans-serif;}
@@ -45530,7 +44842,7 @@ font-stretch sizing, you can import a single font file with
 `@font-face`, then use it for all of your text font-stretch
 requirements. This produces the same degree of horizontal stretching
 shown in
-[Figure 14-18](#ch14.xhtml_using_declared_font-stretch_faces){data-type="xref"},
+[Figure 14-18](#ch14.xhtml_using_declared_font-stretch_faces){data-type="xref"},
 albeit with a different font:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -45627,7 +44939,7 @@ tends to look even worse than synthesized bold faces, particularly when
 it comes to serif fonts. Compare the difference between the actual
 italic face included in Georgia and a synthesized italic version of
 Georgia (which we're calling "oblique" here), illustrated in
-[Figure 14-19](#ch14.xhtml_synthesized_versus_designed_italics){data-type="xref"}.
+[Figure 14-19](#ch14.xhtml_synthesized_versus_designed_italics){data-type="xref"}.
 
 <figure>
 <div id="ch14.xhtml_synthesized_versus_designed_italics" class="figure">
@@ -45714,7 +45026,7 @@ The `small-caps` value calls for the use of small caps
 (`font-feature-settings: "smcp"`). Instead of upper- and lowercase
 letters, a small-caps font employs capital letters of different sizes.
 Thus, you might see something like what's shown in
-[Figure 14-20](#ch14.xhtml_the_small-caps_value_in_use){data-type="xref"}:
+[Figure 14-20](#ch14.xhtml_the_small-caps_value_in_use){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {font-variant: small-caps;}
@@ -45859,7 +45171,7 @@ used. From there, we have the following options:
     [variant.]{.keep-together}
 
 The following code is illustrated in
-[Figure 14-21](#ch14.xhtml_different_types_of_capital_variants){data-type="xref"};
+[Figure 14-21](#ch14.xhtml_different_types_of_capital_variants){data-type="xref"};
 note that the values marked with a dagger (†) were faked in one way or
 another:
 
@@ -45882,7 +45194,7 @@ alt="css5 1421" />
 </figure>
 
 Why did we fake some of the examples in
-[Figure 14-21](#ch14.xhtml_different_types_of_capital_variants){data-type="xref"}?
+[Figure 14-21](#ch14.xhtml_different_types_of_capital_variants){data-type="xref"}?
 In part, because finding a single font that contains all the capital
 variants is exceedingly difficult, and it is literally faster to fake
 some results than dig up a font, or set of fonts, that might work.
@@ -45922,7 +45234,7 @@ primary="fonts" secondary="OpenType font features"
 data-type="indexterm"}[]{#ch14.xhtml_idm45797031898992
 primary="OpenType font features" data-type="indexterm"}These are
 summarized in
-[Table 14-10](#ch14.xhtml_font_variant_caps_opentype){data-type="xref"}.
+[Table 14-10](#ch14.xhtml_font_variant_caps_opentype){data-type="xref"}.
 
   Value               OpenType feature
   ------------------- --------------------
@@ -45973,7 +45285,7 @@ numbers, fractions, and ordinal markers.
 The default value, `normal`, means that nothing special will be done
 when rendering numbers. They'll just appear the same as they usually do
 for the font face.
-[Figure 14-22](#ch14.xhtml_different_types_of_numeric_variants){data-type="xref"}
+[Figure 14-22](#ch14.xhtml_different_types_of_numeric_variants){data-type="xref"}
 demonstrates all the values, and as before, the examples marked with a
 dagger (†) were faked in one way or another because fonts lacked those
 features.
@@ -46055,7 +45367,7 @@ numeric-value sets:
 
 All the values of `font-variant-numeric` other than `normal` have
 defined equivalent OpenType features. These are summarized in
-[Table 14-11](#ch14.xhtml_font_variant_numeric_opentype){data-type="xref"}.[]{#ch14.xhtml_idm45797031789584
+[Table 14-11](#ch14.xhtml_font_variant_numeric_opentype){data-type="xref"}.[]{#ch14.xhtml_idm45797031789584
 primary="" startref="ix_font_var_num_prop"
 data-type="indexterm"}[]{#ch14.xhtml_idm45797031788608 primary=""
 startref="ix_num_font_var" data-type="indexterm"}
@@ -46090,7 +45402,7 @@ two (or more) characters into one shape. As an example, two lowercase
 *f* characters could have their crossbars merged into a single line when
 they appear next to each other, or the crossbar could extend over a
 lowercase *i* and replace its usual dot in the sequence *fi*. More
-archaically, a combination like *st* could have a swash curve from one
+archaically, a combination like *st* could have a swash curve from one
 to the other. When available, these features can be enabled or disabled
 with the `font-variant-ligatures` property.
 
@@ -46181,7 +45493,7 @@ common ligatures, which are enabled by default. This is especially
 relevant because `font-variant: normal` turns off all the
 `font-variant-ligatures` except the common ones, whereas
 `font-variant: none` turns them all off *including* common ligatures.
-[Table 14-12](#ch14.xhtml_font_variant_caps){data-type="xref"} provides
+[Table 14-12](#ch14.xhtml_font_variant_caps){data-type="xref"} provides
 a condensed summary of how each value translates into
 []{#ch14.xhtml_idm45797031664752 primary="fonts"
 secondary="OpenType font features"
@@ -46258,7 +45570,7 @@ activate OpenType features.
 The `@font-feature-values` at-rule may be used either at the top level
 of your CSS or inside any CSS conditional-group at-rule.
 
-In [Table 14-13](#ch14.xhtml_font_variant_alternates){data-type="xref"},
+In [Table 14-13](#ch14.xhtml_font_variant_alternates){data-type="xref"},
 *`XY`* is replaced by a number representing the feature set. With
 OpenType fonts and `font-feature-settings`, some features are already
 defined. For example, the OpenType equivalent of the `styleset()`
@@ -46548,7 +45860,7 @@ of text.
 
 The OpenType `font-feature-setting` values we've discussed so far are
 all listed in
-[Table 14-14](#ch14.xhtml_opentype_values){data-type="xref"}, along with
+[Table 14-14](#ch14.xhtml_opentype_values){data-type="xref"}, along with
 a few others we didn't touch on for lack of support.
 
   Code       Meaning                            Longhand
@@ -46699,7 +46011,7 @@ axis name along with a value.
 </aside>
 ```
 There are five registered axes, listed in
-[Table 14-15](#ch14.xhtml_font_variation_axes){data-type="xref"}. We
+[Table 14-15](#ch14.xhtml_font_variation_axes){data-type="xref"}. We
 have covered almost all of them.
 
   Axis       Property                Property value
@@ -46714,7 +46026,7 @@ have covered almost all of them.
 
 We use the term *registered axes* because font developers are not
 limited to weight, width, optical size, slant, and italics: they can
-create custom axes, and "register" them by giving them a four-letter
+create custom axes, and "register" them by giving them a four-letter
 label. The simplest way to know if a font has such axes is to look at
 the font's documentation; otherwise, you have to know how to dig into
 the internals of a font's file(s) to find out. These axes can control
@@ -46960,7 +46272,7 @@ If the `letter-spacing` property[]{#ch14.xhtml_idm45797030811104
 primary="letter-spacing property"
 data-type="indexterm"}[]{#ch14.xhtml_idm45797030810368 primary="spacing"
 secondary="letter" data-type="indexterm"} (see
-[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}) is
+[Chapter 15](../Text/ch15.xhtml#text_properties){data-type="xref"}) is
 applied to kerned text, the kerning is done first and *then* the
 letters' spacing is adjusted according to the value of `letter-spacing`,
 not the other way around.
@@ -47017,7 +46329,7 @@ each of the listed font properties, or else a system font value
 Fonts"](#ch14.xhtml_using_system_fonts){data-type="xref"}). Therefore,
 the preceding example could be shortened as follows (and have exactly
 the same effect, as illustrated by
-[Figure 14-23](#ch14.xhtml_typical_font_rules){data-type="xref"}):
+[Figure 14-23](#ch14.xhtml_typical_font_rules){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {font: italic 900 small-caps 30px Verdana, Helvetica, Arial, sans-serif;}
@@ -47061,7 +46373,7 @@ must always be present in a `font` declaration. Period, end of story. If
 either is left out, the entire rule will be invalidated and will be
 ignored completely by a user agent. Thus, the following rules will get
 you the result shown in
-[Figure 14-24](#ch14.xhtml_the_necessity_of_both_size_and_family){data-type="xref"}:
+[Figure 14-24](#ch14.xhtml_the_necessity_of_both_size_and_family){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {font: normal normal italic 30px sans-serif;}   /* no problem here */
@@ -47155,7 +46467,7 @@ h2 {font: bold italic 200%/1.2 Verdana, Helvetica, Arial, sans-serif;}
 ```
 
 These rules, demonstrated in
-[Figure 14-25](#ch14.xhtml_adding_line_height_to_the_mix){data-type="xref"},
+[Figure 14-25](#ch14.xhtml_adding_line_height_to_the_mix){data-type="xref"},
 set all `<h2>` elements to be bold and italic (using face for one of the
 sans-serif font families), set the `font-size` to `24px` (twice the
 `body`'s size), and set the `line-height` to `28.8px`.
@@ -47192,7 +46504,7 @@ strictly optional.
 It is important to remember that `font`, being a shorthand property, can
 act in unexpected ways if you are careless with its use. Consider the
 following rules, which are illustrated in
-[Figure 14-26](#ch14.xhtml_shorthand_changes){data-type="xref"}:
+[Figure 14-26](#ch14.xhtml_shorthand_changes){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1, h2, h3 {font: italic small-caps 250% sans-serif;}
@@ -47461,7 +46773,7 @@ are advised to use your power wisely, not wildly.
 Because []{#ch15.xhtml_ix_text_properties_ch15 primary="text properties"
 data-type="indexterm"}text is so important, many CSS properties affect
 it in one way or another. But didn't we just cover that in
-[Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"}? Not exactly:
+[Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"}? Not exactly:
 we covered only fonts---the importing and usage of typefaces. Text
 styles are different.
 
@@ -47523,7 +46835,7 @@ vertical. (And bottom to top, at that.)
 You can still find a lot of English-centric blog posts and other
 CSS-related documentation on the web using the terms *vertical* and
 *horizontal* when talking about writing directions. When you do,
-mentally translate them to *block* and *inline* as needed.
+mentally translate them to *block* and *inline* as needed.
 :::
 
 :::::: {.section pdf-bookmark="Indenting Text" data-type="sect2"}
@@ -47570,7 +46882,7 @@ p {text-indent: 3em;}
 
 This rule will cause the first line of any paragraph to be indented 3
 ems, as shown in
-[Figure 15-1](#ch15.xhtml_text_indenting){data-type="xref"}.
+[Figure 15-1](#ch15.xhtml_text_indenting){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch15.xhtml_text_indenting" class="figure">
@@ -47617,7 +46929,7 @@ Any unit of length, including percentage values, may be used with
 of the parent element of the element being indented. In other words, if
 you set the indent value to `10%`, the first line of an affected element
 will be indented by 10% of its parent element's width, as shown in
-[Figure 15-2](#ch15.xhtml_text_indenting_with_percentages){data-type="xref"}:
+[Figure 15-2](#ch15.xhtml_text_indenting_with_percentages){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {width: 400px;}
@@ -47743,7 +47055,7 @@ The []{#ch15.xhtml_ix_write_mode_text_align
 primary="writing modes (flow direction)" secondary="text alignment"
 data-type="indexterm"}quickest way to understand how these values work
 is to examine
-[Figure 15-3](#ch15.xhtml_selected_behaviors_of_the_text-align_pro){data-type="xref"},
+[Figure 15-3](#ch15.xhtml_selected_behaviors_of_the_text-align_pro){data-type="xref"},
 which demonstrates the most widely used values. The values `left`,
 `right`, and `center` cause the text within elements to be aligned
 exactly as described by these words in horizontal languages like English
@@ -47763,7 +47075,7 @@ The default value of `text-align` is `start`, which is the equivalent of
 `left` in LTR languages, and `right` in RTL languages. In vertical
 languages. `left` and `right` are mapped to the start or end edge,
 respectively. This is illustrated in
-[Figure 15-4](#ch15.xhtml_left_comma_right_comma_and_center_in_ver){data-type="xref"}.
+[Figure 15-4](#ch15.xhtml_left_comma_right_comma_and_center_in_ver){data-type="xref"}.
 
 Because `text-align` applies only to block-level elements such as
 paragraphs, there's no way to center an anchor within its line without
@@ -47816,7 +47128,7 @@ startref="ix_write_mode_text_align" data-type="indexterm"}
 In a like manner, `end` aligns text with the end edge of each line
 box---the right edge in LTR languages, the left edge in RTL languages,
 and so forth.
-[Figure 15-5](#ch15.xhtml_start_and_end_alignment-id1){data-type="xref"}
+[Figure 15-5](#ch15.xhtml_start_and_end_alignment-id1){data-type="xref"}
 shows the effects of these values.
 
 <figure class="bordernone">
@@ -47838,7 +47150,7 @@ An often-overlooked alignment value is `justify`, which raises some
 issues of its own. In justified text, both ends of a line of text
 (except the last line, which can be set with `text-align-last`) are
 placed at the inner edges of the parent element, as shown in
-[Figure 15-6](#ch15.xhtml_justified_text-id1){data-type="xref"}. Then,
+[Figure 15-6](#ch15.xhtml_justified_text-id1){data-type="xref"}. Then,
 the spacing between words and letters is adjusted so that the words are
 distributed evenly throughout the line. Justified text is common in the
 print world (for example, in this book), but under CSS, a few extra
@@ -47955,7 +47267,7 @@ alignment. For those situations, you can use `text-align-last`.
 ```
 As with `text-align`, the quickest way to understand how these values
 work is to examine
-[Figure 15-7](#ch15.xhtml_differently_aligned_last_lines){data-type="xref"}.
+[Figure 15-7](#ch15.xhtml_differently_aligned_last_lines){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch15.xhtml_differently_aligned_last_lines" class="figure">
@@ -47970,7 +47282,7 @@ The last lines of the elements are aligned independently of the rest of
 the elements, according to the elements' `text-align-last` values.
 
 A close study of
-[Figure 15-7](#ch15.xhtml_differently_aligned_last_lines){data-type="xref"}
+[Figure 15-7](#ch15.xhtml_differently_aligned_last_lines){data-type="xref"}
 will reveal that there's more at play than just the last lines of
 block-level elements. In fact, `text-align-last` applies to any line of
 text that immediately precedes a forced line break, whether or not that
@@ -48055,7 +47367,7 @@ p.zero {word-spacing: 0;}
 ```
 
 Manipulating these settings has the effect shown in
-[Figure 15-8](#ch15.xhtml_changing_the_space_between_words){data-type="xref"}.
+[Figure 15-8](#ch15.xhtml_changing_the_space_between_words){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch15.xhtml_changing_the_space_between_words" class="figure">
@@ -48080,7 +47392,7 @@ startref="ix_space_word" data-type="indexterm"}
 
 Use caution. The `word-spacing` property allows you to create very
 unreadable documents, as
-[Figure 15-9](#ch15.xhtml_really_wide_word_spacing){data-type="xref"}
+[Figure 15-9](#ch15.xhtml_really_wide_word_spacing){data-type="xref"}
 illustrates.
 
 <figure class="coderesult">
@@ -48135,7 +47447,7 @@ to ensure that the spacing is proportional to the font size.
 The default keyword is `normal`, which has the same effect as
 `letter-spacing: 0`. Any length value you enter will increase or
 decrease the space between letters by that amount.
-[Figure 15-10](#ch15.xhtml_various_kinds_of_letter_spacing){data-type="xref"}
+[Figure 15-10](#ch15.xhtml_various_kinds_of_letter_spacing){data-type="xref"}
 shows the results of the following markup:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -48202,7 +47514,7 @@ define a scaling factor for `word-spacing` or `letter-spacing` to be
 inherited in place of the computed value (in contrast with
 `line-height`). As a result, you may run into problems such as those
 shown in
-[Figure 15-11](#ch15.xhtml_inherited_letter_spacing){data-type="xref"}:
+[Figure 15-11](#ch15.xhtml_inherited_letter_spacing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {letter-spacing: 0.25em; font-size: 20px;}
@@ -48274,9 +47586,9 @@ small book, we'll just stick to a quick overview here.
 
 The []{#ch15.xhtml_ix_text_line_height primary="text properties"
 secondary="line height" data-type="indexterm"}distance between lines can
-be affected by changing the height of a line. Note that *height* here is
+be affected by changing the height of a line. Note that *height* here is
 with respect to the line of text itself, assuming that the longer axis
-of a line is *width*, even if it's written vertically. The property
+of a line is *width*, even if it's written vertically. The property
 names we cover from here will reveal a strong bias toward Western
 languages and their writing directions; this is an artifact of the early
 days of CSS, when Western languages were the only ones that could be
@@ -48330,7 +47642,7 @@ applies to them.
 
 As you []{#ch15.xhtml_idm45797028860400 primary="content area"
 secondary="inline-level elements" data-type="indexterm"}learned in
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
 every element in a line of text generates a *content area*, which is
 determined by the size of the font. This
 []{#ch15.xhtml_idm45797028858080 primary="boxes"
@@ -48374,7 +47686,7 @@ Once all of the inline boxes have been generated for a given line of
 content, they are then considered in the construction of the line box. A
 line box is exactly as tall as needed to enclose the top of the tallest
 inline box and the bottom of the lowest inline box.
-[Figure 15-12](#ch15.xhtml_line_box_diagram){data-type="xref"} shows a
+[Figure 15-12](#ch15.xhtml_line_box_diagram){data-type="xref"} shows a
 diagram of this process.
 
 <figure class="bordernone">
@@ -48415,7 +47727,7 @@ exactly 4 centimeters on your monitor.
 The `em`, `ex`, and percentage values are calculated with respect to the
 `font-size` of the element. The results of the following CSS and HTML
 are shown in
-[Figure 15-13](#ch15.xhtml_simple_calculations_with_the_line-height){data-type="xref"}:
+[Figure 15-13](#ch15.xhtml_simple_calculations_with_the_line-height){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 body {line-height: 18px; font-size: 16px;}
@@ -48458,7 +47770,7 @@ data-type="indexterm"}inherited by one block-level element from another,
 things get a bit trickier. The `line-height` values inherit from the
 parent element as computed from the parent, not the child. The results
 of the following markup are shown in
-[Figure 15-14](#ch15.xhtml_small_line-height_comma_large_font-size){data-type="xref"}.
+[Figure 15-14](#ch15.xhtml_small_line-height_comma_large_font-size){data-type="xref"}.
 It probably wasn't what the author had in mind:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -48488,7 +47800,7 @@ alt="css5 1514" />
 Why are the lines so close together? Because the computed `line-height`
 value of `10px` was inherited by the paragraph from its parent `<div>`.
 One solution to the small `line-height` problem depicted in
-[Figure 15-14](#ch15.xhtml_small_line-height_comma_large_font-size){data-type="xref"}
+[Figure 15-14](#ch15.xhtml_small_line-height_comma_large_font-size){data-type="xref"}
 is to set an explicit `line-height` for every element, but that's not
 very practical. A better alternative is to specify a number, which
 actually sets a scaling factor:
@@ -48504,7 +47816,7 @@ factor to be an inherited value instead of a computed value. The number
 will be applied to the element and all of its child elements so that
 each element has a `line-height` calculated with respect to its own
 `font-size` (see
-[Figure 15-15](#ch15.xhtml_using_line-height_factors_to_overcome_in){data-type="xref"}):
+[Figure 15-15](#ch15.xhtml_using_line-height_factors_to_overcome_in){data-type="xref"}):
 
 ``` {code-language="css" data-type="programlisting"}
 div {line-height: 1.5;}
@@ -48612,7 +47924,7 @@ to be aligned.
 If a vertically aligned element doesn't have a baseline---that is, if
 it's an image, a form input, or another replaced element---then the
 bottom of the element is aligned with the baseline of its parent, as
-[Figure 15-16](#ch15.xhtml_baseline_alignment_of_an_image){data-type="xref"}
+[Figure 15-16](#ch15.xhtml_baseline_alignment_of_an_image){data-type="xref"}
 shows:
 
 ``` {.less_space .pagebreak-before code-language="css" data-type="programlisting"}
@@ -48680,7 +47992,7 @@ font size, so subscripted or superscripted text will not become smaller
 (or larger). Instead, any text in the sub- or superscripted element
 will, by default, be the same size as text in the parent element, as
 illustrated by
-[Figure 15-17](#ch15.xhtml_superscript_and_subscript_alignment){data-type="xref"}:
+[Figure 15-17](#ch15.xhtml_superscript_and_subscript_alignment){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 span.raise {vertical-align: super;}
@@ -48722,7 +48034,7 @@ primary="top keyword, vertical-align" data-type="indexterm"}aligns the
 top of the element's inline box with the top of the line box. Similarly,
 `vertical-align: bottom` aligns the bottom of the element's inline box
 with the bottom of the line box. Thus, the following markup results in
-[Figure 15-18](#ch15.xhtml_top_and_bottom_alignment){data-type="xref"}:
+[Figure 15-18](#ch15.xhtml_top_and_bottom_alignment){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .soarer {vertical-align: top;}
@@ -48766,7 +48078,7 @@ box is considered. This default box is derived from the `font-size` of
 the parent element. The bottom of the aligned element's inline box is
 then aligned with the bottom of the default text box. Thus, given the
 following markup, you get a result like the one shown in
-[Figure 15-19](#ch15.xhtml_text-top_and_bottom_alignment){data-type="xref"}:
+[Figure 15-19](#ch15.xhtml_text-top_and_bottom_alignment){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img.ttop {vertical-align: text-top;}
@@ -48802,7 +48114,7 @@ the exact effect you might assume, given its name. The `middle` value
 aligns the middle of an inline element's box with a point that is
 `0.5ex` above the baseline of the parent element, where `1ex` is defined
 relative to the `font-size` for the parent element.
-[Figure 15-20](#ch15.xhtml_precise_detail_of_middle_alignment){data-type="xref"}
+[Figure 15-20](#ch15.xhtml_precise_detail_of_middle_alignment){data-type="xref"}
 shows this in more detail.
 
 <figure>
@@ -48835,7 +48147,7 @@ element, and negative values lower it.
 
 Depending on how the text is raised or lowered, it can appear to be
 placed in adjacent lines, as shown in
-[Figure 15-21](#ch15.xhtml_percentages_and_fun_effects){data-type="xref"},
+[Figure 15-21](#ch15.xhtml_percentages_and_fun_effects){data-type="xref"},
 so take care when using percentage values:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -48871,7 +48183,7 @@ values shift the element downward.
 
 It's important to realize that vertically aligned text does not become
 part of another line, nor does it overlap text in other lines. Consider
-[Figure 15-22](#ch15.xhtml_inline_alignments_can_cause_lines_to){data-type="xref"},
+[Figure 15-22](#ch15.xhtml_inline_alignments_can_cause_lines_to){data-type="xref"},
 in which some vertically aligned text appears in the middle of a
 paragraph.
 
@@ -48980,9 +48292,9 @@ Finally, the `capitalize` value[]{#ch15.xhtml_ix_text_capital
 primary="text properties" secondary="capitalization"
 data-type="indexterm"}[]{#ch15.xhtml_ix_capital_text
 primary="capitalize keyword, text transform" data-type="indexterm"}
-capitalizes only the first letter of each word (where a *word* is
+capitalizes only the first letter of each word (where a *word* is
 defined as a string of adjacent characters surrounded by whitespace).
-[Figure 15-23](#ch15.xhtml_various_kinds_of_text_transformation){data-type="xref"}
+[Figure 15-23](#ch15.xhtml_various_kinds_of_text_transformation){data-type="xref"}
 illustrates each of these settings in a variety of ways:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -49029,7 +48341,7 @@ alt="css5 1523" />
 
 As []{#ch15.xhtml_idm45797027772432
 primary="CJK or CJKV text characters" data-type="indexterm"}noted in
-[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
+[Chapter 6](../Text/ch06.xhtml#basic-visual-formatting){data-type="xref"},
 *CJK* stands for *Chinese/Japanese/Korean*. CJK characters take up the
 majority of the entire Unicode code space, including approximately
 70,000 Han characters. You may sometimes come across the abbreviation
@@ -49039,12 +48351,12 @@ majority of the entire Unicode code space, including approximately
 Different user agents may have different ways of deciding where words
 begin and, as a result, which letters are capitalized. For example, the
 text "heading-one" in the `<h1>` element, shown in
-[Figure 15-23](#ch15.xhtml_various_kinds_of_text_transformation){data-type="xref"},
+[Figure 15-23](#ch15.xhtml_various_kinds_of_text_transformation){data-type="xref"},
 could be rendered in one of two ways: "Heading-one" or "Heading-One."
 CSS does not say which is correct, so either is possible.
 
 You may have also noticed that the last letter in the `<h1>` element in
-[Figure 15-23](#ch15.xhtml_various_kinds_of_text_transformation){data-type="xref"}
+[Figure 15-23](#ch15.xhtml_various_kinds_of_text_transformation){data-type="xref"}
 is still uppercase. This is correct: when applying a `text-transform` of
 `capitalize`, CSS requires user agents to make sure only the first
 letter of each word is capitalized. They can ignore the rest of the
@@ -49075,7 +48387,7 @@ h1 {text-transform: capitalize;}
 Remember that `capitalize` is a simple letter substitution at the
 beginning of each "word." CSS doesn't check for grammar, so common
 headline-capitalization conventions, such as leaving articles (*a*,
-*an*, *the*) all lowercase, won't be enforced.
+*an*, *the*) all lowercase, won't be enforced.
 
 Different languages have different rules for which letters should be
 capitalized. The `text-transform` property takes into account
@@ -49161,7 +48473,7 @@ putting the line above the text in the block direction. The
 
 Let's see what these decorations look like in practice. The following
 code is illustrated in
-[Figure 15-24](#ch15.xhtml_various_kinds_of_text_decoration){data-type="xref"}:
+[Figure 15-24](#ch15.xhtml_various_kinds_of_text_decoration){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p.one {text-decoration: underline;}
@@ -49314,7 +48626,7 @@ respect to the value of `1em` for the element. Thus,
 1.6 pixels in a font whose computed font size is 16 pixels, but 4 pixels
 for a 40-pixel font size. The following code shows a few examples, which
 are illustrated in
-[Figure 15-25](#ch15.xhtml_various_decoration_thicknesses){data-type="xref"}:
+[Figure 15-25](#ch15.xhtml_various_decoration_thicknesses){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1, p {text-decoration-line: underline;}
@@ -49372,7 +48684,7 @@ that hidebound approach, `text-decoration-style` provides alternatives.
 The exact result will depend on the value you pick and the browser you
 use to view the results, but the renderings of these decoration styles
 should be at least similar to those shown in
-[Figure 15-26](#ch15.xhtml_various_decoration_styles){data-type="xref"},
+[Figure 15-26](#ch15.xhtml_various_decoration_styles){data-type="xref"},
 which is the output of the following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -49394,7 +48706,7 @@ alt="css5 1526" />
 </figure>
 
 We increased the decoration thickness for
-[Figure 15-26](#ch15.xhtml_various_decoration_styles){data-type="xref"}
+[Figure 15-26](#ch15.xhtml_various_decoration_styles){data-type="xref"}
 in order to improve legiblility; the default sizing can make some of the
 more complex decorations, like `dotted`, difficult to see.
 ::::
@@ -49510,7 +48822,7 @@ You might wish that, say, underlines on hyperlinks were a little farther
 away from the text's baseline, so that they're a little more obvious to
 the user. Setting a length value like `3px` will put the underline 3
 pixels below the text's baseline. See
-[Figure 15-27](#ch15.xhtml_various_underline_offsets){data-type="xref"}
+[Figure 15-27](#ch15.xhtml_various_underline_offsets){data-type="xref"}
 for the results of the following CSS:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -49532,7 +48844,7 @@ alt="css5 1527" />
 </figure>
 
 As illustrated in
-[Figure 15-27](#ch15.xhtml_various_underline_offsets){data-type="xref"},
+[Figure 15-27](#ch15.xhtml_various_underline_offsets){data-type="xref"},
 the value defines an offset from the text's baseline, either positive
 (downward along the block axis) or negative (upward along the block
 axis).
@@ -49563,7 +48875,7 @@ data-type="indexterm"}[]{#ch15.xhtml_ix_text_decor_skip
 primary="text-decoration-skip-ink property"
 data-type="indexterm"}unaddressed aspect of the past few sections has
 been: how exactly do browsers draw decorations over text, and more
-precisely, decide when to "skip over" parts of the text? This is known
+precisely, decide when to "skip over" parts of the text? This is known
 as *skipping ink*, and the approach a browser takes can be altered with
 the property `text-decoration-skip-ink`.
 
@@ -49589,7 +48901,7 @@ the property `text-decoration-skip-ink`.
 When ink skipping is turned on, the decoration is interrupted wherever
 it would cross over the shapes of the text. Usually, this means a small
 gap between the decoration and the text glyphs. See
-[Figure 15-28](#ch15.xhtml_ink-skipping_approaches){data-type="xref"}
+[Figure 15-28](#ch15.xhtml_ink-skipping_approaches){data-type="xref"}
 for a close-up illustration of the differences in ink-skipping
 approaches.
 
@@ -49625,7 +48937,7 @@ The three values are defined as follows:
     though it may be drawn over parts of the text glyphs.
 
 As shown in
-[Figure 15-28](#ch15.xhtml_ink-skipping_approaches){data-type="xref"},
+[Figure 15-28](#ch15.xhtml_ink-skipping_approaches){data-type="xref"},
 `auto` can sometimes mean differences depending on the language, font,
 or based on other factors. You're really just telling the browser to do
 whatever it thinks is best.
@@ -49655,7 +48967,7 @@ the unusual side of `text-decoration`. The first oddity is that
 decoration lines drawn with the text---whether under, over, or through
 it---will always be the same color. This is true even if the descendant
 elements are a different color, as depicted in
-[Figure 15-29](#ch15.xhtml_color_consistency_in_underlines){data-type="xref"}:
+[Figure 15-29](#ch15.xhtml_color_consistency_in_underlines){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {text-decoration: underline; color: black;}
@@ -49698,7 +49010,7 @@ it as well.</p>
 ```
 
 The result is identical to the one shown in
-[Figure 15-29](#ch15.xhtml_color_consistency_in_underlines){data-type="xref"},
+[Figure 15-29](#ch15.xhtml_color_consistency_in_underlines){data-type="xref"},
 since all you've done is to explicitly declare what was already the
 case. In other words, there is no way to "turn off" the decoration
 generated by a parent element.
@@ -49724,7 +49036,7 @@ of its parent.</p>
 ```
 
 In
-[Figure 15-30](#ch15.xhtml_overcoming_the_default_behavior_of_under){data-type="xref"},
+[Figure 15-30](#ch15.xhtml_overcoming_the_default_behavior_of_under){data-type="xref"},
 the `<strong>` element is set to be gray and to have an underline. The
 gray underline visually "overwrites" the parent's black underline, so
 the decoration's color matches the color of the `<strong>` element. The
@@ -49747,7 +49059,7 @@ When `text-decoration` is []{#ch15.xhtml_idm45797026639376
 primary="vertical-align property" secondary="in text"
 secondary-sortas="text" data-type="indexterm"}combined with
 `vertical-align`, even stranger things can happen.
-[Figure 15-31](#ch15.xhtml_correct_comma_although_strange_comma_dec){data-type="xref"}
+[Figure 15-31](#ch15.xhtml_correct_comma_although_strange_comma_dec){data-type="xref"}
 shows one of these oddities. Since the `<sup>` element has no decoration
 of its own, but it is elevated within an overlined element, the overline
 should cut through the middle of the `<sup>` element:
@@ -49822,7 +49134,7 @@ data-type="indexterm"}precise legibility features that are used with
 `optimizeLegibility` are not explicitly defined, and the text rendering
 often depends on the operating system on which the user agent is
 running, so the exact results may vary.
-[Figure 15-32](#ch15.xhtml_optimized_legibility){data-type="xref"} shows
+[Figure 15-32](#ch15.xhtml_optimized_legibility){data-type="xref"} shows
 text optimized for speed and then optimized for legibility.
 
 <figure>
@@ -49835,7 +49147,7 @@ alt="css5 1532" />
 </figure>
 
 As you can see in
-[Figure 15-32](#ch15.xhtml_optimized_legibility){data-type="xref"}, the
+[Figure 15-32](#ch15.xhtml_optimized_legibility){data-type="xref"}, the
 differences between the two optimizations are objectively rather small,
 but they can have a noticeable impact on readability.
 
@@ -49935,7 +49247,7 @@ The first two length values determine the offset distance of the shadow
 from the text; the first is the horizontal offset, and the second is the
 vertical offset. To define a solid, unblurred green shadow offset 5
 pixels to the right and half an em down from the text, as shown in
-[Figure 15-33](#ch15.xhtml_simple_shadows){data-type="xref"}, you could
+[Figure 15-33](#ch15.xhtml_simple_shadows){data-type="xref"}, you could
 write either of the following:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -49945,7 +49257,7 @@ text-shadow: 5px 0.5em green;
 
 Negative lengths cause the shadow to be offset to the left and upward
 from the original text. The following, also shown in
-[Figure 15-33](#ch15.xhtml_simple_shadows){data-type="xref"}, places a
+[Figure 15-33](#ch15.xhtml_simple_shadows){data-type="xref"}, places a
 light-blue shadow 5 pixels to the left and half an em above the text:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -49973,7 +49285,7 @@ space between the shadow's outline and the edge of the blurring. The
 exact blurring method is not defined, so different user agents might
 employ different effects. As an example, the following styles are
 rendered as shown in
-[Figure 15-34](#ch15.xhtml_dropping_shadows_all_over){data-type="xref"}:
+[Figure 15-34](#ch15.xhtml_dropping_shadows_all_over){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p.cl1 {color: black; text-shadow: gray 2px 2px 4px;}
@@ -50061,9 +49373,9 @@ emphasis marks can be one of five shapes: `dot`, `circle`,
 `double-circle`, `triangle`, or `sesame`. Those shapes can be set as
 `filled`, which is the default; or `open`, which renders them as
 unfilled outlines. These are summarized in
-[Table 15-1](#ch15.xhtml_predefined_emphasis_marks){data-type="xref"},
+[Table 15-1](#ch15.xhtml_predefined_emphasis_marks){data-type="xref"},
 and examples are shown in
-[Figure 15-35](#ch15.xhtml_various_emphasis_marks){data-type="xref"}.
+[Figure 15-35](#ch15.xhtml_various_emphasis_marks){data-type="xref"}.
 
   Shape           `filled`                                                                     `open`
   --------------- ---------------------------------------------------------------------------- --------------------------------------------------------------------------
@@ -50090,7 +49402,7 @@ double quotes). However, be careful: if the string is more than a single
 character, it may be reduced to the first character in the string by the
 browser. Thus, `text-emphasis-style: 'cool'` may result in the browser
 displaying only the `c` as a mark, as shown in
-[Figure 15-35](#ch15.xhtml_various_emphasis_marks){data-type="xref"}.
+[Figure 15-35](#ch15.xhtml_various_emphasis_marks){data-type="xref"}.
 Furthermore, the string symbols may or may not be rotated to match
 writing direction in vertical languages.
 
@@ -50111,7 +49423,7 @@ elements like links, those child elements will inherit the
 Another difference is that every glyph (character or other symbol) gets
 its own mark, and these marks are centered on the glyph. Thus, in
 proportional fonts like those seen in
-[Figure 15-35](#ch15.xhtml_various_emphasis_marks){data-type="xref"},
+[Figure 15-35](#ch15.xhtml_various_emphasis_marks){data-type="xref"},
 the marks will have different separations between them depending on
 which two glyphs are next to each other.
 
@@ -50378,7 +49690,7 @@ space in a row is converted to a single space.
 Should you set `white-space` to `pre`, however, the whitespace in an
 affected element is treated as though the elements were HTML `<pre>`
 elements; whitespace is *not* ignored, as shown in
-[Figure 15-36](#ch15.xhtml_honoring_the_spaces_in_markup){data-type="xref"}:
+[Figure 15-36](#ch15.xhtml_honoring_the_spaces_in_markup){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {white-space: pre;}
@@ -50409,7 +49721,7 @@ element. When text can't wrap and it gets too wide for its container, a
 horizontal scrollbar will appear by default (this can be changed using
 the `overflow` property). The effects of the following markup are shown
 in
-[Figure 15-37](#ch15.xhtml_suppressing_line_wrapping_with_the_white){data-type="xref"}:
+[Figure 15-37](#ch15.xhtml_suppressing_line_wrapping_with_the_white){data-type="xref"}:
 
 ``` {code-language="html" data-type="programlisting"}
 <p style="white-space: nowrap;">This paragraph is not allowed to wrap,
@@ -50450,7 +49762,7 @@ opportunity after each whitespace character. These spaces take up space
 and do not hang, and thus affect the box's intrinsic sizes (min-content
 size and max-content size).
 
-[Table 15-2](#ch15.xhtml_white-space_properties){data-type="xref"}
+[Table 15-2](#ch15.xhtml_white-space_properties){data-type="xref"}
 summarizes the behaviors of the various `white-space` properties.
 
   Value            Whitespace   Line feeds   Auto line wrapping   Trailing whitespace
@@ -50469,7 +49781,7 @@ Consider the following markup, which has line-feed (e.g., return)
 characters to break lines, plus the end of each line has several extra
 space characters that aren't visible in the markup. The results are
 illustrated in
-[Figure 15-38](#ch15.xhtml_three_different_ways_to_handle_whitespace){data-type="xref"}:
+[Figure 15-38](#ch15.xhtml_three_different_ways_to_handle_whitespace){data-type="xref"}:
 
 ``` {code-language="html" data-type="programlisting"}
 <p style="white-space: pre-wrap;">
@@ -50552,7 +49864,7 @@ If a length value is supplied, each tab is rendered using that length.
 For example, `tab-size: 10px` will cause a sequence of three tabs to be
 rendered as 30 pixels of whitespace. Some effects of `tab-size` are
 illustrated in
-[Figure 15-39](#ch15.xhtml_differing_tab_lengths){data-type="xref"}.
+[Figure 15-39](#ch15.xhtml_differing_tab_lengths){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch15.xhtml_differing_tab_lengths" class="figure">
@@ -50565,7 +49877,7 @@ alt="css5 1539" />
 
 Remember that `tab-size` is effectively ignored when the value of
 `white-space` causes whitespace to be collapsed (see
-[Table 15-2](#ch15.xhtml_white-space_properties){data-type="xref"}). The
+[Table 15-2](#ch15.xhtml_white-space_properties){data-type="xref"}). The
 value will still be computed in such cases, but there will be no visible
 effect no matter how many tabs appear in the
 source.[]{#ch15.xhtml_idm45797025752176 primary=""
@@ -50647,7 +49959,7 @@ word? Both are language dependent. User agents are supposed to prefer
 manually inserted hyphen breaks to automatically determined breaks, but
 there are no guarantees. An illustration of hyphenation, or the
 suppression thereof, in the following example is shown in
-[Figure 15-40](#ch15.xhtml_hyphenation_results){data-type="xref"}:
+[Figure 15-40](#ch15.xhtml_hyphenation_results){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .cl01 {hyphens: auto;}
@@ -50785,9 +50097,9 @@ word. Thus, in Japanese, a sequence of symbols with no whitespace will
 not be soft wrapped, even if this means the text line will exceed the
 length of its element. (This behavior is similar to `white-space: pre`.)
 
-[Figure 15-41](#ch15.xhtml_altering_word_breaking_behavior){data-type="xref"}
+[Figure 15-41](#ch15.xhtml_altering_word_breaking_behavior){data-type="xref"}
 shows a few examples of `word-break` values, and
-[Table 15-3](#ch15.xhtml_word-breaking_behavior){data-type="xref"}
+[Table 15-3](#ch15.xhtml_word-breaking_behavior){data-type="xref"}
 summarizes the effects of each value.
 
 <figure>
@@ -50978,7 +50290,7 @@ does not (e.g., with the value `pre`), `overflow-wrap` has no effect.
 If the default value of `normal` is in effect, wrapping happens as
 normal---between words or as directed by the language. If a word is
 longer than the width of the element containing it, the word will "spill
-out" of the element box, just as on the classic CSS IS AWESOME coffee
+out" of the element box, just as on the classic CSS IS AWESOME coffee
 mug. (Google it if you haven't seen it before. It's worth the chuckle.)
 
 If the `break-word` value is applied, wrapping can happen in the middle
@@ -50995,7 +50307,7 @@ character in the element's content. Only when two skinny characters are
 next to each other will they have a chance to be on the same line
 together, and in a monospace font every line of text will be a single
 character.
-[Figure 15-42](#ch15.xhtml_overflow_wrapping){data-type="xref"}
+[Figure 15-42](#ch15.xhtml_overflow_wrapping){data-type="xref"}
 illustrates the difference between these three values.
 
 <figure>
@@ -51017,9 +50329,9 @@ considered.
 While `overflow-wrap: break-word` may appear very similar to
 `word-break: break-all`, they are not the same. To see why, compare the
 second box in
-[Figure 15-42](#ch15.xhtml_overflow_wrapping){data-type="xref"} to the
+[Figure 15-42](#ch15.xhtml_overflow_wrapping){data-type="xref"} to the
 top-middle box in
-[Figure 15-41](#ch15.xhtml_altering_word_breaking_behavior){data-type="xref"}.
+[Figure 15-41](#ch15.xhtml_altering_word_breaking_behavior){data-type="xref"}.
 As it shows, `overflow-wrap` kicks in only if content actually
 overflows; thus, when there is an opportunity to use whitespace in the
 source to wrap lines, `overflow-wrap` will take it. By contrast,
@@ -51096,12 +50408,12 @@ their horizontal writing. The other two values offer a vertical inline
 direction, and either an RTL or LTR block direction.
 
 The `sideways-rl` and `sideways-lr` values take horizontal text and turn
-its flow "sideways," with the direction the text runs either going right
+its flow "sideways," with the direction the text runs either going right
 to left (for `sidewyas-rl`) or left to right (for `sideways-lr`). The
 difference between these values and the vertical values is that the text
 is turned whichever way is necessary to make the text read naturally.
 
-[Figure 15-43](#ch15.xhtml_writing_modes){data-type="xref"} illustrates
+[Figure 15-43](#ch15.xhtml_writing_modes){data-type="xref"} illustrates
 all five values.
 
 <figure>
@@ -51123,7 +50435,7 @@ that use `vertical-lr` flow, such as forms of Japanese.
 In vertical writing modes, the block direction is horizontal, which
 means vertical alignment of inline elements causes them to move
 horizontally. This is illustrated in
-[Figure 15-44](#ch15.xhtml_writing_modes_vertical_align){data-type="xref"}.
+[Figure 15-44](#ch15.xhtml_writing_modes_vertical_align){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch15.xhtml_writing_modes_vertical_align" class="figure">
@@ -51185,7 +50497,7 @@ with English words or numbers mixed in. In these cases,
 ```
 The `text-orientation` property affects the way characters are oriented.
 What that means is best illustrated by the following styles, rendered in
-[Figure 15-45](#ch15.xhtml_writing_modes_text_orientation){data-type="xref"}:
+[Figure 15-45](#ch15.xhtml_writing_modes_text_orientation){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .verts {writing-mode: vertical-lr;}
@@ -51204,7 +50516,7 @@ alt="css5 1545" />
 </figure>
 
 Across the top of
-[Figure 15-45](#ch15.xhtml_writing_modes_text_orientation){data-type="xref"}
+[Figure 15-45](#ch15.xhtml_writing_modes_text_orientation){data-type="xref"}
 is a basically unstyled paragraph of mixed Japanese and English text.
 Below that are three copies of that paragraph, using the writing mode
 `vertical-lr`. In the first, `text-orientation: mixed` writes the
@@ -51290,7 +50602,7 @@ All of the paragraphs are written using `writing-mode: vertical-rl`, but
 some are set to `text-combine-upright: all`, and others are not. The
 last paragraph is not set to `all`, but the `<span>` elements within it
 have been.
-[Figure 15-46](#ch15.xhtml_various_types_of_upright_combination){data-type="xref"}
+[Figure 15-46](#ch15.xhtml_various_types_of_upright_combination){data-type="xref"}
 shows the result.
 
 <figure class="coderesult">
@@ -51323,7 +50635,7 @@ only to the `<span>` elements, not all the text in the paragraph.
 This is what the `digits` value is supposed to make possible without the
 need for all the extra markup. Theoretically, you could get the same
 result as that shown in the sixth column of
-[Figure 15-46](#ch15.xhtml_various_types_of_upright_combination){data-type="xref"}
+[Figure 15-46](#ch15.xhtml_various_types_of_upright_combination){data-type="xref"}
 by applying the following CSS to the paragraph that has no `<span>`
 elements in it:
 
@@ -51576,7 +50888,7 @@ a custom-defined counter style defined with `@counter-style` (see
 ["Defining Counting
 Patterns"](#ch16.xhtml_counter-patterns){data-type="xref"}). A few
 examples of these list style types are shown in
-[Figure 16-1](#ch16.xhtml_liststyletype){data-type="xref"}.
+[Figure 16-1](#ch16.xhtml_liststyletype){data-type="xref"}.
 
 <figure>
 <div id="ch16.xhtml_liststyletype" class="figure">
@@ -51678,7 +50990,7 @@ use `none`. This value causes the user agent to refrain from putting
 anything where the marker would ordinarily be, although it does not
 interrupt the counting in ordered lists. Thus, the following markup
 would have the result shown in
-[Figure 16-2](#ch16.xhtml_list-style-type-markersoff){data-type="xref"}:
+[Figure 16-2](#ch16.xhtml_list-style-type-markersoff){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 ol li {list-style-type: decimal;}
@@ -51734,7 +51046,7 @@ secondary="strings as" data-type="indexterm"}authors to supply string
 values as list markers. This opens the field to anything you can input
 from the keyboard, as long as you don't mind having the same string used
 for every marker in the list.
-[Figure 16-3](#ch16.xhtml_liststyletype-strings){data-type="xref"} shows
+[Figure 16-3](#ch16.xhtml_liststyletype-strings){data-type="xref"} shows
 the results of the following styles:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -51797,7 +51109,7 @@ ul li {list-style-image: url(ohio.gif);}
 
 Yes, it's really that simple. One simple `url()` value, and you're
 putting images in for markers, as you can see in
-[Figure 16-4](#ch16.xhtml_list-style-image){data-type="xref"}.
+[Figure 16-4](#ch16.xhtml_list-style-image){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style-image" class="figure">
@@ -51810,7 +51122,7 @@ alt="css5 1604" />
 
 List image markers are displayed at their full size, so exercise care in
 the images you use, as the example shown in
-[Figure 16-5](#ch16.xhtml_list-style-image-bigmarkers){data-type="xref"}
+[Figure 16-5](#ch16.xhtml_list-style-image-bigmarkers){data-type="xref"}
 makes clear with its oversized markers:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -51848,7 +51160,7 @@ ul ul {list-style-image: none;}
 Since the nested list inherits the item type `square` but has been set
 to use no image for its markers, squares are used for the markers in the
 nested list, as shown in
-[Figure 16-6](#ch16.xhtml_list-style-image-sublists){data-type="xref"}.
+[Figure 16-6](#ch16.xhtml_list-style-image-sublists){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-style-image-sublists" class="figure">
@@ -51863,7 +51175,7 @@ Any []{#ch16.xhtml_idm45797024429184 primary="gradients"
 secondary="list marker style" data-type="indexterm"}image value is
 permitted for `list-style-image`, including gradient images. Thus, the
 following styles would have a result like that shown in
-[Figure 16-7](#ch16.xhtml_list-style-image-gradients){data-type="xref"}:
+[Figure 16-7](#ch16.xhtml_list-style-image-gradients){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .list01 {list-style-image:
@@ -51948,7 +51260,7 @@ desire a slightly different appearance, you can pull the marker in
 toward the content by setting the value of `list-style-position` to
 `inside`. This causes the marker to be placed "inside" the list item's
 content. The exact way this happens is undefined, but
-[Figure 16-8](#ch16.xhtml_list-style-position){data-type="xref"} shows
+[Figure 16-8](#ch16.xhtml_list-style-position){data-type="xref"} shows
 one possibility:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -52021,7 +51333,7 @@ For example:
 li {list-style: url(ohio.gif) square inside;}
 ```
 
-As shown in [Figure 16-9](#ch16.xhtml_list-style){data-type="xref"}, all
+As shown in [Figure 16-9](#ch16.xhtml_list-style){data-type="xref"}, all
 three values can be applied to list items at the same time.
 
 <figure class="coderesult">
@@ -52052,7 +51364,7 @@ li {list-style: url(img42.gif) disc outside;} /* the same thing */
 ```
 
 The result will be the same as that in
-[Figure 16-9](#ch16.xhtml_list-style){data-type="xref"} because the
+[Figure 16-9](#ch16.xhtml_list-style){data-type="xref"} because the
 implied `list-style-type` value of `disc` will override the previous
 declared value of `square`, just as the explicit value of `disc`
 overrides it in the second rule.[]{#ch16.xhtml_idm45797024055552
@@ -52071,7 +51383,7 @@ data-type="indexterm"}that we've looked at the basics of styling list
 markers, let's consider how lists are laid out in various browsers.
 We'll start with a set of three list items devoid of any markers and not
 yet placed within a list, as shown in
-[Figure 16-10](#ch16.xhtml_list-layout-threeitems){data-type="xref"}.
+[Figure 16-10](#ch16.xhtml_list-layout-threeitems){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-layout-threeitems" class="figure">
@@ -52085,7 +51397,7 @@ alt="css5 1610" />
 The border around the list items shows them to be, essentially, like
 block-level elements. Indeed, the value `list-item` is defined to
 generate a block box. Now let's add markers, as illustrated in
-[Figure 16-11](#ch16.xhtml_list-layout-threeitems-markers){data-type="xref"}.
+[Figure 16-11](#ch16.xhtml_list-layout-threeitems-markers){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_list-layout-threeitems-markers" class="figure">
@@ -52112,7 +51424,7 @@ acts like an inline element at the beginning of the content.
 So far, we have yet to add an actual list container; neither a `<ul>`
 nor an `<ol>` element is represented in the figures. We can add one to
 the mix, as shown in
-[Figure 16-12](#ch16.xhtml_list-layout-threeitems-listborder){data-type="xref"}
+[Figure 16-12](#ch16.xhtml_list-layout-threeitems-listborder){data-type="xref"}
 (it's [represented]{.keep-together} by a dashed border).
 
 <figure class="coderesult width_set_70">
@@ -52126,7 +51438,7 @@ alt="css5 1612" />
 
 As with the list items, the unordered-list element generates a block
 box, one that encompasses its descendant elements. As
-[Figure 16-12](#ch16.xhtml_list-layout-threeitems-listborder){data-type="xref"}
+[Figure 16-12](#ch16.xhtml_list-layout-threeitems-listborder){data-type="xref"}
 illustrates, the markers are placed not only outside the list item
 contents, but also outside the content area of the unordered-list
 element. The usual "indentation" you expect from lists has not yet been
@@ -52150,7 +51462,7 @@ ul, ol {padding-inline-start: 40px;}
 Neither is incorrect, but because browsers can, and have, changed the
 way they indent list content, we recommend including values for both
 properties when trying to eliminate the indentation of the list items.
-[Figure 16-13](#ch16.xhtml_list-layout-padding-v-margin){data-type="xref"}
+[Figure 16-13](#ch16.xhtml_list-layout-padding-v-margin){data-type="xref"}
 compares the two approaches.
 
 <figure class="coderesult width_set_70">
@@ -52195,7 +51507,7 @@ window.[]{#ch16.xhtml_idm45797023916144 primary=""
 startref="ix_lists_layout" data-type="indexterm"} This is most easily
 observed if very large images, or long text strings, are used for the
 list markers, as shown in
-[Figure 16-14](#ch16.xhtml_list-layout-big-markers){data-type="xref"}.
+[Figure 16-14](#ch16.xhtml_list-layout-big-markers){data-type="xref"}.
 
 <figure>
 <div id="ch16.xhtml_list-layout-big-markers" class="figure">
@@ -52240,11 +51552,11 @@ are as follows:
 
 You may have noticed that no element-sizing or other box model
 properties such as margins are included, which puts a damper on a lot of
-authors' desires for marker styling. More properties may be added in the
+authors' desires for marker styling. More properties may be added in the
 future, but for now, that's what we have.
 
 A few examples of marker styling, as declared here, are illustrated in
-[Figure 16-15](#ch16.xhtml_marker-pseudo-examples){data-type="xref"}:
+[Figure 16-15](#ch16.xhtml_marker-pseudo-examples){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 li:nth-child(1)::marker {color: gray;}
@@ -52336,7 +51648,7 @@ For example, you might want to precede every hyperlink with the text
 "(link)" to mark them when the page is printed out. This is accomplished
 with a media query and rule like the following, which has the effect
 shown in
-[Figure 16-16](#ch16.xhtml_generated-content-text){data-type="xref"}:
+[Figure 16-16](#ch16.xhtml_generated-content-text){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @media print{
@@ -52375,7 +51687,7 @@ a.pdf-doc::after {content: url(pdf-doc-icon.gif);}
 
 Suppose you want to further style such links by placing a border around
 them. This is done with a second rule, shown in
-[Figure 16-17](#ch16.xhtml_generated-content-icons){data-type="xref"}:
+[Figure 16-17](#ch16.xhtml_generated-content-icons){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a.pdf-doc {border: 1px solid gray;}
@@ -52394,7 +51706,7 @@ alt="css5 1617" />
 
 Notice that the link border extends around the generated content, just
 as the link underline extends under the "(link)" text in
-[Figure 16-16](#ch16.xhtml_generated-content-text){data-type="xref"}.
+[Figure 16-16](#ch16.xhtml_generated-content-text){data-type="xref"}.
 This happens because by default, generated content is placed inside the
 element box of the element (unless the generated content is a list
 [marker).]{.keep-together}
@@ -52417,7 +51729,7 @@ content is made block-level instead of remaining the default of
 h1::before {content: "New Section"; display: block; color: gray;}
 ```
 
-[Figure 16-18](#ch16.xhtml_generated-content-block){data-type="xref"}
+[Figure 16-18](#ch16.xhtml_generated-content-block){data-type="xref"}
 shows the result.
 
 <figure class="coderesult width-75">
@@ -52459,7 +51771,7 @@ h1::before {content: "New Section"; display: block; color: gray;
 Since the generated content is placed inside the element box of the
 `<h1>`, it will be placed under the top border of the element. It would
 also be placed within any padding, as shown in
-[Figure 16-19](#ch16.xhtml_generated-content-placement){data-type="xref"}.
+[Figure 16-19](#ch16.xhtml_generated-content-placement){data-type="xref"}.
 
 <figure class="width-75 coderesult">
 <div id="ch16.xhtml_generated-content-placement" class="figure">
@@ -52478,7 +51790,7 @@ generated-content box and the actual content box. This happens because
 the generated content has `display: block`. If you were to change it to
 `display: inline` (or remove the `display:block;` entirely), the effect
 would be as shown in
-[Figure 16-20](#ch16.xhtml_generated-content-inline){data-type="xref"}:
+[Figure 16-20](#ch16.xhtml_generated-content-inline){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {border-top: 3px solid black; padding-top: 0.25em;}
@@ -52550,7 +51862,7 @@ strings and URIs in a little more detail before we take a look at the
 String values are presented literally, even if they contain what would
 otherwise be markup of some kind. Therefore, the following rule would be
 inserted verbatim into the document, as shown in
-[Figure 16-21](#ch16.xhtml_generated-content-strings-verbatim){data-type="xref"}:
+[Figure 16-21](#ch16.xhtml_generated-content-strings-verbatim){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h2::before {content: "<em>&para;</em> "; color: gray;}
@@ -52572,7 +51884,7 @@ Unicode line-feed character, which is hexadecimal position `A`).
 Conversely, if you have a long string value and need to break it up over
 multiple lines, you escape out the line feeds with the `\` character.
 These are both demonstrated by the following rule and illustrated in
-[Figure 16-22](#ch16.xhtml_generated-content-strings-newlines){data-type="xref"}:
+[Figure 16-22](#ch16.xhtml_generated-content-strings-newlines){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h2::before {content: "We insert this text before all H2 elements because \
@@ -52632,7 +51944,7 @@ a[href]::after {content: attr(href);}
 Again, this leads to the problem of the generated content running smack
 into the actual content. To solve this, add some string values to the
 declaration, with the result shown in
-[Figure 16-23](#ch16.xhtml_generated-content-strings-attr-urls){data-type="xref"}:
+[Figure 16-23](#ch16.xhtml_generated-content-strings-attr-urls){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 a[href]::after {content: " [" attr(href) "]";}
@@ -52670,7 +51982,7 @@ body::before {
 
 Note that if an attribute doesn't exist, an empty string is put in its
 place. This is what happens in
-[Figure 16-24](#ch16.xhtml_generated-content-attr-missing){data-type="xref"},
+[Figure 16-24](#ch16.xhtml_generated-content-attr-missing){data-type="xref"},
 in which the previous example is applied to a document whose `body`
 element has no `alink` attribute.
 
@@ -52765,7 +52077,7 @@ store a list of favorite quotations. Here's one entry in the list:
 
 To present the data in a useful way, you could employ the following
 rules, with the result shown in
-[Figure 16-25](#ch16.xhtml_generated-content-quotes){data-type="xref"}:
+[Figure 16-25](#ch16.xhtml_generated-content-quotes){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 quotation {display: block;}
@@ -52806,7 +52118,7 @@ quote::after, q::after {content: close-quote;}
 
 When applied to the following XML, these rules will have the effect
 shown in
-[Figure 16-26](#ch16.xhtml_generated-content-quotes-nested){data-type="xref"}:
+[Figure 16-26](#ch16.xhtml_generated-content-quotes-nested){data-type="xref"}:
 
 ``` {code-language="html" data-type="programlisting"}
 <quotation>
@@ -52827,7 +52139,7 @@ alt="css5 1626" />
 If the nested level of quotation marks is greater than the number of
 defined pairs, the last pair is reused for the deeper levels. Thus, if
 we had applied the following rule to the markup shown in
-[Figure 16-26](#ch16.xhtml_generated-content-quotes-nested){data-type="xref"},
+[Figure 16-26](#ch16.xhtml_generated-content-quotes-nested){data-type="xref"},
 the inner quote would have had double quotation marks, the same as the
 outer quote:
 
@@ -53066,7 +52378,7 @@ values. To see how this works, let's use an XML-based ordered list:
 
 By applying the following rules to XML employing this structure, you
 would get the result shown in
-[Figure 16-27](#ch16.xhtml_counters-counting-items){data-type="xref"}:
+[Figure 16-27](#ch16.xhtml_counters-counting-items){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 list[type="ordered"] {counter-reset: ordered;}  /* defaults to 0 */
@@ -53106,7 +52418,7 @@ h3::before {content: counter(chapter) "." counter(section) "."
 ```
 
 These rules would have the effect shown in
-[Figure 16-28](#ch16.xhtml_counters-counting-headings){data-type="xref"}.
+[Figure 16-28](#ch16.xhtml_counters-counting-headings){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counters-counting-headings" class="figure">
@@ -53117,7 +52429,7 @@ alt="css5 1628" />
 </div>
 </figure>
 
-[Figure 16-28](#ch16.xhtml_counters-counting-headings){data-type="xref"}
+[Figure 16-28](#ch16.xhtml_counters-counting-headings){data-type="xref"}
 illustrates some important points about counter resetting and
 incrementing. For instance, notice that the counters are reset on the
 elements, whereas the actual generated-content counters are inserted via
@@ -53174,7 +52486,7 @@ It's also possible to define a list style for each counter as part of
 the `counter()` format. You can do this by adding a comma-separated
 `list-style-type` keyword after the counter's identifier. The following
 modification of the heading-counter example is illustrated in
-[Figure 16-29](#ch16.xhtml_counters-counting-headings-changed){data-type="xref"}:
+[Figure 16-29](#ch16.xhtml_counters-counting-headings-changed){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {counter-reset: section subsec;
@@ -53272,7 +52584,7 @@ nesting creates a new counter appended to the old: 1, 1.1, 1.2, 1.2.1,
 it *can* be done with `counters()`. What a difference an *s* makes.
 
 To create the nested-counter style shown in
-[Figure 16-30](#ch16.xhtml_counters-scope-nested){data-type="xref"}, you
+[Figure 16-30](#ch16.xhtml_counters-scope-nested){data-type="xref"}, you
 need these rules:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -53301,7 +52613,7 @@ space, colon, and space to be added after all of those counters.
 As with `counter()`, you can define a list style for nested counters,
 but the same style applies to all of the counters. Thus, if you changed
 your previous CSS to read as follows, the list items in
-[Figure 16-30](#ch16.xhtml_counters-scope-nested){data-type="xref"}
+[Figure 16-30](#ch16.xhtml_counters-scope-nested){data-type="xref"}
 would all use lowercase letters for the counters instead of numbers:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -53369,7 +52681,7 @@ markers, the block might look something like this:
 ol {list-style: triangles;}
 ```
 
-[Figure 16-31](#ch16.xhtml_counter-patterns-triangles){data-type="xref"}
+[Figure 16-31](#ch16.xhtml_counter-patterns-triangles){data-type="xref"}
 shows the result.
 
 <figure class="coderesult">
@@ -53463,7 +52775,7 @@ data-type="indexterm"}simplest kind of counter pattern is a `fixed`
 system. Fixed systems are used when you want to define an exact sequence
 of counter markers that doesn't repeat after you've run out of markers.
 Consider this example, which has the result shown in
-[Figure 16-32](#ch16.xhtml_counter-patterns-fixed){data-type="xref"}:
+[Figure 16-32](#ch16.xhtml_counter-patterns-fixed){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @counter-style emoji {
@@ -53490,7 +52802,7 @@ ordered lists.
 Notice that the symbols in the `symbols` descriptor are separated by
 spaces. If they were all jammed together with no space separation, you'd
 get a result like that in
-[Figure 16-33](#ch16.xhtml_counter-patterns-fixed-tooclose){data-type="xref"}.
+[Figure 16-33](#ch16.xhtml_counter-patterns-fixed-tooclose){data-type="xref"}.
 
 <figure class="coderesult">
 <div id="ch16.xhtml_counter-patterns-fixed-tooclose" class="figure">
@@ -53560,7 +52872,7 @@ data-type="indexterm"}step beyond fixed patterns is `cyclic` patterns,
 which are fixed patterns that repeat. Let's take the fixed emoji pattern
 from the previous section and convert it to cyclic. This will have the
 result shown in
-[Figure 16-34](#ch16.xhtml_counter-patterns-cyclic){data-type="xref"}:
+[Figure 16-34](#ch16.xhtml_counter-patterns-cyclic){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @counter-style emojiverse {
@@ -53625,7 +52937,7 @@ value of the `suffix` descriptor, which has a cousin descriptor,
 With these descriptors, you can define symbols that are inserted before
 and after every marker in the pattern. Thus, we might give our thinker
 ASCII wings like so, as illustrated in
-[Figure 16-35](#ch16.xhtml_counter-patterns-cyclic-wings){data-type="xref"}:
+[Figure 16-35](#ch16.xhtml_counter-patterns-cyclic-wings){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @counter-style wingthinker {
@@ -53660,7 +52972,7 @@ default suffix from your markers. Here's one example of how to do so:
 
 You can also extend the markers in creative ways by using `prefix` and
 `suffix`, as shown in
-[Figure 16-36](#ch16.xhtml_counter-patterns-cyclic-thisisfine){data-type="xref"}:
+[Figure 16-36](#ch16.xhtml_counter-patterns-cyclic-thisisfine){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @counter-style thisisfine {
@@ -53744,7 +53056,7 @@ symbols increases by one. Each marker is made up of a single symbol that
 is repeated the number of times the symbol sequence has repeated. This
 may be familiar to you from footnote symbols, or some varieties of
 alphabetic systems. Examples of each are shown here, with the result in
-[Figure 16-37](#ch16.xhtml_counter-patterns-symbolic){data-type="xref"}:
+[Figure 16-37](#ch16.xhtml_counter-patterns-symbolic){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @counter-style footnotes {
@@ -53770,7 +53082,7 @@ alt="css5 1637" />
 One thing to watch out for is that if you have only a few symbols
 applied to a very long list, the markers will quickly get quite long.
 Consider the letter counters shown in the previous example.
-[Figure 16-38](#ch16.xhtml_counter-patterns-symbolic-long){data-type="xref"}
+[Figure 16-38](#ch16.xhtml_counter-patterns-symbolic-long){data-type="xref"}
 shows what the 135th through 150th entries in a list using that system
 would look like.
 
@@ -53808,7 +53120,7 @@ values, with each pair separated from the others by commas. Let's
 suppose we want to stop the letter-doubling after three iterations. We
 have five symbols, so we can restrict their use to the first 15 list
 items like so, with the result shown in
-[Figure 16-39](#ch16.xhtml_counter-patterns-symbolic-ranged){data-type="xref"}
+[Figure 16-39](#ch16.xhtml_counter-patterns-symbolic-ranged){data-type="xref"}
 (which has been arranged in two columns to keep the figure size
 reasonable):
 
@@ -53907,7 +53219,7 @@ may be familiar to you from the column labels.
 To illustrate this, let's reuse the letter symbols from the previous
 section, and change from a symbolic to an alphabetic system. The result
 is shown in
-[Figure 16-40](#ch16.xhtml_counter-patterns-alphabetic){data-type="xref"}
+[Figure 16-40](#ch16.xhtml_counter-patterns-alphabetic){data-type="xref"}
 (once again [formatted]{.keep-together} as two columns to fit):
 
 ``` {code-language="css" data-type="programlisting"}
@@ -53984,7 +53296,7 @@ breeze to set up binary counting:
 ```
 
 Examples of these three counting patterns are shown in
-[Figure 16-41](#ch16.xhtml_counter-patterns-numeric-three-systems){data-type="xref"}.
+[Figure 16-41](#ch16.xhtml_counter-patterns-numeric-three-systems){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch16.xhtml_counter-patterns-numeric-three-systems"
@@ -54030,7 +53342,7 @@ is, closer to the counter) of any prefix and suffix symbols.
 So let's say we want to use accounting-style formatting, and to add
 prefix and suffix symbols to all counters. That would be done as
 follows, with the result shown in
-[Figure 16-42](#ch16.xhtml_counter-patterns-numeric-negative){data-type="xref"}:
+[Figure 16-42](#ch16.xhtml_counter-patterns-numeric-negative){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @counter-style accounting {
@@ -54101,7 +53413,7 @@ ol.padded {list-style: padded;}
 Given these styles, ordered lists will all used decimal counting by
 default: 1, 2, 3, 4, 5... Those with a `class` of `padded` will use
 padded decimal counting: 0001, 0002, 0003, 0004, 0005...
-[Figure 16-43](#ch16.xhtml_counter-patterns-numeric-pad){data-type="xref"}
+[Figure 16-43](#ch16.xhtml_counter-patterns-numeric-pad){data-type="xref"}
 shows an example.
 
 <figure>
@@ -54156,7 +53468,7 @@ height="43" width="44"}1."
 Note that negative symbols count toward symbol length and thus eat into
 padding. Also note that the negative sign will come *outside* any
 padding. Given the following styles, we'd get the result shown in
-[Figure 16-44](#ch16.xhtml_counter-patterns-numeric-negativepad){data-type="xref"}:[]{#ch16.xhtml_idm45797019745072
+[Figure 16-44](#ch16.xhtml_counter-patterns-numeric-negativepad){data-type="xref"}:[]{#ch16.xhtml_idm45797019745072
 primary="" startref="ix_counter_num"
 data-type="indexterm"}[]{#ch16.xhtml_idm45797019709440 primary=""
 startref="ix_num_ctr_style"
@@ -54248,7 +53560,7 @@ dice-counting system:
 ```
 
 The results of both counting systems are shown in
-[Figure 16-45](#ch16.xhtml_counter-patterns-additive-romandice){data-type="xref"};
+[Figure 16-45](#ch16.xhtml_counter-patterns-additive-romandice){data-type="xref"};
 this time, each list has been formatted as three columns.
 
 <figure>
@@ -54363,7 +53675,7 @@ However, you can vary the hexadecimal counting for different contexts.
 As an example, you could set up basic hex counting and then define
 variant display patterns, as shown in the following code and illustrated
 in
-[Figure 16-46](#ch16.xhtml_counter-patterns-extends-fourhex){data-type="xref"}.
+[Figure 16-46](#ch16.xhtml_counter-patterns-extends-fourhex){data-type="xref"}.
 
 ::: {.note data-type="note"}
 ###### Note {#ch16.xhtml_sigil_toc_id_1599}
@@ -54465,7 +53777,7 @@ counter will be spoken as "oh" (capital letter *O*).
 
 The `spell-out` value might seem fairly straightforward but it's a
 little more complicated than it first appears. What is spelled out by
-the user agent is a "counter representation," which is then spelled out
+the user agent is a "counter representation," which is then spelled out
 letter by letter. It's hard to predict what that will mean, since the
 method of generating a counter representation isn't precisely defined:
 the specification says, "Counter representations are constructed by
@@ -54479,7 +53791,7 @@ With the value `numbers`, the counters are spoken as numbers in the
 document language. This is similar to the previous code sample, where
 ⚅⚅⚂ is spoken as "fifteen," at least in English documents. If it's
 another language, that language is used for counting: "quince" in
-Spanish, "fünfzehn" in German, "shíwǔ" in Chinese, and so on.
+Spanish, "fünfzehn" in German, "shíwǔ" in Chinese, and so on.
 
 Given `bullets`, the user agent says whatever it says when reading a
 bullet (marker) in an unordered list. This may mean saying nothing at
@@ -54596,7 +53908,7 @@ system*. This system describes the position of a point in space by using
 two numbers (for two-dimensional placement) or three numbers (for
 three-dimensional placement). In CSS, the system uses three axes: the
 x-axis (horizontal); the y-axis (vertical); and the z-axis (depth). This
-is illustrated in [Figure 17-1](#ch17.xhtml_tf_fig01){data-type="xref"}.
+is illustrated in [Figure 17-1](#ch17.xhtml_tf_fig01){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig01" class="figure">
@@ -54615,7 +53927,7 @@ along the y-axis, while negative values go upward along the y-axis.
 That might seem a little weird, since we tend to think that higher
 numbers should place something higher up, not lower down, as many of us
 learned in pre-algebra. (This is why the "y" label is at the bottom of
-the y-axis in [Figure 17-1](#ch17.xhtml_tf_fig01){data-type="xref"}: the
+the y-axis in [Figure 17-1](#ch17.xhtml_tf_fig01){data-type="xref"}: the
 labels are placed in the positive direction on all three axes.) If you
 are experienced with absolute positioning in CSS, think of the `top`
 property values for absolutely positioned elements: they get moved
@@ -54664,7 +53976,7 @@ element along the z-axis appears to move it closer or farther away.
 The really important thing to remember is that every element carries its
 own frame of reference and so considers its axes with respect to itself.
 If you rotate an element, the axes rotate along with it, as illustrated
-in [Figure 17-2](#ch17.xhtml_tf_fig02){data-type="xref"}. Any further
+in [Figure 17-2](#ch17.xhtml_tf_fig02){data-type="xref"}. Any further
 transforms are calculated with respect to those rotated axes, not the
 axes of the display.
 
@@ -54692,7 +54004,7 @@ startref="ix_cartesian"
 data-type="indexterm"}[]{#ch17.xhtml_idm45797018881456 primary=""
 startref="ix_xyz_coord" data-type="indexterm"} In other words, it will
 rotate in the *xy* plane, as illustrated in
-[Figure 17-3](#ch17.xhtml_tf_fig05){data-type="xref"}.
+[Figure 17-3](#ch17.xhtml_tf_fig05){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig05" class="figure">
@@ -54707,7 +54019,7 @@ Speaking of []{#ch17.xhtml_idm45797018877008
 primary="spherical coordinate system" data-type="indexterm"}rotations,
 the other coordinate system used in CSS transforms is a *spherical
 system*, which describes angles in 3D space. It's illustrated in
-[Figure 17-4](#ch17.xhtml_tf_fig03){data-type="xref"}.
+[Figure 17-4](#ch17.xhtml_tf_fig03){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig03" class="figure">
@@ -54724,7 +54036,7 @@ x- and y-axes. When it comes to rotations, a 2D rotation actually
 describes a rotation around the z-axis. Similarly, rotations around the
 x-axis tilt the element toward or away from you, and rotations around
 the y-axis turn the element from side to side. These are illustrated in
-[Figure 17-5](#ch17.xhtml_tf_fig04){data-type="xref"}.
+[Figure 17-5](#ch17.xhtml_tf_fig04){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig04" class="figure">
@@ -54819,7 +54131,7 @@ element, its siblings don't automatically move out of the way.
 Now, the value entry \<*`transform-list`*\> requires some explanation.
 It refers to a list of one or more transform functions, one after the
 other, in space-separated format. It looks something like this, with the
-result shown in [Figure 17-6](#ch17.xhtml_tf_fig06){data-type="xref"}:
+result shown in [Figure 17-6](#ch17.xhtml_tf_fig06){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #example {transform: rotate(30deg) skewX(-25deg) scaleY(2);}
@@ -54839,7 +54151,7 @@ The functions are processed one at a time, starting with the first
 processing order is important, because changing the order can lead to
 drastically different results. Consider the following two rules, which
 have the results shown in
-[Figure 17-7](#ch17.xhtml_tf_fig07){data-type="xref"}:
+[Figure 17-7](#ch17.xhtml_tf_fig07){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img#one {transform: translateX(200px) rotate(45deg);}
@@ -54882,7 +54194,7 @@ In addition, transforms are not usually cumulative. If you apply a
 transform to an element and then later want to add a transformation, you
 need to restate the original transform. Consider the following
 scenarios, illustrated in
-[Figure 17-8](#ch17.xhtml_tf_fig08){data-type="xref"}:
+[Figure 17-8](#ch17.xhtml_tf_fig08){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #ex01 {transform: rotate(30deg) skewX(-25deg);}
@@ -55045,7 +54357,7 @@ y value, it's assumed to be 0. Thus, `translate(2em)` is treated as if
 it were `translate(2em,0)`, which is also the same as `translateX(2em)`.
 []{#ch17.xhtml_idm45797018518848 primary="translateZ() function"
 data-type="indexterm"}See
-[Figure 17-9](#ch17.xhtml_tf_fig09){data-type="xref"} for some examples
+[Figure 17-9](#ch17.xhtml_tf_fig09){data-type="xref"} for some examples
 of 2D translation.
 
 <figure>
@@ -55097,7 +54409,7 @@ is a shorthand function that incorporates the x, y, and z translation
 values into a single function. This is handy if you want to move an
 element over, up, and forward in one fell swoop.
 
-See [Figure 17-10](#ch17.xhtml_tf_fig10){data-type="xref"} for an
+See [Figure 17-10](#ch17.xhtml_tf_fig10){data-type="xref"} for an
 illustration of how 3D translation works. Each arrow represents the
 translation along that axis, arriving at a point in 3D space. The dashed
 lines show the distance and direction from the origin point (the
@@ -55158,7 +54470,7 @@ y-axis translation. With three values, they are taken in the order
 `x y z`. Any missing values default to `0px`.
 
 If you refer back to
-[Figure 17-9](#ch17.xhtml_tf_fig09){data-type="xref"}, the following
+[Figure 17-9](#ch17.xhtml_tf_fig09){data-type="xref"}, the following
 would yield the same results as are shown there:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -55172,7 +54484,7 @@ translate: 110% 25px;
 ```
 
 Similarly, the following would have the same effect diagrammed in
-[Figure 17-10](#ch17.xhtml_tf_fig10){data-type="xref"}:
+[Figure 17-10](#ch17.xhtml_tf_fig10){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 translate: 150px -50px 100px;
@@ -55245,7 +54557,7 @@ omitted second value is always set to 0. Using `scale(1)` will scale an
 element to be exactly the same size it was before you scaled it, as will
 `scale(1,1)`---just in case you were dying to do that.
 
-[Figure 17-11](#ch17.xhtml_tf_fig11){data-type="xref"} shows a few
+[Figure 17-11](#ch17.xhtml_tf_fig11){data-type="xref"} shows a few
 examples of element scaling, using the single-axis scaling functions as
 well as the combined `scale()`.
 
@@ -55340,7 +54652,7 @@ direction. With three values, the third is used to scale in the z-axis
 direction.
 
 The following would have the same results as shown in
-[Figure 17-11](#ch17.xhtml_tf_fig11){data-type="xref"}.
+[Figure 17-11](#ch17.xhtml_tf_fig11){data-type="xref"}.
 
 ``` {code-language="css" data-type="programlisting"}
 scale: 2 1;   /* equivalent to 200% 100% */
@@ -55417,7 +54729,7 @@ rotates the element around the z-axis. In a similar manner, `rotateX()`
 causes rotation around the x-axis, thus causing the element to tilt
 toward or away from you; and `rotateY()` rotates the element around its
 y-axis, as though it were a door. These are all illustrated in
-[Figure 17-12](#ch17.xhtml_tf_fig12){data-type="xref"}.
+[Figure 17-12](#ch17.xhtml_tf_fig12){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig12" class="figure">
@@ -55432,7 +54744,7 @@ alt="css5 1712" />
 ###### Warning {#ch17.xhtml_sigil_toc_id_1638}
 
 Several of the examples in
-[Figure 17-12](#ch17.xhtml_tf_fig12){data-type="xref"} present a fully
+[Figure 17-12](#ch17.xhtml_tf_fig12){data-type="xref"} present a fully
 3D appearance. This is possible with certain values of the
 `transform-style` and `perspective` properties, described in ["Choosing
 a 3D Style"](#ch17.xhtml_choosing-a-3d-style){data-type="xref"} and
@@ -55470,7 +54782,7 @@ To start with a basic example, the 3D equivalent of `rotateZ(45deg)` is
 the x- and y-axes, and a magnitude of 1 along the z-axis; in other
 words, the z-axis. The element is thus rotated 45 degrees around that
 vector, as shown in
-[Figure 17-13](#ch17.xhtml_tf_fig13){data-type="xref"}. This figure also
+[Figure 17-13](#ch17.xhtml_tf_fig13){data-type="xref"}. This figure also
 shows the appropriate `rotate3d()` values to rotate an element by 45
 degrees around the x- and y-axes.
 
@@ -55487,7 +54799,7 @@ A little more complicated is something like
 `rotate3d(-0.95,0.5,1,45deg)`, where the described vector points off
 into 3D space between the axes. To understand how this works, let's
 start with a basic example: `rotateZ(45deg)` (illustrated in
-[Figure 17-13](#ch17.xhtml_tf_fig13){data-type="xref"}). The equivalent
+[Figure 17-13](#ch17.xhtml_tf_fig13){data-type="xref"}). The equivalent
 is `rotate3d(0,0,1,45deg)`. The first three numbers describe the
 components of a vector that has no x or y magnitude, and a z magnitude
 of 1. Thus, it points along the z-axis in a positive direction---that
@@ -55523,7 +54835,7 @@ pixels on a side, the vector's components are 190 pixels to the *left*
 along the x-axis, 100 pixels down along the y-axis, and 200 pixels
 toward the views along the z-axis. The vector goes from the origin point
 (0, 0, 0) to the point (--190 px, 100 px, 200 px).
-[Figure 17-14](#ch17.xhtml_tf_fig14){data-type="xref"} depicts that
+[Figure 17-14](#ch17.xhtml_tf_fig14){data-type="xref"} depicts that
 vector, as well as the final result presented to the viewer.
 
 So the vector is like a metal rod speared through the element being
@@ -55531,7 +54843,7 @@ rotated. As we look back along the line of the vector, the rotation is
 45 degrees clockwise. But since the vector points left, down, and
 forward, that means the top-left corner of the element rotates toward
 the viewer, and the bottom right rotates away, as shown in
-[Figure 17-14](#ch17.xhtml_tf_fig14){data-type="xref"}.
+[Figure 17-14](#ch17.xhtml_tf_fig14){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig14" class="figure">
@@ -55560,7 +54872,7 @@ rotates closer and a bit to the right. []{#ch17.xhtml_idm45797018129840
 primary="" startref="ix_rotate_3d_func" data-type="indexterm"}This is
 distinctly different from the result of
 `rotateX(45deg) rotateY(45deg) rotateZ(0deg)`, as you can see in
-[Figure 17-15](#ch17.xhtml_tf_fig15){data-type="xref"}.
+[Figure 17-15](#ch17.xhtml_tf_fig15){data-type="xref"}.
 
 <figure>
 <div id="ch17.xhtml_tf_fig15" class="figure">
@@ -55621,12 +54933,12 @@ transform: rotate(90deg);     rotate: 90deg;
 The last line is similar to the handling of the `rotate()` function
 discussed earlier: a rotation with a single degree value is a 2D
 rotation on the *xy* plane. (See
-[Figure 17-12](#ch17.xhtml_tf_fig12){data-type="xref"} for a refresher.)
+[Figure 17-12](#ch17.xhtml_tf_fig12){data-type="xref"} for a refresher.)
 
 If you want to define a 3D vector as the axis of rotation, the value of
 `rotate` looks a little different. For example, suppose we want to
 rotate an element 45 degrees around the vector --0.95, 0.5, 1, as
-illustrated in [Figure 17-14](#ch17.xhtml_tf_fig14){data-type="xref"}.
+illustrated in [Figure 17-14](#ch17.xhtml_tf_fig14){data-type="xref"}.
 Either of the following two declarations will have this effect:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -55717,7 +55029,7 @@ In []{#ch17.xhtml_idm45797017879168 primary="skew() function"
 data-type="indexterm"}both cases, you supply an angle value, and the
 element is skewed to match that angle. It's much easier to show skewing
 rather than try to explain it in words, so
-[Figure 17-16](#ch17.xhtml_tf_fig16){data-type="xref"} shows skew
+[Figure 17-16](#ch17.xhtml_tf_fig16){data-type="xref"} shows skew
 examples along the x- and y-axes.
 
 <figure>
@@ -55745,7 +55057,7 @@ alt="css5 1716" />
 ```
 Using `skew(a,b)` is different from including `skewX(a)` with
 `skewY(b)`. The former specifies a 2D skew using the matrix operation
-`[ax,ay]`. [Figure 17-17](#ch17.xhtml_tf_fig17){data-type="xref"} shows
+`[ax,ay]`. [Figure 17-17](#ch17.xhtml_tf_fig17){data-type="xref"} shows
 examples of this matrix skewing and how they differ from double-skew
 transforms that look the same at first but aren't.
 
@@ -55841,7 +55153,7 @@ That's the CSS syntax used to describe this transformation matrix:
 ```
 
 Right. So what does that do? It has the result shown in
-[Figure 17-18](#ch17.xhtml_tf_fig20){data-type="xref"}, which is exactly
+[Figure 17-18](#ch17.xhtml_tf_fig20){data-type="xref"}, which is exactly
 the same result as writing this:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -55908,7 +55220,7 @@ and write it out as this matrix:
 ```
 
 Both have an end state equivalent to the following, which is depicted in
-[Figure 17-19](#ch17.xhtml_tf_fig21){data-type="xref"}.
+[Figure 17-19](#ch17.xhtml_tf_fig21){data-type="xref"}.
 
 ``` {code-language="css" data-type="programlisting"}
 perspective(500px) rotateY(33deg) translate(24px,25px) skewX(-10deg)
@@ -56030,7 +55342,7 @@ center of the untransformed element's position) and its base as the
 browser window that you're looking through. A shorter distance between
 apex and base will create a shallower pyramid, and thus a more extreme
 distortion. This is illustrated in
-[Figure 17-20](#ch17.xhtml_tf_fig18){data-type="xref"}, with
+[Figure 17-20](#ch17.xhtml_tf_fig18){data-type="xref"}, with
 hypothetical pyramids representing 200-pixel, 800-pixel, and 2,000-pixel
 perspective distances.
 
@@ -56048,7 +55360,7 @@ Safari](https://developer.apple.com/library/archive/documentation/InternetWeb/Co
 Apple writes that perspective values below `300px` tend to be extremely
 distorted, values above `2000px` create "very mild" distortion, and
 values between `500px` and `1000px` create "moderate perspective." To
-illustrate this, [Figure 17-21](#ch17.xhtml_tf_fig19){data-type="xref"}
+illustrate this, [Figure 17-21](#ch17.xhtml_tf_fig19){data-type="xref"}
 shows a series of elements with the exact same rotation as displayed
 with varying [perspective values.]{.keep-together}
 
@@ -56064,7 +55376,7 @@ alt="css5 1721" />
 Perspective values must always be positive, nonzero lengths. Any other
 value will cause the `perspective()` function to be ignored. Also note
 that its placement in the list of functions is important. If you look at
-the code for [Figure 17-21](#ch17.xhtml_tf_fig19){data-type="xref"}, the
+the code for [Figure 17-21](#ch17.xhtml_tf_fig19){data-type="xref"}, the
 `perspective()`{.keep-together} function comes before the `rotateY()`
 function:
 
@@ -56077,7 +55389,7 @@ function:
 
 If you were to reverse the order, the rotation would happen before the
 perspective is applied, so all four examples in
-[Figure 17-21](#ch17.xhtml_tf_fig19){data-type="xref"} would look
+[Figure 17-21](#ch17.xhtml_tf_fig19){data-type="xref"} would look
 exactly the same. So if you plan to apply a perspective value via the
 list of transform functions, make sure it comes first, or at the [very
 least]{.keep-together} before any transforms that depend on it.
@@ -56158,7 +55470,7 @@ top-left corner. For example, `transform-origin: 67% 40%` will place the
 transform origin 67 percent of the width to the right of the element's
 left side, and 40 percent of the element's height down from the
 element's top side.
-[Figure 17-22](#ch17.xhtml_tf_fig22){data-type="xref"} illustrates a few
+[Figure 17-22](#ch17.xhtml_tf_fig22){data-type="xref"} illustrates a few
 origin calculations.
 
 <figure>
@@ -56173,7 +55485,7 @@ alt="css5 1722" />
 All right, so if you change the origin, what happens? The easiest way to
 visualize this is with 2D rotations. Suppose you rotate an element 45
 degrees to the right. Its final placement will depend on its origin.
-[Figure 17-23](#ch17.xhtml_tf_fig23){data-type="xref"} illustrates the
+[Figure 17-23](#ch17.xhtml_tf_fig23){data-type="xref"} illustrates the
 effects of several transform origins; in each case, the transform origin
 is marked with a circle.
 
@@ -56193,7 +55505,7 @@ bottom-right origin will cause it to shrink toward that corner.
 Similarly, skewing an element with respect to its center will result in
 the same shape as if it's skewed with respect to the top-right corner,
 but the placement of the shape will be different. Some examples are
-shown in [Figure 17-24](#ch17.xhtml_tf_fig24){data-type="xref"}; again,
+shown in [Figure 17-24](#ch17.xhtml_tf_fig24){data-type="xref"}; again,
 each transform origin is marked with a circle.
 
 <figure>
@@ -56282,7 +55594,7 @@ the element in question, as we would expect from HTML. The default
 `view-box`, on the other hand, causes all transforms to be calculated
 with respect to the origin of the coordinate system established by the
 SVG `viewBox` attribute. The difference is illustrated in
-[Figure 17-25](#ch17.xhtml_transform-box-compare){data-type="xref"},
+[Figure 17-25](#ch17.xhtml_transform-box-compare){data-type="xref"},
 which is the result of the following SVG file and the CSS it contains:
 
 ``` {code-language="svg" data-type="programlisting"}
@@ -56374,7 +55686,7 @@ outer
 ```
 
 So you do that and get the result shown in
-[Figure 17-26](#ch17.xhtml_tf_fig25){data-type="xref"}---more or less
+[Figure 17-26](#ch17.xhtml_tf_fig25){data-type="xref"}---more or less
 what you might expect.
 
 <figure>
@@ -56396,7 +55708,7 @@ Well, that's exactly what it is, because the default value of
 moved-forward, tilted-back state, and that was applied to the front of
 the outer `<div>` as if it were an image. So when you rotated the outer
 `<div>`, as shown in
-[Figure 17-27](#ch17.xhtml_tf_fig27){data-type="xref"}, the flat picture
+[Figure 17-27](#ch17.xhtml_tf_fig27){data-type="xref"}, the flat picture
 rotated right along with it:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -56409,7 +55721,7 @@ different. The inner `div` will be drawn as a full 3D object with
 respect to its parent outer `<div>`, floating in space nearby, and *not*
 as a picture pasted on the front of the outer `<div>`. You can see the
 results of this change in
-[Figure 17-27](#ch17.xhtml_tf_fig27){data-type="xref"}:
+[Figure 17-27](#ch17.xhtml_tf_fig27){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div#outer {transform: perspective(750px) rotateY(60deg) rotateX(-20deg);
@@ -56519,7 +55831,7 @@ perspective to each element that has the rule applied.
 With the `perspective` property, on the other hand, you're creating a
 shared perspective for all the child elements of the element that
 received the property. Here's an illustration of the difference, as
-shown in [Figure 17-28](#ch17.xhtml_tf_fig28){data-type="xref"}:
+shown in [Figure 17-28](#ch17.xhtml_tf_fig28){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 div {transform-style: preserve-3d; border: 1px solid gray; width: 660px;}
@@ -56540,7 +55852,7 @@ alt="css5 1728" />
 </div>
 </figure>
 
-In [Figure 17-28](#ch17.xhtml_tf_fig28){data-type="xref"}, we first see
+In [Figure 17-28](#ch17.xhtml_tf_fig28){data-type="xref"}, we first see
 a line of images that haven't been transformed. In the second line, each
 image has been rotated 50 gradians (equivalent to 45 degrees) toward us,
 but each one within its own individual perspective.
@@ -56613,7 +55925,7 @@ parent container.
 
 As with most 3D transform properties, this is more easily demonstrated
 than described. Consider the following CSS and markup, illustrated in
-[Figure 17-29](#ch17.xhtml_tf_fig29){data-type="xref"}:
+[Figure 17-29](#ch17.xhtml_tf_fig29){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #container {perspective: 850px; perspective-origin: 50% 0%;}
@@ -56641,7 +55953,7 @@ lines point at a common vanishing point, the top center of the container
 `<div>` (because of the `50% 0%` value for `perspective-origin`).
 
 Now consider that same setup with various perspective origins
-([Figure 17-30](#ch17.xhtml_tf_fig30){data-type="xref"}).
+([Figure 17-30](#ch17.xhtml_tf_fig30){data-type="xref"}).
 
 <figure class="bordernone">
 <div id="ch17.xhtml_tf_fig30" class="figure">
@@ -56707,7 +56019,7 @@ the viewer, or not. That's it.
 So let's say you flip over two elements, one with `backface-visibility`
 set to [the default]{.keep-together} value of `visible` and the other
 set to `hidden`. You get the result shown in
-[Figure 17-31](#ch17.xhtml_tf_fig31){data-type="xref"}:
+[Figure 17-31](#ch17.xhtml_tf_fig31){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 span {border: 1px solid red; display: inline-block;}
@@ -56759,7 +56071,7 @@ A variant of this example uses the same markup, but slightly different
 CSS to show the image's backface when it's flipped over. This is
 probably more what was intended, since it makes information look like
 it's literally written on the back of the image. It leads to the end
-result shown in [Figure 17-32](#ch17.xhtml_tf_fig32){data-type="xref"}:
+result shown in [Figure 17-32](#ch17.xhtml_tf_fig32){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 section {position: relative;}
@@ -56879,7 +56191,7 @@ primary="transitions" secondary="animatable properties for"
 data-type="indexterm"}we say *animatable*, we mean any properties that
 can be animated, whether through transitions or animations (the subject
 of the next chapter,
-[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}). The
+[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}). The
 property definition boxes throughout the book indicate whether a given
 property is [animatable.]{.keep-together}
 :::
@@ -56914,7 +56226,7 @@ As another example, you may want some drop-down menus to expand [or
 become]{.keep-together} visible over 200 milliseconds (instead of
 instantly, which may be jarring). With transitions, you can make a
 drop-down menu appear slowly. In
-[Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}
+[Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}
 [[![](./images/play-icon-round.png){height="100"
 width="100"}]{.play}](https://meyerweb.github.io/csstdg5figs/18-transitions/menus-initial-midtransition-and-final-state.xhtml){.play},
 we transition the submenu's height by making a scale transform. This is
@@ -56930,7 +56242,7 @@ data-type="indexterm"}rapid transitions, particularly those that move
 over large distances or take up major parts of a page, *can potentially
 lead to seizures in some users.* To reduce or eliminate this risk, use
 the `prefers-reduced-motion` media query (see
-[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}). Always
+[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}). Always
 keep these concerns in mind, and ensure the accessibility of your
 designs to people with epilepsy and other seizure disorders.
 :::
@@ -56958,7 +56270,7 @@ In CSS, transitions are written using four transition properties:
 To []{#ch18.xhtml_ix_transition_transform primary="transitions"
 secondary="on transform property" secondary-sortas="transform property"
 data-type="indexterm"}create the drop-down navigation in
-[Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}, we used all four
+[Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}, we used all four
 CSS transition properties, as well as some transform properties defining
 the beginning and end states of the transition. The following code
 defines the transition for that example:
@@ -56985,7 +56297,7 @@ to `:valid` or from `:checked` to `:not(:checked)`. Or you might append
 a table row at the end of a zebra-striped table or a list item at the
 end of a list with styles based on `:nth-last-of-type` selectors.
 
-In [Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}, the initial
+In [Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}, the initial
 []{#ch18.xhtml_ix_initial_transition
 primary="initial state, transitions and animations"
 data-type="indexterm"}[]{#ch18.xhtml_ix_transition_initial_state
@@ -56996,7 +56308,7 @@ data-type="indexterm"}state of the nested lists is
 `transform:`]{.keep-together} `scale(1, 1)`, while the
 `transform-origin` remains the same. (For more information on transform
 properties, see
-[Chapter 17](../Text/ch17.xhtml#transforms){data-type="xref"}.)
+[Chapter 17](../Text/ch17.xhtml#transforms){data-type="xref"}.)
 
 In this example, the transition properties define a transition on the
 `transform` property: when the new `transform` value is set on `hover`,
@@ -57100,7 +56412,7 @@ input:focus {
 
 In this example, either the `:valid` or `:invalid` selector can match
 any given element, but never both. The `:focus` selector, as shown in
-[Figure 18-2](#ch18.xhtml_tr_fig0202){data-type="xref"}, matches
+[Figure 18-2](#ch18.xhtml_tr_fig0202){data-type="xref"}, matches
 whenever an input has focus, regardless of whether the input is matching
 the `:valid` or `:invalid` selector [simultaneously.]{.keep-together}
 
@@ -57732,7 +57044,7 @@ The `transition-timing-function` values include `ease`, `linear`,
 steps---`steps(`*`n`*`, end)`, and `cubic-bezier(x1, y1, x2, y2)`.
 (These values are also the valid values for the
 `animation-timing-function`, and they are described in great detail in
-[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}.)
+[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}.)
 
 :::: {.section pdf-bookmark="Cubic Bézier timing" data-type="sect3"}
 ::: {#ch18.xhtml_idm45797014406416 .sect3}
@@ -57745,7 +57057,7 @@ primary="Bézier curve functions" data-type="indexterm"}nonstep keywords
 are easing timing functions that serve as aliases for cubic Bézier
 mathematical functions that provide smooth curves. The specification
 provides for five predefined easing functions, as shown in
-[Table 18-1](#ch18.xhtml_cubic_bezier){data-type="xref"}.
+[Table 18-1](#ch18.xhtml_cubic_bezier){data-type="xref"}.
 
   Timing function    Description                                                                                               Cubic Bézier value
   ------------------ --------------------------------------------------------------------------------------------------------- --------------------------------------
@@ -57761,8 +57073,8 @@ provides for five predefined easing functions, as shown in
 
 Cubic Bézier curves, including the underlying curves defining the five
 named easing functions in
-[Table 18-1](#ch18.xhtml_cubic_bezier){data-type="xref"} and displayed
-in [Figure 18-3](#ch18.xhtml_tr_fig0203){data-type="xref"}, take four
+[Table 18-1](#ch18.xhtml_cubic_bezier){data-type="xref"} and displayed
+in [Figure 18-3](#ch18.xhtml_tr_fig0203){data-type="xref"}, take four
 numeric parameters. For example, `linear` is the same as
 `cubic-bezier(0, 0, 1, 1)`. The first and third cubic Bézier function
 parameter values need to be between 0 and 1.
@@ -57784,7 +57096,7 @@ the two handles' coordinates, via a Bézier function.
 
 To get an idea of how this works, look at the curves and their
 corresponding values shown in
-[Figure 18-4](#ch18.xhtml_taic_css4_cubic-bezier-coordinates){data-type="xref"}.
+[Figure 18-4](#ch18.xhtml_taic_css4_cubic-bezier-coordinates){data-type="xref"}.
 
 <figure>
 <div id="ch18.xhtml_taic_css4_cubic-bezier-coordinates" class="figure">
@@ -57820,7 +57132,7 @@ as [*http://cubic-bezier.com*](http://cubic-bezier.com){.bare}, which
 lets you compare the common keywords against each other or against your
 own cubic [Bézier function.]{.keep-together}
 
-As shown in [Figure 18-5](#ch18.xhtml_tr_fig0204){data-type="xref"}, the
+As shown in [Figure 18-5](#ch18.xhtml_tr_fig0204){data-type="xref"}, the
 website [*http://easings.net*](http://easings.net){.bare} provides many
 additional cubic Bézier function values you can use to provide for a
 more realistic, delightful animation.
@@ -57839,7 +57151,7 @@ class="bare"><em>http://easings.net</em></a>)</h6>
 While the authors of the site named their animations, the preceding
 names are not part of the CSS specifications, and must be written as
 shown in
-[Table 18-2](#ch18.xhtml_cubic_bezier_timings){data-type="xref"}.[]{#ch18.xhtml_idm45797014346288
+[Table 18-2](#ch18.xhtml_cubic_bezier_timings){data-type="xref"}.[]{#ch18.xhtml_idm45797014346288
 primary="" startref="ix_bezier_func2"
 data-type="indexterm"}[]{#ch18.xhtml_idm45797014345312 primary=""
 startref="ix_cubic_bezier_func2" data-type="indexterm"}
@@ -57882,7 +57194,7 @@ startref="ix_cubic_bezier_func2" data-type="indexterm"}
 Step []{#ch18.xhtml_ix_step_time_func primary="step timing functions"
 data-type="indexterm"}timing functions also are available, as well as
 four predefined step values; see
-[Table 18-3](#ch18.xhtml_step_timing_functions){data-type="xref"}.
+[Table 18-3](#ch18.xhtml_step_timing_functions){data-type="xref"}.
 
   Timing function                  Definition
   -------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -57895,7 +57207,7 @@ four predefined step values; see
 
   : [Table 18-3. ]{.label}Step timing functions {#step_timing_functions}
 
-As [Figure 18-6](#ch18.xhtml_steptiming){data-type="xref"} shows, the
+As [Figure 18-6](#ch18.xhtml_steptiming){data-type="xref"} shows, the
 step timing functions show the progression of the transition from the
 initial value to the final value in steps, rather than as a smooth
 curve.
@@ -57931,7 +57243,7 @@ the transition's duration.
 
 Step timing, especially the precise meaning of `jump-start` and
 `jump-end`, is discussed in depth in
-[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}.
+[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}.
 :::
 
 Continuing on with the same lengthy `transition-property` declaration
@@ -58115,7 +57427,7 @@ add up to 1.4 seconds.
 Generally, you'll want all the transitions to begin at the same time.
 You can make that happen by including a single `transition-delay` value,
 which gets applied to all the properties. In our drop-down menu in
-[Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}, we included a
+[Figure 18-1](#ch18.xhtml_tr_fig01){data-type="xref"}, we included a
 delay of 50 milliseconds. This delay is not long enough for the user to
 notice and will not cause the application to appear slow. Rather, a
 50-millisecond delay can help prevent the navigation from shooting open
@@ -58665,7 +57977,7 @@ Transitions can occur only on properties that are not currently being
 impacted by a CSS animation. If the element is being animated,
 properties may still transition, as long as they are not properties that
 are currently controlled by the animation. CSS animations are covered in
-[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}.[]{#ch18.xhtml_idm45797038807248
+[Chapter 19](../Text/ch19.xhtml#animation){data-type="xref"}.[]{#ch18.xhtml_idm45797038807248
 primary="" startref="ix_animatable_prop"
 data-type="indexterm"}[]{#ch18.xhtml_idm45797038806272 primary=""
 startref="ix_prop_animatable"
@@ -58823,7 +58135,7 @@ cause severe unease in users who are prone to vestibular disorder
 
 To reduce or eliminate this risk, use the `prefers-reduced-motion` media
 query (see
-[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}).
+[Chapter 21](../Text/ch21.xhtml#css-at-rules){data-type="xref"}).
 []{#ch19.xhtml_idm45797038747568 primary="media queries (@media)"
 secondary="for reduced-motion animations"
 secondary-sortas="reduced-motion animations"
@@ -60281,7 +59593,7 @@ thread can lead to visual stutters (sometimes called *jank*):
 ```
 
 Putting an element into 3D space by using 3D transforms (see
-[Chapter 17](../Text/ch17.xhtml#transforms){data-type="xref"}) moves
+[Chapter 17](../Text/ch17.xhtml#transforms){data-type="xref"}) moves
 that element into its own layer, allowing for jank-free animations. For
 this reason, the `translateZ` [hack---the]{.keep-together} thing we just
 told you not to do---became overused, and led to the creation of the
@@ -60668,8 +59980,8 @@ timing functions are all Bézier curves. Just like the
 `transition-timing-function`, the CSS specification provides for five
 predefined Bézier curve keywords, which we described in the preceding
 chapter (see
-[Table 18-1](../Text/ch18.xhtml#cubic_bezier){data-type="xref"} and
-[Figure 18-3](../Text/ch18.xhtml#tr_fig0203){data-type="xref"}).
+[Table 18-1](../Text/ch18.xhtml#cubic_bezier){data-type="xref"} and
+[Figure 18-3](../Text/ch18.xhtml#tr_fig0203){data-type="xref"}).
 
 A handy tool to visualize []{#ch19.xhtml_ix_cubic_bezier_func3
 primary="cubic-Bézier timing functions"
@@ -60711,7 +60023,7 @@ effect, making the animation bounce up and down between values, rather
 than going consistently in a single direction. Consider the following
 timing function, whose rather outlandish Bézier curve is (partly)
 illustrated in
-[Figure 19-1](#ch19.xhtml_an-outlandish-bezier-curve){data-type="xref"}:
+[Figure 19-1](#ch19.xhtml_an-outlandish-bezier-curve){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .snake {
@@ -60747,7 +60059,7 @@ values go outside the boundaries of the values set in the `0%` and
 element we're shrinking will actually grow to be wider than the `500px`
 width defined in the `0%` keyframe and narrower than the `100px` width
 defined in the `100%` keyframe, as shown in
-[Figure 19-2](#ch19.xhtml_an_fig0303){data-type="xref"}.
+[Figure 19-2](#ch19.xhtml_an_fig0303){data-type="xref"}.
 
 <figure>
 <div id="ch19.xhtml_an_fig0303" class="figure">
@@ -60855,7 +60167,7 @@ the name), the pictures appear as an animated motion. You can create
 similar animations with CSS by using an image sprite, the
 `background-position` property, and the `steps()` timing function.
 
-[Figure 19-3](#ch19.xhtml_an_sprite){data-type="xref"} shows an image
+[Figure 19-3](#ch19.xhtml_an_sprite){data-type="xref"} shows an image
 sprite containing several images that change just slightly, like the
 drawings on the individual pages of a flip book.
 
@@ -60881,7 +60193,7 @@ is the number of occurrences of the image in our sprite. The number of
 steps defines how many stops our background image makes to complete a
 single animation.
 
-The sprite in [Figure 19-3](#ch19.xhtml_an_sprite){data-type="xref"} has
+The sprite in [Figure 19-3](#ch19.xhtml_an_sprite){data-type="xref"} has
 22 images, each 56 × 100 pixels. The total size of our sprite is 1,232 ×
 100 pixels. We set our container to the individual image size: 56 × 100
 pixels. We set our sprite as our background image: the initial or
@@ -60949,7 +60261,7 @@ parameter takes one of a few values: `step-start`, `start`, `step-end`,
 `end`, `jump-none`, and `jump-both`. The given value specifies whether
 the change for the first step's interval takes place at the beginning or
 at the end of a given interval.
-([Chapter 18](../Text/ch18.xhtml#x-transitions){data-type="xref"}
+([Chapter 18](../Text/ch18.xhtml#x-transitions){data-type="xref"}
 describes these values in more detail.)
 
 With the default value, `end`, or its equivalent `step-end`, the change
@@ -60958,7 +60270,7 @@ step lengths, the first change in the animation will not occur until 200
 ms into the animation's overall duration. With `start` or `step-start`,
 the first change will take place at the beginning of the first step's
 interval; that is to say, the instant the animation begins.
-[Figure 19-4](#ch19.xhtml_step-timing-change-point){data-type="xref"}
+[Figure 19-4](#ch19.xhtml_step-timing-change-point){data-type="xref"}
 provides a timeline diagram of how the two values work, based on the
 following styles:
 
@@ -61033,7 +60345,7 @@ aren't interpolated over time. When included in a keyframe within the
 `@keyframes` definition, the timing function for the properties declared
 within that same keyframe will change to the new
 `animation-timing-function` value when that keyframe is reached, as
-shown in [Figure 19-5](#ch19.xhtml_an_timing){data-type="xref"}:
+shown in [Figure 19-5](#ch19.xhtml_an_timing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .pencil {animation: W 3s infinite linear;}
@@ -61053,7 +60365,7 @@ shown in [Figure 19-5](#ch19.xhtml_an_timing){data-type="xref"}:
 ```
 
 In the preceding example, as shown in
-[Figure 19-5](#ch19.xhtml_an_timing){data-type="xref"}, halfway through
+[Figure 19-5](#ch19.xhtml_an_timing){data-type="xref"}, halfway through
 the animation, we switch from a linear animation progression for the
 `width` property to one that eases in. The `ease-in` timing starts from
 the keyframe in which the timing function changes.
@@ -61977,7 +61289,7 @@ double-transparency.
     \<*`color`*\> value is supplied, the used color is the same as the
     computed value of the `color` property for the element.
 
-[Figure 20-1](#ch20.xhtml_filter-basic-effects){data-type="xref"} shows
+[Figure 20-1](#ch20.xhtml_filter-basic-effects){data-type="xref"} shows
 some effects of these filter functions.
 
 <figure>
@@ -61991,7 +61303,7 @@ alt="css5 2001" />
 
 Before we go on, two things deserve further exploration. The first is
 how `drop-shadow()` really operates. Just by looking at
-[Figure 20-1](#ch20.xhtml_filter-basic-effects){data-type="xref"}, it's
+[Figure 20-1](#ch20.xhtml_filter-basic-effects){data-type="xref"}, it's
 easy to get the impression that drop shadows are bound to the element
 box, because of the boxlike nature of the drop shadows shown there. But
 that's just because the image used to illustrate filters is a PNG, which
@@ -62001,7 +61313,7 @@ words.
 
 If the image has transparent bits, `drop-shadow()` will use those in
 computing the shadow. To see what this means, consider
-[Figure 20-2](#ch20.xhtml_filter-basic-effects-dropshadows){data-type="xref"}.
+[Figure 20-2](#ch20.xhtml_filter-basic-effects-dropshadows){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_filter-basic-effects-dropshadows" class="figure">
@@ -62013,7 +61325,7 @@ alt="css5 2002" />
 </figure>
 
 The other thing to point out in
-[Figure 20-2](#ch20.xhtml_filter-basic-effects-dropshadows){data-type="xref"}
+[Figure 20-2](#ch20.xhtml_filter-basic-effects-dropshadows){data-type="xref"}
 is the last image has two drop shadows. This was accomplished as
 follows:
 
@@ -62103,14 +61415,14 @@ values:
     `360deg` are permitted. Negative values are also permitted, and
     cause a counterclockwise rotation as opposed to the clockwise
     rotation caused by positive values. (In other words, the rotation is
-    "compass-style," with 0° at the top and increasing angle values in
+    "compass-style," with 0° at the top and increasing angle values in
     the clockwise direction.)[]{#ch20.xhtml_idm45797007198816 primary=""
     startref="ix_color_filter"
     data-type="indexterm"}[]{#ch20.xhtml_idm45797007197840 primary=""
     startref="ix_filter_color" data-type="indexterm"}
 
 Examples of the preceding `filter` functions are shown in
-[Figure 20-3](#ch20.xhtml_filter-color-effects){data-type="xref"},
+[Figure 20-3](#ch20.xhtml_filter-color-effects){data-type="xref"},
 though fully appreciating them depends on a color rendering.
 
 <figure>
@@ -62174,7 +61486,7 @@ value:
     `100%`; such values result in *supersaturation*.
 
 Examples of the preceding `filter` functions are shown in
-[Figure 20-4](#ch20.xhtml_filter-bcs-effects){data-type="xref"}, though
+[Figure 20-4](#ch20.xhtml_filter-bcs-effects){data-type="xref"}, though
 fully appreciating them depends on a color rendering. Also, the effects
 of greater-than-one values may be hard to make out in the figure, but
 they are present.
@@ -62222,7 +61534,7 @@ Examining the full range of filtering possibilities in SVG is well
 beyond the scope of this book, but let's just say that the power of the
 offered features is substantial. A few simple examples of SVG filtering
 are shown in
-[Figure 20-5](#ch20.xhtml_filter-svg-effects){data-type="xref"}, with
+[Figure 20-5](#ch20.xhtml_filter-svg-effects){data-type="xref"}, with
 brief captions to indicate the kinds of operations the filters were
 built to create. (The actual CSS used to apply these filters looks like
 `filter: url(filters.svg#rough)`.)
@@ -62341,7 +61653,7 @@ The default value, `normal`, shows the element's pixels as is, without
 any mixing with the backdrop, except where the alpha channel is less
 than `1`. This is the simple alpha compositing mentioned previously.
 It's what we're all used to, which is why it's the default value.
-[Figure 20-6](#ch20.xhtml_blending-elements-normal){data-type="xref"}
+[Figure 20-6](#ch20.xhtml_blending-elements-normal){data-type="xref"}
 shows a few examples.
 
 <figure>
@@ -62447,8 +61759,8 @@ In other words, given the example of applying the `difference` blend
 mode to `rgb(91 164 22)` and `rgb(102 104 255)`, the actual operation is
 as follows:
 
-1.  `rgb(91 164 22)` is *R* = 91 ÷ 255 = 0.357; *G* = 164 ÷ 255 = 0.643;
-    *B* = 22 ÷ 255 = 0.086. Similarly, `rgb(102 104 255)` corresponds to
+1.  `rgb(91 164 22)` is *R* = 91 ÷ 255 = 0.357; *G* = 164 ÷ 255 = 0.643;
+    *B* = 22 ÷ 255 = 0.086. Similarly, `rgb(102 104 255)` corresponds to
     *R* = 0.4; *G* = 0.408; *B* = 1.
 
 2.  Each component is subtracted from the corresponding component, and
@@ -62464,7 +61776,7 @@ and Blending Level
 2"](https://drafts.fxtf.org/compositing/#blendingseparable)
 specification.
 
-[Figure 20-7](#ch20.xhtml_blending-elements-dark-light-diff-excl){data-type="xref"}
+[Figure 20-7](#ch20.xhtml_blending-elements-dark-light-diff-excl){data-type="xref"}
 depicts examples of the blend modes in this section.
 
 <figure>
@@ -62527,7 +61839,7 @@ modes*---they achieve their effect by multiplying values together:
     pattern of light and dark, and thus a different pattern of
     multiplying versus screening.
 
-[Figure 20-8](#ch20.xhtml_blending-elements-multiply-screen-overlay){data-type="xref"}
+[Figure 20-8](#ch20.xhtml_blending-elements-multiply-screen-overlay){data-type="xref"}
 depicts examples of these blend modes.
 
 <figure>
@@ -62577,7 +61889,7 @@ of the first:
     foreground is being projected onto the backdrop with a projector
     that employs a diffuse light.
 
-[Figure 20-9](#ch20.xhtml_blending-elements-hard-soft-light){data-type="xref"}
+[Figure 20-9](#ch20.xhtml_blending-elements-hard-soft-light){data-type="xref"}
 depicts examples of these blend modes.
 
 <figure class="width-75">
@@ -62629,7 +61941,7 @@ are as follows:
     yields a result where the darker the backdrop pixel, the more its
     color will burn through the foreground pixel.
 
-[Figure 20-10](#ch20.xhtml_blending-elements-color-dodge-burn){data-type="xref"}
+[Figure 20-10](#ch20.xhtml_blending-elements-color-dodge-burn){data-type="xref"}
 depicts examples of these blend modes.
 
 <figure class="width-75">
@@ -62690,7 +62002,7 @@ These modes are as follows:
     saturation level of the backdrop with the luminosity level of the
     foreground.
 
-[Figure 20-11](#ch20.xhtml_blending-elements-hue-sat-lum-color){data-type="xref"}
+[Figure 20-11](#ch20.xhtml_blending-elements-hue-sat-lum-color){data-type="xref"}
 depicts examples of these blend modes.
 
 <figure>
@@ -62786,7 +62098,7 @@ do *not* blend with the backdrop of the element, except as directed by
 
 Here we have three background images, each with its own blend mode.
 These are blended together into a single result, shown in
-[Figure 20-12](#ch20.xhtml_blending-backgrounds-threebgs){data-type="xref"}.
+[Figure 20-12](#ch20.xhtml_blending-backgrounds-threebgs){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_blending-backgrounds-threebgs" class="figure">
@@ -62803,9 +62115,9 @@ background to white, gray, fuchsia, or a lovely pattern of repeating
 gradients, and in every case those three blended backgrounds will look
 exactly the same, pixel for pixel. They're blended in *isolation*, a
 term we'll return to shortly. We can see the previous example
-([Figure 20-12](#ch20.xhtml_blending-backgrounds-threebgs){data-type="xref"})
+([Figure 20-12](#ch20.xhtml_blending-backgrounds-threebgs){data-type="xref"})
 sitting atop a variety of backgrounds in
-[Figure 20-13](#ch20.xhtml_blending-backgrounds-color-transparent){data-type="xref"}.
+[Figure 20-13](#ch20.xhtml_blending-backgrounds-color-transparent){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_blending-backgrounds-color-transparent"
@@ -62844,7 +62156,7 @@ blend may be blended with the element's backdrop after all. Given the
 following styles, the first example's background will sit atop the
 element's backdrop, but the rest will end up blended with it in some
 fashion, as illustrated in
-[Figure 20-14](#ch20.xhtml_blending-backgrounds-backdrops){data-type="xref"}:
+[Figure 20-14](#ch20.xhtml_blending-backgrounds-backdrops){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 .one {mix-blend-mode: normal;}
@@ -62919,7 +62231,7 @@ you.]{.keep-together}
 This pretty much does exactly what it says: it either defines an element
 to create an isolated blending context, or not. Given the following
 styles, then, we get the result shown in
-[Figure 20-15](#ch20.xhtml_blending-isolation){data-type="xref"}:
+[Figure 20-15](#ch20.xhtml_blending-isolation){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {mix-blend-mode: difference;}
@@ -63070,7 +62382,7 @@ ratio, even if the element is an `<img>`, `<svg>`, form input, or
 something else that would ordinarily have an intrinsic aspect ratio.
 
 Here are a couple examples of size containment, illustrated in
-[Figure 20-16](#ch20.xhtml_size_containment){data-type="xref"}:
+[Figure 20-16](#ch20.xhtml_size_containment){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {contain: size; border: medium solid gray; padding: 1px;}
@@ -63097,7 +62409,7 @@ figure img {contain: size; border: 1px solid; width: 300px;}
 Maybe that's interesting, but is it useful? To pick one example, it
 could be when JavaScript is used to size elements based on the sizes of
 their ancestors, rather than the other way around (*container
-queries* by another name) in order to prevent layout loops. It could
+queries* by another name) in order to prevent layout loops. It could
 also be applied to elements known to be offscreen at page render, in
 order to minimize the amount of work required by the browser.
 
@@ -63202,7 +62514,7 @@ data-type="indexterm"}[]{#ch20.xhtml_ix_float_shaping primary="floating"
 secondary="shaping content around floats" data-type="indexterm"}moment
 to return to the world of floating elements and see how we can shape the
 way text flows past them. Old-school web designers may remember
-techniques such as *ragged floats* and *sandbagging*---in both cases,
+techniques such as *ragged floats* and *sandbagging*---in both cases,
 using a series of short, floated images of varying widths to create
 ragged float shapes. []{#ch20.xhtml_idm45797006336112
 primary="CSS Shapes" data-type="indexterm"}Thanks to CSS Shapes, these
@@ -63249,7 +62561,7 @@ the simplest and (in many ways) the most exciting. Say we have an image
 of a crescent moon, and we want the content to flow around the visible
 parts of it. If that image has transparent parts, as in a GIF or a PNG,
 then the content will flow into those transparent parts, as shown in
-[Figure 20-17](#ch20.xhtml_using_an_image_to_define_fig){data-type="xref"}:
+[Figure 20-17](#ch20.xhtml_using_an_image_to_define_fig){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img.lunar {float: left; shape-outside: url(moon.png);}
@@ -63281,12 +62593,12 @@ One point needs to be clarified at this stage: the content will flow
 into transparent parts to which it has "direct access," for lack of a
 better term. That is, the content doesn't flow to both the left and
 right of the image in
-[Figure 20-17](#ch20.xhtml_using_an_image_to_define_fig){data-type="xref"},
+[Figure 20-17](#ch20.xhtml_using_an_image_to_define_fig){data-type="xref"},
 but just the right side. That's the side that faces the content, it
 being a left-floated image. If we right-floated the image, the content
 would flow into the transparent areas on the image's left side. This is
 illustrated in
-[Figure 20-18](#ch20.xhtml_an_image_float_shape_fig){data-type="xref"}
+[Figure 20-18](#ch20.xhtml_an_image_float_shape_fig){data-type="xref"}
 (with the text right-aligned to make the effect more obvious):
 
 ``` {code-language="css" data-type="programlisting"}
@@ -63351,7 +62663,7 @@ defines the float shape. Thus, with `shape-image-threshold: 0.5`, any
 part of the image with more than 50% transparency can allow content to
 flow into it, and any part of the image with less than 50% transparency
 is part of the float shape. This is illustrated in
-[Figure 20-19](#ch20.xhtml_using_image_opacity_to_define){data-type="xref"}.
+[Figure 20-19](#ch20.xhtml_using_image_opacity_to_define){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_using_image_opacity_to_define" class="figure">
@@ -63405,7 +62717,7 @@ In addition, the \<*`shape-box`*\> can be one of these types:
 
 These shape boxes indicate the outermost limits of the shape. You can
 use them on their own, as illustrated in
-[Figure 20-20](#ch20.xhtml_basic_shape_boxes_fig){data-type="xref"},
+[Figure 20-20](#ch20.xhtml_basic_shape_boxes_fig){data-type="xref"},
 where the images have some padding in which a dark background color can
 be seen, then a thick border, and finally some (invisible, as always)
 margins.
@@ -63448,7 +62760,7 @@ padding box, the value would change like so:
 shape-outside: inset(2.5em) padding-box;
 ```
 
-[Figure 20-21](#ch20.xhtml_insets_from_two_basic_shape_boxes){data-type="xref"}
+[Figure 20-21](#ch20.xhtml_insets_from_two_basic_shape_boxes){data-type="xref"}
 illustrates the two inset shapes we just defined.
 
 <figure>
@@ -63503,7 +62815,7 @@ left instead of the top. So if you have more than one value, they're in
 the order top left, top right, bottom right, bottom left (TL-TR-BR-BL,
 or TiLTeR-BuRBLe), and are filled in by copying declared values in for
 the missing values.
-[Figure 20-22](#ch20.xhtml_rounding_the_corners_fig){data-type="xref"}
+[Figure 20-22](#ch20.xhtml_rounding_the_corners_fig){data-type="xref"}
 shows a few examples. (The rounded shapes in the middle are the float
 shapes, which have been added for clarity. Browsers do not actually draw
 the float shapes on the page.)
@@ -63560,7 +62872,7 @@ shape-outside: circle(25px at 50% 50%);
 ```
 
 Regardless of which we use, the result will be that shown in
-[Figure 20-23](#ch20.xhtml_a_circular_float_shape){data-type="xref"}.
+[Figure 20-23](#ch20.xhtml_a_circular_float_shape){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_a_circular_float_shape" class="figure">
@@ -63581,7 +62893,7 @@ stick out past the edges of the shape box---in the default case, the
 margin box---but it will be clipped at the edges of the shape box. Thus,
 given the following rules, the content will flow past the image as if it
 had no shape, as shown in
-[Figure 20-24](#ch20.xhtml_a_rather_small_circular_float_shape){data-type="xref"}:
+[Figure 20-24](#ch20.xhtml_a_rather_small_circular_float_shape){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {shape-outside: circle(25px at center);}
@@ -63602,7 +62914,7 @@ We can see the circle extending past the edges of the image, but notice
 how the text flows along the edge of the image, not the float shape.
 Again, that's because the actual float shape is clipped by the shape
 box; in
-[Figure 20-24](#ch20.xhtml_a_rather_small_circular_float_shape){data-type="xref"},
+[Figure 20-24](#ch20.xhtml_a_rather_small_circular_float_shape){data-type="xref"},
 that's the margin box, which is at the outer edge of the image. So the
 actual float shape isn't a circle, but a box the exact dimensions of the
 image.
@@ -63631,7 +62943,7 @@ shape-outside: circle(50% at top left);
 
 But note: that works *only* if the float is square. If it's rectangular,
 oddities creep in. Take this example, which is illustrated in
-[Figure 20-25](#ch20.xhtml_circular_float_shape_that_results){data-type="xref"}:
+[Figure 20-25](#ch20.xhtml_circular_float_shape_that_results){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {shape-outside: circle(50% at center);}
@@ -63663,17 +62975,17 @@ alt="css5 2026" />
 </figure>
 
 In effect, this creates a square that's a blending of the float's
-intrinsic height and width. In the case of our floated image of 70 × 150
+intrinsic height and width. In the case of our floated image of 70 × 150
 pixels, that works out to a square that's 117.047 pixels on a side.
 Thus, the circle's radius is 50% of that, or 58.5235 pixels.
 
 Once again, note that the content in
-[Figure 20-26](#ch20.xhtml_a_clipped_float_shape){data-type="xref"} is
+[Figure 20-26](#ch20.xhtml_a_clipped_float_shape){data-type="xref"} is
 flowing past the image and ignoring the circle. That's because the
 actual float shape is clipped by the shape box, so the final float shape
 would be a kind of vertical bar with rounded ends, something very much
 like what's shown in
-[Figure 20-26](#ch20.xhtml_a_clipped_float_shape){data-type="xref"}.
+[Figure 20-26](#ch20.xhtml_a_clipped_float_shape){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_a_clipped_float_shape" class="figure">
@@ -63688,7 +63000,7 @@ It's a lot simpler to position the center of the circle and have it grow
 until it touches either the closest side to the circle's center, or the
 farthest side from the circle's center. Both techniques are possible, as
 shown here and illustrated in
-[Figure 20-27](#ch20.xhtml_various_circular_float_shapes){data-type="xref"}:
+[Figure 20-27](#ch20.xhtml_various_circular_float_shapes){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 shape-outside: circle(closest-side);
@@ -63710,7 +63022,7 @@ alt="image" />
 ###### Note {#ch20.xhtml_sigil_toc_id_1838}
 
 In one of the examples in
-[Figure 20-27](#ch20.xhtml_various_circular_float_shapes){data-type="xref"},
+[Figure 20-27](#ch20.xhtml_various_circular_float_shapes){data-type="xref"},
 the shape is clipped to its shape box, whereas in the others, the shape
 is allowed to extend beyond it. If we hadn't clipped the shape, it would
 have been too big for the figure! You'll see this again in the next
@@ -63728,7 +63040,7 @@ and a y radius of 30 pixels, you'd declare `ellipse(20px 30px)`.
 
 You can use any length or percentage, *or* the keywords `closest-side`
 and `farthest-side`, for either of the radii in an ellipse.
-[Figure 20-28](#ch20.xhtml_various_elliptical_float_shapes){data-type="xref"}
+[Figure 20-28](#ch20.xhtml_various_elliptical_float_shapes){data-type="xref"}
 shows some possibilities.
 
 <figure>
@@ -63746,7 +63058,7 @@ reference box, percentages in ellipses are calculated against the axis
 of the radius. Thus, horizontal percentages are calculated with respect
 to the width of the shape box, and vertical percentages with respect to
 the height. This is illustrated in
-[Figure 20-29](#ch20.xhtml_elliptical_float_shapes_and_percentages){data-type="xref"}.
+[Figure 20-29](#ch20.xhtml_elliptical_float_shapes_and_percentages){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_elliptical_float_shapes_and_percentages"
@@ -63795,7 +63107,7 @@ polygon(50% 0, 100% 50%, 50% 100%, 0 50%)
 ```
 
 The result of this and the previous polygon example are shown in
-[Figure 20-30](#ch20.xhtml_a_polygonal_float_shape){data-type="xref"}.
+[Figure 20-30](#ch20.xhtml_a_polygonal_float_shape){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_a_polygonal_float_shape" class="figure">
@@ -63820,7 +63132,7 @@ As before, remember: if a shape definition exceeds the shape box, it
 will always be clipped to it. So even if you create a polygon with
 coordinates that lie outside the shape box (by default, the margin box),
 the polygon will get clipped.
-[Figure 20-31](#ch20.xhtml_how_a_float_shape_is_clipped){data-type="xref"}
+[Figure 20-31](#ch20.xhtml_how_a_float_shape_is_clipped){data-type="xref"}
 demonstrates [the result.]{.keep-together}
 
 <figure>
@@ -63836,7 +63148,7 @@ Polygons have an extra wrinkle: you can toggle their fill rule. By
 default, the fill rule is `nonzero`, but the other possible value is
 `evenodd`. It's easier to show the difference than to describe it, so
 here's a star polygon with two fill rules, illustrated in
-[Figure 20-32](#ch20.xhtml_the_two_polygonal_fills){data-type="xref"}:
+[Figure 20-32](#ch20.xhtml_the_two_polygonal_fills){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 polygon(nonzero, 51% 0%, 83% 100%, 0 38%, 100% 38%, 20% 100%)
@@ -63875,7 +63187,7 @@ polygon, and then start creating and moving vertices in the browser,
 with live reflowing of the content as you do so. Then, once you're
 satisfied, you can drag-select-copy the polygon value for pasting into
 your stylesheet.
-[Figure 20-33](#ch20.xhtml_the_chroms_shapes_editor){data-type="xref"}
+[Figure 20-33](#ch20.xhtml_the_chroms_shapes_editor){data-type="xref"}
 shows a screenshot of the Shapes Editor in action.
 
 <figure>
@@ -63974,7 +63286,7 @@ shape, any part of the newly enlarged shape that exceeds the shape box
 will be clipped.
 
 To see what this means, consider the following, as illustrated in
-[Figure 20-34](#ch20.xhtml_adding_margins_to_float_shapes){data-type="xref"}:
+[Figure 20-34](#ch20.xhtml_adding_margins_to_float_shapes){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {float: left; margin: 0; shape-outside: url(star.svg);
@@ -64009,7 +63321,7 @@ by modifying two of the rules like so:
 In both cases, the right and bottom margins are set to be the same as
 the `shape-margin` value, ensuring that the enlarged shape will never
 exceed the shape box on those sides. This is demonstrated in
-[Figure 20-35](#ch20.xhtml_making_sure_the_shape_margins){data-type="xref"}.
+[Figure 20-35](#ch20.xhtml_making_sure_the_shape_margins){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_making_sure_the_shape_margins" class="figure">
@@ -64108,7 +63420,7 @@ drawn. Any part of the element that falls outside the shape is clipped
 away, leaving behind empty transparent space. The following code gives
 an unclipped and a clipped example of the same paragraph, with the
 result depicted in
-[Figure 20-36](#ch20.xhtml_clipping-compare){data-type="xref"}:
+[Figure 20-36](#ch20.xhtml_clipping-compare){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {background: orange; color: black; padding: 0.75em;}
@@ -64192,7 +63504,7 @@ redescribe them in detail here. Here's a brief recap:
     using either lengths or percentages. Can be prefaced by a keyword
     defining the fill rule for the polygon.
 
-[Figure 20-37](#ch20.xhtml_clipping-shapes){data-type="xref"} shows a
+[Figure 20-37](#ch20.xhtml_clipping-shapes){data-type="xref"} shows a
 variety of examples of these clip shapes, corresponding to the following
 styles:
 
@@ -64214,7 +63526,7 @@ alt="css5 2038" />
 </div>
 </figure>
 
-As [Figure 20-37](#ch20.xhtml_clipping-shapes){data-type="xref"} shows,
+As [Figure 20-37](#ch20.xhtml_clipping-shapes){data-type="xref"} shows,
 the elements are visible only inside the clip shapes. Anything outside
 that is just gone. But note that the clipped elements still take up the
 same space they would if they weren't clipped at all. In other words,
@@ -64246,7 +63558,7 @@ shouldn't do it in those cases.)
 When used by themselves, the values `margin-box`, `padding-box`, and
 `content-box` dictate that the clipping occurs at the outer edges of the
 margin, padding, or content areas, respectively. These are diagrammed in
-[Figure 20-38](#ch20.xhtml_clipping-boxes){data-type="xref"}.
+[Figure 20-38](#ch20.xhtml_clipping-boxes){data-type="xref"}.
 
 <figure class="bordernone">
 <div id="ch20.xhtml_clipping-boxes" class="figure">
@@ -64258,7 +63570,7 @@ alt="css5 2039" />
 </figure>
 
 There's another part to
-[Figure 20-38](#ch20.xhtml_clipping-boxes){data-type="xref"}, which
+[Figure 20-38](#ch20.xhtml_clipping-boxes){data-type="xref"}, which
 []{#ch20.xhtml_idm45797004915680 primary="SVG format"
 secondary="object bounding box"
 data-type="indexterm"}[]{#ch20.xhtml_idm45797004914704
@@ -64307,7 +63619,7 @@ the overall element, you can just write
 `clip-path: ellipse(50% 50%) padding-box`. That will center an
 elliptical clip shape at the center of the element, with horizontal and
 vertical radii half the element's reference box, as shown in
-[Figure 20-39](#ch20.xhtml_clipping-boxes-ellipse){data-type="xref"},
+[Figure 20-39](#ch20.xhtml_clipping-boxes-ellipse){data-type="xref"},
 along with the effect of fitting to other boxes.
 
 <figure>
@@ -64365,7 +63677,7 @@ This will draw a diamond from the point at *x*=500, *y*=0 to *x*=1000,
 *y*=250, and so on, forming a diamond shape 1,000 pixels across by 500
 high. If applied to an image exactly 1,000 pixels by 500 pixels, you'd
 get the result shown in
-[Figure 20-40](#ch20.xhtml_clipping-svg-path){data-type="xref"}.
+[Figure 20-40](#ch20.xhtml_clipping-svg-path){data-type="xref"}.
 
 <figure class="width-50">
 <div id="ch20.xhtml_clipping-svg-path" class="figure">
@@ -64377,7 +63689,7 @@ alt="css5 2041" />
 </figure>
 
 You'd get the same clip shape shown in
-[Figure 20-40](#ch20.xhtml_clipping-svg-path){data-type="xref"} by using
+[Figure 20-40](#ch20.xhtml_clipping-svg-path){data-type="xref"} by using
 the following:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -64472,7 +63784,7 @@ applied.
 
 We'll start with a simple situation: one image applied to another, where
 both are the same height and width.
-[Figure 20-41](#ch20.xhtml_masks-image-simple){data-type="xref"} shows
+[Figure 20-41](#ch20.xhtml_masks-image-simple){data-type="xref"} shows
 two images separately, along with the first image being masked by the
 second.
 
@@ -64491,7 +63803,7 @@ image is not visible. For the parts that are semitransparent, the first
 image is also semitransparent.
 
 Here's the basic code for the end result shown in
-[Figure 20-41](#ch20.xhtml_masks-image-simple){data-type="xref"}:
+[Figure 20-41](#ch20.xhtml_masks-image-simple){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img.masked {mask-image: url(theatre-masks.svg);}
@@ -64505,7 +63817,7 @@ your own image with gradients, whether linear or radial, repeated or
 otherwise.
 
 The following styles will have the result shown in
-[Figure 20-42](#ch20.xhtml_masks-image-variety){data-type="xref"}:
+[Figure 20-42](#ch20.xhtml_masks-image-variety){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 *.masked.theatre {mask-image: url(i/theatre-masks.svg);}
@@ -64529,7 +63841,7 @@ of an element, it clips away *all* pieces. The best example of this
 occurs when you apply an image that clips away the outer edges of
 elements, and the markers on list items can very easily become
 invisible.
-[Figure 20-43](#ch20.xhtml_masks-image-listitems){data-type="xref"}
+[Figure 20-43](#ch20.xhtml_masks-image-listitems){data-type="xref"}
 shows an example, which is the result of the following:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -64628,7 +63940,7 @@ mask. Switching between these two options is accomplished with the
 Two of the three values are straightforward: `alpha` means the alpha
 channel of the image should be used to compute the mask, and `luminance`
 means the brightness levels should be used. The difference is
-illustrated in [Figure 20-44](#ch20.xhtml_masks-mode){data-type="xref"},
+illustrated in [Figure 20-44](#ch20.xhtml_masks-mode){data-type="xref"},
 which is the result of the following code:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -64722,7 +64034,7 @@ If you've ever sized background images, you know exactly how to size
 masks, because the value syntax is *exactly* the same, as are the
 behaviors. As an example, consider the following styles, which have the
 result shown in
-[Figure 20-45](#ch20.xhtml_masks-sizing){data-type="xref"}:
+[Figure 20-45](#ch20.xhtml_masks-sizing){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {mask-image: url(i/hexlike.svg);}
@@ -64780,7 +64092,7 @@ startref="ix_mask_size_prop" data-type="indexterm"}
 </aside>
 ```
 The values available here are the same as those for `background-repeat`.
-[Figure 20-46](#ch20.xhtml_masks-repeat){data-type="xref"} shows some
+[Figure 20-46](#ch20.xhtml_masks-repeat){data-type="xref"} shows some
 examples, based on the following styles:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -64840,7 +64152,7 @@ origin box, similar to `background-origin`. And you'd be exactly right.
 ```
 Once again, if you've ever positioned a background image, you know how
 to position mask images. Following are a few examples, illustrated in
-[Figure 20-47](#ch20.xhtml_masks-position){data-type="xref"}:
+[Figure 20-47](#ch20.xhtml_masks-position){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {mask-image: url(i/Compass_masked.png);
@@ -64901,7 +64213,7 @@ masks what `background-origin` does for backgrounds.
 For the full story, see ["Changing the positioning
 box"](../Text/ch08.xhtml#changing-the-positioning-box){data-type="xref"},
 but for a quick example, see
-[Figure 20-48](#ch20.xhtml_masks-origin){data-type="xref"}.[]{#ch20.xhtml_idm45797003825680
+[Figure 20-48](#ch20.xhtml_masks-origin){data-type="xref"}.[]{#ch20.xhtml_idm45797003825680
 primary="" startref="ix_mask_pos_prop"
 data-type="indexterm"}[]{#ch20.xhtml_idm45797003824704 primary=""
 startref="ix_pos_masks"
@@ -64966,7 +64278,7 @@ echoes backgrounds, and that's `mask-clip`, the mask equivalent of
 All this does is clip the overall mask to a specific area of the masked
 element. In other words, it restricts the area in which the visible
 parts of the element are in fact visible.
-[Figure 20-49](#ch20.xhtml_masks-clip){data-type="xref"} shows the
+[Figure 20-49](#ch20.xhtml_masks-clip){data-type="xref"} shows the
 result of the following styles:
 
 ``` {code-language="css" data-type="programlisting"}
@@ -65024,7 +64336,7 @@ browsers (even Firefox) support the prefixed form
 ```
 If you are not familiar with compositing operations, a diagram is in
 order. See
-[Figure 20-50](#ch20.xhtml_masks-composite-diagram){data-type="xref"}.
+[Figure 20-50](#ch20.xhtml_masks-composite-diagram){data-type="xref"}.
 
 <figure>
 <div id="ch20.xhtml_masks-composite-diagram" class="figure">
@@ -65051,7 +64363,7 @@ being the source and the already-composited layers beneath it being the
 destination.
 
 To see why, consider
-[Figure 20-51](#ch20.xhtml_masks-composite-multiple){data-type="xref"},
+[Figure 20-51](#ch20.xhtml_masks-composite-multiple){data-type="xref"},
 which shows the various ways three overlapping masks are composited
 together, and how results change with changes to their order and
 compositing operations.
@@ -65151,7 +64463,7 @@ Thus, the following rules are equivalent:
 
 The triangle and square are added together, and then the result of that
 additive composite is subtracted from the circle. The result is shown in
-[Figure 20-52](#ch20.xhtml_masks-multiple){data-type="xref"} as applied
+[Figure 20-52](#ch20.xhtml_masks-multiple){data-type="xref"} as applied
 to a square element (the teal shape on the left) and a shape wider than
 it is tall (the goldenrod shape on the right).
 
@@ -65322,7 +64634,7 @@ writing-flow-relative fashion.
 :::
 
 Consider the following, diagrammed in
-[Figure 20-53](#ch20.xhtml_mask-border-patterns){data-type="xref"}:
+[Figure 20-53](#ch20.xhtml_mask-border-patterns){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 #one {mask-border-slice: 25%;}
@@ -65351,7 +64663,7 @@ it is not used, allowing the element's padding and content to be fully
 seen. If you do use it by adding `fill`, the part of the mask image
 inside the four slice lines will be stretched over the element's content
 and padding, and applied to them. Consider the following, illustrated in
-[Figure 20-54](#ch20.xhtml_mask-border-fill){data-type="xref"}:
+[Figure 20-54](#ch20.xhtml_mask-border-fill){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 p {mask-border-image: url(circles.png);}
@@ -65483,7 +64795,7 @@ that is an exact fit for the element it's masking. This is unlikely to
 be the case, since elements can be resized by any number of factors. The
 default is to stretch each slice to fit its part of the border area, but
 other options are possible.
-[Figure 20-55](#ch20.xhtml_mask-border-repeating){data-type="xref"}
+[Figure 20-55](#ch20.xhtml_mask-border-repeating){data-type="xref"}
 illustrates the options (center areas have been removed for clarity).
 
 <figure>
@@ -65496,7 +64808,7 @@ alt="css5 2056" />
 </figure>
 
 As shown in
-[Figure 20-55](#ch20.xhtml_mask-border-repeating){data-type="xref"},
+[Figure 20-55](#ch20.xhtml_mask-border-repeating){data-type="xref"},
 `mask-border-repeat` can accept one or two repeat values. If one is
 given, it's applied to all sides of the border area. If two are given,
 the first applies to the horizontal sides of the border area, and the
@@ -65613,7 +64925,7 @@ value, `fill`, that's exactly what happens.
 
 Change the value of `object-fit`, however, and other behaviors occur.
 The following examples are illustrated in
-[Figure 20-56](#ch20.xhtml_object-fit){data-type="xref"}:
+[Figure 20-56](#ch20.xhtml_object-fit){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {width: 250px; height: 150px; background: silver; border: 3px solid;}
@@ -65652,7 +64964,7 @@ is 150 × 150 pixels, and placed into the 250 × 150 pixel box of its
 `<img>` element.
 
 To reiterate, what you see in
-[Figure 20-56](#ch20.xhtml_object-fit){data-type="xref"} is four `<img>`
+[Figure 20-56](#ch20.xhtml_object-fit){data-type="xref"} is four `<img>`
 elements. There are no wrapper `<div>` or `<span>` or other elements
 around those images. The border and background color are part of the
 `<img>` element. The image placed inside the `<img>` element is fitted
@@ -65662,13 +64974,13 @@ then you can mask and clip the element box with the properties covered
 earlier in this chapter.)
 
 A fifth value for `object-fit`, not represented in
-[Figure 20-56](#ch20.xhtml_object-fit){data-type="xref"}, is
+[Figure 20-56](#ch20.xhtml_object-fit){data-type="xref"}, is
 `scale-down`. The meaning of `scale-down` is "do the same as either
 `none` or `contain`, whichever leads to a smaller size." This lets an
 image always be its intrinsic size unless the `<img>` element gets too
 small, in which case it's scaled down à la `contain`. This is
 illustrated in
-[Figure 20-57](#ch20.xhtml_object-fit-scale-down){data-type="xref"},
+[Figure 20-57](#ch20.xhtml_object-fit-scale-down){data-type="xref"},
 where each `<img>` element is labeled with the `height` values it's been
 given; the `width` in each case is `100px`.
 
@@ -65717,7 +65029,7 @@ The value syntax here is just like that for `mask-position` or
 `background-position`, allowing you to position a replaced element
 within its element box if it isn't set to `object-fit: fill`. Thus,
 given the following CSS, we get the result shown in
-[Figure 20-58](#ch20.xhtml_object-position){data-type="xref"}:
+[Figure 20-58](#ch20.xhtml_object-position){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {width: 200px; height: 100px; background: silver; border: 1px solid;
@@ -65751,7 +65063,7 @@ It's also possible to position fitted elements that are larger than the
 element box, as can happen with `object-fit: cover`, although the
 results can be very different than with `object-fit: none`. The
 following CSS will have results like those shown in
-[Figure 20-59](#ch20.xhtml_object-position-cover){data-type="xref"}:
+[Figure 20-59](#ch20.xhtml_object-position-cover){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 img {width: 200px; height: 100px; background: silver; border: 1px solid;
@@ -65789,7 +65101,7 @@ startref="ix_pos_object" data-type="indexterm"}
 
 With all of the effects available to CSS authors, we have an infinite
 variety of outcomes and thus an infinite variety of creative
-presentation of elements. Whether it's altering elements' appearances
+presentation of elements. Whether it's altering elements' appearances
 with filters, changing how they're composited with their backdrops,
 clipping or masking parts of elements, or altering the way images fill
 out their element boxes, there have never been more options at your
@@ -66135,13 +65447,13 @@ Let's consider an example of how all this plays out:
 }
 ```
 
-[Figure 21-1](#ch21.xhtml_mediaqueries-logical-operators){data-type="xref"}
+[Figure 21-1](#ch21.xhtml_mediaqueries-logical-operators){data-type="xref"}
 shows the result, but bear in mind that, even though you may be reading
 this on printed paper, the actual image was generated with a
 screen-medium browser (Firefox Nightly, as it happens) displaying an
 HTML document with the previous CSS applied to it. So everything you see
 in
-[Figure 21-1](#ch21.xhtml_mediaqueries-logical-operators){data-type="xref"}
+[Figure 21-1](#ch21.xhtml_mediaqueries-logical-operators){data-type="xref"}
 was operating under a `screen` medium.
 
 <figure>
@@ -66193,7 +65505,7 @@ specific media features, which are explained later in the chapter:
 :   Two []{#ch21.xhtml_idm45797002065792 primary="<ratio> value type"
     primary-sortas="ratio value type" data-type="indexterm"}numbers
     separated by a forward slash (`/`), defined in
-    [Chapter 5](../Text/ch05.xhtml#values_and_units){data-type="xref"}.
+    [Chapter 5](../Text/ch05.xhtml#values_and_units){data-type="xref"}.
 
 \<*`resolution`*\>
 
@@ -66683,7 +65995,7 @@ First let's define what the various values mean:
 :   The application appears similar to a native standalone application,
     but provides a way to access application chrome for things like
     address bars, the application's navigation controls, and so on.
-    System-specific interface controls for things like "share" or
+    System-specific interface controls for things like "share" or
     "print" may also be included.
 
 `browser`
@@ -67259,7 +66571,7 @@ Margin area
     primary="margin area, paged media" data-type="indexterm"}area that
     surrounds the page area.
 
-[Figure 21-2](#ch21.xhtml_pagesize-page-box){data-type="xref"} shows the
+[Figure 21-2](#ch21.xhtml_pagesize-page-box){data-type="xref"} shows the
 page box model.
 
 <figure class="bordernone">
@@ -67304,7 +66616,7 @@ As of late 2022, only Chromium-based browsers support `size`.
   **Applies to**      The page area
   **Inherited**       No
   **Animatable**      No
-  **Note**            \<*`page-size`*\> is one of a defined set of standard pages sizes; see [Table 21-1](#ch21.xhtml_page-size-keywords){data-type="xref"} for details
+  **Note**            \<*`page-size`*\> is one of a defined set of standard pages sizes; see [Table 21-1](#ch21.xhtml_page-size-keywords){data-type="xref"} for details
   ------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
@@ -67316,7 +66628,7 @@ is meant to cause the layout to be rotated 90 degrees, whereas
 `portrait` is the normal orientation for Western-language printing.
 Thus, you could cause a document to be printed sideways by declaring the
 following, with the result shown in
-[Figure 21-3](#ch21.xhtml_pagesize-landscape){data-type="xref"}:
+[Figure 21-3](#ch21.xhtml_pagesize-landscape){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 @page {size: landscape;}
@@ -67333,7 +66645,7 @@ alt="css5 2103" />
 
 In addition to `landscape` and `portrait`, predefined page-size keywords
 are available. These are summarized in
-[Table 21-1](#ch21.xhtml_page-size-keywords){data-type="xref"}.
+[Table 21-1](#ch21.xhtml_page-size-keywords){data-type="xref"}.
 
   Keyword    Description
   ---------- ---------------------------------------------------------------------------------------------------
@@ -67402,7 +66714,7 @@ page is used to print, you could write this:
 
 This would leave a printing area 1 inch wide by 3.5 inches tall.
 
-It is possible to use the length units `em` and `ex` to describe either
+It is possible to use the length units `em` and `ex` to describe either
 the margin area or the page area, at least in theory. The size used is
 taken from the page context's font, which is to say, the base font size
 used for the content displayed on the page.
@@ -67545,7 +66857,7 @@ For example, say the page title is an `<h1>` element, and the section
 titles are all `<h2>` elements. We might want a page break right before
 the beginning of each section of a document and after the document
 title. This would result in the following rules, illustrated in
-[Figure 21-4](#ch21.xhtml_pagebreaking-breaks){data-type="xref"}:
+[Figure 21-4](#ch21.xhtml_pagebreaking-breaks){data-type="xref"}:
 
 ``` {code-language="css" data-type="programlisting"}
 h1 {page-break-after: always;}
@@ -67724,7 +67036,7 @@ appear at the top of a page. If the layout of the document would lead to
 fewer line boxes, the entire paragraph is placed at the top of the page.
 
 Consider the situation shown in
-[Figure 21-5](#ch21.xhtml_widows-counting){data-type="xref"}. Cover up
+[Figure 21-5](#ch21.xhtml_widows-counting){data-type="xref"}. Cover up
 the top part of the figure with your hand so that only the second page
 is visible. Notice that there are two line boxes there, from the end of
 a paragraph that started on the previous page. Given the default
@@ -67743,7 +67055,7 @@ alt="css5 2105" />
 </figure>
 
 Refer back to
-[Figure 21-5](#ch21.xhtml_widows-counting){data-type="xref"}, and this
+[Figure 21-5](#ch21.xhtml_widows-counting){data-type="xref"}, and this
 time cover up the second page with your hand. Notice the four line boxes
 at the bottom of the page, at the beginning of the last paragraph. This
 is fine as long as the value of `orphans` is `4` or less. If it were `5`
@@ -67818,7 +67130,7 @@ element boxes:
     whose `page-break-inside` value is not `avoid`, then a page break
     may be placed between them.
 
-[Figure 21-6](#ch21.xhtml_pagebreaking-potential){data-type="xref"}
+[Figure 21-6](#ch21.xhtml_pagebreaking-potential){data-type="xref"}
 illustrates all the possible page-break placements between elements in a
 hypothetical document. Forced page breaks are represented as a filled
 square, whereas potential (unforced) page breaks are shown as an open
@@ -68049,7 +67361,7 @@ There are a []{#ch21.xhtml_ix_contain_q_types
 primary="container queries" secondary="types of containers"
 data-type="indexterm"}couple of ways to define the type of container,
 while also setting the kinds of containment (see `contain` in
-[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"})
+[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"})
 that are enabled for the container. It's all managed through the
 `container-type` property.
 
@@ -68151,7 +67463,7 @@ header#site nav {
 What's the real difference, besides one of them allowing for block-axis
 queries? Both values set layout and style containment (see the `contain`
 property in
-[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}),
+[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"}),
 but `size` sets size containment, whereas `inline-size` sets inline-size
 containment. This makes some sense, given their respective names. If
 you're always going to do only inline querying, use `inline-size` so as
@@ -68582,9 +67894,9 @@ secondary="lengths for container queries"
 data-type="indexterm"}[]{#ch21.xhtml_ix_contain_q_length
 primary="container queries" secondary="length units"
 data-type="indexterm"}addition to querying containers, you can also
-style elements with length values based on their containers' sizes, very
+style elements with length values based on their containers' sizes, very
 much like the viewport-relative length units discussed in
-[Chapter 5](../Text/ch05.xhtml#values_and_units){data-type="xref"}.
+[Chapter 5](../Text/ch05.xhtml#values_and_units){data-type="xref"}.
 These are as follows:
 
 `cqb`
@@ -68633,7 +67945,7 @@ div.card {
 Here, if the container is above 45 em in width, a `<ul>` that is a child
 of `div.card` will be turned into a grid container, with columns that
 are sized based on the container's width. This is illustrated in
-[Figure 21-7](#ch21.xhtml_container-query-units){data-type="xref"}.
+[Figure 21-7](#ch21.xhtml_container-query-units){data-type="xref"}.
 
 <figure>
 <div id="ch21.xhtml_container-query-units" class="figure">
@@ -68771,7 +68083,7 @@ This is essentially equivalent to writing the following:
 
 However, there's more than "and" operations available. CSS Shapes
 (covered in detail in
-[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"})
+[Chapter 20](../Text/ch20.xhtml#filters-compositing){data-type="xref"})
 are a good example of why "or" is useful, because for a long time WebKit
 supported CSS shapes only via vendor-prefixed properties. So if you want
 to use shapes, you can use a feature query like this:
@@ -68883,19 +68195,19 @@ startref="ix_supports_feat_queries" data-type="indexterm"}
 A variety of other at-rules were covered in other parts of the book:
 
 -   `@counter-style` (see
-    [Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"})
+    [Chapter 16](../Text/ch16.xhtml#lists-and-generated-content){data-type="xref"})
 
 -   `@font-face` (see
-    [Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"})
+    [Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"})
 
 -   `@font-feature-values` (see
-    [Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"})
+    [Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"})
 
 -   `@import` (see
-    [Chapter 1](../Text/ch01.xhtml#css_fundamentals){data-type="xref"})
+    [Chapter 1](../Text/ch01.xhtml#css_fundamentals){data-type="xref"})
 
 -   `@layer` (see
-    [Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"})
+    [Chapter 4](../Text/ch04.xhtml#specificity_comma_inheritance){data-type="xref"})
 
 Two more were not covered elsewhere, so we'll cover them here.
 
@@ -69014,7 +68326,7 @@ and documentation freely available to all:
 
 [Mozilla Developers Network (MDN)](https://developer.mozilla.org)
 
-:   Often referred to as "the web's developer manual," MDN documents and
+:   Often referred to as "the web's developer manual," MDN documents and
     provides support information for nearly every aspect of every web
     API---HTML, CSS, JavaScript, SVG, XML, and on and on. The hub for
     all things CSS is found at
@@ -69044,7 +68356,7 @@ and documentation freely available to all:
 
 :   A set of free web fonts available to use in personal projects. It's
     the source of SwitzeraADF, which is mentioned a lot in
-    [Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"}.
+    [Chapter 14](../Text/ch14.xhtml#fonts){data-type="xref"}.
 
 [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 
