@@ -5,6 +5,7 @@ date created: "11/10/2024 5+pm"
 date prior editted: "11/10/2024 5+pm"
 date last editted: "11/10/2024 5+pm"
 date last editted: "5/20/2025 8+pm"
+date last editted: "11/22/2025 2+pm"
 output: 
   markdown:
     with some style
@@ -431,19 +432,19 @@ following ways,
 rainbow: infrared  red  orange  yellow  green  blue  indigo  violet  ultraviolet;
 
 rainbow:
-   infrared  red  orange  yellow  green  blue  indigo  violet  ultraviolet;
+  infrared  red  orange  yellow  green  blue  indigo  violet  ultraviolet;
 
 rainbow:
-   infrared
-   red
-   orange
-   yellow
-   green
-   blue
-   indigo
-   violet
-   ultraviolet
-   ;
+  infrared
+  red
+  orange
+  yellow
+  green
+  blue
+  indigo
+  violet
+  ultraviolet
+  ;
 ```
 
 as well as any other separation patterns you can think up. The only
@@ -459,16 +460,13 @@ number of possibilities:
 html{color:black;}
 body {background: white;}
 p {
-  color: gray;}
+  color: gray;
+}
 h2 {
-     color : silver ;
-   }
-ol
-   {
-      color
-         :
-      silver
-         ;
+  color: silver ;
+}
+ol {
+  color: silver;
 }
 ```
 
@@ -514,10 +512,10 @@ any problem whatsoever. */
 It's important to remember that CSS comments cannot be nested. So, for
 example, this would *not* be correct:
 
-``` {code-language="css" data-type="programlisting"}
+``` {code-language="css" data-type="programlisting"} 
 /* This is a comment, in which we find
- another comment, which is WRONG
-   /* Another comment */
+ another comment, which is WRONG 
+/* Another comment */
  and back to the first comment, which is not a comment.*/
 ```
 
@@ -763,39 +761,29 @@ data-type="indexterm"}let's consider the CSS property `display`.
   **Animatable**       No
   -------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+```
 \<*`display-outside`*\>
-
 :   `block` \| `inline` \| `run-in`
-
 \<*`display-inside`*\>
-
 :   `flow` \| `flow-root` \| `table` \| `flex` \| `grid` \| `ruby`
-
 \<*`display-listitem`*\>
-
 :   `list-item` && \<*`display-outside`*\>? && \[ `flow` \| `flow-root`
     \]?
-
 \<*`display-internal`*\>
-
 :   `table-row-group` \| `table-header-group` \| `table-footer-group` \|
     `table-row` \| `table-cell` \| `table-column-group` \|
     `table-column` \| `table-caption` \| [`ruby-base`
     \|]{.keep-together} `ruby-text` \| `ruby-base-container` \|
     `ruby-text-container`
-
 \<*`display-box`*\>
-
 :   `contents` \| `none`
-
 \<*`display-legacy`*\>
-
 :   `inline-block` \| `inline-list-item` \| `inline-table` \|
     `inline-flex` \| `inline-grid`
-
-```{=html}
+{=html}
 </aside>
 ```
+
 You may have noticed that there are a *lot* of values here, only two of
 which we've mentioned: `block` and `inline`. Most of these values are
 dealt with elsewhere in the book; for example, `grid` and `inline-grid`
@@ -855,6 +843,7 @@ rendered as inline text by default, as illustrated in
 [Figure 1-3](#ch01.xhtml_default_display_of_an_xml_document){data-type="xref"}.
 This isn't a terribly useful display.
 
+```
 <figure class="coderesult">
 <div id="ch01.xhtml_default_display_of_an_xml_document" class="figure">
 <img src="/images/image003.png" width="600" height="104"
@@ -863,6 +852,7 @@ alt="css5 0103" />
 </span>Default display of an XML document</h6>
 </div>
 </figure>
+```
 
 You can define the basics of the layout with `display`:
 
@@ -21724,6 +21714,7 @@ nonreplaced element.
 shows a series of effects on layout from margins set on inline replaced
 elements.
 
+```
 <figure>
 <div id="ch07.xhtml_Inlinereplacedelementswithdifferingmarginvalues"
 class="figure">
@@ -21740,12 +21731,16 @@ alt="css5 0783" />
 
 :::: {.section pdf-bookmark="Summary" data-type="sect1"}
 ::: {#ch07.xhtml_pbom_summary .sect1}
+```
+
 # Summary {#ch07.xhtml_sigil_toc_id_638}
 
 The ability to apply margins, borders, and padding to any element allows
 you to manage the separation and appearance of elements in a detailed
 way. Understanding how they interact with each other is the foundation
 of design for the web.
+
+
 :::
 ::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -21784,6 +21779,7 @@ accepts any valid color value.
 ```{=html}
 <aside data-type="sidebar" epub:type="sidebar">
 ```
+
 ::: {#ch08.xhtml_idm45797072015904 .sidebar}
 # background-color {#ch08.xhtml_sigil_toc_id_640}
 
@@ -21797,9 +21793,10 @@ accepts any valid color value.
   -------------------- ---------------
 :::
 
-```{=html}
+{=html}
 </aside>
 ```
+
 If you want the color to extend out a little bit from the content area
 of the element, add some padding to the mix, as shown in the following
 code and illustrated in
@@ -21813,8 +21810,6 @@ p.padded {padding: 1em;}
 ``` {code-language="html" data-type="programlisting"}
 <p>A paragraph.</p>
 <p class="padded">A padded paragraph.</p>
-```
-
 <figure class="coderesult">
 <div id="ch08.xhtml_cab_fig07" class="figure">
 <img src="./images/css5_0801.png" width="600" height="64"
@@ -21823,6 +21818,7 @@ alt="css5 0801" />
 </span>Background color and padding</h6>
 </div>
 </figure>
+```
 
 You can set a background color for any element, from `<body>` all the
 way down to inline elements such as `<em>` and `<a>`. The value of
@@ -21844,9 +21840,13 @@ They don't inherit the background; it is visible *through* the elements.
 This may seem like an irrelevant distinction, but as you'll see when we
 discuss background images, it's a critical difference.
 
+```
 :::: {.section pdf-bookmark="Explicitly Setting a Transparent Background" data-type="sect2"}
 ::: {#ch08.xhtml_idm45797071943184 .sect2}
+```
+
 ## Explicitly Setting a Transparent Background {#ch08.xhtml_sigil_toc_id_642}
+
 
 Most of the time, you'll have no reason to use the keyword
 `transparent`, []{#ch08.xhtml_idm45797071941232
@@ -21884,11 +21884,14 @@ generate warnings such as, "You have no `background-color` with your
 `color`" to remind you that author-user color interaction can occur, and
 your rule has not taken this possibility into account. Warnings do not
 mean your styles are invalid: only errors prevent validation.
+
+```
 :::
 ::::
-
 :::: {.section pdf-bookmark="Background and Color Combinations" data-type="sect2"}
 ::: {#ch08.xhtml_special-effects .sect2}
+```
+
 ## Background and Color Combinations {#ch08.xhtml_sigil_toc_id_643}
 
 By combining `color` and `background-color`, you can
@@ -21903,6 +21906,7 @@ h1 {color: white; background-color: rgb(20% 20% 20%);
 [Figure 8-2](#ch08.xhtml_cab_fig08){data-type="xref"} depicts this
 example.
 
+```
 <figure>
 <div id="ch08.xhtml_cab_fig08" class="figure">
 <img src="./images/css5_0802.png" width="600" height="193"
@@ -21911,6 +21915,7 @@ alt="css5 0802" />
 </span>A reverse-text effect for <code>&lt;h1&gt;</code> elements</h6>
 </div>
 </figure>
+```
 
 There are as many color combinations as there are colors, and we can't
 show all of them here. Still, we'll try to give you some idea of what
@@ -21927,6 +21932,7 @@ a:link {color: black; background-color: silver;}
 a:visited {color: gray; background-color: white;}
 ```
 
+```
 <figure>
 <div id="ch08.xhtml_cab_fig09" class="figure">
 <img src="./images/css5_0803.png" width="600" height="317"
@@ -21935,6 +21941,7 @@ alt="css5 0803" />
 </span>The results of a more complicated stylesheet</h6>
 </div>
 </figure>
+```
 
 And then there's the question of what happens when you apply a
 background to a replaced element. We already discussed images with
@@ -21948,6 +21955,7 @@ in the following code and illustrated in
 img.twotone {background-color: red; padding: 5px; border: 5px solid gold;}
 ```
 
+```
 <figure class="bordernone">
 <div id="ch08.xhtml_cab_fig10" class="figure">
 <img src="./images/css5_0804.png" width="240" height="240"
@@ -21956,6 +21964,7 @@ alt="css5 0804" />
 </span>Using background and border to two-tone an image</h6>
 </div>
 </figure>
+```
 
 Technically, the background goes to the outer border edge, but since the
 border is solid and continuous, we can't see the background behind it.
